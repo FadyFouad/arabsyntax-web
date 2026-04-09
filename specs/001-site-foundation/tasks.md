@@ -23,12 +23,12 @@ requested in spec).
 **Purpose**: Install missing dependencies and create shared utility infrastructure
 that every subsequent phase depends on.
 
-- [ ] T001 Install missing npm packages: `npm install next-intl lucide-react clsx tailwind-merge` in `arabsyntax-web/`
-- [ ] T002 [P] Create `lib/cn.ts` — export a `cn()` helper using `clsx` and `tailwind-merge`
-- [ ] T003 [P] Create `i18n/routing.ts` — define `locales: ['ar', 'en']`, `defaultLocale: 'ar'`, `localePrefix: 'as-needed'` using `defineRouting` from `next-intl/routing`
-- [ ] T004 [P] Create `i18n/request.ts` — implement `getRequestConfig` from `next-intl/server` that loads `messages/${locale}.json`
-- [ ] T005 [P] Create `messages/ar.json` — real Arabic strings for `common`, `nav`, and `footer` namespaces per `contracts/message-schema.md` (no Lorem Ipsum; all copy must be real Arabic)
-- [ ] T006 [P] Create `messages/en.json` — English strings matching every key in `ar.json`
+- [x] T001 Install missing npm packages: `npm install next-intl lucide-react clsx tailwind-merge` in `arabsyntax-web/`
+- [x] T002 [P] Create `lib/cn.ts` — export a `cn()` helper using `clsx` and `tailwind-merge`
+- [x] T003 [P] Create `i18n/routing.ts` — define `locales: ['ar', 'en']`, `defaultLocale: 'ar'`, `localePrefix: 'as-needed'` using `defineRouting` from `next-intl/routing`
+- [x] T004 [P] Create `i18n/request.ts` — implement `getRequestConfig` from `next-intl/server` that loads `messages/${locale}.json`
+- [x] T005 [P] Create `messages/ar.json` — real Arabic strings for `common`, `nav`, and `footer` namespaces per `contracts/message-schema.md` (no Lorem Ipsum; all copy must be real Arabic)
+- [x] T006 [P] Create `messages/en.json` — English strings matching every key in `ar.json`
 
 **Checkpoint**: Dependencies installed, `lib/cn.ts` ready, `i18n/routing.ts` ready,
 both message files have matching keys per the contract schema.
@@ -42,13 +42,13 @@ route depends on. MUST be complete before any layout or component work.
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete.
 
-- [ ] T007 Create `proxy.ts` at project root — export `proxy` function from `next-intl/middleware` using the routing config; add `config.matcher` that covers `/`, `/(ar|en)/:path*`, and all non-static paths. Use `export function proxy` NOT `export function middleware` (Next.js 16 convention)
-- [ ] T008 Update `next.config.ts` — wrap the config with `withNextIntl` (or the next-intl Next.js plugin equivalent for the installed version) so the App Router picks up the i18n configuration
-- [ ] T009 Update `app/globals.css` — replace the existing placeholder CSS with: (a) `@import "tailwindcss"`, (b) an `@theme {}` block containing all color tokens from `design-tokens.md` (`--color-background`, `--color-surface`, `--color-surface-elevated`, `--color-primary`, `--color-primary-hover`, `--color-primary-fg`, `--color-text`, `--color-text-muted`, `--color-border`, `--color-success`, `--color-error`, `--color-warning`), and (c) `--font-arabic` / `--font-english` font-family tokens referencing `--font-cairo` / `--font-inter`. Remove the existing light/dark `prefers-color-scheme` block — dark theme only.
-- [ ] T010 Create `components/ui/Container.tsx` — Server Component exporting a `<div>` with `max-w-7xl mx-auto px-4 sm:px-6 lg:px-8` (symmetric padding is fine; no directional utilities needed for a centered wrapper)
-- [ ] T011 Slim down `app/layout.tsx` (root layout) — keep it as a minimal passthrough: import `globals.css`, render `<html><body>{children}</body></html>` with no `lang`/`dir` or font setup (that belongs in `[locale]/layout.tsx`)
-- [ ] T012 Delete `app/page.tsx` — it will be replaced by `app/[locale]/page.tsx` in US1
-- [ ] T013 Create `app/[locale]/` directory structure — add `generateStaticParams` export returning `[{ locale: 'ar' }, { locale: 'en' }]` in the layout file (created in US1)
+- [x] T007 Create `proxy.ts` at project root — export `proxy` function from `next-intl/middleware` using the routing config; add `config.matcher` that covers `/`, `/(ar|en)/:path*`, and all non-static paths. Use `export function proxy` NOT `export function middleware` (Next.js 16 convention)
+- [x] T008 Update `next.config.ts` — wrap the config with `withNextIntl` (or the next-intl Next.js plugin equivalent for the installed version) so the App Router picks up the i18n configuration
+- [x] T009 Update `app/globals.css` — replace the existing placeholder CSS with: (a) `@import "tailwindcss"`, (b) an `@theme {}` block containing all color tokens from `design-tokens.md` (`--color-background`, `--color-surface`, `--color-surface-elevated`, `--color-primary`, `--color-primary-hover`, `--color-primary-fg`, `--color-text`, `--color-text-muted`, `--color-border`, `--color-success`, `--color-error`, `--color-warning`), and (c) `--font-arabic` / `--font-english` font-family tokens referencing `--font-cairo` / `--font-inter`. Remove the existing light/dark `prefers-color-scheme` block — dark theme only.
+- [x] T010 Create `components/ui/Container.tsx` — Server Component exporting a `<div>` with `max-w-7xl mx-auto px-4 sm:px-6 lg:px-8` (symmetric padding is fine; no directional utilities needed for a centered wrapper)
+- [x] T011 Slim down `app/layout.tsx` (root layout) — keep it as a minimal passthrough: import `globals.css`, render `<html><body>{children}</body></html>` with no `lang`/`dir` or font setup (that belongs in `[locale]/layout.tsx`)
+- [x] T012 Delete `app/page.tsx` — it will be replaced by `app/[locale]/page.tsx` in US1
+- [x] T013 Create `app/[locale]/` directory structure — add `generateStaticParams` export returning `[{ locale: 'ar' }, { locale: 'en' }]` in the layout file (created in US1)
 
 **Checkpoint**: `npm run dev` starts without errors. Navigating to `/` may show a
 404 (no page yet) but the locale middleware intercepts the request correctly.
@@ -85,8 +85,8 @@ and the Inter typeface.
 
 ### Implementation for User Story 2
 
-- [ ] T016 [US2] Verify `app/[locale]/layout.tsx` correctly applies `dir="ltr"` and `font-english` when `locale === 'en'` — this is covered by T014 but must be explicitly tested at this checkpoint by navigating to `/en`
-- [ ] T017 [US2] Verify `messages/en.json` has all keys from `contracts/message-schema.md` and that the English strings render correctly at `/en` — fix any missing keys or mistranslations
+- [x] T016 [US2] Verify `app/[locale]/layout.tsx` correctly applies `dir="ltr"` and `font-english` when `locale === 'en'` — this is covered by T014 but must be explicitly tested at this checkpoint by navigating to `/en`
+- [x] T017 [US2] Verify `messages/en.json` has all keys from `contracts/message-schema.md` and that the English strings render correctly at `/en` — fix any missing keys or mistranslations
 
 **Checkpoint (US2 done)**: Navigate to `/en`. `<html>` has `lang="en" dir="ltr"`.
 Body font-family is Inter. Nav and footer labels are in English. Switching to `/`
@@ -104,8 +104,8 @@ On `/en`, click it — URL returns to `/`. No home page redirect occurs.
 
 ### Implementation for User Story 3
 
-- [ ] T018 [US3] Create `components/layout/LanguageSwitcher.tsx` — `'use client'` component. Uses `usePathname` and `useRouter` from `next-intl/navigation` (or `useLocale` + `Link` from next-intl). Renders two locale buttons/links: Arabic and English. The active locale link is visually distinguished (e.g., `text-primary`). Each link uses the next-intl `Link` component with `locale` prop so the current path is preserved. Add `aria-label` from `footer.langSwitcher.label` message key. Mark current locale with `aria-current="true"`.
-- [ ] T019 [US3] Add `LanguageSwitcher` to both the Header stub and Footer stub created in T014 (or their actual implementations if US4/US5 tasks have been done first) — must appear in both places
+- [x] T018 [US3] Create `components/layout/LanguageSwitcher.tsx` — `'use client'` component. Uses `usePathname` and `useRouter` from `next-intl/navigation` (or `useLocale` + `Link` from next-intl). Renders two locale buttons/links: Arabic and English. The active locale link is visually distinguished (e.g., `text-primary`). Each link uses the next-intl `Link` component with `locale` prop so the current path is preserved. Add `aria-label` from `footer.langSwitcher.label` message key. Mark current locale with `aria-current="true"`.
+- [x] T019 [US3] Add `LanguageSwitcher` to both the Header stub and Footer stub created in T014 (or their actual implementations if US4/US5 tasks have been done first) — must appear in both places
 
 **Checkpoint (US3 done)**: Language switcher in header and footer both switch
 locale and preserve path. Keyboard-accessible (Tab + Enter). Focus indicator
@@ -125,10 +125,10 @@ links flow LTR. No horizontal overflow at 320 px.
 
 ### Implementation for User Story 4
 
-- [ ] T020 [US4] Create `components/layout/MobileMenu.tsx` — `'use client'` component. Renders a `<button>` with `aria-expanded` and `aria-controls`; toggles `useState` to show/hide a `<nav id="mobile-menu">` containing the same nav links as the desktop nav. Uses `Menu` and `X` icons from `lucide-react`. No directional icon flip needed for these icons. All labels from `nav.*` message keys (pass as props from Server Component parent).
-- [ ] T021 [US4] Create `components/layout/Header.tsx` — Server Component. Uses `Container` for width constraint. Desktop layout: logo at `start`, nav links in the center/end area, `LanguageSwitcher` at `end`. Uses only logical Tailwind properties: `ms-auto`, `ps-4`, `pe-4`, `start-0`, `end-0`, etc. Renders `MobileMenu` for mobile (hidden on `md:` breakpoint). Logo is the text logotype (ArabSyntax + النحو العربي). Nav links use next-intl `Link` component. Gets translations via `getTranslations('nav')`. Add `<header>` element with `role="banner"`. Add a "Skip to main content" link as the first child (`sr-only` until focused).
-- [ ] T022 [US4] Wire `Header` into `app/[locale]/layout.tsx` replacing the stub — place it before `<main>` or the children wrapper. Wrap page content in `<main id="main-content">` so the skip link target exists.
-- [ ] T023 [US4] Run the RTL grep check from `quickstart.md` — confirm zero `pl-*`/`pr-*`/`ml-*`/`mr-*`/`left-`/`right-` matches in `components/layout/Header.tsx` and `components/layout/MobileMenu.tsx`
+- [x] T020 [US4] Create `components/layout/MobileMenu.tsx` — `'use client'` component. Renders a `<button>` with `aria-expanded` and `aria-controls`; toggles `useState` to show/hide a `<nav id="mobile-menu">` containing the same nav links as the desktop nav. Uses `Menu` and `X` icons from `lucide-react`. No directional icon flip needed for these icons. All labels from `nav.*` message keys (pass as props from Server Component parent).
+- [x] T021 [US4] Create `components/layout/Header.tsx` — Server Component. Uses `Container` for width constraint. Desktop layout: logo at `start`, nav links in the center/end area, `LanguageSwitcher` at `end`. Uses only logical Tailwind properties: `ms-auto`, `ps-4`, `pe-4`, `start-0`, `end-0`, etc. Renders `MobileMenu` for mobile (hidden on `md:` breakpoint). Logo is the text logotype (ArabSyntax + النحو العربي). Nav links use next-intl `Link` component. Gets translations via `getTranslations('nav')`. Add `<header>` element with `role="banner"`. Add a "Skip to main content" link as the first child (`sr-only` until focused).
+- [x] T022 [US4] Wire `Header` into `app/[locale]/layout.tsx` replacing the stub — place it before `<main>` or the children wrapper. Wrap page content in `<main id="main-content">` so the skip link target exists.
+- [x] T023 [US4] Run the RTL grep check from `quickstart.md` — confirm zero `pl-*`/`pr-*`/`ml-*`/`mr-*`/`left-`/`right-` matches in `components/layout/Header.tsx` and `components/layout/MobileMenu.tsx`
 
 **Checkpoint (US4 done)**: Header renders in both locales without visual bugs.
 Logo side and nav direction flip correctly. Mobile menu opens and closes. All
@@ -147,9 +147,9 @@ side for each locale. Copyright text is visible. All links are keyboard-reachabl
 
 ### Implementation for User Story 5
 
-- [ ] T024 [US5] Create `components/layout/Footer.tsx` — Server Component. Uses `Container`. Renders three `<nav aria-label="...">` columns (Product, Legal, Support) each with a heading and links per `contracts/message-schema.md`. Adds `LanguageSwitcher` and a copyright paragraph with dynamic year (`new Date().getFullYear()`). Uses only logical Tailwind properties for layout. Gets translations via `getTranslations('footer')`. Add `<footer>` element with `role="contentinfo"`.
-- [ ] T025 [US5] Wire `Footer` into `app/[locale]/layout.tsx` replacing the stub — place it after `<main>` / children.
-- [ ] T026 [US5] Run the RTL grep check — confirm zero physical-direction CSS matches in `components/layout/Footer.tsx`
+- [x] T024 [US5] Create `components/layout/Footer.tsx` — Server Component. Uses `Container`. Renders three `<nav aria-label="...">` columns (Product, Legal, Support) each with a heading and links per `contracts/message-schema.md`. Adds `LanguageSwitcher` and a copyright paragraph with dynamic year (`new Date().getFullYear()`). Uses only logical Tailwind properties for layout. Gets translations via `getTranslations('footer')`. Add `<footer>` element with `role="contentinfo"`.
+- [x] T025 [US5] Wire `Footer` into `app/[locale]/layout.tsx` replacing the stub — place it after `<main>` / children.
+- [x] T026 [US5] Run the RTL grep check — confirm zero physical-direction CSS matches in `components/layout/Footer.tsx`
 
 **Checkpoint (US5 done)**: Footer renders in both locales. Column groups align
 to the start side. All links are keyboard-reachable. Copyright year is correct.
@@ -162,15 +162,15 @@ Language switcher works from the footer.
 **Purpose**: Final validation across all user stories, accessibility audit,
 and responsiveness verification.
 
-- [ ] T027 [P] Run full RTL grep check across all components: `grep -r "pl-\|pr-\|ml-\|mr-\| left-\| right-\|text-left\|text-right\|border-l-\|border-r-" components/ app/\[locale\]/ --include="*.tsx"` — must return zero matches
-- [ ] T028 [P] Verify `messages/ar.json` and `messages/en.json` have identical key sets — run `diff <(jq -r 'path(..) | join(".")' messages/ar.json | sort) <(jq -r 'path(..) | join(".")' messages/en.json | sort)` from project root — output must be empty
-- [ ] T029 Run Lighthouse Accessibility audit on `http://localhost:3000` — score must be ≥ 95. Fix any failing items.
-- [ ] T030 Run Lighthouse Accessibility audit on `http://localhost:3000/en` — score must be ≥ 95. Fix any failing items.
-- [ ] T031 [P] Verify layout at 320 px viewport in both locales (Chrome DevTools) — no horizontal scroll, mobile menu functions
-- [ ] T032 [P] Verify layout at 1920 px viewport in both locales — content centered, no awkward stretching
-- [ ] T033 Verify skip-to-content link: Tab from top of page — first focus is the skip link; pressing Enter scrolls to `#main-content`
-- [ ] T034 [P] Verify language switcher preserves path: navigate to a non-root path if available, or use the root — switching locale does not redirect to home
-- [ ] T035 Follow quickstart.md Check 8 (screen reader language announcement) — VoiceOver announces Arabic/English correctly for each locale
+- [x] T027 [P] Run full RTL grep check across all components: `grep -r "pl-\|pr-\|ml-\|mr-\| left-\| right-\|text-left\|text-right\|border-l-\|border-r-" components/ app/\[locale\]/ --include="*.tsx"` — must return zero matches
+- [x] T028 [P] Verify `messages/ar.json` and `messages/en.json` have identical key sets — run `diff <(jq -r 'path(..) | join(".")' messages/ar.json | sort) <(jq -r 'path(..) | join(".")' messages/en.json | sort)` from project root — output must be empty
+- [x] T029 Run Lighthouse Accessibility audit on `http://localhost:3000` — score must be ≥ 95. Fix any failing items.
+- [x] T030 Run Lighthouse Accessibility audit on `http://localhost:3000/en` — score must be ≥ 95. Fix any failing items.
+- [x] T031 [P] Verify layout at 320 px viewport in both locales (Chrome DevTools) — no horizontal scroll, mobile menu functions
+- [x] T032 [P] Verify layout at 1920 px viewport in both locales — content centered, no awkward stretching
+- [x] T033 Verify skip-to-content link: Tab from top of page — first focus is the skip link; pressing Enter scrolls to `#main-content`
+- [x] T034 [P] Verify language switcher preserves path: navigate to a non-root path if available, or use the root — switching locale does not redirect to home
+- [x] T035 Follow quickstart.md Check 8 (screen reader language announcement) — VoiceOver announces Arabic/English correctly for each locale
 
 ---
 
