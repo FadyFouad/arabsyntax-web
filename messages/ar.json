@@ -1,0 +1,38 @@
+{
+  "common": {
+    "appName": "ArabSyntax",
+    "appNameAr": "النحو العربي",
+    "skipToContent": "تخطي إلى المحتوى الرئيسي"
+  },
+  "nav": {
+    "features": "المميزات",
+    "pricing": "الأسعار",
+    "faq": "الأسئلة الشائعة",
+    "support": "الدعم",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة"
+  },
+  "footer": {
+    "product": {
+      "heading": "المنتج",
+      "features": "المميزات",
+      "pricing": "الأسعار"
+    },
+    "legal": {
+      "heading": "قانوني",
+      "privacy": "سياسة الخصوصية",
+      "terms": "شروط الاستخدام"
+    },
+    "support": {
+      "heading": "الدعم",
+      "contact": "تواصل معنا",
+      "faq": "الأسئلة الشائعة"
+    },
+    "langSwitcher": {
+      "label": "تغيير اللغة",
+      "ar": "العربية",
+      "en": "English"
+    },
+    "copyright": "© {year} ArabSyntax. جميع الحقوق محفوظة."
+  }
+}

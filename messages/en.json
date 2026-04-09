@@ -1,0 +1,38 @@
+{
+  "common": {
+    "appName": "ArabSyntax",
+    "appNameAr": "النحو العربي",
+    "skipToContent": "Skip to main content"
+  },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "support": "Support",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "footer": {
+    "product": {
+      "heading": "Product",
+      "features": "Features",
+      "pricing": "Pricing"
+    },
+    "legal": {
+      "heading": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "support": {
+      "heading": "Support",
+      "contact": "Contact Us",
+      "faq": "FAQ"
+    },
+    "langSwitcher": {
+      "label": "Change language",
+      "ar": "العربية",
+      "en": "English"
+    },
+    "copyright": "© {year} ArabSyntax. All rights reserved."
+  }
+}
