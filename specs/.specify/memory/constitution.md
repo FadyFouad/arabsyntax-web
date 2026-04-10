@@ -1,30 +1,26 @@
 <!--
 SYNC IMPACT REPORT
 ==================
-Version change: (none) → 1.0.0
-New constitution — initial ratification.
+Version change: 1.0.0 → 1.0.1
+Patch amendment: deployment platform updated from Vercel to Netlify.
+
+Modified sections:
+  Tech Stack — Deployment row: Vercel → Netlify
 
 Added sections:
-  ✅ Core Principles (I–VI)
-  ✅ Tech Stack
-  ✅ SEO Requirements
-  ✅ File Structure & Naming Conventions
-  ✅ Workflow & Definition of Done
-  ✅ Out of Scope for v1
-  ✅ Terminology
-  ✅ Governance
+  None
+
+Removed sections:
+  None
 
 Templates requiring updates:
-  ✅ .specify/templates/plan-template.md — Constitution Check gates now reflect
-     RTL discipline, Server-First, Tailwind logical-properties, and locale checks.
-     No structural change needed; gates are filled at plan time.
-  ✅ .specify/templates/spec-template.md — No structural change needed; spec
-     authors must validate against constitution during /speckit.specify.
-  ✅ .specify/templates/tasks-template.md — Path conventions updated to match
-     the App Router file structure defined here.
+  ✅ .specify/templates/plan-template.md — No change required; deployment
+     platform is not referenced in plan gates or structure.
+  ✅ .specify/templates/spec-template.md — No change required.
+  ✅ .specify/templates/tasks-template.md — No change required.
 
 Deferred items:
-  None — all fields resolved from user input.
+  None — all fields resolved.
 -->
 
 # ArabSyntax Marketing Website Constitution
@@ -156,7 +152,7 @@ The following choices are NON-NEGOTIABLE for this project:
 | Fonts | next/font/google only |
 | Icons | lucide-react |
 | Animation | framer-motion, only where it meaningfully improves UX, gated on prefers-reduced-motion |
-| Deployment | Vercel |
+| Deployment | Netlify |
 
 ## SEO Requirements
 
@@ -271,4 +267,4 @@ resolved in favor of the constitution unless a formal amendment is approved.
 - Violations found during review MUST be documented and resolved before the
   feature is marked done.
 
-**Version**: 1.0.0 | **Ratified**: 2026-04-10 | **Last Amended**: 2026-04-10
+**Version**: 1.0.1 | **Ratified**: 2026-04-10 | **Last Amended**: 2026-04-10
