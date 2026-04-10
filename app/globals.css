@@ -1,4 +1,9 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+html {
+  scroll-behavior: smooth;
+}
 
 @theme {
   --color-background: #0F1419;
@@ -16,4 +21,23 @@
 
   --font-arabic: var(--font-cairo), system-ui, sans-serif;
   --font-english: var(--font-inter), system-ui, sans-serif;
+}
+
+@layer components {
+  .prose {
+    --tw-prose-body: var(--color-text);
+    --tw-prose-headings: var(--color-text);
+    --tw-prose-links: var(--color-primary);
+    --tw-prose-bold: var(--color-text);
+    --tw-prose-quotes: var(--color-text-muted);
+    --tw-prose-counters: var(--color-text-muted);
+    --tw-prose-bullets: var(--color-text-muted);
+    --tw-prose-hr: var(--color-border);
+    --tw-prose-code: var(--color-primary);
+    line-height: 1.7;
+  }
+
+  [dir="rtl"] .prose {
+    line-height: 1.8;
+  }
 }

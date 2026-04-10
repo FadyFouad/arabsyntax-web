@@ -34,5 +34,179 @@
       "en": "English"
     },
     "copyright": "© {year} ArabSyntax. All rights reserved."
+  },
+  "legal": {
+    "lastUpdated": "Last updated",
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms of Service"
+  },
+  "landing": {
+    "hero": {
+      "tagline": "Learn Arabic Grammar the Right Way",
+      "headline": "ArabSyntax",
+      "valueProposition": "Structured audio lessons that take you from zero to mastering Arabic grammar (النحو).",
+      "ctaLabel": "Get it on Google Play",
+      "mockupAlt": "ArabSyntax app lesson screen on a smartphone"
+    },
+    "features": {
+      "heading": "Everything You Need to Master Grammar",
+      "subtitle": "A complete toolkit designed to make Arabic grammar accessible and engaging.",
+      "cards": {
+        "audioLessons": {
+          "title": "Audio Lessons",
+          "description": "Listen to expertly crafted grammar lessons with a clear voice and engaging style — anytime, anywhere."
+        },
+        "structured": {
+          "title": "Structured Content",
+          "description": "A step-by-step learning path from grammar basics to advanced topics, without confusion or overwhelm."
+        },
+        "quizzes": {
+          "title": "Interactive Quizzes",
+          "description": "Test your understanding after every lesson with interactive questions that reinforce retention."
+        },
+        "examPrep": {
+          "title": "Thanaweya Amma Prep",
+          "description": "Content tailored for high school exam students, covering the full grammar curriculum required for the Thanaweya Amma exam."
+        },
+        "irab": {
+          "title": "Worked Examples with إعراب",
+          "description": "Real examples from the Quran and Arabic literature with complete grammatical parsing (إعراب) for every word."
+        },
+        "offline": {
+          "title": "Offline Access",
+          "description": "Download lessons and listen without an internet connection — learn on your own schedule."
+        }
+      }
+    },
+    "howItWorks": {
+      "heading": "How It Works",
+      "subtitle": "Three simple steps toward mastering Arabic grammar.",
+      "steps": {
+        "1": {
+          "title": "Pick a Lesson",
+          "description": "Browse the learning path and choose a lesson suited to your level, from beginner to advanced."
+        },
+        "2": {
+          "title": "Listen and Learn",
+          "description": "Follow the clear audio explanation and detailed examples inside the app."
+        },
+        "3": {
+          "title": "Test Yourself",
+          "description": "Answer quiz questions after each lesson to measure your understanding and reinforce what you learned."
+        }
+      }
+    },
+    "screenshots": {
+      "heading": "A Complete Learning Experience",
+      "subtitle": "A clean, focused interface that keeps you on what matters.",
+      "alts": {
+        "lesson": "ArabSyntax app lesson screen showing audio playback and Arabic text",
+        "quiz": "Interactive quiz screen in the ArabSyntax app",
+        "examples": "Worked examples screen with detailed إعراب in the ArabSyntax app"
+      }
+    },
+    "pricing": {
+      "heading": "Choose the Plan That Works for You",
+      "subtitle": "Start free and upgrade when you are ready.",
+      "legacyNote": "If you purchased the app before the subscription system launched, you keep all premium features permanently at no extra cost.",
+      "tiers": {
+        "free": {
+          "name": "Free",
+          "price": "Free",
+          "features": [
+            "Access to foundational lessons",
+            "Limited quizzes",
+            "Offline access for downloaded lessons"
+          ],
+          "cta": "Get Started"
+        },
+        "monthly": {
+          "name": "Monthly",
+          "price": "EGP 39 / month",
+          "features": [
+            "All audio lessons",
+            "Unlimited quizzes",
+            "Worked examples with إعراب",
+            "Full offline access",
+            "Continuous updates"
+          ],
+          "cta": "Subscribe Monthly"
+        },
+        "yearly": {
+          "name": "Yearly",
+          "popularLabel": "Most Popular",
+          "price": "EGP 299 / year",
+          "features": [
+            "All audio lessons",
+            "Unlimited quizzes",
+            "Worked examples with إعراب",
+            "Full offline access",
+            "Continuous updates",
+            "Save 36% vs monthly"
+          ],
+          "cta": "Subscribe Yearly"
+        },
+        "lifetime": {
+          "name": "Lifetime",
+          "price": "EGP 499 one-time",
+          "features": [
+            "All audio lessons",
+            "Unlimited quizzes",
+            "Worked examples with إعراب",
+            "Full offline access",
+            "All future updates",
+            "Pay once, keep forever"
+          ],
+          "cta": "Get Lifetime Access"
+        }
+      }
+    },
+    "audiences": {
+      "heading": "Built for You",
+      "subtitle": "Whether you are studying for exams or love the Arabic language, this app is for you.",
+      "students": {
+        "heading": "For Thanaweya Amma Students",
+        "description": "Cover the full grammar curriculum in a simplified, engaging way. Practice the grammatical patterns and structures that appear in Thanaweya Amma exams and boost your grades with confidence."
+      },
+      "learners": {
+        "heading": "For Arabic Language Learners",
+        "description": "Understand Classical Arabic grammar deeply, not just memorize it. Enjoy grammar through examples from the Holy Quran and authentic Arabic literature."
+      }
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "subtitle": "Answers to the most common questions.",
+      "items": {
+        "freePaid": {
+          "question": "What is the difference between the free and paid versions?",
+          "answer": "The free version gives access to foundational lessons and a limited number of quizzes. Paid plans unlock all audio lessons, unlimited quizzes, worked examples with إعراب, and full offline access."
+        },
+        "offline": {
+          "question": "Can I use the app without an internet connection?",
+          "answer": "Yes. You can download lessons to your device and listen to them anytime, even without a connection. This feature is available to paid plan subscribers."
+        },
+        "ios": {
+          "question": "Is the app available on iPhone or iPad?",
+          "answer": "The app is currently available on Android only. We are working on an iOS release and will announce it soon. Follow us to be the first to know."
+        },
+        "legacy": {
+          "question": "I purchased the app before the subscription system. What happens to my access?",
+          "answer": "If you purchased the app before the new subscription system launched, you keep all premium features permanently at no extra cost. No action is required on your part."
+        },
+        "exam": {
+          "question": "Is the content suitable for Thanaweya Amma exams?",
+          "answer": "Yes. The app covers the full grammar curriculum required for the Thanaweya Amma exam, with exercises and examples modeled on the official exam format."
+        },
+        "update": {
+          "question": "How often is content updated?",
+          "answer": "We add new lessons and examples regularly. All paid plan subscribers automatically receive all updates at no extra charge."
+        }
+      }
+    },
+    "finalCta": {
+      "headline": "Start Your Arabic Grammar Journey Today",
+      "subtitle": "Join thousands of learners mastering grammar in a new way.",
+      "ctaLabel": "Get it on Google Play"
+    }
   }
 }
