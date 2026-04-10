@@ -3,6 +3,10 @@
 Auto-generated from all feature plans. Last updated: 2026-04-10
 
 ## Active Technologies
+- TypeScript 5, Next.js 16.2.3, React 19, next-intl 4.9.0 + framer-motion (to install), next/image (built-in) (main)
+- N/A — all content is static JSON in message files (main)
+- TypeScript 5, Next.js 16.2.3, React 19, next-intl 4.9.0 + @next/mdx + @mdx-js/loader + @mdx-js/react + @types/mdx (to install), @tailwindcss/typography (to install) (main)
+- N/A — all content is static MDX files read at build time (main)
 
 - **001-site-foundation**: Next.js 16 (App Router), TypeScript 5, React 19,
   Tailwind CSS v4 (CSS-first `@theme`), next-intl, next/font/google, lucide-react
@@ -46,6 +50,8 @@ TypeScript strict mode. PascalCase components. camelCase utilities and message k
 Nested message keys by feature: `nav.features`, `footer.legal.privacy`.
 
 ## Recent Changes
+- main: Added TypeScript 5, Next.js 16.2.3, React 19, next-intl 4.9.0 + @next/mdx + @mdx-js/loader + @mdx-js/react + @types/mdx (to install), @tailwindcss/typography (to install)
+- main: Added TypeScript 5, Next.js 16.2.3, React 19, next-intl 4.9.0 + framer-motion (to install), next/image (built-in)
 
 - 001-site-foundation: Initial foundation plan — proxy.ts, i18n setup, Header, Footer, dark theme
 
