@@ -35,7 +35,7 @@ export default async function LocalePage({ params }: PageProps) {
   const { locale } = await params;
 
   return (
-    <main id="main-content">
+    <>
       <Hero locale={locale} />
       <section id="features">
         <Features />
@@ -56,6 +56,6 @@ export default async function LocalePage({ params }: PageProps) {
         <FAQ />
       </section>
       <FinalCTA locale={locale} />
-    </main>
+    </>
   );
 }

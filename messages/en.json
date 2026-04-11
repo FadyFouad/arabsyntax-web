@@ -208,5 +208,46 @@
       "subtitle": "Join thousands of learners mastering grammar in a new way.",
       "ctaLabel": "Get it on Google Play"
     }
+  },
+  "support": {
+    "title": "Support",
+    "description": "Have a question or problem? Get in touch and we'll get back to you as soon as possible.",
+    "responseTime": "We typically respond within 48 hours.",
+    "directEmail": {
+      "label": "Or email us directly at:"
+    },
+    "form": {
+      "labels": {
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "Enter your name",
+        "email": "your@email.com",
+        "subject": "What are you contacting us about?",
+        "message": "Write your message here..."
+      },
+      "errors": {
+        "nameRequired": "This field is required",
+        "nameMin": "Name must be at least 2 characters",
+        "emailRequired": "This field is required",
+        "emailInvalid": "Invalid email address",
+        "subjectRequired": "This field is required",
+        "subjectMin": "Subject must be at least 3 characters",
+        "messageRequired": "This field is required",
+        "messageMin": "Message must be at least 10 characters",
+        "rateLimited": "Too many messages sent. Please try again later.",
+        "sendFailed": "Something went wrong. Please try again."
+      },
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": {
+        "heading": "Message sent!",
+        "body": "We have received your message and will respond within 48 hours.",
+        "sendAnother": "Send another message"
+      }
+    }
   }
 }

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
+import AppStoreBadge from '@/components/ui/AppStoreBadge';
 import PlayStoreBadge from '@/components/ui/PlayStoreBadge';
 
 interface HeroProps {
@@ -22,7 +23,10 @@ export default async function Hero({ locale }: HeroProps) {
             <p className="text-text-muted text-xl mb-8 max-w-lg mx-auto lg:mx-0">
               {t('valueProposition')}
             </p>
-            <PlayStoreBadge locale={locale} />
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4">
+              <AppStoreBadge locale={locale} />
+              <PlayStoreBadge locale={locale} />
+            </div>
           </div>
 
           {/* Phone mockup — appears at end side (left in RTL, right in LTR) */}

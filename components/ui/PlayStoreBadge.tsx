@@ -28,9 +28,10 @@ export default function PlayStoreBadge({ locale, className }: PlayStoreBadgeProp
       <Image
         src={badgeSrc}
         alt={altText}
-        width={200}
-        height={59}
+        width={202}
+        height={60}
         priority={false}
+        className="h-[60px] w-auto"
       />
     </a>
   );
