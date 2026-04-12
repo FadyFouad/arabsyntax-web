@@ -47,7 +47,13 @@
       "valueProposition": "دروس صوتية منظَّمة تأخذك من الصفر إلى إتقان نحو اللغة العربية الفصحى.",
       "ctaLabel": "تحميل من Google Play",
       "mockupAlt": "شاشة درس من تطبيق النحو الكافي",
-      "socialProof": "★ ٤٫٧ · أكثر من ٢٬٦٠٠ تقييم على Google Play"
+      "socialProof": "★ ٤٫٧ · أكثر من ٢٬٦٠٠ تقييم على Google Play",
+      "chip1Label": "دروس صوتية",
+      "chip1Detail": "تعلَّم بالاستماع",
+      "chip2Label": "اختبارات تفاعلية",
+      "chip2Detail": "اختبر معرفتك",
+      "chip3Label": "وصول بلا إنترنت",
+      "chip3Detail": "لا حاجة للاتصال"
     },
     "features": {
       "heading": "كل ما تحتاجه لإتقان النحو",

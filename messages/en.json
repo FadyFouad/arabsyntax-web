@@ -47,7 +47,13 @@
       "valueProposition": "Structured audio lessons that take you from zero to mastering Arabic grammar (النحو).",
       "ctaLabel": "Get it on Google Play",
       "mockupAlt": "Al-Nahw Al-Kafi app lesson screen on a smartphone",
-      "socialProof": "★ 4.7 · 2,600+ reviews on Google Play"
+      "socialProof": "★ 4.7 · 2,600+ reviews on Google Play",
+      "chip1Label": "Audio Lessons",
+      "chip1Detail": "Learn by listening",
+      "chip2Label": "Interactive Quizzes",
+      "chip2Detail": "Test your knowledge",
+      "chip3Label": "Offline Access",
+      "chip3Detail": "No internet needed"
     },
     "features": {
       "heading": "Everything You Need to Master Grammar",
