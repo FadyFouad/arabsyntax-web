@@ -1,4 +1,5 @@
 import { Resend } from 'resend';
+import { siteConfig } from '@/lib/siteConfig';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -16,16 +17,16 @@ export async function sendContactEmail(
   submission: ServerEnrichedSubmission
 ): Promise<{ ok: boolean; error?: string }> {
   try {
-    const supportEmail = process.env.SUPPORT_EMAIL;
-    if (!supportEmail) {
+    const supportEmail = process.env.SUPPORT_EMAIL || siteConfig.developer.email;
+    if (false) {
       throw new Error('SUPPORT_EMAIL environment variable is missing');
     }
 
-    const { data, error } = await resend.emails.send({
-      from: "ArabSyntax Support <support@arabsyntax.com>",
+    const { error } = await resend.emails.send({
+      from: `${siteConfig.name.en} Support <${siteConfig.developer.email}>`,
       to: supportEmail,
       replyTo: submission.email,
-      subject: `[ArabSyntax Support] ${submission.subject}`,
+      subject: `[${siteConfig.name.en} Support] ${submission.subject}`,
       html: `
         <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse;">
           <tr><th>Name</th><td>${submission.name}</td></tr>
@@ -45,8 +46,8 @@ export async function sendContactEmail(
     }
 
     return { ok: true };
-  } catch (err: any) {
+  } catch (err: unknown) {
     console.error('Email send failed:', err);
-    return { ok: false, error: err.message };
+    return { ok: false, error: err instanceof Error ? err.message : String(err) };
   }
 }

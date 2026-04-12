@@ -1,16 +1,21 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, getLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { Container } from '@/components/ui/Container';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { MobileMenu } from './MobileMenu';
+import { siteConfig } from '@/lib/siteConfig';
+import { featureFlags } from '@/lib/featureFlags';
 
 export async function Header() {
+  const locale = await getLocale();
+  const isAr = locale === 'ar';
+  const brandName = isAr ? siteConfig.name.ar : siteConfig.name.en;
   const tNav = await getTranslations('nav');
   const tCommon = await getTranslations('common');
 
   const navLinks = [
     { label: tNav('features'), href: '#features' },
-    { label: tNav('pricing'), href: '#pricing' },
+    ...(featureFlags.showPricing ? [{ label: tNav('pricing'), href: '#pricing' }] : []),
     { label: tNav('faq'), href: '#faq' },
     { label: tNav('support'), href: '/support' },
   ];
@@ -26,9 +31,8 @@ export async function Header() {
       
       <Container className="flex items-center justify-between h-16">
         <div className="flex items-center gap-8">
-          <Link href="/" className="flex flex-col hover:opacity-80 transition-opacity">
-            <span className="font-english font-bold text-xl leading-none text-text">ArabSyntax</span>
-            <span className="font-arabic font-bold text-sm leading-none text-primary mt-1">{tCommon('appNameAr')}</span>
+          <Link href="/" className="hover:opacity-80 transition-opacity">
+            <span className="font-bold text-xl leading-none text-text">{brandName}</span>
           </Link>
           
           <nav className="hidden md:flex gap-6 items-center" aria-label="Main Navigation">

@@ -27,6 +27,10 @@ export default async function Hero({ locale }: HeroProps) {
               <AppStoreBadge locale={locale} />
               <PlayStoreBadge locale={locale} />
             </div>
+            <p className="mt-4 text-sm text-text-muted flex items-center justify-center lg:justify-start gap-1">
+              <span aria-hidden="true" className="text-primary">★</span>
+              {t('socialProof').replace('★ ', '')}
+            </p>
           </div>
 
           {/* Phone mockup — appears at end side (left in RTL, right in LTR) */}

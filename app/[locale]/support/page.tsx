@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
+import { siteConfig } from '@/lib/siteConfig';
 import { Container } from '@/components/ui/Container';
 import SectionHeading from '@/components/ui/SectionHeading';
 import ContactForm from '@/components/forms/ContactForm';
@@ -13,11 +14,20 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'support' });
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://arabsyntax.com';
+  const baseUrl = siteConfig.url;
 
   return {
     title: t('title'),
     description: t('description'),
+    openGraph: {
+      title: t('title'),
+      description: t('description'),
+      siteName: locale === 'ar' ? siteConfig.name.ar : siteConfig.name.en,
+      url: locale === 'ar' ? `${siteConfig.url}/support` : `${siteConfig.url}/en/support`,
+      locale: locale === 'ar' ? 'ar_AR' : 'en_US',
+      type: 'website',
+      images: [{ url: `${siteConfig.url}/og/og-image.png`, width: 1200, height: 630 }],
+    },
     alternates: {
       canonical: locale === 'ar' ? `${baseUrl}/support` : `${baseUrl}/en/support`,
       languages: {
@@ -49,7 +59,7 @@ export default async function SupportPage({ params }: PageProps) {
 
         <div className="mt-8 text-center text-text-muted">
           <span>{t('directEmail.label')} </span>
-          <a href={`mailto:${process.env.SUPPORT_EMAIL || 'support@arabsyntax.com'}`} className="text-primary underline hover:text-primary-hover transition-colors font-medium">
+          <a href={`mailto:${process.env.SUPPORT_EMAIL || siteConfig.developer.email}`} className="text-primary underline hover:text-primary-hover transition-colors font-medium">
             {process.env.SUPPORT_EMAIL || 'support@arabsyntax.com'}
           </a>
         </div>

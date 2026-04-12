@@ -1,9 +1,14 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, getLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { Container } from '@/components/ui/Container';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { siteConfig } from '@/lib/siteConfig';
+import { featureFlags } from '@/lib/featureFlags';
 
 export async function Footer() {
+  const locale = await getLocale();
+  const isAr = locale === 'ar';
+  const brandName = isAr ? siteConfig.name.ar : siteConfig.name.en;
   const t = await getTranslations('footer');
   const currentYear = new Date().getFullYear();
 
@@ -12,7 +17,7 @@ export async function Footer() {
       heading: t('product.heading'),
       links: [
         { label: t('product.features'), href: '#features' },
-        { label: t('product.pricing'), href: '#pricing' },
+        ...(featureFlags.showPricing ? [{ label: t('product.pricing'), href: '#pricing' }] : []),
       ],
     },
     {
@@ -36,7 +41,7 @@ export async function Footer() {
       <Container className="flex flex-col gap-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="flex flex-col gap-4">
-            <span className="font-english font-bold text-2xl text-text">ArabSyntax</span>
+            <span className="font-bold text-2xl text-text">{brandName}</span>
             <LanguageSwitcher />
           </div>
 
