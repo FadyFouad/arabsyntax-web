@@ -1,7 +1,6 @@
 import Image from 'next/image';
 
-const APP_STORE_URL =
-  'https://apps.apple.com/us/app/%D8%A7%D9%84%D9%86%D8%AD%D9%88-%D8%A7%D9%84%D9%83%D8%A7%D9%81%D9%8A/id6448959921?itscg=30200&itsct=apps_box_badge&mttnsubad=6448959921';
+import { siteConfig } from '@/lib/siteConfig';
 
 interface AppStoreBadgeProps {
   locale: string;
@@ -19,7 +18,7 @@ export default function AppStoreBadge({ locale, className }: AppStoreBadgeProps)
 
   return (
     <a
-      href={APP_STORE_URL}
+      href={siteConfig.stores.appStore}
       target="_blank"
       rel="noopener noreferrer"
       className={className}

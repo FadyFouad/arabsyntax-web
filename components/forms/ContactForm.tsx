@@ -18,7 +18,6 @@ export default function ContactForm() {
     register,
     handleSubmit,
     reset,
-    getValues,
     formState: { errors },
   } = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
@@ -87,7 +86,7 @@ export default function ContactForm() {
         />
         {errors.name?.message && (
           <p id="name-error" className="text-error text-sm text-start" aria-live="polite">
-            {t(`errors.${errors.name.message}` as any)}
+            {t(`errors.${errors.name.message}` as Parameters<typeof t>[0])}
           </p>
         )}
       </div>
@@ -106,7 +105,7 @@ export default function ContactForm() {
         />
         {errors.email?.message && (
           <p id="email-error" className="text-error text-sm text-start" aria-live="polite">
-            {t(`errors.${errors.email.message}` as any)}
+            {t(`errors.${errors.email.message}` as Parameters<typeof t>[0])}
           </p>
         )}
       </div>
@@ -125,7 +124,7 @@ export default function ContactForm() {
         />
         {errors.subject?.message && (
           <p id="subject-error" className="text-error text-sm text-start" aria-live="polite">
-            {t(`errors.${errors.subject.message}` as any)}
+            {t(`errors.${errors.subject.message}` as Parameters<typeof t>[0])}
           </p>
         )}
       </div>
@@ -144,7 +143,7 @@ export default function ContactForm() {
         />
         {errors.message?.message && (
           <p id="message-error" className="text-error text-sm text-start" aria-live="polite">
-            {t(`errors.${errors.message.message}` as any)}
+            {t(`errors.${errors.message.message}` as Parameters<typeof t>[0])}
           </p>
         )}
       </div>

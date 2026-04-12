@@ -1,7 +1,7 @@
 {
   "common": {
-    "appName": "ArabSyntax",
-    "appNameAr": "النحو العربي",
+    "appName": "Al-Nahw Al-Kafi",
+    "appNameAr": "النحو الكافي",
     "skipToContent": "Skip to main content"
   },
   "nav": {
@@ -33,7 +33,7 @@
       "ar": "العربية",
       "en": "English"
     },
-    "copyright": "© {year} ArabSyntax. All rights reserved."
+    "copyright": "© {year} ETA TECH. All rights reserved."
   },
   "legal": {
     "lastUpdated": "Last updated",
@@ -42,11 +42,12 @@
   },
   "landing": {
     "hero": {
-      "tagline": "Learn Arabic Grammar the Right Way",
-      "headline": "ArabSyntax",
+      "tagline": "Learn Arabic Grammar",
+      "headline": "Al-Nahw Al-Kafi",
       "valueProposition": "Structured audio lessons that take you from zero to mastering Arabic grammar (النحو).",
       "ctaLabel": "Get it on Google Play",
-      "mockupAlt": "ArabSyntax app lesson screen on a smartphone"
+      "mockupAlt": "Al-Nahw Al-Kafi app lesson screen on a smartphone",
+      "socialProof": "★ 4.7 · 2,600+ reviews on Google Play"
     },
     "features": {
       "heading": "Everything You Need to Master Grammar",
@@ -178,28 +179,44 @@
       "subtitle": "Answers to the most common questions.",
       "items": {
         "freePaid": {
-          "question": "What is the difference between the free and paid versions?",
-          "answer": "The free version gives access to foundational lessons and a limited number of quizzes. Paid plans unlock all audio lessons, unlimited quizzes, worked examples with إعراب, and full offline access."
+          "question": "Is Al-Nahw Al-Kafi free?",
+          "answer": "Yes, free on both stores, no subscriptions, no IAP."
         },
-        "offline": {
-          "question": "Can I use the app without an internet connection?",
-          "answer": "Yes. You can download lessons to your device and listen to them anytime, even without a connection. This feature is available to paid plan subscribers."
+        "platforms": {
+          "question": "Which platforms is the app available on?",
+          "answer": "The app is available on both Google Play and the App Store."
         },
-        "ios": {
-          "question": "Is the app available on iPhone or iPad?",
-          "answer": "The app is currently available on Android only. We are working on an iOS release and will announce it soon. Follow us to be the first to know."
-        },
-        "legacy": {
-          "question": "I purchased the app before the subscription system. What happens to my access?",
-          "answer": "If you purchased the app before the new subscription system launched, you keep all premium features permanently at no extra cost. No action is required on your part."
+        "levels": {
+          "question": "Is it suitable for beginners?",
+          "answer": "Yes, the lessons are structured to take you from the very basics to advanced topics, making it suitable for learners at all levels."
         },
         "exam": {
-          "question": "Is the content suitable for Thanaweya Amma exams?",
-          "answer": "Yes. The app covers the full grammar curriculum required for the Thanaweya Amma exam, with exercises and examples modeled on the official exam format."
+          "question": "Does it cover Thanaweya Amma requirements?",
+          "answer": "Yes, the app covers the full grammar curriculum required for the Thanaweya Amma exam."
+        },
+        "offline": {
+          "question": "Can I use the app offline?",
+          "answer": "Many lessons are available after a one-time download; an internet connection is needed for the first download and for updates."
+        },
+        "ios": {
+          "question": "Is the app available on iPhone (iOS)?",
+          "answer": "Yes, Al-Nahw Al-Kafi is available on both Google Play (Android) and the App Store (iOS)."
+        },
+        "legacy": {
+          "question": "I bought the app before subscriptions launched — do I still have full access?",
+          "answer": "Yes. If you purchased the app before the subscription system launched, you keep all premium features permanently at no extra cost."
         },
         "update": {
-          "question": "How often is content updated?",
-          "answer": "We add new lessons and examples regularly. All paid plan subscribers automatically receive all updates at no extra charge."
+          "question": "How often is the app updated?",
+          "answer": "We regularly add new lessons and improvements. All updates are free for active subscribers and lifetime purchasers."
+        },
+        "support": {
+          "question": "How do I contact support?",
+          "answer": "You can use the support form on our website or email us directly."
+        },
+        "privacy": {
+          "question": "Does the app collect my personal information?",
+          "answer": "We do not collect personal information directly. For details on what is shared with third-party services like crash reporting, please see our Privacy Policy."
         }
       }
     },
@@ -207,6 +224,10 @@
       "headline": "Start Your Arabic Grammar Journey Today",
       "subtitle": "Join thousands of learners mastering grammar in a new way.",
       "ctaLabel": "Get it on Google Play"
+    },
+    "freeCallout": {
+      "heading": "Free to Download",
+      "subtitle": "Start your Arabic grammar journey today. Available on Android and coming soon to iOS."
     }
   },
   "support": {

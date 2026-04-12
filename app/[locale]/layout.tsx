@@ -7,6 +7,43 @@ import { Footer } from '@/components/layout/Footer';
 const cairo = Cairo({ subsets: ['arabic'], variable: '--font-cairo' });
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
+
+import { siteConfig } from '@/lib/siteConfig';
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const isAr = locale === 'ar';
+  const name = isAr ? siteConfig.name.ar : siteConfig.name.en;
+  const description = isAr 
+    ? "دروس صوتية منظَّمة تأخذك من الصفر إلى إتقان نحو اللغة العربية الفصحى." 
+    : "Structured audio lessons that take you from zero to mastering Arabic grammar.";
+    
+  return {
+    metadataBase: new URL(siteConfig.url),
+    title: {
+      template: `%s | ${name}`,
+      default: name,
+    },
+    description,
+    openGraph: {
+      title: name,
+      description,
+      siteName: name,
+      url: `${siteConfig.url}${isAr ? '' : '/en'}`,
+      locale: isAr ? 'ar_AR' : 'en_US',
+      type: 'website',
+      images: [
+        {
+          url: `${siteConfig.url}/og/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: `${name} — ${isAr ? 'تعلَّم النحو العربي' : 'Learn Arabic Grammar'}`,
+        },
+      ],
+    },
+  };
+}
+
 export function generateStaticParams() {
   return [{ locale: 'ar' }, { locale: 'en' }];
 }
