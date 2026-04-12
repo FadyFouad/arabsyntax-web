@@ -63,8 +63,8 @@ export default async function Hero({ locale }: HeroProps) {
           </div>
 
           {/* 3D floating phone mockup with annotations */}
-          {/* lg:pr-[180px] reserves space so the right-side chip stays within section bounds */}
-          <div className="flex-shrink-0 order-1 lg:order-2 lg:pr-[180px] [perspective:1200px]">
+          {/* lg:pe-[180px] = padding-end: right in LTR, left in RTL — shifts phone toward center in both directions */}
+          <div className="flex-shrink-0 order-1 lg:order-2 lg:pe-[180px] [perspective:1200px]">
             <div className="relative">
               {/* Teal radial glow behind phone */}
               <div className="absolute -inset-16 rounded-full bg-primary/15 blur-3xl" />
@@ -110,8 +110,8 @@ export default async function Hero({ locale }: HeroProps) {
                     </div>
                   </div>
 
-                  {/* Chip 3: Offline Access — bottom right */}
-                  <div className="hero-chip absolute bottom-[80px] left-[calc(100%+6px)]">
+                  {/* Chip 3: Offline Access — bottom right (LTR) / bottom left (RTL) */}
+                  <div className="hero-chip hero-chip-end absolute bottom-[80px] left-[calc(100%+6px)]">
                     <WifiOff size={16} className="text-primary shrink-0" aria-hidden="true" />
                     <div>
                       <p className="text-text text-sm font-semibold leading-tight">{t('chip3Label')}</p>
