@@ -19,7 +19,7 @@ export default async function Hero({ locale }: HeroProps) {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           {/* Text block — appears at start side (right in RTL, left in LTR) */}
-          <div className="flex-1 text-center lg:text-start order-2 lg:order-1">
+          <div className="flex-1 text-center lg:text-start order-3 lg:order-1">
             <p className="text-primary font-semibold text-lg mb-3">{t('tagline')}</p>
             <h1 className="text-5xl lg:text-6xl font-bold text-text mb-6 leading-tight">
               {t('headline')}
@@ -37,8 +37,34 @@ export default async function Hero({ locale }: HeroProps) {
             </p>
           </div>
 
+          {/* Mobile-only chips — row below phone, hidden on desktop */}
+          <div className="lg:hidden flex flex-wrap justify-center gap-3 order-2">
+            <div className="hero-chip">
+              <Headphones size={16} className="text-primary shrink-0" aria-hidden="true" />
+              <div>
+                <p className="text-text text-sm font-semibold leading-tight">{t('chip1Label')}</p>
+                <p className="text-text-muted text-xs leading-tight">{t('chip1Detail')}</p>
+              </div>
+            </div>
+            <div className="hero-chip">
+              <BrainCircuit size={16} className="text-primary shrink-0" aria-hidden="true" />
+              <div>
+                <p className="text-text text-sm font-semibold leading-tight">{t('chip2Label')}</p>
+                <p className="text-text-muted text-xs leading-tight">{t('chip2Detail')}</p>
+              </div>
+            </div>
+            <div className="hero-chip">
+              <WifiOff size={16} className="text-primary shrink-0" aria-hidden="true" />
+              <div>
+                <p className="text-text text-sm font-semibold leading-tight">{t('chip3Label')}</p>
+                <p className="text-text-muted text-xs leading-tight">{t('chip3Detail')}</p>
+              </div>
+            </div>
+          </div>
+
           {/* 3D floating phone mockup with annotations */}
-          <div className="flex-shrink-0 order-1 lg:order-2 [perspective:1200px]">
+          {/* lg:pr-[180px] reserves space so the right-side chip stays within section bounds */}
+          <div className="flex-shrink-0 order-1 lg:order-2 lg:pr-[180px] [perspective:1200px]">
             <div className="relative">
               {/* Teal radial glow behind phone */}
               <div className="absolute -inset-16 rounded-full bg-primary/15 blur-3xl" />
@@ -64,10 +90,10 @@ export default async function Hero({ locale }: HeroProps) {
                   </div>
                 </div>
 
-                {/* Annotation labels + connector lines (hidden on small screens) */}
-                <div className="hidden sm:block">
-                  {/* Chip 1: Audio Lessons — upper right */}
-                  <div className="hero-chip absolute top-[10px] left-[calc(100%+6px)]">
+                {/* Desktop annotation chips — absolutely positioned beside the phone */}
+                <div className="hidden lg:block">
+                  {/* Chip 1: Audio Lessons — upper left */}
+                  <div className="hero-chip absolute top-[30px] right-[calc(100%+6px)]">
                     <Headphones size={16} className="text-primary shrink-0" aria-hidden="true" />
                     <div>
                       <p className="text-text text-sm font-semibold leading-tight">{t('chip1Label')}</p>
@@ -75,8 +101,8 @@ export default async function Hero({ locale }: HeroProps) {
                     </div>
                   </div>
 
-                  {/* Chip 2: Interactive Quizzes — mid right */}
-                  <div className="hero-chip absolute top-[225px] left-[calc(100%+6px)]">
+                  {/* Chip 2: Interactive Quizzes — mid left */}
+                  <div className="hero-chip absolute top-[200px] right-[calc(100%+6px)]">
                     <BrainCircuit size={16} className="text-primary shrink-0" aria-hidden="true" />
                     <div>
                       <p className="text-text text-sm font-semibold leading-tight">{t('chip2Label')}</p>
@@ -84,8 +110,8 @@ export default async function Hero({ locale }: HeroProps) {
                     </div>
                   </div>
 
-                  {/* Chip 3: Offline Access — bottom left */}
-                  <div className="hero-chip absolute bottom-[45px] right-[calc(100%+6px)]">
+                  {/* Chip 3: Offline Access — bottom right */}
+                  <div className="hero-chip absolute bottom-[80px] left-[calc(100%+6px)]">
                     <WifiOff size={16} className="text-primary shrink-0" aria-hidden="true" />
                     <div>
                       <p className="text-text text-sm font-semibold leading-tight">{t('chip3Label')}</p>
