@@ -1,0 +1,263 @@
+{
+  "lesson_id": "alealaal",
+  "language": "en",
+  "title": "Al-Iʿlal (Phonological Modification of Weak Letters)",
+  "sections": [
+    {
+      "id": "s001",
+      "label_en": "Definition",
+      "text": "Al-iʿlal is: the deletion of a weak letter (harf ʿilla — i.e., waw, yaʾ, or alif), or its conversion into another letter, or its being made vowelless (sukun)."
+    },
+    {
+      "id": "s002",
+      "text": "Two Important Notes:"
+    },
+    {
+      "id": "s003",
+      "text": "First: It is among the universal rules of Arabic that one does not begin with a sukun-bearing letter and does not pause on a vowel-bearing letter. Holding to this rule, we examine words and treat them as if paused upon — that is, with sukun on the final letter."
+    },
+    {
+      "id": "s004",
+      "text": "Second: The roots of Arabic words contain no alif. Accordingly, the language has only two weak letters — not three — namely waw and yaʾ. If you see an alif in a word, know that it is converted from one of these two, or else that it is not original but rather added (zaʾida). So when we say in the course of analysis 'the weak letter is converted' or 'the weak letter is deleted,' we mean by that only the waw and the yaʾ."
+    },
+    {
+      "id": "s005",
+      "text": "Iʿlal by Deletion:"
+    },
+    {
+      "id": "s006",
+      "text": "When two sukun-bearing letters meet, and the first is alif, waw, or yaʾ, the first is deleted. For example: 'biʿ' ('sell!'), originally 'biyʿ' before the deletion — when two sukuns met, the first was deleted. Similarly, you say of the women: 'naqumna wa-yabiʿna' ('they — fem. — rise and they sell'), originally 'yanqumna wa-yabiʿna,' and so on."
+    },
+    {
+      "id": "s007",
+      "text": "If the first letter of a past-tense verb is waw, it is deleted in the present-tense and imperative forms. For example: waʿada ('he promised') → yaʿidu ('he promises') → ʿid ('promise!'); waqaʿa ('he fell') → yaqaʿu → qaʿ; waqafa ('he stopped') → yaqifu → qif."
+    },
+    {
+      "id": "s008",
+      "text": "Iʿlal by Conversion:"
+    },
+    {
+      "id": "s009",
+      "text": "A weak letter (waw or yaʾ) is converted into alif if it is vowelled and preceded by a fatha. For example: 'qawala / bayaʿa' becomes 'qala' ('he said') / 'baʿa' ('he sold')."
+    },
+    {
+      "id": "s010",
+      "text": "But before we lay out the rule, know that this happens specifically when waw is preceded by a kasra. Here are the details:"
+    },
+    {
+      "id": "s011",
+      "text": "First: If waw bears sukun and is preceded by a kasra, it is converted to yaʾ. Below are examples, alongside the resulting form after conversion:"
+    },
+    {
+      "id": "s012",
+      "headers": [
+        "Waw with sukun, preceded by kasra",
+        "Converted to yaʾ",
+        "Notes"
+      ],
+      "rows": [
+        [
+          {
+            "transliteration": "mawzan"
+          },
+          {
+            "transliteration": "mizan",
+            "text": "(scale/balance)"
+          },
+          ""
+        ],
+        [
+          {
+            "transliteration": "rad-uw-a"
+          },
+          {
+            "transliteration": "radiya",
+            "text": "(he was pleased)"
+          },
+          "(past-tense verb from 'al-ridwan')"
+        ],
+        [
+          {
+            "transliteration": "mawqat"
+          },
+          {
+            "transliteration": "miqat",
+            "text": "(appointed time)"
+          },
+          ""
+        ],
+        [
+          {
+            "transliteration": "yardu"
+          },
+          {
+            "transliteration": "yardi"
+          },
+          ""
+        ],
+        [
+          {
+            "transliteration": "qawuw-a"
+          },
+          {
+            "transliteration": "qawiya",
+            "text": "(he became strong)"
+          },
+          "(past-tense verb from 'al-quwwa', 'strength')"
+        ],
+        [
+          {
+            "transliteration": "al-shajw"
+          },
+          {
+            "transliteration": "al-shaji",
+            "text": "(the one of sorrow)"
+          },
+          ""
+        ],
+        [
+          {
+            "transliteration": "al-daʿiw"
+          },
+          {
+            "transliteration": "al-daʿi",
+            "text": "(the caller)"
+          },
+          ""
+        ],
+        [
+          {
+            "transliteration": "al-ghaziw"
+          },
+          {
+            "transliteration": "al-ghazi",
+            "text": "(the warrior)"
+          },
+          "(see note 5)"
+        ]
+      ]
+    },
+    {
+      "id": "s013",
+      "text": "Second: If waw falls between a kasra and an alif, on the condition that this occurs:"
+    },
+    {
+      "id": "s014",
+      "text": "Either in a verbal noun (masdar) whose middle root letter has been modified along with the middle of its verb — for example: siyam (originally siwam, 'fasting'), siyaq (originally siwaq, 'leading/driving'), inqiyad (originally inqiwad, 'submission') — since the corresponding verbs also have a weak middle: sama (originally sawama, 'he fasted'), saqa (originally sawaqa, 'he led'), inqada (originally inqawada, 'he submitted')."
+    },
+    {
+      "id": "s015",
+      "text": "Or in a plural of the pattern fiʿal whose singular's middle letter has been modified or made sukun. Modification in the singular: dar ('house') → diyar ('houses'); sukun in the singular: thawb ('garment') → thiyab ('garments')."
+    },
+    {
+      "id": "s016",
+      "text": "Third: When waw and yaʾ come together and the first of them bears sukun. The grammatical works cite the word sayyid ('master') as an example. They say: its origin was sayy-wid; when yaʾ and waw met with the first bearing sukun, the waw was converted to yaʾ and merged into the yaʾ — yielding sayyid."
+    },
+    {
+      "id": "s017",
+      "text": "Conversion of Yaʾ to Waw:"
+    },
+    {
+      "id": "s018",
+      "text": "Yaʾ is converted to waw in a limited number of words. The most well-known are listed below:"
+    },
+    {
+      "id": "s019",
+      "headers": [
+        "Before conversion",
+        "After conversion"
+      ],
+      "rows": [
+        [
+          {
+            "transliteration": "maysir"
+          },
+          {
+            "transliteration": "musir",
+            "text": "(prosperous)"
+          }
+        ],
+        [
+          {
+            "transliteration": "mayqin"
+          },
+          {
+            "transliteration": "muqin",
+            "text": "(certain)"
+          }
+        ],
+        [
+          {
+            "transliteration": "mayʾis"
+          },
+          {
+            "transliteration": "muʾus",
+            "text": "(despondent)"
+          }
+        ],
+        [
+          {
+            "transliteration": "mayqiz"
+          },
+          {
+            "transliteration": "muqiz",
+            "text": "(awakening)"
+          }
+        ],
+        [
+          {
+            "transliteration": "mayʿin"
+          },
+          {
+            "transliteration": "muʿin",
+            "text": "(specific)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s020",
+      "text": "Sukun-Marking and Deletion of the Weak Letter:"
+    },
+    {
+      "id": "s021",
+      "text": "A weak letter takes sukun if it falls at the end of a word and is preceded by a vowelled letter — so neither damma nor kasra appears upon it. Thus we do not say, for example, 'yadʿu-u al-qadi-i'; rather both are made silent: 'yadʿu, al-qadi.'"
+    },
+    {
+      "id": "s022",
+      "text": "As for the fatha, it [does appear] in the imperative — e.g., 'iqdi' ('judge!') and 'la tadʿu' ('do not call')."
+    },
+    {
+      "id": "s023",
+      "text": "This weak letter is deleted if it is followed by a sukun-bearing letter — e.g., yarmi + una: the yaʾ is deleted to avoid two sukuns meeting, yielding yarmuna ('they throw')."
+    },
+    {
+      "id": "s024",
+      "text": "If a weak letter falls in the middle of a word, its vowel is transferred to the preceding sound consonant. For example: yaqwumu → yaqumu ('he stands'); yabyiʿu → yabiʿu ('he sells')."
+    },
+    {
+      "id": "s025",
+      "text": "Rule: If a weak letter is not homogeneous with its vowel, it is converted to the letter that is homogeneous with that vowel. For example: in 'aqama' ('he established'), the waw does not match the fatha, so it is converted to alif. In 'yuqimu' ('he establishes'), the waw does not match the kasra, so it is converted to yaʾ. In 'abana' ('he made clear'), the yaʾ does not match the fatha, so it is converted to alif. And so on."
+    },
+    {
+      "id": "s026",
+      "text": "An Important Exception:"
+    },
+    {
+      "id": "s027",
+      "text": "The pattern afʿala stands apart from the rules of iʿlal — conversion, deletion, and transfer all do not apply to it. Here is the explanation:"
+    },
+    {
+      "id": "s028",
+      "text": "The weak letter is not modified in the afʿala pattern. For example, the comparative noun (ism al-tafdil): 'Khalid is taller (atwal) than Saʿid and clearer-spoken (abyan) than him.' If iʿlal applied, we would have to say 'atal min Saʿid' or 'aban min-hu' — and that is not said in Arabic."
+    },
+    {
+      "id": "s029",
+      "text": "Nor does iʿlal apply in its verb or its verbal noun. We say, for instance: 'Such-and-such has a squint (ahwal)' — hawila — yahwalu — hawalan. If iʿlal applied, it would become 'ahala'!"
+    },
+    {
+      "id": "s030",
+      "text": "Likewise, iʿlal does not apply in 'ma afʿala-hu' or 'afʿil bi-hi' (the wonderment patterns). For example: 'ma asadda-hu' ('how true he is!') and 'asdid bi-hi.' If iʿlal applied, we would have to say 'ma asadahu' and 'asad bi-hi' — and that is not said in Arabic."
+    }
+  ]
+}

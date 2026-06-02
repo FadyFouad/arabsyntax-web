@@ -1,0 +1,340 @@
+{
+  "lesson_id": "alfaael_w_naeb_alfaeel",
+  "language": "en",
+  "title": "Definition of Al-Faʿil (the Subject of a Verb)",
+  "sections": [
+    {
+      "id": "s001",
+      "label_en": "Definition",
+      "text": "Al-faʿil (the doer/subject of a verb) is a noun in the nominative case (marfuʿ) that indicates the one from whom the action proceeds, or with whom the action is associated."
+    },
+    {
+      "id": "s002",
+      "text": "Examples:"
+    },
+    {
+      "id": "s003",
+      "items": [
+        {
+          "transliteration": "qama Zayd",
+          "text": "— Zayd stood. (Here al-faʿil is Zayd, because the action of standing proceeded from him.)"
+        },
+        {
+          "transliteration": "marida Muhammad",
+          "text": "— Muhammad fell ill. (Here al-faʿil is Muhammad, with whom the illness was associated — i.e., he did not fall ill by his own will.)"
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "Types of Al-Faʿil"
+    },
+    {
+      "id": "s005",
+      "text": "Al-faʿil is divided into two kinds:"
+    },
+    {
+      "id": "s006",
+      "text": "1 — Manifest (zahir), e.g.:"
+    },
+    {
+      "id": "s007",
+      "items": [
+        {
+          "transliteration": "qama Muhammad / yaqumu Muhammad",
+          "text": "— Muhammad stood / stands. (Here al-faʿil is Muhammad — singular masculine.)"
+        },
+        {
+          "transliteration": "qama al-muʿallimani / yaqumu al-muʿallimani",
+          "text": "— The two teachers stood / stand. (Here al-faʿil is 'al-muʿallimani' — dual masculine.)"
+        },
+        {
+          "transliteration": "qama al-mujtahiduna / yaqumu al-mujtahiduna",
+          "text": "— The diligent ones stood / stand. (Here al-faʿil is 'al-mujtahiduna' — sound masculine plural.)"
+        },
+        {
+          "transliteration": "qama al-rijalu / yaqumu al-rijalu",
+          "text": "— The men stood / stand. (Here al-faʿil is 'al-rijal' — broken plural.)"
+        },
+        {
+          "transliteration": "qamat Hindu / taqumu Hindu",
+          "text": "— Hind stood / stands. (Here al-faʿil is Hind — singular feminine.)"
+        },
+        {
+          "transliteration": "qamat al-fatatani / taqumu al-fatatani",
+          "text": "— The two girls stood / stand. (Here al-faʿil is 'al-fatatani' — dual feminine.)"
+        },
+        {
+          "transliteration": "qamat al-mumarridatu / taqumu al-mumarridatu",
+          "text": "— The nurses stood / stand. (Here al-faʿil is 'al-mumarridat' — sound feminine plural.)"
+        },
+        {
+          "transliteration": "qamat al-hunudu / taqumu al-hunudu",
+          "text": "— The Hinds stood / stand. (Here al-faʿil is 'al-hunud' — broken plural of Hind.)"
+        },
+        {
+          "transliteration": "qama abu-ka / yaqumu abu-ka",
+          "text": "— Your father stood / stands. (Here al-faʿil is 'abu-ka' — one of the Five Nouns.)"
+        },
+        {
+          "transliteration": "qama muʿallim-i / yaqumu muʿallim-i",
+          "text": "— My teacher stood / stands. (Here al-faʿil is 'muʿallim-i' — annexed to the speaker's yaʾ.)"
+        }
+      ]
+    },
+    {
+      "id": "s008",
+      "text": "2 — Implicit (mudmar — a pronoun), e.g.:"
+    },
+    {
+      "id": "s009",
+      "items": [
+        {
+          "transliteration": "darab-tu",
+          "text": "— I struck. (Here al-faʿil is the taʾ — a connected pronoun in the position of nominative.)"
+        },
+        {
+          "transliteration": "darab-na",
+          "text": "— We struck. (Here al-faʿil is 'na' — a connected pronoun fixed on sukun, in the position of nominative.)"
+        },
+        {
+          "transliteration": "darab-tuma",
+          "text": "— You two struck. (Here al-faʿil is the taʾ — a connected pronoun fixed on damma, in the position of nominative; the 'ma' is the sign of duality.)"
+        },
+        {
+          "transliteration": "darab-tum",
+          "text": "— You — masc. plural — struck. (Here al-faʿil is the taʾ; the mim is the sign of plural.)"
+        },
+        {
+          "transliteration": "darab-tunna",
+          "text": "— You — fem. plural — struck. (Here al-faʿil is the taʾ; the nun is the sign of plural.)"
+        }
+      ]
+    },
+    {
+      "id": "s010",
+      "text": "Iʿrab of Al-Faʿil"
+    },
+    {
+      "id": "s011",
+      "items": [
+        {
+          "transliteration": "jaʾa al-rajul-u",
+          "text": "— The man came."
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "text": "jaʾa: a past-tense verb fixed on fatha.\nal-rajul: al-faʿil in the nominative, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s013",
+      "items": [
+        {
+          "transliteration": "tasabaqa al-sadiqani",
+          "text": "— The two friends raced."
+        }
+      ]
+    },
+    {
+      "id": "s014",
+      "text": "tasabaqa: a past-tense verb fixed on fatha.\nal-sadiqani: al-faʿil in the nominative, marked by alif because it is dual; the nun substitutes for the tanwin of the singular noun."
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "qama al-laʿibun",
+          "text": "— The players stood."
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "qama: a past-tense verb fixed on fatha.\nal-laʿibun: al-faʿil in the nominative, marked by waw because it is a sound masculine plural."
+    },
+    {
+      "id": "s017",
+      "items": [
+        {
+          "transliteration": "dhahaba akh-u-ka",
+          "text": "— Your brother went."
+        }
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "dhahaba: a past-tense verb fixed on fatha.\nakh-u-ka: al-faʿil in the nominative, marked by waw because it is one of the Five Nouns; the kaf is a connected pronoun fixed on (its position) in the position of genitive as a mudaf ilayh."
+    },
+    {
+      "id": "s019",
+      "text": "Definition of Naʾib al-Faʿil (the Deputy Subject)"
+    },
+    {
+      "id": "s020",
+      "label_en": "Definition",
+      "text": "Naʾib al-faʿil (the deputy subject) is the noun in the nominative case that takes the place of the omitted subject (al-faʿil) and assumes its rulings. Its verb is changed to the form fuʿila in the past and yufʿalu in the present, and the verb is then called mabni li-l-majhul (the passive voice)."
+    },
+    {
+      "id": "s021",
+      "text": "Example:"
+    },
+    {
+      "id": "s022",
+      "items": [
+        {
+          "transliteration": "akala Muhammad-un al-taʿam-a",
+          "text": "— Muhammad ate the food."
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "text": "Where is al-faʿil?"
+    },
+    {
+      "id": "s024",
+      "text": "Al-faʿil is Muhammad; al-taʿam is the direct object."
+    },
+    {
+      "id": "s025",
+      "items": [
+        {
+          "transliteration": "ukila al-taʿam-u",
+          "text": "— The food was eaten."
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "text": "Where is al-faʿil?"
+    },
+    {
+      "id": "s027",
+      "text": "It is omitted, and 'al-taʿam' has taken its place [as naʾib al-faʿil]."
+    },
+    {
+      "id": "s028",
+      "text": "The Passive-Voice Verb"
+    },
+    {
+      "id": "s029",
+      "text": "We said that naʾib al-faʿil requires the verb to be in the passive voice. The form requires giving its first letter a damma and the letter before its last a kasra if it is past-tense, e.g., duriba al-ghulam ('the boy was struck'), ukila al-taʿam ('the food was eaten'), quriʾa al-Qurʾan ('the Quran was recited')."
+    },
+    {
+      "id": "s030",
+      "text": "— And giving its first letter a damma and the letter before its last a fatha if it is present-tense, e.g., yuʿaqabu al-mujrim ('the criminal is punished'), yuʾjaru al-sabir ('the patient one is rewarded'), yukarramu al-najih ('the successful one is honored')."
+    },
+    {
+      "id": "s031",
+      "text": "Types of Naʾib al-Faʿil"
+    },
+    {
+      "id": "s032",
+      "text": "Naʾib al-faʿil, like al-faʿil, is divided into two kinds:"
+    },
+    {
+      "id": "s033",
+      "text": "1 — Manifest (zahir), e.g.:"
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "ukila al-taʿam",
+          "text": "— The food was eaten. (singular)"
+        },
+        {
+          "transliteration": "duriba al-waladani",
+          "text": "— The two boys were struck. (dual)"
+        },
+        {
+          "transliteration": "ʿuqiba al-mujrimuna",
+          "text": "— The criminals were punished. (sound masculine plural)"
+        },
+        {
+          "transliteration": "duriba akh-u-ka",
+          "text": "— Your brother was struck. (Five Nouns)"
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "And so on with similar examples — the matter is, I think, clear."
+    },
+    {
+      "id": "s036",
+      "text": "2 — Implicit (mudmar — a pronoun), e.g.: buʿith-tu ('I was sent'), buʿith-na ('we were sent'), buʿith-ta ('you — masc. — were sent'), buʿith-ti ('you — fem. — were sent'), buʿith-u ('they were sent'), buʿith-na ('they — fem. — were sent'), and so on."
+    },
+    {
+      "id": "s037",
+      "text": "Iʿrab of Naʾib al-Faʿil"
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "durib-tu",
+          "text": "— I was struck."
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "A past-tense passive verb, fixed on sukun. The taʾ is naʾib al-faʿil — a connected pronoun fixed on damma, in the position of nominative."
+    },
+    {
+      "id": "s040",
+      "items": [
+        {
+          "transliteration": "durib-tuma",
+          "text": "— You two were struck."
+        }
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "A past-tense passive verb, fixed on sukun. The taʾ is naʾib al-faʿil — a connected pronoun fixed on damma, in the position of nominative; the mim and the alif are the sign of duality."
+    },
+    {
+      "id": "s042",
+      "items": [
+        {
+          "transliteration": "ukila",
+          "text": "— It was eaten."
+        }
+      ]
+    },
+    {
+      "id": "s043",
+      "text": "A past-tense passive verb. Naʾib al-faʿil is a permissibly concealed pronoun, implied as 'huwa'."
+    },
+    {
+      "id": "s044",
+      "items": [
+        {
+          "transliteration": "duriba akh-u-ka",
+          "text": "— Your brother was struck."
+        }
+      ]
+    },
+    {
+      "id": "s045",
+      "text": "duriba: a past-tense passive verb fixed on fatha.\nakh-u-ka: naʾib al-faʿil in the nominative, marked by waw because it is one of the Five Nouns; the kaf is a connected pronoun fixed on (its position) in the position of genitive as a mudaf ilayh."
+    },
+    {
+      "id": "s046",
+      "items": [
+        {
+          "transliteration": "yuʿrafu al-amin-u bi-l-sidq",
+          "text": "— The trustworthy one is recognized by his honesty."
+        }
+      ]
+    },
+    {
+      "id": "s047",
+      "text": "yuʿrafu: a present-tense passive verb.\nal-amin: naʾib al-faʿil in the nominative, marked by the manifest damma at its end.\nbi-l-sidq: a prepositional phrase (jarr wa-majrur)."
+    }
+  ]
+}

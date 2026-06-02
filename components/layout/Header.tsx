@@ -16,6 +16,7 @@ export async function Header() {
 
   const navLinks = [
     { label: tNav('features'), href: '#features' },
+    { label: tNav('lessons'), href: '/lessons' },
     ...(featureFlags.showPricing ? [{ label: tNav('pricing'), href: '#pricing' }] : []),
     { label: tNav('faq'), href: '#faq' },
     { label: tNav('support'), href: '/support' },

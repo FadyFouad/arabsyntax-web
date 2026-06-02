@@ -1,0 +1,681 @@
+{
+  "lesson_id": "alfeal_almoatal",
+  "language": "en",
+  "title": "The Sound and Weak Verbs (Al-Fiʿl al-Sahih wa-l-Muʿtall)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "The Sound Verb (Al-Fiʿl al-Sahih)"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "It is a verb whose root letters are free of any weak letter (a, w, y)."
+    },
+    {
+      "id": "s003",
+      "text": "Examples:"
+    },
+    {
+      "id": "s004",
+      "items": [
+        {
+          "transliteration": "laʿiba",
+          "text": "(he played)"
+        },
+        {
+          "transliteration": "kasara",
+          "text": "(he broke)"
+        },
+        {
+          "transliteration": "saʾala",
+          "text": "(he asked)"
+        },
+        {
+          "transliteration": "shadda",
+          "text": "(he tightened)"
+        }
+      ]
+    },
+    {
+      "id": "s005",
+      "label_en": "Note",
+      "text": "The sound verb is of three types:"
+    },
+    {
+      "id": "s006",
+      "text": "Sound and salim (whole/integral): one whose sound letters are free of hamza and gemination (shadda)."
+    },
+    {
+      "id": "s007",
+      "items": [
+        {
+          "transliteration": "kataba",
+          "text": "(he wrote)"
+        },
+        {
+          "transliteration": "rasama",
+          "text": "(he drew)"
+        },
+        {
+          "transliteration": "saqata",
+          "text": "(he fell)"
+        }
+      ]
+    },
+    {
+      "id": "s008",
+      "text": "Sound and mahmuz (hamzated): one whose sound root letters include a hamza."
+    },
+    {
+      "id": "s009",
+      "items": [
+        {
+          "transliteration": "akala",
+          "text": "(he ate)"
+        },
+        {
+          "transliteration": "saʾala",
+          "text": "(he asked)"
+        },
+        {
+          "transliteration": "qaraʾa",
+          "text": "(he read)"
+        }
+      ]
+    },
+    {
+      "id": "s010",
+      "text": "Sound and mudaʿʿaf (geminated): one in which one of the root letters is doubled."
+    },
+    {
+      "id": "s011",
+      "items": [
+        {
+          "transliteration": "madda",
+          "text": "(he extended)"
+        },
+        {
+          "transliteration": "halla",
+          "text": "(he untied / settled)"
+        },
+        {
+          "transliteration": "damma",
+          "text": "(he gathered / embraced)"
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "text": "The Weak Verb (Al-Fiʿl al-Muʿtall)"
+    },
+    {
+      "id": "s013",
+      "label_en": "Definition",
+      "text": "A verb in which one of the root letters is a weak letter (a, w, y)."
+    },
+    {
+      "id": "s014",
+      "text": "Examples:"
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "wajada",
+          "text": "(he found)"
+        },
+        {
+          "transliteration": "qama",
+          "text": "(he stood)"
+        },
+        {
+          "transliteration": "daʿa",
+          "text": "(he called)"
+        },
+        {
+          "transliteration": "rama",
+          "text": "(he threw)"
+        },
+        {
+          "transliteration": "yanaʿa",
+          "text": "(it ripened)"
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "Types of the Weak Verb:"
+    },
+    {
+      "id": "s017",
+      "text": "Mithal weak verb: one whose first root letter is a weak letter."
+    },
+    {
+      "id": "s018",
+      "items": [
+        {
+          "transliteration": "waʿada",
+          "text": "(he promised)"
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "Ajwaf (hollow) weak verb: one whose second root letter is a weak letter."
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "qala",
+          "text": "(he said)"
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "Naqis (defective) weak verb: one whose third (last) root letter is a weak letter."
+    },
+    {
+      "id": "s022",
+      "items": [
+        {
+          "transliteration": "dana (yadnu)",
+          "text": "(he came near / he comes near)"
+        },
+        {
+          "transliteration": "baka (yabki)",
+          "text": "(he wept / he weeps)"
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "label_en": "Note",
+      "text": "There are two more types of the weak verb that we will learn about later."
+    },
+    {
+      "id": "s024",
+      "text": "Extended Material with Examples"
+    },
+    {
+      "id": "s025",
+      "text": "The Sound and the Weak Verb"
+    },
+    {
+      "id": "s026",
+      "text": "The verb is divided, by reference to the type of letters that compose it, into two categories:\n(a) the sound verb (al-fiʿl al-sahih);\n(b) the weak verb (al-fiʿl al-muʿtall)."
+    },
+    {
+      "id": "s027",
+      "text": "First: The Sound Verb"
+    },
+    {
+      "id": "s028",
+      "label_en": "Definition",
+      "text": "It is every verb whose root letters are free of weak letters — alif, waw, and yaʾ."
+    },
+    {
+      "id": "s029",
+      "items": [
+        {
+          "transliteration": "jalasa",
+          "text": "(he sat)"
+        },
+        {
+          "transliteration": "hadara",
+          "text": "(he attended)"
+        },
+        {
+          "transliteration": "kataba",
+          "text": "(he wrote)"
+        },
+        {
+          "transliteration": "rafaʿa",
+          "text": "(he raised)"
+        },
+        {
+          "transliteration": "qaraʾa",
+          "text": "(he read)"
+        },
+        {
+          "transliteration": "amara",
+          "text": "(he commanded)"
+        },
+        {
+          "transliteration": "samiʿa",
+          "text": "(he heard)"
+        }
+      ]
+    },
+    {
+      "id": "s030",
+      "text": "The sound verb is in turn divided into three types:"
+    },
+    {
+      "id": "s031",
+      "text": "1 — Sound and salim: every verb whose root letters are free of hamza and gemination."
+    },
+    {
+      "id": "s032",
+      "items": [
+        {
+          "transliteration": "jalasa",
+          "text": "(he sat)"
+        },
+        {
+          "transliteration": "hadara",
+          "text": "(he attended)"
+        },
+        {
+          "transliteration": "rafaʿa",
+          "text": "(he raised)"
+        },
+        {
+          "transliteration": "samiʿa",
+          "text": "(he heard)"
+        }
+      ]
+    },
+    {
+      "id": "s033",
+      "text": "2 — Sound and mahmuz: every verb in which one of its root letters is a hamza — whether at the beginning, middle, or end of the verb."
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "akhadha",
+          "text": "(he took)"
+        },
+        {
+          "transliteration": "amara",
+          "text": "(he commanded)"
+        },
+        {
+          "transliteration": "adhina",
+          "text": "(he gave permission)"
+        },
+        {
+          "transliteration": "akala",
+          "text": "(he ate)"
+        },
+        {
+          "transliteration": "saʾala",
+          "text": "(he asked)"
+        },
+        {
+          "transliteration": "saʾima",
+          "text": "(he grew weary of)"
+        },
+        {
+          "transliteration": "daʾaba",
+          "text": "(he persisted)"
+        },
+        {
+          "transliteration": "jaʾara",
+          "text": "(he cried out)"
+        },
+        {
+          "transliteration": "malaʾa",
+          "text": "(he filled)"
+        },
+        {
+          "transliteration": "dharaʾa",
+          "text": "(he created)"
+        },
+        {
+          "transliteration": "qaraʾa",
+          "text": "(he read)"
+        },
+        {
+          "transliteration": "lajaʾa",
+          "text": "(he took refuge)"
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "3 — Sound and mudaʿʿaf — divided into two types:"
+    },
+    {
+      "id": "s036",
+      "text": "(a) Triliteral mudaʿʿaf: one in which the middle root letter and the final root letter are of the same kind ('doubled')."
+    },
+    {
+      "id": "s037",
+      "items": [
+        {
+          "transliteration": "madda",
+          "text": "(he extended)"
+        },
+        {
+          "transliteration": "ʿadda",
+          "text": "(he counted)"
+        },
+        {
+          "transliteration": "sadda",
+          "text": "(he blocked)"
+        },
+        {
+          "transliteration": "shadda",
+          "text": "(he tightened)"
+        }
+      ]
+    },
+    {
+      "id": "s038",
+      "text": "(b) Quadriliteral mudaʿʿaf: one in which the first and third letters are of the same kind, and the second and fourth letters are also of the same kind."
+    },
+    {
+      "id": "s039",
+      "items": [
+        {
+          "transliteration": "zalzala",
+          "text": "(he shook)"
+        },
+        {
+          "transliteration": "waswasa",
+          "text": "(he whispered insidiously)"
+        },
+        {
+          "transliteration": "lajlaja",
+          "text": "(he stammered)"
+        },
+        {
+          "transliteration": "walwala",
+          "text": "(he wailed)"
+        }
+      ]
+    },
+    {
+      "id": "s040",
+      "text": "Second: The Weak Verb"
+    },
+    {
+      "id": "s041",
+      "label_en": "Definition",
+      "text": "It is every verb in which one of its root letters is a weak letter."
+    },
+    {
+      "id": "s042",
+      "items": [
+        {
+          "transliteration": "wajada",
+          "text": "(he found)"
+        },
+        {
+          "transliteration": "qala",
+          "text": "(he said)"
+        },
+        {
+          "transliteration": "saʿa",
+          "text": "(he strove)"
+        }
+      ]
+    },
+    {
+      "id": "s043",
+      "text": "The weak verb is divided into four types:"
+    },
+    {
+      "id": "s044",
+      "text": "1 — Mithal: one whose first root letter is a weak letter."
+    },
+    {
+      "id": "s045",
+      "items": [
+        {
+          "transliteration": "waʿada",
+          "text": "(he promised)"
+        },
+        {
+          "transliteration": "wajada",
+          "text": "(he found)"
+        },
+        {
+          "transliteration": "walada",
+          "text": "(he gave birth)"
+        },
+        {
+          "transliteration": "wasiʿa",
+          "text": "(he encompassed)"
+        },
+        {
+          "transliteration": "yabisa",
+          "text": "(it dried)"
+        },
+        {
+          "transliteration": "yanaʿa",
+          "text": "(it ripened)"
+        },
+        {
+          "transliteration": "yatima",
+          "text": "(he became orphaned)"
+        },
+        {
+          "transliteration": "yaʾisa",
+          "text": "(he despaired)"
+        }
+      ]
+    },
+    {
+      "id": "s046",
+      "text": "It is worth noting that mithal verbs beginning with waw are far more common than those beginning with yaʾ. Some morphologists have counted the verbs beginning with yaʾ as around twenty-four, some of which are rarely used in the language. Here are some for further enrichment:"
+    },
+    {
+      "id": "s047",
+      "items": [
+        {
+          "transliteration": "yafaʿa",
+          "text": "(he reached adulthood)"
+        },
+        {
+          "transliteration": "yaqina",
+          "text": "(he became certain)"
+        },
+        {
+          "transliteration": "yamina",
+          "text": "(he became fortunate)"
+        },
+        {
+          "transliteration": "yasara",
+          "text": "(he became easy)"
+        },
+        {
+          "transliteration": "yaqiza",
+          "text": "(he became awake)"
+        },
+        {
+          "transliteration": "yaraqa",
+          "text": "(it leafed out)"
+        }
+      ]
+    },
+    {
+      "id": "s048",
+      "text": "yatana — meaning that the woman gave birth to a baby breech-first.\nyahata — meaning 'became putrid', as in 'the wound became putrid'.\nyaqaha — meaning 'he obeyed and was quick'.\nyaʿara — meaning 'it bleated', as in 'the sheep bleated'.\nyafakha — meaning 'striking on the crown of the head'.\nyamama — meaning 'he drowned in the sea'.\nyadaʿa — meaning 'he dyed'.\nyalla — meaning 'became short', as in 'the teeth became short'.\nyarra — meaning 'became hard'."
+    },
+    {
+      "id": "s049",
+      "text": "2 — Ajwaf (Hollow): one whose second root letter is a weak letter."
+    },
+    {
+      "id": "s050",
+      "items": [
+        {
+          "transliteration": "qala",
+          "text": "(he said)"
+        },
+        {
+          "transliteration": "baʿa",
+          "text": "(he sold)"
+        },
+        {
+          "transliteration": "nama",
+          "text": "(he slept)"
+        },
+        {
+          "transliteration": "sama",
+          "text": "(he fasted)"
+        }
+      ]
+    },
+    {
+      "id": "s051",
+      "text": "3 — Naqis (Defective): one whose final root letter is a weak letter."
+    },
+    {
+      "id": "s052",
+      "items": [
+        {
+          "transliteration": "rama",
+          "text": "(he threw)"
+        },
+        {
+          "transliteration": "saʿa",
+          "text": "(he strove)"
+        },
+        {
+          "transliteration": "daʿa",
+          "text": "(he called)"
+        },
+        {
+          "transliteration": "sama",
+          "text": "(he rose high)"
+        }
+      ]
+    },
+    {
+      "id": "s053",
+      "text": "4 — Lafif (Compound-Weak): one with two weak letters. It is divided into two types:"
+    },
+    {
+      "id": "s054",
+      "text": "(a) Lafif maqrun (joined): one in which two weak letters come together with no sound consonant separating them."
+    },
+    {
+      "id": "s055",
+      "items": [
+        {
+          "transliteration": "awa",
+          "text": "(he took refuge)"
+        },
+        {
+          "transliteration": "shawa",
+          "text": "(he roasted)"
+        },
+        {
+          "transliteration": "rawa",
+          "text": "(he watered / narrated)"
+        },
+        {
+          "transliteration": "ʿawa",
+          "text": "(it howled)"
+        },
+        {
+          "transliteration": "lawa",
+          "text": "(he twisted)"
+        }
+      ]
+    },
+    {
+      "id": "s056",
+      "text": "(b) Lafif mafruq (separated): one with two weak letters that are not adjacent — i.e., a sound consonant comes between them."
+    },
+    {
+      "id": "s057",
+      "items": [
+        {
+          "transliteration": "waqa",
+          "text": "(he protected)"
+        },
+        {
+          "transliteration": "waʿa",
+          "text": "(he comprehended)"
+        },
+        {
+          "transliteration": "wafa",
+          "text": "(he fulfilled)"
+        },
+        {
+          "transliteration": "washa",
+          "text": "(he embellished / informed against)"
+        },
+        {
+          "transliteration": "waʾa",
+          "text": "(he promised — archaic)"
+        },
+        {
+          "transliteration": "wakha",
+          "text": "(he intended)"
+        },
+        {
+          "transliteration": "wasa",
+          "text": "(he advised / commanded)"
+        },
+        {
+          "transliteration": "wala",
+          "text": "(he became close to)"
+        },
+        {
+          "transliteration": "wana",
+          "text": "(he flagged / weakened)"
+        },
+        {
+          "transliteration": "waha",
+          "text": "(it grew weak)"
+        }
+      ]
+    },
+    {
+      "id": "s058",
+      "text": "A Note and Useful Points:"
+    },
+    {
+      "id": "s059",
+      "label_en": "Warning",
+      "text": "1 — To determine whether a present-tense verb is sound or weak, one must refer back to its past-tense form."
+    },
+    {
+      "id": "s060",
+      "items": [
+        {
+          "transliteration": "yataʿallam : its past is ʿalima — sound",
+          "text": "(because its root letters on the pattern 'faʿala' are free of weak letters)"
+        },
+        {
+          "transliteration": "yantahiz : its past is nahaza — sound",
+          "text": "(because its root letters on the pattern 'faʿala' are free of weak letters)"
+        },
+        {
+          "transliteration": "yastaʿin : its past is ʿana — weak",
+          "text": "(because its root letters on the pattern 'faʿala' have a weak middle)"
+        },
+        {
+          "transliteration": "yastaqim : its past is qama — weak",
+          "text": "(because its root letters on the pattern 'faʿala' have a weak middle)"
+        }
+      ]
+    },
+    {
+      "id": "s061",
+      "label_en": "Warning",
+      "text": "2 — Likewise, to determine whether a verb is bare (mujarrad) or augmented (mazid), one must reduce it to the past-tense form, then strip away the letters of augmentation against the morphological scale 'f-ʿ-l'."
+    },
+    {
+      "id": "s062",
+      "items": [
+        {
+          "transliteration": "yatakassar : its past is takassara",
+          "text": "(measuring it against the morphological scale 'faʿala', the verb with the original root letters is 'kasara')"
+        },
+        {
+          "transliteration": "yastalham : its past is istalhama",
+          "text": "(measuring it against the morphological scale 'faʿala', the verb with the original root letters is 'lahima')"
+        }
+      ]
+    }
+  ]
+}

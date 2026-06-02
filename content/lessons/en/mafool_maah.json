@@ -1,0 +1,297 @@
+{
+  "lesson_id": "mafool_maah",
+  "language": "en",
+  "title": "Definition of Al-Mafʿul Maʿah (the Object of Accompaniment)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "safar-tu wa-al-fajr-a",
+          "text": "— I traveled along with the dawn (i.e., at dawn)."
+        },
+        {
+          "transliteration": "yakhruju al-sayyad-u wa-tuluʿ-a al-shams",
+          "text": "— The hunter goes out along with the rising of the sun."
+        },
+        {
+          "transliteration": "aqbala Rashid wa-hisan-a-hu mubtasiman",
+          "text": "— Rashid came forward, smiling, along with his horse."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "What does reflection on the underlined nouns (wa-al-fajra, wa-tuluʿa, wa-hisanahu) tell us? It clearly shows that they are nouns in the accusative case (mansub) and that they fall after a 'waw' (the letter و). What does that waw mean here? It carries the sense of 'with' (maʿa)."
+    },
+    {
+      "id": "s004",
+      "text": "The waw that carries this meaning is called waw al-maʿiyya ('the waw of accompaniment'), and the noun put in the accusative after it is called: al-mafʿul maʿah ('the object of accompaniment')."
+    },
+    {
+      "id": "s005",
+      "label_en": "Definition",
+      "text": "Al-mafʿul maʿah (the object of accompaniment) is a noun in the accusative case mentioned after a waw that carries the meaning of 'with' — that waw being called waw al-maʿiyya."
+    },
+    {
+      "id": "s006",
+      "text": "Sentences About Al-Mafʿul Maʿah"
+    },
+    {
+      "id": "s007",
+      "items": [
+        {
+          "transliteration": "utruk-ni wa-al-kitab-a",
+          "text": "— Leave me alone with the book."
+        },
+        {
+          "transliteration": "al-nasr-u taʾir-un wa-al-sahab-a",
+          "text": "— The eagle is flying alongside the cloud."
+        },
+        {
+          "transliteration": "ruwayda-ka wa-al-marid-a",
+          "text": "— Easy on the patient! (lit. 'go gently along with the patient')"
+        },
+        {
+          "transliteration": "siru wa-ikhwan-a-kum muttahidina",
+          "text": "— March along with your brothers, united."
+        },
+        {
+          "transliteration": "ma la-ka wa-shuʾun-a al-nas",
+          "text": "— What concern is it of yours along with the affairs of others? (i.e., 'what business have you with...?')"
+        }
+      ]
+    },
+    {
+      "id": "s008",
+      "text": "Conditions for Al-Mafʿul Maʿah"
+    },
+    {
+      "id": "s009",
+      "text": "1 — It must be preceded by a complete sentence; it can never be preceded by [just] a noun. And it is joined to a waw meaning 'with'."
+    },
+    {
+      "id": "s010",
+      "items": [
+        {
+          "transliteration": "ma anta wa-Sulayman-an?",
+          "text": "— What [business have] you along with Sulayman?"
+        }
+      ]
+    },
+    {
+      "id": "s011",
+      "text": "2 — Al-mafʿul maʿah cannot precede its sentence. So we cannot say:"
+    },
+    {
+      "id": "s012",
+      "items": [
+        {
+          "transliteration": "wa-al-jabal-a sara ʿAliyy",
+          "text": "— *'And [along with] the mountain, Ali walked' (incorrect ordering)."
+        }
+      ]
+    },
+    {
+      "id": "s013",
+      "text": "Iʿrab of Al-Mafʿul Maʿah"
+    },
+    {
+      "id": "s014",
+      "text": "The ruling for al-mafʿul maʿah is the accusative (al-nasb). However, al-mafʿul maʿah can be confused with al-ʿatf (conjunction). The distinction between them is as follows:"
+    },
+    {
+      "id": "s015",
+      "text": "1 — If conjoining (ʿatf) makes no sense semantically but accompaniment (maʿiyya) does, the noun after the waw is al-mafʿul maʿah, e.g.:"
+    },
+    {
+      "id": "s016",
+      "items": [
+        {
+          "transliteration": "sir-tu wa-al-jabal-a",
+          "text": "— I walked along (with the route alongside) the mountain."
+        }
+      ]
+    },
+    {
+      "id": "s017",
+      "text": "Conjunction does not make sense — because the mountain does not walk; accompaniment does make sense. So (al-jabal) is al-mafʿul maʿah in the accusative."
+    },
+    {
+      "id": "s018",
+      "text": "2 — If accompaniment makes no sense but conjoining does, the noun after the waw is conjoined (maʿtuf ʿalayh), e.g.:"
+    },
+    {
+      "id": "s019",
+      "items": [
+        {
+          "transliteration": "zur-tu Makka-ta wa-al-Madinat-a",
+          "text": "— I visited Mecca and [then] al-Madinah."
+        }
+      ]
+    },
+    {
+      "id": "s020",
+      "text": "Accompaniment does not make sense — because I visited Mecca first, then visited al-Madinah; so 'al-Madinah' is conjoined onto 'Makka'."
+    },
+    {
+      "id": "s021",
+      "text": "Examples of Iʿrab for Al-Mafʿul Maʿah"
+    },
+    {
+      "id": "s022",
+      "items": [
+        {
+          "transliteration": "istawa al-maʾ-u wa-al-khashabat-a",
+          "text": "— The water became level along with the plank (i.e., reached its level)."
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "text": "istawa: a past-tense verb fixed on an estimated fatha at its end, prevented from appearing because of taʿadhdhur (the alif cannot bear a vowel).\nal-maʾu: the subject (faʿil) in the nominative case, marked by the manifest damma at its end.\nwa-al-khashabata: the waw — waw al-maʿiyya; al-khashabata — mafʿul maʿah in the accusative case, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s024",
+      "items": [
+        {
+          "transliteration": "Zayd-un saʾir-un wa-al-tariq-a",
+          "text": "— Zayd is walking along the road."
+        }
+      ]
+    },
+    {
+      "id": "s025",
+      "text": "Zayd: mubtadaʾ in the nominative case, marked by the manifest damma at its end.\nsaʾir: khabar (an active participle, ism al-faʿil) in the nominative case, marked by the manifest damma at its end.\nwa-al-tariqa: the waw — waw al-maʿiyya; al-tariq — mafʿul maʿah in the accusative case, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s026",
+      "items": [
+        {
+          "transliteration": "kayfa anta wa-al-imtihan-a",
+          "text": "— How are you along with [coping with] the exam?"
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "text": "kayfa: an interrogative noun fixed on fatha, in the position of nominative as a fronted khabar.\nanta: a separate pronoun fixed on fatha, in the position of nominative as a postponed mubtadaʾ.\nwa-al-imtihana: the waw — waw al-maʿiyya; al-imtihan — mafʿul maʿah in the accusative case, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s028",
+      "text": "Examples of Al-Mafʿul Maʿah from the Noble Quran"
+    },
+    {
+      "id": "s029",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "text": "— \"...so resolve upon your plan and [call upon] your associates...\" — Quran 10:71 (Sahih International)"
+        },
+        {
+          "text": "— \"And [also for] those who were settled in the Home [i.e., al-Madinah] and [adopted] the faith before them...\" — Quran 59:9 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "label_en": "Note",
+      "text": "It is also permissible to take the waw in these two verses as a conjunction, with what follows it being a direct object of an omitted verb — implied as 'invoke and gather' (idʿu wa-jmaʿu) in the first verse, and 'be sincere [in faith]' (akhlasu) in the second."
+    },
+    {
+      "id": "s032",
+      "text": "Exercises on Al-Mafʿul Maʿah"
+    },
+    {
+      "id": "s033",
+      "text": "1 — Place each of the following nouns as al-mafʿul maʿah in a meaningful sentence."
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "al-jabal",
+          "text": "the mountain"
+        },
+        {
+          "transliteration": "al-shatiʾ",
+          "text": "the shore"
+        },
+        {
+          "transliteration": "al-sadiq",
+          "text": "the friend"
+        },
+        {
+          "transliteration": "al-sabah",
+          "text": "the morning"
+        },
+        {
+          "transliteration": "al-haql",
+          "text": "the field"
+        },
+        {
+          "transliteration": "al-bahr",
+          "text": "the sea"
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "2 — Distinguish waw al-maʿiyya from other instances of waw in the following sentences:"
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "transliteration": "rafaq-tu abi wa-ummi fi al-safar",
+          "text": "— I accompanied my father and my mother on the journey."
+        },
+        {
+          "transliteration": "istayqaz-tu wa-tuluʿ-a al-shams",
+          "text": "— I awoke along with the sunrise."
+        },
+        {
+          "transliteration": "namat ukhti wa-luʿbat-a-ha",
+          "text": "— My sister slept along with her doll."
+        },
+        {
+          "transliteration": "ittafaqa akhi wa-sadiq-u-hu ʿala al-dhahab-i ila al-sinima",
+          "text": "— My brother and his friend agreed to go to the cinema."
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "3 — Provide the iʿrab for the underlined portions:"
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "daʿ-ni wa-shaʾn-i",
+          "text": "— Leave me alone with my own affairs."
+        },
+        {
+          "transliteration": "sir-tu wa-al-saqiya",
+          "text": "— I walked along the irrigation canal."
+        },
+        {
+          "transliteration": "ma anta wa-sahib-a-ka saʿid-an",
+          "text": "— What [business have] you along with your friend Saʿid?"
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "label_en": "Note",
+      "text": "Try working through the answers yourself first, then check them against a teacher or grammar reference."
+    }
+  ]
+}

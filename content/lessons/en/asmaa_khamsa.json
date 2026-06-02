@@ -1,0 +1,312 @@
+{
+  "lesson_id": "asmaa_khamsa",
+  "language": "en",
+  "title": "Al-Asmaʾ al-Khamsa (the Five Nouns)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "These are nouns that the grammarians have restricted to this number (five): ab ('father'), akh ('brother'), ham ('father-in-law / male in-law'), fu ('mouth'), and dhu ('possessor of'). Some have added a sixth: hanu (denoting 'something / unmentionable'). So if you hear the term 'the Six Nouns', know that the sixth is 'hanu'."
+    },
+    {
+      "id": "s002",
+      "text": "The Five Nouns and Their Meanings"
+    },
+    {
+      "id": "s003",
+      "text": "ab ('father') and akh ('brother'): need no explanation."
+    },
+    {
+      "id": "s004",
+      "text": "dhu: meaning 'sahib' ('possessor of, owner of, having the quality of')."
+    },
+    {
+      "id": "s005",
+      "text": "fu: meaning 'the mouth' (al-fam)."
+    },
+    {
+      "id": "s006",
+      "text": "ham: refers to any in-law of the husband or wife — whether a parent or otherwise. Common usage, however, restricts it to the parent (father-in-law)."
+    },
+    {
+      "id": "s007",
+      "text": "hanu: refers to a trifling matter — a euphemism for anything one finds unseemly to mention explicitly."
+    },
+    {
+      "id": "s008",
+      "text": "Sentences with the Five Nouns"
+    },
+    {
+      "id": "s009",
+      "items": [
+        {
+          "transliteration": "abu-ka tabib-un mahir",
+          "text": "— Your father is a skilled doctor."
+        },
+        {
+          "transliteration": "laʿalla al-qadim-a abu Muhammad",
+          "text": "— Perhaps the one approaching is the father of Muhammad."
+        },
+        {
+          "transliteration": "akhu-ka mujtahid",
+          "text": "— Your brother is diligent."
+        },
+        {
+          "transliteration": "anta dhu irada",
+          "text": "— You are a man of will."
+        },
+        {
+          "transliteration": "la fadda Allah-u fa-ka",
+          "text": "— May Allah not break your mouth (i.e., a prayer for the speaker's well-being)."
+        }
+      ]
+    },
+    {
+      "id": "s010",
+      "text": "Iʿrab of the Five Nouns"
+    },
+    {
+      "id": "s011",
+      "text": "The Five Nouns take rafʿ (nominative) with waw (in place of damma); nasb (accusative) with alif (in place of fatha); and jarr (genitive) with yaʾ (in place of kasra)."
+    },
+    {
+      "id": "s012",
+      "text": "Examples:"
+    },
+    {
+      "id": "s013",
+      "items": [
+        {
+          "transliteration": "abu-ka raʾiʿ",
+          "text": "— Your father is wonderful. (abu — mubtadaʾ in the nominative, marked by waw because it is one of the Five Nouns.)"
+        },
+        {
+          "transliteration": "raʾay-tu akha-ka",
+          "text": "— I saw your brother. (akha — direct object in the accusative, marked by alif because it is one of the Five Nouns.)"
+        },
+        {
+          "transliteration": "nazara tabib-u al-asnan-i ila fi-ka",
+          "text": "— The dentist looked into your mouth. (fi — a noun in the genitive after 'ila', its genitive sign being yaʾ, because it is one of the Five Nouns.)"
+        }
+      ]
+    },
+    {
+      "id": "s014",
+      "text": "Conditions for Inflecting the Five Nouns with Letters"
+    },
+    {
+      "id": "s015",
+      "text": "For us to inflect the Five Nouns by the rules mentioned, certain general and specific conditions are required."
+    },
+    {
+      "id": "s016",
+      "text": "General Conditions"
+    },
+    {
+      "id": "s017",
+      "items": [
+        "1 — They must be singular. If they are plural — e.g., abaʾ ('fathers') — we cannot put it in the nominative with waw; rather it is inflected with damma because it is a broken plural.",
+        "2 — They must be in their full (non-diminutive) form. If you say 'jaʾa ukhayyu-ka' (using the diminutive 'ukhayy'), then it takes nominative with damma.",
+        "3 — They must be in construct (mudaf). For example, 'abuka' ('your father'); if the construct (idafa) is removed, it becomes simply 'abun' — and is then inflected with regular vowels (e.g., 'la-hu akhun', 'banat al-akhi').",
+        "4 — They must be annexed to something other than the speaker's yaʾ — otherwise they take notional vowel-marks before the yaʾ."
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "Note: Whether the Five Nouns are annexed to a pronoun or to a manifest noun, the rule applies — as in the name 'Abu Bakr', for example."
+    },
+    {
+      "id": "s019",
+      "text": "Example:"
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "akh-i yuhibb-u al-riyada",
+          "text": "— My brother loves sports. (akhi — mubtadaʾ in the nominative, marked by an estimated damma before the yaʾ.)"
+        },
+        {
+          "transliteration": "inna ab-i marid",
+          "text": "— Indeed my father is sick. (abi — ism inna in the accusative, marked by an estimated fatha before the yaʾ.)"
+        },
+        {
+          "transliteration": "istaʿan-tu bi-akh-i",
+          "text": "— I sought help from my brother. (akhi — a noun in the genitive, marked by an estimated kasra before the yaʾ.)"
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "Specific Conditions (for 'dhu' and 'fu')"
+    },
+    {
+      "id": "s022",
+      "text": "— Conditions for 'dhu':"
+    },
+    {
+      "id": "s023",
+      "text": "It must mean 'sahib' ('possessor of'), to distinguish it from 'dhu' meaning 'alladhi' ('the one who/which')."
+    },
+    {
+      "id": "s024",
+      "text": "Example of 'dhu' meaning 'sahib':"
+    },
+    {
+      "id": "s025",
+      "items": [
+        {
+          "transliteration": "dhu al-ʿilm-i yashqa fi al-naʿim-i bi-ʿilm-i-hi",
+          "text": "— The man of knowledge labors even in comfort because of his knowledge."
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "text": "Example of 'dhu' meaning 'alladhi' ('which'):"
+    },
+    {
+      "id": "s027",
+      "text": "[Classical poetry]: 'Indeed the water is the water of my father and grandfather; and my well is what I dug and what I covered.' (here 'dhu' means 'alladhi' — 'which')"
+    },
+    {
+      "id": "s028",
+      "text": "— Conditions for 'fu':"
+    },
+    {
+      "id": "s029",
+      "text": "The mim must be dropped from its end; otherwise it is inflected with regular manifest vowels."
+    },
+    {
+      "id": "s030",
+      "text": "Example:"
+    },
+    {
+      "id": "s031",
+      "items": [
+        {
+          "transliteration": "la fadda fu-ka",
+          "text": "— May your mouth not be broken."
+        },
+        {
+          "transliteration": "amsik fa-ka",
+          "text": "— Hold your mouth (i.e., be silent)."
+        },
+        {
+          "transliteration": "ihdhar ma talfaz min fi-ka",
+          "text": "— Beware of what you utter from your mouth."
+        }
+      ]
+    },
+    {
+      "id": "s032",
+      "text": "But if it retains the mim, it is parsed by its manifest vowel-marks."
+    },
+    {
+      "id": "s033",
+      "text": "Example:"
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "fam-u al-khayr-i anja min fam-i al-suʾ",
+          "text": "— A mouth of good is safer than a mouth of evil."
+        },
+        {
+          "transliteration": "ma ajmala al-fam-a al-natiq-a bi-l-khayr",
+          "text": "— How beautiful is the mouth that speaks goodness!"
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "Examples of the Five Nouns from the Noble Quran"
+    },
+    {
+      "id": "s036",
+      "text": "— \"O sister of Aaron, your father was not a man of evil...\" — Quran 19:28 (Sahih International)"
+    },
+    {
+      "id": "s037",
+      "text": "abu-ka: ism kana in the nominative, marked by waw because it is one of the Five Nouns."
+    },
+    {
+      "id": "s038",
+      "text": "— \"Muhammad is not the father of [any] one of your men, but [he is] the Messenger of Allah...\" — Quran 33:40 (Sahih International)"
+    },
+    {
+      "id": "s039",
+      "text": "aba: khabar kana in the accusative, marked by alif because it is one of the Five Nouns."
+    },
+    {
+      "id": "s040",
+      "text": "— \"And those they call upon besides Him do not respond to them with a thing — except as one who stretches his hands toward water [calling] for it to reach his mouth, but it will not reach it...\" — Quran 13:14 (Sahih International)"
+    },
+    {
+      "id": "s041",
+      "text": "fa-hu: a direct object in the accusative, marked by alif because it is one of the Five Nouns; the haʾ is a mudaf ilayh."
+    },
+    {
+      "id": "s042",
+      "text": "— \"And Allah is the possessor of great bounty.\" — Quran 3:74 (Sahih International)"
+    },
+    {
+      "id": "s043",
+      "text": "dhu: a khabar in the nominative, marked by waw because it is one of the Five Nouns."
+    },
+    {
+      "id": "s044",
+      "text": "A Short Story Featuring the Five Nouns"
+    },
+    {
+      "id": "s045",
+      "text": "When Ahmad passed his secondary-school examination, he traveled abroad for higher studies. From there he wrote a letter to his brother ʿAziz, advising him about their parents:"
+    },
+    {
+      "id": "s046",
+      "text": "'O my brother ʿAziz, be gentle to our father — for our father is the one who works for our sake so we may attain the heights of dignity in life. And show mercy to our mother, who carried us as embryos in her womb, kept watch over our comfort, and toiled and struggled to provide us with a comfortable life. Honoring her care for us is a religious, moral, and human duty.'"
+    },
+    {
+      "id": "s047",
+      "text": "'For the one of intellect and faithfulness is he who respects his parents, loves them, complies with their commands, and helps them when they need him. And no one attains the pleasure of Allah and their pleasure except one of praiseworthy character and noble morals — who, with his mouth (fi-hi), mentions them only with kind words. Allah Most High has said:'"
+    },
+    {
+      "id": "s048",
+      "text": "\"...so do not say to them [so much as] 'uff,' and do not repel them...\" — Quran 17:23 (Sahih International)",
+      "is_quran": true,
+      "surah_en": "Al-Israʾ",
+      "surah_number": 17,
+      "ayah": 23,
+      "translation_source": "Sahih International"
+    },
+    {
+      "id": "s049",
+      "text": "Exercises on the Five Nouns"
+    },
+    {
+      "id": "s050",
+      "text": "After following our explanation of the rules of the Five Nouns, here are some simple exercises to test your understanding."
+    },
+    {
+      "id": "s051",
+      "text": "1 — Identify the Five Nouns in the previous story and provide their full vowel-markings."
+    },
+    {
+      "id": "s052",
+      "text": "2 — Compose three sentences in which the Five Nouns appear in the nominative, three sentences in which they appear in the accusative, and three sentences in which they appear in the genitive."
+    },
+    {
+      "id": "s053",
+      "text": "3 — Provide the iʿrab of the following:"
+    },
+    {
+      "id": "s054",
+      "items": [
+        {
+          "transliteration": "laʿalla al-qadim-a abu Muhammad",
+          "text": "— Perhaps the one approaching is the father of Muhammad."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "lesson_id": "eaarab_almodare",
+  "language": "en",
+  "title": "Iʿrab of the Present-Tense Verb (Al-Fiʿl al-Mudariʿ)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Iʿrab of the Present-Tense Verb"
+    },
+    {
+      "id": "s002",
+      "text": "The present-tense verb is the only verb that is muʿrab (declinable) among the verbs — its ending changes according to the operators that enter upon it. It has three iʿrab states: nominative (rafʿ), accusative (nasb), and jussive (jazm)."
+    },
+    {
+      "id": "s003",
+      "label_en": "Rule",
+      "text": "The present-tense verb is in the nominative if not preceded by an accusative- or jussive-governing particle; in the accusative if preceded by one of the accusative-governing particles; and in the jussive if preceded by one of the jussive-governing particles."
+    },
+    {
+      "id": "s004",
+      "text": "First: Putting the Present-Tense Verb in the Nominative"
+    },
+    {
+      "id": "s005",
+      "label_en": "Rule",
+      "text": "The present-tense verb is in the nominative when free of accusative- or jussive-governors — i.e., not preceded by any nasb- or jazm-governing particle."
+    },
+    {
+      "id": "s006",
+      "text": "Markers of the Nominative for the Present-Tense Verb"
+    },
+    {
+      "id": "s007",
+      "items": [
+        "Manifest damma: when ending in a sound consonant, e.g., yaktubu, yadrusu.",
+        "Estimated damma: when ending in a weak letter (alif, waw, or yaʾ), e.g., yasʿa, yadʿu, yaqdi.",
+        "Retention of the nun: in the Five Verbs (the present tense joined to alif al-ithnayn, waw al-jamaʿa, or yaʾ al-mukhataba), e.g., yaktubani, yaktubuna, taktubina."
+      ]
+    },
+    {
+      "id": "s008",
+      "items": [
+        {
+          "transliteration": "yajtahidu al-talib-u fi durus-i-hi",
+          "text": "— The student strives in his lessons."
+        },
+        {
+          "transliteration": "yasʿa al-muʾmin-u ila al-khayr",
+          "text": "— The believer strives toward goodness."
+        },
+        {
+          "transliteration": "yadʿu al-waʿiz-u ila Allah",
+          "text": "— The preacher calls to Allah."
+        },
+        {
+          "transliteration": "yaqdi al-qadi-i bi-l-haqq",
+          "text": "— The judge rules with truth."
+        },
+        {
+          "transliteration": "al-talibani yaktubani al-dars",
+          "text": "— The two students write the lesson."
+        },
+        {
+          "transliteration": "al-tullab-u yaktubuna al-dars",
+          "text": "— The students write the lesson."
+        },
+        {
+          "transliteration": "anti taktubina al-dars",
+          "text": "— You (fem.) write the lesson."
+        }
+      ]
+    },
+    {
+      "id": "s009",
+      "label_en": "Definition",
+      "text": "Al-afʿal al-khamsa (the Five Verbs) are every present-tense verb attached to alif al-ithnayn, waw al-jamaʿa, or yaʾ al-mukhataba. Their patterns are: yafʿalani, tafʿalani, yafʿaluna, tafʿaluna, tafʿalina."
+    },
+    {
+      "id": "s010",
+      "text": "Second: Putting the Present-Tense Verb in the Accusative"
+    },
+    {
+      "id": "s011",
+      "label_en": "Rule",
+      "text": "The present-tense verb is put in the accusative when preceded by one of the accusative-governing particles, namely: an, lan, kay, lam al-taʿlil, hatta, faʾ al-sababiyya, waw al-maʿiyya, lam al-juhud, idhan."
+    },
+    {
+      "id": "s012",
+      "text": "Particles That Put the Present-Tense Verb in the Accusative"
+    },
+    {
+      "id": "s013",
+      "label_en": "Definition",
+      "text": "An: an infinitival, accusative-governing, future-pointing particle. The verb following it is interpreted together with it as a verbal noun (masdar muʾawwal)."
+    },
+    {
+      "id": "s014",
+      "items": [
+        {
+          "transliteration": "yasurr-u-ni an tanjaha",
+          "text": "— It pleases me that you should succeed."
+        },
+        {
+          "transliteration": "uhibb-u an aqraʾ-a al-Qurʾan",
+          "text": "— I love to read the Quran."
+        }
+      ]
+    },
+    {
+      "id": "s015",
+      "label_en": "Definition",
+      "text": "Lan: an accusative-governing, negating, future-pointing particle, indicating the negation of an action in the future."
+    },
+    {
+      "id": "s016",
+      "items": [
+        {
+          "transliteration": "lan ataʾakhkhar-a ʿan al-hudur",
+          "text": "— I will never be late for attendance."
+        },
+        {
+          "transliteration": "lan yafuz-a al-kasul",
+          "text": "— The lazy one will never win."
+        }
+      ]
+    },
+    {
+      "id": "s017",
+      "label_en": "Definition",
+      "text": "Kay: an infinitival, accusative-governing particle conveying the meaning of purpose ('in order to')."
+    },
+    {
+      "id": "s018",
+      "items": [
+        {
+          "transliteration": "ijtahid kay tanjah-a",
+          "text": "— Strive in order to succeed."
+        },
+        {
+          "transliteration": "udrus kay tatafawwaq-a",
+          "text": "— Study in order to excel."
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "label_en": "Definition",
+      "text": "Lam al-taʿlil (the lam of purpose): a kasra-bearing lam that enters upon the present-tense verb to convey purpose; it puts the verb in the accusative by an obligatorily implicit 'an'."
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "jiʾtu li-ataʿallam-a",
+          "text": "— I came in order to learn."
+        },
+        {
+          "transliteration": "dhahab-tu ila al-masjid li-usalliy-a",
+          "text": "— I went to the mosque in order to pray."
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "label_en": "Definition",
+      "text": "Hatta: a preposition / accusative-governing particle conveying the meaning of an end-point or purpose; it puts the present-tense verb in the accusative by an obligatorily implicit 'an'."
+    },
+    {
+      "id": "s022",
+      "items": [
+        {
+          "transliteration": "ijtahid hatta tanjah-a",
+          "text": "— Strive until you succeed."
+        },
+        {
+          "transliteration": "sir-tu hatta ablugh-a al-madina",
+          "text": "— I walked until I reached the city."
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "label_en": "Definition",
+      "text": "Faʾ al-sababiyya (the faʾ of causation): a faʾ indicating that what precedes it is a cause for what follows. It is preceded by a negation or a request (command, prohibition, interrogative, wish, hope, offer, exhortation)."
+    },
+    {
+      "id": "s024",
+      "items": [
+        {
+          "transliteration": "ijtahid fa-tanjah-a",
+          "text": "— Strive — so that you may succeed."
+        },
+        {
+          "transliteration": "la taksal fa-tandam-a",
+          "text": "— Do not be lazy — lest you regret."
+        },
+        {
+          "transliteration": "hal tazur-u-na fa-nukrim-a-ka?",
+          "text": "— Will you visit us so that we may honor you?"
+        }
+      ]
+    },
+    {
+      "id": "s025",
+      "label_en": "Definition",
+      "text": "Waw al-maʿiyya (the waw of accompaniment): a waw indicating accompaniment, preceded by a negation or a request, like faʾ al-sababiyya."
+    },
+    {
+      "id": "s026",
+      "items": [
+        {
+          "transliteration": "la tanha ʿan khuluqin wa-taʾtiy-a mithl-a-hu",
+          "text": "— Do not forbid a trait while doing the like of it."
+        },
+        {
+          "transliteration": "la taʾkul al-samak-a wa-tashrab-a al-laban",
+          "text": "— Do not eat fish while drinking milk."
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "label_en": "Definition",
+      "text": "Lam al-juhud (the lam of denial): a kasra-bearing lam preceded by a negated form of 'kana' (ma kana, lam yakun); it puts the present-tense verb in the accusative by an obligatorily implicit 'an'."
+    },
+    {
+      "id": "s028",
+      "items": [
+        {
+          "transliteration": "ma kana Allah-u li-yuʿadhdhib-a-hum",
+          "text": "— Allah was not to punish them."
+        },
+        {
+          "transliteration": "lam yakun al-muʾmin-u li-yakdhib-a",
+          "text": "— The believer would never lie."
+        }
+      ]
+    },
+    {
+      "id": "s029",
+      "label_en": "Definition",
+      "text": "Idhan: a particle of response, recompense, and accusative-governance — indicating a response and recompense to prior speech. It puts the present-tense verb in the accusative under conditions: it must be at the head of the speech, the verb must indicate the future, and nothing may separate it from the verb other than an oath."
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "(sa-azur-u-ka ghadan) idhan ukrim-a-ka",
+          "text": "— ('I will visit you tomorrow.') — Then I shall honor you."
+        },
+        {
+          "transliteration": "(sa-ajtahid) idhan tanjah-a",
+          "text": "— ('I will strive.') — Then you shall succeed."
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "Markers of the Accusative for the Present-Tense Verb"
+    },
+    {
+      "id": "s032",
+      "items": [
+        "Manifest fatha: if ending in a sound consonant or in a weak waw or yaʾ, e.g., lan yaktub-a, lan yadʿuw-a, lan yaqdiy-a.",
+        "Estimated fatha: if ending in alif, e.g., lan yasʿa.",
+        "Dropping of the nun: if it is one of the Five Verbs, e.g., lan yaktub-a, lan yaktub-u, lan taktub-i."
+      ]
+    },
+    {
+      "id": "s033",
+      "items": [
+        {
+          "transliteration": "lan yuhmil-a al-talib-u wajib-a-hu",
+          "text": "— The student will not neglect his assignment."
+        },
+        {
+          "transliteration": "lan yasʿa al-kasul ila al-majd",
+          "text": "— The lazy one will never strive toward glory."
+        },
+        {
+          "transliteration": "lan yadʿuw-a al-muʾmin illa Allah",
+          "text": "— The believer will never call upon any but Allah."
+        },
+        {
+          "transliteration": "lan yaqdiy-a al-zalim bi-l-ʿadl",
+          "text": "— The unjust will never rule with justice."
+        },
+        {
+          "transliteration": "al-talibani lan yataʾakhkhara",
+          "text": "— The two students will not be late."
+        },
+        {
+          "transliteration": "al-tullab-u lan yataʾakhkharu",
+          "text": "— The students will not be late."
+        },
+        {
+          "transliteration": "anti lan tataʾakhkhari",
+          "text": "— You (fem.) will not be late."
+        }
+      ]
+    },
+    {
+      "id": "s034",
+      "text": "Third: Putting the Present-Tense Verb in the Jussive"
+    },
+    {
+      "id": "s035",
+      "label_en": "Rule",
+      "text": "The present-tense verb is put in the jussive when preceded by one of the jussive-governing particles. These are of two kinds: those that govern a single verb, and those that govern two verbs."
+    },
+    {
+      "id": "s036",
+      "text": "First: Particles Governing a Single Verb"
+    },
+    {
+      "id": "s037",
+      "items": [
+        "Lam: a particle of negation, jussive-governance, and tense-shift; it negates the action in the past.",
+        "Lamma: a particle of negation, jussive-governance, and tense-shift; it negates the action in the past while extending the negation up to the moment of speaking.",
+        "Lam al-amr (the imperative lam): a kasra-bearing lam indicating a request.",
+        "La al-nahiya (the prohibitive 'la'): a particle of prohibition and jussive-governance, indicating a request to refrain from an action."
+      ]
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "lam yahdur al-talib",
+          "text": "— The student did not attend."
+        },
+        {
+          "transliteration": "lamma yaʾti al-muʿallim",
+          "text": "— The teacher has not yet come."
+        },
+        {
+          "transliteration": "li-yajtahid kull-u talib",
+          "text": "— Let every student strive."
+        },
+        {
+          "transliteration": "la tuhmil wajib-a-ka",
+          "text": "— Do not neglect your assignment."
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "label_en": "Note",
+      "text": "Difference between 'lam' and 'lamma': 'lam' negates the action in the past, and its negation may end or continue. 'Lamma' negates the action in the past with the negation continuing up to the moment of speaking, and with the expectation that it may yet occur."
+    },
+    {
+      "id": "s040",
+      "text": "Second: Particles Governing Two Verbs"
+    },
+    {
+      "id": "s041",
+      "label_en": "Rule",
+      "text": "These are the conditional jussive-governing particles. They put two verbs in the jussive: the first is the conditional verb (fiʿl al-shart), and the second is the response of the condition (jawab al-shart). They are: in, man, ma, mahma, mata, ayyana, ayna, anna, haythuma, kayfama, ayyu."
+    },
+    {
+      "id": "s042",
+      "headers": [
+        "Particle",
+        "Type",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          {
+            "transliteration": "in",
+            "text": "(if)"
+          },
+          "Particle",
+          "For a future condition"
+        ],
+        [
+          {
+            "transliteration": "man",
+            "text": "(whoever)"
+          },
+          "Noun",
+          "For rational beings"
+        ],
+        [
+          {
+            "transliteration": "ma",
+            "text": "(whatever)"
+          },
+          "Noun",
+          "For non-rational entities"
+        ],
+        [
+          {
+            "transliteration": "mahma",
+            "text": "(however)"
+          },
+          "Noun",
+          "For non-rational entities"
+        ],
+        [
+          {
+            "transliteration": "mata",
+            "text": "(whenever)"
+          },
+          "Noun",
+          "For time"
+        ],
+        [
+          {
+            "transliteration": "ayyana",
+            "text": "(at whatever time)"
+          },
+          "Noun",
+          "For time"
+        ],
+        [
+          {
+            "transliteration": "ayna",
+            "text": "(wherever)"
+          },
+          "Noun",
+          "For place"
+        ],
+        [
+          {
+            "transliteration": "anna",
+            "text": "(however/wherever)"
+          },
+          "Noun",
+          "For place"
+        ],
+        [
+          {
+            "transliteration": "haythuma",
+            "text": "(wherever)"
+          },
+          "Noun",
+          "For place"
+        ],
+        [
+          {
+            "transliteration": "kayfama",
+            "text": "(however)"
+          },
+          "Noun",
+          "For state"
+        ],
+        [
+          {
+            "transliteration": "ayyu",
+            "text": "(whichever)"
+          },
+          "Noun",
+          "Per what it is annexed to"
+        ]
+      ]
+    },
+    {
+      "id": "s043",
+      "items": [
+        {
+          "transliteration": "in tajtahid tanjah",
+          "text": "— If you strive, you will succeed."
+        },
+        {
+          "transliteration": "man yazraʿ yahsud",
+          "text": "— Whoever sows reaps."
+        },
+        {
+          "transliteration": "ma tafʿal min khayrin tajid-hu",
+          "text": "— Whatever good you do, you will find it [waiting]."
+        },
+        {
+          "transliteration": "mahma tukhfi yaʿlam-hu Allah",
+          "text": "— Whatever you conceal, Allah knows it."
+        },
+        {
+          "transliteration": "mata taʾtina tajidna",
+          "text": "— Whenever you come to us, you will find us."
+        },
+        {
+          "transliteration": "aynama tadhhab adhhab maʿa-ka",
+          "text": "— Wherever you go, I shall go with you."
+        },
+        {
+          "transliteration": "kayfama takun yakun qarin-u-ka",
+          "text": "— However you are, your companion will be."
+        },
+        {
+          "transliteration": "ayya kitabin taqraʾ tastafid min-hu",
+          "text": "— Whichever book you read, you will benefit from it."
+        }
+      ]
+    },
+    {
+      "id": "s044",
+      "text": "Markers of the Jussive for the Present-Tense Verb"
+    },
+    {
+      "id": "s045",
+      "items": [
+        "Sukun: if ending in a sound consonant, e.g., lam yaktub.",
+        "Dropping of the weak letter: if ending in alif, waw, or yaʾ, e.g., lam yasʿ, lam yadʿu, lam yaqdi.",
+        "Dropping of the nun: if it is one of the Five Verbs, e.g., lam yaktuba, lam yaktubu, lam taktubi."
+      ]
+    },
+    {
+      "id": "s046",
+      "items": [
+        {
+          "transliteration": "lam yuhmil al-talib-u wajib-a-hu",
+          "text": "— The student did not neglect his assignment."
+        },
+        {
+          "transliteration": "lam yasʿ al-kasul ila al-majd",
+          "text": "— The lazy one did not strive toward glory."
+        },
+        {
+          "transliteration": "lam yadʿu al-muʾmin illa Allah",
+          "text": "— The believer did not call upon any but Allah."
+        },
+        {
+          "transliteration": "lam yaqdi al-qadi bi-l-zulm",
+          "text": "— The judge did not rule with injustice."
+        },
+        {
+          "transliteration": "al-talibani lam yataʾakhkhara",
+          "text": "— The two students were not late."
+        },
+        {
+          "transliteration": "al-tullab-u lam yataʾakhkharu",
+          "text": "— The students were not late."
+        },
+        {
+          "transliteration": "anti lam tataʾakhkhari",
+          "text": "— You (fem.) were not late."
+        }
+      ]
+    },
+    {
+      "id": "s047",
+      "text": "The Response of the Condition (Jawab al-Shart) and Its Connection to Faʾ"
+    },
+    {
+      "id": "s048",
+      "label_en": "Rule",
+      "text": "Jawab al-shart must be connected to a faʾ in seven cases — gathered in the poet's verse: 'A nominal sentence, an imperative, an inflexible verb / and with ma, qad, lan, and the future markers'. They are: when jawab al-shart is a nominal clause; an imperative clause (command, prohibition, interrogative); an inflexible verb; or a verb preceded by ma, qad, lan, sa-, or sawfa."
+    },
+    {
+      "id": "s049",
+      "items": [
+        {
+          "transliteration": "in tajtahid fa-anta najih",
+          "text": "— If you strive, you are a successful one. (nominal clause)"
+        },
+        {
+          "transliteration": "in najahta fa-jtahid fi al-shukr",
+          "text": "— If you have succeeded, then strive in giving thanks. (request)"
+        },
+        {
+          "transliteration": "man kasila fa-niʿma ma yastahiqq",
+          "text": "— Whoever was lazy — how excellent is what he deserves [ironic]. (inflexible verb)"
+        },
+        {
+          "transliteration": "in asaʾta fa-ma anta bi-muhsin",
+          "text": "— If you have done wrong, you are no doer of good. (preceded by ma)"
+        },
+        {
+          "transliteration": "in tajtahid fa-qad fuzta",
+          "text": "— If you strive, you have already won. (preceded by qad)"
+        },
+        {
+          "transliteration": "in taksal fa-lan tanjaha",
+          "text": "— If you are lazy, you will never succeed. (preceded by lan)"
+        },
+        {
+          "transliteration": "in tadrus fa-sa-tafuzu",
+          "text": "— If you study, you will win. (preceded by sa-)"
+        }
+      ]
+    },
+    {
+      "id": "s050",
+      "text": "Why must jawab al-shart be connected to faʾ in these cases?"
+    },
+    {
+      "id": "s051",
+      "text": "Because in these cases the response of the condition could not naturally serve as a condition. Therefore the link of recompense between it and the conditional verb is established only via the faʾ, which conveys causation and sequence."
+    },
+    {
+      "id": "s052",
+      "text": "Iʿrab Table for the Present-Tense Verb"
+    },
+    {
+      "id": "s053",
+      "headers": [
+        "State",
+        "Reason",
+        "Iʿrab Marker",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Nominative (rafʿ)",
+          "Free of nasb- and jazm-governors",
+          "Manifest or estimated damma; retention of the nun in the Five Verbs",
+          {
+            "transliteration": "yaktubu, yasʿa, yaktubuna"
+          }
+        ],
+        [
+          "Accusative (nasb)",
+          "Preceded by a nasb-governor",
+          "Manifest or estimated fatha; dropping of the nun in the Five Verbs",
+          {
+            "transliteration": "lan yaktuba, lan yasʿa, lan yaktubu"
+          }
+        ],
+        [
+          "Jussive (jazm)",
+          "Preceded by a jazm-governor",
+          "Sukun; dropping of the weak letter; dropping of the nun in the Five Verbs",
+          {
+            "transliteration": "lam yaktub, lam yasʿ, lam yaktubu"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s054",
+      "label_en": "Warning",
+      "text": "One must distinguish between the original (asliyya) and substitute (farʿiyya) iʿrab markers. The damma, fatha, and sukun are the original markers, while the retention of the nun, the dropping of the nun, and the dropping of the weak letter are substitute markers that stand in their place."
+    },
+    {
+      "id": "s055",
+      "label_en": "Note",
+      "text": "The present-tense verb becomes mabni in only two cases (and is not muʿrab in those): mabni on sukun if nun al-niswa is attached, and mabni on fatha if nun al-tawkid is directly attached. In all other cases it is always muʿrab."
+    },
+    {
+      "id": "s056",
+      "items": [
+        {
+          "transliteration": "al-talibat-u yaktubna al-dars",
+          "text": "— The female students write the lesson. (mabni on sukun)"
+        },
+        {
+          "transliteration": "wa-llah-i la-ajtahidann",
+          "text": "— By Allah, I shall surely strive. (mabni on fatha)"
+        }
+      ]
+    },
+    {
+      "id": "s057",
+      "text": "Allah Most High said: \"And do not approach unlawful sexual intercourse. Indeed, it is ever an immorality and is evil as a way.\" — Quran 17:32 (Sahih International)"
+    },
+    {
+      "id": "s058",
+      "text": "In His saying 'la taqrabu' (لا تَقْرَبُوا), 'taqrabu' is a present-tense verb in the jussive by 'la al-nahiya', its sign of jazm being the dropping of the nun (because it is one of the Five Verbs). Waw al-jamaʿa is the subject (faʿil)."
+    }
+  ]
+}

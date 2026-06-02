@@ -1,0 +1,625 @@
+{
+  "lesson_id": "alzarf",
+  "language": "en",
+  "title": "What Is Al-Mafʿul Fih (the Adverbial of Time/Place)?",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "shariba al-marid-u al-dawaʾ-a sabahan",
+          "text": "— The patient took the medicine in the morning."
+        },
+        {
+          "transliteration": "makath-tu bi-l-Qahirat-i shahran",
+          "text": "— I stayed in Cairo for a month."
+        },
+        {
+          "transliteration": "jalas-tu maʿa sadiq-i lahzatan",
+          "text": "— I sat with my friend for a moment."
+        },
+        {
+          "transliteration": "waqaf-tu amama al-mirʾa",
+          "text": "— I stood in front of the mirror."
+        },
+        {
+          "transliteration": "ikhtabaʾa al-tifl-u khalfa al-bab",
+          "text": "— The child hid behind the door."
+        },
+        {
+          "transliteration": "qafaz-tu fawqa al-sur",
+          "text": "— I jumped over the wall."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "If you reflect on the first three underlined words (sabahan, shahran, lahzatan), you notice they are nouns in the accusative; but if we look at them in terms of meaning, we find them indicating the time of the action's occurrence."
+    },
+    {
+      "id": "s004",
+      "text": "If you say 'shariba al-marid-u al-dawaʾ' ('the patient took the medicine'), the listener understands the act of drinking by the patient. But if you say 'shariba al-marid-u al-dawaʾ-a sabahan' ('the patient took the medicine in the morning'), the listener knows the time at which the patient took his medicine. This is what is called zarf al-zaman (adverbial of time)."
+    },
+    {
+      "id": "s005",
+      "text": "As for the words (amama, khalfa, fawqa), you find them indicating the location of the action's occurrence: the standing took place in front of the mirror; the hiding behind the door; the jumping over the wall. This is called zarf al-makan (adverbial of place). Both zarf al-zaman and zarf al-makan are called al-mafʿul fih."
+    },
+    {
+      "id": "s006",
+      "text": "Definition of Al-Mafʿul Fih"
+    },
+    {
+      "id": "s007",
+      "label_en": "Rule",
+      "text": "Al-mafʿul fih is a noun in the accusative indicating the time or place of the action's occurrence, carrying the meaning of 'in' (fi)."
+    },
+    {
+      "id": "s008",
+      "text": "What do you mean by 'carrying the meaning of fi'?"
+    },
+    {
+      "id": "s009",
+      "text": "Answer: That zarf al-zaman or zarf al-makan carries the sense of 'in'. So when you say 'safara yawma al-khamis' ('he traveled on Thursday' — i.e., 'in Thursday'), and when you say 'jalastu amama al-maktab' ('I sat in front of the desk' — i.e., 'in the direction of the desk')."
+    },
+    {
+      "id": "s010",
+      "text": "What if zarf al-zaman or al-makan does not carry the meaning of 'fi'?"
+    },
+    {
+      "id": "s011",
+      "text": "In that case, it is parsed according to its position in the sentence — it could be a subject, a direct object, or in the genitive. E.g.:"
+    },
+    {
+      "id": "s012",
+      "items": [
+        {
+          "transliteration": "aqbala yawm-u al-ʿid",
+          "text": "— The Eid day arrived. (subject)"
+        },
+        {
+          "transliteration": "tadhakkar-tu yawm-a al-hajj",
+          "text": "— I remembered the Hajj day. (direct object)"
+        },
+        {
+          "transliteration": "tajahhaz-tu li-yawm-i al-zifaf",
+          "text": "— I prepared for the wedding day. (in the genitive)"
+        }
+      ]
+    },
+    {
+      "id": "s013",
+      "text": "Examples of Al-Mafʿul Fih"
+    },
+    {
+      "id": "s014",
+      "items": [
+        "— Among the adverbials of time: yawm (day), shahr (month), layla (night), sabah (morning), masaʾ (evening), saʿa (hour), hin (when), waqt (time), mundhu (since).",
+        "— Among the adverbials of place: amama (in front of), khalfa (behind), waraʾa (behind), fawqa (above), tahta (below), yamin (right), shamal (left), lada (at), ʿinda (with), mil (a mile)."
+      ]
+    },
+    {
+      "id": "s015",
+      "text": "Wait — what is the relationship between al-mafʿul fih and the adverbials of time and place? Are they the same?"
+    },
+    {
+      "id": "s016",
+      "text": "Yes, exactly. As we know, two famous schools became renowned in the science of nahw: the schools of Kufa and Basra. The term 'al-mafʿul fih' was used by the Basrans, while the Kufans called it 'al-zarf'. Both are the same."
+    },
+    {
+      "id": "s017",
+      "text": "Sentences with Zarf al-Zaman"
+    },
+    {
+      "id": "s018",
+      "items": [
+        {
+          "transliteration": "wasala al-qitar-u zuhran",
+          "text": "— The train arrived at noon."
+        },
+        {
+          "transliteration": "intazar-tu saʿatan",
+          "text": "— I waited an hour."
+        },
+        {
+          "transliteration": "yanam-u al-haris-u naharan",
+          "text": "— The guard sleeps during the day."
+        },
+        {
+          "transliteration": "tuwqadu al-masabih-u laylan",
+          "text": "— The lamps are lit at night."
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "Sentences with Zarf al-Makan"
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "wadaʿ-tu al-waraqat-a bayna al-kutub",
+          "text": "— I placed the paper between the books."
+        },
+        {
+          "transliteration": "gharrada al-ʿusfur-u fawqa al-ghusn",
+          "text": "— The sparrow chirped on top of the branch."
+        },
+        {
+          "transliteration": "taqaʿ-u al-hadiqat-u hawla al-manzil",
+          "text": "— The garden lies around the house."
+        },
+        {
+          "transliteration": "jara ʿAliyy-un milan",
+          "text": "— ʿAli ran a mile."
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "Types of Zarf al-Zaman and al-Makan"
+    },
+    {
+      "id": "s022",
+      "text": "Al-zarf is of two types:"
+    },
+    {
+      "id": "s023",
+      "text": "1 — Vague (mubham): one indicating an unspecified time or place, e.g.:"
+    },
+    {
+      "id": "s024",
+      "items": [
+        {
+          "transliteration": "zarf al-zaman: hin, lahza, waqt",
+          "text": "(adverbial of time: when, moment, time)"
+        },
+        {
+          "transliteration": "zarf al-makan: amama, waraʾa, khalfa, yamin, yasar, fawqa, tahta, mil, kilometr",
+          "text": "(adverbial of place: in front of, behind, behind, right, left, above, below, mile, kilometer)"
+        }
+      ]
+    },
+    {
+      "id": "s025",
+      "text": "2 — Defined (mahdud): one indicating a specific time or place, e.g.:"
+    },
+    {
+      "id": "s026",
+      "items": [
+        {
+          "transliteration": "zarf al-zaman: yawm, shahr, sana, saʿa",
+          "text": "(adverbial of time: day, month, year, hour)"
+        },
+        {
+          "transliteration": "zarf al-makan: madrasa, masjid, hadiqa, masnaʿ",
+          "text": "(adverbial of place: school, mosque, garden, factory)"
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "text": "The Operator Linked to Al-Zarf"
+    },
+    {
+      "id": "s028",
+      "text": "— Adverbials must be attached to their operator (mutaʿalliq, the one putting them in the accusative). This operator may be:"
+    },
+    {
+      "id": "s029",
+      "text": "1 — A verb, e.g.:"
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "raʾay-tu akh-i ʿinda al-mughib",
+          "text": "— I saw my brother at sunset. (zarf al-zaman attached to the verb 'raʾaytu')"
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "2 — An active participle (ism al-faʿil), e.g.:"
+    },
+    {
+      "id": "s032",
+      "items": [
+        {
+          "transliteration": "anta dhahib-un ghadan",
+          "text": "— You are going tomorrow. (zarf al-zaman attached to the active participle 'dhahib')"
+        }
+      ]
+    },
+    {
+      "id": "s033",
+      "text": "3 — A passive participle (ism al-mafʿul), e.g.:"
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "akh-u-ka mashghul-un shahran",
+          "text": "— Your brother is busy for a month. (zarf al-zaman attached to the passive participle 'mashghul')"
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "4 — An intensive form (sigha al-mubalagha), e.g.:"
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "transliteration": "al-muʾmin-u sadduq-un tawala hayat-i-hi",
+          "text": "— The believer is exceedingly truthful throughout his life. (zarf al-zaman attached to the intensive form 'sadduq')"
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "Omission of the Zarf's Operator"
+    },
+    {
+      "id": "s038",
+      "text": "The operator of al-zarf may be permissibly omitted if there is contextual evidence, e.g.:"
+    },
+    {
+      "id": "s039",
+      "items": [
+        {
+          "transliteration": "mata safar-ta? — yawma al-jumʿa",
+          "text": "— 'When did you travel?' 'On Friday.' (i.e., 'I traveled on Friday')"
+        }
+      ]
+    },
+    {
+      "id": "s040",
+      "text": "The operator of al-zarf must be omitted obligatorily when al-zarf falls as:"
+    },
+    {
+      "id": "s041",
+      "text": "— A predicate (khabar), e.g.:"
+    },
+    {
+      "id": "s042",
+      "items": [
+        {
+          "transliteration": "al-imtihan-u baʿda usbuʿ",
+          "text": "— The exam is in a week."
+        }
+      ]
+    },
+    {
+      "id": "s043",
+      "text": "Implied: 'al-imtihanu kaʾinun baʿda usbuʿ' ('the exam is — existing — in a week')."
+    },
+    {
+      "id": "s044",
+      "text": "— A descriptive adjective (sifa), e.g.:"
+    },
+    {
+      "id": "s045",
+      "items": [
+        {
+          "transliteration": "wajad-tu taliban amama al-madrasa",
+          "text": "— I found a student in front of the school."
+        }
+      ]
+    },
+    {
+      "id": "s046",
+      "text": "Implied: 'wajadtu taliban (kabiran aw saghiran...) amama al-madrasa' ('I found a student [big or small...] in front of the school')."
+    },
+    {
+      "id": "s047",
+      "text": "— A circumstantial accusative (haal), e.g.:"
+    },
+    {
+      "id": "s048",
+      "items": [
+        {
+          "transliteration": "wajad-tu ʿAliyyan amama al-malʿab",
+          "text": "— I found ʿAli in front of the field."
+        }
+      ]
+    },
+    {
+      "id": "s049",
+      "text": "Implied: 'wajadtu ʿAliyyan (waqifan aw jalisan...) amama al-malʿab' ('I found ʿAli [standing or sitting...] in front of the field')."
+    },
+    {
+      "id": "s050",
+      "text": "— A relative clause (sila al-mawsul), e.g.:"
+    },
+    {
+      "id": "s051",
+      "items": [
+        {
+          "transliteration": "jaʾa alladhi ʿinda-ka",
+          "text": "— He who is at your place came."
+        }
+      ]
+    },
+    {
+      "id": "s052",
+      "text": "Implied: 'jaʾa alladhi kana ʿindaka' ('he who was at your place came')."
+    },
+    {
+      "id": "s053",
+      "text": "What May Substitute for Zarf al-Zaman and al-Makan"
+    },
+    {
+      "id": "s054",
+      "text": "Various nouns indicating time or place may substitute for zarf al-zaman or al-makan, namely:"
+    },
+    {
+      "id": "s055",
+      "text": "— A masdar indicating a specific time or distance, e.g.:"
+    },
+    {
+      "id": "s056",
+      "items": [
+        {
+          "transliteration": "irtahal-tu shuruq-a al-shams — jalas-tu qurba al-minbar",
+          "text": "— I set off at sunrise — I sat near the pulpit."
+        }
+      ]
+    },
+    {
+      "id": "s057",
+      "text": "— A noun annexed to al-zarf, e.g.:"
+    },
+    {
+      "id": "s058",
+      "items": [
+        {
+          "transliteration": "mashay-tu kulla al-layl — aqum-u al-layl-a baʿda al-ahyan",
+          "text": "— I walked all night — I rise during the night some of the time."
+        }
+      ]
+    },
+    {
+      "id": "s059",
+      "text": "— A descriptive adjective, e.g.:"
+    },
+    {
+      "id": "s060",
+      "items": [
+        {
+          "transliteration": "nim-tu qalilan",
+          "text": "— I slept a little."
+        }
+      ]
+    },
+    {
+      "id": "s061",
+      "text": "— A demonstrative pronoun, e.g.:"
+    },
+    {
+      "id": "s062",
+      "items": [
+        {
+          "transliteration": "ʿanay-tu hadha al-yawm-a kathiran",
+          "text": "— I suffered today greatly."
+        }
+      ]
+    },
+    {
+      "id": "s063",
+      "text": "— A number specifying al-zarf or annexed to al-zarf, e.g.:"
+    },
+    {
+      "id": "s064",
+      "items": [
+        {
+          "transliteration": "safar-tu thalath-a layalin — mashay-tu arbaʿina kilometran",
+          "text": "— I traveled three nights — I walked forty kilometers."
+        }
+      ]
+    },
+    {
+      "id": "s065",
+      "text": "Iʿrab of Al-Mafʿul Fih (Zarf al-Zaman and al-Makan)"
+    },
+    {
+      "id": "s066",
+      "label_en": "Rule",
+      "text": "Adverbials of time are in the accusative. Adverbials of place are mabni (indeclinable) — except for the names of the six directions (amama, waraʾa, khalfa, yamin, yasar, fawqa, tahta), which are in the accusative — and what resembles them, such as (nahiya 'side', janb 'beside', ʿinda 'at', lada 'with'), as well as units of measure (mil 'mile', farsakh 'parasang')."
+    },
+    {
+      "id": "s067",
+      "items": [
+        {
+          "transliteration": "hadar-tu yawm-a al-khamis",
+          "text": "— I attended on Thursday."
+        }
+      ]
+    },
+    {
+      "id": "s068",
+      "text": "hadartu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nyawm-a: al-mafʿul fih (zarf al-zaman) in the accusative, marked by the manifest fatha at its end; a mudaf.\nal-khamis: a mudaf ilayh in the genitive, marked by the manifest kasra at its end."
+    },
+    {
+      "id": "s069",
+      "items": [
+        {
+          "transliteration": "sir-tu milan",
+          "text": "— I walked a mile."
+        }
+      ]
+    },
+    {
+      "id": "s070",
+      "text": "sirtu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nmilan: al-mafʿul fih (zarf al-makan) in the accusative, marked by the manifest fatha at its end, attached to the verb 'sirtu'."
+    },
+    {
+      "id": "s071",
+      "items": [
+        {
+          "transliteration": "al-mashy-u sabahan mufid",
+          "text": "— Walking in the morning is beneficial."
+        }
+      ]
+    },
+    {
+      "id": "s072",
+      "text": "al-mashy: a mubtadaʾ in the nominative, marked by the manifest damma at its end.\nsabahan: al-mafʿul fih (zarf al-zaman) in the accusative, marked by the manifest fatha at its end, attached to the khabar (mufid).\nmufid: a khabar in the nominative, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s073",
+      "items": [
+        {
+          "transliteration": "wajad-tu ʿAliyyan amama al-malʿab",
+          "text": "— I found ʿAli in front of the field."
+        }
+      ]
+    },
+    {
+      "id": "s074",
+      "text": "wajadtu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nʿAliyyan: a direct object in the accusative, marked by the manifest fatha at its end.\namama: al-mafʿul fih (zarf al-makan) in the accusative, marked by the manifest fatha at its end; a mudaf, attached to an omitted haal in the position of accusative.\nal-malʿab: a mudaf ilayh in the genitive, marked by the manifest kasra at its end."
+    },
+    {
+      "id": "s075",
+      "items": [
+        {
+          "transliteration": "al-imtihan-u baʿda usbuʿ",
+          "text": "— The exam is in a week."
+        }
+      ]
+    },
+    {
+      "id": "s076",
+      "text": "al-imtihan: a mubtadaʾ in the nominative, marked by the manifest damma at its end.\nbaʿda: al-mafʿul fih (zarf al-zaman) in the accusative, marked by the manifest fatha at its end; a mudaf, attached to an omitted khabar in the position of nominative.\nusbuʿ: a mudaf ilayh in the genitive, marked by the manifest kasra at its end."
+    },
+    {
+      "id": "s077",
+      "text": "Examples of Al-Mafʿul Fih from the Noble Quran"
+    },
+    {
+      "id": "s078",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s079",
+      "items": [
+        {
+          "text": "— \"And above every possessor of knowledge is one [more] knowing.\" — Quran 12:76 (paraphrase, Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s080",
+      "text": "fawqa: al-mafʿul fih (zarf al-makan) in the accusative, marked by the manifest fatha at its end; a mudaf, attached to an omitted fronted khabar in the position of nominative."
+    },
+    {
+      "id": "s081",
+      "items": [
+        {
+          "text": "— \"Kill Joseph or cast him out to [another] land.\" — Quran 12:9 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s082",
+      "text": "ardan: al-mafʿul fih (zarf al-makan) in the accusative, marked by the manifest fatha at its end, attached to the verb 'utrahuhu'."
+    },
+    {
+      "id": "s083",
+      "items": [
+        {
+          "text": "— \"And we used to sit therein in positions for hearing.\" — Quran 72:9 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s084",
+      "text": "maqaʿid: al-mafʿul fih (zarf al-makan) in the accusative, marked by the manifest fatha at its end, attached to the verb 'naqʿud'."
+    },
+    {
+      "id": "s085",
+      "items": [
+        {
+          "text": "— \"Exalted is He who took His Servant by night...\" — Quran 17:1 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s086",
+      "text": "laylan: al-mafʿul fih (zarf al-zaman) in the accusative, marked by the manifest fatha at its end, attached to the verb 'asra'."
+    },
+    {
+      "id": "s087",
+      "items": [
+        {
+          "text": "— \"...turn your face toward al-Masjid al-Haram.\" — Quran 2:150 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s088",
+      "text": "shatra: al-mafʿul fih (zarf al-makan) in the accusative, marked by the manifest fatha at its end; a mudaf, attached to an omitted haal in the position of accusative."
+    },
+    {
+      "id": "s089",
+      "text": "Questions about Al-Mafʿul Fih"
+    },
+    {
+      "id": "s090",
+      "text": "What is al-mafʿul fih?"
+    },
+    {
+      "id": "s091",
+      "text": "— Al-mafʿul fih is a noun in the accusative that clarifies the time or place of the action."
+    },
+    {
+      "id": "s092",
+      "text": "Is al-mafʿul fih always in the accusative?"
+    },
+    {
+      "id": "s093",
+      "text": "— Adverbials of time are always in the accusative; adverbials of place are mabni (indeclinable) — except for the six directions (amama, waraʾa, khalfa, yamin, yasar, fawqa, tahta), which are in the accusative."
+    },
+    {
+      "id": "s094",
+      "text": "What is the difference between zarf al-makan and zarf al-zaman?"
+    },
+    {
+      "id": "s095",
+      "text": "— Zarf al-makan is what indicates the place of the action's occurrence; zarf al-zaman is what indicates the time of the action's occurrence."
+    },
+    {
+      "id": "s096",
+      "text": "What may al-zarf be attached to?"
+    },
+    {
+      "id": "s097",
+      "text": "— A verb, an active participle, a passive participle, or an intensive form (sigha al-mubalagha)."
+    },
+    {
+      "id": "s098",
+      "text": "When is the operator of al-zarf obligatorily omitted?"
+    },
+    {
+      "id": "s099",
+      "text": "— When al-zarf falls as a khabar, a haal, a sifa, or sila al-mawsul."
+    },
+    {
+      "id": "s100",
+      "text": "A Short Story Containing Adverbials of Time and Place"
+    },
+    {
+      "id": "s101",
+      "text": "We went out one day to visit the pyramids. The metro carried us for an hour. When we arrived there at noon, we stood in front of them, walked around them, climbed on top of them, and saw the Nile flowing beneath them. Then we sat for a long while. When the sun's heat lessened in the afternoon, we returned on foot, and reached our homes in the evening — full of joy and energy."
+    },
+    {
+      "id": "s102",
+      "text": "Identify the adverbials of time and place in this short story, then check your answers against a teacher or grammar reference."
+    }
+  ]
+}

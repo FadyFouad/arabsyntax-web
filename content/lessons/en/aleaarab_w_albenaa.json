@@ -1,0 +1,91 @@
+{
+  "lesson_id": "aleaarab_w_albenaa",
+  "language": "en",
+  "title": "Al-Iʿrab (Grammatical Inflection)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Al-iʿrab is: the change in the endings of words due to the variation of the governing operators (al-ʿawamil) acting upon them — whether expressed (lafzan) or notional (taqdiran)."
+    },
+    {
+      "id": "s002",
+      "text": "Explanation"
+    },
+    {
+      "id": "s003",
+      "text": "Al-iʿrab has two meanings: one linguistic, the other technical (in the grammarians' usage)."
+    },
+    {
+      "id": "s004",
+      "text": "As for its linguistic meaning, it is: making manifest and clear. You may say 'aʿrabtu ʿamma fi nafsi' ('I made manifest what was in my mind') when you have made it plain and explicit."
+    },
+    {
+      "id": "s005",
+      "text": "As for its technical meaning, it is: the change in the endings of words due to the variation of the governing operators acting upon them — whether expressed or notional."
+    },
+    {
+      "id": "s006",
+      "text": "By 'change in the endings of words' is meant the change in the states of those endings — moving from al-rafʿ (nominative) to al-nasb (accusative) or al-jarr (genitive), whether actually or by ruling. This shift occurs because of a change in the governing operators (al-ʿawamil): from one operator that requires al-rafʿ — for instance, on the basis of being the subject (faʿiliyya) or the like — to another operator that requires al-nasb — for instance, on the basis of being the object (mafʿuliyya) or the like."
+    },
+    {
+      "id": "s007",
+      "text": "For example, if you say 'hadara Muhammadun' ('Muhammad came'), then 'Muhammad' is in the nominative because it is acted upon by an operator requiring al-rafʿ on the basis of being the subject; and that operator is the verb 'hadara' ('came'). If you then say 'raʾaytu Muhammadan' ('I saw Muhammad'), the state of the ending of 'Muhammad' has shifted to al-nasb (accusative) because the operator changed to one requiring al-nasb — namely 'raʾaytu' ('I saw'). And if you say 'haziytu bi-Muhammadin' ('I was honored by Muhammad'), the state of its ending shifts to al-jarr (genitive) because the operator changed to another requiring al-jarr — namely the preposition baʾ ('by/with')."
+    },
+    {
+      "id": "s008",
+      "text": "If you reflect on these examples, it becomes clear that the last letter of the word — namely the dal of 'Muhammad' — has not changed; what has changed is the state of its ending. You see it in the nominative in the first example, in the accusative in the second, and in the genitive in the third."
+    },
+    {
+      "id": "s009",
+      "text": "Like the noun in this respect is the present-tense verb (al-fiʿl al-mudariʿ). If you say 'yusafiru Ibrahimu' ('Ibrahim travels'), 'yusafiru' is a present-tense verb in the nominative because it is free of any operator requiring al-nasb (accusative) or al-jazm (jussive). If you then say 'lan yusafira Ibrahimu' ('Ibrahim will never travel'), the state of 'yusafiru' has shifted from al-rafʿ to al-nasb because the operator changed to another requiring al-nasb — namely 'lan' ('will never'). And if you say 'lam yusafir Ibrahimu' ('Ibrahim did not travel'), its state shifts from rafʿ or nasb to al-jazm because the operator changed to another requiring al-jazm — namely 'lam' ('did not')."
+    },
+    {
+      "id": "s010",
+      "text": "Al-Iʿrab Is Divided into Expressed (Lafzi) and Notional (Taqdiri)"
+    },
+    {
+      "id": "s011",
+      "text": "Know that this change is of two types: lafzi (expressed) and taqdiri (notional/implied)."
+    },
+    {
+      "id": "s012",
+      "text": "Lafzi: that which is not prevented from being articulated by any obstacle — as you saw in the vowel-marks on the dal of 'Muhammad' and on the raʾ of 'yusafiru'."
+    },
+    {
+      "id": "s013",
+      "text": "Taqdiri: that which is prevented from being articulated by some obstacle — either taʿadhdhur (impossibility), thiql (heaviness), or munasaba (suitability/accommodation). For example, you say 'yadʿu al-fata wa-l-qadi wa-ghulami' ('the youth, the judge, and my servant call out'). Here 'yadʿu' is in the nominative because it is free of nasb- or jazm-governing operators; 'al-fata' is in the nominative because it is the subject; 'al-qadi' and 'ghulami' are in the nominative because they are conjoined to the nominative subject. But the damma does not appear at the ends of these words: it is impossible to mark on 'al-fata' (because of taʿadhdhur — the alif cannot bear a vowel), heavy on 'yadʿu' and 'al-qadi' (thiql), and prevented on 'ghulami' because the position is occupied by the appropriate vowel for the speaker's yaʾ (munasaba). So the damma is implied at the end of the word, prevented from appearing because of impossibility, heaviness, or the position being occupied by an accommodating vowel."
+    },
+    {
+      "id": "s014",
+      "text": "And you say 'lan yarda al-fata wa-l-qadi wa-ghulami' ('the youth, the judge, and my servant will never be content'); and you say 'inna al-fata wa-ghulami la-faʾizan' ('verily the youth and my servant are surely victorious')."
+    },
+    {
+      "id": "s015",
+      "text": "And you say 'marartu bi-l-fata wa-ghulami wa-l-qadi' ('I passed by the youth, my servant, and the judge')."
+    },
+    {
+      "id": "s016",
+      "text": "Whatever ends in a fixed alif has all the vowel-marks notionally implied on it because of taʿadhdhur (impossibility — the alif cannot bear vowels). A noun ending in alif is called maqsur (shortened), e.g., al-fata ('the youth'), al-ʿasa ('the staff'), al-hija ('reason'), al-raha ('the millstone'), al-rida ('contentment')."
+    },
+    {
+      "id": "s017",
+      "text": "Whatever ends in a fixed yaʾ has the damma and kasra notionally implied on it because of thiql (heaviness). A noun ending in yaʾ is called manqus (defective). The fatha appears on it because it is light, e.g., al-qadi ('the judge'), al-daʿi ('the caller'), al-ghazi ('the warrior'), al-saʿi ('the runner/striver'), al-ati ('the comer'), al-rami ('the archer')."
+    },
+    {
+      "id": "s018",
+      "text": "Whatever is annexed (mudaf) to the speaker's yaʾ has all the vowel-marks notionally implied on it because of munasaba (accommodation), e.g., ghulami ('my servant'), kitabi ('my book'), sadiqi ('my friend'), ibni ('my son'), ustadhi ('my teacher')."
+    },
+    {
+      "id": "s019",
+      "text": "Al-Binaʾ (Indeclension)"
+    },
+    {
+      "id": "s020",
+      "text": "Al-binaʾ means: the word's ending remaining in a single fixed state, neither because of an operator nor because of a phonetic obstacle. Examples include 'kam' ('how many') and 'min' ('from') always taking sukun; 'haʾulaʾ' ('these'), 'hadami' (a fem. proper name), and 'amsi' ('yesterday') always taking kasra; 'mundhu' ('since') and 'haythu' ('where') always taking damma; and 'ayna' ('where') and 'kayfa' ('how') always taking fatha."
+    },
+    {
+      "id": "s021",
+      "text": "From this clarification you learn that the categories of al-binaʾ are four: al-sukun (no vowel), al-kasr (kasra), al-damm (damma), and al-fath (fatha)."
+    }
+  ]
+}

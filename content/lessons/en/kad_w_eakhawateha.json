@@ -1,0 +1,292 @@
+{
+  "lesson_id": "kad_w_eakhawateha",
+  "language": "en",
+  "title": "Verbs of Approximation (Afʿal al-Muqaraba)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "kadat al-shams-u taghibu",
+          "text": "— The sun was about to set."
+        },
+        {
+          "transliteration": "ʿasa al-diq-u an yanfarija",
+          "text": "— Perhaps the distress will be relieved."
+        },
+        {
+          "transliteration": "kariba al-maʾ-u yajmudu",
+          "text": "— The water was on the verge of freezing."
+        },
+        {
+          "transliteration": "awshaka al-mal-u an yanfada",
+          "text": "— The money was about to run out."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "If you reflect on these sentences, you will notice that they are nominal sentences upon which verbs (kada, ʿasa, kariba, awshaka) have entered, performing the operation of kana and its sisters — that is, leaving al-mubtadaʾ in the nominative (called their 'noun', ism) and putting al-khabar in the accusative (called their 'predicate', khabar). For this reason they are 'incomplete verbs' (afʿal naqisa)."
+    },
+    {
+      "id": "s004",
+      "text": "Read also: 'The Abrogating Verbs Kana and Its Sisters: Definition, Iʿrab, Clear Examples'."
+    },
+    {
+      "id": "s005",
+      "label_en": "Definition",
+      "text": "Verbs of approximation (afʿal al-muqaraba), or 'kada and its sisters,' are incomplete verbs that enter upon a nominal sentence: they leave al-mubtadaʾ in the nominative (called their ism) and put al-khabar in the accusative (called their khabar)."
+    },
+    {
+      "id": "s006",
+      "text": "Categories of Afʿal al-Muqaraba"
+    },
+    {
+      "id": "s007",
+      "text": "Kada and its sisters fall into three categories:"
+    },
+    {
+      "id": "s008",
+      "text": "1 — Verbs of approximation (afʿal al-muqaraba)"
+    },
+    {
+      "id": "s009",
+      "text": "These indicate that the predicate is on the verge of occurring, namely: kada, awshaka, kariba."
+    },
+    {
+      "id": "s010",
+      "text": "2 — Verbs of hope (afʿal al-rajaʾ)"
+    },
+    {
+      "id": "s011",
+      "text": "These indicate hope for the predicate's occurrence, namely: ʿasa, hara, ikhlawlaqa."
+    },
+    {
+      "id": "s012",
+      "text": "3 — Verbs of inception (afʿal al-shuruʿ)"
+    },
+    {
+      "id": "s013",
+      "text": "These indicate beginning to do something. They are many — among them: anshaʾa, akhadha, tafiqa, ʿaliqa, qama, aqbala, habba."
+    },
+    {
+      "id": "s014",
+      "text": "Kada and Its Sisters and Their Meanings"
+    },
+    {
+      "id": "s015",
+      "text": "ʿasa: for hope of the action's occurrence."
+    },
+    {
+      "id": "s016",
+      "text": "kada, kariba, awshaka: indicate that an event is on the verge of happening — quick and imminent. 'Kariba' may also be used in this sense (i.e., 'drew near, came close'); its verbal noun is kuruban. From it: 'karabat al-shams' — 'the sun drew near to setting.'"
+    },
+    {
+      "id": "s017",
+      "text": "hara, ikhlawlaqa: similar to ʿasa. Saying 'hara Zaydun an yatafawwaqa' means 'Zayd has become deserving of excelling.' Likewise ikhlawlaqa."
+    },
+    {
+      "id": "s018",
+      "text": "tafiqa: carries the sense of persistence in something and continuing it."
+    },
+    {
+      "id": "s019",
+      "text": "habba: indicates speed and energy."
+    },
+    {
+      "id": "s020",
+      "text": "ʿaliqa: carries the sense of being attached to the action and adhering to it."
+    },
+    {
+      "id": "s021",
+      "text": "Examples of Verbs of Approximation, Hope, and Inception"
+    },
+    {
+      "id": "s022",
+      "items": [
+        {
+          "transliteration": "kada al-matar-u yahtilu",
+          "text": "— The rain was about to pour."
+        },
+        {
+          "transliteration": "awshaka al-waqt-u an yantahiya",
+          "text": "— The time was about to end."
+        },
+        {
+          "transliteration": "kariba al-subh-u an yanbalija",
+          "text": "— Dawn was on the verge of breaking."
+        },
+        {
+          "transliteration": "ʿasa Allah-u an yaʾtiya bi-l-faraj",
+          "text": "— May Allah bring relief."
+        },
+        {
+          "transliteration": "ikhlawlaqa al-kaslan-u an yajtahida",
+          "text": "— It seems the lazy one might exert himself."
+        },
+        {
+          "transliteration": "hara al-ghaʾib-u an yahdura",
+          "text": "— It is fitting that the absent one should attend."
+        },
+        {
+          "transliteration": "sharaʿa al-tifl-u yabki",
+          "text": "— The child began crying."
+        },
+        {
+          "transliteration": "akhadha al-binaʾ-u yanharu",
+          "text": "— The building began collapsing."
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "text": "Kada and Its Sisters and Their Operation"
+    },
+    {
+      "id": "s024",
+      "text": "Kada and its sisters operate like kana and its sisters: they leave al-mubtadaʾ in the nominative (called their ism) and put al-khabar in the accusative (called their khabar) — under the following conditions:"
+    },
+    {
+      "id": "s025",
+      "text": "1 — Their khabar must be a verbal clause whose verb is in the present tense (mudariʿ)."
+    },
+    {
+      "id": "s026",
+      "text": "2 — The present-tense verb must occur after 'an al-masdariyya' (the infinitive 'an, 'to') with the verb 'awshaka', and without it with the verbs (kada, kariba) and the verbs of inception."
+    },
+    {
+      "id": "s027",
+      "text": "Example: awshaka al-matar-u an yanzila ('the rain was about to fall')."
+    },
+    {
+      "id": "s028",
+      "items": [
+        {
+          "transliteration": "kadat al-safinat-u taghraqu",
+          "text": "— The ship was about to sink."
+        },
+        {
+          "transliteration": "kariba al-shitaʾ-u yanqadi",
+          "text": "— Winter was on the verge of ending."
+        },
+        {
+          "transliteration": "anshaʾa al-raʿd-u yaqsifu",
+          "text": "— The thunder began roaring."
+        }
+      ]
+    },
+    {
+      "id": "s029",
+      "text": "The reverse is also permitted: the present-tense verb may come with awshaka without 'an al-masdariyya', and with it for the verbs (kada, kariba)."
+    },
+    {
+      "id": "s030",
+      "text": "Example: kadat al-samaʾ-u an tumtira ('the sky was about to rain')."
+    },
+    {
+      "id": "s031",
+      "text": "3 — The khabar must be postposed; however, it is permissible for it to fall between [the verb] and its ism."
+    },
+    {
+      "id": "s032",
+      "items": [
+        {
+          "transliteration": "yakad-u yanqadi al-waqt",
+          "text": "— The time is about to end."
+        },
+        {
+          "transliteration": "tafiqa yansarifuna al-nas",
+          "text": "— The people began departing."
+        }
+      ]
+    },
+    {
+      "id": "s033",
+      "text": "Examples of Iʿrab for the Verbs of Approximation"
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "kada al-matar-u yanhamiru",
+          "text": "— The rain was about to pour down."
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "kada: an incomplete past-tense verb (fiʿl madi naqis), fixed on the manifest fatha at its end.\nal-matar: ism kada in the nominative case, marked by the manifest damma at its end.\nyanhamiru: a present-tense verb in the nominative, marked by the manifest damma at its end; the subject is a permissibly concealed pronoun, implied as 'huwa' ('he/it'). The verb-and-subject clause is in the position of accusative as the khabar of kada."
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "transliteration": "sharaʿa Zayd-un yaqraʾu",
+          "text": "— Zayd began reading."
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "sharaʿa: an incomplete past-tense verb, fixed on the manifest fatha at its end.\nZayd: ism sharaʿa in the nominative, marked by the manifest damma at its end.\nyaqraʾu: a present-tense verb in the nominative, marked by the manifest damma; the subject is a permissibly concealed pronoun implied as 'huwa'. The verb-and-subject clause is in the position of accusative as the khabar of sharaʿa."
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "ʿasa Zayd-un an yuwaffaqa",
+          "text": "— Perhaps Zayd will be granted success."
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "ʿasa: an incomplete past-tense verb, fixed on an estimated fatha on the alif, prevented from appearing because of taʿadhdhur.\nZayd: ism ʿasa in the nominative, marked by the manifest damma at its end.\nan: a particle of accusative-governance.\nyuwaffaqa: a present-tense verb in the accusative case by 'an', marked by the manifest fatha at its end; the subject is a permissibly concealed pronoun implied as 'huwa'. The verb-and-subject clause is in the position of accusative as the khabar of ʿasa."
+    },
+    {
+      "id": "s040",
+      "items": [
+        {
+          "transliteration": "tushiku al-madaris-u taftahu abwab-a-ha",
+          "text": "— The schools are about to open their doors."
+        }
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "tushiku: an incomplete present-tense verb in the nominative, marked by the manifest damma at its end.\nal-madaris: ism tushiku in the nominative, marked by the manifest damma at its end.\ntaftahu: a present-tense verb in the nominative, marked by the manifest damma; the subject is a permissibly concealed pronoun implied as 'hiya' ('she/it'). The verb-and-subject clause is in the position of accusative as the khabar of tushiku.\nabwaba-ha: a direct object in the accusative, marked by the manifest fatha; a mudaf. 'ha' is a connected pronoun fixed on sukun, in the position of genitive as a mudaf ilayh."
+    },
+    {
+      "id": "s042",
+      "text": "Verbs of Approximation in the Noble Quran"
+    },
+    {
+      "id": "s043",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s044",
+      "items": [
+        {
+          "text": "— \"It is expected, [if you repent], that your Lord will have mercy upon you...\" — Quran 17:8 (Sahih International)"
+        },
+        {
+          "text": "— \"...The flash of its lightning almost takes away the eyesight.\" — Quran 24:43 (Sahih International)"
+        },
+        {
+          "text": "— \"...and they began to fasten over themselves from the leaves of Paradise.\" — Quran 20:121 (Sahih International)"
+        },
+        {
+          "text": "— \"He will gulp it but will hardly [be able to] swallow it...\" — Quran 14:17 (Sahih International)"
+        },
+        {
+          "text": "— \"...and set about striking [their] legs and necks.\" — Quran 38:33 (Sahih International)"
+        }
+      ]
+    }
+  ]
+}

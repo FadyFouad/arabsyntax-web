@@ -1,0 +1,402 @@
+{
+  "lesson_id": "mafool_mn_agleh",
+  "language": "en",
+  "title": "Definition of Al-Mafʿul li-Ajlih (the Object of Reason)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "yasum-u al-muslim-u taʿat-an li-rabb-i-hi",
+          "text": "— The Muslim fasts in obedience to his Lord."
+        },
+        {
+          "transliteration": "ʿaqaba al-qadi al-mujrim-a taʾdiban la-hu",
+          "text": "— The judge punished the criminal as a discipline for him."
+        },
+        {
+          "transliteration": "qum ihtiraman li-muʿallim-i-ka",
+          "text": "— Stand out of respect for your teacher."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "If you reflect on the underlined words (taʿatan, taʾdiban, ihtiraman), you will notice that they are nouns that have added new meanings to the sentences."
+    },
+    {
+      "id": "s004",
+      "text": "If we said 'yasum-u al-muslim' ('the Muslim fasts'), the sentence does not give us the reason for the Muslim doing this. But if the speaker adds 'taʿatan li-llah' ('in obedience to Allah'), we understand that this fasting is motivated by obedience to Allah."
+    },
+    {
+      "id": "s005",
+      "text": "Likewise, if we said 'ʿaqaba al-qadi al-mujrima taʾdiban lahu' ('the judge punished the criminal as a discipline for him'), the reason for punishing the criminal is to discipline him. Thus we can recognize that the underlined words in the previous sentences clarify the cause of the action and the reason for which it was done. For this reason each is called: al-mafʿul li-ajlih (the object of reason)."
+    },
+    {
+      "id": "s006",
+      "label_en": "Definition",
+      "text": "Al-mafʿul li-ajlih (also called al-mafʿul lah, 'the object for whose sake') is an indefinite verbal noun (masdar) in the accusative case, which clarifies the cause of the action and the reason for its occurrence."
+    },
+    {
+      "id": "s007",
+      "text": "Examples of Al-Mafʿul li-Ajlih"
+    },
+    {
+      "id": "s008",
+      "items": [
+        {
+          "transliteration": "ijtahad-tu fi dirasat-i raghbatan fi al-tafawwuq",
+          "text": "— I strove in my studies out of a desire for excellence."
+        },
+        {
+          "transliteration": "tasaddaq-tu ʿala al-faqir amalan fi al-thawab",
+          "text": "— I gave alms to the poor man in hope of reward."
+        },
+        {
+          "transliteration": "tajawaz-tu ʿan hafwat-i sadiq-i ibqaʾan ʿala mawaddat-i-hi",
+          "text": "— I overlooked my friend's slip in order to preserve our friendship."
+        },
+        {
+          "transliteration": "tanawala al-marid-u al-dawaʾ-a raghbatan fi al-shifaʾ",
+          "text": "— The patient took the medicine out of a desire for healing."
+        },
+        {
+          "transliteration": "istabsala al-abtal-u difaʿan ʿan watan-i-him",
+          "text": "— The heroes fought valiantly in defense of their homeland."
+        }
+      ]
+    },
+    {
+      "id": "s009",
+      "text": "Conditions for Al-Mafʿul li-Ajlih"
+    },
+    {
+      "id": "s010",
+      "text": "1 — It must be a 'heart-related' verbal noun (masdar qalbi) — i.e., one expressing internal psychological feelings such as love, hate, fear, etc. — not a derived noun (mushtaqq) nor an underived noun (jamid)."
+    },
+    {
+      "id": "s011",
+      "items": [
+        {
+          "transliteration": "mata hirsan ʿala mali-hi",
+          "text": "— He died out of greed for his wealth."
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "text": "2 — The verb and the masdar must be in the same time and have the same subject."
+    },
+    {
+      "id": "s013",
+      "items": [
+        {
+          "transliteration": "amsak-tu-hu khawfan min firar-i-hi",
+          "text": "— I caught hold of him out of fear of his fleeing. (the catching and the fearing happened at the same time)"
+        }
+      ]
+    },
+    {
+      "id": "s014",
+      "text": "3 — The masdar must be a cause for the occurrence of the action."
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "saffaqa al-jumhur-u ibtihajan li-l-khatib",
+          "text": "— The audience clapped in delight at the speaker."
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "4 — Al-mafʿul li-ajlih may be placed before its verb."
+    },
+    {
+      "id": "s017",
+      "items": [
+        {
+          "transliteration": "raghbatan fi al-ʿilm ataytu",
+          "text": "— Out of a desire for knowledge, I came."
+        }
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "Types of Al-Mafʿul li-Ajlih"
+    },
+    {
+      "id": "s019",
+      "text": "1 — Free of 'al-' and Construct (Idafa)"
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "tasaddaq-tu ibtighaʾan li-mardat-i Allah",
+          "text": "— I gave alms seeking the pleasure of Allah."
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "2 — Annexed (Mudaf)"
+    },
+    {
+      "id": "s022",
+      "items": [
+        {
+          "text": "— Allah Most High said: \"And do not kill your children for fear of poverty.\" — Quran 17:31 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "text": "3 — Carrying 'Al-'"
+    },
+    {
+      "id": "s024",
+      "items": [
+        {
+          "transliteration": "yujahid-u al-difaʿ-a ʿan al-haqq",
+          "text": "— He fights, defending the truth (i.e., 'difaʿan ʿan al-haqq')."
+        }
+      ]
+    },
+    {
+      "id": "s025",
+      "text": "Iʿrab of Al-Mafʿul li-Ajlih"
+    },
+    {
+      "id": "s026",
+      "text": "— Al-mafʿul li-ajlih, when free of 'al-' and idafa, is in the accusative."
+    },
+    {
+      "id": "s027",
+      "text": "— Al-mafʿul li-ajlih, when annexed (mudaf), may be in either the accusative or the genitive."
+    },
+    {
+      "id": "s028",
+      "items": [
+        {
+          "transliteration": "ijtahada raghbat-a al-najah / ijtahada li-raghbat-i al-najah",
+          "text": "— He strove for the desire of success / He strove for the sake of the desire for success."
+        }
+      ]
+    },
+    {
+      "id": "s029",
+      "text": "— Al-mafʿul li-ajlih, when prefixed with 'al-', may be in either the accusative or the genitive."
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "ijtahada al-raghbat-a al-najah / ijtahada li-l-raghbat-i fi al-najah",
+          "text": "— He strove with the desire for success."
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "Examples of Al-Mafʿul li-Ajlih with Iʿrab"
+    },
+    {
+      "id": "s032",
+      "items": [
+        {
+          "transliteration": "istabsala al-abtal-u difaʿan ʿan watan-i-him",
+          "text": "— The heroes fought valiantly in defense of their homeland."
+        }
+      ]
+    },
+    {
+      "id": "s033",
+      "text": "istabsala: a past-tense verb fixed on the manifest fatha at its end.\nal-abtal: the subject (faʿil) in the nominative, marked by the manifest damma at its end.\ndifaʿan: al-mafʿul li-ajlih in the accusative, marked by the manifest fatha at its end.\nʿan: a preposition.\nwatan-i-him: a noun in the genitive after 'ʿan', marked by the manifest kasra; a mudaf. 'him' is a connected pronoun fixed on sukun, in the position of genitive as a mudaf ilayh."
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "Zayd-un musriʿ-un khawfan min al-kalb",
+          "text": "— Zayd is hurrying out of fear of the dog."
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "Zayd: mubtadaʾ in the nominative, marked by the manifest damma.\nmusriʿ: khabar in the nominative, marked by the manifest damma.\nkhawfan: al-mafʿul li-ajlih in the accusative, marked by the manifest fatha.\nmin: a preposition.\nal-kalb: a noun in the genitive, marked by the manifest kasra."
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "transliteration": "qum-tu ijlalan li-ustadh-i",
+          "text": "— I stood up out of reverence for my teacher."
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "qumtu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nijlalan: al-mafʿul li-ajlih in the accusative, marked by the manifest fatha at its end.\nli-ustadh-i: the lam is a preposition; ustadh is a noun in the genitive after the lam, marked by an estimated kasra on the letter preceding the speaker's yaʾ — prevented from appearing because the position is occupied by the appropriate vowel; a mudaf. The yaʾ is a connected pronoun fixed on sukun, in the position of genitive as a mudaf ilayh."
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "yajtahid-u Zayd-un talab-a al-tafawwuq",
+          "text": "— Zayd strives in pursuit of excellence."
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "yajtahidu: a present-tense verb in the nominative, marked by the manifest damma at its end.\nZayd: the subject in the nominative, marked by the manifest damma.\ntalab: al-mafʿul li-ajlih in the accusative, marked by the manifest fatha; a mudaf.\nal-tafawwuq: a mudaf ilayh in the genitive, marked by the manifest kasra."
+    },
+    {
+      "id": "s040",
+      "text": "Al-Mafʿul li-Ajlih in the Noble Quran"
+    },
+    {
+      "id": "s041",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s042",
+      "items": [
+        {
+          "text": "— \"They put their fingers in their ears against the thunderclaps in dread of death.\" — Quran 2:19 (Sahih International)"
+        },
+        {
+          "text": "— \"And do not kill your children for fear of poverty.\" — Quran 17:31 (Sahih International)"
+        },
+        {
+          "text": "— \"Many of the People of the Scripture wish they could turn you back to disbelief after you have believed, out of envy from themselves...\" — Quran 2:109 (Sahih International)"
+        },
+        {
+          "text": "— \"And you do not spend except seeking the countenance of Allah.\" — Quran 2:272 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s043",
+      "text": "Examples of Al-Mafʿul li-Ajlih from Poetry"
+    },
+    {
+      "id": "s044",
+      "text": "Ibn Zaydun said:"
+    },
+    {
+      "id": "s045",
+      "text": "[Ibn Zaydun, from his Nuniyya]: 'You departed and we remained — but our breasts have not become parched of yearning for you, nor have our eyes run dry. We do not name you — out of reverence and honor — for your exalted station relieves us of doing so.'"
+    },
+    {
+      "id": "s046",
+      "text": "Safi al-Din al-Hilli said:"
+    },
+    {
+      "id": "s047",
+      "text": "[Safi al-Din al-Hilli, classical poetry]: 'We are a people whose noble traits — out of nobility — refuse to begin harming those who do not harm us.'"
+    },
+    {
+      "id": "s048",
+      "text": "Ali ibn Abi Talib — may Allah be pleased with him — said:"
+    },
+    {
+      "id": "s049",
+      "text": "[Attributed to Ali ibn Abi Talib, classical poetry]: 'Do you bear affliction with patience and reckoning, that you may be rewarded — or do you accept it with the indifference of beasts?'"
+    },
+    {
+      "id": "s050",
+      "text": "Exercises on Al-Mafʿul li-Ajlih"
+    },
+    {
+      "id": "s051",
+      "text": "1 — Make each of the following nouns al-mafʿul li-ajlih in a meaningful sentence:"
+    },
+    {
+      "id": "s052",
+      "items": [
+        {
+          "transliteration": "ikhlas",
+          "text": "(sincerity)"
+        },
+        {
+          "transliteration": "shukr",
+          "text": "(thankfulness)"
+        },
+        {
+          "transliteration": "ʿatf",
+          "text": "(compassion)"
+        },
+        {
+          "transliteration": "taqdir",
+          "text": "(esteem)"
+        },
+        {
+          "transliteration": "hubb",
+          "text": "(love)"
+        },
+        {
+          "transliteration": "ihtiram",
+          "text": "(respect)"
+        },
+        {
+          "transliteration": "khawf",
+          "text": "(fear)"
+        },
+        {
+          "transliteration": "amal",
+          "text": "(hope)"
+        }
+      ]
+    },
+    {
+      "id": "s053",
+      "text": "2 — Complete the following sentences with a suitable mafʿul li-ajlih:"
+    },
+    {
+      "id": "s054",
+      "items": [
+        {
+          "transliteration": "aqif li-walid-ayya ……",
+          "text": "— I stand for my parents [out of] ……"
+        },
+        {
+          "transliteration": "yajidd-u al-ʿamil ……",
+          "text": "— The worker exerts effort ……"
+        },
+        {
+          "transliteration": "yaʿtif-u al-nas-u ʿala al-fuqaraʾ ……",
+          "text": "— People show compassion to the poor ……"
+        },
+        {
+          "transliteration": "yukafiʾ-u al-muʿallim-u al-tilmidh-a al-mujidd ……",
+          "text": "— The teacher rewards the diligent pupil ……"
+        }
+      ]
+    },
+    {
+      "id": "s055",
+      "text": "3 — Provide the iʿrab for the underlined portions:"
+    },
+    {
+      "id": "s056",
+      "text": "Al-Mutanabbi said:"
+    },
+    {
+      "id": "s057",
+      "text": "[Attributed to al-Mutanabbi, classical poetry]: 'Whoever spends his hours hoarding his wealth out of fear of poverty — that very thing he has done [namely, the hoarding] is itself the poverty.'"
+    },
+    {
+      "id": "s058",
+      "label_en": "Note",
+      "text": "Try working through the answers yourself first, then check them against a teacher or grammar reference."
+    }
+  ]
+}

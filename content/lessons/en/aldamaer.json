@@ -1,0 +1,891 @@
+{
+  "lesson_id": "aldamaer",
+  "language": "en",
+  "title": "Pronouns (Al-Damaʾir)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Pronouns (Al-Damaʾir)"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "A pronoun (damir) is an underived, indeclinable noun (jamid mabni) that indicates a speaker, an addressee, or an absent third party, dispensing with the explicit mention of the manifest noun."
+    },
+    {
+      "id": "s003",
+      "items": [
+        {
+          "transliteration": "ana adrus-u bi-jidd",
+          "text": "— I am studying diligently."
+        },
+        {
+          "transliteration": "anta mujtahid",
+          "text": "— You are diligent."
+        },
+        {
+          "transliteration": "huwa talib-un nashit",
+          "text": "— He is an active student."
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "Categories of Pronouns"
+    },
+    {
+      "id": "s005",
+      "text": "Pronouns are divided, by their visibility or concealment, into two main types: overt pronouns (al-damaʾir al-bariza) and concealed pronouns (al-damaʾir al-mustatira)."
+    },
+    {
+      "id": "s006",
+      "label_en": "Definition",
+      "text": "Al-damir al-bariz (the overt pronoun): one that has a form in the utterance — it is pronounced and written."
+    },
+    {
+      "id": "s007",
+      "label_en": "Definition",
+      "text": "Al-damir al-mustatir (the concealed pronoun): one that has no form in the utterance — it is implied notionally."
+    },
+    {
+      "id": "s008",
+      "text": "First: Overt Pronouns"
+    },
+    {
+      "id": "s009",
+      "text": "Overt pronouns are divided into two types: separate pronouns (munfasila) and connected pronouns (muttasila)."
+    },
+    {
+      "id": "s010",
+      "text": "1 — Separate Pronouns"
+    },
+    {
+      "id": "s011",
+      "label_en": "Definition",
+      "text": "Al-damir al-munfasil (the separate pronoun): one pronounced independently, not joined to another word, and may begin a sentence."
+    },
+    {
+      "id": "s012",
+      "text": "Separate pronouns are divided, by their iʿrab position, into two types: separate nominative pronouns (damaʾir rafʿ munfasila) and separate accusative pronouns (damaʾir nasb munfasila)."
+    },
+    {
+      "id": "s013",
+      "text": "(a) Separate Nominative Pronouns"
+    },
+    {
+      "id": "s014",
+      "headers": [
+        "Pronoun",
+        "Reference",
+        "Example"
+      ],
+      "rows": [
+        [
+          {
+            "transliteration": "ana",
+            "text": "(I)"
+          },
+          "1st-person singular",
+          {
+            "transliteration": "ana talib",
+            "text": "(I am a student)"
+          }
+        ],
+        [
+          {
+            "transliteration": "nahnu",
+            "text": "(we)"
+          },
+          "1st-person dual or plural",
+          {
+            "transliteration": "nahnu tullab",
+            "text": "(we are students)"
+          }
+        ],
+        [
+          {
+            "transliteration": "anta",
+            "text": "(you, masc. sg.)"
+          },
+          "2nd-person masc. sg.",
+          {
+            "transliteration": "anta mujtahid",
+            "text": "(you are diligent)"
+          }
+        ],
+        [
+          {
+            "transliteration": "anti",
+            "text": "(you, fem. sg.)"
+          },
+          "2nd-person fem. sg.",
+          {
+            "transliteration": "anti mujtahida",
+            "text": "(you are diligent)"
+          }
+        ],
+        [
+          {
+            "transliteration": "antuma",
+            "text": "(you two)"
+          },
+          "2nd-person dual (m./f.)",
+          {
+            "transliteration": "antuma mujtahidan",
+            "text": "(you two are diligent)"
+          }
+        ],
+        [
+          {
+            "transliteration": "antum",
+            "text": "(you all, m.)"
+          },
+          "2nd-person masc. plural",
+          {
+            "transliteration": "antum mujtahiduna",
+            "text": "(you are diligent)"
+          }
+        ],
+        [
+          {
+            "transliteration": "antunna",
+            "text": "(you all, f.)"
+          },
+          "2nd-person fem. plural",
+          {
+            "transliteration": "antunna mujtahidat",
+            "text": "(you are diligent)"
+          }
+        ],
+        [
+          {
+            "transliteration": "huwa",
+            "text": "(he/it)"
+          },
+          "3rd-person masc. sg.",
+          {
+            "transliteration": "huwa talib",
+            "text": "(he is a student)"
+          }
+        ],
+        [
+          {
+            "transliteration": "hiya",
+            "text": "(she/it)"
+          },
+          "3rd-person fem. sg.",
+          {
+            "transliteration": "hiya taliba",
+            "text": "(she is a student)"
+          }
+        ],
+        [
+          {
+            "transliteration": "huma",
+            "text": "(they two)"
+          },
+          "3rd-person dual (m./f.)",
+          {
+            "transliteration": "huma talibani",
+            "text": "(they two are students)"
+          }
+        ],
+        [
+          {
+            "transliteration": "hum",
+            "text": "(they, m.)"
+          },
+          "3rd-person masc. plural",
+          {
+            "transliteration": "hum tullab",
+            "text": "(they are students)"
+          }
+        ],
+        [
+          {
+            "transliteration": "hunna",
+            "text": "(they, f.)"
+          },
+          "3rd-person fem. plural",
+          {
+            "transliteration": "hunna talibat",
+            "text": "(they are students)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s015",
+      "label_en": "Rule",
+      "text": "All separate nominative pronouns are mabni in the position of nominative; they are parsed according to their position in the sentence (mubtadaʾ, khabar, faʿil, naʾib al-faʿil, or ism of kana and its sisters)."
+    },
+    {
+      "id": "s016",
+      "items": [
+        {
+          "transliteration": "ana muslim",
+          "text": "— I am a Muslim. (mubtadaʾ)"
+        },
+        {
+          "transliteration": "al-mujtahid-u anta",
+          "text": "— The diligent one is you. (khabar)"
+        },
+        {
+          "transliteration": "ma hadara illa huwa",
+          "text": "— None attended except him. (faʿil)"
+        }
+      ]
+    },
+    {
+      "id": "s017",
+      "text": "(b) Separate Accusative Pronouns"
+    },
+    {
+      "id": "s018",
+      "label_en": "Rule",
+      "text": "Separate accusative pronouns consist of 'iyya' followed by a particle indicating the speaker, the addressee, or the absent third person."
+    },
+    {
+      "id": "s019",
+      "headers": [
+        "Pronoun",
+        "Reference"
+      ],
+      "rows": [
+        [
+          {
+            "transliteration": "iyya-ya"
+          },
+          "1st-person sg."
+        ],
+        [
+          {
+            "transliteration": "iyya-na"
+          },
+          "1st-person dual/plural"
+        ],
+        [
+          {
+            "transliteration": "iyya-ka"
+          },
+          "2nd-person masc. sg."
+        ],
+        [
+          {
+            "transliteration": "iyya-ki"
+          },
+          "2nd-person fem. sg."
+        ],
+        [
+          {
+            "transliteration": "iyya-kuma"
+          },
+          "2nd-person dual"
+        ],
+        [
+          {
+            "transliteration": "iyya-kum"
+          },
+          "2nd-person masc. plural"
+        ],
+        [
+          {
+            "transliteration": "iyya-kunna"
+          },
+          "2nd-person fem. plural"
+        ],
+        [
+          {
+            "transliteration": "iyya-hu"
+          },
+          "3rd-person masc. sg."
+        ],
+        [
+          {
+            "transliteration": "iyya-ha"
+          },
+          "3rd-person fem. sg."
+        ],
+        [
+          {
+            "transliteration": "iyya-huma"
+          },
+          "3rd-person dual"
+        ],
+        [
+          {
+            "transliteration": "iyya-hum"
+          },
+          "3rd-person masc. plural"
+        ],
+        [
+          {
+            "transliteration": "iyya-hunna"
+          },
+          "3rd-person fem. plural"
+        ]
+      ]
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "iyya-ka naʿbud-u wa-iyya-ka nastaʿin",
+          "text": "— You alone we worship and You alone we ask for help. (Quran 1:5)"
+        },
+        {
+          "transliteration": "iyya-hum akram-tu",
+          "text": "— Those, I honored."
+        },
+        {
+          "transliteration": "iyya-ka wa-l-kadhib",
+          "text": "— Beware of lying! (lit. 'Avoid lying')"
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "label_en": "Note",
+      "text": "Separate accusative pronouns are always mabni in the position of accusative; they typically fall as a fronted direct object."
+    },
+    {
+      "id": "s022",
+      "text": "2 — Connected Pronouns"
+    },
+    {
+      "id": "s023",
+      "label_en": "Definition",
+      "text": "Al-damir al-muttasil (the connected pronoun): one not pronounced independently — rather, it is attached to a preceding word (verb, noun, or particle), and cannot begin a sentence."
+    },
+    {
+      "id": "s024",
+      "text": "Connected pronouns are divided, by their iʿrab position, into three types: connected nominative pronouns, shared accusative-and-genitive pronouns, and a pronoun used only in the position of genitive."
+    },
+    {
+      "id": "s025",
+      "text": "(a) Connected Nominative Pronouns"
+    },
+    {
+      "id": "s026",
+      "label_en": "Rule",
+      "text": "The connected nominative pronouns are: the vowelled taʾ (taʾ al-faʿil — the subject-tāʾ), na al-faʿilin, alif al-ithnayn, waw al-jamaʿa, yaʾ al-mukhataba, and nun al-niswa. They attach only to verbs and serve as the subject (faʿil), the deputy subject (naʾib al-faʿil), or the noun (ism) of kana and its sisters."
+    },
+    {
+      "id": "s027",
+      "headers": [
+        "Pronoun",
+        "Reference",
+        "Example"
+      ],
+      "rows": [
+        [
+          {
+            "transliteration": "the vowelled taʾ"
+          },
+          "1st- or 2nd-person",
+          {
+            "transliteration": "katab-tu, katab-ta, katab-ti"
+          }
+        ],
+        [
+          {
+            "transliteration": "na al-faʿilin"
+          },
+          "1st-person dual/plural",
+          {
+            "transliteration": "katab-na"
+          }
+        ],
+        [
+          {
+            "transliteration": "alif al-ithnayn"
+          },
+          "Dual (3rd or 2nd)",
+          {
+            "transliteration": "kataba, uktuba, yaktubani"
+          }
+        ],
+        [
+          {
+            "transliteration": "waw al-jamaʿa"
+          },
+          "Masc. plural (3rd or 2nd)",
+          {
+            "transliteration": "katab-u, uktub-u, yaktubuna"
+          }
+        ],
+        [
+          {
+            "transliteration": "yaʾ al-mukhataba"
+          },
+          "2nd-person fem. sg.",
+          {
+            "transliteration": "uktub-i, taktubina"
+          }
+        ],
+        [
+          {
+            "transliteration": "nun al-niswa"
+          },
+          "Fem. plural (3rd or 2nd)",
+          {
+            "transliteration": "katab-na, uktub-na, yaktub-na"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s028",
+      "items": [
+        {
+          "transliteration": "katab-tu al-dars",
+          "text": "— I wrote the lesson."
+        },
+        {
+          "transliteration": "katab-na al-risala",
+          "text": "— We wrote the letter."
+        },
+        {
+          "transliteration": "al-talibani kataba al-wajib",
+          "text": "— The two students wrote the assignment."
+        },
+        {
+          "transliteration": "al-tullab-u katab-u al-dars",
+          "text": "— The students wrote the lesson."
+        },
+        {
+          "transliteration": "ya Fatima uktub-i al-dars",
+          "text": "— O Fatima, write the lesson."
+        },
+        {
+          "transliteration": "al-talibat-u katab-na al-dars",
+          "text": "— The female students wrote the lesson."
+        }
+      ]
+    },
+    {
+      "id": "s029",
+      "text": "(b) Shared Connected Pronouns (Accusative and Genitive)"
+    },
+    {
+      "id": "s030",
+      "label_en": "Rule",
+      "text": "The shared pronouns are: yaʾ al-mutakallim (the speaker's yaʾ), kaf al-khitab (the addressee's kaf), haʾ al-ghayba (the absent-person's haʾ), and na al-faʿilin. They are 'shared' because: when attached to a verb, they are in the position of accusative; when attached to a noun, they are in the position of accusative or genitive; when attached to a preposition, they are in the position of genitive."
+    },
+    {
+      "id": "s031",
+      "items": [
+        {
+          "transliteration": "akrama-ni al-muʿallim",
+          "text": "— The teacher honored me. (in the position of accusative as a direct object)"
+        },
+        {
+          "transliteration": "kitab-i jadid",
+          "text": "— My book is new. (in the position of genitive as a mudaf ilayh)"
+        },
+        {
+          "transliteration": "inna-ni mujtahid",
+          "text": "— Indeed I am diligent. (in the position of accusative as the noun of inna)"
+        },
+        {
+          "transliteration": "sallam-a ʿalayya al-muʿallim",
+          "text": "— The teacher greeted me. (in the position of genitive after a preposition)"
+        }
+      ]
+    },
+    {
+      "id": "s032",
+      "headers": [
+        "Pronoun",
+        "Attached to a Verb",
+        "Attached to a Noun",
+        "Attached to a Particle"
+      ],
+      "rows": [
+        [
+          {
+            "transliteration": "yaʾ al-mutakallim"
+          },
+          {
+            "transliteration": "akrama-ni",
+            "text": "(direct object)"
+          },
+          {
+            "transliteration": "kitab-i",
+            "text": "(mudaf ilayh)"
+          },
+          {
+            "transliteration": "ʿalayya",
+            "text": "(genitive)"
+          }
+        ],
+        [
+          {
+            "transliteration": "kaf al-khitab"
+          },
+          {
+            "transliteration": "akrama-ka",
+            "text": "(direct object)"
+          },
+          {
+            "transliteration": "kitab-u-ka",
+            "text": "(mudaf ilayh)"
+          },
+          {
+            "transliteration": "ʿalay-ka",
+            "text": "(genitive)"
+          }
+        ],
+        [
+          {
+            "transliteration": "haʾ al-ghayba"
+          },
+          {
+            "transliteration": "akrama-hu",
+            "text": "(direct object)"
+          },
+          {
+            "transliteration": "kitab-u-hu",
+            "text": "(mudaf ilayh)"
+          },
+          {
+            "transliteration": "ʿalayhi",
+            "text": "(genitive)"
+          }
+        ],
+        [
+          {
+            "transliteration": "na al-faʿilin"
+          },
+          {
+            "transliteration": "akrama-na",
+            "text": "(direct object)"
+          },
+          {
+            "transliteration": "kitab-u-na",
+            "text": "(mudaf ilayh)"
+          },
+          {
+            "transliteration": "ʿalay-na",
+            "text": "(genitive)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s033",
+      "label_en": "Warning",
+      "text": "The pronoun 'na' is in the position of nominative when it serves as a subject (as in 'katabna'); it is in the position of accusative or genitive when attached to a noun or a preposition (as in 'kitab-u-na' and 'ʿalay-na')."
+    },
+    {
+      "id": "s034",
+      "text": "(c) The Pronoun That Is Only in the Position of Genitive"
+    },
+    {
+      "id": "s035",
+      "label_en": "Rule",
+      "text": "The speaker's yaʾ (yaʾ al-mutakallim) attaches to a noun, occupying the position of genitive as a mudaf ilayh; it does not attach to a verb in this role."
+    },
+    {
+      "id": "s036",
+      "text": "Among the pronouns that occur only in the position of genitive are those attached directly to prepositions, e.g.: li (to me), la-ka (to you), la-hu (to him), min-hu (from him), ʿan-hum (from them)."
+    },
+    {
+      "id": "s037",
+      "items": [
+        {
+          "transliteration": "hadha kitab-i",
+          "text": "— This is my book."
+        },
+        {
+          "transliteration": "inna li sadiq",
+          "text": "— Indeed I have a friend."
+        },
+        {
+          "transliteration": "sallam-tu ʿalayh",
+          "text": "— I greeted him."
+        }
+      ]
+    },
+    {
+      "id": "s038",
+      "text": "Second: Concealed Pronouns"
+    },
+    {
+      "id": "s039",
+      "label_en": "Definition",
+      "text": "Al-damir al-mustatir (the concealed pronoun): a pronoun with no form in the utterance; it is notionally implied within the verb and refers to the subject."
+    },
+    {
+      "id": "s040",
+      "text": "The concealed pronoun is divided into two types: obligatorily concealed (mustatir wujuban) and permissibly concealed (mustatir jawazan)."
+    },
+    {
+      "id": "s041",
+      "text": "1 — The Obligatorily Concealed Pronoun"
+    },
+    {
+      "id": "s042",
+      "label_en": "Rule",
+      "text": "The obligatorily concealed pronoun is one whose place cannot be taken by a manifest noun nor a separate pronoun. It occurs in four positions: with a present-tense verb beginning with the speaker's hamza ('ana'); or with the speaker's nun ('nahnu'); or with the addressee's taʾ ('anta'); and with the imperative for the masculine singular addressee."
+    },
+    {
+      "id": "s043",
+      "items": [
+        {
+          "transliteration": "aktub-u al-dars",
+          "text": "— I write the lesson. (implied: ana — 'I')"
+        },
+        {
+          "transliteration": "naktub-u al-dars",
+          "text": "— We write the lesson. (implied: nahnu — 'we')"
+        },
+        {
+          "transliteration": "taktub-u al-dars",
+          "text": "— You write the lesson. (implied: anta — 'you')"
+        },
+        {
+          "transliteration": "uktub al-dars",
+          "text": "— Write the lesson! (implied: anta — 'you')"
+        }
+      ]
+    },
+    {
+      "id": "s044",
+      "text": "2 — The Permissibly Concealed Pronoun"
+    },
+    {
+      "id": "s045",
+      "label_en": "Rule",
+      "text": "The permissibly concealed pronoun is one whose place can be taken by a manifest noun. It occurs with the past-tense verb for the absent masculine singular, and with the present-tense verb beginning with the absent-person's yaʾ or with the absent feminine singular's taʾ."
+    },
+    {
+      "id": "s046",
+      "items": [
+        {
+          "transliteration": "Muhammad-un kataba al-dars",
+          "text": "— Muhammad wrote the lesson. (implied: huwa — 'he'; could also be 'kataba Muhammad-un')"
+        },
+        {
+          "transliteration": "al-talib-u yaktub-u al-dars",
+          "text": "— The student writes the lesson. (implied: huwa)"
+        },
+        {
+          "transliteration": "Fatima taktub-u al-dars",
+          "text": "— Fatima writes the lesson. (implied: hiya — 'she')"
+        }
+      ]
+    },
+    {
+      "id": "s047",
+      "text": "Damir al-Shaʾn (Pronoun of Affair) and Damir al-Fasl (Pronoun of Separation)"
+    },
+    {
+      "id": "s048",
+      "text": "1 — Damir al-Shaʾn"
+    },
+    {
+      "id": "s049",
+      "label_en": "Definition",
+      "text": "Damir al-shaʾn: a third-person pronoun preceding a sentence that interprets it. It is called 'damir al-qissa' if feminine, and 'damir al-shaʾn' if masculine. It is used to magnify and exalt the speech."
+    },
+    {
+      "id": "s050",
+      "items": [
+        {
+          "transliteration": "huwa Allah-u ahad",
+          "text": "— He, Allah, is One."
+        },
+        {
+          "transliteration": "inna-hu al-haqq-u muntasir",
+          "text": "— Indeed, the truth is victorious."
+        }
+      ]
+    },
+    {
+      "id": "s051",
+      "text": "But what is the benefit of using damir al-shaʾn?"
+    },
+    {
+      "id": "s052",
+      "text": "Its benefit is to magnify and exalt the matter, alerting the listener that what follows it is of great significance and importance — as if the speaker is saying: 'The mighty matter is such-and-such.'"
+    },
+    {
+      "id": "s053",
+      "text": "2 — Damir al-Fasl"
+    },
+    {
+      "id": "s054",
+      "label_en": "Definition",
+      "text": "Damir al-fasl (the pronoun of separation): a separate nominative pronoun that falls between al-mubtadaʾ and al-khabar, or between the noun of kana (and its sisters) and its predicate, or between the noun of inna (and its sisters) and its predicate — to separate the predicate from a descriptive adjective. It has no place in iʿrab."
+    },
+    {
+      "id": "s055",
+      "items": [
+        {
+          "transliteration": "Muhammad-un huwa al-mujtahid",
+          "text": "— Muhammad — he is the diligent one."
+        },
+        {
+          "transliteration": "kana Zayd-un huwa al-faʾiz",
+          "text": "— Zayd was the very winner."
+        },
+        {
+          "transliteration": "inna al-kasul-a huwa al-khasir",
+          "text": "— Indeed the lazy one is the loser."
+        }
+      ]
+    },
+    {
+      "id": "s056",
+      "label_en": "Note",
+      "text": "It is called 'damir al-fasl' (pronoun of separation) because it separates what is before it from what is after it. It conveys emphasis, restriction, and specification. It occurs only between two definite nouns or what resembles definites."
+    },
+    {
+      "id": "s057",
+      "text": "Iʿrab of Pronouns"
+    },
+    {
+      "id": "s058",
+      "label_en": "Rule",
+      "text": "All pronouns are mabni — i.e., their form does not change with the operators acting upon them. However, they are in the position of nominative, accusative, or genitive depending on their place in the sentence."
+    },
+    {
+      "id": "s059",
+      "headers": [
+        "Pronoun",
+        "Vowel of Indeclension",
+        "Iʿrab Position"
+      ],
+      "rows": [
+        [
+          {
+            "transliteration": "ana"
+          },
+          "Sukun",
+          "By position"
+        ],
+        [
+          {
+            "transliteration": "nahnu"
+          },
+          "Damma",
+          "By position"
+        ],
+        [
+          {
+            "transliteration": "anta"
+          },
+          "Fatha",
+          "By position"
+        ],
+        [
+          {
+            "transliteration": "anti"
+          },
+          "Kasra",
+          "By position"
+        ],
+        [
+          {
+            "transliteration": "huwa"
+          },
+          "Fatha",
+          "By position"
+        ],
+        [
+          {
+            "transliteration": "hiya"
+          },
+          "Sukun",
+          "By position"
+        ],
+        [
+          {
+            "transliteration": "vowelled taʾ"
+          },
+          "By its vowel",
+          "Position of nominative"
+        ],
+        [
+          {
+            "transliteration": "na al-faʿilin"
+          },
+          "Sukun",
+          "By position"
+        ],
+        [
+          {
+            "transliteration": "alif al-ithnayn"
+          },
+          "Sukun",
+          "Position of nominative"
+        ],
+        [
+          {
+            "transliteration": "waw al-jamaʿa"
+          },
+          "Sukun",
+          "Position of nominative"
+        ],
+        [
+          {
+            "transliteration": "yaʾ al-mukhataba"
+          },
+          "Sukun",
+          "Position of nominative"
+        ],
+        [
+          {
+            "transliteration": "nun al-niswa"
+          },
+          "Fatha",
+          "Position of nominative"
+        ]
+      ]
+    },
+    {
+      "id": "s060",
+      "text": "Examples with Iʿrab"
+    },
+    {
+      "id": "s061",
+      "items": [
+        {
+          "transliteration": "katab-tu al-wajib",
+          "text": "— I wrote the assignment."
+        }
+      ]
+    },
+    {
+      "id": "s062",
+      "text": "kataba: a past-tense verb fixed on sukun because it is attached to a vowelled subject pronoun. The taʾ: a connected pronoun fixed on damma, in the position of nominative as the subject. al-wajiba: the direct object in the accusative, marked by the manifest fatha."
+    },
+    {
+      "id": "s063",
+      "items": [
+        {
+          "transliteration": "iyya-ka naʿbud",
+          "text": "— You alone we worship."
+        }
+      ]
+    },
+    {
+      "id": "s064",
+      "text": "iyya: a separate pronoun fixed on sukun, in the position of accusative as a fronted direct object. The kaf: a particle of address with no place in iʿrab. naʿbudu: a present-tense verb in the nominative, marked by the manifest damma; the subject is an obligatorily concealed pronoun, implied as 'nahnu' ('we')."
+    },
+    {
+      "id": "s065",
+      "label_en": "Warning",
+      "text": "The student should distinguish between overt and concealed pronouns, and identify each pronoun's iʿrab position. Pronouns are always mabni; their form is not affected by the operators acting upon them, but their iʿrab position changes by their place in the sentence."
+    },
+    {
+      "id": "s066",
+      "text": "Allah Most High said: \"You alone we worship and You alone we ask for help.\" — Quran 1:5 (Sahih International)"
+    },
+    {
+      "id": "s067",
+      "text": "In this noble verse, 'iyya-ka' is a separate accusative pronoun fixed on fatha, in the position of accusative as a fronted direct object. It was fronted to convey restriction — i.e., 'You alone we worship and none other; You alone we ask for help and none other.'"
+    }
+  ]
+}

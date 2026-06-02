@@ -1,0 +1,228 @@
+{
+  "lesson_id": "alef_wasl_hamzt_kataa",
+  "language": "en",
+  "title": "Alif al-Wasl (the Connecting Alif) and Hamzat al-Qatʿ (the Disjunctive Hamza)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "(a) Hamzat al-Wasl (the Connecting Hamza):"
+    },
+    {
+      "id": "s002",
+      "text": "It is a hamza that is pronounced when starting speech but is not pronounced when joined to what comes before it. It is not written with a hamza-symbol above or below; it is written like this: 'ا'."
+    },
+    {
+      "id": "s003",
+      "text": "Positions of Hamzat al-Wasl:"
+    },
+    {
+      "id": "s004",
+      "text": "(1) In Verbs:"
+    },
+    {
+      "id": "s005",
+      "headers": [
+        "Pattern starting with hamza",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "Imperative of the triliteral verb (amr al-thulathi)",
+          {
+            "transliteration": "idrib / ijlis / ilʿab",
+            "text": "(strike! / sit! / play!)"
+          }
+        ],
+        [
+          "Past, imperative, and verbal noun of the five-letter verb (al-khumasi)",
+          {
+            "transliteration": "intalaqa / intaliq / intilaq",
+            "text": "(set off / set off! / setting off)"
+          }
+        ],
+        [
+          "Past, imperative, and verbal noun of the six-letter verb (al-sudasi)",
+          {
+            "transliteration": "istaqbala / istaqbil / istiqbal",
+            "text": "(received / receive! / reception)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s006",
+      "text": "(2) In Nouns:"
+    },
+    {
+      "id": "s007",
+      "text": "ibn ('son'), ibna ('daughter'), ibnan / ibnatan (duals), ithnan ('two — masc.'), ithnatan ('two — fem.'), ism ('name'), ismani (dual of ism)."
+    },
+    {
+      "id": "s008",
+      "text": "(3) In Particles:"
+    },
+    {
+      "id": "s009",
+      "text": "The definite article 'al-' (ال), e.g., al-qadi ('the judge'), al-madrasa ('the school')."
+    },
+    {
+      "id": "s010",
+      "label_en": "Important",
+      "text": "Very important note:"
+    },
+    {
+      "id": "s011",
+      "text": "Cases Where Hamzat al-Wasl Is Dropped:"
+    },
+    {
+      "id": "s012",
+      "items": [
+        "1 — When preceded by an interrogative hamza, e.g., 'antalaqa al-jawad?' ('Did the steed set off?'); 'astaslama al-ʿaduww?' ('Did the enemy surrender?').",
+        "2 — When preceded by lam al-ibtidaʾ (the lam of inception), e.g., li-l-fata ('to the youth'); or lam al-istighatha (the lam of summoning for help), e.g., 'ya-Allah' ('O God!'); or lam al-jarr (the genitive lam), e.g., li-l-rajul ('for the man'). It is also dropped from the complete basmala formula: bi-smi-llahi al-rahmani al-rahim ('In the name of Allah, the Most Merciful, the Most Compassionate')."
+      ]
+    },
+    {
+      "id": "s013",
+      "text": "The hamza of 'ibn' is dropped in three positions:"
+    },
+    {
+      "id": "s014",
+      "items": [
+        "4 — When 'ibn' falls between two proper names, the second being the father of the first, and 'ibn' does not occur at the beginning of a line: e.g., Muhammad bn ʿAbdillah.",
+        "5 — When preceded by a vocative particle: 'ya bna ʿAbdillah' ('O son of ʿAbdullah!').",
+        "6 — When preceded by an interrogative hamza: 'a-bna-ka Muhammad?' ('Is your son Muhammad?')."
+      ]
+    },
+    {
+      "id": "s015",
+      "text": "The hamza of 'imruʾ' ('man') and 'imraʾa' ('woman') is dropped when preceded by 'al-': they become al-marʾ and al-marʾa."
+    },
+    {
+      "id": "s016",
+      "label_en": "Note",
+      "text": "Note:"
+    },
+    {
+      "id": "s017",
+      "text": "If the interrogative hamza enters upon a noun made definite by 'al-', the interrogative hamza and the hamzat al-wasl are merged into a long alif (madda). For example: a-al-kitabu la-ka? → al-kitabu la-ka? ('Is the book yours?')."
+    },
+    {
+      "id": "s018",
+      "text": "(b) Hamzat al-Qatʿ (the Disjunctive Hamza):"
+    },
+    {
+      "id": "s019",
+      "text": "It is a vowelled hamza occurring at the beginning of a word; it is pronounced both at the start of speech and within speech. It is written 'أ' (with the hamza above the alif) when it carries fatha or damma, and 'إ' (with the hamza below) when it carries kasra."
+    },
+    {
+      "id": "s020",
+      "text": "Positions of Hamzat al-Qatʿ:"
+    },
+    {
+      "id": "s021",
+      "text": "(1) In Verbs"
+    },
+    {
+      "id": "s022",
+      "headers": [
+        "Pattern",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "Past tense and verbal noun of the triliteral verb",
+          {
+            "transliteration": "akala / aklan; akhadha / akhdhan",
+            "text": "(he ate / eating; he took / taking)"
+          }
+        ],
+        [
+          "Past, imperative, and verbal noun of the four-letter verb (al-rubaʿi)",
+          {
+            "transliteration": "adraba / adrib / idrab",
+            "text": "(he struck/went on strike / strike! / striking)"
+          }
+        ],
+        [
+          "First-person singular present-tense (mudariʿ) verbs",
+          {
+            "transliteration": "aktub-u / ashrab-u / astaʿmil-u",
+            "text": "(I write / I drink / I use)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s023",
+      "text": ","
+    },
+    {
+      "id": "s024",
+      "text": "(2) In Nouns"
+    },
+    {
+      "id": "s025",
+      "text": "[Reference: 'al-Kafi' — a foundational grammar text]"
+    },
+    {
+      "id": "s026",
+      "text": "In all nouns except the irregular ones mentioned under hamzat al-wasl."
+    },
+    {
+      "id": "s027",
+      "text": "(3) In Particles"
+    },
+    {
+      "id": "s028",
+      "text": "All particles except the definite article 'al-', e.g., ila ('to'), aw ('or'), am ('or — interrogative'), inna ('verily'), an ('that')."
+    },
+    {
+      "id": "s029",
+      "text": "An easy way to distinguish these two hamzas at the beginning of a word: place the letter waw or faʾ before the word and pronounce it. If the hamza is pronounced, it is hamzat al-qatʿ; if not, it is hamzat al-wasl."
+    },
+    {
+      "id": "s030",
+      "text": "Example: akhadha ('he took') vs. wa-akhadha or fa-akhadha. Notice that you must pronounce the hamza, and that the hamza interrupts the pronunciation between the waw or faʾ and the kha."
+    },
+    {
+      "id": "s031",
+      "text": "Example: istaʿmala ('he used') vs. wa-staʿmala or fa-staʿmala. Notice that you do not pronounce the hamza; instead the waw connects directly to the sin, and the faʾ connects directly to the sin. That is why it is called hamzat al-wasl ('the connecting hamza')."
+    },
+    {
+      "id": "s033",
+      "text": "Al-Lam al-Qamariyya (the 'Lunar Lam', Pronounced) and Al-Lam al-Shamsiyya (the 'Solar Lam', Assimilated)"
+    },
+    {
+      "id": "s034",
+      "text": "Al-Lam al-Qamariyya (the 'Lunar Lam'):"
+    },
+    {
+      "id": "s035",
+      "text": "It is the lam written at the beginning of nouns and pronounced. It is a sukun-bearing lam and is called the 'manifest' (muzhara) lam, since it appears in pronunciation. Examples: al-ʿilm ('knowledge'), al-qalam ('the pen'), al-kalam ('the speech'), al-mithal ('the example')."
+    },
+    {
+      "id": "s036",
+      "text": "After it comes one of the following letters:"
+    },
+    {
+      "id": "s037",
+      "text": "ʾ — b — j — h — kh — ʿ — gh — f — q — k — m — h — w — y"
+    },
+    {
+      "id": "s038",
+      "text": "The 14 'lunar' letters of 'al-' are mnemonically gathered in the phrase: 'ibghi hajjaka wa-khaf ʿaqimah' ('Seek your pilgrimage and fear its barrenness')."
+    },
+    {
+      "id": "s039",
+      "text": "Al-Lam al-Shamsiyya (the 'Solar Lam'):"
+    },
+    {
+      "id": "s040",
+      "text": "It is the lam written but not pronounced because it is assimilated into the letter following it; the letter following it is then written with a shadda (gemination). Examples: al-tuffah ('the apple', pronounced 'at-tuffah'), al-dhahab ('the gold', pronounced 'adh-dhahab'), al-sidq ('truth/honesty', pronounced 'as-sidq'), al-taʿam ('the food', pronounced 'at-taʿam')."
+    },
+    {
+      "id": "s042",
+      "text": "After it comes one of the following letters with a shadda: t — th — d — dh — s — sh — s — d — t — z — l — n."
+    }
+  ]
+}

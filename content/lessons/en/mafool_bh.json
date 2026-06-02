@@ -1,0 +1,321 @@
+{
+  "lesson_id": "mafool_bh",
+  "language": "en",
+  "title": "Definition of Al-Mafʿul bih (the Direct Object)",
+  "sections": [
+    {
+      "id": "s001",
+      "label_en": "Definition",
+      "text": "Al-mafʿul bih (the direct object) is a noun indicating that upon which the subject's action falls."
+    },
+    {
+      "id": "s002",
+      "text": "Examples of Al-Mafʿul bih"
+    },
+    {
+      "id": "s003",
+      "items": [
+        {
+          "transliteration": "daraba al-muʿallim-u al-tilmidh-a",
+          "text": "— The teacher struck the pupil."
+        },
+        {
+          "transliteration": "qasad-tu al-nahr-a",
+          "text": "— I headed for the river."
+        },
+        {
+          "transliteration": "akrama al-ustadh-u al-talabat-a",
+          "text": "— The professor honored the students."
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "We notice that these sentences consist of a verb and a subject, with a noun added that indicates the one upon whom the subject's action fell."
+    },
+    {
+      "id": "s005",
+      "text": "Al-tilmidh is the one struck in the first sentence; al-nahr is the one headed for in the second; al-talaba are those honored in the third."
+    },
+    {
+      "id": "s006",
+      "text": "Thus the noun in a verbal sentence that conveys this meaning is called al-mafʿul bih (the direct object)."
+    },
+    {
+      "id": "s007",
+      "text": "Iʿrab of Al-Mafʿul bih"
+    },
+    {
+      "id": "s008",
+      "text": "Al-mafʿul bih is always in the accusative case (mansub). Its accusative marker is as follows:"
+    },
+    {
+      "id": "s009",
+      "text": "1 — The manifest fatha — when the direct object ends in a sound consonant, or has a final weak letter waw or yaʾ. E.g.:"
+    },
+    {
+      "id": "s010",
+      "items": [
+        {
+          "transliteration": "daraba al-muʿallim-u al-tilmidh-a",
+          "text": "— The teacher struck the pupil."
+        }
+      ]
+    },
+    {
+      "id": "s011",
+      "text": "daraba: a past-tense verb fixed on the manifest fatha at its end.\nal-muʿallim: the subject (faʿil) in the nominative, marked by the manifest damma at its end.\nal-tilmidh: the direct object in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s012",
+      "items": [
+        {
+          "transliteration": "raʾay-tu al-muhamiy-a",
+          "text": "— I saw the lawyer."
+        }
+      ]
+    },
+    {
+      "id": "s013",
+      "text": "raʾaytu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nal-muhami: the direct object in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s014",
+      "text": "2 — An estimated fatha (because of taʿadhdhur) — when the direct object's final letter is alif. E.g.:"
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "saʿad-tu al-fata",
+          "text": "— I helped the youth."
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "saʿadtu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nal-fata: the direct object in the accusative, marked by an estimated fatha on the alif maqsura, prevented from appearing because of taʿadhdhur."
+    },
+    {
+      "id": "s017",
+      "text": "3 — Al-mafʿul bih takes the accusative with yaʾ + nun in the dual and the sound masculine plural. E.g.:"
+    },
+    {
+      "id": "s018",
+      "items": [
+        {
+          "transliteration": "lamah-tu ʿusfurayn",
+          "text": "— I caught a glimpse of two sparrows. (dual)"
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "lamahtu: a past-tense verb fixed on sukun; the taʾ is the subject.\nʿusfurayn: the direct object in the accusative, marked by yaʾ + nun because it is dual."
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "ihtaram-tu al-qadiyin",
+          "text": "— I respected the judges. (plural)"
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "ihtaramtu: a past-tense verb fixed on sukun; the taʾ is the subject.\nal-qadiyin: the direct object in the accusative, marked by yaʾ because it is a sound masculine plural."
+    },
+    {
+      "id": "s022",
+      "text": "4 — Al-mafʿul bih takes the accusative with alif in the Five Nouns. E.g.:"
+    },
+    {
+      "id": "s023",
+      "items": [
+        {
+          "transliteration": "ahbab-tu akha-ka",
+          "text": "— I loved your brother."
+        }
+      ]
+    },
+    {
+      "id": "s024",
+      "text": "ahbabtu: a past-tense verb fixed on sukun; the taʾ is the subject.\nakha-ka: the direct object in the accusative, marked by alif because it is one of the Five Nouns; the kaf is a connected pronoun fixed on fatha, in the position of genitive as a mudaf ilayh."
+    },
+    {
+      "id": "s025",
+      "text": "5 — Al-mafʿul bih takes the accusative with kasra in the sound feminine plural. E.g.:"
+    },
+    {
+      "id": "s026",
+      "items": [
+        {
+          "transliteration": "raʾay-tu talibat-in",
+          "text": "— I saw [some] female students."
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "text": "raʾaytu: a past-tense verb fixed on sukun; the taʾ is the subject.\ntalibat: the direct object in the accusative, marked by kasra because it is a sound feminine plural."
+    },
+    {
+      "id": "s028",
+      "text": "Types of Al-Mafʿul bih"
+    },
+    {
+      "id": "s029",
+      "text": "Al-mafʿul bih is of two kinds:"
+    },
+    {
+      "id": "s030",
+      "text": "1 — An inflected (muʿrab) noun — and it can only be manifest, e.g.:"
+    },
+    {
+      "id": "s031",
+      "items": [
+        {
+          "transliteration": "akala al-qitt-u al-faʾr-a",
+          "text": "— The cat ate the mouse."
+        }
+      ]
+    },
+    {
+      "id": "s032",
+      "text": "2 — An indeclinable (mabni) noun — appearing as either a separate or a connected pronoun, e.g.:"
+    },
+    {
+      "id": "s033",
+      "items": [
+        {
+          "transliteration": "al-muʿallim-u nasaha-ni",
+          "text": "— The teacher counseled me."
+        }
+      ]
+    },
+    {
+      "id": "s034",
+      "text": "Here al-mafʿul bih is a connected pronoun — the speaker's yaʾ in 'nasaha-ni'."
+    },
+    {
+      "id": "s035",
+      "items": [
+        {
+          "text": "— \"You alone we worship.\" (iyya-ka naʿbud) — Quran 1:5 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s036",
+      "text": "Here al-mafʿul bih is a separate pronoun — 'iyya-ka' ('You alone')."
+    },
+    {
+      "id": "s037",
+      "text": "Al-mafʿul bih may be a demonstrative pronoun, e.g.:"
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "darab-tu hadha al-ghulam-a",
+          "text": "— I struck this boy."
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "Al-mafʿul bih may be a relative pronoun, e.g.:"
+    },
+    {
+      "id": "s040",
+      "items": [
+        {
+          "transliteration": "akram-tu alladhi zara-ni",
+          "text": "— I honored the one who visited me."
+        }
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "Al-mafʿul bih may be an interpreted infinitive (masdar muʾawwal — formed from 'an + verb' or 'anna + nominal sentence'), e.g.:"
+    },
+    {
+      "id": "s042",
+      "items": [
+        {
+          "transliteration": "talab-tu min al-tilmidh-i an yurajiʿa duruswa-hu",
+          "text": "— I asked the pupil to review his lessons."
+        },
+        {
+          "transliteration": "ʿalim-tu anna-ka mujtahid-un",
+          "text": "— I knew that you are diligent."
+        }
+      ]
+    },
+    {
+      "id": "s043",
+      "text": "Al-mafʿul bih may be a prepositional phrase, e.g.:"
+    },
+    {
+      "id": "s044",
+      "items": [
+        {
+          "transliteration": "amsak-tu bi-yad-i-ka",
+          "text": "— I held your hand. (lit. 'I grasped by your hand')"
+        }
+      ]
+    },
+    {
+      "id": "s045",
+      "text": "Exercises on Al-Mafʿul bih"
+    },
+    {
+      "id": "s046",
+      "items": [
+        {
+          "transliteration": "qaraʾ-tu al-kitab-a",
+          "text": "— I read the book."
+        }
+      ]
+    },
+    {
+      "id": "s047",
+      "text": "qaraʾtu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nal-kitab: the direct object in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s048",
+      "text": "What if we said: qaraʾtu al-kitab-u?"
+    },
+    {
+      "id": "s049",
+      "text": "Not permissible — because al-mafʿul bih is always in the accusative."
+    },
+    {
+      "id": "s050",
+      "items": [
+        {
+          "transliteration": "iyya-huma akram-tu",
+          "text": "— Those two I honored."
+        }
+      ]
+    },
+    {
+      "id": "s051",
+      "text": "iyya-huma: 'iyya' is a separate pronoun fixed on sukun, in the position of accusative as the direct object; 'huma' is a particle indicating the dual.\nakramtu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject."
+    },
+    {
+      "id": "s052",
+      "items": [
+        {
+          "transliteration": "iyya-ki aʿni",
+          "text": "— You [fem.] I mean."
+        }
+      ]
+    },
+    {
+      "id": "s053",
+      "text": "iyya-ki: 'iyya' is a separate pronoun fixed on sukun, in the position of accusative as the direct object; the kaf is a particle indicating feminine address.\naʿni: a present-tense verb in the nominative, marked by an estimated damma on the yaʾ, prevented from appearing because of phonetic heaviness; the subject is an obligatorily concealed pronoun, implied as 'anti' ('you — fem.')."
+    }
+  ]
+}
