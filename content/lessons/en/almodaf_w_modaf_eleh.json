@@ -1,0 +1,532 @@
+{
+  "lesson_id": "almodaf_w_modaf_eleh",
+  "language": "en",
+  "title": "What Are Al-Mudaf and Al-Mudaf Ilayh (the Construct Structure)?",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "nur-u al-shams-i qawiyy",
+          "text": "— The light of the sun is strong."
+        },
+        {
+          "transliteration": "ʿunq-u al-jamal-i tawil",
+          "text": "— The neck of the camel is long."
+        },
+        {
+          "transliteration": "asmaʿ-u bukaʾ-a tifl",
+          "text": "— I hear the crying of a child."
+        },
+        {
+          "transliteration": "ashumm-u raʾihat-a ward",
+          "text": "— I smell the scent of a rose."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "If you reflect on the underlined words, you will find that we have annexed and related them to each other. In the first sentence, we annexed 'nur' to 'al-shams' and related it to it. We did the same with each of the words ('ʿunq al-jamal', 'bukaʾ tifl', 'raʾihat ward'). This operation is called: al-idafa (annexation / construct)."
+    },
+    {
+      "id": "s004",
+      "text": "The first noun is called al-mudaf (the possessed / annexed) and the second is called al-mudaf ilayh (the possessor / annexed-to)."
+    },
+    {
+      "id": "s005",
+      "text": "Definition of Al-Mudaf and Al-Mudaf Ilayh"
+    },
+    {
+      "id": "s006",
+      "label_en": "Definition",
+      "text": "Al-idafa is a relationship between two nouns that puts the second in the genitive. The first is called al-mudaf and the second al-mudaf ilayh — provided that the first is indefinite, while the second may be either definite (in which case the first becomes definite) or indefinite (in which case the first is given specification)."
+    },
+    {
+      "id": "s007",
+      "text": "Examples of Al-Mudaf and Al-Mudaf Ilayh"
+    },
+    {
+      "id": "s008",
+      "items": [
+        {
+          "transliteration": "talibat-u al-jamiʿat-i yuqaddirna al-ʿilm",
+          "text": "— The female students of the university appreciate knowledge."
+        },
+        {
+          "transliteration": "labis-tu thawb-a qutn",
+          "text": "— I wore a garment of cotton."
+        },
+        {
+          "transliteration": "saniʿ-u al-maʿruf-i mashkur",
+          "text": "— The doer of good is praised."
+        },
+        {
+          "transliteration": "sariʿ-u al-ghadab-i madhmum",
+          "text": "— The quick-tempered is blameworthy."
+        },
+        {
+          "transliteration": "hadha kitab-u al-tilmidh",
+          "text": "— This is the pupil's book."
+        },
+        {
+          "transliteration": "inna hurriyat-a al-shuʿub-i umniyat-un ghaliya",
+          "text": "— Indeed, the freedom of peoples is a precious aspiration."
+        }
+      ]
+    },
+    {
+      "id": "s009",
+      "text": "Types of Al-Idafa"
+    },
+    {
+      "id": "s010",
+      "text": "Al-idafa is of two types: maʿnawiyya (semantic) and lafziyya (verbal/formal)."
+    },
+    {
+      "id": "s011",
+      "text": "1 — Al-Idafa al-Maʿnawiyya (Semantic Annexation)"
+    },
+    {
+      "id": "s012",
+      "text": "In this type, the mudaf gains either definiteness or specification from the mudaf ilayh. Al-idafa al-maʿnawiyya carries the meaning of the prepositions: lam (li-, 'belonging to'), min (al-bayaniyya, 'of [a kind]'), or fi (al-zarfiyya, 'in [a time/place]'). E.g.:"
+    },
+    {
+      "id": "s013",
+      "items": [
+        {
+          "transliteration": "dar-i: original is darun li (a house belonging to me)",
+          "text": "— My house: originally 'a house [belonging] to me'."
+        },
+        {
+          "transliteration": "hadha raʾyu ʿIsam: original is raʾyun min ʿIsam",
+          "text": "— This is ʿIsam's opinion: originally 'an opinion from ʿIsam'."
+        },
+        {
+          "transliteration": "atʿaba-ni sahr-u al-layl: original is sahrun fi al-layl",
+          "text": "— Staying up at night exhausted me: originally 'staying up in the night'."
+        }
+      ]
+    },
+    {
+      "id": "s014",
+      "text": "2 — Al-Idafa al-Lafziyya (Verbal Annexation)"
+    },
+    {
+      "id": "s015",
+      "text": "This is one that has no benefit in meaning — it does not give the mudaf definiteness or specification. Its purpose is rather to lighten the wording by what is dropped through annexation: namely the tanwin and the nun of the dual and plural. E.g.:"
+    },
+    {
+      "id": "s016",
+      "text": "— hadha al-rajul-u talib-u ʿilm ('this man is a seeker of knowledge')."
+    },
+    {
+      "id": "s017",
+      "text": "Here 'talib' is the mudaf and 'ʿilm' is the mudaf ilayh. The original sentence before annexation was: hadha al-rajulu talibun ʿilman ('this man is a seeker of knowledge')."
+    },
+    {
+      "id": "s018",
+      "text": "By annexation, the wording was lightened by the dropping of the tanwin, and the mudaf ilayh was put in the genitive."
+    },
+    {
+      "id": "s019",
+      "text": "— hadhani taliba ʿilmin muhadhdhabani ('these two are well-mannered seekers of knowledge')."
+    },
+    {
+      "id": "s020",
+      "text": "The word 'taliba' is the mudaf, and 'ʿilm' is the mudaf ilayh in the genitive. The nun of the dual ('talibani') was dropped in annexation, lightening the wording."
+    },
+    {
+      "id": "s021",
+      "text": "Iʿrab of Al-Mudaf and Al-Mudaf Ilayh"
+    },
+    {
+      "id": "s022",
+      "text": "Al-mudaf ilayh is always in the genitive. Al-mudaf is parsed according to its position in the sentence."
+    },
+    {
+      "id": "s023",
+      "text": "Special Rulings for Al-Mudaf and Al-Mudaf Ilayh"
+    },
+    {
+      "id": "s024",
+      "text": "1 — Al-mudaf may take its masculinity or femininity from al-mudaf ilayh, treating it as if it were of that gender. E.g.:"
+    },
+    {
+      "id": "s025",
+      "items": [
+        {
+          "transliteration": "suhbat-u Khalid-in nafiʿa",
+          "text": "— Khalid's company is beneficial."
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "text": "The word 'suhba' is feminine, but here it can be treated as masculine (suhbatu Khalid… nafiʿun) because the mudaf ilayh ('Khalid') is masculine."
+    },
+    {
+      "id": "s027",
+      "text": "2 — Some nouns are bound to annexation and cannot be separated from it. Of these, some must be annexed to a singular noun, e.g.:"
+    },
+    {
+      "id": "s028",
+      "items": [
+        {
+          "transliteration": "ʿinda",
+          "text": "(at, with)"
+        },
+        {
+          "transliteration": "lada",
+          "text": "(at, with)"
+        },
+        {
+          "transliteration": "ladun",
+          "text": "(from)"
+        },
+        {
+          "transliteration": "bayna",
+          "text": "(between)"
+        },
+        {
+          "transliteration": "wasta",
+          "text": "(amid)"
+        },
+        {
+          "transliteration": "kila",
+          "text": "(both — masc.)"
+        },
+        {
+          "transliteration": "kilta",
+          "text": "(both — fem.)"
+        },
+        {
+          "transliteration": "siwa",
+          "text": "(other than)"
+        },
+        {
+          "transliteration": "ghayr",
+          "text": "(other than)"
+        },
+        {
+          "transliteration": "dhu",
+          "text": "(possessor of)"
+        },
+        {
+          "transliteration": "baʿd",
+          "text": "(some of)"
+        },
+        {
+          "transliteration": "ulu",
+          "text": "(those of)"
+        },
+        {
+          "transliteration": "qusara",
+          "text": "(utmost of)"
+        },
+        {
+          "transliteration": "subhana",
+          "text": "(glory be to)"
+        },
+        {
+          "transliteration": "wahd",
+          "text": "(alone)"
+        },
+        {
+          "transliteration": "labbayka",
+          "text": "(at your service — repeatedly)"
+        },
+        {
+          "transliteration": "la-ʿamr",
+          "text": "(by the life of)"
+        }
+      ]
+    },
+    {
+      "id": "s029",
+      "text": "— Some are bound to be annexed to a clause, e.g.:"
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "idh",
+          "text": "(when — past)"
+        },
+        {
+          "transliteration": "haythu",
+          "text": "(where)"
+        },
+        {
+          "transliteration": "idha",
+          "text": "(when — future)"
+        },
+        {
+          "transliteration": "lamma",
+          "text": "(when)"
+        },
+        {
+          "transliteration": "mudh",
+          "text": "(since)"
+        },
+        {
+          "transliteration": "mundhu",
+          "text": "(since)"
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "3 — The tanwin is dropped upon annexation. So one says: qalam-u Muhammad ('Muhammad's pen'), not 'qalamun Muhammadin'."
+    },
+    {
+      "id": "s032",
+      "text": "4 — 'Al-' is dropped if the annexation is semantic (maʿnawiyya). So one says: kitab-u Saʿd ('Saʿd's book'), not 'al-kitabu Saʿdin'."
+    },
+    {
+      "id": "s033",
+      "text": "5 — The nun of the dual and the sound masculine plural is dropped, e.g.:"
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "jaʾa-ni raghiba tawba",
+          "text": "— Two seekers of repentance came to me. (originally 'raghibani')"
+        },
+        {
+          "transliteration": "jaʾa-ni ʿamilu haql",
+          "text": "— Workers of a field came to me. (originally 'ʿamiluna')"
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "Omission of Al-Mudaf"
+    },
+    {
+      "id": "s036",
+      "text": "Frequently, al-mudaf is omitted, and al-mudaf ilayh takes its place in the sentence — when the meaning is clear and there is no confusion. E.g.:"
+    },
+    {
+      "id": "s037",
+      "items": [
+        {
+          "transliteration": "qarrarat al-mahkamat-u al-hukm",
+          "text": "— The court decreed the ruling. (i.e., 'the judge of the court decreed the ruling')"
+        },
+        {
+          "transliteration": "ma kull-u baydaʾa shahmatun, wa-la sawdaʾa tamratun",
+          "text": "— Not every white thing is fat, nor every black thing a date. (i.e., 'nor every black thing [is] a date')"
+        }
+      ]
+    },
+    {
+      "id": "s038",
+      "text": "Annexation to the Speaker's Yaʾ"
+    },
+    {
+      "id": "s039",
+      "text": "If a noun is annexed to the speaker's yaʾ, its ending takes a kasra to accommodate the yaʾ, and the yaʾ may be sukun-bearing or fatha-bearing — except if the noun is maqsur, manqus, dual, or sound masculine plural, in which case the mudaf must take sukun and the yaʾ must take fatha."
+    },
+    {
+      "id": "s040",
+      "text": "Examples:"
+    },
+    {
+      "id": "s041",
+      "items": [
+        {
+          "transliteration": "qum-tu bi-nasib-i min al-ʿamal — or bi-nasib-i-ya",
+          "text": "— I did my share of the work."
+        },
+        {
+          "transliteration": "samaw-tu bi-adab-i — or bi-adab-i-ya",
+          "text": "— I rose with my literary achievements."
+        },
+        {
+          "transliteration": "antuma sahib-a-ya al-wafiyan",
+          "text": "— You two are my faithful companions."
+        },
+        {
+          "transliteration": "inna ʿasa-ya la-jamila",
+          "text": "— Indeed, my staff is beautiful."
+        }
+      ]
+    },
+    {
+      "id": "s042",
+      "text": "Examples of Iʿrab for Al-Mudaf and Al-Mudaf Ilayh"
+    },
+    {
+      "id": "s043",
+      "items": [
+        {
+          "transliteration": "ahdir qalam-a Saʿid",
+          "text": "— Bring Saʿid's pen."
+        }
+      ]
+    },
+    {
+      "id": "s044",
+      "text": "ahdir: an imperative verb fixed on sukun; the subject is an obligatorily concealed pronoun, implied as 'anta'."
+    },
+    {
+      "id": "s045",
+      "text": "qalam: a direct object in the accusative, marked by the manifest fatha at its end; a mudaf."
+    },
+    {
+      "id": "s046",
+      "text": "Saʿid: a mudaf ilayh in the genitive, marked by the manifest kasra at its end."
+    },
+    {
+      "id": "s047",
+      "items": [
+        {
+          "transliteration": "ashumm-u raʾihat-a ward",
+          "text": "— I smell the scent of a rose."
+        }
+      ]
+    },
+    {
+      "id": "s048",
+      "text": "ashumm: a present-tense verb in the nominative, marked by the manifest damma; the subject is an obligatorily concealed pronoun, implied as 'ana'."
+    },
+    {
+      "id": "s049",
+      "text": "raʾiha: a direct object in the accusative, marked by the manifest fatha; a mudaf."
+    },
+    {
+      "id": "s050",
+      "text": "ward: a mudaf ilayh in the genitive, marked by the manifest kasra at its end."
+    },
+    {
+      "id": "s051",
+      "items": [
+        {
+          "transliteration": "surir-tu hin-a raʾay-tu-ka",
+          "text": "— I was pleased when I saw you."
+        }
+      ]
+    },
+    {
+      "id": "s052",
+      "text": "surirtu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject."
+    },
+    {
+      "id": "s053",
+      "text": "hina: an adverb of time (mafʿul fih, zarf zaman) in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s054",
+      "text": "raʾaytuka: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject; the kaf of address is a connected pronoun fixed on fatha, in the position of accusative as the direct object; this is a mudaf, and the verbal clause (raʾaytuka) is in the position of genitive as a mudaf ilayh."
+    },
+    {
+      "id": "s055",
+      "items": [
+        {
+          "transliteration": "kila-na muwafiqan",
+          "text": "— Both of us agree."
+        }
+      ]
+    },
+    {
+      "id": "s056",
+      "text": "kila-na: kila is a mubtadaʾ in the nominative, marked by alif because it is treated like a dual; a mudaf. 'na' is a connected pronoun fixed on sukun, in the position of genitive as a mudaf ilayh."
+    },
+    {
+      "id": "s057",
+      "text": "muwafiqani: khabar in the nominative, marked by alif because it is dual; the nun substitutes for the tanwin of the singular noun."
+    },
+    {
+      "id": "s058",
+      "text": "Examples of Al-Mudaf Ilayh from the Noble Quran"
+    },
+    {
+      "id": "s059",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s060",
+      "items": [
+        {
+          "text": "— \"And the brothers of Joseph came...\" — Quran 12:58 (Sahih International)"
+        },
+        {
+          "text": "— \"And the people of Noah — when they denied the messengers, We drowned them.\" — Quran 25:37 (Sahih International)"
+        },
+        {
+          "text": "— \"...And upon those who are able [to fast, but with hardship] — a ransom [as substitute] of feeding a poor person...\" — Quran 2:184 (Sahih International)"
+        },
+        {
+          "text": "— \"Creator of the heavens and the earth, [who] made the angels messengers...\" — Quran 35:1 (Sahih International)"
+        },
+        {
+          "text": "— \"Allah has already given you victory in many regions and [even] on the day of Hunayn...\" — Quran 9:25 (Sahih International)"
+        },
+        {
+          "text": "— \"Know that Allah is severe in penalty...\" — Quran 5:98 (Sahih International)"
+        },
+        {
+          "text": "— \"Indeed, the recitation of dawn is ever witnessed.\" — Quran 17:78 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s061",
+      "text": "Exercises on Al-Mudaf and Al-Mudaf Ilayh"
+    },
+    {
+      "id": "s062",
+      "text": "1 — Provide the full vowel-marking on the endings of the words in the following, then identify al-mudaf, al-mudaf ilayh, and the type of annexation:"
+    },
+    {
+      "id": "s063",
+      "items": [
+        {
+          "transliteration": "uqaddiru muʿin-a al-duʿafaʾ, fa-quwwat-u-hu mujarradat-un li-ʿamal-i al-khayr",
+          "text": "— I appreciate the helper of the weak — for his strength is dedicated to doing good."
+        },
+        {
+          "transliteration": "sadiq-i mahmud-u al-sira, naqiyy-u al-damir, latif-u al-maʿshar",
+          "text": "— My friend is praiseworthy in conduct, pure of conscience, gentle in company."
+        },
+        {
+          "transliteration": "ibtulay-tu bi-jar-in zahir-i al-fasad, mardhul-i al-sifat",
+          "text": "— I have been afflicted with a neighbor of manifest corruption and despicable qualities."
+        },
+        {
+          "transliteration": "hadarat ila al-hafla fata-tun jamila tartadi thawb-a hariri-n bahiyy-i al-alwan, wa-yashiʿ-u hawla miʿsam-i-ha siwar-u dhahab",
+          "text": "— A beautiful young woman came to the celebration, wearing a silk garment of brilliant colors, with a gold bracelet shining on her wrist; the attendees began looking at her admiringly."
+        },
+        {
+          "transliteration": "hadhihi darrajat-u Saʿid tadallat min-ha haqibat-u-hu",
+          "text": "— This is Saʿid's bicycle — his bag has slipped down from it."
+        }
+      ]
+    },
+    {
+      "id": "s064",
+      "text": "2 — Provide the iʿrab for the underlined portions:"
+    },
+    {
+      "id": "s065",
+      "text": "Al-Mutanabbi said:"
+    },
+    {
+      "id": "s066",
+      "text": "[Al-Mutanabbi, classical poetry]: 'We are the children of the dead — so why do we abhor what we must inevitably drink?'"
+    },
+    {
+      "id": "s067",
+      "text": "And another said:"
+    },
+    {
+      "id": "s068",
+      "text": "[Classical poetry]: 'Treating the bodies, when they fall ill, is an easier matter than treating minds.'"
+    }
+  ]
+}

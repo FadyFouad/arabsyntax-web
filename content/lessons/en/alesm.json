@@ -1,0 +1,392 @@
+{
+  "lesson_id": "alesm",
+  "language": "en",
+  "title": "Signs of the Noun",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Ibn Malik says regarding the signs of the noun (al-ism):"
+    },
+    {
+      "id": "s002",
+      "text": "[Ibn Malik's Alfiyya]: A noun is distinguished from other word types by five signs: it can take al-jarr (the genitive case), al-tanwin (nunation), al-nida' (the vocative particle 'يا'), the definite article 'al-' (ال), and it can serve as a musnad ilayh (the subject of predication)."
+    },
+    {
+      "id": "s003",
+      "text": "The signs of a noun (al-ism) are: al-jarr (genitive case), al-tanwin (nunation), the definite article 'al-' (ال), al-nida' (the vocative call), and al-isnad (predication). Al-isnad is the most useful of them, as we will see shortly. We will study these signs by their names, some of their categories, and examples only — we will not study their al-iʿrab (full grammatical analysis), their uses, or how to distinguish between them, since this is not the place for that, and we have not yet covered the lessons that would qualify us to discuss those topics. Enough talk — let us begin with al-jarr."
+    },
+    {
+      "id": "s004",
+      "text": "Al-Jarr (the Genitive Case)"
+    },
+    {
+      "id": "s005",
+      "label_en": "Definition",
+      "text": "Al-jarr is one of the signs of the noun, and it occurs in three forms: al-jarr by means of a particle of jarr (a preposition), al-jarr by means of al-idafa (the construct/possessive structure), and al-jarr by means of al-tabaʿiyya (following/agreement)."
+    },
+    {
+      "id": "s006",
+      "text": "Al-Jarr by Means of a Preposition"
+    },
+    {
+      "id": "s007",
+      "text": "It is the noun's acceptance of being preceded by a particle of jarr (a preposition)."
+    },
+    {
+      "id": "s008",
+      "items": [
+        {
+          "transliteration": "fi al-madrasat-i",
+          "text": "— In the school."
+        }
+      ]
+    },
+    {
+      "id": "s009",
+      "text": "Al-Jarr by Means of Al-Idafa (the Construct Structure)"
+    },
+    {
+      "id": "s010",
+      "text": "A relationship between two nouns: the first is al-mudaf (the possessed / first term of the construct) and the second is al-mudaf ilayh (the possessor / second term). Its uses are many, including but not limited to: making definite, specifying, and the absolute superlative — we will study these later."
+    },
+    {
+      "id": "s011",
+      "items": [
+        {
+          "transliteration": "ghulam-u Zayd-in",
+          "text": "— Zayd's servant-boy."
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "text": "Al-Jarr by Means of Al-Tabaʿiyya (Following)"
+    },
+    {
+      "id": "s013",
+      "text": "It is of four types: al-naʿt (adjective/attribute), al-badal (apposition/substitute), al-tawkid (emphasis), and al-ʿatf (conjunction)."
+    },
+    {
+      "id": "s014",
+      "label_en": "Rule",
+      "text": "The follower (al-tabiʿ) always follows the followed (al-matbuʿ) in al-iʿrab (case-marking)."
+    },
+    {
+      "id": "s015",
+      "text": "Al-Naʿt (Adjective / Attribute)"
+    },
+    {
+      "id": "s016",
+      "text": "It is what describes al-matbuʿ (the followed) in order to clarify or specify it. Suppose I read a post that I liked — I would comment by saying:"
+    },
+    {
+      "id": "s017",
+      "items": [
+        {
+          "transliteration": "hadha mawduʿ-un jamil-un",
+          "text": "— This is a lovely post."
+        }
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "I described the post with the attribute of beauty in order to indicate its quality."
+    },
+    {
+      "id": "s019",
+      "text": "Al-Badal (Apposition / Substitute)"
+    },
+    {
+      "id": "s020",
+      "text": "The follower that is the intended target of the predication without intermediary. For example, suppose I read a reply I liked by Sheikh Abdul Rahman Ahmad and I say:"
+    },
+    {
+      "id": "s021",
+      "items": [
+        {
+          "transliteration": "aʿjaba-ni qawl-u al-shaykh-i",
+          "text": "— The sheikh's statement pleased me."
+        }
+      ]
+    },
+    {
+      "id": "s022",
+      "text": "The meaning is not yet clear, but if I say:"
+    },
+    {
+      "id": "s023",
+      "items": [
+        {
+          "transliteration": "aʿjaba-ni qawl-u al-shaykh-i ʿAbd-i al-Rahman-i",
+          "text": "— The statement of Sheikh Abdul Rahman pleased me."
+        }
+      ]
+    },
+    {
+      "id": "s024",
+      "text": "Then the intended meaning becomes clear."
+    },
+    {
+      "id": "s025",
+      "text": "Al-Tawkid (Emphasis)"
+    },
+    {
+      "id": "s026",
+      "text": "Affirming a meaning for the listener. It is of two types: lafzi (verbal — by repetition) and maʿnawi (semantic)."
+    },
+    {
+      "id": "s027",
+      "label_en": "Definition",
+      "text": "Al-tawkid al-lafzi: affirming the meaning by repeating it verbally."
+    },
+    {
+      "id": "s028",
+      "items": [
+        {
+          "transliteration": "qaraʾ-tu al-kitab-a, al-kitab-a",
+          "text": "— I read the book, the book."
+        }
+      ]
+    },
+    {
+      "id": "s029",
+      "label_en": "Definition",
+      "text": "Al-tawkid al-maʿnawi (semantic emphasis): It is of two types — first, removing doubt about al-muʾakkad (the emphasized noun), using words like ʿayn ('the very same') and nafs ('self'); and second, affirming the meaning of inclusiveness, using kull ('all') and jamiʿ ('all/whole'), etc."
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "inna-hu Mustafa nafs-u-hu",
+          "text": "— It is Mustafa himself."
+        },
+        {
+          "transliteration": "aʿrif-u al-aʿdaʾ-a kull-a-hum",
+          "text": "— I know the members, all of them."
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "If we said the second sentence without 'كلَّهم' (kullahum, 'all of them'), the meaning could carry other interpretations."
+    },
+    {
+      "id": "s032",
+      "text": "Al-ʿAtf (Conjunction)"
+    },
+    {
+      "id": "s033",
+      "text": "A follower between which and its matbuʿ (the followed) one of the conjunction particles intervenes."
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "hafiz-tu al-shiʿr-a wa-al-nathr-a",
+          "text": "— I memorized poetry and prose."
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "Al-Tanwin (Nunation)"
+    },
+    {
+      "id": "s036",
+      "label_en": "Definition",
+      "text": "Al-tanwin: a sukun-bearing nun (an 'n' sound) that attaches to the end of a noun in pronunciation but not in writing."
+    },
+    {
+      "id": "s037",
+      "text": "The reasons for tanwin are six: four pertain to nouns, and two pertain to poetic rhyme (al-tarannum 'melodic singing' and al-ghali 'excessive', which are not our topic)."
+    },
+    {
+      "id": "s038",
+      "text": "Tanwin al-Tamkin (Tanwin of Full Declension)"
+    },
+    {
+      "id": "s039",
+      "text": "The tanwin specific to fully declinable Arabic nouns — those that neither resemble particles (in which case they would be mabni, fixed/invariable) nor verbs (in which case they would be al-mamnuʿ min al-sarf, diptotes prevented from full declension)."
+    },
+    {
+      "id": "s040",
+      "items": [
+        {
+          "transliteration": "Muhammad-un"
+        },
+        {
+          "transliteration": "Zayd-un"
+        }
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "Not like: Ibrahim (al-mamnuʿ min al-sarf — a diptote) or Sibawayh (mabni — invariable, fixed on kasra)."
+    },
+    {
+      "id": "s042",
+      "text": "Tanwin al-Tankir (Tanwin of Indefiniteness)"
+    },
+    {
+      "id": "s043",
+      "text": "It is specific to certain mabni (invariable) nouns, used to distinguish between their definite and indefinite uses. For example, we mentioned that the name 'Sibawayh' is mabni; if we want to compare someone to him in grammar, we say:"
+    },
+    {
+      "id": "s044",
+      "items": [
+        {
+          "transliteration": "samiʿ-tu li-Sibawayh-i wa-li-Sibawayh-in",
+          "text": "— I listened to Sibawayh (the famous one) and to a Sibawayh (some other one)."
+        }
+      ]
+    },
+    {
+      "id": "s045",
+      "text": "The second instance was given tanwin to indicate that it refers to a different, unknown person."
+    },
+    {
+      "id": "s046",
+      "text": "Tanwin al-Muqabala (Tanwin of Counterpart)"
+    },
+    {
+      "id": "s047",
+      "text": "Specific to the sound feminine plural (jamʿ al-muʾannath al-salim); it corresponds to the nun of the sound masculine plural (jamʿ al-mudhakkar al-salim)."
+    },
+    {
+      "id": "s048",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s049",
+      "text": "\"Perhaps his Lord, if he divorced you [all], would substitute for him wives better than you — submitting [to Allah], believing, devoutly obedient, repentant, worshipping, and traveling — [ones] previously married and virgins.\" — Quran 66:5 (Sahih International)"
+    },
+    {
+      "id": "s050",
+      "text": "Tanwin al-ʿIwad (Tanwin of Substitution)"
+    },
+    {
+      "id": "s051",
+      "text": "Tanwin al-ʿiwad is written as a substitute for the omission of a letter, a word, or a clause."
+    },
+    {
+      "id": "s052",
+      "text": "An example of an omitted clause — Allah Most High said:"
+    },
+    {
+      "id": "s053",
+      "text": "\"And you are at that time looking on\" — Quran 56:84 (Sahih International)"
+    },
+    {
+      "id": "s054",
+      "text": "That is, '[at the moment] when the soul reaches the throat' — that clause was omitted and tanwin al-ʿiwad was placed in its stead."
+    },
+    {
+      "id": "s055",
+      "text": "An example of an omitted word: if someone asks you whether the members of Hasoub IO are cultured, you would reply by saying:"
+    },
+    {
+      "id": "s056",
+      "items": [
+        {
+          "transliteration": "kull-un muthaqqaf-un",
+          "text": "— Every one (of them) is cultured."
+        }
+      ]
+    },
+    {
+      "id": "s057",
+      "text": "Instead of 'كلُّ عضوٍ مثقفٌ' (kullu ʿudwin muthaqqafun, 'every member is cultured')."
+    },
+    {
+      "id": "s058",
+      "text": "Al-Nida' (the Vocative)"
+    },
+    {
+      "id": "s059",
+      "text": "It is the noun's acceptance of being called/addressed. It is not as simple as that — it contains many details that we cannot mention now."
+    },
+    {
+      "id": "s060",
+      "text": "An example of al-nida' is the saying of Allah Most High:"
+    },
+    {
+      "id": "s061",
+      "text": "\"O People of the Scripture\" — Quran 3:64 (Sahih International)"
+    },
+    {
+      "id": "s062",
+      "text": "Acceptance of the Definite Article 'Al-' (ال)"
+    },
+    {
+      "id": "s063",
+      "text": "Among the signs of the noun is its acceptance of having the definite article 'al-' (ال) attached to it."
+    },
+    {
+      "id": "s064",
+      "items": [
+        {
+          "transliteration": "al-rajul"
+        },
+        {
+          "transliteration": "al-marʾa"
+        }
+      ]
+    },
+    {
+      "id": "s065",
+      "text": "As for al-Farazdaq's attaching the relative 'al-' to the present-tense verb in his saying:"
+    },
+    {
+      "id": "s066",
+      "text": "[Al-Farazdaq, classical poetry]: 'You are not the judge whose ruling is accepted, nor of noble lineage, nor a man of [sound] opinion and discernment.' — The grammatical point is the unusual attachment of 'al-' (ال) to the present-tense verb 'تُرضى' (turda, 'is accepted'), since 'al-' should normally only attach to nouns."
+    },
+    {
+      "id": "s067",
+      "text": "Some said this is an ugly poetic license (darura qabiha); others said it is acceptable but rare."
+    },
+    {
+      "id": "s068",
+      "text": "Al-Isnad (Predication)"
+    },
+    {
+      "id": "s069",
+      "label_en": "Definition",
+      "text": "Al-isnad: the noun's acceptance of having something predicated of it (i.e., being informed about)."
+    },
+    {
+      "id": "s070",
+      "items": [
+        {
+          "transliteration": "hadara al-muʿallim-u",
+          "text": "— The teacher came / attended."
+        }
+      ]
+    },
+    {
+      "id": "s071",
+      "text": "We made a report about the teacher's attendance, so the noun accepted having predication made of it."
+    },
+    {
+      "id": "s072",
+      "label_en": "Note",
+      "text": "Ibn Hisham said that this sign is the most useful of all the signs, and an example of it is taʾ al-faʿil (the subject-tā')."
+    },
+    {
+      "id": "s073",
+      "items": [
+        {
+          "transliteration": "hadar-tu al-yawm-a",
+          "text": "— I attended today."
+        }
+      ]
+    },
+    {
+      "id": "s074",
+      "text": "This pronoun (taʾ al-faʿil — the subject-tā') accepts none of the other signs — no tanwin, no jarr, no 'al-' — and yet it is still a noun, as evidenced by predication being made of it."
+    },
+    {
+      "id": "s075",
+      "text": "The lesson was neither difficult nor weighty — we have not gone deep yet..."
+    }
+  ]
+}

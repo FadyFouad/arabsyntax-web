@@ -1,0 +1,545 @@
+{
+  "lesson_id": "kan_w_eakhawateha",
+  "language": "en",
+  "title": "Definition of Kana and Its Sisters",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "kana nizam-u al-barid-i ghayra maʿrufin, wa-lamma jaʾa Muʿawiya bn Abi Sufyan anshaʾa-hu wa-nazzama-hu",
+          "text": "— The postal system was unknown; when Muʿawiya ibn Abi Sufyan came, he established and organized it."
+        },
+        {
+          "transliteration": "bata al-dayf-u shabʿan-an",
+          "text": "— The guest spent the night satiated."
+        },
+        {
+          "transliteration": "yasir-u al-hilal-u badran",
+          "text": "— The crescent becomes a full moon."
+        },
+        {
+          "transliteration": "zalla al-dabab-u kathifan",
+          "text": "— The fog stayed thick."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "You will notice, dear readers, that these sentences are preceded by past-tense verbs: kana, bata, zalla — and also by a present-tense verb: yasiru."
+    },
+    {
+      "id": "s004",
+      "text": "You will also notice that the sentences preceded by these verbs are all nominal sentences. Before these verbs entered upon them, they were:"
+    },
+    {
+      "id": "s005",
+      "items": [
+        {
+          "transliteration": "nizam-u al-barid-i ghayr-u maʿrufin",
+          "text": "— The postal system is unknown."
+        },
+        {
+          "transliteration": "al-dayf-u shabʿan-un",
+          "text": "— The guest is satiated."
+        },
+        {
+          "transliteration": "al-hilal-u badr-un",
+          "text": "— The crescent is a full moon."
+        },
+        {
+          "transliteration": "al-dabab-u kathif-un",
+          "text": "— The fog is thick."
+        }
+      ]
+    },
+    {
+      "id": "s006",
+      "text": "That is, they are sentences composed of a nominative mubtadaʾ and a nominative khabar. But as soon as these verbs entered upon them, the mubtadaʾ remained in the nominative — but the khabar became accusative. This is the family of kana and its sisters, also called al-afʿal al-naqisa (the incomplete verbs)."
+    },
+    {
+      "id": "s007",
+      "text": "Why are the incomplete verbs called by this name?"
+    },
+    {
+      "id": "s008",
+      "text": "Because they require a predicate (khabar) for the meaning to be complete. You cannot say: kana Muhammad — zalla al-dabab — asbaha al-rajul... without completing them with a khabar that clarifies their meaning. They are also called al-afʿal al-nasikha (the abrogating verbs) or al-nawasikh (abrogators), because they abrogate the ruling of the khabar — and therefore alter the iʿrab of the sentence they enter upon."
+    },
+    {
+      "id": "s009",
+      "text": "Meanings of Kana and Its Sisters"
+    },
+    {
+      "id": "s010",
+      "items": [
+        "— kana: indicates absolute time-marking ('was, was being').",
+        "— asbaha: time-marking 'in the morning' ('became in the morning').",
+        "— amsa: time-marking 'in the evening'.",
+        "— zalla: time-marking 'during the day' ('continued throughout the day').",
+        "— adha: time-marking 'in the forenoon'.",
+        "— bata: time-marking 'at night' ('spent the night').",
+        "— sara: indicates transformation (changing the noun into the predicate), e.g.: 'sara al-qutn-u nasijan' ('the cotton became fabric').",
+        "— laysa: negation ('is not').",
+        "— ma zala, ma bariha, ma infakka, ma fatiʾa: indicate continuity ('still / continues to be').",
+        "— ma dama: indicates a duration ('as long as')."
+      ]
+    },
+    {
+      "id": "s011",
+      "text": "Iʿrab of Kana and Its Sisters"
+    },
+    {
+      "id": "s012",
+      "label_en": "Rule",
+      "text": "Kana and its sisters enter upon al-mubtadaʾ and al-khabar: they leave al-mubtadaʾ in the nominative (and it is then called their ism) and put al-khabar in the accusative (and it is then called their khabar)."
+    },
+    {
+      "id": "s013",
+      "text": "Operation of Kana and Its Sisters"
+    },
+    {
+      "id": "s014",
+      "text": "For kana and its sisters to operate fully, certain specific conditions are required:"
+    },
+    {
+      "id": "s015",
+      "text": "1 — The verbs kana, sara, laysa, asbaha, amsa, adha, zalla, bata operate without any condition — i.e., they always raise al-mubtadaʾ and put al-khabar in the accusative, e.g.:"
+    },
+    {
+      "id": "s016",
+      "items": [
+        {
+          "transliteration": "kana al-matar-u ghaziran",
+          "text": "— The rain was abundant."
+        },
+        {
+          "transliteration": "asbaha al-sahir-u mutʿaban",
+          "text": "— The one who stayed up became tired."
+        },
+        {
+          "transliteration": "sara al-jawww-u jamilan",
+          "text": "— The weather became beautiful."
+        },
+        {
+          "transliteration": "laysa al-ghishsh-u maqbulan",
+          "text": "— Cheating is not acceptable."
+        }
+      ]
+    },
+    {
+      "id": "s017",
+      "text": "2 — The verbs zala, bariha, infakka, fatiʾa operate like kana only when joined to a negation or a prohibition, e.g.:"
+    },
+    {
+      "id": "s018",
+      "items": [
+        {
+          "transliteration": "ma zala al-ʿaduww-u naqiman",
+          "text": "— The enemy still bears a grudge."
+        },
+        {
+          "transliteration": "ma infakka al-rajul-u nadiman",
+          "text": "— The man has not ceased to be regretful."
+        },
+        {
+          "transliteration": "la tazal mujtahidan",
+          "text": "— Do not cease to be diligent."
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "3 — The verb dama requires that it be preceded by ma al-masdariyya al-zarfiyya (the adverbial infinitival 'ma'), because it converts the verb into a masdar preceded by 'duration', e.g.:"
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "la akhruj-u min al-bayt-i ma dama al-matar-u nazilan",
+          "text": "— I will not leave the house as long as the rain is falling."
+        },
+        {
+          "transliteration": "la usahib-u-ka ma dum-ta mutakabbiran",
+          "text": "— I will not befriend you as long as you remain arrogant."
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "Conjugation of Kana and Its Sisters"
+    },
+    {
+      "id": "s022",
+      "text": "Kana and its sisters differ in their conjugability as follows:"
+    },
+    {
+      "id": "s023",
+      "items": [
+        "1 — The incomplete verbs that operate in the past, present, and imperative, namely seven verbs: kana, asbaha, sara, amsa, adha, zalla, bata.",
+        "2 — The incomplete verbs that operate in the past and present: ma zala, ma bariha, ma infakka, ma fatiʾa.",
+        "3 — The incomplete verbs that operate only in the past: laysa, ma dama."
+      ]
+    },
+    {
+      "id": "s024",
+      "text": "Question: The verb 'dama' is conjugated (dama, yadumu, dum), so how can we say it operates only in the past?"
+    },
+    {
+      "id": "s025",
+      "text": "Answer: Because 'dama' on its own is a complete verb. We said the incomplete verb is the one preceded by 'ma'."
+    },
+    {
+      "id": "s026",
+      "text": "Types of the Predicate of Kana and Its Sisters"
+    },
+    {
+      "id": "s027",
+      "text": "1 — A single word (singular, dual, or plural), e.g.:"
+    },
+    {
+      "id": "s028",
+      "items": [
+        {
+          "transliteration": "kana al-tilmidh-u mujtahidan",
+          "text": "— The pupil was diligent."
+        },
+        {
+          "transliteration": "kana al-tilmidhani mujtahidayn",
+          "text": "— The two pupils were diligent."
+        },
+        {
+          "transliteration": "kana al-talamidh-u mujtahidina",
+          "text": "— The pupils were diligent."
+        }
+      ]
+    },
+    {
+      "id": "s029",
+      "text": "2 — A verbal clause, e.g.:"
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "kana al-muʿallim-u yudarris-u al-talamidh",
+          "text": "— The teacher was teaching the pupils."
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "3 — A nominal clause, e.g.:"
+    },
+    {
+      "id": "s032",
+      "items": [
+        {
+          "transliteration": "al-fallah-u ʿamal-u-hu sharif",
+          "text": "— The farmer's work is honorable."
+        }
+      ]
+    },
+    {
+      "id": "s033",
+      "text": "4 — A prepositional phrase, e.g.:"
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "laysa li-l-khaʾin-i damir",
+          "text": "— The traitor has no conscience."
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "5 — An adverb, e.g.:"
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "transliteration": "ma zala al-wafiyy-u ʿinda waʿd-i-hi",
+          "text": "— The faithful one still keeps his promise."
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "Kana and Its Sisters and Their Position in the Sentence"
+    },
+    {
+      "id": "s038",
+      "text": "The default rule is that kana and its sisters come first, then the noun, then the predicate. But there are cases of fronting and postposing as follows:"
+    },
+    {
+      "id": "s039",
+      "text": "1 — It is permissible for the predicate to fall between kana (or its sisters) and their noun, e.g.:"
+    },
+    {
+      "id": "s040",
+      "items": [
+        {
+          "transliteration": "kana kariman Muhammad",
+          "text": "— Generous was Muhammad."
+        },
+        {
+          "transliteration": "laysa sawaʾan ʿalim-un wa-jahul",
+          "text": "— A scholar and an ignorant one are not equal."
+        }
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "2 — It is permissible for the predicate of kana (and its sisters) to come before them — except for laysa and ma dama — e.g.:"
+    },
+    {
+      "id": "s042",
+      "items": [
+        {
+          "transliteration": "rahiman kana rasul-u Allah",
+          "text": "— Compassionate was the Messenger of Allah."
+        },
+        {
+          "transliteration": "mutmaʾinnan bata al-muʾmin",
+          "text": "— Tranquil was the believer's night."
+        }
+      ]
+    },
+    {
+      "id": "s043",
+      "text": "Examples of Kana and Its Sisters with Iʿrab"
+    },
+    {
+      "id": "s044",
+      "items": [
+        {
+          "transliteration": "kana al-jawww-u jamilan",
+          "text": "— The weather was beautiful."
+        }
+      ]
+    },
+    {
+      "id": "s045",
+      "text": "kana: an incomplete past-tense verb fixed on fatha.\nal-jawww: ism kana in the nominative, marked by damma.\njamilan: khabar kana in the accusative, marked by fatha."
+    },
+    {
+      "id": "s046",
+      "items": [
+        {
+          "transliteration": "ma zala al-matar-u nazilan",
+          "text": "— The rain is still falling."
+        }
+      ]
+    },
+    {
+      "id": "s047",
+      "text": "ma: a particle of negation.\nzala: an incomplete past-tense verb.\nal-matar: ism zala in the nominative, marked by damma.\nnazilan: khabar zala in the accusative, marked by fatha."
+    },
+    {
+      "id": "s048",
+      "items": [
+        {
+          "transliteration": "kun saburan",
+          "text": "— Be patient!"
+        }
+      ]
+    },
+    {
+      "id": "s049",
+      "text": "kun: an incomplete imperative verb fixed on sukun; the ism of kana is a concealed pronoun, implied as 'anta'.\nsaburan: khabar kana in the accusative, marked by fatha."
+    },
+    {
+      "id": "s050",
+      "items": [
+        {
+          "transliteration": "adhat al-samaʾ-u bahija",
+          "text": "— The sky became radiant in the forenoon."
+        }
+      ]
+    },
+    {
+      "id": "s051",
+      "text": "adhat: an incomplete past-tense verb; the taʾ is the sukun-bearing taʾ of the feminine, with no place in iʿrab.\nal-samaʾ: ism adha in the nominative, marked by damma.\nbahija: khabar adha in the accusative, marked by fatha."
+    },
+    {
+      "id": "s052",
+      "items": [
+        {
+          "transliteration": "laysa sawaʾan ʿalim-un wa-jahul",
+          "text": "— A scholar and an ignorant one are not equal."
+        }
+      ]
+    },
+    {
+      "id": "s053",
+      "text": "laysa: an incomplete past-tense verb.\nsawaʾan: a fronted khabar of laysa in the accusative, marked by fatha.\nʿalim: a postponed ism of laysa in the nominative, marked by damma.\nwa-jahul: the waw — a conjunction; jahul — conjoined onto 'ʿalim'."
+    },
+    {
+      "id": "s054",
+      "text": "Examples of Kana and Its Sisters from the Quran"
+    },
+    {
+      "id": "s055",
+      "text": "Allah Most High says:"
+    },
+    {
+      "id": "s056",
+      "items": [
+        {
+          "text": "— \"And ever is your Lord competent.\" — Quran 25:54 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s057",
+      "text": "kana: an incomplete past-tense verb fixed on fatha.\nrabbu-ka: ism kana in the nominative, marked by damma; the kaf is a pronoun of address.\nqadiran: khabar kana in the accusative, marked by fatha."
+    },
+    {
+      "id": "s058",
+      "items": [
+        {
+          "text": "— \"...but they will not cease to differ.\" — Quran 11:118 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s059",
+      "text": "la: a particle of negation.\nyazaluna: an incomplete present-tense verb in the nominative, marked by retention of the nun; the waw is the ism of yazala in the nominative.\nmukhtalifina: khabar yazala in the accusative, marked by yaʾ because it is a sound masculine plural; the nun substitutes for the tanwin."
+    },
+    {
+      "id": "s060",
+      "items": [
+        {
+          "text": "— \"We will never cease being devoted to it [i.e., the calf]...\" — Quran 20:91 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s061",
+      "text": "lan: a particle of negation, accusative-governance, and future.\nnabraha: an incomplete present-tense verb in the accusative by 'lan'; its ism is an obligatorily concealed pronoun, implied as 'nahnu'.\nʿalayhi: a prepositional phrase.\nʿakifina: khabar nabraha in the accusative, marked by yaʾ because it is a sound masculine plural; the nun substitutes for the tanwin."
+    },
+    {
+      "id": "s062",
+      "items": [
+        {
+          "text": "— \"...and has enjoined upon me prayer and zakah as long as I remain alive.\" — Quran 19:31 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s063",
+      "text": "ma: an infinitival particle.\ndumtu: an incomplete past-tense verb fixed on sukun; the taʾ in the position of nominative as the ism of ma dama.\nhayyan: khabar ma dama. The interpreted masdar is in the position of accusative as an adverbial of time."
+    },
+    {
+      "id": "s064",
+      "text": "Examples of Kana and Its Sisters from Poetry"
+    },
+    {
+      "id": "s065",
+      "text": "— Al-Mutanabbi said:"
+    },
+    {
+      "id": "s066",
+      "text": "[Al-Mutanabbi, classical poetry]: 'When you have an opinion, also possess resolve — for the corruption of opinion is to hesitate.'"
+    },
+    {
+      "id": "s067",
+      "text": "— Tarafah ibn al-ʿAbd said:"
+    },
+    {
+      "id": "s068",
+      "text": "[Tarafah, classical poetry]: 'I am not one who frequents the lowlands out of fear; but whenever the people seek aid, I aid them.'"
+    },
+    {
+      "id": "s069",
+      "text": "— Maʿruf al-Rusafi said:"
+    },
+    {
+      "id": "s070",
+      "text": "[Maʿruf al-Rusafi, classical poetry]: 'Humiliation has come to walk among them — like the walk of an emir, with them as servants around him.'"
+    },
+    {
+      "id": "s071",
+      "text": "— Al-Samawʾal said:"
+    },
+    {
+      "id": "s072",
+      "text": "[Al-Samawʾal, classical poetry]: 'Ask people — if you do not know — about us and them: a scholar and an ignorant one are not equal.'"
+    },
+    {
+      "id": "s073",
+      "text": "— Al-Farazdaq said:"
+    },
+    {
+      "id": "s074",
+      "text": "[Al-Farazdaq, classical poetry]: 'How shall it be when I pass by the dwelling of a people, and neighbors of ours who were noble?'"
+    },
+    {
+      "id": "s075",
+      "text": "Questions and Answers about Kana and Its Sisters"
+    },
+    {
+      "id": "s076",
+      "text": "Why are the incomplete verbs called by this name?"
+    },
+    {
+      "id": "s077",
+      "text": "— Because they require a predicate for the meaning to be complete."
+    },
+    {
+      "id": "s078",
+      "text": "What are the sisters of kana?"
+    },
+    {
+      "id": "s079",
+      "text": "— kana, asbaha, zalla, amsa, adha, bata, sara, laysa, ma dama, ma infakka, ma zala, ma fatiʾa, ma bariha."
+    },
+    {
+      "id": "s080",
+      "text": "What is the iʿrab function of kana and its sisters?"
+    },
+    {
+      "id": "s081",
+      "text": "— They leave al-mubtadaʾ in the nominative (called their ism) and put al-khabar in the accusative (called their khabar)."
+    },
+    {
+      "id": "s082",
+      "text": "What are the conditions for the operation of kana and its sisters?"
+    },
+    {
+      "id": "s083",
+      "text": "— kana, sara, laysa, asbaha, amsa, adha, zalla, bata: operate without any condition.\n— zala, bariha, infakka, fatiʾa: operate like kana only when joined to a negation or a prohibition.\n— dama: requires that it be preceded by ma al-masdariyya al-zarfiyya."
+    },
+    {
+      "id": "s084",
+      "text": "Identify the noun (ism) and the predicate (khabar) in the following sentences:"
+    },
+    {
+      "id": "s085",
+      "items": [
+        {
+          "transliteration": "kana Mahmud-un shujaʿan",
+          "text": "— Mahmud was brave."
+        },
+        {
+          "transliteration": "sara al-jawww-u baridan",
+          "text": "— The weather became cold."
+        },
+        {
+          "transliteration": "bata al-miskin-u jaʾiʿan",
+          "text": "— The poor man spent the night hungry."
+        }
+      ]
+    },
+    {
+      "id": "s086",
+      "text": "/ I think the answers do not need to be written out. We end here, and I hope the explanation has been clear. For any questions or assistance, please consult a teacher or grammar reference."
+    }
+  ]
+}

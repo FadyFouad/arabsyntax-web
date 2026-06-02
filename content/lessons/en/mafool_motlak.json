@@ -1,0 +1,274 @@
+{
+  "lesson_id": "mafool_motlak",
+  "language": "en",
+  "title": "What Is Al-Mafʿul al-Mutlaq (the Absolute Object)?",
+  "sections": [
+    {
+      "id": "s001",
+      "label_en": "Definition",
+      "text": "Al-mafʿul al-mutlaq (the absolute object / cognate accusative) is an indefinite verbal noun (masdar) in the accusative case, agreeing with the verb in its wording, occurring after the verb to emphasize it, or to specify its kind, or to specify its number."
+    },
+    {
+      "id": "s002",
+      "text": "Examples of Al-Mafʿul al-Mutlaq"
+    },
+    {
+      "id": "s003",
+      "items": [
+        {
+          "transliteration": "khatafa al-thaʿlab-u al-dajajat-a khatfan",
+          "text": "— The fox snatched the chicken with a snatching."
+        },
+        {
+          "transliteration": "yashrabu al-tifl-u al-laban-a shurban",
+          "text": "— The child drinks the milk with a drinking."
+        },
+        {
+          "transliteration": "samiʿ-tu al-sawt-a samaʿan",
+          "text": "— I heard the sound with a hearing."
+        },
+        {
+          "transliteration": "yathibu al-namir-u wuthub-a al-asad",
+          "text": "— The leopard leaps with the leap of a lion."
+        },
+        {
+          "transliteration": "jara Khalid jaryan sariʿan",
+          "text": "— Khalid ran with a swift running."
+        },
+        {
+          "transliteration": "akala ʿAliyy aklatayn",
+          "text": "— Ali ate two acts of eating (i.e., he ate twice)."
+        },
+        {
+          "transliteration": "tadur-u al-ard-u dawrat-an fi al-yawm",
+          "text": "— The earth rotates one rotation per day."
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "Types of Al-Mafʿul al-Mutlaq with Examples"
+    },
+    {
+      "id": "s005",
+      "text": "Consider the underlined words in the sentences above:\nThey are nouns in the accusative — called masadir (verbal nouns)."
+    },
+    {
+      "id": "s006",
+      "text": "Try to identify where these masadir are derived from."
+    },
+    {
+      "id": "s007",
+      "text": "They are derived from the verbs that preceded them: (khatafa → khatfan; yashrabu → shurban; yathibu → wuthuban; jara → jaryan; akala → aklatayn; tadur-u → dawratan)."
+    },
+    {
+      "id": "s008",
+      "text": "You will find that these masadir add a new meaning to the verbs from which they are derived."
+    },
+    {
+      "id": "s009",
+      "text": "How?"
+    },
+    {
+      "id": "s010",
+      "text": "Take, for instance, the sentence 'khatafa al-thaʿlab al-dajaja khatfan' ('the fox snatched the chicken — a snatching').\nIf we just said 'khatafa al-thaʿlab al-dajaja' ('the fox snatched the chicken'), we would understand that the fox indeed snatched the chicken and that we should not doubt it. But the word 'khatfan' has emphasized the meaning."
+    },
+    {
+      "id": "s011",
+      "text": "— 'yathibu al-namir wuthub al-asad' ('the leopard leaps with the leap of a lion').\nIf we just said 'yathibu al-namir' ('the leopard leaps') and stopped, the listener would only understand that leaping has occurred from the leopard. But if we then add 'wuthub al-asad' ('the leap of a lion'), the listener understands the kind of this leaping."
+    },
+    {
+      "id": "s012",
+      "text": "— 'tadur-u al-ard dawra fi al-yawm' ('the earth turns one rotation per day').\nIf we just said 'tadur-u al-ard', we would know that rotation has occurred but not how many times. Adding '(dawra fi al-yawm)' specifies that number."
+    },
+    {
+      "id": "s013",
+      "text": "So the types of al-mafʿul al-mutlaq come either to emphasize the verb, or to specify its kind, or to specify its number."
+    },
+    {
+      "id": "s014",
+      "text": "What May Substitute for Al-Mafʿul al-Mutlaq"
+    },
+    {
+      "id": "s015",
+      "text": "Al-mafʿul al-mutlaq may be omitted, replaced by a word that indicates:"
+    },
+    {
+      "id": "s016",
+      "text": "1 — Its meaning."
+    },
+    {
+      "id": "s017",
+      "items": [
+        {
+          "transliteration": "sir-tu harwala",
+          "text": "— I walked at a trot. (i.e., I walked a trotting walk.)"
+        }
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "2 — Its number."
+    },
+    {
+      "id": "s019",
+      "items": [
+        {
+          "transliteration": "fuzna bi-l-mubarat-i marratayn",
+          "text": "— We won the match twice. (i.e., we achieved two victories.)"
+        }
+      ]
+    },
+    {
+      "id": "s020",
+      "text": "3 — A demonstrative pointing to it."
+    },
+    {
+      "id": "s021",
+      "items": [
+        {
+          "transliteration": "rakad-a dhalika al-rakd",
+          "text": "— He ran that running."
+        }
+      ]
+    },
+    {
+      "id": "s022",
+      "text": "4 — Its quality/description."
+    },
+    {
+      "id": "s023",
+      "items": [
+        {
+          "transliteration": "saffaqa al-jumhur-u kathiran",
+          "text": "— The audience clapped a great deal. (i.e., the audience clapped a clapping that was great.)"
+        }
+      ]
+    },
+    {
+      "id": "s024",
+      "text": "5 — Its instrument."
+    },
+    {
+      "id": "s025",
+      "items": [
+        {
+          "transliteration": "darab-tu-hu sikkinan",
+          "text": "— I struck him with a knife. (i.e., I struck him a striking with a knife.)"
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "text": "6 — The words 'kull' ('all of') or 'baʿd' ('some of') when annexed to the masdar of the verb."
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "taʿallam-a baʿd-a al-taʿallum",
+          "text": "— He learned somewhat. (lit. 'some of the learning')"
+        },
+        {
+          "transliteration": "samada shaʿb-u-na kull-a al-sumud",
+          "text": "— Our people stood firm utterly. (lit. 'all of the firmness')"
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "Iʿrab of Al-Mafʿul al-Mutlaq"
+    },
+    {
+      "id": "s029",
+      "items": [
+        {
+          "transliteration": "samiʿ-tu al-sawt-a samaʿan",
+          "text": "— I heard the sound with a hearing."
+        }
+      ]
+    },
+    {
+      "id": "s030",
+      "text": "samiʿtu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nal-sawt: the direct object in the accusative, marked by the manifest fatha at its end.\nsamaʿan: al-mafʿul al-mutlaq in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s031",
+      "items": [
+        {
+          "transliteration": "dur-tu hawla al-malʿab dawratayn",
+          "text": "— I went around the field two rounds."
+        }
+      ]
+    },
+    {
+      "id": "s032",
+      "text": "durtu: a past-tense verb fixed on sukun; the taʾ is the subject (faʿil).\nhawla: an adverbial accusative (mafʿul fih) marked by the manifest fatha; a mudaf.\nal-malʿab: a mudaf ilayh in the genitive, marked by the manifest kasra.\ndawratayn: al-mafʿul al-mutlaq in the accusative, marked by yaʾ + nun because it is dual."
+    },
+    {
+      "id": "s033",
+      "items": [
+        {
+          "transliteration": "inna najah-a-ka najahan bahiran amr-un mufrih-un",
+          "text": "— Indeed, your dazzling success is a delightful matter."
+        }
+      ]
+    },
+    {
+      "id": "s034",
+      "text": "inna: a particle of emphasis and accusative-governance.\nnajaha-ka: ism inna in the accusative, marked by the manifest fatha; the kaf is a connected pronoun fixed on fatha, in the position of genitive as a mudaf ilayh.\nnajahan: al-mafʿul al-mutlaq in the accusative, marked by the manifest fatha.\nbahiran: a naʿt (attributive adjective) in the accusative, marked by the manifest fatha.\namr: the predicate of inna (khabar inna) in the nominative, marked by the manifest damma.\nmufrih: a naʿt in the nominative, marked by the manifest damma."
+    },
+    {
+      "id": "s035",
+      "text": "Examples of Al-Mafʿul al-Mutlaq from the Noble Quran"
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "text": "— \"And Allah spoke to Moses with [direct] speech.\" — Quran 4:164 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "kallama: a past-tense verb fixed on the manifest fatha at its end.\nAllah: the divine name, the subject in the nominative, marked by the manifest damma at its end.\nMusa: the direct object in the accusative, marked by an estimated fatha on the alif, prevented from appearing because of taʿadhdhur (the alif cannot bear vowels).\ntaklimaan: al-mafʿul al-mutlaq in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "text": "— \"...so We seized them with a seizure of one Exalted in Might and Perfect in Ability.\" — Quran 54:42 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "akhadhna-hum: a past-tense verb fixed on sukun; 'na' is a connected pronoun fixed on sukun, in the position of nominative as the subject; the haʾ is a connected pronoun fixed on sukun, in the position of accusative as the direct object; the mim signals the rational masculine plural — a particle fixed on sukun, with no place in iʿrab.\nakhdh-a: al-mafʿul al-mutlaq in the accusative, marked by the manifest fatha; a mudaf.\nʿaziz: a mudaf ilayh in the genitive, marked by kasra.\nmuqtadir: a naʿt in the genitive, marked by kasra."
+    },
+    {
+      "id": "s040",
+      "items": [
+        {
+          "text": "— \"...and they are leveled with one [crushing] blow.\" — Quran 69:14 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "dukkata: a past-tense passive verb fixed on the manifest fatha at its end; the taʾ is the feminine taʾ — a particle fixed on sukun, with no place in iʿrab; the alif is the alif of duality, a connected pronoun fixed on sukun, in the position of nominative as the deputy subject (naʾib al-faʿil).\ndakkatan: al-mafʿul al-mutlaq in the accusative, marked by the manifest fatha at its end.\nwahidatan: a naʿt in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s042",
+      "items": [
+        {
+          "text": "— \"...so do not incline completely [toward one]...\" (lit. 'do not incline with all the inclining') — Quran 4:129 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s043",
+      "text": "la: a particle of prohibition and jazm (jussive-governance), fixed on sukun, with no place in iʿrab.\ntamilu: a present-tense verb in the jussive mood, by 'la', its sign of jazm being the dropping of the nun at its end (because it is one of the Five Verbs); the waw is a connected pronoun fixed on sukun, in the position of nominative as the subject; the alif is a particle fixed on sukun, with no place in iʿrab.\nkull-a: a substitute for al-mafʿul al-mutlaq (naʾib mafʿul mutlaq) in the accusative, marked by the manifest fatha; a mudaf.\nal-mayl: a mudaf ilayh in the genitive, marked by kasra."
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "lesson_id": "aqsam_alfeal",
+  "language": "en",
+  "title": "Categories of the Verb (Aqsam al-Fiʿl)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Categories of the Verb"
+    },
+    {
+      "id": "s002",
+      "text": "The verb in Arabic is divided, in terms of its tense, into three categories: the past-tense verb (al-fiʿl al-madi), the present-tense verb (al-fiʿl al-mudariʿ), and the imperative verb (fiʿl al-amr)."
+    },
+    {
+      "id": "s003",
+      "text": "First: The Past-Tense Verb (Al-Fiʿl al-Madi)"
+    },
+    {
+      "id": "s004",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-madi (the past-tense verb) is one indicating that something happened before the time of speaking."
+    },
+    {
+      "id": "s005",
+      "items": [
+        {
+          "transliteration": "kataba al-talib-u al-dars-a",
+          "text": "— The student wrote the lesson."
+        },
+        {
+          "transliteration": "hafiza al-tilmidh-u al-qasidat-a",
+          "text": "— The pupil memorized the poem."
+        },
+        {
+          "transliteration": "dhahaba Muhammad-un ila al-madrasa",
+          "text": "— Muhammad went to the school."
+        }
+      ]
+    },
+    {
+      "id": "s006",
+      "label_en": "Rule",
+      "text": "Al-fiʿl al-madi is always mabni (indeclinable). It is mabni on fatha if nothing is attached to it, or if the sukun-bearing taʾ of the feminine, or alif al-ithnayn (the alif of duality), is attached. It is mabni on sukun if a vowelled subject pronoun is attached (the subject-tāʾ, na al-faʿilin, nun al-niswa). It is mabni on damma if waw al-jamaʿa (the waw of plurality) is attached."
+    },
+    {
+      "id": "s007",
+      "items": [
+        {
+          "transliteration": "kataba al-walad",
+          "text": "— The boy wrote. (mabni on fatha)"
+        },
+        {
+          "transliteration": "katabat al-bint",
+          "text": "— The girl wrote. (mabni on fatha — sukun-bearing taʾ of the feminine attached)"
+        },
+        {
+          "transliteration": "kataba al-dars",
+          "text": "— They two wrote the lesson. (mabni on fatha — alif al-ithnayn attached)"
+        },
+        {
+          "transliteration": "katab-tu al-wajib",
+          "text": "— I wrote the assignment. (mabni on sukun — subject-tāʾ attached)"
+        },
+        {
+          "transliteration": "katab-na al-risala",
+          "text": "— We wrote the letter. (mabni on sukun — na al-faʿilin attached)"
+        },
+        {
+          "transliteration": "al-talibat-u katab-na",
+          "text": "— The female students wrote. (mabni on sukun — nun al-niswa attached)"
+        },
+        {
+          "transliteration": "al-tullab-u katab-u",
+          "text": "— The male students wrote. (mabni on damma — waw al-jamaʿa attached)"
+        }
+      ]
+    },
+    {
+      "id": "s008",
+      "text": "Second: The Present-Tense Verb (Al-Fiʿl al-Mudariʿ)"
+    },
+    {
+      "id": "s009",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-mudariʿ (the present-tense verb) is one indicating that something is happening at, or after, the time of speaking. It begins with one of the four 'present-tense letters' grouped in the mnemonic 'a-n-y-t' (anyt): hamza, nun, yaʾ, or taʾ."
+    },
+    {
+      "id": "s010",
+      "items": [
+        {
+          "transliteration": "aktubu",
+          "text": "(I write)"
+        },
+        {
+          "transliteration": "naktubu",
+          "text": "(we write)"
+        },
+        {
+          "transliteration": "yaktubu",
+          "text": "(he writes)"
+        },
+        {
+          "transliteration": "taktubu",
+          "text": "(you / she writes)"
+        }
+      ]
+    },
+    {
+      "id": "s011",
+      "items": [
+        {
+          "transliteration": "yadrusu al-talib-u bi-jidd",
+          "text": "— The student studies diligently."
+        },
+        {
+          "transliteration": "taqraʾu al-fataa al-qissa",
+          "text": "— The girl reads the story."
+        },
+        {
+          "transliteration": "adhhabu ila al-masjid",
+          "text": "— I go to the mosque."
+        },
+        {
+          "transliteration": "nahfazu al-Qurʾan al-karim",
+          "text": "— We memorize the Noble Quran."
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "label_en": "Rule",
+      "text": "Al-fiʿl al-mudariʿ is muʿrab (declinable). It is in the nominative if not preceded by an accusative- or jussive-governing particle. It is in the accusative if preceded by one of the accusative-governing particles (an, lan, kay, lam al-taʿlil, hatta, faʾ al-sababiyya, waw al-maʿiyya, lam al-juhud, idhan). It is in the jussive if preceded by one of the jussive-governing particles (lam, lamma, lam al-amr, la al-nahiya, in, man, ma, mahma, mata, ayna, ayyana, anna, haythuma, kayfama, ayyu)."
+    },
+    {
+      "id": "s013",
+      "items": [
+        {
+          "transliteration": "yaktubu al-talib-u al-dars-a",
+          "text": "— The student writes the lesson. (nominative)"
+        },
+        {
+          "transliteration": "lan yaktuba al-talib-u al-dars-a",
+          "text": "— The student will not write the lesson. (accusative)"
+        },
+        {
+          "transliteration": "lam yaktub al-talib-u al-dars-a",
+          "text": "— The student did not write the lesson. (jussive)"
+        }
+      ]
+    },
+    {
+      "id": "s014",
+      "label_en": "Note",
+      "text": "Al-fiʿl al-mudariʿ becomes mabni in only two cases: it is mabni on sukun if nun al-niswa is attached, and mabni on fatha if nun al-tawkid (the emphatic nun) is directly attached."
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "al-talibat-u yaktubna al-dars-a",
+          "text": "— The female students write the lesson."
+        },
+        {
+          "transliteration": "wa-llah-i la-aktubann al-dars-a",
+          "text": "— By Allah, I shall surely write the lesson."
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "Third: The Imperative Verb (Fiʿl al-Amr)"
+    },
+    {
+      "id": "s017",
+      "label_en": "Definition",
+      "text": "Fiʿl al-amr (the imperative verb) is one by which something is requested to occur after the time of speaking."
+    },
+    {
+      "id": "s018",
+      "items": [
+        {
+          "transliteration": "uktub al-dars",
+          "text": "— Write the lesson!"
+        },
+        {
+          "transliteration": "iqraʾ al-Qurʾan",
+          "text": "— Read the Quran!"
+        },
+        {
+          "transliteration": "ijtahid fi ʿamal-i-ka",
+          "text": "— Strive in your work!"
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "label_en": "Rule",
+      "text": "Fiʿl al-amr is always mabni (indeclinable). It is mabni on sukun if it ends in a sound consonant and nothing is attached to it, or if nun al-niswa is attached. It is mabni on the dropping of the weak letter if it ends in a weak letter. It is mabni on the dropping of the nun if alif al-ithnayn, waw al-jamaʿa, or yaʾ al-mukhataba is attached. It is mabni on fatha if the emphatic nun (nun al-tawkid) is attached."
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "uktub",
+          "text": "— Write! (mabni on sukun)"
+        },
+        {
+          "transliteration": "isʿa ila al-khayr",
+          "text": "— Strive toward goodness! (mabni on the dropping of the weak letter)"
+        },
+        {
+          "transliteration": "uktuba al-dars",
+          "text": "— Write — you two — the lesson! (mabni on the dropping of the nun)"
+        },
+        {
+          "transliteration": "uktubu al-dars",
+          "text": "— Write — you all — the lesson! (mabni on the dropping of the nun)"
+        },
+        {
+          "transliteration": "uktubi al-dars",
+          "text": "— Write — you (fem.) — the lesson! (mabni on the dropping of the nun)"
+        },
+        {
+          "transliteration": "uktubann al-dars",
+          "text": "— Surely write the lesson! (mabni on fatha)"
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "Categories of the Verb by Soundness and Weakness"
+    },
+    {
+      "id": "s022",
+      "text": "The verb is divided, by reference to its root letters, into two main categories: al-fiʿl al-sahih (the sound verb) and al-fiʿl al-muʿtall (the weak verb)."
+    },
+    {
+      "id": "s023",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-sahih (the sound verb) is one whose root letters are free of any weak letter (alif, waw, yaʾ)."
+    },
+    {
+      "id": "s024",
+      "text": "The sound verb is divided into three types: al-salim (whole/integral), al-mahmuz (hamzated), and al-mudaʿʿaf (geminated)."
+    },
+    {
+      "id": "s025",
+      "items": [
+        "Al-salim: a verb whose root letters are free of hamza or gemination, e.g.: kataba ('he wrote'), jalasa ('he sat'), shariba ('he drank').",
+        "Al-mahmuz: a verb one of whose root letters is a hamza, e.g.: akala ('he ate'), saʾala ('he asked'), qaraʾa ('he read').",
+        "Al-mudaʿʿaf: a verb that contains two letters of the same kind, e.g.: madda ('he extended'), shadda ('he tightened'), farra ('he fled')."
+      ]
+    },
+    {
+      "id": "s026",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-muʿtall (the weak verb) is one in which one of the root letters is a weak letter (alif, waw, or yaʾ)."
+    },
+    {
+      "id": "s027",
+      "text": "The weak verb is divided into four types: al-mithal (analogous), al-ajwaf (hollow), al-naqis (defective), and al-lafif (compound-weak)."
+    },
+    {
+      "id": "s028",
+      "items": [
+        "Al-mithal: one whose first root letter is a weak letter, e.g., waʿada ('he promised'), yasara ('it became easy').",
+        "Al-ajwaf: one whose middle root letter is a weak letter, e.g., qala ('he said'), baʿa ('he sold').",
+        "Al-naqis: one whose last root letter is a weak letter, e.g., daʿa ('he called'), rama ('he threw').",
+        "Al-lafif: one in which two of the root letters are weak. It is divided into al-lafif al-maqrun (when the two weak letters are adjacent), e.g., tawa ('he folded'); and al-lafif al-mafruq (when they are separated by a sound consonant), e.g., wafa ('he fulfilled')."
+      ]
+    },
+    {
+      "id": "s029",
+      "text": "Categories of the Verb by Bareness and Augmentation"
+    },
+    {
+      "id": "s030",
+      "text": "The verb is divided, by the count of its letters, into mujarrad (bare) and mazid (augmented)."
+    },
+    {
+      "id": "s031",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-mujarrad (the bare verb) is one whose letters are all root letters; it is either triliteral (thulathi) or quadriliteral (rubaʿi)."
+    },
+    {
+      "id": "s032",
+      "items": [
+        {
+          "transliteration": "kataba",
+          "text": "(he wrote)"
+        },
+        {
+          "transliteration": "jalasa",
+          "text": "(he sat)"
+        },
+        {
+          "transliteration": "dahraja",
+          "text": "(he rolled)"
+        },
+        {
+          "transliteration": "baʿthara",
+          "text": "(he scattered)"
+        }
+      ]
+    },
+    {
+      "id": "s033",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-mazid (the augmented verb) is one to which one or more letters have been added beyond its root letters. The letters of augmentation are gathered in the mnemonic word 'saʾaltumuniha' (a / s / ʾ / l / t / m / w / n / y / h / a)."
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "kataba, iktataba",
+          "text": "(he wrote / he had written)"
+        },
+        {
+          "transliteration": "ʿalima, taʿallama",
+          "text": "(he knew / he learned)"
+        },
+        {
+          "transliteration": "kharaja, istakhraja",
+          "text": "(he went out / he extracted)"
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "Categories of the Verb by Intransitivity and Transitivity"
+    },
+    {
+      "id": "s036",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-lazim (the intransitive verb) is one that is complete with its subject and does not require a direct object."
+    },
+    {
+      "id": "s037",
+      "items": [
+        {
+          "transliteration": "jalasa al-talib",
+          "text": "— The student sat."
+        },
+        {
+          "transliteration": "nama al-tifl",
+          "text": "— The child slept."
+        },
+        {
+          "transliteration": "fariha al-muʾmin",
+          "text": "— The believer rejoiced."
+        }
+      ]
+    },
+    {
+      "id": "s038",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-mutaʿaddi (the transitive verb) is one not complete with its subject — it requires one or more direct objects to complete its meaning."
+    },
+    {
+      "id": "s039",
+      "items": [
+        {
+          "transliteration": "kataba al-talib-u al-dars-a",
+          "text": "— The student wrote the lesson."
+        },
+        {
+          "transliteration": "aʿta al-muʿallim-u al-tilmidh-a kitaban",
+          "text": "— The teacher gave the pupil a book."
+        },
+        {
+          "transliteration": "aʿlama al-mudir-u al-tullab-a al-natijat-a sahihatan",
+          "text": "— The director informed the students that the result was correct."
+        }
+      ]
+    },
+    {
+      "id": "s040",
+      "text": "What is the difference between an intransitive and a transitive verb?"
+    },
+    {
+      "id": "s041",
+      "text": "The intransitive verb indicates a meaning that is confined to the subject and does not pass to anything else; the transitive verb indicates a meaning that passes from the subject to something else — namely the direct object."
+    },
+    {
+      "id": "s042",
+      "text": "Categories of the Verb by Active and Passive Voice"
+    },
+    {
+      "id": "s043",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-mabni li-l-maʿlum (the active-voice verb) is one whose subject is mentioned in the sentence."
+    },
+    {
+      "id": "s044",
+      "items": [
+        {
+          "transliteration": "kataba al-talib-u al-dars-a",
+          "text": "— The student wrote the lesson."
+        },
+        {
+          "transliteration": "fataha al-fatih-u al-madinat-a",
+          "text": "— The conqueror conquered the city."
+        }
+      ]
+    },
+    {
+      "id": "s045",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-mabni li-l-majhul (the passive-voice verb) is one whose subject has been omitted, with the direct object taking its place as naʾib al-faʿil (deputy subject)."
+    },
+    {
+      "id": "s046",
+      "items": [
+        {
+          "transliteration": "kutiba al-dars",
+          "text": "— The lesson was written."
+        },
+        {
+          "transliteration": "futihat al-madina",
+          "text": "— The city was conquered."
+        }
+      ]
+    },
+    {
+      "id": "s047",
+      "label_en": "Rule",
+      "text": "To form the past-tense verb in the passive: give its first letter a damma and the letter before its last a kasra. To form the present-tense verb in the passive: give its first letter a damma and the letter before its last a fatha. As for the imperative — it does not have a passive form."
+    },
+    {
+      "id": "s048",
+      "items": [
+        {
+          "transliteration": "kataba, kutiba",
+          "text": "(he wrote / it was written)"
+        },
+        {
+          "transliteration": "fahima, fuhima",
+          "text": "(he understood / it was understood)"
+        },
+        {
+          "transliteration": "yaktubu, yuktabu",
+          "text": "(he writes / it is written)"
+        },
+        {
+          "transliteration": "yafhamu, yufhamu",
+          "text": "(he understands / it is understood)"
+        }
+      ]
+    },
+    {
+      "id": "s049",
+      "text": "Categories of the Verb by Inflexibility and Flexibility"
+    },
+    {
+      "id": "s050",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-jamid (the inflexible verb) is one that retains a single form: no present tense or imperative is derived from it if it is past, and no past tense or imperative is derived from it if it is present."
+    },
+    {
+      "id": "s051",
+      "items": [
+        {
+          "transliteration": "laysa",
+          "text": "(is not)"
+        },
+        {
+          "transliteration": "ʿasa",
+          "text": "(perhaps)"
+        },
+        {
+          "transliteration": "niʿma",
+          "text": "(how excellent)"
+        },
+        {
+          "transliteration": "biʾsa",
+          "text": "(how wretched)"
+        }
+      ]
+    },
+    {
+      "id": "s052",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-mutasarrif (the flexible verb) is one from which the past, present, and imperative forms can all be derived — or only the past and present."
+    },
+    {
+      "id": "s053",
+      "text": "The flexible verb is of two types: completely flexible (tamm al-tasarruf), from which all three tenses (past, present, and imperative) are derived, e.g., kataba — yaktubu — uktub. And partially flexible (naqis al-tasarruf), from which only the past and present are derived (no imperative), e.g., kada — yakadu."
+    },
+    {
+      "id": "s054",
+      "headers": [
+        "Category",
+        "Definition",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Completely flexible (tamm al-tasarruf)",
+          "Past, present, and imperative all derive from it",
+          {
+            "transliteration": "kataba, yaktubu, uktub"
+          }
+        ],
+        [
+          "Partially flexible (naqis al-tasarruf)",
+          "Only past and present derive from it",
+          {
+            "transliteration": "kada, yakadu"
+          }
+        ],
+        [
+          "Inflexible (jamid)",
+          "Retains a single form",
+          {
+            "transliteration": "laysa, ʿasa, niʿma, biʾsa"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s055",
+      "label_en": "Note",
+      "text": "The student should practice distinguishing between the various categories of the verb, since one verb may fall under several categorizations at once. For example: the verb 'kataba' is past-tense, sound and salim, bare and triliteral, transitive, in the active voice, and completely flexible."
+    }
+  ]
+}

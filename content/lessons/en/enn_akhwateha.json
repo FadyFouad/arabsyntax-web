@@ -1,0 +1,258 @@
+{
+  "lesson_id": "enn_akhwateha",
+  "language": "en",
+  "title": "Definition of Inna and Its Sisters",
+  "sections": [
+    {
+      "id": "s001",
+      "label_en": "Definition",
+      "text": "Inna and its sisters are particles that enter upon a nominal sentence (jumla ismiyya). They put al-mubtadaʾ (the subject) in the accusative — and it is then called their 'noun' (ism inna) — and they leave al-khabar (the predicate) in the nominative — and it is then called their 'predicate' (khabar inna)."
+    },
+    {
+      "id": "s002",
+      "text": "These particles are:"
+    },
+    {
+      "id": "s003",
+      "items": [
+        "— inna and anna: for emphasis (tawkid).",
+        "— kaʾanna: for likening/comparison (tashbih).",
+        "— lakinna: for adversative correction (istidrak — 'but, however').",
+        "— laʿalla: for hopeful expectation (tarajji).",
+        "— layta: for wishing (tamanni)."
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "So the difference between the family of kana and the family of inna is that the former are verbs and the latter are particles. The kana family raises the noun (al-ism) to the nominative and puts the predicate in the accusative; the inna family does the opposite."
+    },
+    {
+      "id": "s005",
+      "text": "Examples of Inna and Its Sisters"
+    },
+    {
+      "id": "s006",
+      "items": [
+        {
+          "transliteration": "inna al-hayat-a jihad-un",
+          "text": "— Indeed, life is a struggle."
+        },
+        {
+          "transliteration": "ʿalim-tu anna al-ʿamal-a ʿibadat-un",
+          "text": "— I knew that work is worship."
+        },
+        {
+          "transliteration": "kaʾanna Khalid-an asad-un",
+          "text": "— Khalid is as if a lion. (likeness in strength)"
+        },
+        {
+          "transliteration": "al-qadaʾ-u nazih-un, wa-lakinna al-ʿadl-a batiʾ-un",
+          "text": "— The judiciary is impartial, but justice is slow."
+        },
+        {
+          "transliteration": "laʿalla al-nasr-a qarib-un",
+          "text": "— Perhaps victory is near."
+        },
+        {
+          "transliteration": "layta al-imtihan-a sahl-un",
+          "text": "— Would that the exam were easy!"
+        }
+      ]
+    },
+    {
+      "id": "s007",
+      "label_en": "Warning",
+      "text": "If you said: inna al-ajwaʾu mumtiratun ('Indeed the weather — nominative — is rainy') — is that correct?\nNo, it is wrong. The correct form is: inna al-ajwaʾa mumtiratun, because the particle inna puts al-ism in the accusative."
+    },
+    {
+      "id": "s008",
+      "text": "Iʿrab of Inna and Its Sisters"
+    },
+    {
+      "id": "s009",
+      "text": "The basic rule for inna and its sisters is that the noun (ism) precedes the predicate (khabar). However, the predicate may precede the noun if it is a quasi-clause (shibh jumla — i.e., a prepositional or adverbial phrase)."
+    },
+    {
+      "id": "s010",
+      "text": "Examples:"
+    },
+    {
+      "id": "s011",
+      "items": [
+        {
+          "transliteration": "inna al-muʿallim-a sharif-un",
+          "text": "— Indeed, the teacher is honorable."
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "text": "inna: a particle of emphasis and accusative-governance.\nal-muʿallim: ism inna in the accusative case, marked by the manifest fatha at its end.\nsharif: khabar inna in the nominative case, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s013",
+      "items": [
+        {
+          "transliteration": "kaʾanna al-matar-a luʾluʾ-un",
+          "text": "— It is as if the rain were pearls."
+        }
+      ]
+    },
+    {
+      "id": "s014",
+      "text": "kaʾanna: a particle of likening and accusative-governance.\nal-matar: its noun (ism) in the accusative case, marked by the manifest fatha.\nluʾluʾ: its predicate in the nominative, marked by the manifest damma."
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "laʿalla al-nasr-a qarib-un",
+          "text": "— Perhaps victory is near."
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "laʿalla: a particle of expectation and accusative-governance.\nal-nasr: its noun in the accusative, marked by the manifest fatha.\nqarib: its predicate in the nominative, marked by the manifest damma."
+    },
+    {
+      "id": "s017",
+      "items": [
+        {
+          "text": "— Allah, Glorified, says: \"Indeed in that is a sign...\" — Quran 3:13 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "inna: a particle of emphasis and accusative-governance.\nfi dhalika: a prepositional phrase attached to an omitted predicate of inna.\nla-ʿibratan: ism inna postposed, in the accusative marked by fatha; the lam is for emphasis (lam al-tawkid)."
+    },
+    {
+      "id": "s019",
+      "text": "The Entry of Lam al-Tawkid (the Emphatic Lam)"
+    },
+    {
+      "id": "s020",
+      "label_en": "Rule",
+      "text": "The ism of inna and its predicate may be joined by the fatha-bearing lam of emphasis (lam al-tawkid)."
+    },
+    {
+      "id": "s021",
+      "items": [
+        {
+          "text": "— Allah Most High says: \"And indeed, the Hour is coming...\" — Quran 15:85 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s022",
+      "text": "inna: a particle of emphasis and accusative-governance.\nal-saʿa: its noun in the accusative.\nla-atiya: its predicate in the nominative; the lam is for emphasis."
+    },
+    {
+      "id": "s023",
+      "items": [
+        {
+          "text": "— Allah Most High says: \"And indeed, [appointed] over you are keepers...\" — Quran 82:10 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s024",
+      "text": "inna: a particle of emphasis and accusative-governance.\nʿalay-kum: a fronted predicate of inna (a quasi-clause).\nla-hafizina: ism inna in the accusative, marked by yaʾ because it is a sound masculine plural; the lam is for emphasis."
+    },
+    {
+      "id": "s025",
+      "text": "The Entry of Restrictive 'Ma' (Ma al-Maniʿa)"
+    },
+    {
+      "id": "s026",
+      "label_en": "Rule",
+      "text": "When 'ma' enters upon inna and its sisters, it cancels their grammatical operation — except for layta, where it is permissible either to apply the operation or to leave it."
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "text": "— Allah Most High says: \"The believers are but brothers...\" — Quran 49:10 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "innama: 'kaffa wa-makfufa' (the 'ma' has restrained inna from operating).\nal-muʾminun: a mubtadaʾ in the nominative, marked by waw because it is a sound masculine plural.\nikhwa: a khabar in the nominative, marked by damma."
+    },
+    {
+      "id": "s029",
+      "text": "Question: Why did we say 'kaffa wa-makfufa' — and where is the noun and the predicate of inna?"
+    },
+    {
+      "id": "s030",
+      "text": "Answer: Look at the rule above [— since 'ma' has cancelled the operation, the original mubtadaʾ-khabar structure remains]."
+    },
+    {
+      "id": "s031",
+      "items": [
+        {
+          "transliteration": "laytama al-tilmidh-a najih-un",
+          "text": "— Would that the pupil were successful!"
+        }
+      ]
+    },
+    {
+      "id": "s032",
+      "text": "laytama: a particle of wishing and accusative-governance; the 'ma' is redundant (zaʾida).\nal-tilmidh: its noun (ism) in the accusative, marked by fatha.\nnajih: its predicate in the nominative, marked by damma."
+    },
+    {
+      "id": "s033",
+      "text": "This is the case when layta retains its operation. If its operation is dropped, we parse:\nal-tilmidh-u: a mubtadaʾ in the nominative, marked by damma.\nnajih: a khabar in the nominative, marked by damma."
+    },
+    {
+      "id": "s034",
+      "text": "Question: Do we say 'laytama al-ʿilm-a sahl-un' or 'laytama al-ʿilm-u sahl-un'?"
+    },
+    {
+      "id": "s035",
+      "text": "Answer: Both are correct, because with laytama it is permissible either to apply the operation or to drop it."
+    },
+    {
+      "id": "s036",
+      "text": "Examples of Inna and Its Sisters from the Noble Quran"
+    },
+    {
+      "id": "s037",
+      "items": [
+        {
+          "text": "— \"Know that Allah is severe in penalty...\" — Quran 5:98 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s038",
+      "text": "anna: a particle of emphasis and accusative-governance.\nAllah: the divine name — its noun (ism) in the accusative, marked by fatha.\nshadid: its predicate in the nominative, marked by damma."
+    },
+    {
+      "id": "s039",
+      "items": [
+        {
+          "text": "— \"Unquestionably, [for] the allies of Allah there will be no fear concerning them, nor will they grieve.\" — Quran 10:62 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s040",
+      "text": "ala: an opening particle (huruf al-istiftah) for drawing attention; it has no place in iʿrab.\ninna: a particle of emphasis and accusative-governance.\nawliyaʾ: ism inna in the accusative, marked by the manifest fatha; it is a mudaf.\nAllah: the divine name — a mudaf ilayh in the genitive, marked by the manifest kasra (for honoring). The nominal clause (la khawfun ʿalayhim) stands in the position of nominative as the predicate of inna."
+    },
+    {
+      "id": "s041",
+      "items": [
+        {
+          "text": "— \"...as if they were being driven toward death while they were looking on.\" — Quran 8:6 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s042",
+      "text": "And here, what do we have? Excellent — 'ma' has entered upon kaʾanna, and according to the previous rule, we drop its operation [and parse the remaining as a regular nominal sentence]."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "lesson_id": "mankoos_maksor_mmdood",
+  "language": "en",
+  "title": "Al-Maqsur, Al-Manqus, and Al-Mamdud (the Shortened, Defective, and Extended Nouns)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Definition of Al-Ism al-Maqsur (the Shortened Noun)"
+    },
+    {
+      "id": "s002",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s003",
+      "items": [
+        {
+          "transliteration": "naja al-fata min al-gharaq",
+          "text": "— The young man was saved from drowning."
+        },
+        {
+          "transliteration": "daʿat al-ʿasa",
+          "text": "— The staff was lost."
+        },
+        {
+          "transliteration": "nala-ni al-adha",
+          "text": "— Harm reached me."
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "If you reflect on the underlined words (al-fata, al-ʿasa, al-adha), you will find that they are inflected nouns (muʿrab) — i.e., not invariable like 'mata' ('when?') or 'dha' ('this')."
+    },
+    {
+      "id": "s005",
+      "text": "And you will find that they end in a fixed alif (i.e., one not subject to change as in the word 'akha' in the sentence 'shahadtu akha-ka' ('I saw your brother') — where the alif may shift in another sentence: 'wasala akhu-ka' ('your brother arrived'), 'ittasaltu bi-akhi-ka' ('I contacted your brother'))."
+    },
+    {
+      "id": "s006",
+      "text": "Every noun that fulfills these two conditions is called: al-ism al-maqsur (the shortened noun). Accordingly:"
+    },
+    {
+      "id": "s007",
+      "label_en": "Definition",
+      "text": "Al-ism al-maqsur (the shortened noun) is every inflected (muʿrab) noun ending in a fixed alif."
+    },
+    {
+      "id": "s008",
+      "text": "Definition of Al-Ism al-Manqus (the Defective Noun)"
+    },
+    {
+      "id": "s009",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s010",
+      "items": [
+        {
+          "transliteration": "farra al-jani",
+          "text": "— The criminal fled."
+        },
+        {
+          "transliteration": "ʿadala al-qadi",
+          "text": "— The judge ruled justly."
+        },
+        {
+          "transliteration": "nada al-munadi",
+          "text": "— The caller called out."
+        }
+      ]
+    },
+    {
+      "id": "s011",
+      "text": "If you reflect on the underlined words (al-jani, al-qadi, al-munadi), you will find that they are inflected nouns ending in a yaʾ preceded by a kasra. Every noun that fulfills these conditions is called: al-ism al-manqus (the defective noun). Accordingly:"
+    },
+    {
+      "id": "s012",
+      "label_en": "Definition",
+      "text": "Al-ism al-manqus (the defective noun) is every inflected (muʿrab) noun ending in a yaʾ preceded by a kasra."
+    },
+    {
+      "id": "s013",
+      "text": "Definition of Al-Ism al-Mamdud (the Extended Noun)"
+    },
+    {
+      "id": "s014",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "qarubat al-sahraʾ",
+          "text": "— The desert came near."
+        },
+        {
+          "transliteration": "tamma al-binaʾ",
+          "text": "— The construction was completed."
+        },
+        {
+          "transliteration": "ihtaram-tu al-qurraʾ",
+          "text": "— I respected the readers/reciters."
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "If you reflect on the underlined words (al-sahraʾ, al-binaʾ, al-qurraʾ), you will find that they are inflected nouns ending in a hamza preceded by an added alif (i.e., not converted from another letter, as is the case in the word 'maʾ' ('water'), whose origin was 'mawh' before iʿlal)."
+    },
+    {
+      "id": "s017",
+      "text": "Every noun that fulfills these conditions is called: al-ism al-mamdud (the extended noun). Accordingly:"
+    },
+    {
+      "id": "s018",
+      "label_en": "Definition",
+      "text": "Al-ism al-mamdud (the extended noun) is every inflected (muʿrab) noun ending in a hamza preceded by an added alif."
+    },
+    {
+      "id": "s019",
+      "text": "Examples of Al-Manqus, Al-Maqsur, and Al-Mamdud"
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "nazal-tu al-wadi",
+          "text": "— I went down into the valley."
+        },
+        {
+          "transliteration": "nazar-tu ila al-raʿi",
+          "text": "— I looked at the shepherd."
+        },
+        {
+          "transliteration": "iftarash-tu al-thara",
+          "text": "— I lay down upon the ground."
+        },
+        {
+          "transliteration": "dakhal-tu malha",
+          "text": "— I entered an entertainment venue."
+        },
+        {
+          "transliteration": "tarat al-warqaʾ",
+          "text": "— The bluish bird flew."
+        },
+        {
+          "transliteration": "daʿa al-kisaʾ",
+          "text": "— The garment was lost."
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "Iʿrab of Al-Manqus, Al-Maqsur, and Al-Mamdud"
+    },
+    {
+      "id": "s022",
+      "label_en": "Rule",
+      "text": "1 — Al-ism al-maqsur is inflected with notional vowel-marks (taqdiri) at its end in all states — nominative, accusative, and genitive — prevented from appearing because of taʿadhdhur (the alif cannot bear vowels)."
+    },
+    {
+      "id": "s023",
+      "label_en": "Rule",
+      "text": "2 — Al-ism al-mamdud carries fully manifest iʿrab vowel-marks — nominative, accusative, and genitive."
+    },
+    {
+      "id": "s024",
+      "label_en": "Rule",
+      "text": "3 — Al-ism al-manqus takes nominative with an estimated damma on the yaʾ (because of phonetic heaviness — thiql), accusative with a manifest fatha on the yaʾ, and genitive with an estimated kasra on the yaʾ (because of thiql)."
+    },
+    {
+      "id": "s025",
+      "label_en": "Note",
+      "text": "The yaʾ of al-manqus is dropped if it is indefinite, in the nominative and genitive states, e.g.:\n— jaʾa qadin ʿadil ('a just judge came').\n— marartu bi-qadin ʿadil ('I passed by a just judge')."
+    },
+    {
+      "id": "s026",
+      "text": "Examples of Iʿrab for Al-Maqsur, Al-Manqus, and Al-Mamdud"
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "naja al-fata min al-gharaq",
+          "text": "— The young man was saved from drowning."
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "naja: a past-tense verb fixed on an estimated fatha on the alif (because of taʿadhdhur).\nal-fata: al-faʿil in the nominative, marked by an estimated damma on the alif (because of taʿadhdhur).\nmin: a preposition.\nal-gharaq: a noun in the genitive after 'min', marked by the manifest kasra at its end. The prepositional phrase is attached to the verb 'naja'."
+    },
+    {
+      "id": "s029",
+      "items": [
+        {
+          "transliteration": "sir-tu fi wadin sahiq",
+          "text": "— I walked through a deep valley."
+        }
+      ]
+    },
+    {
+      "id": "s030",
+      "text": "sir-tu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nfi: a preposition.\nwadin: a noun in the genitive after 'fi', marked by an estimated kasra on the dropped yaʾ of the manqus (because of thiql).\nsahiq: a naʿt in the genitive, marked by the manifest kasra at its end."
+    },
+    {
+      "id": "s031",
+      "items": [
+        {
+          "transliteration": "zur-tu al-mustashfa",
+          "text": "— I visited the hospital."
+        }
+      ]
+    },
+    {
+      "id": "s032",
+      "text": "zur-tu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nal-mustashfa: a direct object in the accusative, marked by an estimated fatha on the alif (because of taʿadhdhur)."
+    },
+    {
+      "id": "s033",
+      "text": "Examples of Al-Manqus from the Noble Quran"
+    },
+    {
+      "id": "s034",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s035",
+      "items": [
+        {
+          "text": "— \"So decree whatever you are to decree.\" — Quran 20:72 (Sahih International)"
+        },
+        {
+          "text": "— \"...on the edge of a bank about [to collapse].\" — Quran 9:109 (Sahih International)"
+        },
+        {
+          "text": "— \"Indeed, we have heard a caller calling to faith...\" — Quran 3:193 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s036",
+      "text": "Examples of Al-Maqsur from the Noble Quran"
+    },
+    {
+      "id": "s037",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "text": "— \"...Indeed, the [true] guidance is the guidance of Allah.\" — Quran 3:73 (Sahih International)"
+        },
+        {
+          "text": "— \"...so judge between the people in truth and do not follow [your own] desire...\" — Quran 38:26 (Sahih International)"
+        },
+        {
+          "text": "— \"So he threw his staff, and suddenly it was a serpent, manifest.\" — Quran 7:107 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "Examples of Al-Mamdud from the Noble Quran"
+    },
+    {
+      "id": "s040",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s041",
+      "items": [
+        {
+          "text": "— \"Hatred has already appeared from their mouths...\" — Quran 3:118 (Sahih International)"
+        },
+        {
+          "text": "— \"[He] who made for you the earth a bed and the sky a ceiling...\" — Quran 2:22 (Sahih International)"
+        },
+        {
+          "text": "— \"The example of those who disbelieve is like that of one who shouts at what hears nothing but calls and cries...\" — Quran 2:171 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s042",
+      "text": "Exercises on Al-Maqsur, Al-Manqus, and Al-Mamdud"
+    },
+    {
+      "id": "s043",
+      "text": "1 — Identify the al-mamdud nouns in the following passage:"
+    },
+    {
+      "id": "s044",
+      "text": "Whoever builds his life upon laughter has opened its windows to weeping (al-bukaʾ), trial (al-balaʾ), and misery (al-shaqaʾ). Whoever does not, in his morning, account for the evening (al-masaʾ) — his days are hollow (jawfaʾ), his deeds are vexation and harm (taʾadh wa-iydhaʾ), and his life is dust (habaʾ) from its alif to its yaʾ. His end is sickness and complaint (daʾ wa-shtikaʾ); his hopes are a fire that has no extinguishing (intifaʾ); and his desires are illusions (awham) whose joints reality breaks apart."
+    },
+    {
+      "id": "s045",
+      "text": "2 — Identify the al-maqsur nouns in the following passage:"
+    },
+    {
+      "id": "s046",
+      "text": "We are a people whose only aspiration is the heights (al-ʿula), whose only desire is in guidance (al-huda), whose striving is only toward the highest goal (al-mushtaha al-asma), and whose abode is only the loftiest station (al-ʿulya). Our young one is the youth (al-fata), our generosity is generosity (al-nada), our visions are the visions (al-ruʾa), our garden is the best of harvests (al-mujtana), our deeds are the sweetest (al-ahla), and our gathering is the best of gatherings (muntada)."
+    },
+    {
+      "id": "s047",
+      "text": "3 — Identify the al-manqus nouns in the following passage:"
+    },
+    {
+      "id": "s048",
+      "text": "\"He who sees is not like he who [merely] hears\" (ma raʾin ka-man samiʿ).\nThis is a proverb that has come down to us from the ancients, and it is no secret that it remains valid to this day. It calls people to verify reports before believing them, and to doubt what is heard and what is said.\nMany a seeker (mubtaghin) of good has marred his pursuit (mubtaghahu); many a lover (hawin) of goodness has falsified his love (hawahu); many a turner-away (jafin) from evil has had his abstention falsified — so he turned, in people's eyes, into a wicked man, while he is in fact good and brave."
+    }
+  ]
+}

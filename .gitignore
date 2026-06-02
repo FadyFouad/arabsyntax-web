@@ -23,6 +23,7 @@
 # misc
 .DS_Store
 *.pem
+content/lessons/.claude/
 
 # debug
 npm-debug.log*

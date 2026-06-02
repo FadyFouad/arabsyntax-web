@@ -1,0 +1,295 @@
+{
+  "lesson_id": "esm_maosol",
+  "language": "en",
+  "title": "Al-Asmaʾ al-Mawsula (the Relative Pronouns)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "samah-tu alladhi shatama-ni",
+          "text": "— I forgave the one (masc.) who insulted me."
+        },
+        {
+          "transliteration": "safarat allati kanat ʿinda-na",
+          "text": "— She — the one (fem.) who was with us — traveled."
+        },
+        {
+          "transliteration": "hadara alladhani kana ghaʾib-ayn",
+          "text": "— The two (masc.) who had been absent attended."
+        },
+        {
+          "transliteration": "jaʾat allatani taskunani amama-na",
+          "text": "— The two (fem.) who live opposite us came."
+        },
+        {
+          "transliteration": "uhibb-u alladhina ʿallam-u-ni",
+          "text": "— I love those (masc. plural) who taught me."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "If you reflect on the underlined words, you find that taken alone they yield no complete meaning. If you say 'samahtu alladhi...' and stop there, the intent is unclear. But if you follow it with a clause — 'I forgave the one who insulted me' — the meaning becomes specific and identified for the listener."
+    },
+    {
+      "id": "s004",
+      "text": "Thus the word 'alladhi' is definite — provided that it is connected to a clause that follows clarifying its intent. For this reason, the word 'alladhi' is called an ism mawsul (relative pronoun, lit. 'connected noun'), and the clause that clarifies its meaning is called silat al-mawsul (the relative clause, lit. 'connection of the connected')."
+    },
+    {
+      "id": "s005",
+      "label_en": "Rule",
+      "text": "Al-ism al-mawsul (the relative pronoun) is a noun that refers to a specific entity, accompanied by a clause that follows it (called silat al-mawsul). Its meaning is not complete without this clause."
+    },
+    {
+      "id": "s006",
+      "text": "Types of Relative Pronouns"
+    },
+    {
+      "id": "s007",
+      "text": "Relative pronouns are of two types: specific (khassa) and general/shared (ʿamma mushtaraka)."
+    },
+    {
+      "id": "s008",
+      "text": "The Specific Relative Pronouns"
+    },
+    {
+      "id": "s009",
+      "text": "Each of these is specific to a particular type of person or thing — namely:"
+    },
+    {
+      "id": "s010",
+      "text": "— alladhi: for the masculine singular (rational or non-rational).\n— alladhani / alladhayni: for the masculine dual (rational or non-rational).\n— alladhina: for the masculine plural (rational only).\n— allati: for the feminine singular (rational or non-rational).\n— allatani / allatayni: for the feminine dual.\n— allaʾi / allati / allawati: for the feminine plural (rational or non-rational)."
+    },
+    {
+      "id": "s011",
+      "text": "The General/Shared Relative Pronouns"
+    },
+    {
+      "id": "s012",
+      "text": "These are those whose form is the same for masculine and feminine, dual and plural — namely:"
+    },
+    {
+      "id": "s013",
+      "text": "— man: a relative pronoun, generally for rational beings.\n— ma: a relative pronoun, generally for non-rational entities.\n— al-: a relative pronoun for both rational and non-rational entities.\n— dhu (in the meaning of 'alladhi', not the 'dhu' that is one of the Five Nouns): a relative pronoun for both rational and non-rational entities.\n— dha: a relative pronoun for both rational and non-rational; it is conditioned that it not be a demonstrative, and that it fall after 'man' or 'ma'."
+    },
+    {
+      "id": "s014",
+      "text": "Sentences About Relative Pronouns"
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "al-mudarrib-u alladhi aʿrif-u-hu jayyid",
+          "text": "— The trainer whom I know is good."
+        },
+        {
+          "transliteration": "jaʾa alladhani najaha fi al-imtihan",
+          "text": "— The two who succeeded in the exam came."
+        },
+        {
+          "transliteration": "faza alladhina laʿib-u al-mubarat-a bi-ihtirafiyya",
+          "text": "— Those (masc. plural) who played the match professionally won."
+        },
+        {
+          "transliteration": "raʾay-tu allati qatafat al-azhar",
+          "text": "— I saw the woman who picked the flowers."
+        },
+        {
+          "transliteration": "hadarat al-nisaʾ-u allaʾi fuzna bi-l-musabaqa",
+          "text": "— The women who won the competition attended."
+        },
+        {
+          "transliteration": "sadaqa man qala",
+          "text": "— He who spoke has told the truth."
+        },
+        {
+          "transliteration": "faza man darasa",
+          "text": "— Whoever studied has succeeded. (lit. 'the two who studied have won')"
+        },
+        {
+          "transliteration": "haʾulaʾ man akhlas-u",
+          "text": "— These are the ones who acted sincerely."
+        },
+        {
+          "transliteration": "ashtari ma ahtaj-u-hu",
+          "text": "— I buy what I need."
+        },
+        {
+          "transliteration": "ahdarna ma ihtajna la-hu",
+          "text": "— They (fem.) brought what they needed."
+        },
+        {
+          "transliteration": "madha ʿamil-ta?",
+          "text": "— What did you do?"
+        },
+        {
+          "transliteration": "man dha safara",
+          "text": "— Who has traveled?"
+        },
+        {
+          "transliteration": "man dha safar-u",
+          "text": "— Who are those who have traveled?"
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "Iʿrab of the Relative Pronouns and What Follows"
+    },
+    {
+      "id": "s017",
+      "text": "Relative pronouns take their iʿrab according to their position in the sentence. They are always mabni (invariable) — except in the dual, which is muʿrab (declinable): nominative with alif, accusative and genitive with yaʾ."
+    },
+    {
+      "id": "s018",
+      "text": "Silat al-Mawsul (the Relative Clause)"
+    },
+    {
+      "id": "s019",
+      "text": "It is the clause that follows the relative pronoun in order to make it definite, complete its meaning, and clarify what is intended by it."
+    },
+    {
+      "id": "s020",
+      "text": "Types of Silat al-Mawsul:"
+    },
+    {
+      "id": "s021",
+      "text": "— A verbal clause (jumla fiʿliyya), e.g.:"
+    },
+    {
+      "id": "s022",
+      "items": [
+        {
+          "text": "— \"O mankind, worship your Lord, who created you...\" — Quran 2:21 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "text": "— A nominal clause (jumla ismiyya), e.g.:"
+    },
+    {
+      "id": "s024",
+      "items": [
+        {
+          "text": "— \"Would you exchange what is better for what is less?\" — Quran 2:61 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s025",
+      "text": "— A prepositional phrase (jarr wa-majrur), e.g.:"
+    },
+    {
+      "id": "s026",
+      "items": [
+        {
+          "text": "— \"And due to them [women] is similar to what is expected of them, in honor.\" — Quran 2:228 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "text": "— An adverbial phrase (zarf), e.g.:"
+    },
+    {
+      "id": "s028",
+      "items": [
+        {
+          "transliteration": "hal safara al-dayf-u alladhi ʿinda-ka",
+          "text": "— Has the guest who is at your place departed?"
+        }
+      ]
+    },
+    {
+      "id": "s029",
+      "text": "Conditions for the Relative Clause:\n— It must be declarative (khabariyya) in both wording and meaning, e.g.: 'Indeed Allah does not let the reward of the one who acts righteously go to waste.'\n— It must be known to the addressee and not vague, e.g.: 'I performed the duty that you abandoned.'\n— It must contain a pronoun referring back to the relative pronoun, e.g.: 'The one whom I honored came (jaʾa alladhi akram-tu-hu).'"
+    },
+    {
+      "id": "s030",
+      "text": "ʿAʾid al-Mawsul (the Returning Pronoun)"
+    },
+    {
+      "id": "s031",
+      "text": "This is a third-person pronoun that links the relative clause to the relative pronoun, e.g.:"
+    },
+    {
+      "id": "s032",
+      "items": [
+        {
+          "transliteration": "ifʿal ma turid-u-hu",
+          "text": "— Do what you want. (the returning pronoun is the haʾ)"
+        },
+        {
+          "transliteration": "ifʿal ma turid",
+          "text": "— Do what you want. (the returning pronoun is omitted)"
+        },
+        {
+          "transliteration": "aqbala alladhi ahbab-tu-hu",
+          "text": "— The one whom I loved came forward. (the returning pronoun is the haʾ)"
+        }
+      ]
+    },
+    {
+      "id": "s033",
+      "text": "Examples of Relative Pronouns with Iʿrab"
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "jaʾa al-talib-u alladhi najaha",
+          "text": "— The student who succeeded came."
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "jaʾa: a past-tense verb fixed on the manifest fatha at its end.\nal-talib: the subject (faʿil) in the nominative case, marked by the manifest damma at its end.\nalladhi: a relative pronoun fixed on sukun, in the position of nominative as a naʿt (attributive adjective).\nnajaha: a past-tense verb fixed on the manifest fatha at its end; the subject is a permissibly concealed pronoun, implied as 'huwa' ('he')."
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "transliteration": "raʾay-tu alladhayni qadima min baʿid",
+          "text": "— I saw the two who came from afar."
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "raʾaytu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nalladhayni: a relative pronoun, the direct object in the accusative case, marked by yaʾ because it is dual; the nun substitutes for the tanwin of the singular noun.\nqadima: a past-tense verb fixed on fatha; the alif is a connected pronoun fixed on sukun, in the position of nominative as the subject.\nmin: a preposition.\nbaʿid: a noun in the genitive after 'min', its genitive marker being the manifest kasra at its end."
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "alladhina faz-u abtal",
+          "text": "— Those who won are champions."
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "alladhina: a relative pronoun fixed on fatha, in the position of nominative as a mubtadaʾ.\nfaz-u: a past-tense verb fixed on damma; the waw is a connected pronoun fixed on sukun, in the position of nominative as the subject; the alif is for distinction (alif al-tafriq).\nabtal: a khabar in the nominative case, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s040",
+      "items": [
+        {
+          "text": "— \"Whatever you have will end, but what Allah has is lasting.\" — Quran 16:96 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "ma: a relative pronoun fixed on sukun, in the position of nominative as a mubtadaʾ.\nʿinda-kum: a noun of place (zarf) in the accusative, marked by the manifest fatha; it is a mudaf, and 'kum' is a connected pronoun fixed on sukun, in the position of genitive as a mudaf ilayh.\nyanfadu: a present-tense verb in the nominative case, marked by the manifest damma at its end.\nThe waw: has no place in iʿrab.\nma: a relative pronoun fixed on sukun, in the position of nominative as a mubtadaʾ.\nʿinda: a noun of place in the accusative, marked by the manifest fatha; a mudaf.\nAllah: the divine name, a mudaf ilayh in the genitive case, marked by the manifest kasra at its end.\nbaqin: a khabar in the nominative case, marked by an estimated damma on the omitted yaʾ."
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "lesson_id": "albadal",
+  "language": "en",
+  "title": "Definition of Al-Badal (Apposition / Substitute)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "ʿamal-tu al-tajir-a Khalilan",
+          "text": "— I dealt with the merchant Khalil."
+        },
+        {
+          "transliteration": "kana amir-u al-muʾminin-a ʿUmar-u bn al-Khattab ʿadilan",
+          "text": "— The Commander of the Faithful, ʿUmar ibn al-Khattab, was just."
+        },
+        {
+          "transliteration": "asghay-tu ila al-khatib-i ʿAliyy",
+          "text": "— I listened to the speaker, ʿAli."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "If you reflect on the underlined words: (Khalilan, ʿUmar, ʿAliyy)."
+    },
+    {
+      "id": "s004",
+      "text": "You find that each is preceded by another noun: (al-tajir, amir al-muʾminin, al-khatib). These preceding nouns are not themselves the intended targets of the speech; rather, they are mentioned as a preamble to the underlined nouns."
+    },
+    {
+      "id": "s005",
+      "text": "But what is the benefit of this repetition?"
+    },
+    {
+      "id": "s006",
+      "text": "Its benefit is to strengthen, affirm, and clarify the speech. It is as if the verb has been attributed twice — once to 'amir al-muʾminin' and once to 'ʿUmar' — and so on with the rest of the examples. The underlined words are called al-badal (apposition / substitute), and the noun mentioned before them as a preamble is called al-mubdal min-hu (the substituted-from)."
+    },
+    {
+      "id": "s007",
+      "label_en": "Rule",
+      "text": "Al-badal is a follower-noun that is the actual intended target of the predication; it is preceded by another noun mentioned as a preamble to it, called al-mubdal min-hu."
+    },
+    {
+      "id": "s008",
+      "text": "Examples of Al-Badal"
+    },
+    {
+      "id": "s009",
+      "items": [
+        {
+          "transliteration": "intasara al-qaʾid-u Saʿd",
+          "text": "— The commander Saʿd was victorious."
+        },
+        {
+          "transliteration": "aʿjaba-ni al-fata adab-u-hu",
+          "text": "— The youth — his manners — pleased me."
+        },
+        {
+          "transliteration": "samiʿ-tu al-shaʿir-a inshad-a-hu",
+          "text": "— I heard the poet — his recitation."
+        },
+        {
+          "transliteration": "fataha al-Nasir-u Salah-u al-Din Bayt al-Maqdis",
+          "text": "— Al-Nasir Salah al-Din conquered Jerusalem."
+        },
+        {
+          "transliteration": "qaraʾ-tu sirat-a al-batal-i Khalid",
+          "text": "— I read the biography of the hero Khalid."
+        }
+      ]
+    },
+    {
+      "id": "s010",
+      "text": "Types of Al-Badal"
+    },
+    {
+      "id": "s011",
+      "text": "There are four types of al-badal:"
+    },
+    {
+      "id": "s012",
+      "text": "1 — Badal kull min kull (whole-from-whole) or al-badal al-mutabiq (the matching apposition): one that fully matches al-mubdal min-hu and equates with it in meaning. E.g.:"
+    },
+    {
+      "id": "s013",
+      "items": [
+        {
+          "transliteration": "marar-tu bi-akhi-ka Zayd",
+          "text": "— I passed by your brother Zayd."
+        }
+      ]
+    },
+    {
+      "id": "s014",
+      "text": "2 — Badal baʿd min kull (part-from-whole): one in which al-badal is a part of al-mubdal min-hu. E.g.:"
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "akal-tu al-raghif-a thulth-a-hu",
+          "text": "— I ate the loaf — its third (i.e., a third of it)."
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "3 — Badal ishtimal (apposition of inclusion): one in which al-badal indicates an attribute of al-mubdal min-hu. E.g.:"
+    },
+    {
+      "id": "s017",
+      "items": [
+        {
+          "transliteration": "nafaʿa-ni al-muʿallim-u ʿilm-u-hu",
+          "text": "— The teacher — his knowledge — benefited me."
+        }
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "4 — Al-badal al-mubayin (the differing apposition): of three subtypes:"
+    },
+    {
+      "id": "s019",
+      "text": "* Badal al-idrab (apposition of correction): in which the speaker turns away from al-mubdal min-hu after another matter has become apparent. E.g.:"
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "salay-tu fi al-masjid al-maghrib-a al-ʿishaʾ",
+          "text": "— I prayed in the mosque the maghrib — [I mean] the ʿishaʾ."
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "The speaker's intent in this sentence is to say: 'I prayed maghrib in the mosque'. But after saying that, it became clear to him that he did not pray maghrib but ʿishaʾ. So he turned away from 'maghrib' and substituted 'ʿishaʾ' for it."
+    },
+    {
+      "id": "s022",
+      "text": "* Badal al-ghalat (apposition of mistake): one in which the speaker intends one thing but his tongue precedes him to another, then he realizes his mistake and corrects to what is right. E.g.:"
+    },
+    {
+      "id": "s023",
+      "items": [
+        {
+          "transliteration": "sallam-tu ʿala abi-ka akhi-ka",
+          "text": "— I greeted your father — [I mean] your brother."
+        }
+      ]
+    },
+    {
+      "id": "s024",
+      "text": "This type often happens in our daily conversations."
+    },
+    {
+      "id": "s025",
+      "text": "* Badal al-nisyan (apposition of forgetfulness): one in which the speaker intends one thing, then mentions something else due to oversight or forgetfulness, then realizes the correct one and mentions it — as in the previous example:"
+    },
+    {
+      "id": "s026",
+      "items": [
+        {
+          "transliteration": "sallam-tu ʿala abi-ka akhi-ka",
+          "text": "— I greeted your father — [I mean] your brother."
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "text": "The difference between badal al-ghalat and badal al-nisyan: al-ghalat originates with the tongue, while al-nisyan originates with the mind."
+    },
+    {
+      "id": "s028",
+      "text": "Rulings of Al-Badal"
+    },
+    {
+      "id": "s029",
+      "text": "1 — Badal baʿd min kull and badal ishtimal both require a pronoun connecting them to al-mubdal min-hu — whether the pronoun is mentioned, e.g.:"
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "biʿ-tu al-tuffah-a nisf-a-hu",
+          "text": "— I sold the apples — half of them."
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "Or concealed, as in the saying of Allah Most High: \"And [due] to Allah from the people is a pilgrimage to the House — for whoever is able to find a way thereto.\" — Quran 3:97 (Sahih International)"
+    },
+    {
+      "id": "s032",
+      "text": "i.e., 'whoever — among them — is able'."
+    },
+    {
+      "id": "s033",
+      "text": "2 — Al-badal must agree with al-mubdal min-hu in number (singular, dual, plural) and gender (masculine, feminine), e.g.:"
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "jaʾa al-fatih-u ʿAmr",
+          "text": "— The conqueror ʿAmr came."
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "Agreement is not required in definiteness/indefiniteness."
+    },
+    {
+      "id": "s036",
+      "text": "3 — Al-badal may be a noun substituting for a noun, e.g.:"
+    },
+    {
+      "id": "s037",
+      "items": [
+        {
+          "transliteration": "istaqbal-tu Zaydan akha-ka",
+          "text": "— I welcomed Zayd, your brother."
+        }
+      ]
+    },
+    {
+      "id": "s038",
+      "text": "Or a verb substituting for a verb, e.g.:"
+    },
+    {
+      "id": "s039",
+      "items": [
+        {
+          "transliteration": "jalasa al-muhaddith-u thumma akhbara-na qala",
+          "text": "— The narrator sat, then informed us — said [the following]."
+        }
+      ]
+    },
+    {
+      "id": "s040",
+      "text": "Here 'qala' is a verb that serves as badal kull min kull (substituting for the verb 'akhbarana')."
+    },
+    {
+      "id": "s041",
+      "text": "Or a clause substituting for a clause, e.g.:"
+    },
+    {
+      "id": "s042",
+      "text": "Allah Most High said: \"Provided you with that which you know — provided you with grazing livestock and children.\" — Quran 26:132–133 (Sahih International)",
+      "is_quran": true,
+      "surah_en": "Al-Shuʿaraʾ",
+      "surah_number": 26,
+      "ayah_start": 132,
+      "ayah_end": 133,
+      "translation_source": "Sahih International"
+    },
+    {
+      "id": "s043",
+      "text": "Iʿrab of Al-Badal"
+    },
+    {
+      "id": "s044",
+      "items": [
+        {
+          "transliteration": "al-khalifat-u ʿUmar-u aʿdal-u al-hukkam",
+          "text": "— The Caliph ʿUmar is the most just of rulers."
+        }
+      ]
+    },
+    {
+      "id": "s045",
+      "text": "al-khalifa: a mubtadaʾ in the nominative, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s046",
+      "text": "ʿUmar: a badal in the nominative, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s047",
+      "text": "aʿdal: a khabar in the nominative, marked by the manifest damma at its end; a mudaf."
+    },
+    {
+      "id": "s048",
+      "text": "al-hukkam: a mudaf ilayh in the genitive, marked by the manifest kasra at its end."
+    },
+    {
+      "id": "s049",
+      "items": [
+        {
+          "transliteration": "marar-tu bi-akhi-ka Zayd",
+          "text": "— I passed by your brother Zayd."
+        }
+      ]
+    },
+    {
+      "id": "s050",
+      "text": "marartu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject."
+    },
+    {
+      "id": "s051",
+      "text": "bi-akhika: a noun in the genitive after the baʾ, marked by yaʾ because it is one of the Five Nouns; a mudaf. The kaf is a connected pronoun fixed on fatha, in the position of genitive as a mudaf ilayh."
+    },
+    {
+      "id": "s052",
+      "text": "Zayd: a badal in the genitive, marked by the manifest kasra at its end."
+    },
+    {
+      "id": "s053",
+      "text": "What type of badal is in this sentence?"
+    },
+    {
+      "id": "s054",
+      "text": "Badal kull min kull (substituting for 'akhi-ka')."
+    },
+    {
+      "id": "s055",
+      "items": [
+        {
+          "transliteration": "akal-tu al-raghif-a thulth-a-hu",
+          "text": "— I ate the loaf — its third."
+        }
+      ]
+    },
+    {
+      "id": "s056",
+      "text": "akaltu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject."
+    },
+    {
+      "id": "s057",
+      "text": "al-raghif: a direct object in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s058",
+      "text": "thulth-a-hu: badal baʿd min kull (whose mubdal min-hu is 'al-raghif'), in the accusative, marked by the manifest fatha at its end; a mudaf. The haʾ is a connected pronoun fixed on damma, in the position of genitive as a mudaf ilayh."
+    },
+    {
+      "id": "s059",
+      "items": [
+        {
+          "transliteration": "raʾay-tu hadha al-rajul",
+          "text": "— I saw this man."
+        }
+      ]
+    },
+    {
+      "id": "s060",
+      "text": "raʾaytu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject."
+    },
+    {
+      "id": "s061",
+      "text": "hadha: the haʾ is for drawing attention; dha — a demonstrative pronoun fixed on sukun, in the position of accusative as the direct object."
+    },
+    {
+      "id": "s062",
+      "text": "al-rajul: a badal in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s063",
+      "text": "Al-Badal vs. ʿAtf al-Bayan"
+    },
+    {
+      "id": "s064",
+      "text": "ʿAtf al-bayan is a noun resembling al-naʿt in clarifying its followed. The differences between it and al-badal are as follows:"
+    },
+    {
+      "id": "s065",
+      "items": [
+        "— Al-badal is always the actual intended target of the predication, while its preceding follower (al-mubdal min-hu) merely serves as a preamble.",
+        "— ʿAtf al-bayan is generally clearer than the followed noun before it."
+      ]
+    },
+    {
+      "id": "s066",
+      "text": "If you say, for example: 'marartu bi-l-faʾiz Muhammad' ('I passed by the winner Muhammad')."
+    },
+    {
+      "id": "s067",
+      "text": "Then 'Muhammad' would be ʿatf al-bayan because it is clearer than just saying 'I passed by the winner'."
+    },
+    {
+      "id": "s068",
+      "items": [
+        {
+          "transliteration": "akh-u-ka najahat Maryam ibnat-u-hu",
+          "text": "— Your brother — his daughter Maryam succeeded."
+        }
+      ]
+    },
+    {
+      "id": "s069",
+      "text": "It would not be possible to say: 'Akhu-ka najahat Maryam' ('your brother — Maryam succeeded')."
+    },
+    {
+      "id": "s070",
+      "text": "Therefore the follower (ʿatf al-bayan) is necessary — namely 'ibnatuhu'."
+    },
+    {
+      "id": "s071",
+      "text": "But if you say: 'jaʾa al-muhami Khalid' ('the lawyer Khalid came')."
+    },
+    {
+      "id": "s072",
+      "text": "Then the sentence would remain sound if you dropped either the badal ('Khalid') or al-mubdal min-hu ('al-muhami')."
+    },
+    {
+      "id": "s073",
+      "text": "In any case, so as not to overburden you with this matter, many grammarians have held that we may dispense with ʿatf al-bayan, since al-badal is sufficient and more comprehensive."
+    },
+    {
+      "id": "s074",
+      "text": "I have only meant to clarify this matter for you as additional information."
+    },
+    {
+      "id": "s075",
+      "text": "Examples of Al-Badal from the Noble Quran"
+    },
+    {
+      "id": "s076",
+      "text": "Allah, Glorified and Most High, said:"
+    },
+    {
+      "id": "s077",
+      "text": "\"Guide us to the straight path — the path of those upon whom You have bestowed favor...\" — Quran 1:6–7 (Sahih International)",
+      "is_quran": true,
+      "surah_en": "Al-Fatiha",
+      "surah_number": 1,
+      "ayah_start": 6,
+      "ayah_end": 7,
+      "translation_source": "Sahih International"
+    },
+    {
+      "id": "s078",
+      "text": "sirat: badal kull min kull (substituting for 'al-sirat'), in the accusative, marked by the manifest fatha at its end; a mudaf."
+    },
+    {
+      "id": "s079",
+      "text": "\"And [due] to Allah from the people is a pilgrimage to the House — for whoever is able to find a way thereto.\" — Quran 3:97 (Sahih International)",
+      "is_quran": true,
+      "surah_en": "Al ʿImran",
+      "surah_number": 3,
+      "ayah": 97,
+      "translation_source": "Sahih International"
+    },
+    {
+      "id": "s080",
+      "text": "man: a relative pronoun fixed on sukun, in the position of genitive as badal baʿd min kull, with al-mubdal min-hu being 'al-nas'."
+    },
+    {
+      "id": "s081",
+      "text": "\"They ask you about the sacred month — about fighting therein.\" — Quran 2:217 (Sahih International)",
+      "is_quran": true,
+      "surah_en": "Al-Baqara",
+      "surah_number": 2,
+      "ayah": 217,
+      "translation_source": "Sahih International"
+    },
+    {
+      "id": "s082",
+      "text": "qital: badal ishtimal, with al-mubdal min-hu being 'al-shahr', in the genitive, marked by the manifest kasra at its end."
+    },
+    {
+      "id": "s083",
+      "text": "\"Indeed, for the righteous is attainment — gardens and grapevines.\" — Quran 78:31–32 (Sahih International)"
+    },
+    {
+      "id": "s084",
+      "text": "hadaʾiq: badal kull min kull, with al-mubdal min-hu being 'mafazan', in the accusative, marked by the manifest fatha at its end; it is mamnuʿ min al-sarf because it is on the pattern 'mafaʿil'."
+    },
+    {
+      "id": "s085",
+      "text": "\"...We will surely drag him by the forelock — a lying, sinning forelock.\" — Quran 96:15–16 (Sahih International)",
+      "is_quran": true,
+      "surah_en": "Al-ʿAlaq",
+      "surah_number": 96,
+      "ayah_start": 15,
+      "ayah_end": 16,
+      "translation_source": "Sahih International"
+    },
+    {
+      "id": "s086",
+      "text": "nasiya: badal kull min kull, with al-mubdal min-hu being 'bi-l-nasiya', in the genitive, marked by the manifest kasra at its end."
+    },
+    {
+      "id": "s087",
+      "text": "In Conclusion"
+    },
+    {
+      "id": "s088",
+      "text": "I hope you have enjoyed this modest study of the rules of al-badal. I know the matter may seem confusing at first, but I assure you that with a little focus and reading the topic over more than once, the understanding will come easily, God willing."
+    },
+    {
+      "id": "s089",
+      "text": "I have tried to make the topic simple and accessible, free from any complication. We ask Allah for help and success."
+    }
+  ]
+}
