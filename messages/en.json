@@ -4,6 +4,15 @@
     "indexSubtitle": "Browse all Arabic grammar lessons.",
     "backToLessons": "All lessons"
   },
+  "i3rab": {
+    "indexTitle": "I'rab (Grammatical Analysis)",
+    "indexSubtitle": "Word-by-word grammatical analysis of Arabic sentences.",
+    "misc": "Miscellaneous examples",
+    "words": "Word analysis",
+    "explanation": "Explanation",
+    "relatedLesson": "Related lesson",
+    "backToIndex": "All examples"
+  },
   "common": {
     "appName": "Al-Nahw Al-Kafi",
     "appNameAr": "النحو الكافي",
@@ -12,6 +21,7 @@
   "nav": {
     "features": "Features",
     "lessons": "Lessons",
+    "i3rab": "I'rab",
     "pricing": "Pricing",
     "faq": "FAQ",
     "support": "Support",
