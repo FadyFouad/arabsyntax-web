@@ -1,0 +1,297 @@
+{
+  "lesson_id": "anwaa_asmaa",
+  "language": "en",
+  "title": "Types of the Noun in Arabic",
+  "sections": [
+    {
+      "id": "s001",
+      "label_en": "Definition",
+      "text": "Al-ism (the noun): a word denoting a meaning in itself, not associated with time. It is what indicates a meaning or a thing,"
+    },
+    {
+      "id": "s002",
+      "text": "such as: al-tatawwur ('development'), al-shajara ('the tree'). The noun is of various types:"
+    },
+    {
+      "id": "s003",
+      "items": [
+        {
+          "transliteration": "Ahmad : Fatima",
+          "text": "(name of a person: Ahmad / Fatima)"
+        },
+        {
+          "transliteration": "ghazal : hisan",
+          "text": "(name of an animal: gazelle / horse)"
+        },
+        {
+          "transliteration": "shajara : qamh",
+          "text": "(name of a plant: tree / wheat)"
+        },
+        {
+          "transliteration": "jidar : tawila",
+          "text": "(name of an inanimate object: wall / table)"
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "Its identifying signs: (a) it accepts the definite article 'al-' (ال), e.g., jidar → al-jidar ('a wall' → 'the wall'); (b) it accepts the vocative particle, e.g., ya Ahmad ('O Ahmad')."
+    },
+    {
+      "id": "s005",
+      "text": "The Noun Is Divided as Follows: 1 — By Gender"
+    },
+    {
+      "id": "s006",
+      "text": "The noun is divided by gender into two categories:"
+    },
+    {
+      "id": "s007",
+      "text": "Masculine (mudhakkar) and feminine (muʾannath). Masculine, e.g.: rajul ('man'), jamal ('camel'), ʿusfur ('sparrow'), kitab ('book'), qalam ('pen'), bab ('door')..."
+    },
+    {
+      "id": "s008",
+      "text": "Feminine, e.g.: ʿusfura ('female sparrow'), baqara ('cow'), fataa ('young woman'), ʿAʾisha, Salma, hamraʾ ('red [fem.]')..."
+    },
+    {
+      "id": "s009",
+      "text": "2 — By Number:"
+    },
+    {
+      "id": "s010",
+      "text": "The noun is divided by number into mufrad (singular), muthanna (dual), and jamʿ (plural)."
+    },
+    {
+      "id": "s011",
+      "text": "* Al-mufrad (the singular): refers to one masculine or one feminine entity, e.g.: qalam ('pen'), waraqa ('paper'), fata ('young man'), fataa ('young woman'), Muhammad, Ahmad."
+    },
+    {
+      "id": "s012",
+      "text": "Its iʿrab markers are: fatha (accusative), damma (nominative), and kasra (genitive)."
+    },
+    {
+      "id": "s013",
+      "text": "(b) Al-muthanna (the dual): refers to two masculine or two feminine entities, formed by adding alif + nun (-ani) or yaʾ + nun (-ayni)."
+    },
+    {
+      "id": "s014",
+      "items": [
+        {
+          "transliteration": "fatayan",
+          "text": "(two young men)"
+        },
+        {
+          "transliteration": "bahran",
+          "text": "(two seas)"
+        },
+        {
+          "transliteration": "kitaban",
+          "text": "(two books)"
+        },
+        {
+          "transliteration": "qalaman",
+          "text": "(two pens)"
+        },
+        {
+          "transliteration": "qiblatayn",
+          "text": "(two qiblas)"
+        },
+        {
+          "transliteration": "zahratayn",
+          "text": "(two flowers)"
+        }
+      ]
+    },
+    {
+      "id": "s015",
+      "text": "Its iʿrab markers: nominative with alif; accusative and genitive with yaʾ."
+    },
+    {
+      "id": "s016",
+      "text": "(c) Al-jamʿ (the plural): refers to more than two — masculine or feminine."
+    },
+    {
+      "id": "s017",
+      "items": [
+        {
+          "transliteration": "mujtahidun",
+          "text": "(diligent ones — masc. plural)"
+        },
+        {
+          "transliteration": "muntasirin",
+          "text": "(victorious ones — masc. plural, accusative/genitive)"
+        },
+        {
+          "transliteration": "fatayat",
+          "text": "(young women)"
+        },
+        {
+          "transliteration": "fannanat",
+          "text": "(female artists)"
+        },
+        {
+          "transliteration": "muhadhdhabat",
+          "text": "(refined women)"
+        },
+        {
+          "transliteration": "rusul",
+          "text": "(messengers — broken plural)"
+        },
+        {
+          "transliteration": "jibal",
+          "text": "(mountains — broken plural)"
+        }
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "The plural noun has several types — the most important of which are:"
+    },
+    {
+      "id": "s019",
+      "text": "Jamʿ al-mudhakkar al-salim (the sound masculine plural): a form denoting more than two by adding waw + nun (-una) to the singular in the nominative — e.g., al-Zaydun ('the Zayds') — or yaʾ + nun (-ina) in the accusative and genitive — e.g., al-Zaydin."
+    },
+    {
+      "id": "s020",
+      "text": "Its ruling: nominative with waw (in place of damma), accusative with yaʾ (in place of fatha), and genitive with yaʾ (in place of kasra)."
+    },
+    {
+      "id": "s021",
+      "text": "Jamʿ al-muʾannath al-salim (the sound feminine plural): a form denoting more than two by adding alif + taʾ (-at) to the singular — e.g., muslimat, salihat, Fatimat."
+    },
+    {
+      "id": "s022",
+      "text": "Its ruling: nominative with damma; accusative with kasra; genitive with kasra."
+    },
+    {
+      "id": "s023",
+      "text": "Jamʿ al-taksir (the broken plural): a form denoting more than two — masculine or feminine — accompanied by an internal change in the singular's structure, e.g.: masajid ('mosques'), madaris ('schools'), aqlam ('pens'), kutub ('books'), rusul ('messengers'), rijal ('men')."
+    },
+    {
+      "id": "s024",
+      "text": "Its ruling: nominative with damma; accusative with fatha; genitive with kasra."
+    },
+    {
+      "id": "s025",
+      "text": "3 — Types of the Noun by Indefiniteness and Definiteness:"
+    },
+    {
+      "id": "s026",
+      "text": "The noun is divided into nakira (indefinite) and maʿrifa (definite). The nakira is a noun that refers to something not specifically determined."
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "tilmidh",
+          "text": "(a pupil)"
+        },
+        {
+          "transliteration": "taʾir",
+          "text": "(a bird)"
+        },
+        {
+          "transliteration": "warda",
+          "text": "(a rose)"
+        },
+        {
+          "transliteration": "shariʿ",
+          "text": "(a street)"
+        },
+        {
+          "transliteration": "ʿalam",
+          "text": "(a flag / a sign)"
+        },
+        {
+          "transliteration": "kitab",
+          "text": "(a book)"
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "The maʿrifa (definite) is a noun that refers to a specifically determined thing, e.g.:"
+    },
+    {
+      "id": "s029",
+      "items": [
+        {
+          "transliteration": "Muhammad"
+        },
+        {
+          "transliteration": "al-tilmidh",
+          "text": "(the pupil)"
+        },
+        {
+          "transliteration": "hadha",
+          "text": "(this)"
+        },
+        {
+          "transliteration": "nahnu",
+          "text": "(we)"
+        },
+        {
+          "transliteration": "hadhani",
+          "text": "(these two)"
+        },
+        {
+          "transliteration": "zahrat al-banafsaj",
+          "text": "(the violet's flower)"
+        }
+      ]
+    },
+    {
+      "id": "s030",
+      "text": "Categories of the definite noun: the pronoun (al-damir), the proper name (al-ʿalam), the demonstrative (ism al-ishara), the relative pronoun (al-ism al-mawsul), nouns prefixed with 'al-' (the definite article), nouns annexed to a definite noun (al-mudaf ila maʿrifa), and the noun made definite by being addressed (al-muʿarraf bi-l-nida')."
+    },
+    {
+      "id": "s031",
+      "text": "4 — The Noun by Derivation: Derived (Mushtaqq) vs. Underived (Jamid):"
+    },
+    {
+      "id": "s032",
+      "text": "(a) Al-jamid (underived): a noun not taken from another. It is more primary in occurrence than the derived."
+    },
+    {
+      "id": "s033",
+      "items": [
+        {
+          "transliteration": "rajul",
+          "text": "(man)"
+        },
+        {
+          "transliteration": "shams",
+          "text": "(sun)"
+        }
+      ]
+    },
+    {
+      "id": "s034",
+      "text": "It is of two kinds:\n— ism dhat (a noun for a tangible entity): insan ('human'), ard ('earth/land').\n— ism maʿna (a noun for an abstract meaning): fahm ('understanding'), shajaʿa ('courage'), najah ('success')."
+    },
+    {
+      "id": "s035",
+      "text": "(b) Al-mushtaqq (derived): a noun derived from another, denoting an entity and bearing a descriptive meaning."
+    },
+    {
+      "id": "s036",
+      "text": "Its categories: ism al-faʿil (active participle) and the intensive forms (siyagh al-mubalagha); ism al-mafʿul (passive participle); al-sifa al-mushabbaha (resembling adjective); ism al-tafdil (elative — comparative/superlative); ism al-zaman (noun of time); ism al-makan (noun of place); ism al-ala (instrumental noun)."
+    },
+    {
+      "id": "s037",
+      "text": "5 — Al-Maqsur, Al-Manqus, and Al-Mamdud:"
+    },
+    {
+      "id": "s038",
+      "text": "Al-maqsur (shortened):\nA noun ending in a fixed alif — whether root, e.g., huda ('guidance'); or added for the feminine, e.g., ʿatsha ('thirsty [fem.]'); or added for grammatical extension (ilhaq), e.g., dhifra (a part-of-the-camel name).\n— When given tanwin, its alif is dropped in pronunciation but not in writing: hudan.\n— All iʿrab vowel-marks are notionally implied (taqdiri) on it."
+    },
+    {
+      "id": "s039",
+      "text": "Al-manqus (defective):\nA noun ending in a fixed yaʾ preceded by a kasra, e.g., al-qadi ('the judge').\n— When given tanwin, its yaʾ is dropped in both pronunciation and writing in the nominative and genitive but is retained in the accusative — e.g., 'huwa qadin' ('he is a judge'), 'ʿathartu ʿala banin' ('I came across a builder'), 'raʾaytu saʿiyan' ('I saw a striver').\n— The damma and kasra are notionally implied on it; the fatha appears overtly."
+    },
+    {
+      "id": "s040",
+      "text": "Al-mamdud (extended):\nA noun ending in a hamza preceded by an added alif, e.g., warqaʾ ('a bluish bird'). The added alif may be there for various purposes:\n— Original (root): qurraʾ ('readers').\n— For the feminine: maysaʾ.\n— Converted from waw or yaʾ: samaʾ ('sky'), binaʾ ('building').\n— For the plural: ʿuzamaʾ ('great ones')."
+    }
+  ]
+}

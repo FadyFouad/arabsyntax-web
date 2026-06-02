@@ -1,0 +1,631 @@
+{
+  "lesson_id": "esm_mafool",
+  "language": "en",
+  "title": "Ism al-Mafʿul (the Passive Participle)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Ism al-Mafʿul (the Passive Participle)"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "Ism al-mafʿul (the passive participle) is a noun derived from a passive-voice verb, indicating the one upon whom the action falls."
+    },
+    {
+      "id": "s003",
+      "items": [
+        {
+          "transliteration": "al-kitab-u maqruʾ",
+          "text": "— The book is read."
+        },
+        {
+          "transliteration": "al-dars-u mafhum",
+          "text": "— The lesson is understood."
+        },
+        {
+          "transliteration": "al-bab-u maftuh",
+          "text": "— The door is opened."
+        },
+        {
+          "transliteration": "al-wajib-u maktub",
+          "text": "— The assignment is written."
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "In these examples, the words (maqruʾ, mafhum, maftuh, maktub) are nouns indicating the one upon whom the action falls — that is, the book is the recipient of reading, the lesson is the recipient of understanding, the door is the recipient of opening, and the assignment is the recipient of writing. Each is an ism al-mafʿul."
+    },
+    {
+      "id": "s005",
+      "text": "Forming Ism al-Mafʿul"
+    },
+    {
+      "id": "s006",
+      "text": "The formation of ism al-mafʿul varies depending on the verb it is derived from — whether triliteral or non-triliteral."
+    },
+    {
+      "id": "s007",
+      "text": "First: Forming Ism al-Mafʿul from the Triliteral Verb"
+    },
+    {
+      "id": "s008",
+      "label_en": "Rule",
+      "text": "Ism al-mafʿul is formed from the triliteral verb on the pattern 'mafʿul' — by adding a fatha-bearing mim at the start, giving sukun to the second letter, and adding a waw before the last letter."
+    },
+    {
+      "id": "s009",
+      "items": [
+        {
+          "transliteration": "kataba, maktub",
+          "text": "(he wrote / written)"
+        },
+        {
+          "transliteration": "qaraʾa, maqruʾ",
+          "text": "(he read / read [as adjective])"
+        },
+        {
+          "transliteration": "nasara, mansur",
+          "text": "(he aided / aided / victorious)"
+        },
+        {
+          "transliteration": "fataha, maftuh",
+          "text": "(he opened / opened)"
+        },
+        {
+          "transliteration": "daraba, madrub",
+          "text": "(he struck / struck)"
+        },
+        {
+          "transliteration": "akala, maʾkul",
+          "text": "(he ate / eaten)"
+        },
+        {
+          "transliteration": "shariba, mashrub",
+          "text": "(he drank / drunk / a beverage)"
+        },
+        {
+          "transliteration": "hafiza, mahfuz",
+          "text": "(he memorized / memorized / preserved)"
+        }
+      ]
+    },
+    {
+      "id": "s010",
+      "text": "Forming Ism al-Mafʿul from the Weak Triliteral Verb"
+    },
+    {
+      "id": "s011",
+      "text": "If the triliteral verb is weak, certain rulings apply when forming ism al-mafʿul from it."
+    },
+    {
+      "id": "s012",
+      "text": "1 — The Hollow Verb (Al-Fiʿl al-Ajwaf — Weak in the Middle)"
+    },
+    {
+      "id": "s013",
+      "label_en": "Rule",
+      "text": "If the verb is hollow (weak in the middle), ism al-mafʿul is formed on the pattern 'mafʿul'; the waw of 'mafʿul' is then dropped to avoid two sukuns meeting, and the vowel of the middle root letter is transferred to what precedes it."
+    },
+    {
+      "id": "s014",
+      "items": [
+        {
+          "transliteration": "qala, maqul",
+          "text": "(he said / said. Originally: maqwul.)"
+        },
+        {
+          "transliteration": "baʿa, mabiʿ",
+          "text": "(he sold / sold. Originally: mabyuʿ.)"
+        },
+        {
+          "transliteration": "sama, masum",
+          "text": "(he fasted / fasted)"
+        },
+        {
+          "transliteration": "qada, maqud",
+          "text": "(he led / led)"
+        }
+      ]
+    },
+    {
+      "id": "s015",
+      "text": "2 — The Defective Verb (Al-Fiʿl al-Naqis — Weak in the Last Letter)"
+    },
+    {
+      "id": "s016",
+      "label_en": "Rule",
+      "text": "If the verb is defective (weak in the last letter), ism al-mafʿul is formed on the pattern 'mafʿul', with the waw of 'mafʿul' merging into the final weak letter, both being converted to a doubled yaʾ."
+    },
+    {
+      "id": "s017",
+      "items": [
+        {
+          "transliteration": "daʿa, madʿuww",
+          "text": "(he called / called. Originally: madʿuw.)"
+        },
+        {
+          "transliteration": "rama, marmiyy",
+          "text": "(he threw / thrown. Originally: marmuy.)"
+        },
+        {
+          "transliteration": "qada, maqdiyy",
+          "text": "(he decreed / decreed)"
+        },
+        {
+          "transliteration": "hada, mahdiyy",
+          "text": "(he guided / guided)"
+        },
+        {
+          "transliteration": "saʿa, masʿiyy",
+          "text": "(he strove / striven for)"
+        }
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "Second: Forming Ism al-Mafʿul from Non-Triliteral Verbs"
+    },
+    {
+      "id": "s019",
+      "label_en": "Rule",
+      "text": "Ism al-mafʿul is formed from a non-triliteral verb on the pattern of its passive-voice present-tense — by replacing the present-tense letter with a damma-bearing mim, and giving fatha to the letter before the last."
+    },
+    {
+      "id": "s020",
+      "headers": [
+        "Verb",
+        "Passive Present",
+        "Ism al-Mafʿul"
+      ],
+      "rows": [
+        [
+          {
+            "transliteration": "akrama",
+            "text": "(he honored)"
+          },
+          {
+            "transliteration": "yukramu"
+          },
+          {
+            "transliteration": "mukram",
+            "text": "(honored)"
+          }
+        ],
+        [
+          {
+            "transliteration": "ʿallama",
+            "text": "(he taught)"
+          },
+          {
+            "transliteration": "yuʿallamu"
+          },
+          {
+            "transliteration": "muʿallam",
+            "text": "(taught)"
+          }
+        ],
+        [
+          {
+            "transliteration": "sharaka",
+            "text": "(he shared)"
+          },
+          {
+            "transliteration": "yusharaku"
+          },
+          {
+            "transliteration": "musharak",
+            "text": "(shared)"
+          }
+        ],
+        [
+          {
+            "transliteration": "intalaqa",
+            "text": "(he set off)"
+          },
+          {
+            "transliteration": "yuntalaqu"
+          },
+          {
+            "transliteration": "muntalaq",
+            "text": "(setting-off place)"
+          }
+        ],
+        [
+          {
+            "transliteration": "ijtamaʿa",
+            "text": "(he gathered)"
+          },
+          {
+            "transliteration": "yujtamaʿu"
+          },
+          {
+            "transliteration": "mujtamaʿ",
+            "text": "(gathering place / society)"
+          }
+        ],
+        [
+          {
+            "transliteration": "istakhraja",
+            "text": "(he extracted)"
+          },
+          {
+            "transliteration": "yustakhraju"
+          },
+          {
+            "transliteration": "mustakhraj",
+            "text": "(extracted)"
+          }
+        ],
+        [
+          {
+            "transliteration": "dahraja",
+            "text": "(he rolled)"
+          },
+          {
+            "transliteration": "yudahraju"
+          },
+          {
+            "transliteration": "mudahraj",
+            "text": "(rolled)"
+          }
+        ],
+        [
+          {
+            "transliteration": "taʿallama",
+            "text": "(he learned)"
+          },
+          {
+            "transliteration": "yutaʿallamu"
+          },
+          {
+            "transliteration": "mutaʿallam",
+            "text": "(learned)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s021",
+      "label_en": "Note",
+      "text": "Ism al-mafʿul shares the same pattern as ism al-faʿil (active participle) for non-triliteral verbs. They are distinguished only by the vowel before the last letter: ism al-faʿil has a kasra before the last (mukrim — 'one who honors'), while ism al-mafʿul has a fatha before the last (mukram — 'one who is honored')."
+    },
+    {
+      "id": "s022",
+      "items": [
+        {
+          "transliteration": "mukrim (active participle), mukram (passive participle)",
+          "text": "(one who honors / one who is honored)"
+        },
+        {
+          "transliteration": "muʿallim (active), muʿallam (passive)",
+          "text": "(teacher / one taught)"
+        },
+        {
+          "transliteration": "mustakhrij (active), mustakhraj (passive)",
+          "text": "(extractor / extracted)"
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "text": "What May Substitute for Ism al-Mafʿul"
+    },
+    {
+      "id": "s024",
+      "label_en": "Rule",
+      "text": "Some patterns may stand in place of ism al-mafʿul from the triliteral verb, conveying the same meaning. The most well-known are: faʿil (in the meaning of mafʿul), faʿal, faʿal (with fatha + damma), and fiʿl (with kasra + sukun)."
+    },
+    {
+      "id": "s025",
+      "items": [
+        {
+          "transliteration": "qatil, in the meaning of maqtul",
+          "text": "(slain — meaning 'one who is killed')"
+        },
+        {
+          "transliteration": "jarih, in the meaning of majruh",
+          "text": "(wounded)"
+        },
+        {
+          "transliteration": "asir, in the meaning of maʾsur",
+          "text": "(captive)"
+        },
+        {
+          "transliteration": "dhabih, in the meaning of madhbuh",
+          "text": "(slaughtered)"
+        },
+        {
+          "transliteration": "khadab, in the meaning of makhdub",
+          "text": "(dyed)"
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "label_en": "Note",
+      "text": "When 'faʿil' carries the meaning of 'mafʿul', the masculine and feminine are alike — the taʾ is generally not attached. Similarly the singular, dual, and plural are all alike."
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "hadha rajul-un qatil",
+          "text": "— This is a slain man."
+        },
+        {
+          "transliteration": "hadhihi imraʾat-un qatil",
+          "text": "— This is a slain woman. (still 'qatil', not 'qatila')"
+        },
+        {
+          "transliteration": "hadhani rajulani qatil",
+          "text": "— These are two slain men. (still 'qatil')"
+        },
+        {
+          "transliteration": "haʾulaʾ rijal-un qatil",
+          "text": "— These are slain men. (still 'qatil')"
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "The Operation of Ism al-Mafʿul"
+    },
+    {
+      "id": "s029",
+      "label_en": "Rule",
+      "text": "Ism al-mafʿul operates like its corresponding passive-voice verb: it raises a deputy subject (naʾib al-faʿil) to the nominative, but does not put a direct object in the accusative — except when the verb is transitive to more than one object."
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "al-talib-u mahmud-un khuluq-u-hu",
+          "text": "— The student — his character is praised."
+        },
+        {
+          "transliteration": "al-bayt-u maftuhat-un nawafidh-u-hu",
+          "text": "— The house — its windows are open."
+        },
+        {
+          "transliteration": "al-shajarat-u maqtuʿat-un aghsan-u-ha",
+          "text": "— The tree — its branches are cut."
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "In these sentences, the ism al-mafʿul (mahmud, maftuha, maqtuʿa) has each raised a naʾib al-faʿil: 'khuluq-u-hu' is naʾib al-faʿil for 'mahmud'; 'nawafidh-u-hu' for 'maftuha'; 'aghsan-u-ha' for 'maqtuʿa'."
+    },
+    {
+      "id": "s032",
+      "text": "Conditions for the Operation of Ism al-Mafʿul"
+    },
+    {
+      "id": "s033",
+      "label_en": "Rule",
+      "text": "Ism al-mafʿul operates like its verb under two conditions: it must be prefixed with 'al-' (the definite article), or it must indicate present or future time and depend on a negation, an interrogative, a qualified noun, a noun being predicated about, or a noun in the position of being qualified by a circumstantial accusative."
+    },
+    {
+      "id": "s034",
+      "text": "1 — When Prefixed with 'Al-'"
+    },
+    {
+      "id": "s035",
+      "label_en": "Rule",
+      "text": "When ism al-mafʿul carries 'al-', it operates without any further condition; it may indicate past, present, or future time."
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "transliteration": "jaʾa al-mahmud-u khuluq-u-hu",
+          "text": "— He whose character is praised has come."
+        },
+        {
+          "transliteration": "hadha huwa al-maktub-u ism-u-hu fi al-qaʾima",
+          "text": "— This is the one whose name is written on the list."
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "2 — When Free of 'Al-'"
+    },
+    {
+      "id": "s038",
+      "label_en": "Rule",
+      "text": "When ism al-mafʿul is free of 'al-', two conditions are required for its operation: that it indicate present or future, and that it depend on a negation, an interrogative, a qualified noun, a noun being predicated about, or a noun being described circumstantially (a mubtadaʾ or sahib hal)."
+    },
+    {
+      "id": "s039",
+      "items": [
+        "Depending on a negation: ma mahmudun khuluquhu kadhibun ('the one whose character is praised is not a liar').",
+        "Depending on an interrogative: a-mafhumun darsuhu? ('is his lesson understood?').",
+        "Depending on a qualified noun: marartu bi-rajulin mahmudin khuluquhu ('I passed by a man whose character is praised').",
+        "Depending on a noun being predicated about: al-talibu mafhumun darsuhu ('the student — his lesson is understood').",
+        "Depending on a sahib hal: jaʾa al-talibu mafhuman darsuhu ('the student came with his lesson having been understood')."
+      ]
+    },
+    {
+      "id": "s040",
+      "text": "Iʿrab of the Complement of Ism al-Mafʿul"
+    },
+    {
+      "id": "s041",
+      "label_en": "Rule",
+      "text": "What follows the operating ism al-mafʿul is parsed as naʾib al-faʿil in the nominative, agreeing with it in number (singular, dual, plural)."
+    },
+    {
+      "id": "s042",
+      "items": [
+        {
+          "transliteration": "al-talib-u maktub-un ism-u-hu",
+          "text": "— The student — his name is written. (singular naʾib al-faʿil)"
+        },
+        {
+          "transliteration": "al-talibani maktub-un ismah-u-huma",
+          "text": "— The two students — their (two) names are written. (dual naʾib al-faʿil)"
+        },
+        {
+          "transliteration": "al-tullab-u maktubat-un asmaʾ-u-hum",
+          "text": "— The students — their names are written. (plural naʾib al-faʿil)"
+        }
+      ]
+    },
+    {
+      "id": "s043",
+      "text": "Masculinity and Femininity of Ism al-Mafʿul"
+    },
+    {
+      "id": "s044",
+      "label_en": "Rule",
+      "text": "Ism al-mafʿul takes its gender, dual, or plural form according to its naʾib al-faʿil. If the naʾib al-faʿil is singular, dual, or plural, the ism al-mafʿul follows in singular, dual, or plural — and agrees with it in masculinity and femininity."
+    },
+    {
+      "id": "s045",
+      "headers": [
+        "Type of naʾib al-faʿil",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Masculine singular",
+          {
+            "transliteration": "al-talib-u mafhum-un dars-u-hu"
+          }
+        ],
+        [
+          "Feminine singular",
+          {
+            "transliteration": "al-talibat-u mafhumat-un qasidat-u-ha"
+          }
+        ],
+        [
+          "Masculine dual",
+          {
+            "transliteration": "al-talibani mafhumani darsah-u-huma"
+          }
+        ],
+        [
+          "Feminine dual",
+          {
+            "transliteration": "al-talibatani mafhumatani qasidatah-u-huma"
+          }
+        ],
+        [
+          "Masculine plural",
+          {
+            "transliteration": "al-tullab-u mafhumun-a duruswa-hum"
+          }
+        ],
+        [
+          "Feminine plural",
+          {
+            "transliteration": "al-talibat-u mafhumat-un qasaʾid-u-hunna"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s046",
+      "label_en": "Note",
+      "text": "If ism al-mafʿul is attached to a pronoun referring to its subject (i.e., its naʾib al-faʿil is a concealed pronoun), it agrees with that subject in masculinity, femininity, singularity, duality, and plurality. But if the naʾib al-faʿil comes as a manifest noun, ism al-mafʿul stays in the singular and agrees with its subject only in masculinity and femininity."
+    },
+    {
+      "id": "s047",
+      "items": [
+        {
+          "transliteration": "al-tullab-u mafhum-un dars-u-hum",
+          "text": "— The students — their lesson is understood. (mafhum is singular because the naʾib al-faʿil is manifest)"
+        },
+        {
+          "transliteration": "al-tullab-u mafhumun",
+          "text": "— The students are understood. (mafhumun is plural because the naʾib al-faʿil is a concealed pronoun)"
+        }
+      ]
+    },
+    {
+      "id": "s048",
+      "text": "Difference Between Ism al-Faʿil and Ism al-Mafʿul"
+    },
+    {
+      "id": "s049",
+      "headers": [
+        "Aspect",
+        "Ism al-Faʿil (Active Participle)",
+        "Ism al-Mafʿul (Passive Participle)"
+      ],
+      "rows": [
+        [
+          "Indicates",
+          "The one performing the action",
+          "The one upon whom the action falls"
+        ],
+        [
+          "Derived from",
+          "The active-voice verb",
+          "The passive-voice verb"
+        ],
+        [
+          "Triliteral pattern",
+          {
+            "transliteration": "faʿil (e.g., katib)"
+          },
+          {
+            "transliteration": "mafʿul (e.g., maktub)"
+          }
+        ],
+        [
+          "Non-triliteral pattern",
+          "Same as the present-tense form, with kasra before the last letter",
+          "Same as the present-tense form, with fatha before the last letter"
+        ],
+        [
+          "Operation",
+          "Raises a subject and puts an object in the accusative",
+          "Raises a deputy subject (naʾib al-faʿil)"
+        ]
+      ]
+    },
+    {
+      "id": "s050",
+      "text": "How are ism al-faʿil and ism al-mafʿul distinguished from non-triliteral verbs?"
+    },
+    {
+      "id": "s051",
+      "text": "They are distinguished by the vowel before the last letter: ism al-faʿil from non-triliteral verbs has a kasra before the last (mukrim, muʿallim, mujtahid), and ism al-mafʿul has a fatha before the last (mukram, muʿallam, mujtahad). They are also distinguished by meaning: ism al-faʿil indicates the doer, while ism al-mafʿul indicates the recipient of the action."
+    },
+    {
+      "id": "s052",
+      "text": "Example of Iʿrab"
+    },
+    {
+      "id": "s053",
+      "items": [
+        {
+          "transliteration": "al-talib-u mafhum-un dars-u-hu",
+          "text": "— The student — his lesson is understood."
+        }
+      ]
+    },
+    {
+      "id": "s054",
+      "text": "al-talib: mubtadaʾ in the nominative, marked by the manifest damma at its end. mafhum: khabar in the nominative, marked by the manifest damma; an ism al-mafʿul operating like its verb. dars: naʾib al-faʿil for the ism al-mafʿul, in the nominative, marked by the manifest damma; a mudaf. The haʾ: a connected pronoun fixed on damma, in the position of genitive as a mudaf ilayh."
+    },
+    {
+      "id": "s055",
+      "label_en": "Warning",
+      "text": "The student should be able to distinguish between ism al-mafʿul, al-sifa al-mushabbaha, and the intensive forms (siyagh al-mubalagha): ism al-mafʿul indicates the falling of the action upon an entity; al-sifa al-mushabbaha indicates the fixedness of an attribute; and siyagh al-mubalagha indicate the intensification of the action and its frequent occurrence from the doer."
+    },
+    {
+      "id": "s056",
+      "text": "Allah Most High said: \"...indeed, the hearing, the sight and the heart — about all those [one] will be questioned.\" — Quran 17:36 (Sahih International)"
+    },
+    {
+      "id": "s057",
+      "text": "In this noble verse, 'masʾulan' is an ism al-mafʿul from the triliteral verb 'saʾala' on the pattern 'mafʿul'. It serves as the predicate of 'kana' in the accusative, marked by the manifest fatha. It indicates that the human being will be the recipient of questioning and accountability regarding his hearing, sight, and heart."
+    }
+  ]
+}

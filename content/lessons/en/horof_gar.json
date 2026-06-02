@@ -1,0 +1,434 @@
+{
+  "lesson_id": "horof_gar",
+  "language": "en",
+  "title": "What Are Huruf al-Jarr (Prepositions) in Arabic?",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "nazala al-matar-u min al-samaʾ",
+          "text": "— The rain came down from the sky."
+        },
+        {
+          "transliteration": "sarat al-mashiyat-u ila al-haql",
+          "text": "— The livestock walked to the field."
+        },
+        {
+          "transliteration": "yaftu al-khashab-u ʿala al-maʾ",
+          "text": "— Wood floats on water."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "If you reflect on the underlined words, you find them all to be nouns, each preceded by a particle (min — 'from', ila — 'to', ʿala — 'on')."
+    },
+    {
+      "id": "s004",
+      "text": "If you examine the ending of each of these nouns, you find them in the genitive case — and the reason is the entry of these particles, called: huruf al-jarr (prepositions)."
+    },
+    {
+      "id": "s005",
+      "text": "Definition of Huruf al-Jarr"
+    },
+    {
+      "id": "s006",
+      "label_en": "Definition",
+      "text": "Huruf al-jarr (prepositions / genitive-governing particles) are those that link nouns to nouns, or nouns to verbs."
+    },
+    {
+      "id": "s007",
+      "text": "Huruf al-Jarr in a Verse of Poetry"
+    },
+    {
+      "id": "s008",
+      "text": "[Ibn Malik's Alfiyya]: 'There are twenty huruf al-jarr, which Ibn Malik gathered in two verses: Take the prepositions: min, ila, hatta, khala, hasha, ʿada, fi, ʿan, ʿala; mudh, mundhu, rubba, the lam, kay, the waw, and the taʾ; and the kaf, the baʾ, laʿalla, and mata.'"
+    },
+    {
+      "id": "s009",
+      "text": "Meanings of Huruf al-Jarr in Arabic"
+    },
+    {
+      "id": "s010",
+      "text": "Of these twenty particles, three are specific to exception (al-istithnaʾ) and we will not discuss them here: khala, hasha, ʿada."
+    },
+    {
+      "id": "s011",
+      "text": "As for 'mata', it is well known to be a noun of time, sometimes used as an adverb. Its use as a preposition is restricted to the Hudhayl tribe — and that is not the focus of our topic."
+    },
+    {
+      "id": "s012",
+      "text": "As for 'laʿalla', it is well known as a particle of hopeful expectation, belonging to the family of inna and its sisters. So we are left with fifteen particles, which are the focus of our discussion:"
+    },
+    {
+      "id": "s013",
+      "items": [
+        "1 — min: a preposition for partition (i.e., indicating 'some of'), for clarifying the kind, and for indicating the starting point of time or place.",
+        "2 — ila: a preposition indicating the end-point.",
+        "3 — ʿan: a preposition indicating proximity / departure from.",
+        "4 — al-baʾ: a preposition used for circumstance, causation, instrumentality, transitivity, substitution, attachment, and accompaniment.",
+        "5 — fi: a preposition indicating containment ('in').",
+        "6 — ʿala: a preposition indicating 'over / upon'.",
+        "7 — al-kaf: a preposition used for likening and for purpose.",
+        "8 — hatta: a preposition indicating an end-point ('until').",
+        "9 — waw al-qasam (the waw of oath): a preposition used for taking oaths.",
+        "10 — taʾ al-qasam (the taʾ of oath): governs only the divine name 'Allah' and 'rabb' annexed to the Kaʿba or to the speaker's yaʾ.",
+        "11 — kay: governs only 'ma' interrogative.",
+        "12 — mundhu and mudh: indicate the starting point.",
+        "13 — rubba: indicates either many a... or few a...",
+        "14 — al-lam: indicates ownership / specification."
+      ]
+    },
+    {
+      "id": "s014",
+      "text": "Meaningful Sentences with Huruf al-Jarr"
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "yaʾti al-samak-u min al-bahr",
+          "text": "— Fish come from the sea."
+        },
+        {
+          "transliteration": "saʿa al-jaysh-u ila al-maydan",
+          "text": "— The army moved toward the battlefield."
+        },
+        {
+          "transliteration": "yadhhab-u al-khawf-u ʿan al-tifl",
+          "text": "— Fear leaves the child."
+        },
+        {
+          "transliteration": "yasqut-u al-thamar-u ʿala al-ard",
+          "text": "— The fruit falls onto the ground."
+        },
+        {
+          "transliteration": "yanbah-u al-kalb-u fi al-bustan",
+          "text": "— The dog barks in the orchard."
+        },
+        {
+          "transliteration": "qashshar-tu al-fakihat-a bi-l-sikkin",
+          "text": "— I peeled the fruit with the knife."
+        },
+        {
+          "transliteration": "ishtaray-tu qufl-an li-l-khazana",
+          "text": "— I bought a lock for the cabinet."
+        },
+        {
+          "transliteration": "sahir-tu hatta al-sabah",
+          "text": "— I stayed up until morning."
+        },
+        {
+          "transliteration": "Khalid ka-l-asad",
+          "text": "— Khalid is like a lion."
+        },
+        {
+          "transliteration": "ta-llah",
+          "text": "— By Allah."
+        },
+        {
+          "transliteration": "wa-l-haqq",
+          "text": "— By the truth."
+        },
+        {
+          "transliteration": "lam ara-hu mundh-u usbuʿ",
+          "text": "— I have not seen him for a week."
+        },
+        {
+          "transliteration": "rubba ramyat-in min ghayri ramin",
+          "text": "— Many a [successful] shot from a non-archer (an Arabic proverb)."
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "The Function of Huruf al-Jarr"
+    },
+    {
+      "id": "s017",
+      "text": "The function of huruf al-jarr in a sentence is to convey the meaning of the verb (or what operates like it) to the noun in the genitive — because the verb on its own is unable to reach it."
+    },
+    {
+      "id": "s018",
+      "text": "For example, if we say: hafiza al-dars-a bi-l-kitab ('he memorized the lesson with the book')."
+    },
+    {
+      "id": "s019",
+      "text": "The meaning of the verb (hafiza) reached the direct object (al-dars) directly — so we put it in the accusative. The effect of the verb reached (al-kitab) by means of the preposition (al-baʾ)."
+    },
+    {
+      "id": "s020",
+      "text": "Types of Huruf al-Jarr"
+    },
+    {
+      "id": "s021",
+      "text": "There are three types of huruf al-jarr:"
+    },
+    {
+      "id": "s022",
+      "text": "1 — Original Particles (Asliyya)"
+    },
+    {
+      "id": "s023",
+      "text": "Original prepositions are characterized by requiring a 'mutaʿalliq' (an attached element) that absolutely cannot be dispensed with. They are: ila, ʿala, ʿan, the taʾ, and others. E.g.:"
+    },
+    {
+      "id": "s024",
+      "items": [
+        {
+          "transliteration": "istaʿan-tu bi-llah",
+          "text": "— I sought help from Allah."
+        }
+      ]
+    },
+    {
+      "id": "s025",
+      "text": "2 — Redundant Particles (Zaʾida)"
+    },
+    {
+      "id": "s026",
+      "text": "Redundant prepositions are those that can be dispensed with in iʿrab; they do not require a 'mutaʿalliq' and are added for emphasis. They are: min, the baʾ, the lam. E.g.:"
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "ma jaʾa min ahad",
+          "text": "— No one came at all. (must be preceded by a negation or interrogative)"
+        },
+        {
+          "text": "— Allah Most High said: \"...and sufficient is Allah as a helper.\" — Quran 4:45 (Sahih International) (occurring after 'kafa')"
+        },
+        {
+          "transliteration": "ya li-l-aghniyaʾ",
+          "text": "— O the rich (used in calls for help and exclamations)."
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "3 — Quasi-Redundant Particles (Shabiha bi-l-Zaʾida)"
+    },
+    {
+      "id": "s029",
+      "text": "These are particles that cannot be dispensed with — neither in form nor in meaning — and do not require a mutaʿalliq. They are: rubba. E.g.:"
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "rubba laylin ka-anna-hu al-subh",
+          "text": "— Many a night [there is] as if it were morning."
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "Iʿrab of Huruf al-Jarr"
+    },
+    {
+      "id": "s032",
+      "items": [
+        {
+          "transliteration": "nazala al-matar-u min al-samaʾ",
+          "text": "— The rain came down from the sky."
+        }
+      ]
+    },
+    {
+      "id": "s033",
+      "text": "nazala: a past-tense verb fixed on the manifest fatha at its end.\nal-matar: the subject (faʿil) in the nominative, marked by the manifest damma at its end.\nmin: a preposition.\nal-samaʾ: a noun in the genitive after 'min', marked by the manifest kasra at its end. The prepositional phrase is attached to the verb 'nazala'."
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "istaʿan-tu bi-llah",
+          "text": "— I sought help from Allah."
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "istaʿantu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nbi-llah: the baʾ is a preposition; Allah — the divine name — is in the genitive after 'baʾ', marked by the manifest kasra at its end. The prepositional phrase is attached to the verb 'istaʿantu'."
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "transliteration": "laysa al-ʿilm-u bi-darr",
+          "text": "— Knowledge is not harmful."
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "laysa: an incomplete past-tense verb (one of the sisters of kana), fixed on the manifest fatha at its end.\nal-ʿilm: ism laysa in the nominative, marked by the manifest damma.\nbi-darr: the baʾ is a redundant preposition; darr is in the genitive in form (lafzan), in the accusative in position (mahallan), as the khabar of 'laysa'."
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "ma min ahad-in jaʾa",
+          "text": "— No one whatsoever has come."
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "ma: a negating particle with no operation.\nmin: a redundant preposition.\nahad: a noun in the genitive in form, in the nominative in position, as a mubtadaʾ.\njaʾa: a past-tense verb fixed on the manifest fatha; the subject is a permissibly concealed pronoun, implied as 'huwa'.\nThe clause (ma min ahad): an opening clause (ibtidaʾiyya), with no place in iʿrab.\nThe clause (jaʾa): in the position of nominative as the predicate of the first clause."
+    },
+    {
+      "id": "s040",
+      "items": [
+        {
+          "transliteration": "mashay-tu ila nisf-i al-tariq",
+          "text": "— I walked to the middle of the road."
+        }
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "mashaytu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nila: a preposition.\nnisf: a noun in the genitive after 'ila', marked by the manifest kasra; a mudaf.\nal-tariq: a mudaf ilayh in the genitive, marked by the manifest kasra."
+    },
+    {
+      "id": "s042",
+      "text": "Huruf al-Jarr in the Noble Quran"
+    },
+    {
+      "id": "s043",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s044",
+      "items": [
+        {
+          "text": "— \"...and from you and from Noah...\" — Quran 33:7 (Sahih International)"
+        },
+        {
+          "text": "— \"...So judge between them by what Allah has revealed...\" — Quran 5:48 (Sahih International)"
+        },
+        {
+          "text": "— \"You will surely embark upon state after state.\" — Quran 84:19 (Sahih International)"
+        },
+        {
+          "text": "— \"And upon them and on ships you are carried.\" — Quran 23:22 (Sahih International)"
+        },
+        {
+          "text": "— \"To Him belongs whatever is in the heavens and whatever is on the earth.\" — Quran 2:255 (Sahih International)"
+        },
+        {
+          "text": "— \"Believe in Allah...\" — Quran 4:136 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s045",
+      "text": "Verses of Poetry on Huruf al-Jarr"
+    },
+    {
+      "id": "s046",
+      "text": "Kuthayyir said:"
+    },
+    {
+      "id": "s047",
+      "text": "[Kuthayyir, classical poetry]: 'Indeed I have been distracted by [gazing at] the stars — like the white-faced statues whose speech is gentle.'"
+    },
+    {
+      "id": "s048",
+      "text": "Tarafah said:"
+    },
+    {
+      "id": "s049",
+      "text": "[Tarafah, classical poetry]: 'And if all the tribe meet together, you will find me at the summit of the lofty pillared house.'"
+    },
+    {
+      "id": "s050",
+      "text": "ʿAlqama said:"
+    },
+    {
+      "id": "s051",
+      "text": "[ʿAlqama, classical poetry]: 'If you ask me about women — indeed I am knowledgeable in their ailments, a physician.'"
+    },
+    {
+      "id": "s052",
+      "text": "ʿUmar ibn Abi Rabiʿah said:"
+    },
+    {
+      "id": "s053",
+      "text": "[ʿUmar ibn Abi Rabiʿah, classical poetry]: 'And she said: In the name of Allah, your command is obedience — though I have been charged with what I am not accustomed to.'"
+    },
+    {
+      "id": "s054",
+      "text": "Exercises on Huruf al-Jarr in Arabic"
+    },
+    {
+      "id": "s055",
+      "text": "1 — Identify the huruf al-jarr in the following passage and indicate the type of each:"
+    },
+    {
+      "id": "s056",
+      "text": "Allah Most High said: \"O my son, establish prayer, enjoin what is right, forbid what is wrong, and be patient over what befalls you. Indeed, [all] that is of the matters [requiring] resolve. And do not turn your cheek [in contempt] toward people, and do not walk through the earth exultantly. Indeed, Allah does not like everyone self-deluded and boastful.\" — Quran 31:17–18 (Sahih International)",
+      "is_quran": true,
+      "surah_en": "Luqman",
+      "surah_number": 31,
+      "ayah_start": 17,
+      "ayah_end": 18,
+      "translation_source": "Sahih International"
+    },
+    {
+      "id": "s057",
+      "text": "2 — Identify the harf al-jarr in each of the following and indicate the meaning it conveys:"
+    },
+    {
+      "id": "s058",
+      "items": [
+        {
+          "transliteration": "rubba aklat-in manaʿat aklat",
+          "text": "— Many a meal has prevented [further] meals (i.e., one bad meal can ruin one's appetite for many)."
+        },
+        {
+          "transliteration": "ma raʾay-tu-hu mundhu al-yawm",
+          "text": "— I have not seen him since today."
+        },
+        {
+          "transliteration": "marar-tu bi-l-asdiqaʾ",
+          "text": "— I passed by my friends."
+        },
+        {
+          "transliteration": "yajud-u al-karim-u ʿan raghba",
+          "text": "— The generous one gives out of [his own] desire."
+        },
+        {
+          "transliteration": "al-haqq-u ka-l-nur-i mudiʾ-un daʾiman",
+          "text": "— The truth is like light, ever shining."
+        },
+        {
+          "transliteration": "ta-llah-i la-usaʿidanna al-muhtajin",
+          "text": "— By Allah, I shall surely help those in need."
+        }
+      ]
+    },
+    {
+      "id": "s059",
+      "text": "3 — Provide the iʿrab for the underlined portions:"
+    },
+    {
+      "id": "s060",
+      "items": [
+        {
+          "transliteration": "biʿtu-ka al-kitab-a bi-ghilaf-i-hi",
+          "text": "— I sold you the book along with its cover."
+        },
+        {
+          "text": "— Allah Most High said: \"Peace it is until the emergence of dawn.\" — Quran 97:5 (Sahih International)"
+        }
+      ]
+    }
+  ]
+}

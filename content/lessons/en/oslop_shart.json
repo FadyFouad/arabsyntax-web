@@ -1,0 +1,559 @@
+{
+  "lesson_id": "oslop_shart",
+  "language": "en",
+  "title": "Definition of Al-Uslub al-Shart (the Conditional Style)",
+  "sections": [
+    {
+      "id": "s001",
+      "label_en": "Definition",
+      "text": "Al-shart (the condition) is the linking of one matter to another such that the second cannot be realized except by the realization of the first, established by the presence of a conditional particle."
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "in tadrus tanjah",
+          "text": "Example: If you study, you will succeed."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "The realization of the second matter (success) is contingent on the realization of the first (study)."
+    },
+    {
+      "id": "s004",
+      "text": "Examples of the Conditional Style"
+    },
+    {
+      "id": "s005",
+      "items": [
+        {
+          "transliteration": "in yazur-ni ahadun ukrim-hu",
+          "text": "— If anyone visits me, I shall honor him."
+        },
+        {
+          "transliteration": "man yakthur kalam-u-hu yakthur malam-u-hu",
+          "text": "— Whoever speaks much, much blame falls upon him."
+        },
+        {
+          "transliteration": "aynama yakthur al-zulm-u yadʿuf al-ʿumran",
+          "text": "— Wherever oppression abounds, civilization weakens."
+        },
+        {
+          "transliteration": "kayfama tuʿamil ikhwana-ka yuʿamiluka",
+          "text": "— However you treat your brothers, they will treat you."
+        },
+        {
+          "transliteration": "mata yaʾti fasl-u al-sayf yandaj al-ʿinab",
+          "text": "— Whenever the summer season comes, the grapes ripen."
+        }
+      ]
+    },
+    {
+      "id": "s006",
+      "text": "Pillars of the Conditional Style"
+    },
+    {
+      "id": "s007",
+      "text": "The conditional style consists of three pillars:"
+    },
+    {
+      "id": "s008",
+      "items": [
+        "1 — Adat al-shart (the conditional particle).",
+        "2 — Jumlat fiʿl al-shart (the conditional clause).",
+        "3 — Jumlat jawab al-shart (the response of the condition)."
+      ]
+    },
+    {
+      "id": "s009",
+      "text": "Example: man yakthur kalam-u-hu yakthur malam-u-hu ('whoever speaks much, much blame falls upon him')."
+    },
+    {
+      "id": "s010",
+      "text": "Adat al-shart: man.\nJumlat fiʿl al-shart: yakthur kalam-u-hu.\nJumlat jawab al-shart: yakthur malam-u-hu."
+    },
+    {
+      "id": "s011",
+      "text": "Conditional Particles"
+    },
+    {
+      "id": "s012",
+      "text": "Adat al-shart is a word that links the two clauses (the conditional clause and the response of the condition). The conditional has two types of particles:"
+    },
+    {
+      "id": "s013",
+      "items": [
+        "1 — Jussive-governing conditional particles (al-jazima).",
+        "2 — Non-jussive-governing conditional particles (ghayr al-jazima)."
+      ]
+    },
+    {
+      "id": "s014",
+      "text": "Jussive-Governing Conditional Particles"
+    },
+    {
+      "id": "s015",
+      "text": "Jussive-governing conditional particles are divided into two categories:"
+    },
+    {
+      "id": "s016",
+      "text": "1 — Two particles, namely:"
+    },
+    {
+      "id": "s017",
+      "items": [
+        "in, idhma: with no place in iʿrab."
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "2 — The following nouns:"
+    },
+    {
+      "id": "s019",
+      "items": [
+        "man: for rational beings ('whoever').",
+        "ma, mahma: for non-rational ('whatever, however').",
+        "mata, ayyana: for time ('whenever').",
+        "ayna, anna, haythuma: for place ('wherever').",
+        "kayfama: for state ('however')."
+      ]
+    },
+    {
+      "id": "s020",
+      "text": "These are mabni (indeclinable) nouns parsed according to their position in the sentence."
+    },
+    {
+      "id": "s021",
+      "text": "Non-Jussive-Governing Conditional Particles"
+    },
+    {
+      "id": "s022",
+      "text": "Non-jussive-governing conditional particles are divided into two categories:"
+    },
+    {
+      "id": "s023",
+      "text": "1 — Particles, namely:"
+    },
+    {
+      "id": "s024",
+      "items": [
+        "law: a conditional particle, mostly for the past, called 'harf imtinaʿ li-imtinaʿ' ('a particle of impossibility-due-to-impossibility').",
+        "lawla, lawma: two conditional particles called 'harfa imtinaʿ li-wujud' ('particles of impossibility-due-to-existence').",
+        "amma: a conditional particle conveying detail; it stands in for both the conditional particle and the conditional verb. Its response must be joined with faʾ."
+      ]
+    },
+    {
+      "id": "s025",
+      "text": "Nouns:"
+    },
+    {
+      "id": "s026",
+      "items": [
+        "idha: an adverb of future time.",
+        "lamma, kullama: two adverbs of past time."
+      ]
+    },
+    {
+      "id": "s027",
+      "text": "Iʿrab of Jussive-Governing and Non-Jussive-Governing Conditional Particles"
+    },
+    {
+      "id": "s028",
+      "text": "in, idhma: two particles with no place in iʿrab."
+    },
+    {
+      "id": "s029",
+      "text": "man, ma, mahma: nouns parsed either as:"
+    },
+    {
+      "id": "s030",
+      "text": "— In the position of nominative as a mubtadaʾ, if the jussive verb is intransitive, or transitive with its object already supplied."
+    },
+    {
+      "id": "s031",
+      "text": "Example: 'man yasʿa ila khayrin yajid-hu' ('whoever strives toward goodness will find it')."
+    },
+    {
+      "id": "s032",
+      "text": "man: a jussive-governing conditional noun, mubtadaʾ."
+    },
+    {
+      "id": "s033",
+      "text": "— In the position of accusative as a fronted direct object, if the jussive verb has not yet supplied its object."
+    },
+    {
+      "id": "s034",
+      "text": "Example: 'mahma yulqi al-ustadh-u fa-ana ahfaz-u-hu' ('whatever the teacher delivers, I memorize it')."
+    },
+    {
+      "id": "s035",
+      "text": "mata, ayyana: two adverbs of time."
+    },
+    {
+      "id": "s036",
+      "text": "ayna, anna, haythuma: adverbs of place."
+    },
+    {
+      "id": "s037",
+      "text": "These nouns are parsed in the position of accusative as adverbs of time or place."
+    },
+    {
+      "id": "s038",
+      "text": "Example: 'ayyana tazur-ni ukrim-ka' ('whenever you visit me, I shall honor you')."
+    },
+    {
+      "id": "s039",
+      "text": "ayyana: a jussive-governing conditional noun, in the position of accusative as an adverb of time."
+    },
+    {
+      "id": "s040",
+      "text": "kayfama: a jussive-governing conditional noun, parsed in the position of accusative as a fronted haal."
+    },
+    {
+      "id": "s041",
+      "text": "Example: 'kayfama taʿmal fa-saʾaʿmal' ('however you act, so shall I act')."
+    },
+    {
+      "id": "s042",
+      "text": "kayfama: a jussive-governing conditional noun, fronted haal."
+    },
+    {
+      "id": "s043",
+      "text": "Iʿrab of the Jussive-Governing Conditional 'Ayy'"
+    },
+    {
+      "id": "s044",
+      "text": "ayy: a jussive-governing conditional noun, parsed according to its position in the sentence; it occurs only as a mudaf."
+    },
+    {
+      "id": "s045",
+      "text": "— If preceded by a preposition, it is parsed as a noun in the genitive."
+    },
+    {
+      "id": "s046",
+      "text": "Example: 'bi-ayyi maqʿadin tajlis ajlis' ('on whatever seat you sit, I shall sit')."
+    },
+    {
+      "id": "s047",
+      "text": "bi-ayy: a jussive-governing conditional noun in the genitive after the preposition."
+    },
+    {
+      "id": "s048",
+      "text": "— If 'ayy' is preceded by a mudaf, it is parsed as a mudaf ilayh."
+    },
+    {
+      "id": "s049",
+      "text": "Example: 'tahta ayyi mizallatin aqif tajid-ni amam-a-ka' ('under whatever umbrella I stand, you will find me before you')."
+    },
+    {
+      "id": "s050",
+      "text": "ayy: a jussive-governing conditional noun, mudaf ilayh."
+    },
+    {
+      "id": "s051",
+      "text": "— If 'ayy' is annexed to an adverb of time or place, it takes that iʿrab."
+    },
+    {
+      "id": "s052",
+      "text": "Example: 'ayya yawmin tasil tajid-ni fi intizar-i-ka' ('on whatever day you arrive, you will find me waiting for you')."
+    },
+    {
+      "id": "s053",
+      "text": "ayy: a jussive-governing conditional noun, an adverb of time."
+    },
+    {
+      "id": "s054",
+      "text": "— If 'ayy' is annexed to a masdar followed by its corresponding verb, it is parsed as al-mafʿul al-mutlaq."
+    },
+    {
+      "id": "s055",
+      "text": "Example: 'ayya zarʿin tazraʿ-hu tajni thamar-a-hu' ('whatever planting you plant, you will reap its fruit')."
+    },
+    {
+      "id": "s056",
+      "text": "ayy: a jussive-governing conditional noun, mafʿul mutlaq in the accusative."
+    },
+    {
+      "id": "s057",
+      "text": "— 'ayy' is parsed as a mubtadaʾ if the conditional verb is incomplete (one of kana and its sisters), or intransitive, or transitive with its object already supplied."
+    },
+    {
+      "id": "s058",
+      "text": "Example: 'ayyu sadiqin yazur-ni ukrim-hu' ('whichever friend visits me, I shall honor him')."
+    },
+    {
+      "id": "s059",
+      "text": "ayy: a jussive-governing conditional noun, mubtadaʾ in the nominative."
+    },
+    {
+      "id": "s060",
+      "text": "Iʿrab of the Conditional 'Law'"
+    },
+    {
+      "id": "s061",
+      "text": "law: a non-jussive-governing conditional particle, called 'harf imtinaʿ li-imtinaʿ' ('a particle of impossibility-due-to-impossibility'). The realization of the second matter is contingent on the realization of the first; if the second matter does not occur, that is because the first did not occur."
+    },
+    {
+      "id": "s062",
+      "text": "Example: 'law harabu la-ntasaru' ('if they had fought, they would have won')."
+    },
+    {
+      "id": "s063",
+      "text": "Victory did not occur because fighting did not occur."
+    },
+    {
+      "id": "s064",
+      "text": "— The conditional verb and the response after non-jussive 'law' are past in form and meaning."
+    },
+    {
+      "id": "s065",
+      "text": "Example: 'law nama Samir-un bakiran la-nahada bakiran' ('if Samir had slept early, he would have risen early')."
+    },
+    {
+      "id": "s066",
+      "text": "— If a noun comes after non-jussive 'law', a verb is implied before it."
+    },
+    {
+      "id": "s067",
+      "text": "Example: 'law mudir-u al-madrasa kallama walid-i la-ajab-a-hu' ('if the school principal had spoken to my father, he would have answered him')."
+    },
+    {
+      "id": "s068",
+      "text": "mudir: the subject of an omitted verb explained by what follows."
+    },
+    {
+      "id": "s069",
+      "text": "— It is permissible for the response of non-jussive 'law' to be joined with the lam — whether a verbal or nominal clause — called 'al-lam al-rabita li-l-jawab' (the lam binding the response)."
+    },
+    {
+      "id": "s070",
+      "text": "Example: 'law najaha Muhammad-un la-hannaʾ-tu-hu' ('if Muhammad had succeeded, I would have congratulated him')."
+    },
+    {
+      "id": "s071",
+      "text": "— If 'anna' comes after non-jussive 'law', it is interpreted with its noun and predicate as a masdar in the position of nominative as the subject of an omitted verb, implied as 'thabata' ('it is established')."
+    },
+    {
+      "id": "s072",
+      "text": "Example: 'law anna al-mal-a yunfaqu la-stafada min-hu al-nas' ('if it were established that wealth is spent, people would benefit from it')."
+    },
+    {
+      "id": "s073",
+      "text": "Implied: 'law thabata infaqu al-mal-i la-stafada al-nas-u min-hu' ('if the spending of wealth were established, people would benefit from it')."
+    },
+    {
+      "id": "s074",
+      "text": "Iʿrab of the Conditional 'Lawla'"
+    },
+    {
+      "id": "s075",
+      "text": "The non-jussive conditional particle 'lawla' enters upon two clauses, linking them, but does not put the verb in the jussive. It is 'harf imtinaʿ li-wujud' ('a particle of impossibility-due-to-existence')."
+    },
+    {
+      "id": "s076",
+      "text": "Example: 'lawla al-dirasa la-fashila Khalid' ('were it not for studying, Khalid would have failed')."
+    },
+    {
+      "id": "s077",
+      "text": "Failure did not befall Khalid because of the existence of his studying. For this reason 'lawla' is called 'harf imtinaʿ li-wujud'."
+    },
+    {
+      "id": "s078",
+      "text": "— After 'lawla' comes a mubtadaʾ whose khabar is obligatorily omitted."
+    },
+    {
+      "id": "s079",
+      "text": "Example: 'lawla al-Qurʾan al-karim la-daʿat al-ʿarabiyya' ('were it not for the Noble Quran, the Arabic language would have been lost')."
+    },
+    {
+      "id": "s080",
+      "text": "lawla: a non-jussive-governing conditional particle.\nal-Qurʾan: a mubtadaʾ whose khabar is obligatorily omitted."
+    },
+    {
+      "id": "s081",
+      "text": "— The response of 'lawla' comes as a past-tense verb, or a present-tense verb indicating the past."
+    },
+    {
+      "id": "s082",
+      "text": "Example: 'lawla ʿinayat-u al-umm-i la-halaka al-tifl' ('were it not for the mother's care, the child would have perished')."
+    },
+    {
+      "id": "s083",
+      "text": "— 'lawla al-ʿiqab lam yasud al-amn' ('were it not for punishment, security would not prevail')."
+    },
+    {
+      "id": "s084",
+      "text": "— It is permissible for the response of 'lawla' to be joined with the lam binding the response."
+    },
+    {
+      "id": "s085",
+      "text": "Example: 'lawla al-shams la-nʿadamat al-hayat' ('were it not for the sun, life would not exist')."
+    },
+    {
+      "id": "s086",
+      "text": "Iʿrab of the Conditional 'Lawma'"
+    },
+    {
+      "id": "s087",
+      "text": "The non-jussive conditional particle 'lawma' operates like 'lawla' and shares its rulings: it is 'harf imtinaʿ li-wujud'; after it comes a mubtadaʾ whose khabar is obligatorily omitted; and its response comes as a past-tense verb (or present indicating past). It is also permissible for its response to be joined with the lam binding the response."
+    },
+    {
+      "id": "s088",
+      "text": "Iʿrab of the Conditional 'Amma'"
+    },
+    {
+      "id": "s089",
+      "text": "The non-jussive conditional particle 'amma' carries the meaning of jussive 'mahma' — though that does not appear in form. It conveys emphasis."
+    },
+    {
+      "id": "s090",
+      "text": "Example: 'al-kutub-u anwaʿ-un, amma al-jayyid-u fa-ma ʿammat fawaʾid-u-hu' ('books are of various kinds; as for the good ones, their benefits have not become widespread')."
+    },
+    {
+      "id": "s091",
+      "text": "Implied: 'al-kutub-u anwaʿ-un, wa-mahma yakun min shayʾin fa-l-jayyid-u ma ʿammat fawaʾid-u-hu' ('books are of various kinds; whatever it may be, the good ones — their benefits have not become widespread')."
+    },
+    {
+      "id": "s092",
+      "text": "— The response of 'amma' must be joined with the faʾ."
+    },
+    {
+      "id": "s093",
+      "text": "Example: 'amma ʿAliyy-un fa-ma taʾakhkhar' ('as for ʿAli, he was not late')."
+    },
+    {
+      "id": "s094",
+      "text": "— After conditional 'amma' may come:"
+    },
+    {
+      "id": "s095",
+      "text": "A mubtadaʾ in the nominative, e.g.: 'amma al-madrasat-u fa-manbaʿ-u al-ʿilm-i wa-l-maʿrifa' ('as for the school, it is the source of learning and knowledge')."
+    },
+    {
+      "id": "s096",
+      "text": "A direct object in the accusative, e.g.: 'amma al-wajib-a fa-la tuhmil' ('as for the duty, do not neglect it')."
+    },
+    {
+      "id": "s097",
+      "text": "A prepositional phrase, e.g.: 'amma bi-l-maʾ-i fa-tawaddaʾ' ('as for the water, perform ablution with it')."
+    },
+    {
+      "id": "s098",
+      "text": "An adverb, e.g.: 'amma yawm-a ams-i fa-hafil-un bi-l-ʿamal' ('as for yesterday, it was full of work')."
+    },
+    {
+      "id": "s099",
+      "text": "Iʿrab of the Conditional 'Idha'"
+    },
+    {
+      "id": "s100",
+      "text": "idha: an adverb of future time, carrying the meaning of a condition."
+    },
+    {
+      "id": "s101",
+      "text": "Example: 'idha safar-ta iftaqad-tu-ka' ('when you travel, I shall miss you')."
+    },
+    {
+      "id": "s102",
+      "text": "— If a noun comes after non-jussive conditional 'idha', it is parsed as the subject of an omitted verb explained by what follows."
+    },
+    {
+      "id": "s103",
+      "text": "Example: 'idha Waʾil zara-ni akram-tu-hu' ('if Waʾil visited me, I honored him')."
+    },
+    {
+      "id": "s104",
+      "text": "Waʾil: the subject of an omitted verb explained by what follows."
+    },
+    {
+      "id": "s105",
+      "text": "Iʿrab of the Conditional 'Kullama'"
+    },
+    {
+      "id": "s106",
+      "text": "kullama: an adverb conveying repetition, carrying the meaning of a condition. It requires both a past-tense conditional verb and a past-tense response."
+    },
+    {
+      "id": "s107",
+      "text": "Example: 'kullama ʿamil-ta al-khayr-a izdada ihtiram-u al-nas-i la-ka' ('whenever you do good, people's respect for you increases')."
+    },
+    {
+      "id": "s108",
+      "text": "Iʿrab of the Conditional 'Lamma'"
+    },
+    {
+      "id": "s109",
+      "text": "lamma: an adverbial conditional, non-jussive — carrying the meaning of 'when'. It is an adverb only when followed by two clauses both of which are past-tense verbs."
+    },
+    {
+      "id": "s110",
+      "text": "Example: 'lamma qabal-tu-ka rahhab-ta bi' ('when I met you, you welcomed me')."
+    },
+    {
+      "id": "s111",
+      "text": "Examples of Iʿrab for the Conditional Style"
+    },
+    {
+      "id": "s112",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s113",
+      "items": [
+        {
+          "text": "— \"If not for a decree from Allah that preceded, you would have been touched for what you took by a great punishment.\" — Quran 8:68 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s114",
+      "text": "lawla: a non-jussive conditional particle.\nkitab: a mubtadaʾ in the nominative, marked by the manifest damma at its end; its khabar is obligatorily omitted, implied as 'kaʾinun' or 'mawjudun' ('existing'). The clause (kitab and the omitted khabar) has no place in iʿrab.\nmin: a preposition.\nAllah: the divine name in the genitive after 'min', marked by the manifest kasra at its end.\nsabaqa: a past-tense verb fixed on fatha; the subject is a permissibly concealed pronoun, implied as 'huwa'.\nla-massa-kum: the lam falls in the response of 'lawla'; massa is a past-tense verb fixed on fatha; the kaf is a connected pronoun fixed on damma, in the position of accusative as a fronted direct object; the mim is the sign of masculine plural.\nfima: fi is a preposition; ma is a noun fixed on sukun, in the position of genitive after 'fi'.\nakhadhtum: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as a mubtadaʾ; the mim is the sign of masculine plural.\nʿadhab: the subject of 'massa' in the nominative, marked by the manifest damma at its end.\nʿazim: a naʿt in the nominative, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s115",
+      "items": [
+        {
+          "text": "— \"But as for the favor of your Lord, report [it].\" — Quran 93:11 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s116",
+      "text": "wa-amma: the waw is a conjunction; amma is a non-jussive conditional particle.\nbi-niʿma: the baʾ is a preposition; niʿma is a noun in the genitive after the baʾ, marked by the manifest kasra at its end; a mudaf.\nrabbi-ka: a mudaf ilayh in the genitive, marked by the manifest kasra at its end; a mudaf. The kaf is a connected pronoun fixed on fatha, in the position of genitive as a mudaf ilayh.\nfa-haddith: the faʾ falls in the response of 'amma'. haddith is an imperative verb fixed on sukun; the subject is an obligatorily concealed pronoun, implied as 'anta' ('you')."
+    },
+    {
+      "id": "s117",
+      "text": "The Conditional Style in the Quran"
+    },
+    {
+      "id": "s118",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s119",
+      "items": [
+        {
+          "text": "— \"And if Allah should touch you with adversity, there is no remover of it except Him.\" — Quran 10:107 (Sahih International)"
+        },
+        {
+          "text": "— \"And if any one of the polytheists seeks your protection, then grant him protection so that he may hear the words of Allah; then deliver him to his place of safety.\" — Quran 9:6 (Sahih International)"
+        },
+        {
+          "text": "— \"And whoever invents about Allah untruth after that — then those are the [truly] wrongdoers.\" — Quran 3:94 (Sahih International)"
+        },
+        {
+          "text": "— \"Wherever you may be, death will overtake you, even if you should be within towers of lofty construction.\" — Quran 4:78 (Sahih International)"
+        },
+        {
+          "text": "— \"And when Our verses are recited to them, they say, 'We have heard...'\" — Quran 8:31 (Sahih International)"
+        },
+        {
+          "text": "— \"And if not for the favor of Allah upon you and His mercy, you would have followed Satan, except for a few.\" — Quran 4:83 (Sahih International)"
+        }
+      ]
+    }
+  ]
+}

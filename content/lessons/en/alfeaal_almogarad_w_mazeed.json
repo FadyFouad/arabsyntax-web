@@ -1,0 +1,473 @@
+{
+  "lesson_id": "alfeaal_almogarad_w_mazeed",
+  "language": "en",
+  "title": "What Are the Bare and Augmented Verbs?",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "fahima al-tilmidh-u al-dars",
+          "text": "— The pupil understood the lesson."
+        },
+        {
+          "transliteration": "laʿiba al-walad",
+          "text": "— The boy played."
+        },
+        {
+          "transliteration": "rafaʿa al-jundi al-raya",
+          "text": "— The soldier raised the banner."
+        },
+        {
+          "transliteration": "laʿaba al-walad-u akha-hu",
+          "text": "— The boy played with his brother."
+        },
+        {
+          "transliteration": "tadaraba al-rajulan",
+          "text": "— The two men struck each other."
+        },
+        {
+          "transliteration": "indafaʿa al-maʾ",
+          "text": "— The water gushed forth."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "If we consider the first three verbs (fahima, laʿiba, rafaʿa), we find them all to be past-tense verbs composed of three root letters that cannot be removed."
+    },
+    {
+      "id": "s004",
+      "text": "The letters (l, ʿ, b) are the root letters making up the verb laʿiba. If we removed any one of them, the verb's form and meaning would be lost. So all of these verbs contain only root letters; they are free of any added letter, and for this reason each is called a 'bare verb' (al-fiʿl al-mujarrad)."
+    },
+    {
+      "id": "s005",
+      "text": "But if we consider the last three verbs (laʿaba, tadaraba, indafaʿa), we find them composed of three root letters with one or more added letters: an alif in laʿaba; alif and taʾ in tadaraba; hamza and nun in indafaʿa. For this reason each is called an 'augmented verb' (al-fiʿl al-mazid)."
+    },
+    {
+      "id": "s006",
+      "text": "Definition of the Bare and Augmented Verbs"
+    },
+    {
+      "id": "s007",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-mujarrad (the bare verb) is a verb whose letters are all root letters, with no augmentation."
+    },
+    {
+      "id": "s008",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-mazid (the augmented verb) is any verb to which one, two, or three letters have been added beyond its root letters."
+    },
+    {
+      "id": "s009",
+      "text": "The Bare Verb and Its Patterns"
+    },
+    {
+      "id": "s010",
+      "text": "The bare verb is of two kinds: triliteral (thulathi) and quadriliteral (rubaʿi)."
+    },
+    {
+      "id": "s011",
+      "text": "The triliteral bare verb is formed in the present tense in six patterns, derived from the variation of its middle vowel in the past and present:"
+    },
+    {
+      "id": "s012",
+      "items": [
+        {
+          "transliteration": "1 — faʿala : yafʿilu",
+          "text": "(daraba — yadribu, 'he struck — he strikes')"
+        },
+        {
+          "transliteration": "2 — faʿala : yafʿulu",
+          "text": "(rasama — yarsumu, 'he drew — he draws')"
+        },
+        {
+          "transliteration": "3 — faʿala : yafʿalu",
+          "text": "(nafaʿa — yanfaʿu, 'it benefited — it benefits')"
+        },
+        {
+          "transliteration": "4 — faʿila : yafʿalu",
+          "text": "(fariha — yafrahu, 'he rejoiced — he rejoices')"
+        },
+        {
+          "transliteration": "5 — faʿila : yafʿilu",
+          "text": "(hasiba — yahsibu, 'he reckoned — he reckons')"
+        },
+        {
+          "transliteration": "6 — faʿula : yafʿulu",
+          "text": "(qaruba — yaqrubu, 'he/it became near — he/it is near')"
+        }
+      ]
+    },
+    {
+      "id": "s013",
+      "text": "As for the bare quadriliteral verb, it has only one pattern:"
+    },
+    {
+      "id": "s014",
+      "items": [
+        {
+          "transliteration": "faʿlala : yufaʿlilu",
+          "text": "(dahraja — yudahriju, 'he rolled — he rolls')"
+        }
+      ]
+    },
+    {
+      "id": "s015",
+      "text": "The Augmented Verb and Its Patterns"
+    },
+    {
+      "id": "s016",
+      "text": "The augmented verb is of two kinds: triliteral (with added letters) and quadriliteral (with added letters)."
+    },
+    {
+      "id": "s017",
+      "text": "The triliteral verb augmented by one letter is formed in three patterns:"
+    },
+    {
+      "id": "s018",
+      "items": [
+        {
+          "transliteration": "1 — afʿala",
+          "text": "(by adding hamza at the start, e.g., askata 'he silenced', aqʿada 'he made [someone] sit')"
+        },
+        {
+          "transliteration": "2 — faʿʿala",
+          "text": "(by doubling the middle root letter, e.g., mazzaqa 'he tore', kassara 'he smashed')"
+        },
+        {
+          "transliteration": "3 — faʿala",
+          "text": "(by adding alif after the first root letter, e.g., hawara 'he conversed', daʿafa 'he doubled')"
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "The triliteral verb augmented by two letters is formed in five patterns:"
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "1 — infaʿala",
+          "text": "(by adding hamza and nun at the start, e.g., inqalaba 'it overturned')"
+        },
+        {
+          "transliteration": "2 — iftaʿala",
+          "text": "(by adding hamza and taʾ, e.g., ijtamaʿa 'they gathered')"
+        },
+        {
+          "transliteration": "3 — tafaʿʿala",
+          "text": "(by adding taʾ and doubling the middle root letter, e.g., tajammaʿa 'they assembled')"
+        },
+        {
+          "transliteration": "4 — tafaʿala",
+          "text": "(by adding taʾ and alif, e.g., tarasala 'they corresponded')"
+        },
+        {
+          "transliteration": "5 — ifʿalla",
+          "text": "(by adding hamza and doubling the final root letter, e.g., ihmarra 'it became red')"
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "The triliteral verb augmented by three letters is formed in four patterns:"
+    },
+    {
+      "id": "s022",
+      "items": [
+        {
+          "transliteration": "1 — istafʿala",
+          "text": "(by adding hamza, sin, and taʾ, e.g., istaqbala 'he received')"
+        },
+        {
+          "transliteration": "2 — ifʿawʿala",
+          "text": "(by adding hamza, waw, and repeating the middle root, e.g., iʿshawshaba 'it became thickly grassy')"
+        },
+        {
+          "transliteration": "3 — ifʿawwala",
+          "text": "(by adding hamza and doubling the waw — used rarely, e.g., iʿlawwata, 'he hung onto a camel's neck')"
+        },
+        {
+          "transliteration": "4 — ifʿalla",
+          "text": "(by adding hamza, alif, and doubling the final root letter, e.g., ikhdarra 'it became deep green')"
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "text": "The quadriliteral verb augmented by one letter is formed in one pattern:"
+    },
+    {
+      "id": "s024",
+      "items": [
+        {
+          "transliteration": "tafaʿlala",
+          "text": "(by adding taʾ at the start, e.g., tadahraja 'it rolled along')"
+        }
+      ]
+    },
+    {
+      "id": "s025",
+      "text": "The quadriliteral verb augmented by two letters is formed in two patterns:"
+    },
+    {
+      "id": "s026",
+      "items": [
+        {
+          "transliteration": "1 — ifʿanlala",
+          "text": "(by adding hamza and nun, e.g., ihranjama 'they gathered and crowded together')"
+        },
+        {
+          "transliteration": "2 — ifʿalalla",
+          "text": "(by adding hamza and lam, e.g., itmaʾanna 'he became reassured')"
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "text": "Important Notes"
+    },
+    {
+      "id": "s028",
+      "text": "The following are NOT counted as letters of augmentation:"
+    },
+    {
+      "id": "s029",
+      "text": "1 — The letters (a, n, y, t) that begin the present-tense verb."
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "aktubu",
+          "text": "(I write)"
+        },
+        {
+          "transliteration": "naktubu",
+          "text": "(we write)"
+        },
+        {
+          "transliteration": "yaktubu",
+          "text": "(he writes)"
+        },
+        {
+          "transliteration": "taktubu",
+          "text": "(you/she write[s])"
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "2 — The vowelled subject pronouns:"
+    },
+    {
+      "id": "s032",
+      "items": [
+        {
+          "transliteration": "alif al-ithnayn: uktuba",
+          "text": "(the alif of duality: 'write — you two!')"
+        },
+        {
+          "transliteration": "waw al-jamaʿa: uktub-u",
+          "text": "(the waw of plurality: 'write — you all!')"
+        },
+        {
+          "transliteration": "yaʾ al-mukhataba: uktub-i",
+          "text": "(the yaʾ of feminine address: 'write — you, fem.!')"
+        },
+        {
+          "transliteration": "nun al-niswa: uktub-na",
+          "text": "(the nun of the feminine plural: 'write — you, fem. plural!')"
+        },
+        {
+          "transliteration": "taʾ al-faʿil al-mutaharrika: katab-tu",
+          "text": "(the vowelled subject-tāʾ: 'I wrote')"
+        },
+        {
+          "transliteration": "na al-dalla ʿala al-faʿilin: katab-na",
+          "text": "(the 'na' indicating the subject-actors: 'we wrote')"
+        }
+      ]
+    },
+    {
+      "id": "s033",
+      "text": "3 — The heavy and light emphatic nuns (nun al-tawkid al-thaqila wa-l-khafifa)."
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "yaktubann",
+          "text": "(he/she shall surely write — heavy)"
+        },
+        {
+          "transliteration": "yaktuban",
+          "text": "(he/she shall surely write — light)"
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "4 — The future-tense markers (sin and sawfa)."
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "transliteration": "sa-aktubu",
+          "text": "(I will write)"
+        },
+        {
+          "transliteration": "sawfa aktubu",
+          "text": "(I will write)"
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "5 — The sukun-bearing taʾ of the feminine."
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "katabat",
+          "text": "(she wrote)"
+        },
+        {
+          "transliteration": "namat",
+          "text": "(she slept)"
+        },
+        {
+          "transliteration": "laʿibat",
+          "text": "(she played)"
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "Exercises on the Bare and Augmented Verbs"
+    },
+    {
+      "id": "s040",
+      "text": "1 — Provide the bare form of the following verbs:"
+    },
+    {
+      "id": "s041",
+      "items": [
+        {
+          "transliteration": "ishtamala",
+          "text": "(it included)"
+        },
+        {
+          "transliteration": "tahassana",
+          "text": "(he/it improved)"
+        },
+        {
+          "transliteration": "aqdama",
+          "text": "(he ventured forward)"
+        },
+        {
+          "transliteration": "tazahzaha",
+          "text": "(it shifted)"
+        },
+        {
+          "transliteration": "istaslama",
+          "text": "(he surrendered)"
+        },
+        {
+          "transliteration": "imtalaʾa",
+          "text": "(it filled up)"
+        },
+        {
+          "transliteration": "saʿada",
+          "text": "(he helped)"
+        },
+        {
+          "transliteration": "saddaqa",
+          "text": "(he believed/confirmed)"
+        },
+        {
+          "transliteration": "sallama",
+          "text": "(he greeted/handed over)"
+        }
+      ]
+    },
+    {
+      "id": "s042",
+      "text": "2 — Add to each of the following verbs one or more letters of augmentation."
+    },
+    {
+      "id": "s043",
+      "items": [
+        {
+          "transliteration": "faqada",
+          "text": "(he lost)"
+        },
+        {
+          "transliteration": "lamasa",
+          "text": "(he touched)"
+        },
+        {
+          "transliteration": "sanaʿa",
+          "text": "(he made)"
+        },
+        {
+          "transliteration": "hadatha",
+          "text": "(it happened)"
+        },
+        {
+          "transliteration": "khafa",
+          "text": "(he feared)"
+        },
+        {
+          "transliteration": "nadima",
+          "text": "(he regretted)"
+        },
+        {
+          "transliteration": "zaʿzaʿa",
+          "text": "(he shook violently)"
+        }
+      ]
+    },
+    {
+      "id": "s044",
+      "text": "3 — Strip the augmented verbs in the following sentences of their letters of augmentation, and adjust whatever else needs to be adjusted in the sentence so that the meaning remains coherent."
+    },
+    {
+      "id": "s045",
+      "items": [
+        {
+          "transliteration": "inqalaba al-zawraq-u bi-quwwat-i al-rih",
+          "text": "— The boat overturned by the force of the wind."
+        },
+        {
+          "transliteration": "akhafa al-jaysh-u al-aʿdaʾ",
+          "text": "— The army frightened the enemies."
+        },
+        {
+          "transliteration": "imtalaʾat al-hujrat-u maʾan",
+          "text": "— The room became filled with water."
+        },
+        {
+          "transliteration": "al-thalj-u barrad-a al-maʾ",
+          "text": "— The ice cooled the water."
+        },
+        {
+          "transliteration": "aqama akh-u-ka haflan raʾiʿan",
+          "text": "— Your brother held a wonderful celebration."
+        },
+        {
+          "transliteration": "istaraha al-musafir-u min ʿanaʾ-i al-safar",
+          "text": "— The traveler rested from the toil of the journey."
+        }
+      ]
+    }
+  ]
+}

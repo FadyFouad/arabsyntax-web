@@ -1,0 +1,629 @@
+{
+  "lesson_id": "mamnoa_mn_alsarf",
+  "language": "en",
+  "title": "Al-Mamnuʿ min al-Sarf (the Diptote — Restricted from Full Declension)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Al-Mamnuʿ min al-Sarf (the Diptote)"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "Al-mamnuʿ min al-sarf (the diptote) is an inflected (muʿrab) noun that does not accept tanwin and is put in the genitive with fatha (instead of kasra) — except when it is annexed (mudaf) or carries the definite article 'al-', in which case it is put in the genitive with kasra."
+    },
+    {
+      "id": "s003",
+      "label_en": "Definition",
+      "text": "Al-sarf (full declension): the tanwin attached to the end of an inflected noun. A 'masruf' noun is one that accepts tanwin; a 'mamnuʿ min al-sarf' noun is one that does not accept it."
+    },
+    {
+      "id": "s004",
+      "items": [
+        {
+          "transliteration": "jaʾa Ahmad-u",
+          "text": "— Ahmad came. (nominative with damma)"
+        },
+        {
+          "transliteration": "raʾay-tu Ahmad-a",
+          "text": "— I saw Ahmad. (accusative with fatha)"
+        },
+        {
+          "transliteration": "sallam-tu ʿala Ahmad-a",
+          "text": "— I greeted Ahmad. (genitive with fatha — substituting for kasra)"
+        }
+      ]
+    },
+    {
+      "id": "s005",
+      "text": "In the third example, 'Ahmad' is in the genitive with fatha (substituting for kasra) because it is mamnuʿ min al-sarf. It does not carry tanwin in any of the examples because it does not accept tanwin."
+    },
+    {
+      "id": "s006",
+      "text": "Categories of Al-Mamnuʿ min al-Sarf"
+    },
+    {
+      "id": "s007",
+      "text": "Al-mamnuʿ min al-sarf is divided into three main categories: those restricted for two reasons (ʿillatayn); those restricted for one reason; and the descriptive adjective restricted from full declension."
+    },
+    {
+      "id": "s008",
+      "text": "First: Restricted for Two Reasons"
+    },
+    {
+      "id": "s009",
+      "label_en": "Rule",
+      "text": "A noun is restricted for two reasons when it is a proper name (ʿalam) bearing — together with proper-name-ness — another reason; or a descriptive adjective bearing — together with descriptive-ness — another reason."
+    },
+    {
+      "id": "s010",
+      "text": "1 — The Proper Name (ʿAlam)"
+    },
+    {
+      "id": "s011",
+      "text": "A proper name is restricted from full declension when it bears any of the following reasons: feminine-ness, foreignness (ʿujma), addition of alif and nun, the pattern of a verb, deviation from original form (ʿadl), or compound-blend composition."
+    },
+    {
+      "id": "s012",
+      "text": "(a) The Feminine Proper Name"
+    },
+    {
+      "id": "s013",
+      "label_en": "Rule",
+      "text": "A proper name is restricted from full declension if it is feminine — whether feminine in form (containing the taʾ of the feminine), in meaning (referring to a female even without taʾ), or both."
+    },
+    {
+      "id": "s014",
+      "items": [
+        {
+          "transliteration": "zara Muʿawiyat-u al-Sham",
+          "text": "— Muʿawiya visited al-Sham. (formally feminine, of a male)"
+        },
+        {
+          "transliteration": "takallamat Zaynab-u",
+          "text": "— Zaynab spoke. (semantically feminine)"
+        },
+        {
+          "transliteration": "jaʾat Fatimat-u",
+          "text": "— Fatima came. (formally and semantically feminine)"
+        }
+      ]
+    },
+    {
+      "id": "s015",
+      "label_en": "Note",
+      "text": "A three-letter feminine proper name with sukun on the middle letter — if it is foreign or transferred from a masculine name — is obligatorily mamnuʿ min al-sarf. If it is Arabic and not transferred, both treatments (full declension and restriction) are permissible, with full declension being preferable. E.g., 'Hind' permits both."
+    },
+    {
+      "id": "s016",
+      "text": "(b) The Foreign Proper Name"
+    },
+    {
+      "id": "s017",
+      "label_en": "Rule",
+      "text": "A foreign proper name is restricted from full declension if it has more than three letters. If it is three-letter and has sukun on the middle letter, it is masruf (fully declined)."
+    },
+    {
+      "id": "s018",
+      "items": [
+        {
+          "transliteration": "hajara Ibrahim-u ila al-Sham",
+          "text": "— Ibrahim emigrated to al-Sham. (foreign, more than three letters)"
+        },
+        {
+          "transliteration": "kallama Allah-u Musa",
+          "text": "— Allah spoke to Moses. (foreign, more letters)"
+        },
+        {
+          "transliteration": "jaʾa Nuh-un",
+          "text": "— Noah came. (foreign three-letter, sukun on middle — masruf)"
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "(c) The Proper Name Ending in Added Alif and Nun"
+    },
+    {
+      "id": "s020",
+      "label_en": "Rule",
+      "text": "A proper name is restricted from full declension if it ends in an added alif and nun, e.g., ʿUthman, Sulayman, Ramadan."
+    },
+    {
+      "id": "s021",
+      "items": [
+        {
+          "transliteration": "khalafa ʿUthman-u ʿUmar",
+          "text": "— ʿUthman succeeded ʿUmar."
+        },
+        {
+          "transliteration": "arsala Allah-u Sulayman-a nabiyyan",
+          "text": "— Allah sent Sulayman as a prophet."
+        },
+        {
+          "transliteration": "sumtu fi Ramadan-a",
+          "text": "— I fasted in Ramadan."
+        }
+      ]
+    },
+    {
+      "id": "s022",
+      "text": "(d) The Proper Name on the Pattern of a Verb"
+    },
+    {
+      "id": "s023",
+      "label_en": "Rule",
+      "text": "A proper name is restricted from full declension if it is on a pattern specific to verbs or one predominantly used for verbs, e.g., Ahmad, Yazid, Shammar, Taghlib."
+    },
+    {
+      "id": "s024",
+      "items": [
+        {
+          "transliteration": "jaʾa Ahmad-u",
+          "text": "— Ahmad came."
+        },
+        {
+          "transliteration": "hakama Yazid-u bn-u Muʿawiya",
+          "text": "— Yazid ibn Muʿawiya ruled."
+        },
+        {
+          "transliteration": "sakanat Taghlib-u fi al-jazira",
+          "text": "— [The tribe of] Taghlib settled in al-Jazira."
+        }
+      ]
+    },
+    {
+      "id": "s025",
+      "text": "(e) The Deviated Proper Name (Al-ʿAlam al-Maʿdul)"
+    },
+    {
+      "id": "s026",
+      "label_en": "Definition",
+      "text": "Al-ʿalam al-maʿdul: one that has been deviated from its original form to another — e.g., 'ʿAmir' becomes 'ʿUmar', 'Zafir' becomes 'Zufar'."
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "kana ʿUmar-u bn-u al-Khattab ʿadilan",
+          "text": "— ʿUmar ibn al-Khattab was just."
+        },
+        {
+          "transliteration": "jaʾa Zufar-u",
+          "text": "— Zufar came."
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "(f) The Proper Name with Compound-Blend Composition"
+    },
+    {
+      "id": "s029",
+      "label_en": "Rule",
+      "text": "A proper name is restricted from full declension if it is composed by mazj (compound-blend), not ending in 'wayh', e.g., Baʿlabakk, Hadramawt, New York."
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "zur-tu Baʿlabakk-a",
+          "text": "— I visited Baalbek."
+        },
+        {
+          "transliteration": "sakana fi Hadramawt-a",
+          "text": "— He lived in Hadramawt."
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "2 — The Descriptive Adjective"
+    },
+    {
+      "id": "s032",
+      "text": "An adjective is restricted for two reasons when, together with descriptive-ness, it bears another reason: addition of alif and nun, the pattern of a verb, or deviation from original form."
+    },
+    {
+      "id": "s033",
+      "text": "(a) Adjective Ending in Added Alif and Nun"
+    },
+    {
+      "id": "s034",
+      "label_en": "Rule",
+      "text": "An adjective is restricted from full declension if it is on the pattern faʿlan whose feminine is faʿla, e.g., ʿatshan ('thirsty'; fem. ʿatsha), juʿan (fem. juʿa), ghadban (fem. ghadba)."
+    },
+    {
+      "id": "s035",
+      "items": [
+        {
+          "transliteration": "jaʾa rajul-un ʿatshan-u",
+          "text": "— A thirsty man came."
+        },
+        {
+          "transliteration": "raʾay-tu sabiyyan juʿan-a",
+          "text": "— I saw a hungry boy."
+        },
+        {
+          "transliteration": "kana al-ab-u ghadban-a",
+          "text": "— The father was angry."
+        }
+      ]
+    },
+    {
+      "id": "s036",
+      "text": "(b) Adjective on the Pattern afʿal"
+    },
+    {
+      "id": "s037",
+      "label_en": "Rule",
+      "text": "An adjective is restricted from full declension if it is on the pattern afʿal whose feminine is faʿlaʾ, e.g., ahmar ('red'; fem. hamraʾ), abyad (fem. baydaʾ), aʿraj ('lame'; fem. ʿarjaʾ), akbar (fem. kubra)."
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "labis-tu thawban ahmar-a",
+          "text": "— I wore a red garment."
+        },
+        {
+          "transliteration": "raʾay-tu farasan abyad-a",
+          "text": "— I saw a white horse."
+        },
+        {
+          "transliteration": "saʾal-tu ʿan makanin abʿad-a",
+          "text": "— I asked about a more distant place."
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "(c) The Deviated Adjective"
+    },
+    {
+      "id": "s040",
+      "label_en": "Rule",
+      "text": "An adjective is restricted from full declension if it is deviated from its original form, in two patterns: 'mafʿal' deviated from 'faʿil' (e.g., mathna, thulatha, rubaʿa — 'two by two', 'three by three', 'four by four'); and 'fuʿal' deviated from 'faʿil' (e.g., ukhar — 'others')."
+    },
+    {
+      "id": "s041",
+      "items": [
+        {
+          "transliteration": "jaʾa al-tullab-u mathna wa-thulath-a wa-rubaʿ-a",
+          "text": "— The students came two by two, three by three, and four by four."
+        },
+        {
+          "transliteration": "raʾay-tu nisaʾan ukhar-a",
+          "text": "— I saw other women."
+        }
+      ]
+    },
+    {
+      "id": "s042",
+      "text": "Second: Restricted for One Reason"
+    },
+    {
+      "id": "s043",
+      "label_en": "Rule",
+      "text": "A noun is restricted from full declension for one reason if it ends in alif al-taʾnith al-maqsura (the shortened feminine alif), or alif al-taʾnith al-mamduda (the extended feminine alif), or is on the 'extreme plural' pattern (sighat muntaha al-jumuʿ)."
+    },
+    {
+      "id": "s044",
+      "text": "1 — Ending in Alif al-Taʾnith al-Maqsura"
+    },
+    {
+      "id": "s045",
+      "label_en": "Definition",
+      "text": "Alif al-taʾnith al-maqsura: an added alif at the end of a noun indicating femininity, e.g., dhikra ('memory'), kubra ('greater [fem.]'), Salma, hubla ('pregnant'), ʿatsha ('thirsty')."
+    },
+    {
+      "id": "s046",
+      "items": [
+        {
+          "transliteration": "hadhihi dhikra ʿazima",
+          "text": "— This is a great memory."
+        },
+        {
+          "transliteration": "sakanat Salma fi al-qarya",
+          "text": "— Salma settled in the village."
+        },
+        {
+          "transliteration": "raʾay-tu imraʾatan hubla",
+          "text": "— I saw a pregnant woman."
+        }
+      ]
+    },
+    {
+      "id": "s047",
+      "label_en": "Note",
+      "text": "A noun ending in alif al-taʾnith al-maqsura shows no overt iʿrab change — it is mabni in appearance in all states, with implied vowel-marks on the alif. Its restriction from full declension shows only in the absence of tanwin."
+    },
+    {
+      "id": "s048",
+      "text": "2 — Ending in Alif al-Taʾnith al-Mamduda"
+    },
+    {
+      "id": "s049",
+      "label_en": "Definition",
+      "text": "Alif al-taʾnith al-mamduda: an added alif followed by hamza at the end of a noun indicating femininity, e.g., sahraʾ ('desert'), hasnaʾ ('beautiful [fem.]'), hamraʾ ('red [fem.]'), asdiqaʾ ('friends')."
+    },
+    {
+      "id": "s050",
+      "items": [
+        {
+          "transliteration": "sir-tu fi sahraʾ-a wasiʿa",
+          "text": "— I walked in a vast desert."
+        },
+        {
+          "transliteration": "raʾay-tu zahratan hamraʾ-a",
+          "text": "— I saw a red flower."
+        },
+        {
+          "transliteration": "zara-ni asdiqaʾ-u kathiruna",
+          "text": "— Many friends visited me."
+        }
+      ]
+    },
+    {
+      "id": "s051",
+      "text": "3 — Nouns on the Extreme Plural Pattern"
+    },
+    {
+      "id": "s052",
+      "label_en": "Definition",
+      "text": "Sighat muntaha al-jumuʿ (the 'extreme plural' pattern): every broken plural after whose alif there are two or three letters with a sukun in the middle. The most well-known patterns: mafaʿil, mafaʿil, faʿalil, faʿalil."
+    },
+    {
+      "id": "s053",
+      "items": [
+        {
+          "transliteration": "masjid, masajid",
+          "text": "(mosque / mosques)"
+        },
+        {
+          "transliteration": "madrasa, madaris",
+          "text": "(school / schools)"
+        },
+        {
+          "transliteration": "miftah, mafatih",
+          "text": "(key / keys)"
+        },
+        {
+          "transliteration": "ʿusfur, ʿasafir",
+          "text": "(sparrow / sparrows)"
+        },
+        {
+          "transliteration": "funduq, fanadiq",
+          "text": "(hotel / hotels)"
+        }
+      ]
+    },
+    {
+      "id": "s054",
+      "items": [
+        {
+          "transliteration": "buniyat fi al-madinat-i masajid-u kathira",
+          "text": "— Many mosques have been built in the city."
+        },
+        {
+          "transliteration": "sallay-tu fi masajid-a ʿazima",
+          "text": "— I prayed in great mosques."
+        },
+        {
+          "transliteration": "tatir-u fi al-samaʾ-i ʿasafir-u saghira",
+          "text": "— Small sparrows fly in the sky."
+        }
+      ]
+    },
+    {
+      "id": "s055",
+      "text": "Iʿrab of Al-Mamnuʿ min al-Sarf"
+    },
+    {
+      "id": "s056",
+      "label_en": "Rule",
+      "text": "Al-mamnuʿ min al-sarf takes nominative with damma; accusative with fatha; and genitive with fatha (substituting for kasra). It does not accept tanwin in any of its states."
+    },
+    {
+      "id": "s057",
+      "headers": [
+        "State",
+        "Iʿrab Marker",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Nominative",
+          "Manifest damma",
+          {
+            "transliteration": "jaʾa Ahmad-u"
+          }
+        ],
+        [
+          "Accusative",
+          "Manifest fatha",
+          {
+            "transliteration": "raʾay-tu Ahmad-a"
+          }
+        ],
+        [
+          "Genitive",
+          "Fatha (substituting for kasra)",
+          {
+            "transliteration": "sallam-tu ʿala Ahmad-a"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s058",
+      "text": "When Is Al-Mamnuʿ min al-Sarf Put in the Genitive with Kasra?"
+    },
+    {
+      "id": "s059",
+      "label_en": "Rule",
+      "text": "Al-mamnuʿ min al-sarf is put in the genitive with kasra (returning to its original) in only two cases: if it is annexed (mudaf), or if it carries the definite article 'al-'."
+    },
+    {
+      "id": "s060",
+      "items": [
+        {
+          "transliteration": "sallay-tu fi al-masajid-i",
+          "text": "— I prayed in the mosques. ('al-' attached)"
+        },
+        {
+          "transliteration": "sallay-tu fi masajid-i al-madina",
+          "text": "— I prayed in the mosques of the city. (mudaf)"
+        },
+        {
+          "transliteration": "sallay-tu fi masajid-a kathira",
+          "text": "— I prayed in many mosques. (no 'al-' and not mudaf — genitive with fatha)"
+        }
+      ]
+    },
+    {
+      "id": "s061",
+      "text": "Why does al-mamnuʿ min al-sarf return to genitive with kasra when annexed or carrying 'al-'?"
+    },
+    {
+      "id": "s062",
+      "text": "The reason is that restriction from full declension is a secondary status of the noun, while genitive with kasra is the original iʿrab. When the noun is annexed or carries 'al-', the cause restricting it is lightened, so it returns to its original and is put in the genitive with kasra. As for tanwin, it does not return even with annexation or 'al-', because both of those originally prevent tanwin in all nouns."
+    },
+    {
+      "id": "s063",
+      "text": "Causes of Restriction from Full Declension — Summary"
+    },
+    {
+      "id": "s064",
+      "headers": [
+        "Cause",
+        "Restricted for One or Two Reasons",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Proper-name + femininity",
+          "Two",
+          {
+            "transliteration": "Fatima, Zaynab, Muʿawiya"
+          }
+        ],
+        [
+          "Proper-name + foreignness",
+          "Two",
+          {
+            "transliteration": "Ibrahim, Ismaʿil, Yaʿqub"
+          }
+        ],
+        [
+          "Proper-name + added alif-nun",
+          "Two",
+          {
+            "transliteration": "ʿUthman, Sulayman, Ramadan"
+          }
+        ],
+        [
+          "Proper-name + verb pattern",
+          "Two",
+          {
+            "transliteration": "Ahmad, Yazid"
+          }
+        ],
+        [
+          "Proper-name + deviation",
+          "Two",
+          {
+            "transliteration": "ʿUmar, Zufar"
+          }
+        ],
+        [
+          "Proper-name + compound-blend",
+          "Two",
+          {
+            "transliteration": "Baʿlabakk, Hadramawt"
+          }
+        ],
+        [
+          "Adjective + added alif-nun",
+          "Two",
+          {
+            "transliteration": "ʿatshan, juʿan"
+          }
+        ],
+        [
+          "Adjective + pattern afʿal",
+          "Two",
+          {
+            "transliteration": "ahmar, abyad"
+          }
+        ],
+        [
+          "Adjective + deviation",
+          "Two",
+          {
+            "transliteration": "mathna, thulath, ukhar"
+          }
+        ],
+        [
+          "Shortened feminine alif",
+          "One",
+          {
+            "transliteration": "dhikra, Salma"
+          }
+        ],
+        [
+          "Extended feminine alif",
+          "One",
+          {
+            "transliteration": "sahraʾ, hamraʾ"
+          }
+        ],
+        [
+          "Extreme plural pattern",
+          "One",
+          {
+            "transliteration": "masajid, mafatih"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s065",
+      "text": "Example of Iʿrab"
+    },
+    {
+      "id": "s066",
+      "items": [
+        {
+          "transliteration": "salla al-muslim-una fi masajid-a kathira",
+          "text": "— The Muslims prayed in many mosques."
+        }
+      ]
+    },
+    {
+      "id": "s067",
+      "text": "salla: a past-tense verb fixed on an estimated fatha. al-muslimuna: the subject in the nominative, marked by waw because it is a sound masculine plural. fi: a preposition. masajid-a: a noun in the genitive after 'fi', marked by fatha (substituting for kasra) because it is mamnuʿ min al-sarf on the extreme plural pattern. kathira: a naʿt in the genitive, marked by the manifest kasra."
+    },
+    {
+      "id": "s068",
+      "label_en": "Warning",
+      "text": "The student should distinguish: a mamnuʿ min al-sarf noun in the genitive is put in the genitive with fatha if it is neither annexed nor carrying 'al-'; with kasra if it is annexed or carrying 'al-'."
+    },
+    {
+      "id": "s069",
+      "text": "Allah Most High said: \"And We have certainly beautified the nearest heaven with stars (masabih)...\" — Quran 67:5 (Sahih International)"
+    },
+    {
+      "id": "s070",
+      "text": "In this noble verse, 'masabiha' is in the genitive after the 'baʾ', marked by fatha (substituting for kasra) because it is mamnuʿ min al-sarf on the extreme plural pattern. It does not carry 'al-' and is not annexed, so it remains restricted from full declension."
+    },
+    {
+      "id": "s071",
+      "text": "And Allah Most High said: \"Indeed, the righteous will be in pleasure. On thrones (al-araʾiki), observing.\" — Quran 83:22-23 (Sahih International)"
+    },
+    {
+      "id": "s072",
+      "text": "In His saying 'al-araʾik-i', the noun is put in the genitive with kasra — not with fatha — even though it is on the extreme plural pattern. This is because 'al-' is attached to it, returning it to the original genitive with kasra."
+    }
+  ]
+}

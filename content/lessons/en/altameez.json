@@ -1,0 +1,535 @@
+{
+  "lesson_id": "altameez",
+  "language": "en",
+  "title": "What Is Al-Tamyiz (Specification)?",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "ishtara ʿAbd Allah kilo-graman lahman",
+          "text": "— ʿAbdullah bought a kilogram of meat."
+        },
+        {
+          "transliteration": "akhraj-tu saʿan qamhan li-zakat al-fitr",
+          "text": "— I issued a saʿ of wheat for zakat al-fitr."
+        },
+        {
+          "transliteration": "ishtaray-tu min al-tajir-i dhiraʿan hariran",
+          "text": "— I bought from the merchant a cubit of silk."
+        },
+        {
+          "transliteration": "fi al-madrasa thalathuna qaʿa",
+          "text": "— There are thirty halls in the school."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "If you say 'ishtara ʿAbd Allah kilo-graman' ('ʿAbdullah bought a kilogram'), you have constructed a complete, sound sentence containing all its essential elements (verb, subject, direct object). But the listener or reader still does not understand what you mean by 'kilogram'! Did he buy meat, dates, apples...?"
+    },
+    {
+      "id": "s004",
+      "text": "This is because 'kilogram' is a vague noun that could refer to any of the things mentioned and others. But if you say 'lahman' ('meat'), the vagueness is dispelled and the listener understands your meaning fully — because you have specified what the kilogram is and clarified its intent."
+    },
+    {
+      "id": "s005",
+      "text": "For this reason, the word 'lahman' is called al-tamyiz (specification), and the vague noun 'kilogram' is called al-mumayyaz (the noun being specified)."
+    },
+    {
+      "id": "s006",
+      "text": "Definition of Al-Tamyiz Linguistically and Technically"
+    },
+    {
+      "id": "s007",
+      "label_en": "Definition",
+      "text": "Al-tamyiz, linguistically, means separating one thing from another. Technically, it is an indefinite noun in the accusative case, mentioned to clarify the intent of a preceding vague noun that could refer to many different things."
+    },
+    {
+      "id": "s008",
+      "text": "Types of Al-Tamyiz in Arabic"
+    },
+    {
+      "id": "s009",
+      "text": "Let us return to the sentences in the previous examples and observe the relationship between al-tamyiz and al-mumayyaz."
+    },
+    {
+      "id": "s010",
+      "text": "In the first sentence, we find that 'kilogram' is a noun of weight. In the second, 'saʿ' is a noun of measure. In the third, 'dhiraʿ' is a noun of size. In the fourth, 'thirty' is a noun of number."
+    },
+    {
+      "id": "s011",
+      "text": "Al-tamyiz came after these to clarify what was meant by these vague words — which were explicitly mentioned. This is called al-tamyiz al-malfuz (verbalized), or tamyiz al-dhat (of-an-entity), or al-tamyiz al-mufrad (single-word)."
+    },
+    {
+      "id": "s012",
+      "text": "Al-Tamyiz al-Malfuz (Verbalized Specification)"
+    },
+    {
+      "id": "s013",
+      "label_en": "Definition",
+      "text": "It is the one that clarifies a vague word (al-mumayyaz). It occurs in four positions:"
+    },
+    {
+      "id": "s014",
+      "text": "1 — After nouns of weight, e.g.:"
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "biʿtu-ka ratlan ʿinaban",
+          "text": "— I sold you a ratl (a unit of weight) of grapes."
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "2 — After nouns of measure (volume), e.g.:"
+    },
+    {
+      "id": "s017",
+      "items": [
+        {
+          "transliteration": "ishtaray-tu litran haliban",
+          "text": "— I bought a liter of milk."
+        }
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "3 — After nouns of area, e.g.:"
+    },
+    {
+      "id": "s019",
+      "items": [
+        {
+          "transliteration": "ishtaray-tu faddanan ardan",
+          "text": "— I bought an acre of land."
+        }
+      ]
+    },
+    {
+      "id": "s020",
+      "text": "4 — After nouns of number, e.g.:"
+    },
+    {
+      "id": "s021",
+      "items": [
+        {
+          "transliteration": "rakiba al-safinat-a khamsatun wa-tisʿuna rajulan",
+          "text": "— Ninety-five men boarded the ship."
+        }
+      ]
+    },
+    {
+      "id": "s022",
+      "text": "Al-Tamyiz al-Malhuz (Implicit Specification)"
+    },
+    {
+      "id": "s023",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s024",
+      "items": [
+        {
+          "transliteration": "taba al-makan-u hawaʾan",
+          "text": "— The place became pleasant in air."
+        },
+        {
+          "transliteration": "fada al-qalb-u sururan",
+          "text": "— The heart overflowed with joy."
+        },
+        {
+          "transliteration": "al-shaykh-u akthar-u min al-shabb-i tajribatan",
+          "text": "— The elder is more abundant in experience than the youth."
+        }
+      ]
+    },
+    {
+      "id": "s025",
+      "text": "If we look for al-mumayyaz in these sentences, we do not find it explicitly mentioned. But we sense and understand it when we hear them. If we hear 'taba al-makan' ('the place became pleasant'), we sense that something pertaining to the place became pleasant. But we do not know what — its water, its soil...?"
+    },
+    {
+      "id": "s026",
+      "text": "When al-tamyiz is mentioned, the intended meaning becomes clear. So al-mumayyaz here is implicit — sensed and understood from the sentence even if not verbally mentioned. Accordingly:"
+    },
+    {
+      "id": "s027",
+      "label_en": "Definition",
+      "text": "Al-tamyiz al-malhuz is one that clarifies a general meaning, or what is understood from the sentence without being explicitly mentioned. It is also called tamyiz al-nisba (specification of relation) or tamyiz al-jumla (specification of the sentence)."
+    },
+    {
+      "id": "s028",
+      "text": "Examples of Al-Tamyiz"
+    },
+    {
+      "id": "s029",
+      "items": [
+        {
+          "transliteration": "ishtaray-tu ratlan tuffahan",
+          "text": "— I bought a ratl of apples. (specification of weight)"
+        },
+        {
+          "transliteration": "hektaru ardan ʿindi",
+          "text": "— I have a hectare of land. (specification of area)"
+        },
+        {
+          "transliteration": "biʿtu-ka saʿan qamhan",
+          "text": "— I sold you a saʿ of wheat. (specification of measure)"
+        },
+        {
+          "transliteration": "atlaqat al-madfaʿiyyat-u ihda wa-ʿishrina talqatan",
+          "text": "— The artillery fired twenty-one rounds. (specification of number)"
+        },
+        {
+          "transliteration": "al-ʿinab-u min aladhdh-i anwaʿ-i al-fakihat-i taʿman",
+          "text": "— Grapes are among the most delicious fruits in taste. (implicit specification)"
+        },
+        {
+          "transliteration": "izdada Muhammad-un ʿilman",
+          "text": "— Muhammad increased in knowledge. (implicit specification)"
+        }
+      ]
+    },
+    {
+      "id": "s030",
+      "text": "Rulings of Al-Tamyiz"
+    },
+    {
+      "id": "s031",
+      "text": "1 — Iʿrab of Specifications of Area, Weight, Measure, and Implicit"
+    },
+    {
+      "id": "s032",
+      "label_en": "Rule",
+      "text": "— Specifications of weight, measure, and area may be in the accusative, or in the genitive (by annexation or by 'min').\n— Implicit specification is always in the accusative."
+    },
+    {
+      "id": "s033",
+      "text": "Examples:"
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "istahlakat usrat-i qintaran fahman / qintar-a fahmin / qintaran min fahmin",
+          "text": "— My family consumed a quintal of coal."
+        },
+        {
+          "transliteration": "tamliku ummi mithqalan dhahaban / mithqal-a dhahabin / mithqalan min dhahabin",
+          "text": "— My mother owns a mithqal of gold."
+        },
+        {
+          "transliteration": "biʿ-tu-hu dhiraʿan hariran / dhiraʿ-a haririn / dhiraʿan min hariri",
+          "text": "— I sold him a cubit of silk."
+        },
+        {
+          "transliteration": "sharib-tu kuban maʾan / kub-a maʾin / kuban min maʾin",
+          "text": "— I drank a cup of water."
+        },
+        {
+          "transliteration": "ishtaray-tu kisan daqiqan / kis-a daqiqin / kisan min daqiqi",
+          "text": "— I bought a sack of flour."
+        },
+        {
+          "transliteration": "al-Qahirat-u akthar-u min al-Iskandariyyat-i sukkanan",
+          "text": "— Cairo is more populous than Alexandria."
+        },
+        {
+          "transliteration": "al-badiyat-u ahsan-u min al-madinat-i hawaʾan",
+          "text": "— The desert has better air than the city."
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "2 — Iʿrab of Specifications of Number"
+    },
+    {
+      "id": "s036",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s037",
+      "text": "* Group 1"
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "qaraʾ-tu thalathat-a kutubin",
+          "text": "— I read three books."
+        },
+        {
+          "transliteration": "akal-tu arbaʿ-a tuffahatin",
+          "text": "— I ate four apples."
+        },
+        {
+          "transliteration": "fi al-masjid-i ʿasharat-u aʿmidatin",
+          "text": "— In the mosque are ten pillars."
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "* Group 2"
+    },
+    {
+      "id": "s040",
+      "items": [
+        {
+          "transliteration": "raʾay-tu ahada ʿashara farisan",
+          "text": "— I saw eleven horsemen."
+        },
+        {
+          "transliteration": "fi al-qism-i arbaʿuna tilmidhan",
+          "text": "— In the class are forty pupils."
+        },
+        {
+          "transliteration": "fi al-bustan-i tisʿun wa-tisʿuna nakhlatan",
+          "text": "— In the orchard are ninety-nine palm trees."
+        }
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "* Group 3"
+    },
+    {
+      "id": "s042",
+      "items": [
+        {
+          "transliteration": "al-qarn-u miʾat-u sanatin",
+          "text": "— A century is one hundred years."
+        },
+        {
+          "transliteration": "qataʿa al-qitar-u khamsa miʾat-i milin",
+          "text": "— The train traveled five hundred miles."
+        },
+        {
+          "transliteration": "tablugh-u misahat-u al-madrasat-i alfay mitrin",
+          "text": "— The school's area reaches two thousand meters."
+        }
+      ]
+    },
+    {
+      "id": "s043",
+      "text": "If you reflect on all the number nouns in the above examples, you find them in Group 1 ranging from three to ten — though we have not listed all numbers from three to ten, just for brevity."
+    },
+    {
+      "id": "s044",
+      "text": "In Group 2 we find number nouns ranging from eleven to ninety-nine. In Group 3 we find them revolving around two words: hundred (miʾa) and thousand (alf)."
+    },
+    {
+      "id": "s045",
+      "text": "Now reflect on the specification (tamyiz) for these numbers: in Group 1, it is plural and genitive; in Group 2, it is singular and accusative; in Group 3, it is singular and genitive."
+    },
+    {
+      "id": "s046",
+      "label_en": "Rule",
+      "text": "The specification of number must be in the genitive — and plural — with three through ten and what lies between. It must be in the accusative — and singular — with eleven through ninety-nine and what lies between. And it must be in the genitive — and singular — with one hundred, one thousand, and beyond."
+    },
+    {
+      "id": "s047",
+      "text": "Iʿrab of Al-Tamyiz in Arabic"
+    },
+    {
+      "id": "s048",
+      "items": [
+        {
+          "transliteration": "ishtaray-tu faddanan ardan",
+          "text": "— I bought an acre of land."
+        }
+      ]
+    },
+    {
+      "id": "s049",
+      "text": "ishtaraytu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nfaddanan: the direct object in the accusative, marked by the manifest fatha at its end.\nardan: tamyiz in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s050",
+      "items": [
+        {
+          "transliteration": "izdada Muhammad-un ʿilman",
+          "text": "— Muhammad increased in knowledge."
+        }
+      ]
+    },
+    {
+      "id": "s051",
+      "text": "izdada: a past-tense verb fixed on the manifest fatha at its end.\nMuhammad: the subject in the nominative, marked by the manifest damma at its end.\nʿilman: tamyiz in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s052",
+      "items": [
+        {
+          "transliteration": "qaraʾa Khalid ʿishrina kitaban",
+          "text": "— Khalid read twenty books."
+        }
+      ]
+    },
+    {
+      "id": "s053",
+      "text": "qaraʾa: a past-tense verb fixed on the manifest fatha at its end.\nKhalid: the subject in the nominative, marked by the manifest damma at its end.\nʿishrina: a direct object in the accusative, marked by yaʾ because it is treated like a sound masculine plural.\nkitaban: tamyiz in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s054",
+      "items": [
+        {
+          "transliteration": "rakiba al-safinat-a khamsat-un wa-tisʿuna rajulan",
+          "text": "— Ninety-five men boarded the ship."
+        }
+      ]
+    },
+    {
+      "id": "s055",
+      "text": "rakiba: a past-tense verb fixed on the manifest fatha at its end.\nal-safinata: a fronted direct object in the accusative, marked by the manifest fatha at its end.\nkhamsa-tun: a postponed subject in the nominative, marked by the manifest damma at its end.\nwa-tisʿuna: the waw — a conjunction; tisʿuna — a noun conjoined onto 'khamsa' in the nominative, marked by waw because it is treated like a sound masculine plural; the nun substitutes for the tanwin of the singular noun.\nrajulan: tamyiz in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s056",
+      "text": "Examples of Al-Tamyiz from the Noble Quran"
+    },
+    {
+      "id": "s057",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s058",
+      "items": [
+        {
+          "text": "— \"Indeed, I have seen [in a dream] eleven stars (kawkaban)...\" — Quran 12:4 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s059",
+      "text": "kawkaban: tamyiz in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s060",
+      "items": [
+        {
+          "text": "— \"So whoever does an atom's weight of good (khayran) will see it.\" — Quran 99:7 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s061",
+      "text": "khayran: tamyiz in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s062",
+      "label_en": "Note",
+      "text": "The word 'mithqal' is not a noun by which something is weighed, but it resembles a unit of weight; therefore the rules of al-tamyiz apply to it."
+    },
+    {
+      "id": "s063",
+      "items": [
+        {
+          "text": "— \"...and my head has filled with white (shayban).\" — Quran 19:4 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s064",
+      "text": "shayban: tamyiz in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s065",
+      "items": [
+        {
+          "text": "— \"And caused the earth to burst with springs (ʿuyunan).\" — Quran 54:12 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s066",
+      "text": "ʿuyunan: tamyiz in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s067",
+      "text": "Exercises on Al-Tamyiz"
+    },
+    {
+      "id": "s068",
+      "text": "1 — Identify al-tamyiz in the following sentences and indicate its type:"
+    },
+    {
+      "id": "s069",
+      "items": [
+        {
+          "transliteration": "tatakawwan-u al-madrasat-u min thalath-i tabaqatin, wa-fi kull-i tabaqatin tisʿat-u aqsam dirasiyya",
+          "text": "— The school consists of three floors, and on each floor are nine classrooms."
+        },
+        {
+          "transliteration": "atʿam-tu al-dajaj-a hafnatan habban",
+          "text": "— I fed the chickens a handful of grain."
+        },
+        {
+          "transliteration": "al-burtuqal-u min aladhdh-i al-fakihat-i taʿman",
+          "text": "— Oranges are among the most delicious fruits in taste."
+        },
+        {
+          "transliteration": "al-dhahab-u aqall-u salabatan min al-hadid",
+          "text": "— Gold is less hard than iron."
+        }
+      ]
+    },
+    {
+      "id": "s070",
+      "text": "2 — Identify in the following sentences the specifications of weight, area, and measure:"
+    },
+    {
+      "id": "s071",
+      "items": [
+        {
+          "transliteration": "yaqtatil-u al-fallahuna ʿala dhiraʿ-i ardin yaghsib-u-ha ahad-u-hum min al-akhar",
+          "text": "— The farmers fight over a cubit of land that one of them seizes from another."
+        },
+        {
+          "transliteration": "ishtaray-tu mitrayni kittanan wa-ratlayni ʿasalan",
+          "text": "— I bought two meters of linen and two ratls of honey."
+        },
+        {
+          "transliteration": "biʿ-tu-ka saʿan qamhan",
+          "text": "— I sold you a saʿ of wheat."
+        },
+        {
+          "transliteration": "ma fi al-ard-i qadr-u rahatin zillan",
+          "text": "— There is not on earth so much as a palm's measure of shade."
+        }
+      ]
+    },
+    {
+      "id": "s072",
+      "text": "3 — Complete the following sentences appropriately:"
+    },
+    {
+      "id": "s073",
+      "text": "— In a year there are twelve …… in a month four …… in a week seven …… in a day twenty-four …… in an hour sixty ……"
+    },
+    {
+      "id": "s074",
+      "text": "4 — Provide the iʿrab for the following:"
+    },
+    {
+      "id": "s075",
+      "items": [
+        {
+          "transliteration": "badat al-dajajat-u thalath-a baydatin",
+          "text": "— The hen laid three eggs."
+        },
+        {
+          "transliteration": "fi al-madinat-i ʿishruna thanawiyyatan",
+          "text": "— In the city are twenty secondary schools."
+        }
+      ]
+    }
+  ]
+}

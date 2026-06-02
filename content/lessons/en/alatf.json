@@ -1,0 +1,433 @@
+{
+  "lesson_id": "alatf",
+  "language": "en",
+  "title": "Al-ʿAtf (Conjunction)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "nadija al-khawkh-u wa-al-ʿinab",
+          "text": "— The peaches and the grapes ripened."
+        },
+        {
+          "transliteration": "dakhala al-ustadh-u wa-al-mufattish-u al-fasl",
+          "text": "— The teacher and the inspector entered the classroom."
+        },
+        {
+          "transliteration": "al-tilmidh-u al-mujtahid-u yahtammu bi-durusi-hi hatta al-sahl-i min-ha",
+          "text": "— The diligent pupil takes care of his lessons — even the easy ones."
+        },
+        {
+          "transliteration": "ahdar-ta al-ʿard-a al-masrahiyy am al-sinimaʾi?",
+          "text": "— Did you bring the theatrical performance, or the cinematic one?"
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "If you reflect on the underlined words above, what do you notice about them?"
+    },
+    {
+      "id": "s004",
+      "text": "You notice that they are preceded by particles. These particles are: waw, hatta, am — so what is the role of these particles in the speech?"
+    },
+    {
+      "id": "s005",
+      "text": "Their role is to link two things. For this reason they are called huruf al-ʿatf (conjunction particles) or huruf al-rabt (linking particles). The expression before them is called al-maʿtuf ʿalayh (the one conjoined onto), and the one after them is called al-maʿtuf (the conjoined)."
+    },
+    {
+      "id": "s006",
+      "text": "Notice that both al-maʿtuf and al-maʿtuf ʿalayh — these particles have made them share in one thing: iʿrab (case-marking). For this reason al-ʿatf is considered one of the tawabiʿ (followers/dependents)."
+    },
+    {
+      "id": "s007",
+      "label_en": "Rule",
+      "text": "Al-ʿatf is to join two things in speech with one of the following particles:"
+    },
+    {
+      "id": "s008",
+      "text": "al-waw — al-faʾ — thumma — aw — am — lakin — la — bal — hatta."
+    },
+    {
+      "id": "s009",
+      "text": "Conjunction Particles: Their Meanings and Examples"
+    },
+    {
+      "id": "s010",
+      "text": "Al-waw ('and'): joins al-maʿtuf and al-maʿtuf ʿalayh in a single ruling, e.g.:"
+    },
+    {
+      "id": "s011",
+      "items": [
+        {
+          "transliteration": "zara-ni Muhammad-un wa-Khalid",
+          "text": "— Muhammad and Khalid visited me."
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "text": "Al-faʾ ('and so / then'): conveys ordering, immediate succession, and sequence, e.g.:"
+    },
+    {
+      "id": "s013",
+      "items": [
+        {
+          "transliteration": "jaʾa Khalid fa-ʿAliyy fa-Tariq",
+          "text": "— Khalid came, then ʿAli, then Tariq."
+        }
+      ]
+    },
+    {
+      "id": "s014",
+      "text": "Thumma ('then'): conveys ordering with a longer interval, e.g.:"
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "badaʾ-tu al-qiraʾat-a thumma al-kitaba",
+          "text": "— I started reading, then writing."
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "Aw ('or'): conveys choice or doubt, e.g.:"
+    },
+    {
+      "id": "s017",
+      "items": [
+        {
+          "transliteration": "khudh hadha al-kitab-a aw dhaka",
+          "text": "— Take this book or that one."
+        }
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "Am ('or — interrogative'): specifies one of two things, or equates them, e.g.:"
+    },
+    {
+      "id": "s019",
+      "items": [
+        {
+          "transliteration": "a-tusafir am tajlis?",
+          "text": "— Are you traveling, or staying?"
+        }
+      ]
+    },
+    {
+      "id": "s020",
+      "text": "La ('not'): affirms al-maʿtuf ʿalayh and negates al-maʿtuf, e.g.:"
+    },
+    {
+      "id": "s021",
+      "items": [
+        {
+          "transliteration": "yafuz-u al-shujaʿ-u la al-jaban",
+          "text": "— The brave one wins, not the coward."
+        }
+      ]
+    },
+    {
+      "id": "s022",
+      "text": "Lakin ('but'): conveys correction; preceded by negation or interrogative, e.g.:"
+    },
+    {
+      "id": "s023",
+      "items": [
+        {
+          "transliteration": "ma akal-tu ʿinaban lakin tuffahan",
+          "text": "— I did not eat grapes — but apples."
+        }
+      ]
+    },
+    {
+      "id": "s024",
+      "text": "Bal ('rather, but'): affirms what comes after it and negates what came before, e.g.:"
+    },
+    {
+      "id": "s025",
+      "items": [
+        {
+          "transliteration": "lam akul lahman bal baydan",
+          "text": "— I did not eat meat — but rather eggs."
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "text": "Hatta ('even, until'): conveys an end-point (i.e., reaching the limit), e.g.:"
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "sahir-tu hatta al-fajr",
+          "text": "— I stayed up until dawn."
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "Types of Al-ʿAtf"
+    },
+    {
+      "id": "s029",
+      "text": "Al-ʿatf is of two types: ʿatf al-nasaq (ordinary conjunction) and ʿatf al-bayan (explanatory apposition)."
+    },
+    {
+      "id": "s030",
+      "text": "ʿAtf al-Nasaq"
+    },
+    {
+      "id": "s031",
+      "text": "It is a follower-noun separated from its followed by a conjunction particle. This is the focus of today's topic, for which we have provided many examples."
+    },
+    {
+      "id": "s032",
+      "text": "ʿAtf al-Bayan"
+    },
+    {
+      "id": "s033",
+      "text": "It is an underived (jamid) follower-noun resembling an attribute or descriptive adjective in clarifying its followed; no conjunction particle is needed for it. E.g.:"
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "jaʾa Abu Hafs ʿUmar",
+          "text": "— Abu Hafs ʿUmar came."
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "Here 'ʿUmar' is ʿatf al-bayan because it clarifies its followed ('Abu Hafs')."
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "transliteration": "shakar-tu li-l-sadiq-i ʿAmir",
+          "text": "— I thanked the friend ʿAmir."
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "Here 'ʿAmir' is ʿatf al-bayan because it clarifies its followed ('al-sadiq')."
+    },
+    {
+      "id": "s038",
+      "text": "Question: What is the difference between al-naʿt (adjective) and ʿatf al-bayan?"
+    },
+    {
+      "id": "s039",
+      "text": "Answer: ʿAtf al-bayan is jamid (underived); al-naʿt is mushtaqq (derived). E.g.:"
+    },
+    {
+      "id": "s040",
+      "items": [
+        {
+          "transliteration": "jaʾat Hind-un ukht-u-ka",
+          "text": "— Hind, your sister, came."
+        },
+        {
+          "transliteration": "jaʾat Hind-un al-fadilat-u",
+          "text": "— Hind, the virtuous one, came."
+        }
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "'Ukht' is a jamid noun, so it serves as ʿatf al-bayan; 'al-fadila' is a derived noun (from 'fadl' — virtue), so it serves as a naʿt."
+    },
+    {
+      "id": "s042",
+      "text": "Examples of Iʿrab for Al-ʿAtf"
+    },
+    {
+      "id": "s043",
+      "items": [
+        {
+          "transliteration": "intasara Khalid-un wa-Yusuf",
+          "text": "— Khalid and Yusuf were victorious."
+        }
+      ]
+    },
+    {
+      "id": "s044",
+      "text": "intasara: a past-tense verb fixed on the manifest fatha at its end."
+    },
+    {
+      "id": "s045",
+      "text": "Khalid: the subject in the nominative, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s046",
+      "text": "wa-Yusuf: the waw — a conjunction particle; Yusuf — a noun conjoined onto 'Khalid', in the nominative, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s047",
+      "items": [
+        {
+          "transliteration": "raʾay-tu al-tullab-a hatta Zaydan",
+          "text": "— I saw the students — even Zayd."
+        }
+      ]
+    },
+    {
+      "id": "s048",
+      "text": "raʾaytu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject."
+    },
+    {
+      "id": "s049",
+      "text": "al-tullab: a direct object in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s050",
+      "text": "hatta: a conjunction particle fixed on sukun."
+    },
+    {
+      "id": "s051",
+      "text": "Zaydan: conjoined onto 'al-tullab', in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s052",
+      "items": [
+        {
+          "transliteration": "taʿallam-i al-tibb-a aw al-handasata",
+          "text": "— Learn medicine or engineering."
+        }
+      ]
+    },
+    {
+      "id": "s053",
+      "text": "taʿallam: an imperative verb fixed on sukun, given a kasra here to avoid two sukuns meeting; the subject is an obligatorily concealed pronoun, implied as 'anta'."
+    },
+    {
+      "id": "s054",
+      "text": "al-tibb: a direct object in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s055",
+      "text": "aw: a conjunction particle fixed on sukun, with no place in iʿrab; given a kasra to avoid two sukuns meeting."
+    },
+    {
+      "id": "s056",
+      "text": "al-handasa: conjoined onto 'al-tibb', in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s057",
+      "items": [
+        {
+          "transliteration": "ma jaʾa-ni Zayd-un bal ʿAliyy",
+          "text": "— Zayd did not come to me — but rather ʿAli."
+        }
+      ]
+    },
+    {
+      "id": "s058",
+      "text": "ma: a particle of negation."
+    },
+    {
+      "id": "s059",
+      "text": "jaʾa-ni: a past-tense verb fixed on the manifest fatha at its end; the nun is the protective nun (nun al-wiqaya); the yaʾ is a connected pronoun fixed on sukun, in the position of accusative as the direct object."
+    },
+    {
+      "id": "s060",
+      "text": "Zayd: the subject in the nominative, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s061",
+      "text": "bal: a conjunction particle."
+    },
+    {
+      "id": "s062",
+      "text": "ʿAliyy: conjoined onto 'Zayd', in the nominative, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s063",
+      "text": "Examples of Al-ʿAtf from the Noble Quran"
+    },
+    {
+      "id": "s064",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s065",
+      "text": "\"So We saved him and those with him in the laden ship.\" — Quran 26:119 (Sahih International)",
+      "is_quran": true,
+      "surah_en": "Al-Shuʿaraʾ",
+      "surah_number": 26,
+      "ayah": 119,
+      "translation_source": "Sahih International"
+    },
+    {
+      "id": "s066",
+      "text": "wa-: a conjunction particle."
+    },
+    {
+      "id": "s067",
+      "text": "man: conjoined onto the connected pronoun 'haʾ' in 'anjayna-hu' — a relative pronoun fixed on sukun, in the position of accusative as a direct object."
+    },
+    {
+      "id": "s068",
+      "text": "\"And Allah created you from dust, then from a sperm-drop...\" — Quran 35:11 (Sahih International)",
+      "is_quran": true,
+      "surah_en": "Fatir",
+      "surah_number": 35,
+      "ayah": 11,
+      "translation_source": "Sahih International"
+    },
+    {
+      "id": "s069",
+      "text": "thumma: a conjunction particle."
+    },
+    {
+      "id": "s070",
+      "text": "min nutfa: conjoined onto 'min turab'."
+    },
+    {
+      "id": "s071",
+      "text": "\"Say, 'Is the blind equivalent to the seeing? Or is darkness equivalent to light?'\" — Quran 13:16 (Sahih International)",
+      "is_quran": true,
+      "surah_en": "Al-Raʿd",
+      "surah_number": 13,
+      "ayah": 16,
+      "translation_source": "Sahih International"
+    },
+    {
+      "id": "s072",
+      "text": "al-basir: conjoined onto 'al-aʿma'."
+    },
+    {
+      "id": "s073",
+      "text": "al-nur: conjoined onto 'al-zulumat'."
+    },
+    {
+      "id": "s074",
+      "text": "\"They will say, 'We remained a day or part of a day...'\" — Quran 23:113 (Sahih International)",
+      "is_quran": true,
+      "surah_en": "Al-Muʾminun",
+      "surah_number": 23,
+      "ayah": 113,
+      "translation_source": "Sahih International"
+    },
+    {
+      "id": "s075",
+      "text": "aw: a conjunction particle."
+    },
+    {
+      "id": "s076",
+      "text": "baʿda: conjoined onto 'yawman' in the accusative, marked by the manifest fatha at its end; a mudaf."
+    }
+  ]
+}

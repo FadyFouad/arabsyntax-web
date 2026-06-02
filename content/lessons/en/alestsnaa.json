@@ -1,0 +1,557 @@
+{
+  "lesson_id": "alestsnaa",
+  "language": "en",
+  "title": "Definition of Al-Istithnaʾ (Exception)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "hadara al-asdiqaʾ-u illa ʿAliyyan",
+          "text": "— The friends attended except for ʿAli."
+        },
+        {
+          "transliteration": "qaraʾ-tu al-kitab-a illa safhatayn",
+          "text": "— I read the book except for two pages."
+        },
+        {
+          "transliteration": "halal-tu masaʾil-a al-hisab-i illa masʾala",
+          "text": "— I solved the math problems except for one."
+        },
+        {
+          "transliteration": "ma taʿallama abnaʾu-na al-ʿazf-a ʿala al-nay illa Samir",
+          "text": "— None of our sons learned to play the flute except Samir."
+        },
+        {
+          "transliteration": "jahada al-muwatinun illa mutakhadhilan",
+          "text": "— The citizens fought except for one slacker."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "If you look closely at these sentences, especially the nouns after 'illa' ('except'), you find that each is given a different ruling than the noun preceding it."
+    },
+    {
+      "id": "s004",
+      "text": "In the first example, we ruled the friends as having attended, except for ʿAli — the noun after 'illa' for whom this ruling did not hold. So he is excepted from the noun before 'illa', differing from it in ruling. The particle that conveys this exception is 'illa'. The noun preceding it is called al-mustathna min-hu (the noun excepted-from), and the noun after it is called al-mustathna (the excepted). The overall style is called al-istithnaʾ (exception)."
+    },
+    {
+      "id": "s005",
+      "label_en": "Rule",
+      "text": "Al-istithnaʾ (exception): to remove from the speech something you do not want included in the listener's mind, by means of 'illa' or one of its sisters. It has three pillars:\n1 — Al-mustathna min-hu (the noun excepted-from).\n2 — Adat al-istithnaʾ (the exception particle).\n3 — Al-mustathna (the excepted noun)."
+    },
+    {
+      "id": "s006",
+      "text": "Definition of Al-Mustathna and Al-Mustathna Min-hu"
+    },
+    {
+      "id": "s007",
+      "label_en": "Definition",
+      "text": "Al-mustathna: a noun in the accusative mentioned after 'illa' or one of its sisters, differing in ruling from what precedes it."
+    },
+    {
+      "id": "s008",
+      "label_en": "Definition",
+      "text": "Al-mustathna min-hu: the noun mentioned to which the speaker's ruling applies, and from which al-mustathna is removed."
+    },
+    {
+      "id": "s009",
+      "text": "Examples of Al-Mustathna and Al-Mustathna Min-hu"
+    },
+    {
+      "id": "s010",
+      "text": "Let us return to the previous sentences:"
+    },
+    {
+      "id": "s011",
+      "items": [
+        {
+          "transliteration": "hadara al-asdiqaʾ-u illa ʿAliyyan",
+          "text": "— The friends attended except for ʿAli."
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "text": "Al-mustathna min-hu: al-asdiqaʾ\nAl-mustathna: ʿAliyyan"
+    },
+    {
+      "id": "s013",
+      "items": [
+        {
+          "transliteration": "qaraʾ-tu al-kitab-a illa safhatayn",
+          "text": "— I read the book except for two pages."
+        }
+      ]
+    },
+    {
+      "id": "s014",
+      "text": "Al-mustathna min-hu: al-kitab\nAl-mustathna: safhatayn"
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "jahada al-muwatinun illa mutakhadhilan",
+          "text": "— The citizens fought except for one slacker."
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "Al-mustathna min-hu: al-muwatinun\nAl-mustathna: mutakhadhilan"
+    },
+    {
+      "id": "s017",
+      "text": "Particles of Exception"
+    },
+    {
+      "id": "s018",
+      "text": "illa — ghayr — siwa — ʿada — khala — hasha"
+    },
+    {
+      "id": "s019",
+      "text": "Examples:"
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "ma baqiya makanun farighun ghayra janibin baʿid",
+          "text": "— No empty space remained except a far corner."
+        },
+        {
+          "transliteration": "jalasa al-hadirun siwa al-mushrifina ʿala al-hafl",
+          "text": "— Those present sat down, except for the supervisors of the celebration."
+        },
+        {
+          "transliteration": "karramna al-faʾizina ʿada wahidan",
+          "text": "— We honored the winners except one."
+        },
+        {
+          "transliteration": "qataftu al-azhara ma khala al-qaranfula",
+          "text": "— I picked the flowers, save for the carnation."
+        },
+        {
+          "transliteration": "ʿada al-tullab-u hasha talibin",
+          "text": "— The students returned, except for one student."
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "Types of Exception"
+    },
+    {
+      "id": "s022",
+      "text": "The Excepted with 'Illa'"
+    },
+    {
+      "id": "s023",
+      "text": "— The excepted with 'illa' has three states:"
+    },
+    {
+      "id": "s024",
+      "text": "1 — When the three pillars of exception are present and the speech is not negated, the accusative is required (al-mustathna takes the accusative), e.g.:"
+    },
+    {
+      "id": "s025",
+      "items": [
+        {
+          "transliteration": "qama al-duyufu illa ʿAliyyan",
+          "text": "— The guests stood up except for ʿAli."
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "text": "2 — When the three pillars are present and the speech is negated, it is permissible to parse al-mustathna as a badal (apposition; in this case 'illa' is parsed as a particle of restriction — adat hasr), or as accusative on the basis of exception. E.g.:"
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "ma saʿada al-mughamiruna al-jabala illa wahidan (or wahidun)",
+          "text": "— None of the adventurers climbed the mountain except one."
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "illa wahidun: badal in the nominative.\nilla wahidan: mustathna in the accusative."
+    },
+    {
+      "id": "s029",
+      "text": "3 — When all the pillars of exception are not present and the speech is negated, the noun is parsed according to its position in the sentence; 'illa' is parsed as adat hasr (a particle of restriction). E.g.:"
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "ma jaʾa illa Saʿidun",
+          "text": "— None came except Saʿid."
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "Are all the pillars of exception present in this sentence?"
+    },
+    {
+      "id": "s032",
+      "text": "No."
+    },
+    {
+      "id": "s033",
+      "text": "Is the speech negated?"
+    },
+    {
+      "id": "s034",
+      "text": "Yes."
+    },
+    {
+      "id": "s035",
+      "text": "Then apply the rule:"
+    },
+    {
+      "id": "s036",
+      "text": "illa: a particle of restriction.\nSaʿid: the subject in the nominative, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s037",
+      "label_en": "Note",
+      "text": "Under this rule, set aside the iʿrab rules of exception and apply the general iʿrab rules according to the sentence."
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "ma raʾaytu illa ʿAliyyan",
+          "text": "— I saw none except ʿAli."
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "In your view, what is the iʿrab position of 'ʿAliyyan' in this sentence?"
+    },
+    {
+      "id": "s040",
+      "text": "We have: raʾaytu — verb and subject. So we need a direct object: 'ʿAliyyan'."
+    },
+    {
+      "id": "s041",
+      "items": [
+        {
+          "transliteration": "ma marartu illa bi-Saʿidin",
+          "text": "— I passed by none except Saʿid."
+        }
+      ]
+    },
+    {
+      "id": "s042",
+      "text": "bi-Saʿidin: a prepositional phrase."
+    },
+    {
+      "id": "s043",
+      "label_en": "Warning",
+      "text": "The excepted with 'illa' has three types:\n1 — Complete sentence with all pillars, not negated: the noun after 'illa' must be in the accusative.\n2 — Complete sentence with all pillars, negated: the noun may be in the accusative or parsed as a badal.\n3 — Sentence incomplete and negated: the noun is parsed according to its position in the sentence."
+    },
+    {
+      "id": "s044",
+      "text": "The Excepted with 'Ghayr' and 'Siwa'"
+    },
+    {
+      "id": "s045",
+      "text": "'Ghayr' and 'siwa' take the place of the excepted noun after 'illa'. The same three rulings above apply to them. The noun following them is parsed as a mudaf ilayh in the genitive when:"
+    },
+    {
+      "id": "s046",
+      "text": "1 — Complete sentence with all pillars, not negated, e.g.:"
+    },
+    {
+      "id": "s047",
+      "items": [
+        {
+          "transliteration": "raʾaytu al-azhara munfatihatan ghayra zahratin",
+          "text": "— I saw the flowers blooming, except for one flower."
+        }
+      ]
+    },
+    {
+      "id": "s048",
+      "text": "Why did we put 'ghayr' in the accusative?"
+    },
+    {
+      "id": "s049",
+      "text": "Because the sentence has all its pillars and is not negated, so the accusative is required (review the three rules above)."
+    },
+    {
+      "id": "s050",
+      "text": "2 — Complete sentence with all pillars, negated, e.g.:"
+    },
+    {
+      "id": "s051",
+      "items": [
+        {
+          "transliteration": "ma jaʾa al-talamidh-u siwa tilmidhayn",
+          "text": "— None of the pupils came except two pupils. (a noun in the accusative on the basis of exception)"
+        }
+      ]
+    },
+    {
+      "id": "s052",
+      "text": "Or:"
+    },
+    {
+      "id": "s053",
+      "items": [
+        {
+          "transliteration": "ma qama al-qawmu ghayru Muhammad",
+          "text": "— None of the people stood up except Muhammad. (badal in the nominative)"
+        }
+      ]
+    },
+    {
+      "id": "s054",
+      "text": "3 — Sentence incomplete and negated, e.g.:"
+    },
+    {
+      "id": "s055",
+      "items": [
+        {
+          "transliteration": "ma jaʾa siwa wahidin",
+          "text": "— None came except one. (subject)"
+        },
+        {
+          "transliteration": "ma raʾaytu siwa wahidin",
+          "text": "— I saw none except one. (direct object)"
+        },
+        {
+          "transliteration": "ma marartu bi-siwa wahidin",
+          "text": "— I passed by none except one. (a noun in the genitive)"
+        }
+      ]
+    },
+    {
+      "id": "s056",
+      "text": "The Excepted with 'Khala', 'ʿAda', and 'Hasha'"
+    },
+    {
+      "id": "s057",
+      "label_en": "Rule",
+      "text": "One excepts with 'khala', 'ʿada', and 'hasha'. The noun after them is in the accusative as a direct object — treating them as verbs — or in the genitive — treating them as prepositions. If 'ma' precedes 'khala' or 'ʿada', the noun after them is in the accusative — treating them as verbs."
+    },
+    {
+      "id": "s058",
+      "text": "Consider the examples:"
+    },
+    {
+      "id": "s059",
+      "items": [
+        {
+          "transliteration": "jaʾa al-mutasabiquna ʿada Khalidan",
+          "text": "— The contestants came except Khalid."
+        }
+      ]
+    },
+    {
+      "id": "s060",
+      "text": "Treating 'ʿada' as a verb, we parse 'Khalidan' as a direct object in the accusative."
+    },
+    {
+      "id": "s061",
+      "items": [
+        {
+          "transliteration": "raʾaytu al-talamidh-a khala tilmidhin",
+          "text": "— I saw the pupils except one pupil."
+        }
+      ]
+    },
+    {
+      "id": "s062",
+      "text": "Treating 'khala' as a preposition, we parse 'tilmidh' as a noun in the genitive."
+    },
+    {
+      "id": "s063",
+      "items": [
+        {
+          "transliteration": "yamutu al-nasu ma khala al-shuhadaʾa",
+          "text": "— People die except for the martyrs."
+        }
+      ]
+    },
+    {
+      "id": "s064",
+      "text": "khala: a past-tense verb; al-shuhadaʾ: a direct object."
+    },
+    {
+      "id": "s065",
+      "text": "Why?"
+    },
+    {
+      "id": "s066",
+      "text": "Because it is preceded by 'ma'."
+    },
+    {
+      "id": "s067",
+      "items": [
+        {
+          "transliteration": "ʿada al-tullab-u hasha talibin",
+          "text": "— The students returned except for one student."
+        }
+      ]
+    },
+    {
+      "id": "s068",
+      "text": "Now it's your turn, dear reader."
+    },
+    {
+      "id": "s069",
+      "text": "Answer: We treat 'hasha' as a preposition, so we parse 'talib' as a noun in the genitive."
+    },
+    {
+      "id": "s070",
+      "text": "Iʿrab of Al-Mustathna"
+    },
+    {
+      "id": "s071",
+      "items": [
+        {
+          "transliteration": "jahada al-muwatinun illa mutakhadhilan",
+          "text": "— The citizens fought except for one slacker."
+        }
+      ]
+    },
+    {
+      "id": "s072",
+      "text": "jahada: a past-tense verb fixed on the manifest fatha at its end.\nal-muwatinun: the subject in the nominative, marked by waw because it is a sound masculine plural.\nilla: a particle of exception.\nmutakhadhilan: mustathna with 'illa' in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s073",
+      "items": [
+        {
+          "transliteration": "ma saʿada al-mughamiruna al-jabala illa wahidan",
+          "text": "— None of the adventurers climbed the mountain except one."
+        }
+      ]
+    },
+    {
+      "id": "s074",
+      "text": "ma: a particle of negation.\nsaʿada: a past-tense verb fixed on the manifest fatha at its end.\nal-mughamiruna: the subject in the nominative, marked by waw because it is a sound masculine plural.\nal-jabal: a direct object in the accusative, marked by the manifest fatha.\nilla: a particle of exception.\nwahidan: mustathna with 'illa' in the accusative, marked by the manifest fatha."
+    },
+    {
+      "id": "s075",
+      "text": "Or:"
+    },
+    {
+      "id": "s076",
+      "text": "illa: a particle of restriction.\nwahidun: a badal in the nominative, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s077",
+      "text": "What is this surprise, teacher?!"
+    },
+    {
+      "id": "s078",
+      "text": "It is no surprise, dear reader — we have just applied one of the rules above, namely:"
+    },
+    {
+      "id": "s079",
+      "label_en": "Rule",
+      "text": "— When the three pillars of exception are present and the speech is negated, it is permissible to parse al-mustathna as a badal (and 'illa' is then parsed as adat hasr) or as accusative on the basis of exception."
+    },
+    {
+      "id": "s080",
+      "items": [
+        {
+          "transliteration": "ma raʾaytu illa Saʿidan",
+          "text": "— I saw none except Saʿid."
+        }
+      ]
+    },
+    {
+      "id": "s081",
+      "text": "ma: a particle of negation.\nraʾaytu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nilla: a particle of restriction.\nSaʿidan: a direct object in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s082",
+      "text": "Important Reminder"
+    },
+    {
+      "id": "s083",
+      "label_en": "Warning",
+      "text": "One excepts with 'ghayr' and 'siwa' just as with 'illa'; the noun after them is parsed as a mudaf ilayh in the genitive. With 'khala', 'ʿada', and 'hasha', the noun after them is in the accusative as a direct object (treating them as verbs) or in the genitive (treating them as prepositions). If 'ma' precedes 'khala' or 'ʿada', the noun after them is in the accusative — treating them as verbs."
+    },
+    {
+      "id": "s084",
+      "items": [
+        {
+          "transliteration": "darasati al-talibatu ghayra Suʿada",
+          "text": "— The female students studied except Suʿad."
+        }
+      ]
+    },
+    {
+      "id": "s085",
+      "text": "darasat: a past-tense verb fixed on the manifest fatha at its end; the taʾ is the feminine taʾ.\nal-talibat: the subject in the nominative, marked by the manifest damma.\nghayr: a noun in the accusative on the basis of exception, marked by the manifest fatha at its end; a mudaf.\nSuʿad: a mudaf ilayh in the genitive, marked by the manifest kasra at its end."
+    },
+    {
+      "id": "s086",
+      "items": [
+        {
+          "transliteration": "ma jaʾa al-talamidh-u siwa tilmidhayn",
+          "text": "— None of the pupils came except two pupils."
+        }
+      ]
+    },
+    {
+      "id": "s087",
+      "text": "ma: a particle of negation.\njaʾa: a past-tense verb fixed on the manifest fatha at its end.\nal-talamidh: the subject in the nominative, marked by the manifest damma.\nsiwa: a noun in the accusative on the basis of exception, marked by an estimated fatha on the alif (because of taʿadhdhur); a mudaf.\ntilmidhayn: a mudaf ilayh in the genitive, marked by yaʾ because it is dual; the nun substitutes for the tanwin of the singular noun."
+    },
+    {
+      "id": "s088",
+      "items": [
+        {
+          "transliteration": "hadara al-laʿibun ʿada wahidan",
+          "text": "— The players attended except one."
+        }
+      ]
+    },
+    {
+      "id": "s089",
+      "text": "hadara: a past-tense verb fixed on the manifest fatha at its end.\nal-laʿibun: the subject in the nominative, marked by waw because it is a sound masculine plural.\nʿada: a past-tense verb of exception, fixed on an estimated fatha on the alif (because of taʿadhdhur); the subject is an obligatorily concealed pronoun, implied as 'huwa'.\nwahidan: a direct object in the accusative, marked by the manifest fatha."
+    },
+    {
+      "id": "s090",
+      "items": [
+        {
+          "transliteration": "jamaʿtu al-kutuba khala kitabin",
+          "text": "— I gathered the books except one book."
+        }
+      ]
+    },
+    {
+      "id": "s091",
+      "text": "jamaʿtu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nal-kutuba: a direct object in the accusative, marked by the manifest fatha.\nkhala: a preposition.\nkitabin: a noun in the genitive after 'khala', marked by the manifest kasra at its end."
+    },
+    {
+      "id": "s092",
+      "items": [
+        {
+          "transliteration": "yamutu al-nasu ma khala al-shuhadaʾa",
+          "text": "— People die except for the martyrs."
+        }
+      ]
+    },
+    {
+      "id": "s093",
+      "text": "yamutu: a present-tense verb in the nominative, marked by the manifest damma at its end.\nal-nas: the subject in the nominative, marked by the manifest damma.\nma: an infinitival particle.\nkhala: a past-tense verb of exception, fixed on an estimated fatha on the alif (because of taʿadhdhur); the subject is an obligatorily concealed pronoun, implied as 'huwa'.\nal-shuhadaʾ: a direct object in the accusative, marked by the manifest fatha."
+    }
+  ]
+}

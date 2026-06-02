@@ -1,0 +1,592 @@
+{
+  "lesson_id": "alhaal",
+  "language": "en",
+  "title": "Definition of Al-Haal (the Circumstantial Accusative)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "ʿada al-jaysh-u zafiran",
+          "text": "— The army returned victorious."
+        },
+        {
+          "transliteration": "aqbala al-mazlum-u bakiyan",
+          "text": "— The wronged one came forward weeping."
+        },
+        {
+          "transliteration": "biʿ-tu al-inaʾ-a maksuran",
+          "text": "— I sold the vessel broken."
+        },
+        {
+          "transliteration": "qataʿ-tu al-tariq-a rakidan",
+          "text": "— I crossed the road running."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "Look at the words: zafiran, bakiyan, maksuran, rakidan in the previous sentences. You find them all to be nouns in the accusative. But we want to know the meaning the listener gains from the presence of these words in the sentences."
+    },
+    {
+      "id": "s004",
+      "text": "If you say 'ʿada al-jaysh' ('the army returned'), the listener understands that the army returned — and that is the subject of this sentence. But if you add 'zafiran' ('victorious') to the sentence, the listener understands the manner and state in which the army was at the time of its return."
+    },
+    {
+      "id": "s005",
+      "text": "If you say 'biʿtu al-inaʾ' ('I sold the vessel'), the listener understands that you simply sold the vessel. But if you add 'maksuran' ('broken') to the sentence, the listener understands the state of the vessel at the time of selling — and the vessel is the direct object in this sentence."
+    },
+    {
+      "id": "s006",
+      "text": "Thus you realize that the final words of each sentence have come to clarify the state of the subject or the direct object — for which reason they are called al-haal (the circumstantial accusative). The subject or direct object is called sahib al-haal (the bearer of the haal)."
+    },
+    {
+      "id": "s007",
+      "label_en": "Rule",
+      "text": "Al-haal is an indefinite noun in the accusative, coming after a complete sentence to clarify the state of the subject (al-faʿil), the direct object (al-mafʿul bih), the noun in the genitive (al-ism al-majrur), the mubtadaʾ, or the khabar — these being called sahib al-haal."
+    },
+    {
+      "id": "s008",
+      "text": "Sentences and Examples on Al-Haal"
+    },
+    {
+      "id": "s009",
+      "items": [
+        {
+          "transliteration": "jaʾa al-walad-u dahikan",
+          "text": "— The boy came laughing."
+        }
+      ]
+    },
+    {
+      "id": "s010",
+      "text": "Sahib al-haal: al-walad (subject).\nAl-haal: dahikan."
+    },
+    {
+      "id": "s011",
+      "items": [
+        {
+          "transliteration": "raʾay-tu al-awlad-a lahin",
+          "text": "— I saw the boys playing/distracted."
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "text": "Sahib al-haal: al-awlad (direct object).\nAl-haal: lahin."
+    },
+    {
+      "id": "s013",
+      "items": [
+        {
+          "transliteration": "hadha ibni najihan",
+          "text": "— This is my son, successful."
+        }
+      ]
+    },
+    {
+      "id": "s014",
+      "text": "Sahib al-haal: ibni (predicate / khabar).\nAl-haal: najihan."
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "akh-u-ka mutaʿalliman khayrun min-hu jahilan",
+          "text": "— Your brother as an educated man is better than himself as an ignorant one."
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "Sahib al-haal: akhu-ka (mubtadaʾ).\nAl-haal: mutaʿalliman."
+    },
+    {
+      "id": "s017",
+      "items": [
+        {
+          "transliteration": "dakhal-tu ila al-suq-i muktazzan",
+          "text": "— I entered the market while it was crowded."
+        }
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "Sahib al-haal: al-suq (in the genitive after a preposition).\nAl-haal: muktazzan."
+    },
+    {
+      "id": "s019",
+      "text": "Types of Al-Haal"
+    },
+    {
+      "id": "s020",
+      "text": "1 — Single (in singular, dual, or plural form), e.g.:"
+    },
+    {
+      "id": "s021",
+      "items": [
+        {
+          "transliteration": "rajaʿa al-qaʾid-u mansuran",
+          "text": "— The commander returned victorious."
+        },
+        {
+          "transliteration": "rajaʿa al-qaʾidayn-i mansurayn",
+          "text": "— The two commanders returned victorious."
+        },
+        {
+          "transliteration": "rajaʿa al-qadat-u mansurin",
+          "text": "— The commanders returned victorious."
+        }
+      ]
+    },
+    {
+      "id": "s022",
+      "text": "2 — A verbal clause, e.g.:"
+    },
+    {
+      "id": "s023",
+      "items": [
+        {
+          "transliteration": "dhahaba al-mujrim-u tahrus-u-hu al-shurta",
+          "text": "— The criminal went, the police guarding him."
+        }
+      ]
+    },
+    {
+      "id": "s024",
+      "text": "3 — A nominal clause, e.g.:"
+    },
+    {
+      "id": "s025",
+      "items": [
+        {
+          "transliteration": "safar-tu wa-al-shams-u mushriqa",
+          "text": "— I traveled while the sun was rising."
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "text": "4 — A prepositional phrase, e.g.:"
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "aqbala al-ʿid-u bi-l-khayrat",
+          "text": "— The Eid arrived with blessings."
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "5 — An adverb, e.g.:"
+    },
+    {
+      "id": "s029",
+      "items": [
+        {
+          "transliteration": "absar-tu al-khatib-a fawqa al-minbar",
+          "text": "— I saw the speaker upon the pulpit."
+        }
+      ]
+    },
+    {
+      "id": "s030",
+      "text": "Categories of the Single Al-Haal"
+    },
+    {
+      "id": "s031",
+      "text": "1 — Based on the constancy or transience of its meaning:"
+    },
+    {
+      "id": "s032",
+      "text": "Constant haal (haal thabita): one that always accompanies its bearer and does not separate from it, e.g.:"
+    },
+    {
+      "id": "s033",
+      "items": [
+        {
+          "transliteration": "shahad-tu al-shams-a mushriqa",
+          "text": "— I observed the sun rising."
+        }
+      ]
+    },
+    {
+      "id": "s034",
+      "text": "Transient haal (haal mutanaqqila): one that describes the bearer's state for a temporary period, then leaves it, e.g.:"
+    },
+    {
+      "id": "s035",
+      "items": [
+        {
+          "transliteration": "jaʾa al-najih-u farihan",
+          "text": "— The successful one came joyful."
+        }
+      ]
+    },
+    {
+      "id": "s036",
+      "text": "2 — Based on being underived or derived:"
+    },
+    {
+      "id": "s037",
+      "text": "Derived haal (haal mushtaqqa): describing sahib al-haal with a masdar derived from its description, e.g.:"
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "aqbala al-rajul-u ghadiban",
+          "text": "— The man came forward angry."
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "Underived haal (haal jamida): the haal may be jamid if it can be interpreted as derived, e.g.:"
+    },
+    {
+      "id": "s040",
+      "items": [
+        {
+          "transliteration": "yaʿdu akh-u-ka ghazalan",
+          "text": "— Your brother runs like a gazelle. (i.e., 'running like a gazelle')"
+        }
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "3 — Based on indefiniteness/definiteness:"
+    },
+    {
+      "id": "s042",
+      "text": "Indefinite haal (the default), e.g.:"
+    },
+    {
+      "id": "s043",
+      "items": [
+        {
+          "transliteration": "istayqaza al-fallah-u nashitan",
+          "text": "— The farmer awoke energetic."
+        }
+      ]
+    },
+    {
+      "id": "s044",
+      "text": "Haal made definite by 'al-' or by annexation, but interpreted as indefinite, e.g.:"
+    },
+    {
+      "id": "s045",
+      "items": [
+        {
+          "transliteration": "dakhala al-talamidh-u al-awwala fa-l-awwala",
+          "text": "— The pupils entered one after another."
+        }
+      ]
+    },
+    {
+      "id": "s046",
+      "text": "'Al-awwal fa-l-awwal' is a haal made definite by 'al-' but interpreted as a derived indefinite. The implied form: 'the pupils entered, ordered first then the next'."
+    },
+    {
+      "id": "s047",
+      "text": "Multiple Haals"
+    },
+    {
+      "id": "s048",
+      "text": "Al-haal may be multiple — whether single, clause, or quasi-clause."
+    },
+    {
+      "id": "s049",
+      "items": [
+        {
+          "transliteration": "jaʾa al-walad-u rakidan, haʾiran, musriʿan, yalhathu, wa-yastarihu",
+          "text": "— The boy came running, bewildered, hastening, panting and resting."
+        }
+      ]
+    },
+    {
+      "id": "s050",
+      "text": "Fronting and Postposing of Al-Haal"
+    },
+    {
+      "id": "s051",
+      "text": "Al-haal must be fronted before its bearer in two cases:"
+    },
+    {
+      "id": "s052",
+      "text": "1 — If sahib al-haal is indefinite and does not meet the conditions, e.g.:"
+    },
+    {
+      "id": "s053",
+      "items": [
+        {
+          "transliteration": "aqbala musriʿan qitar",
+          "text": "— A train came forward at speed."
+        }
+      ]
+    },
+    {
+      "id": "s054",
+      "text": "2 — If sahib al-haal is restricted/exclusive, e.g.:"
+    },
+    {
+      "id": "s055",
+      "items": [
+        {
+          "transliteration": "ma hadara mutaʾakhkhiran illa Muhammad",
+          "text": "— None attended late except Muhammad."
+        }
+      ]
+    },
+    {
+      "id": "s056",
+      "text": "Al-haal must be postposed after its bearer in three cases:"
+    },
+    {
+      "id": "s057",
+      "text": "1 — If the haal is restricted/exclusive, e.g.:"
+    },
+    {
+      "id": "s058",
+      "items": [
+        {
+          "transliteration": "ma jaʾa al-najih-u illa farihan",
+          "text": "— The successful one did not come except joyful."
+        }
+      ]
+    },
+    {
+      "id": "s059",
+      "text": "2 — If sahib al-haal is in the genitive by annexation, e.g.:"
+    },
+    {
+      "id": "s060",
+      "items": [
+        {
+          "transliteration": "aʿjaba-ni qawl-u-ka sadiqan",
+          "text": "— Your speech pleased me when truthful."
+        }
+      ]
+    },
+    {
+      "id": "s061",
+      "text": "3 — If the haal is a clause joined by waw, e.g.:"
+    },
+    {
+      "id": "s062",
+      "items": [
+        {
+          "transliteration": "intalaqa al-qitar-u wa-qad halla al-layl",
+          "text": "— The train set off, with night having fallen."
+        }
+      ]
+    },
+    {
+      "id": "s063",
+      "text": "Omission of Al-Haal"
+    },
+    {
+      "id": "s064",
+      "text": "Al-haal may be omitted if there is contextual evidence, e.g.:"
+    },
+    {
+      "id": "s065",
+      "items": [
+        {
+          "text": "— Allah Most High said: \"And the angels will enter upon them from every gate, [saying], 'Peace be upon you for what you patiently endured.'\" — Quran 13:23–24 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s066",
+      "text": "I.e., '[saying] peace be upon you'.\nThe haal is 'qaʾilin' ('saying'), omitted because the context indicates it — since salaam (peace) is conveyed by speech."
+    },
+    {
+      "id": "s067",
+      "text": "Iʿrab of Al-Haal"
+    },
+    {
+      "id": "s068",
+      "items": [
+        {
+          "transliteration": "baqiya al-jundiyy-u samidan",
+          "text": "— The soldier remained steadfast."
+        }
+      ]
+    },
+    {
+      "id": "s069",
+      "text": "baqiya: a past-tense verb fixed on the manifest fatha at its end.\nal-jundiyy: the subject in the nominative, marked by the manifest damma at its end.\nsamidan: a haal in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s070",
+      "items": [
+        {
+          "transliteration": "qataʿ-tu al-tariq-a rakidan",
+          "text": "— I crossed the road running."
+        }
+      ]
+    },
+    {
+      "id": "s071",
+      "text": "qataʿtu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nal-tariq: a direct object in the accusative, marked by the manifest fatha at its end.\nrakidan: a haal in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s072",
+      "items": [
+        {
+          "transliteration": "istaqbala Zaydun ʿAliyyan dahikayn",
+          "text": "— Zayd welcomed ʿAli, the two of them laughing."
+        }
+      ]
+    },
+    {
+      "id": "s073",
+      "text": "istaqbala: a past-tense verb fixed on the manifest fatha at its end.\nZayd: the subject in the nominative, marked by the manifest damma at its end.\nʿAliyyan: a direct object in the accusative, marked by the manifest fatha at its end.\ndahikayn: a haal in the accusative, marked by yaʾ because it is dual; the nun substitutes for the tanwin of the singular noun."
+    },
+    {
+      "id": "s074",
+      "items": [
+        {
+          "transliteration": "al-fakihat-u taziatan mufida",
+          "text": "— The fruit, when fresh, is beneficial."
+        }
+      ]
+    },
+    {
+      "id": "s075",
+      "text": "al-fakiha: a mubtadaʾ in the nominative, marked by the manifest damma at its end.\ntaziatan: a haal in the accusative, marked by the manifest fatha at its end.\nmufida: a khabar in the nominative, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s076",
+      "label_en": "Note",
+      "text": "The word 'al-haal' may be treated as masculine or feminine; the feminine treatment is more eloquent. Therefore, in iʿrab one usually says 'haal mansuba' (in the feminine), but it is also permissible to say 'haal mansub' (in the masculine)."
+    },
+    {
+      "id": "s077",
+      "items": [
+        {
+          "transliteration": "dakhala al-talamidh-u al-awwala fa-l-awwala",
+          "text": "— The pupils entered one after another."
+        }
+      ]
+    },
+    {
+      "id": "s078",
+      "text": "dakhala: a past-tense verb fixed on the manifest fatha at its end.\nal-talamidh: the subject in the nominative, marked by the manifest damma at its end.\nal-awwal: a haal in the accusative, marked by the manifest fatha at its end.\nfa-l-awwal: the faʾ is a conjunction fixed on fatha, with no place in iʿrab; al-awwal is conjoined to the previous al-awwal in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s079",
+      "items": [
+        {
+          "transliteration": "yulbasu al-dhahab-u khataman",
+          "text": "— Gold is worn as a ring."
+        }
+      ]
+    },
+    {
+      "id": "s080",
+      "text": "yulbasu: a present-tense passive verb in the nominative, marked by the manifest damma at its end.\nal-dhahab: naʾib al-faʿil in the nominative, marked by the manifest damma at its end.\nkhataman: a haal in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s081",
+      "items": [
+        {
+          "transliteration": "raʾay-tu ʿAliyyan yaktubu",
+          "text": "— I saw ʿAli writing."
+        }
+      ]
+    },
+    {
+      "id": "s082",
+      "text": "raʾaytu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nʿAliyyan: a direct object in the accusative, marked by the manifest fatha at its end.\nyaktubu: a present-tense verb in the nominative, marked by the manifest damma at its end; the subject is a permissibly concealed pronoun, implied as 'huwa'. The verbal clause is in the position of accusative as a haal."
+    },
+    {
+      "id": "s083",
+      "items": [
+        {
+          "transliteration": "raʾay-tu ʿAliyyan wa-huwa musriʿ",
+          "text": "— I saw ʿAli while he was hurrying."
+        }
+      ]
+    },
+    {
+      "id": "s084",
+      "text": "raʾaytu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun fixed on damma, in the position of nominative as the subject.\nʿAliyyan: a direct object in the accusative, marked by the manifest fatha at its end.\nwa-: waw al-haliyya (the circumstantial waw), a particle fixed on fatha with no place in iʿrab.\nhuwa: a separate pronoun fixed on fatha, in the position of nominative as a mubtadaʾ.\nmusriʿ: a khabar in the nominative, marked by the manifest damma at its end. The nominal clause is in the position of accusative as a haal."
+    },
+    {
+      "id": "s085",
+      "text": "Examples of Al-Haal from the Noble Quran"
+    },
+    {
+      "id": "s086",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s087",
+      "items": [
+        {
+          "text": "— \"So he left it, fearful and anticipating [apprehension]...\" — Quran 28:21 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s088",
+      "text": "khaʾifan: a haal in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s089",
+      "items": [
+        {
+          "text": "— \"And We have sent you, [O Muhammad], to the people as a messenger...\" — Quran 4:79 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s090",
+      "text": "rasulan: a haal in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s091",
+      "items": [
+        {
+          "text": "— \"Would one of you like to eat the flesh of his brother when dead?\" — Quran 49:12 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s092",
+      "text": "maytan: a haal in the accusative, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s093",
+      "items": [
+        {
+          "text": "— \"So he came out before his people in his adornment.\" — Quran 28:79 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s094",
+      "text": "fi zinati-hi: a prepositional phrase in the position of accusative as a haal."
+    },
+    {
+      "id": "s095",
+      "items": [
+        {
+          "text": "— \"And do not commit abuse on the earth, spreading corruption.\" — Quran 2:60 (paraphrase, Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s096",
+      "text": "mufsidina: a haal in the accusative, marked by yaʾ because it is a sound masculine plural."
+    }
+  ]
+}

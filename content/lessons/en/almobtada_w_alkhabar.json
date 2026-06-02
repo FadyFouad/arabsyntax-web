@@ -1,0 +1,544 @@
+{
+  "lesson_id": "almobtada_w_alkhabar",
+  "language": "en",
+  "title": "Definition of Al-Mubtadaʾ (the Subject of a Nominal Sentence)",
+  "sections": [
+    {
+      "id": "s001",
+      "label_en": "Definition",
+      "text": "Al-mubtadaʾ (the subject of a nominal sentence): a noun in the nominative case (marfuʿ), usually placed at the beginning of the sentence."
+    },
+    {
+      "id": "s002",
+      "text": "Definition of Al-Khabar (the Predicate)"
+    },
+    {
+      "id": "s003",
+      "label_en": "Definition",
+      "text": "Al-khabar (the predicate): the part that completes the sentence together with al-mubtadaʾ, completes its meaning, and through which — together with al-mubtadaʾ — the full intended meaning is conveyed."
+    },
+    {
+      "id": "s004",
+      "text": "The sentence that joins al-mubtadaʾ and al-khabar is called al-jumla al-ismiyya (the nominal sentence)."
+    },
+    {
+      "id": "s005",
+      "text": "Examples of Al-Mubtadaʾ and Al-Khabar"
+    },
+    {
+      "id": "s006",
+      "items": [
+        {
+          "transliteration": "Muhammad-un nashit-un",
+          "text": "— Muhammad is energetic."
+        },
+        {
+          "transliteration": "al-azhar-u zinat-u al-hadaʾiq",
+          "text": "— Flowers are the adornment of gardens."
+        },
+        {
+          "transliteration": "al-kalb-u alif",
+          "text": "— The dog is friendly."
+        },
+        {
+          "transliteration": "al-talamidh-u adhkiyaʾ-u",
+          "text": "— The pupils are intelligent."
+        }
+      ]
+    },
+    {
+      "id": "s007",
+      "text": "Types of Al-Mubtadaʾ"
+    },
+    {
+      "id": "s008",
+      "items": [
+        "1 — A manifest noun (ism zahir), e.g.: Khalid is great.",
+        "2 — A separate pronoun (damir munfasil), e.g.: You are generous.",
+        "3 — An interpreted infinitive (masdar muʾawwal), e.g.: That you learn is better for you.",
+        "4 — A noun in the genitive after rubba ('many a...'), e.g.: 'Many a night [there is] as if it were the morning'.",
+        "5 — A noun in the genitive after the redundant min, e.g.: Do you have any book? (lit. 'is there with you of a book')",
+        "6 — A noun in the genitive after the redundant baʾ, e.g.: A dirham is enough for you (lit. 'with-yours [is] a dirham')."
+      ]
+    },
+    {
+      "id": "s009",
+      "text": "Types of Al-Khabar"
+    },
+    {
+      "id": "s010",
+      "items": [
+        "1 — A manifest noun, e.g.: The pupil is energetic.",
+        "2 — A nominal sentence (jumla ismiyya), e.g.: The student — his lessons are many.",
+        "3 — A verbal sentence (jumla fiʿliyya), e.g.: The player goes to the field.",
+        "4 — An interpreted infinitive (masdar muʾawwal), e.g.: Success is that you persevere in study.",
+        "5 — Omitted, attached to a prepositional phrase, e.g.: In the house [is] a man.",
+        "6 — Omitted, attached to an adverb (zarf), e.g.: The books [are] on top of the table.",
+        "7 — Two clauses combined where al-mubtadaʾ is a conditional noun, e.g.: 'Whoever sows reaps' (man yahsud yazraʿ).",
+        "8 — An interrogative noun, when what follows it is a noun in the nominative, e.g.: Who is your father?"
+      ]
+    },
+    {
+      "id": "s011",
+      "text": "Is Al-Mubtadaʾ Indefinite or Definite?"
+    },
+    {
+      "id": "s012",
+      "text": "Al-mubtadaʾ is definite (maʿrifa) and al-khabar is indefinite (nakira). However, al-mubtadaʾ may be indefinite in ten situations:"
+    },
+    {
+      "id": "s013",
+      "items": [
+        "1 — When preceded by an interrogative particle, e.g.: 'Is there a pen on the table?' (a-qalamun ʿala al-tawila?)",
+        "2 — When preceded by a particle of negation, e.g.: 'There is no diligent one in our class' (la mujtahidun fi saffina).",
+        "3 — When al-khabar is a fronted prepositional phrase preceding the indefinite noun, e.g.: 'In the battle [there is] a strong army' (fi al-maʿrakati jayshun qawiyy).",
+        "4 — When al-khabar is a fronted adverb preceding the indefinite noun, e.g.: 'You have wealth' (ʿindaka malun).",
+        "5 — In the genitive after rubba, e.g.: 'Many a brother to you' (rubba akhin lak).",
+        "6 — When the noun is a mudaf (first term of a construct), e.g.: 'The school's door is large' (babu al-madrasati kabir).",
+        "7 — An interrogative noun, e.g.: 'Who raised you?' (man rabbaka?).",
+        "8 — A jussive conditional noun, e.g.: 'Whoever strives toward success will find it' (man yasʿa ila al-najahi yajidh).",
+        "9 — An indefinite noun qualified by an attribute, e.g.: 'A long road [there is that] we walked on' (tariqun tawilun mashayna fih).",
+        "10 — Ma of wonderment, e.g.: 'How beautiful nature is!' (ma ajmala al-tabiʿa)."
+      ]
+    },
+    {
+      "id": "s014",
+      "text": "Iʿrab (Grammatical Analysis) of Al-Mubtadaʾ and Al-Khabar"
+    },
+    {
+      "id": "s015",
+      "text": "Al-mubtadaʾ and al-khabar are governed by al-rafʿ (the nominative case), as follows:"
+    },
+    {
+      "id": "s016",
+      "items": [
+        "1 — If both end in a sound consonant, they take rafʿ with the manifest damma.",
+        "2 — If both end in a weak letter, they take rafʿ with an estimated/implied damma.",
+        "3 — If both are in the dual (muthanna), they take rafʿ with alif.",
+        "4 — If both are sound masculine plural (jamʿ mudhakkar salim), they take rafʿ with waw.",
+        "5 — If both are among the Five Nouns (al-asmaʾ al-khamsa), they take rafʿ with waw."
+      ]
+    },
+    {
+      "id": "s017",
+      "text": "Examples:"
+    },
+    {
+      "id": "s018",
+      "items": [
+        {
+          "transliteration": "al-ʿilm-u nur-un",
+          "text": "— Knowledge is light."
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "al-ʿilm: mubtadaʾ in the nominative case (marfuʿ), with the manifest damma at its end."
+    },
+    {
+      "id": "s020",
+      "text": "nur: khabar in the nominative case, with the manifest damma at its end."
+    },
+    {
+      "id": "s021",
+      "items": [
+        {
+          "transliteration": "al-madʿuww-u al-muhami Musa",
+          "text": "— The one called the lawyer is Musa."
+        }
+      ]
+    },
+    {
+      "id": "s022",
+      "text": "al-madʿuww: mubtadaʾ in the nominative case, with an estimated damma on the waw, prevented from appearing because of phonetic heaviness."
+    },
+    {
+      "id": "s023",
+      "text": "al-muhami: a second mubtadaʾ in the nominative case, with an estimated damma on the yaʾ, prevented from appearing because of phonetic heaviness."
+    },
+    {
+      "id": "s024",
+      "text": "Musa: khabar of al-muhami in the nominative case, with an estimated damma on the alif, prevented from appearing because the alif cannot bear vowels (taʿadhdhur). The clause (al-muhami Musa) is in the position of nominative as the khabar of al-madʿuww."
+    },
+    {
+      "id": "s025",
+      "items": [
+        {
+          "transliteration": "al-tilmidh-ani mujidd-ani",
+          "text": "— The two pupils are diligent."
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "text": "al-tilmidhani: mubtadaʾ in the nominative case, marked by alif because it is dual (muthanna); the nun substitutes for the tanwin found in the singular noun."
+    },
+    {
+      "id": "s027",
+      "text": "mujiddani: khabar in the nominative case, marked by alif because it is dual; the nun substitutes for the tanwin of the singular noun."
+    },
+    {
+      "id": "s028",
+      "items": [
+        {
+          "transliteration": "al-mudarrib-una sarim-una",
+          "text": "— The trainers are strict."
+        }
+      ]
+    },
+    {
+      "id": "s029",
+      "text": "al-mudarribuna: mubtadaʾ in the nominative case, marked by waw because it is a sound masculine plural; the nun substitutes for the tanwin of the singular noun."
+    },
+    {
+      "id": "s030",
+      "text": "sarimuna: khabar in the nominative case, marked by waw because it is a sound masculine plural; the nun substitutes for the tanwin of the singular noun."
+    },
+    {
+      "id": "s031",
+      "items": [
+        {
+          "transliteration": "abu-ka dhu ʿilm-in",
+          "text": "— Your father is a man of knowledge."
+        }
+      ]
+    },
+    {
+      "id": "s032",
+      "text": "abuka: mubtadaʾ in the nominative case, marked by waw because it is one of the Five Nouns (al-asmaʾ al-khamsa); the kaf is a connected pronoun fixed on fatha, in the position of genitive as a mudaf ilayh."
+    },
+    {
+      "id": "s033",
+      "text": "dhu: khabar in the nominative case, marked by waw because it is one of the Five Nouns; it is a mudaf (first term of a construct)."
+    },
+    {
+      "id": "s034",
+      "text": "ʿilm: mudaf ilayh in the genitive case, with the manifest kasra at its end."
+    },
+    {
+      "id": "s035",
+      "text": "Omission of Al-Mubtadaʾ"
+    },
+    {
+      "id": "s036",
+      "items": [
+        "— Al-mubtadaʾ is omitted when there is contextual evidence indicating it and the meaning is not affected, e.g.: 'How is Muhammad?' — 'Fine.' — that is, 'Muhammad's state is fine.'",
+        "— Al-mubtadaʾ is also omitted from titles, e.g.: 'House of Wisdom' (Bayt al-Hikma) — implying 'This is the House of Wisdom.'"
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "Obligatory and Permissible Omission of Al-Khabar"
+    },
+    {
+      "id": "s038",
+      "text": "Al-khabar is omitted obligatorily:"
+    },
+    {
+      "id": "s039",
+      "text": "1 — When al-mubtadaʾ comes after lawla al-imtinaʿiyya ('were it not for...'), e.g.:"
+    },
+    {
+      "id": "s040",
+      "items": [
+        {
+          "transliteration": "lawla ʿAliyy-un la-halaka ʿUmar",
+          "text": "— Were it not for Ali, ʿUmar would have perished."
+        }
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "Al-mubtadaʾ: ʿAliyy."
+    },
+    {
+      "id": "s042",
+      "text": "Al-khabar: omitted obligatorily; its implied meaning is 'Were it not for Ali being present, ʿUmar would have perished.'"
+    },
+    {
+      "id": "s043",
+      "text": "2 — When al-mubtadaʾ appears in an oath formula, e.g.:"
+    },
+    {
+      "id": "s044",
+      "items": [
+        {
+          "transliteration": "la-ʿamri la-adrusann",
+          "text": "— By my life, I shall surely study!"
+        }
+      ]
+    },
+    {
+      "id": "s045",
+      "text": "Al-mubtadaʾ: la-ʿamri."
+    },
+    {
+      "id": "s046",
+      "text": "Al-khabar: omitted obligatorily; its implied meaning is 'By my life, I swear that I shall surely study.'"
+    },
+    {
+      "id": "s047",
+      "text": "3 — When al-khabar comes after the waw of accompaniment (waw al-maʿiyya, 'and' meaning 'with'), e.g.:"
+    },
+    {
+      "id": "s048",
+      "items": [
+        {
+          "transliteration": "kull-u insan-in wa-ʿamal-u-hu",
+          "text": "— Every person and his deeds [are paired together]."
+        }
+      ]
+    },
+    {
+      "id": "s049",
+      "text": "Al-mubtadaʾ: kull."
+    },
+    {
+      "id": "s050",
+      "text": "Al-khabar: omitted obligatorily; its implied meaning is 'Every person and his deeds are paired together (muqtarinan).'"
+    },
+    {
+      "id": "s051",
+      "text": "4 — When al-mubtadaʾ is followed by a hal (circumstantial accusative) that cannot serve as a khabar, e.g.:"
+    },
+    {
+      "id": "s052",
+      "items": [
+        {
+          "transliteration": "darb-u-ka al-walad-a mukhtiʾan",
+          "text": "— Your striking the boy [is wrong] when [you do so] mistakenly."
+        }
+      ]
+    },
+    {
+      "id": "s053",
+      "text": "Al-mubtadaʾ: darbuka."
+    },
+    {
+      "id": "s054",
+      "text": "Al-khabar: omitted obligatorily; its implied meaning is 'Your striking the boy is occurring when you act mistakenly.'"
+    },
+    {
+      "id": "s055",
+      "text": "Al-khabar is omitted permissibly:"
+    },
+    {
+      "id": "s056",
+      "text": "— When there is contextual evidence and the meaning is not affected by its omission, e.g.:"
+    },
+    {
+      "id": "s057",
+      "text": "— 'Who is at your place?' You answer: 'Muhammad' — its implied meaning being 'Muhammad is at our place.' Here al-khabar (ʿindana, 'at our place') is omitted because it is mentioned in the question."
+    },
+    {
+      "id": "s058",
+      "text": "Permissible Fronting of Al-Khabar Before Al-Mubtadaʾ"
+    },
+    {
+      "id": "s059",
+      "text": "It is permissible to front al-khabar before al-mubtadaʾ in two cases:"
+    },
+    {
+      "id": "s060",
+      "text": "1 — When al-khabar is a quasi-clause (shibh jumla — i.e., a prepositional or adverbial phrase) and al-mubtadaʾ is definite, e.g.:"
+    },
+    {
+      "id": "s061",
+      "items": [
+        {
+          "transliteration": "fi al-taʾanni al-salamat-u",
+          "text": "— In deliberation [lies] safety."
+        }
+      ]
+    },
+    {
+      "id": "s062",
+      "text": "fi al-taʾanni: a quasi-clause consisting of a preposition and its object — a fronted khabar."
+    },
+    {
+      "id": "s063",
+      "text": "al-salama: a postponed mubtadaʾ."
+    },
+    {
+      "id": "s064",
+      "text": "2 — When the meaning of al-khabar requires it to take initial position, e.g.:"
+    },
+    {
+      "id": "s065",
+      "items": [
+        {
+          "transliteration": "mamnuʿ-un al-tadkhin-u",
+          "text": "— Smoking is forbidden. (lit. 'Forbidden [is] the smoking')"
+        }
+      ]
+    },
+    {
+      "id": "s066",
+      "text": "Obligatory Fronting of Al-Khabar Before Al-Mubtadaʾ"
+    },
+    {
+      "id": "s067",
+      "text": "Al-khabar must be fronted before al-mubtadaʾ in four cases:"
+    },
+    {
+      "id": "s068",
+      "text": "1 — When al-khabar is a quasi-clause and al-mubtadaʾ is indefinite, e.g.:"
+    },
+    {
+      "id": "s069",
+      "items": [
+        {
+          "transliteration": "fi bayti-na dayf-un",
+          "text": "— In our house [is] a guest."
+        }
+      ]
+    },
+    {
+      "id": "s070",
+      "text": "2 — When al-khabar is a word that requires initial position, such as the interrogative nouns, e.g.:"
+    },
+    {
+      "id": "s071",
+      "items": [
+        {
+          "transliteration": "ayna kitab-u-ka?",
+          "text": "— Where is your book?"
+        },
+        {
+          "transliteration": "mata al-liqaʾ-u?",
+          "text": "— When is the meeting?"
+        }
+      ]
+    },
+    {
+      "id": "s072",
+      "text": "3 — When al-mubtadaʾ has a connected pronoun referring back to something in al-khabar, e.g.:"
+    },
+    {
+      "id": "s073",
+      "items": [
+        {
+          "transliteration": "li-l-nasr-i halawat-u-hu",
+          "text": "— Victory has its sweetness. (lit. 'For victory [is] its sweetness')"
+        },
+        {
+          "transliteration": "li-l-mujtahid-i jazaʾ-u ijtihad-i-hi",
+          "text": "— The diligent one [has] the reward of his diligence."
+        }
+      ]
+    },
+    {
+      "id": "s074",
+      "text": "4 — When al-khabar is restricted by 'illa' (except) or 'innama' (only), e.g.:"
+    },
+    {
+      "id": "s075",
+      "items": [
+        {
+          "transliteration": "ma maʿi illa dirham-un",
+          "text": "— I have nothing but a dirham."
+        },
+        {
+          "transliteration": "innama fi al-dar-i Muhammad-un",
+          "text": "— Only Muhammad is in the house."
+        }
+      ]
+    },
+    {
+      "id": "s076",
+      "text": "Examples of Al-Mubtadaʾ and Al-Khabar from the Noble Quran"
+    },
+    {
+      "id": "s077",
+      "text": "Allah, Glorified and Most High, says in His noble Book:"
+    },
+    {
+      "id": "s078",
+      "items": [
+        "— \"...to fast is best for you...\" — Quran 2:184 (Sahih International)",
+        "— \"And a believing slave is better than a polytheist...\" — Quran 2:221 (Sahih International)",
+        "— \"Muḥammad is not but a messenger...\" — Quran 3:144 (Sahih International)",
+        "— \"...you are only a warner...\" — Quran 11:12 (Sahih International)",
+        "— \"Is there any creator other than Allah...\" — Quran 35:3 (Sahih International)",
+        "— \"And the poets — [only] the deviators follow them...\" — Quran 26:224 (Sahih International)"
+      ]
+    },
+    {
+      "id": "s079",
+      "text": "Exercises on the Iʿrab of Al-Mubtadaʾ and Al-Khabar"
+    },
+    {
+      "id": "s080",
+      "items": [
+        {
+          "transliteration": "Muhammad-un karim-un",
+          "text": "— Muhammad is generous."
+        }
+      ]
+    },
+    {
+      "id": "s081",
+      "text": "Muhammad: mubtadaʾ in the nominative case, with the manifest damma at its end."
+    },
+    {
+      "id": "s082",
+      "text": "karim: khabar in the nominative case, with the manifest damma at its end."
+    },
+    {
+      "id": "s083",
+      "items": [
+        {
+          "transliteration": "anta shujaʿ-un",
+          "text": "— You are brave."
+        }
+      ]
+    },
+    {
+      "id": "s084",
+      "text": "anta: a separate pronoun fixed on fatha, in the position of nominative as a mubtadaʾ."
+    },
+    {
+      "id": "s085",
+      "text": "shujaʿ: khabar in the nominative case, with the manifest damma at its end."
+    },
+    {
+      "id": "s086",
+      "items": [
+        {
+          "transliteration": "la-ʿamri la-adrusann",
+          "text": "— By my life, I shall surely study!"
+        }
+      ]
+    },
+    {
+      "id": "s087",
+      "text": "la-ʿamri: the lam is the lam of inception (lam al-ibtidaʾ) for emphasis. ʿamr: mubtadaʾ in the nominative case, with an estimated damma on the letter preceding the speaker's yaʾ — prevented from appearing because the position is occupied by the appropriate vowel. The yaʾ is a connected pronoun fixed on sukun, in the position of genitive as a mudaf ilayh. Al-khabar is omitted; its implied meaning is 'I swear.'"
+    },
+    {
+      "id": "s088",
+      "text": "la-adrusann: the lam is the link to the response of the oath (lam jawab al-qasam). adrusann: a present-tense verb fixed on fatha because it is attached to the heavy emphatic nun (nun al-tawkid al-thaqila); the nun is a particle with no place in iʿrab. The subject (faʿil) is an obligatorily concealed pronoun whose implied form is 'I' (ana)."
+    },
+    {
+      "id": "s089",
+      "text": "The clause (la-ʿamri) is an opening clause (jumla ibtidaʾiyya) with no place in iʿrab, and the clause (la-adrusann) is the response to the oath, also with no place in iʿrab."
+    },
+    {
+      "id": "s090",
+      "items": [
+        {
+          "transliteration": "layta shiʿri",
+          "text": "— Would that I knew!"
+        }
+      ]
+    },
+    {
+      "id": "s091",
+      "text": "layta: a particle of wishing and accusative-governance, from the sisters of inna (akhawat inna)."
+    },
+    {
+      "id": "s092",
+      "text": "shiʿri: the noun (ism) of layta in the accusative case, with an estimated fatha on the letter preceding the speaker's yaʾ — prevented from appearing because the position is occupied by the appropriate vowel. The yaʾ is a connected pronoun fixed on sukun, in the position of genitive as a mudaf ilayh. Al-khabar is omitted obligatorily."
+    }
+  ]
+}
