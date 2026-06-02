@@ -3,9 +3,9 @@ import { getTranslations } from 'next-intl/server';
 import SectionHeading from '@/components/ui/SectionHeading';
 
 const SCREENSHOTS = [
-  { key: 'lesson', src: '/screenshots/lesson.png' },
-  { key: 'quiz', src: '/screenshots/quiz.png' },
-  { key: 'examples', src: '/screenshots/examples.png' },
+  { key: 'lesson', src: '/screenshots/lesson.webp' },
+  { key: 'quiz', src: '/screenshots/quiz.webp' },
+  { key: 'examples', src: '/screenshots/examples.webp' },
 ] as const;
 
 export default async function Screenshots() {
