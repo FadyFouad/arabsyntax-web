@@ -1,0 +1,412 @@
+{
+  "lesson_id": "alnaat",
+  "language": "en",
+  "title": "The Tawabiʿ (Followers / Dependent Words)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "• Al-tawabiʿ (the followers) are words that do not occupy the position of the essential pillars of speech (such as al-mubtadaʾ and al-khabar, or al-fiʿl and al-faʿil). For this reason, iʿrab does not fall upon them in their own right; rather, they are inflected following the iʿrab of the words preceding them. Since they follow in their iʿrab the words that precede them, and have no independent iʿrab in the sentence, they are called al-tawabiʿ (the followers)."
+    },
+    {
+      "id": "s002",
+      "text": "• Al-tabiʿ (the follower) is what follows what precedes it in iʿrab absolutely."
+    },
+    {
+      "id": "s003",
+      "items": [
+        "1) al-naʿt (descriptive adjective)",
+        "2) al-tawkid (emphasis)",
+        "3) al-ʿatf (conjunction)",
+        "(a) ʿatf al-bayan (explanatory apposition)",
+        "(b) ʿatf al-nasaq (ordinary conjunction)",
+        "4) al-badal (apposition / substitute)"
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "Chapter One"
+    },
+    {
+      "id": "s005",
+      "text": "Chapter on Al-Naʿt"
+    },
+    {
+      "id": "s006",
+      "text": "Definition of Al-Naʿt"
+    },
+    {
+      "id": "s007",
+      "label_en": "Definition",
+      "text": "It is the follower that complements its followed (matbuʿ) — either by clarifying an attribute of the followed itself, e.g.: 'marartu bi-rajulin karim' ('I passed by a generous man'); or by clarifying an attribute of something related to the followed, e.g.: 'marartu bi-rajulin karim-un abu-hu' ('I passed by a man whose father is generous')."
+    },
+    {
+      "id": "s008",
+      "text": "Categories"
+    },
+    {
+      "id": "s009",
+      "text": "It has two categories which we recognize from the previous definition:"
+    },
+    {
+      "id": "s010",
+      "items": [
+        "1 — Al-naʿt al-haqiqi (the true descriptive adjective)",
+        "2 — Al-naʿt al-sababi (the causal descriptive adjective)"
+      ]
+    },
+    {
+      "id": "s011",
+      "text": "Al-Naʿt al-Haqiqi"
+    },
+    {
+      "id": "s012",
+      "text": "It is the one that complements its followed by clarifying an attribute of the followed itself. E.g.: 'marartu bi-rajulin karim' ('I passed by a generous man'), 'hadha ʿalimun sadiq' ('this is a truthful scholar'). Its sign: it contains a concealed pronoun referring back to the noun being qualified (al-manʿut). Or, as Ibn ʿAqil said: it raises a concealed pronoun."
+    },
+    {
+      "id": "s013",
+      "text": "Al-Naʿt al-Sababi"
+    },
+    {
+      "id": "s014",
+      "text": "It is the one that complements its followed by clarifying an attribute of something related to it (its 'sababi'). E.g.: 'marartu bi-rajulin karim-un abu-hu' ('I passed by a man whose father is generous'); 'hadha rajulun kathirun ʿataʾuhu' ('this is a man whose giving is abundant'); 'ishtaraytu baytan muttasiʿan arjaʾuhu, badiʿan athathuhu' ('I bought a house whose corners are spacious and whose furniture is exquisite'). Its sign: it raises a manifest noun after it."
+    },
+    {
+      "id": "s015",
+      "text": "Examples of Al-Naʿt al-Haqiqi:"
+    },
+    {
+      "id": "s016",
+      "items": [
+        "• \"And he said, 'O my sons, do not enter from one gate but enter from different gates...'\" — Quran 12:67 (paraphrase: bab wahid 'one gate', abwab mutafarriqa 'different gates')",
+        "• \"And they sold him for a reduced price — a few dirhams.\" — Quran 12:20 (Sahih International) — (mutafarriqa, maʿduda are al-naʿt al-haqiqi)"
+      ]
+    },
+    {
+      "id": "s017",
+      "text": "Examples of Al-Naʿt al-Sababi:"
+    },
+    {
+      "id": "s018",
+      "items": [
+        "• \"Our Lord, take us out of this city of oppressive people...\" — Quran 4:75 (Sahih International) — (al-zalim ahluha)",
+        "• \"...so We brought forth thereby fruits of varying colors.\" — Quran (paraphrase: mukhtalifan alwanuha)"
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "• In His saying Most High: \"Indeed, it is a yellow cow whose color is bright.\" — Quran 2:69 (paraphrase)"
+    },
+    {
+      "id": "s020",
+      "text": "(safraʾ) is al-naʿt al-haqiqi.\n(faqiʿ) is al-naʿt al-sababi."
+    },
+    {
+      "id": "s021",
+      "text": "The Most Common Purposes of Al-Naʿt:"
+    },
+    {
+      "id": "s022",
+      "text": "• Specification (takhsis): e.g., 'marartu bi-Zayd al-khayyat' ('I passed by Zayd the tailor'), 'raʾaytu Muhammadan al-talib' ('I saw Muhammad the student'), 'hadhihi Hindun al-shaʿira' ('this is Hind the poetess'), 'istamaʿtu ila rajulin faqih' ('I listened to a learned man')..."
+    },
+    {
+      "id": "s023",
+      "text": "• Praise (madh): e.g., 'qaraʾtu ʿan Hatim al-karim' ('I read about the generous Hatim'), 'qaraʾtu fi sirat ʿUmar bn al-Khattab al-ʿadil al-rahim qalbuhu' ('I read in the biography of ʿUmar ibn al-Khattab the just, the merciful of heart'), 'kuntu ʿinda sadiqi al-wafiyy' ('I was at my faithful friend's')..."
+    },
+    {
+      "id": "s024",
+      "text": "• Censure (dhamm): e.g., 'marartu bi-Zaydin al-fasiq' ('I passed by Zayd the corrupt one'), 'wajihu al-ʿaduww al-mujrim' ('confront the criminal enemy'), 'qaraʾtu ʿan Musaylima al-kadhdhab' ('I read about Musaylima the liar'), 'wa-ʿan al-Hajjaj al-taghiya' ('and about al-Hajjaj the tyrant')..."
+    },
+    {
+      "id": "s025",
+      "text": "• Compassion (tarahhum): e.g., 'marartu bi-Zayd al-miskin' ('I passed by Zayd the wretched'), 'ashfaqtu ʿala al-tifl al-yatim' ('I had compassion for the orphaned child'), 'tarfaq bi-l-daʿif al-baʾis' ('be gentle with the wretched weak one'), 'irʾaf bi-l-armala al-murdiʿ' ('be merciful to the suckling widow')..."
+    },
+    {
+      "id": "s026",
+      "text": "• Emphasis (taʾkid): 'kana Khalid bn al-Walid yadribu khasmahu al-darbata al-wahida' ('Khalid ibn al-Walid would strike his opponent the single blow'); and the saying: 'amsi al-dabir la yaʿud' ('past, gone-by yesterday does not return')."
+    },
+    {
+      "id": "s027",
+      "text": "Practice:"
+    },
+    {
+      "id": "s028",
+      "items": [
+        "\"Glorify the name of your Lord, the Most Great\" — Quran 87:1 (paraphrase) — Praise (madh)",
+        "\"And when the trumpet is blown with one [blast]\" — Quran 69:13 (paraphrase) — Emphasis (taʾkid)",
+        "\"So seek refuge in Allah from the accursed Satan\" — Quran 16:98 (paraphrase) — Censure (dhamm)",
+        "\"The Hajj is [during] well-known months\" — Quran 2:197 (paraphrase) — Specification (takhsis)",
+        "\"Mothers may breastfeed their children two complete years\" — Quran 2:233 (paraphrase) — Emphasis (taʾkid)",
+        "\"Indeed, he is among Our believing servants\" — Quran 37:111 (paraphrase) — Praise (madh)",
+        "\"We never heard of this from our forefathers\" — Quran 28:36 (paraphrase) — Specification (takhsis)",
+        "\"...and they will not give birth except to a wicked, ungrateful one\" — Quran 71:27 (paraphrase) — Censure (dhamm)",
+        "\"That is ten complete\" — Quran 2:196 (paraphrase) — Emphasis (taʾkid)"
+      ]
+    },
+    {
+      "id": "s029",
+      "text": "What Al-Naʿt Must Agree With In Its Manʿut:"
+    },
+    {
+      "id": "s030",
+      "text": "• If al-naʿt is haqiqi: it agrees with its manʿut absolutely — in iʿrab (nominative, accusative, genitive); in definiteness/indefiniteness; in masculinity/femininity; and in singular/dual/plural."
+    },
+    {
+      "id": "s031",
+      "text": "'Sallamtu ʿala talibatin najiba' ('I greeted a clever female student'); 'aqbala al-talibani al-mutafawwiqan' ('the two excellent students came forward')..."
+    },
+    {
+      "id": "s032",
+      "text": "• If al-naʿt is sababi: it must agree with the manʿut in the first two matters [iʿrab and definiteness]. As for the latter two — its ruling is like that of a verb that raises a manifest noun: it is feminine if what follows it is feminine, even if the manʿut is masculine — e.g., 'marartu bi-rajulin muhsinatin ummuhu' ('I passed by a man whose mother is righteous'). It is masculine if what follows it is masculine, even if the manʿut is feminine — e.g., 'marartu bi-fataatin muhsinin abuha' ('I passed by a young woman whose father is righteous')... It is always singular even if what follows is dual or plural — exactly as the verb stays singular even when the subject is dual or plural."
+    },
+    {
+      "id": "s033",
+      "text": "• You say: 'hadha rajulun fadilun abuhu' ('this is a man whose father is virtuous'); 'hadhani rajulani fadilun abawahuma' ('these are two men whose two fathers are virtuous'); 'haʾulaʾ rijalun fadilun abaʾuhum' ('these are men whose fathers are virtuous')."
+    },
+    {
+      "id": "s034",
+      "text": "Allah Most High said: \"...so We brought forth thereby fruits of varying colors.\" — Quran (paraphrase)"
+    },
+    {
+      "id": "s035",
+      "text": "What May Serve as Al-Naʿt"
+    },
+    {
+      "id": "s036",
+      "text": "1 — A derived noun (mushtaqq). The default is for al-naʿt to be derived — i.e., derived from a masdar to indicate a meaning together with its possessor. This includes ism al-faʿil (active participle), the intensive forms (sigha al-mubalagha), ism al-mafʿul (passive participle), al-sifa al-mushabbaha (resembling adjective), and afʿal al-tafdil (the elative)."
+    },
+    {
+      "id": "s037",
+      "items": [
+        "\"And it was said, 'Away with the wrongdoing people'\" — Quran 23:41 (paraphrase)",
+        "\"...and they will not give birth except to a wicked, ungrateful one\" — Quran 71:27 (paraphrase)",
+        "\"And say, 'My Lord, cause me to land at a blessed landing-place'\" — Quran 23:29 (paraphrase)",
+        "\"Indeed, I am to you a trustworthy messenger\" — Quran 26:107 (paraphrase)",
+        "\"And to Allah belong the most beautiful names\" — Quran 7:180 (paraphrase)"
+      ]
+    },
+    {
+      "id": "s038",
+      "text": "2 — An underived noun (jamid) interpreted as a derived noun. This includes:"
+    },
+    {
+      "id": "s039",
+      "text": "— A demonstrative pronoun: e.g., 'istamaʿtu ila al-nasih hadha' ('I listened to this one — the advisor'). E.g.: \"So taste it for what you forgot of meeting this Day of yours.\" — Quran 32:14 (paraphrase)."
+    },
+    {
+      "id": "s040",
+      "text": "— Dhu (in the meaning of 'sahib') and its forms: e.g., 'innahu rajulun dhu khuluqin' ('he is a man of [good] character'). E.g.: \"In them are fruits and palms with sheathed clusters.\" — Quran 55:11 (paraphrase)."
+    },
+    {
+      "id": "s041",
+      "text": "— A relative pronoun: e.g., 'al-talibatu allati tudhakir aqrabu ila al-najah' ('the female student who studies is closer to success'). E.g.: \"For indeed, it is not eyes that are blinded, but blinded are the hearts which are within the breasts.\" — Quran 22:46 (paraphrase)."
+    },
+    {
+      "id": "s042",
+      "text": "— A relative-adjective noun (ism mansub): e.g., 'al-karam tabʿun ʿarabiyy' ('generosity is an Arab nature')."
+    },
+    {
+      "id": "s043",
+      "text": "Sentence as Al-Naʿt"
+    },
+    {
+      "id": "s044",
+      "text": "• A naʿt may be a sentence; the manʿut must then be indefinite."
+    },
+    {
+      "id": "s045",
+      "items": [
+        "\"And this is a Book which We have sent down — blessed.\" — Quran 6:155 (paraphrase)",
+        "\"And fear a Day in which you will be returned to Allah.\" — Quran 2:281 (paraphrase)",
+        "\"Indeed You will gather the people for a Day about which there is no doubt.\" — Quran 3:9 (paraphrase)",
+        "\"So a wall will be erected between them with a door.\" — Quran 57:13 (paraphrase)",
+        "\"In an elevated garden whose clusters are dangling.\" — Quran 69:22-23 (paraphrase)",
+        "\"He is not but a man with a touch of madness.\" — Quran 23:25 (paraphrase)"
+      ]
+    },
+    {
+      "id": "s046",
+      "text": "Conditions for the Sentence Acting as Al-Naʿt"
+    },
+    {
+      "id": "s047",
+      "text": "Two conditions are required:"
+    },
+    {
+      "id": "s048",
+      "text": "1 — It must contain a pronoun linking it to al-manʿut, whether overt or concealed (as is clear in the examples and verses above). This pronoun may be omitted when the speech indicates it. Ibn ʿAqil cited as evidence the saying of Allah Most High: \"And fear a Day when no soul will avail another soul anything.\" — Quran 2:48 (paraphrase). Here the verbal clause '(la tajzi nafsun)' acts as a naʿt for the indefinite '(yawman)', with the linking pronoun omitted because the speech indicates it — i.e., 'in which no soul will avail [another]'."
+    },
+    {
+      "id": "s049",
+      "text": "[Classical poetry]: 'I do not know whether their separation and the length of time changed them, or wealth they came upon.'"
+    },
+    {
+      "id": "s050",
+      "text": "Here the verbal clause '(asabu)' acts as a naʿt for the indefinite '(malun)', with the linking pronoun omitted because the speech indicates it — i.e., 'wealth they came upon (it)'."
+    },
+    {
+      "id": "s051",
+      "text": "2 — The clause must be declarative (khabariyya), as in all the examples and verses we have seen... For this reason Ibn ʿAqil said: you do not say 'marartu bi-rajulin idribhu' ('I passed by a man — strike him'). Likewise: 'marartu bi-rajulin la tahin-hu' ('do not insult him'); or 'marartu bi-rajulin hal taʿrifu-hu?' ('do you know him?'). Because a request or imperative clause cannot act as a naʿt."
+    },
+    {
+      "id": "s052",
+      "text": "Therefore, when something appears on the surface to have been described by an imperative clause, it is interpreted as containing an implied 'qawl' (saying); that 'qawl' is the actual naʿt, and the imperative clause is in the position of accusative as the spoken content."
+    },
+    {
+      "id": "s053",
+      "text": "[Classical poetry]: 'When the darkness fell and intermingled, they came with milk-and-water of which it could be asked: have you ever seen the wolf?'"
+    },
+    {
+      "id": "s054",
+      "text": "On the surface, the interrogative clause appears to be a naʿt for the indefinite (madhq); but it is not so. Rather, the interrogative clause is the object of an omitted 'qawl' (saying), which is the actual naʿt. The implied form: 'they came with a milk-and-water of which it is said: have you ever seen the wolf?'"
+    },
+    {
+      "id": "s055",
+      "text": "Use of a Masdar as Al-Naʿt"
+    },
+    {
+      "id": "s056",
+      "text": "• We mentioned earlier that the default for al-naʿt is to be a derived noun, indicating both a meaning and its possessor — i.e., an entity characterized by a meaning. This is what aligns with the purpose of al-naʿt."
+    },
+    {
+      "id": "s057",
+      "text": "• However, it is permissible — and indeed common — to use a masdar as a naʿt, even though the masdar's meaning is restricted to the meaning alone, without its possessor."
+    },
+    {
+      "id": "s058",
+      "text": "• In this case, the singular and masculine form is maintained, as Ibn ʿAqil illustrated: 'marartu bi-rajulin ʿadl' ('I passed by a just man'); 'wa-bi-rajulayni ʿadl' ('and by two just men'); 'wa-bi-rijalin ʿadl' ('and by just men'); 'wa-bi-imraʾatin ʿadl' ('and by a just woman'); 'wa-bi-imraʾatayni ʿadl' ('and by two just women'); 'wa-bi-nisaʾin ʿadl' ('and by just women')."
+    },
+    {
+      "id": "s059",
+      "text": "• And: 'huwa rajulun fadl' ('he is a man of merit'); 'raʾaytu fi al-mahkama qadiyayni ʿadlan' ('I saw in the court two just judges'); 'wa-shuhudan sidqan' ('and truthful witnesses'); 'wa-nizaman ridan' ('and a satisfactory order')."
+    },
+    {
+      "id": "s060",
+      "text": "• It is best to say that the masdar functions as al-naʿt directly — without an implied omission, and without interpretation as a derived form. This is more eloquent: it is as though the manʿut has been made to be the very meaning itself, by way of intensification — to express how abundantly that meaning is found in the manʿut..."
+    },
+    {
+      "id": "s061",
+      "text": "• Among the Quranic verses in which the naʿt comes as a masdar:"
+    },
+    {
+      "id": "s062",
+      "items": [
+        "\"And they brought upon his shirt false blood\" — Quran 12:18 (paraphrase) — (kadhibun)",
+        "\"Indeed, we have heard a wondrous Quran\" — Quran 72:1 (paraphrase) — (ʿajaban)",
+        "\"We would have given them abundant water\" — Quran 72:16 (paraphrase) — (ghadaqan)",
+        "\"And whoever turns away from the remembrance of his Lord — He will put him into ever-increasing punishment\" — Quran 72:17 (paraphrase) — (saʿadan)"
+      ]
+    },
+    {
+      "id": "s063",
+      "text": "Multiple Naʿts"
+    },
+    {
+      "id": "s064",
+      "text": "If multiple things are described and the naʿts differ from one another, they must be separated by waw al-ʿatifa (the conjunctive 'and'). E.g.: 'marartu bi-l-Zaydayn al-karim wa-l-bakhil' ('I passed by the two Zayds — the generous one and the miser'); 'wa-bi-rijalin faqihin wa-katibin wa-shaʿirin' ('and by men: a jurist, a writer, and a poet'); 'ahbabtu sadiqatayni muʿtaaʾatan wa-wafiyyatan' ('I loved two friends — generous and faithful'). E.g.: 'I wept the weeping of no man grieving over two homes — one despoiled and the other tattered'. If the naʿts agree in form and meaning, they must not be separated by waw; they are brought as a single word, dual or plural depending on the manʿut. E.g.: 'marartu bi-rajulayni karimayn' ('I passed by two generous men'); 'wa-bi-rijalin kuramaʾ' ('and by generous men'); 'sallamtu ʿala fatayatin muhadhdhabatin' ('I greeted refined young women'); 'akramtu Suʿada wa-Hindan al-faʾizatayn' ('I honored Suʿad and Hind, the two winners'). E.g.: \"Both were under two of Our righteous servants\" — Quran 66:10 (paraphrase); and: \"Rather, they are honored servants\" — Quran 21:26 (paraphrase)."
+    },
+    {
+      "id": "s065",
+      "text": "Iʿrab Ruling for Multiple Naʿts"
+    },
+    {
+      "id": "s066",
+      "text": "1 — When two operands of two operators are described:"
+    },
+    {
+      "id": "s067",
+      "text": "(a) If the two operators agree in meaning and operation, agreement is required absolutely — i.e., al-naʿt is identical in iʿrab to its manʿut. E.g.: 'dhahaba Zaydun wa-intalaqa ʿAmrun al-ʿaqilan' ('Zayd went and ʿAmr departed, the two reasonable ones'); 'haddathtu Zaydan wa-kallamtu ʿAmran al-karimayn' ('I conversed with Zayd and spoke with ʿAmr — the two generous ones'); 'marartu bi-Zaydin wa-juztu ʿala ʿAmrin al-salihayn' ('I passed by Zayd and went past ʿAmr, the two upright'); 'qadima al-musafir wa-hadara al-dayf al-ghaʾiban' ('the traveler arrived and the guest came — the two who had been absent'); 'hadhihi Nura wa-tilka Sara al-najihatan' ('this is Nura and that is Sara — the two successful'); 'absartu al-ghazal wa-raʾaytu al-zaby al-sariʿayn' ('I sighted the gazelle and saw the doe — the two swift ones'); 'dhahabtu ila Makka wa-intalaqtu ila al-Madina al-muqaddasatayn' ('I went to Mecca and set off for al-Madinah, the two sacred')."
+    },
+    {
+      "id": "s068",
+      "text": "(b) If the two operators differ in meaning and operation — or in one of them — separation is required, and agreement is forbidden: 'jaʾa Zaydun wa-dhahaba ʿAmrun al-ʿaqilayn' (with the naʿt cut to nominative or accusative); 'marartu bi-Zaydin, wa-jawaztu Khalidan al-katiban — aw al-katibayn' ('I passed by Zayd and went past Khalid — the two writers'); 'intalaqa Zaydun wa-kallamtu ʿAmran al-zarifan — aw al-zarifayn'; 'aqbala al-dayf wa-insarafa al-zaʾir al-saʾihayn'; 'hadha muʾlimu Muhammadin wa-mujiʿun Khalidan al-shaʿiran'; 'akramtu al-sadiqa wa-sallamtu ʿala al-zamila al-mahbubatan'."
+    },
+    {
+      "id": "s069",
+      "text": "2 — When multiple naʿts apply to a single manʿut:"
+    },
+    {
+      "id": "s070",
+      "text": "(a) If the definite manʿut is not identifiable except through the combined naʿts, agreement is required: e.g., 'marartu bi-Zaydin al-faqih al-shaʿir al-katib' ('I passed by Zayd the jurist, the poet, the writer'); 'sallamtu ʿala Nura al-ustadha al-shaʿira al-nahwiyya'."
+    },
+    {
+      "id": "s071",
+      "text": "(b) If the definite manʿut is identifiable without them, both agreement and cutting are permitted, or agreement in some and cutting in others: e.g., 'qaraʾtu ʿan al-Imam Abi Hanifa al-faqih al-mujtahid al-dhakiyy al-ʿabqariyy' ('I read about Imam Abu Hanifa — the jurist, the diligent scholar, the brilliant, the genius'); 'qaraʾtu ʿan Hatim al-karim al-ʿarabiyy al-sakhiyy'."
+    },
+    {
+      "id": "s072",
+      "text": "(c) If it is identifiable through some but not others, agreement is required for those through which it is identified, and either agreement or cutting is permitted in the rest: e.g., 'sallamtu ʿala Muhammadin al-jar al-wafiyy al-sadiq'..."
+    },
+    {
+      "id": "s073",
+      "text": "(d) If the manʿut is indefinite, agreement is required for the first one (so the indefinite gains specification from it), and either agreement or cutting is permitted in the rest: e.g., 'akramtu talibatan mutafawwiqatan muhadhdhabatan musharikatan'..."
+    },
+    {
+      "id": "s074",
+      "text": "Iʿrab of the Cut Naʿt"
+    },
+    {
+      "id": "s075",
+      "text": "If al-naʿt is 'cut' (separated from its agreement role), it is not parsed as a naʿt; rather, the word transfers from the state of being a naʿt to another iʿrab state..."
+    },
+    {
+      "id": "s076",
+      "text": "If al-naʿt is cut to the nominative, it is parsed as: a khabar of an omitted mubtadaʾ. If it is cut to the accusative, it is parsed as: a direct object of an omitted verb, implied as 'aʿni' ('I mean'). E.g., 'marartu bi-Zaydin al-karimu' or 'marartu bi-Zaydin al-karima'.\nA khabar in the nominative of an omitted mubtadaʾ — implied: 'huwa al-karimu'.\nA direct object in the accusative of an omitted verb — implied: 'aʿni al-karima'."
+    },
+    {
+      "id": "s077",
+      "text": "Is this omitted operator (the mubtadaʾ or the verb) obligatorily omitted, or may it be mentioned?"
+    },
+    {
+      "id": "s078",
+      "text": "If the cut naʿt is for praise, censure, or compassion, the omitted is obligatorily omitted — it cannot be mentioned. E.g., 'qaraʾtu ʿan Hatim al-karimu, wa-l-Hajjaji al-taghiyata, allahumma irham ʿabdaka al-miskinu'."
+    },
+    {
+      "id": "s079",
+      "text": "• Of this is the saying: \"Praise be to Allah, Lord of the worlds, the Most Merciful, the Most Compassionate.\" — Quran 1:2-3 — read [in some recitations] with agreement, with no cutting."
+    },
+    {
+      "id": "s080",
+      "text": "• It has also been read with the nominative on (rabb), (al-rahman), and (al-rahim): \"al-hamdu li-llahi rabbu al-ʿalamina al-rahmanu al-rahimu\" — each one being a khabar of an obligatorily omitted mubtadaʾ, intending praise."
+    },
+    {
+      "id": "s081",
+      "text": "• It has also been read with the accusative on the same words: \"al-hamdu li-llahi rabba al-ʿalamina al-rahmana al-rahima\" — each one being a direct object of an obligatorily omitted verb intending praise, implied as 'aʿni' or 'amdah' ('I mean' or 'I praise')."
+    },
+    {
+      "id": "s082",
+      "text": "Of this is also Allah's saying: \"He will [enter to] burn in a Fire of [blazing] flame, and his wife — the carrier of firewood\" — Quran 111:3-4 (paraphrase)."
+    },
+    {
+      "id": "s083",
+      "text": "hammala: a cut naʿt for censure; parsed as a direct object of an obligatorily omitted verb, implied as 'aʿni' ('I mean') or 'adhumm' ('I censure')."
+    },
+    {
+      "id": "s084",
+      "text": "If al-naʿt is for purposes other than these three — e.g., for specification — and it is cut to the nominative or accusative, the omission of the operator is not obligatory but permitted, as Ibn ʿAqil said: 'marartu bi-Zaydin al-khayyatu, aw al-khayyata' (with the operator implied). And if you wish, you may make it explicit: 'marartu bi-Zaydin huwa al-khayyatu' / 'marartu bi-Zaydin aʿni al-khayyata'. The same applies to: 'sallamtu ʿala Muhammad al-jar...'"
+    },
+    {
+      "id": "s085",
+      "text": "Omission of Al-Manʿut"
+    },
+    {
+      "id": "s086",
+      "text": "It is permitted to omit al-manʿut and have al-naʿt take its place if there is contextual evidence. Ibn ʿAqil cited as evidence the saying of Allah Most High: \"And We softened iron for him, [saying], 'Make full coats of mail [...]'\" — Quran 34:10-11 (paraphrase) — i.e., '[make] full coats of mail (durʿan sabighat)'. What indicates this omitted word is the previous mention of (al-hadid)."
+    },
+    {
+      "id": "s087",
+      "text": "• Other examples of omitting al-manʿut: • \"So let them laugh a little and weep much\" — Quran 9:82 (paraphrase). • \"And only a few believed with him\" — Quran 11:40 (paraphrase). • \"And We carried him on a [ship of] planks and pegs\" — Quran 54:13 (paraphrase). • 'ala maʾun ala baridan' ('is there no [cool] water?')."
+    },
+    {
+      "id": "s088",
+      "text": "Omission of Al-Naʿt"
+    },
+    {
+      "id": "s089",
+      "text": "It is permitted to omit al-naʿt if there is contextual evidence — and this is rare. Ibn ʿAqil cited Allah's saying: \"Indeed, he is not of your family\" — Quran 11:46 (paraphrase). I.e., '[not] of your family — among the saved (al-najin)'."
+    },
+    {
+      "id": "s090",
+      "text": "• And His saying: \"And there was after them a king who seized every ship by force\" — Quran 18:79 (paraphrase) — i.e., 'every sound (salihatin) ship', as evidenced by the previous statement: 'so I intended to defect it'."
+    }
+  ]
+}

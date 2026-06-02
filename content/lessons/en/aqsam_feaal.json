@@ -1,0 +1,172 @@
+{
+  "lesson_id": "aqsam_feaal",
+  "language": "en",
+  "title": "Categories of the Verb (Aqsam al-Fiʿl)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Categories of the Verb by Tense:"
+    },
+    {
+      "id": "s002",
+      "text": "Past (madi), present (mudariʿ), and imperative (amr)."
+    },
+    {
+      "id": "s003",
+      "label_en": "Definition",
+      "text": "Al-madi (past tense): a verb indicating an event in past time, e.g., kharaja ('he went out'), dhakara ('he studied'), laʿiba ('he played'). Going out, playing, and studying are all events that took place in the past."
+    },
+    {
+      "id": "s004",
+      "label_en": "Definition",
+      "text": "Al-mudariʿ (present/imperfect): a verb indicating an event in present time, e.g., yakhruju, yudhakiru, yalʿabu — events still occurring at the time of speaking. It can also indicate the future when preceded by sa- ('shall') or sawfa ('will'), e.g., sa-usafiru / sawfa usafiru ('I will travel')."
+    },
+    {
+      "id": "s005",
+      "label_en": "Definition",
+      "text": "Al-amr (imperative): a verb indicating an event accompanied by a request — and consequently this event has not yet occurred; we are asking someone to do something he has not yet done. E.g., ukhruj ('go out!'), ilʿab ('play!'), dhakir ('study!')."
+    },
+    {
+      "id": "s006",
+      "text": "Categories of the Verb by Iʿrab and Binaʾ:"
+    },
+    {
+      "id": "s007",
+      "text": "All past-tense verbs are mabni (invariable/indeclinable) — e.g., kataba ('he wrote'), istaghfara ('he sought forgiveness'), akalu ('they ate'). The same applies to the imperative — e.g., sariʿu ('hasten!'), nam ('sleep!'), istakhrij ('extract!')."
+    },
+    {
+      "id": "s008",
+      "text": "As for the present-tense verb, it becomes mabni (invariable) in two cases:"
+    },
+    {
+      "id": "s009",
+      "text": "When the nun of the feminine plural (nun al-niswa) is attached to it, e.g., yaʾkulna ('they — fem. — eat'), yatahaddathna ('they — fem. — speak'); or when the nun of emphasis (nun al-tawkid) is attached, e.g., la-adribann ('I shall surely strike'). In all other cases it is muʿrab (declinable), e.g., yamshi ('he walks'), yashrabuna ('they drink')."
+    },
+    {
+      "id": "s010",
+      "text": "Categories of the Verb by Intransitivity or Transitivity:"
+    },
+    {
+      "id": "s011",
+      "text": "The Intransitive Verb (Al-Fiʿl al-Lazim)"
+    },
+    {
+      "id": "s012",
+      "label_en": "Definition",
+      "text": "It is the verb that does not require a direct object, e.g., nama ʿAliyy ('Ali slept'), kharaja al-muʿallim ('the teacher went out')."
+    },
+    {
+      "id": "s013",
+      "text": "If we look at these verbs, we find them not requiring a direct object — the meaning is complete with just the verb and the subject."
+    },
+    {
+      "id": "s014",
+      "text": "The Transitive Verb (Al-Fiʿl al-Mutaʿaddi)"
+    },
+    {
+      "id": "s015",
+      "label_en": "Definition",
+      "text": "It is the verb that governs one or more direct objects in the accusative — e.g., from the saying of Allah Most High: \"Allah presents an example...\" (Daraba Allahu mathalan); \"Allah created the heavens and the earth in truth\" (Khalaqa Allahu al-samawati wa-l-arda bi-l-haqq)."
+    },
+    {
+      "id": "s016",
+      "text": "Thus 'mathalan' is the direct object of the verb 'daraba', and 'al-samawat' is the direct object of the verb 'khalaqa'."
+    },
+    {
+      "id": "s017",
+      "text": "Categories of the Verb by Soundness or Weakness:"
+    },
+    {
+      "id": "s018",
+      "text": "The Sound Verb (Al-Fiʿl al-Sahih)"
+    },
+    {
+      "id": "s019",
+      "label_en": "Definition",
+      "text": "It is the verb whose root letters are free of any weak letter (huruf al-ʿilla) — namely alif, waw, and yaʾ."
+    },
+    {
+      "id": "s020",
+      "text": "It is divided into:"
+    },
+    {
+      "id": "s021",
+      "items": [
+        "Salim ('whole/integral'): a verb whose root letters are free of hamza or gemination, e.g., shariba ('he drank'), sajada ('he prostrated'), dahraja ('he rolled').",
+        "Mahmuz ('hamzated'): a verb one of whose root letters is a hamza, e.g., akala ('he ate'), saʾala ('he asked'), shaʾa ('he willed').",
+        "Mudaʿʿaf ('geminated'): of two types:"
+      ]
+    },
+    {
+      "id": "s022",
+      "text": "Triliteral: ʿadda ('he counted'), shadda ('he tightened'), farra ('he fled')."
+    },
+    {
+      "id": "s023",
+      "text": "Quadriliteral: zalzala ('he shook'), qalqala ('he rattled')."
+    },
+    {
+      "id": "s024",
+      "text": "The Weak Verb (Al-Fiʿl al-Muʿtall)"
+    },
+    {
+      "id": "s025",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-muʿtall (the weak verb) is the verb one of whose root letters is a weak letter — namely alif, waw, or yaʾ."
+    },
+    {
+      "id": "s026",
+      "text": "The basic verbal pattern is the triliteral 'faʿala'. The weak verb is divided into:"
+    },
+    {
+      "id": "s027",
+      "text": "Mithal ('similar'): one whose first root letter (the 'fa' in 'faʿala') is a weak letter, e.g., waqaʿa ('he fell'), yaʾisa ('he despaired')."
+    },
+    {
+      "id": "s028",
+      "text": "Ajwaf ('hollow'): one whose middle root letter (the 'ʿayn' in 'faʿala') is a weak letter, e.g., baʿa ('he sold'), daʿa ('it was lost')."
+    },
+    {
+      "id": "s029",
+      "text": "Naqis ('defective'): one whose final root letter (the 'lam' in 'faʿala') is a weak letter, e.g., hawa ('he fell/loved'), sama ('he rose high')."
+    },
+    {
+      "id": "s030",
+      "text": "Categories of the Verb by Bareness or Augmentation"
+    },
+    {
+      "id": "s031",
+      "text": "The Bare Verb (Al-Fiʿl al-Mujarrad)"
+    },
+    {
+      "id": "s032",
+      "label_en": "Definition",
+      "text": "It is the verb all of whose letters are root letters. It is either:"
+    },
+    {
+      "id": "s033",
+      "text": "Triliteral: kataba ('he wrote'), rakaʿa ('he bowed in prayer')."
+    },
+    {
+      "id": "s034",
+      "text": "Quadriliteral: dahraja ('he rolled'), zalzala ('he shook')."
+    },
+    {
+      "id": "s035",
+      "text": "The Augmented Verb (Al-Fiʿl al-Mazid)"
+    },
+    {
+      "id": "s036",
+      "label_en": "Definition",
+      "text": "It is the verb to which one or more letters have been added beyond its roots. It is either:"
+    },
+    {
+      "id": "s037",
+      "text": "Augmented triliteral: a triliteral with one, two, or three added letters, e.g., kataba → kataba ('he corresponded'), indafaʿa ('he rushed forth'), istaqama ('he became upright/straight')."
+    },
+    {
+      "id": "s038",
+      "text": "Augmented quadriliteral: a quadriliteral with one or two added letters, e.g., tadahraja ('it rolled along'), itmaʾanna ('he became reassured')."
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "lesson_id": "esm_tafdeel",
+  "language": "en",
+  "title": "Definition of Ism al-Tafdil (the Elative — Comparative/Superlative)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "al-fahd-u asraʿ-u min al-asad",
+          "text": "— The cheetah is faster than the lion."
+        },
+        {
+          "transliteration": "al-fil-u adkham-u min al-jamal",
+          "text": "— The elephant is bigger than the camel."
+        },
+        {
+          "transliteration": "Kamal-un atyab-u min Saʿid",
+          "text": "— Kamal is kinder than Saʿid."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "If you reflect on the underlined words (asraʿ, adkham, atyab), you will find them to be nouns indicating that two things share a particular attribute, but one of them surpasses the other in it. The cheetah and the lion both share in 'speed', but the cheetah surpasses the lion in this attribute."
+    },
+    {
+      "id": "s004",
+      "text": "The same applies to the words 'adkham' and 'atyab'. These words are called ism al-tafdil (the elative — comparative or superlative). What precedes it is called al-mufaddal ('the preferred'); what follows it is called al-mufaddal ʿalayh ('the one over which preference is given')."
+    },
+    {
+      "id": "s005",
+      "label_en": "Definition",
+      "text": "Ism al-tafdil (the elative): a noun indicating that two things share in a single matter, but one of them surpasses the other in that matter. It comes on the pattern 'afʿal'."
+    },
+    {
+      "id": "s006",
+      "text": "Examples of Ism al-Tafdil"
+    },
+    {
+      "id": "s007",
+      "items": [
+        {
+          "transliteration": "al-ʿilm-u anfaʿ-u min al-mal",
+          "text": "— Knowledge is more beneficial than wealth."
+        },
+        {
+          "transliteration": "al-shams-u akbar-u min al-ard",
+          "text": "— The sun is bigger than the earth."
+        },
+        {
+          "transliteration": "al-sukut-u afdal-u min al-kalam",
+          "text": "— Silence is better than speech."
+        },
+        {
+          "transliteration": "shahad-tu imraʾat-an ajmal-a min al-qamar",
+          "text": "— I saw a woman more beautiful than the moon."
+        }
+      ]
+    },
+    {
+      "id": "s008",
+      "text": "Conditions for Ism al-Tafdil"
+    },
+    {
+      "id": "s009",
+      "text": "Ism al-tafdil is formed from a verb that meets the following conditions:"
+    },
+    {
+      "id": "s010",
+      "items": [
+        "1 — The verb is triliteral; it is not formed from a quadriliteral or quintiliteral verb. E.g.:",
+        "2 — The verb is in the active voice; it is not formed from a passive-voice verb. E.g.:",
+        "3 — The verb is complete (not 'kana' or its sisters, which are incomplete).",
+        "4 — The verb is flexible (mutasarrif); it is not formed from an inflexible (jamid) verb. E.g.:",
+        "5 — The verb is affirmative; it is not formed from a negated verb. E.g.:",
+        "6 — Its descriptive adjective is not on the pattern 'afʿal' (i.e., colors and physical defects). E.g.:",
+        "7 — The verb is capable of variation and gradation. E.g.:"
+      ]
+    },
+    {
+      "id": "s011",
+      "items": [
+        {
+          "transliteration": "laʿiba : alʿabu",
+          "text": "(played : I play)"
+        },
+        {
+          "transliteration": "kataba : aktubu",
+          "text": "(wrote : I write)"
+        },
+        {
+          "transliteration": "nasara : ansaru",
+          "text": "(aided : I aid)"
+        },
+        {
+          "transliteration": "fadula : afdal",
+          "text": "(was preferred : more preferred)"
+        },
+        {
+          "transliteration": "ahmar, azraq, akhdar",
+          "text": "— No ism al-tafdil is formed from these adjectives (red, blue, green) since they are themselves on the pattern afʿal."
+        },
+        {
+          "transliteration": "saruʿa : asraʿ",
+          "text": "(was fast : faster)"
+        },
+        {
+          "transliteration": "mata",
+          "text": "(died — not capable of variation/gradation)"
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "text": "Question: How is ism al-tafdil formed if the verb does not meet the previous conditions?"
+    },
+    {
+      "id": "s013",
+      "text": "If the verb does not meet the previous conditions, ism al-tafdil is formed from it by adding the verbal noun (masdar) in the accusative after one of the following words: ashadd ('more intense'), akthar ('more'), akbar ('greater'), etc. These verbal nouns are parsed as tamyiz (specification) in the accusative. For example:"
+    },
+    {
+      "id": "s014",
+      "items": [
+        {
+          "transliteration": "ʿAliyy-un akthar-u tasamuhan min akhi-hi",
+          "text": "— Ali is more tolerant than his brother."
+        },
+        {
+          "transliteration": "Rashid ashadd-u tahammulan li-l-masaʿib min Hisham",
+          "text": "— Rashid is stronger in bearing hardships than Hisham."
+        }
+      ]
+    },
+    {
+      "id": "s015",
+      "text": "Note: Three words in Arabic occur without the hamza but still convey 'preference'. They are: khayr ('better'), sharr ('worse'), and habb ('more loved'). They convey what 'akhyar', 'ashadd', and 'ahabb' would. For example:"
+    },
+    {
+      "id": "s016",
+      "items": [
+        {
+          "text": "— Allah Most High said, on the tongue of Iblis exalting himself over Adam: \"I am better than him.\" — Quran 7:12 (Sahih International)"
+        },
+        {
+          "transliteration": "sharr-u al-nas-i aktharu-hum isaʾat-an li-ghayri-him",
+          "text": "— The worst of people are those who do the most harm to others."
+        }
+      ]
+    },
+    {
+      "id": "s017",
+      "text": "Ism al-Tafdil: Its States and Its Operation"
+    },
+    {
+      "id": "s018",
+      "text": "Ism al-tafdil is used in four states:"
+    },
+    {
+      "id": "s019",
+      "text": "1 — Free of 'al-' and Construct (Idafa)"
+    },
+    {
+      "id": "s020",
+      "text": "In this state, ism al-tafdil is masculine singular, and the al-mufaddal ʿalayh follows it in the genitive after 'min'. E.g.:"
+    },
+    {
+      "id": "s021",
+      "items": [
+        {
+          "transliteration": "al-ʿilm-u anfaʿ-u min al-mal",
+          "text": "— Knowledge is more beneficial than wealth."
+        }
+      ]
+    },
+    {
+      "id": "s022",
+      "text": "Al-mufaddal: al-ʿilm.\nIsm al-tafdil: anfaʿ.\nAl-mufaddal ʿalayh: al-mal."
+    },
+    {
+      "id": "s023",
+      "text": "2 — Made Definite with 'Al-'"
+    },
+    {
+      "id": "s024",
+      "text": "In this state, ism al-tafdil agrees with al-mufaddal in masculinity, femininity, singularity, duality, and plurality; and al-mufaddal ʿalayh is not mentioned. E.g.:"
+    },
+    {
+      "id": "s025",
+      "items": [
+        {
+          "transliteration": "al-walad-u al-akbar-u dhakiyy",
+          "text": "— The eldest boy is intelligent."
+        },
+        {
+          "transliteration": "al-baqarat-u al-kubrayat-u hazilat",
+          "text": "— The largest cows are emaciated."
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "text": "Al-mufaddal: al-walad.\nIsm al-tafdil: al-akbar."
+    },
+    {
+      "id": "s027",
+      "text": "Al-mufaddal: al-baqarat.\nIsm al-tafdil: al-kubrayat."
+    },
+    {
+      "id": "s028",
+      "text": "3 — Annexed to an Indefinite Noun"
+    },
+    {
+      "id": "s029",
+      "text": "In this state, ism al-tafdil is masculine singular, and the noun following it agrees with the noun before it in masculinity and femininity. E.g.:"
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "al-kitab-u afdal-u Samir",
+          "text": "— The book is the best [of any companion] of Samir."
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "Al-mufaddal: al-kitab.\nIsm al-tafdil: afdal.\nAl-mufaddal ʿalayh: Samir."
+    },
+    {
+      "id": "s032",
+      "text": "4 — Annexed to a Definite Noun"
+    },
+    {
+      "id": "s033",
+      "text": "In this state, it may agree with the noun preceding it (as with the form made definite by 'al-'), or it may stay singular and masculine (as with the form annexed to an indefinite noun). E.g.:"
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "al-sadiq-u khayr-u al-anis",
+          "text": "— A friend is the best of companions."
+        },
+        {
+          "transliteration": "al-sadiqani khayra al-jalisayn",
+          "text": "— Two friends are the best of two companions."
+        },
+        {
+          "transliteration": "Makka wa-l-Madina ashraf-u al-mudun — aw ashrafa al-mudun",
+          "text": "— Mecca and al-Madinah are the most honored of cities — or 'the two most honored of cities'."
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "The Operation of Ism al-Tafdil"
+    },
+    {
+      "id": "s036",
+      "text": "Ism al-tafdil operates like a verb, raising a subject (faʿil) in two cases:"
+    },
+    {
+      "id": "s037",
+      "text": "1 — It raises a concealed pronoun if no verb of the same meaning could fit in its place. E.g.:"
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "ʿAliyy-un asdaq-u min Salim",
+          "text": "— Ali is more truthful than Salim."
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "Implied: 'ʿAliyy is more truthful — he — than Salim.' The pronoun 'huwa' is in the position of nominative as the subject (faʿil) of 'asdaq'."
+    },
+    {
+      "id": "s040",
+      "text": "2 — Ism al-tafdil may raise a manifest noun (a faʿil) if a verb of its meaning could fit in its place. E.g.:"
+    },
+    {
+      "id": "s041",
+      "items": [
+        {
+          "transliteration": "ma raʾay-tu rajulan ahsan-a fi ʿayn-i-hi al-kuhl-u min-hu fi ʿayn-i Zayd",
+          "text": "— I have not seen a man on whom kohl looks better in his eye than it looks on Zayd."
+        }
+      ]
+    },
+    {
+      "id": "s042",
+      "text": "The word 'al-kuhl' is in the nominative, raised by 'ahsan', because a verb of its meaning could fit there. The implied form: 'ma raʾaytu rajulan yahsunu fi ʿaynihi al-kuhlu ka-Zayd' ('I have not seen a man on whom kohl looks beautiful in his eye like Zayd')."
+    },
+    {
+      "id": "s043",
+      "text": "Examples of Iʿrab for Ism al-Tafdil"
+    },
+    {
+      "id": "s044",
+      "items": [
+        {
+          "transliteration": "inna asdaq-a al-hadith-i kitab-u Allah",
+          "text": "— Indeed, the most truthful of speech is the Book of Allah."
+        }
+      ]
+    },
+    {
+      "id": "s045",
+      "text": "inna: a particle of emphasis and accusative-governance.\nasdaq: ism inna in the accusative, marked by the manifest fatha at its end; a mudaf.\nal-hadith: a mudaf ilayh in the genitive, marked by the manifest kasra.\nkitab: khabar inna in the nominative, marked by the manifest damma; a mudaf.\nAllah: the divine name, a mudaf ilayh in the genitive, marked by the manifest kasra."
+    },
+    {
+      "id": "s046",
+      "items": [
+        {
+          "transliteration": "ʿAliyy-un afsah-u lahjatan",
+          "text": "— Ali is more eloquent in dialect."
+        }
+      ]
+    },
+    {
+      "id": "s047",
+      "text": "ʿAliyy: mubtadaʾ in the nominative, marked by the manifest damma.\nafsah: khabar in the nominative, marked by the manifest damma; its subject is a permissibly concealed pronoun, implied as 'huwa'.\nlahjatan: tamyiz (specification) in the accusative, marked by the manifest fatha."
+    },
+    {
+      "id": "s048",
+      "items": [
+        {
+          "transliteration": "khayr-u al-nas-i anfaʿ-u-hum li-l-nas",
+          "text": "— The best of people is the most beneficial of them to others."
+        }
+      ]
+    },
+    {
+      "id": "s049",
+      "text": "khayr: mubtadaʾ in the nominative, marked by the manifest damma; a mudaf. It is an irregular ism al-tafdil — its original form would have been 'akhyar'.\nal-nas: a mudaf ilayh in the genitive, marked by the manifest kasra.\nanfaʿu-hum: khabar in the nominative; an ism al-tafdil annexed to a definite noun ('hum'), which is a separate pronoun in the position of genitive as a mudaf ilayh.\nli-l-nas: a prepositional phrase attached to 'anfaʿ'."
+    },
+    {
+      "id": "s050",
+      "items": [
+        {
+          "text": "— Allah Most High said: \"He said, 'My Lord, prison is more to my liking than that to which they invite me.'\" — Quran 12:33 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s051",
+      "text": "qala: a past-tense verb fixed on the manifest fatha; the subject is a permissibly concealed pronoun, implied as 'huwa'.\nrabb: a vocative with an omitted vocative particle (implied 'ya rabb'); a mudaf in the accusative, marked by an estimated fatha at its end.\nal-sijn: mubtadaʾ in the nominative, marked by the manifest damma at its end.\nahabb: khabar in the nominative, marked by the manifest damma at its end.\nilayya: a prepositional phrase attached to 'ahabb'.\nmimma: originally 'min ma'; 'min' is a preposition, 'ma' is a relative pronoun fixed on sukun, in the position of genitive after 'min'. The phrase is attached to 'ahabb'; the clause that follows is in the position of accusative as a direct object.\nyadʿuna-ni: a present-tense verb in the nominative, marked by the retention of the nun; the waw is a connected pronoun in the position of nominative as the subject; the nun is the protective nun (nun al-wiqaya); the yaʾ is a connected pronoun fixed on sukun, in the position of accusative as the direct object.\nilayhi: a prepositional phrase attached to 'yadʿunani'."
+    },
+    {
+      "id": "s052",
+      "text": "Exercises on Ism al-Tafdil"
+    },
+    {
+      "id": "s053",
+      "text": "1 — Form ism al-tafdil from the following verbs and use them in meaningful sentences:"
+    },
+    {
+      "id": "s054",
+      "items": [
+        {
+          "transliteration": "ʿalima",
+          "text": "(he knew)"
+        },
+        {
+          "transliteration": "jamula",
+          "text": "(he was beautiful)"
+        },
+        {
+          "transliteration": "qaraʾa",
+          "text": "(he read)"
+        },
+        {
+          "transliteration": "saʿida",
+          "text": "(he was happy)"
+        },
+        {
+          "transliteration": "sharufa",
+          "text": "(he was honored)"
+        },
+        {
+          "transliteration": "saruʿa",
+          "text": "(he was swift)"
+        }
+      ]
+    },
+    {
+      "id": "s055",
+      "text": "2 — Identify ism al-tafdil in the following:"
+    },
+    {
+      "id": "s056",
+      "items": [
+        {
+          "text": "— Allah Most High said: \"I am greater than you in wealth and mightier in [numbers of] men.\" — Quran 18:34 (Sahih International)"
+        },
+        {
+          "transliteration": "al-yad-u al-ʿulya khayr-un min al-yad-i al-sufla",
+          "text": "— 'The upper hand is better than the lower hand.' (Hadith)"
+        },
+        {
+          "transliteration": "al-mustaqim-u asʿad-u al-nas-i fi hayat-i-hi",
+          "text": "— The upright person is the happiest of people in his life."
+        },
+        {
+          "transliteration": "qiraʾat-un fi kitabin afdal-u min jalis-i al-suʾ",
+          "text": "— Reading a book is better than the company of an evil companion."
+        }
+      ]
+    },
+    {
+      "id": "s057",
+      "text": "3 — Provide the iʿrab for the underlined portions:"
+    },
+    {
+      "id": "s058",
+      "items": [
+        {
+          "text": "— [Al-Qarawi, classical poetry]: 'That is purer in fragrance and gentler in embrace; through its touch the bodies are healed.'"
+        },
+        {
+          "text": "— \"Indeed, the worst of living creatures in the sight of Allah are the deaf and dumb who do not use reason.\" — Quran 8:22 (Sahih International)"
+        }
+      ]
+    }
+  ]
+}

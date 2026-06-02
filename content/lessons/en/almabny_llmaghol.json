@@ -1,0 +1,283 @@
+{
+  "lesson_id": "almabny_llmaghol",
+  "language": "en",
+  "title": "Definition of the Active-Voice Verb (Al-Fiʿl al-Mabni li-l-Maʿlum)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "If we hear a speaker say: daraba al-muʿallimu al-tifla ('the teacher struck the child')."
+    },
+    {
+      "id": "s002",
+      "text": "We understand that the one who struck the child is the teacher. So the doer (faʿil) of the striking is — therefore — known. For this reason we say: the verb (daraba), whose subject is known, is a verb in the active voice (mabni li-l-maʿlum)."
+    },
+    {
+      "id": "s003",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-mabni li-l-maʿlum (the active-voice verb) is the verb whose subject (faʿil) is mentioned and known — whether that subject is a manifest noun, an overt pronoun, or a concealed pronoun."
+    },
+    {
+      "id": "s004",
+      "text": "Definition of the Passive-Voice Verb (Al-Fiʿl al-Mabni li-l-Majhul)"
+    },
+    {
+      "id": "s005",
+      "text": "If we hear a speaker say: duriba al-tiflu ('the child was struck')."
+    },
+    {
+      "id": "s006",
+      "text": "We know that the child was struck, but we do not know who struck him — that is, we do not know its subject. For this reason we say: the verb (duriba), whose subject is omitted, is a verb in the passive voice (mabni li-l-majhul)."
+    },
+    {
+      "id": "s007",
+      "label_en": "Definition",
+      "text": "Al-fiʿl al-mabni li-l-majhul (the passive-voice verb) is the verb whose subject is not mentioned along with it; the direct object (mafʿul bih) takes the role of subject (naʾib al-faʿil — 'deputy subject')."
+    },
+    {
+      "id": "s008",
+      "text": "Examples of Active and Passive Voice Verbs"
+    },
+    {
+      "id": "s009",
+      "items": [
+        {
+          "transliteration": "qada al-raʿi al-qatiʿ-a",
+          "text": "— The shepherd led the flock. (active)"
+        },
+        {
+          "transliteration": "qarrar-tu al-rahil-a",
+          "text": "— I decided on departure. (active)"
+        },
+        {
+          "transliteration": "shariba al-marid-u al-dawaʾ-a",
+          "text": "— The patient drank the medicine. (active)"
+        },
+        {
+          "transliteration": "qussima al-irth-u",
+          "text": "— The inheritance was divided. (passive)"
+        },
+        {
+          "transliteration": "ustudʿiya al-muttaham-u",
+          "text": "— The accused was summoned. (passive)"
+        },
+        {
+          "transliteration": "yuʿaz-u al-muʾminun",
+          "text": "— The believers are admonished. (passive)"
+        }
+      ]
+    },
+    {
+      "id": "s010",
+      "text": "Forming the Passive-Voice Verb from the Active-Voice Verb"
+    },
+    {
+      "id": "s011",
+      "text": "1 — A past-tense verb is made passive — when it ends in a sound consonant — by giving its first letter a damma and the letter before its last a kasra. For example:"
+    },
+    {
+      "id": "s012",
+      "items": [
+        {
+          "transliteration": "laʿiba : luʿib",
+          "text": "(active: he played) : (passive: was played)."
+        },
+        {
+          "transliteration": "dahraja : duhrija",
+          "text": "(active: he rolled [something]) : (passive: was rolled)."
+        }
+      ]
+    },
+    {
+      "id": "s013",
+      "text": "2 — If the past-tense verb has a weak final or pre-final letter, it is made passive by converting its alif to yaʾ; the kasra is given if it is a triliteral hollow verb (ajwaf). For example:"
+    },
+    {
+      "id": "s014",
+      "items": [
+        {
+          "transliteration": "qala : qila",
+          "text": "(active: he said) : (passive: was said)."
+        },
+        {
+          "transliteration": "istadʿa : ustudʿiya",
+          "text": "(active: he summoned) : (passive: was summoned)."
+        }
+      ]
+    },
+    {
+      "id": "s015",
+      "text": "3 — A hollow verb beyond the triliteral pattern is made passive by giving its first letter a damma and converting the alif before its last letter to yaʾ. For example:"
+    },
+    {
+      "id": "s016",
+      "items": [
+        {
+          "transliteration": "aʿana : uʿina",
+          "text": "(active: he aided) : (passive: was aided)."
+        },
+        {
+          "transliteration": "istafada : ustufida",
+          "text": "(active: he benefited) : (passive: was benefited from)."
+        },
+        {
+          "transliteration": "istataʿa : ustutiʿa",
+          "text": "(active: he was able) : (passive: was made possible)."
+        }
+      ]
+    },
+    {
+      "id": "s017",
+      "text": "4 — If the sound verb is augmented by an alif, the augmented letter is converted to waw. For example:"
+    },
+    {
+      "id": "s018",
+      "items": [
+        {
+          "transliteration": "baraka : burika",
+          "text": "(active: he blessed) : (passive: was blessed)."
+        },
+        {
+          "transliteration": "sharaka : shurika",
+          "text": "(active: he shared/partnered) : (passive: was partnered with)."
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "5 — If the past-tense verb is geminated (mudaʿʿaf — i.e., doubled root letter), only its first letter is given a damma. For example:"
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "radda : rudda",
+          "text": "(active: he returned [something]) : (passive: was returned)."
+        },
+        {
+          "transliteration": "sadda : sudda",
+          "text": "(active: he blocked) : (passive: was blocked)."
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "6 — If the past-tense verb is defective (naqis — i.e., its last root letter is a weak letter, often alif), this alif is frequently converted to yaʾ. For example:"
+    },
+    {
+      "id": "s022",
+      "items": [
+        {
+          "transliteration": "raʿa : ruʿiya",
+          "text": "(active: he tended/herded) : (passive: was tended)."
+        },
+        {
+          "transliteration": "daʿa : duʿiya",
+          "text": "(active: he called) : (passive: was called)."
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "text": "7 — A present-tense verb is made passive by giving its first letter a damma and the letter before its last a fatha. For example:"
+    },
+    {
+      "id": "s024",
+      "items": [
+        {
+          "transliteration": "yasʿadu : yusʿadu",
+          "text": "(active: he ascends) : (passive: is ascended/raised)."
+        }
+      ]
+    },
+    {
+      "id": "s025",
+      "text": "8 — A present-tense verb is made passive — when it has a weak final or pre-final letter — by giving its first letter a damma and converting the long-vowel letter to alif. For example:"
+    },
+    {
+      "id": "s026",
+      "items": [
+        {
+          "transliteration": "yalumu : yulamu",
+          "text": "(active: he blames) : (passive: is blamed)."
+        },
+        {
+          "transliteration": "yabiʿu : yubaʿu",
+          "text": "(active: he sells) : (passive: is sold)."
+        },
+        {
+          "transliteration": "yajni : yujna",
+          "text": "(active: he reaps) : (passive: is reaped)."
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "text": "9 — When a verb that takes two objects is made passive, the first direct object becomes naʾib al-faʿil (the deputy subject), while the second direct object remains as the second direct object. Example:"
+    },
+    {
+      "id": "s028",
+      "items": [
+        {
+          "transliteration": "aʿta Saʿid Bashshar (mafʿul bih awwal) malan (mafʿul bih than)",
+          "text": "— Saʿid gave Bashshar (1st direct object) money (2nd direct object). (active)"
+        },
+        {
+          "transliteration": "uʿtiya Bashshar (naʾib faʿil) malan (mafʿul bih than)",
+          "text": "— Bashshar (deputy subject) was given money (2nd direct object). (passive)"
+        }
+      ]
+    },
+    {
+      "id": "s029",
+      "text": "Iʿrab of the Active and Passive Voice Verbs"
+    },
+    {
+      "id": "s030",
+      "text": "— akala al-tiflu al-tuffaha ('the child ate the apple').\nakala: a past-tense verb fixed on the manifest fatha at its end.\nal-tiflu: the subject (faʿil) in the nominative case, marked by the manifest damma at its end.\nal-tuffaha: the direct object in the accusative case, marked by the manifest fatha at its end."
+    },
+    {
+      "id": "s031",
+      "text": "— kusiya al-saʾilu thawban ('the beggar was clothed in a garment').\nkusiya: a past-tense verb fixed on the manifest fatha at its end, in the passive voice.\nal-saʾilu: the deputy subject (naʾib al-faʿil) in the nominative case, marked by the manifest damma.\nthawban: a second direct object in the accusative case, marked by the manifest fatha."
+    },
+    {
+      "id": "s032",
+      "text": "Question: Why is (thawban) parsed as a second direct object?"
+    },
+    {
+      "id": "s033",
+      "text": "Answer: Because the first direct object (al-saʾil) was promoted to deputy subject. The original active form would have been, for example: kasa Nabilun al-saʾila thawban ('Nabil clothed the beggar in a garment')."
+    },
+    {
+      "id": "s034",
+      "text": "— khubbira al-bakhilu al-ihsana wajiban ('the miser was informed that benevolence is obligatory').\nkhubbira: a past-tense verb fixed on the manifest fatha at its end, in the passive voice.\nal-bakhilu: the deputy subject in the nominative case, marked by the manifest damma.\nal-ihsan: a second direct object in the accusative case, marked by the manifest fatha.\nwajiban: a third direct object in the accusative case, marked by the manifest fatha."
+    },
+    {
+      "id": "s035",
+      "text": "The Passive-Voice Verb in the Noble Quran"
+    },
+    {
+      "id": "s036",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s037",
+      "items": [
+        {
+          "text": "— \"And the earth and the mountains are lifted and leveled with one blow.\" — Quran 69:14 (Sahih International)"
+        },
+        {
+          "text": "— \"The Day the shin will be uncovered...\" — Quran 68:42 (Sahih International)"
+        },
+        {
+          "text": "— \"And when regret overcame them...\" (literally 'when [it] was dropped into their hands') — Quran 7:149 (Sahih International)"
+        },
+        {
+          "text": "— \"...and the matter was accomplished, and it [the ship] came to rest on Mount Judi.\" — Quran 11:44 (Sahih International)"
+        },
+        {
+          "text": "— \"...and their hearts were sealed over, so they do not understand.\" — Quran 9:87 (Sahih International)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "lesson_id": "esm_eshara",
+  "language": "en",
+  "title": "Definition of Demonstrative Pronouns (Asmaʾ al-Ishara)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Ism al-ishara (the demonstrative pronoun) is a definite noun that refers to a specific entity, indicated by sensory pointing."
+    },
+    {
+      "id": "s002",
+      "text": "Demonstrative Pronouns in Sentences"
+    },
+    {
+      "id": "s003",
+      "items": [
+        "— hadha rajulun sharif ('this is an honorable man')",
+        "— dha tiflun mushaghib ('that is a mischievous child')",
+        "— hadhani waladani muhadhdhaban ('these two are well-mannered boys')",
+        "— hadhihi hujratun wasiʿa ('this is a spacious room')",
+        "— haʾulaʾ sunnaʿun mahirun ('these are skilled craftsmen')"
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "If you reflect on these nouns in the sentences above, you find that they refer to one, two, or several things being pointed to."
+    },
+    {
+      "id": "s005",
+      "text": "When you say 'hadha rajulun sharif' ('this is an honorable man'), the word 'hadha' refers to the existence of a man being pointed to, and informs about him as being honorable. For this reason, these words are called asmaʾ al-ishara (demonstrative pronouns)."
+    },
+    {
+      "id": "s006",
+      "text": "Categories of the Demonstrative Pronouns"
+    },
+    {
+      "id": "s007",
+      "text": "1 — Singular"
+    },
+    {
+      "id": "s008",
+      "items": [
+        "— Masculine: dha",
+        "— Feminine: dhi, ti, dhihi, tihi, dhat"
+      ]
+    },
+    {
+      "id": "s009",
+      "text": "2 — Dual"
+    },
+    {
+      "id": "s010",
+      "items": [
+        "— Masculine: dhani",
+        "— Feminine: tani"
+      ]
+    },
+    {
+      "id": "s011",
+      "text": "3 — Plural"
+    },
+    {
+      "id": "s012",
+      "items": [
+        "— For both masculine and feminine: ulaʾ, ula"
+      ]
+    },
+    {
+      "id": "s013",
+      "text": "4 — Demonstratives for the Near (qarib)"
+    },
+    {
+      "id": "s014",
+      "items": [
+        "— Masculine: dha, dhani, dhayni, ulaʾ",
+        "— Feminine: ta, ti, tihi, dhi, dhihi, tani, taynayn, ulaʾ"
+      ]
+    },
+    {
+      "id": "s015",
+      "text": "5 — Demonstratives for the Middle Distance (mutawassit)"
+    },
+    {
+      "id": "s016",
+      "items": [
+        "— Masculine: dhaka, dhanika, dhaynika, ulaʾika",
+        "— Feminine: tika, tanika, taynika, ulaʾika"
+      ]
+    },
+    {
+      "id": "s017",
+      "text": "6 — Demonstratives for the Far (baʿid)"
+    },
+    {
+      "id": "s018",
+      "items": [
+        "— Masculine: dhalika, dhannika, dhaynika, ulalika",
+        "— Feminine: tilka, tanika, taynika, ulalika"
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "7 — Haʾ al-Tanbih (the Hāʾ of Drawing Attention)"
+    },
+    {
+      "id": "s020",
+      "text": "It is a particle prefixed [to demonstratives] to alert the addressee to what is being indicated. Its forms include:"
+    },
+    {
+      "id": "s021",
+      "text": "hadha, hadhi, hadhihi, hadhayn, hatayn, haʾulaʾ"
+    },
+    {
+      "id": "s022",
+      "items": [
+        "— It may optionally be dropped in: dha, dhaka, dhihi.",
+        "— Or it must be dropped in: dhalika."
+      ]
+    },
+    {
+      "id": "s023",
+      "text": "8 — Demonstratives for Place (asmaʾ al-ishara li-l-makan)"
+    },
+    {
+      "id": "s024",
+      "items": [
+        "— For a near place: huna, hahuna ('here').",
+        "— For a middle distance: hunaka ('there').",
+        "— For a far place: hunalika, thamma, thammata ('there [far]')."
+      ]
+    },
+    {
+      "id": "s025",
+      "text": "Iʿrab of the Demonstrative Pronouns"
+    },
+    {
+      "id": "s026",
+      "text": "All demonstrative pronouns are mabni (indeclinable) — fixed on whatever ending they have. They are parsed as 'mabni in the position of nominative, accusative, or genitive,' EXCEPT for hadhani and hatani, which are inflected as a dual: nominative with alif, accusative and genitive with yaʾ."
+    },
+    {
+      "id": "s027",
+      "text": "— hadha al-batalu shujaʿ ('this hero is brave')"
+    },
+    {
+      "id": "s028",
+      "text": "hadha: the haʾ is haʾ al-tanbih, a particle with no place in iʿrab; dha is a demonstrative pronoun fixed on sukun, in the position of nominative as a mubtadaʾ."
+    },
+    {
+      "id": "s029",
+      "text": "al-batal: a badal (apposition) in the nominative, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s030",
+      "text": "shujaʿ: a khabar in the nominative, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s031",
+      "text": "— raʾaytu hatayni al-fatatayn ('I saw these two girls')"
+    },
+    {
+      "id": "s032",
+      "text": "raʾaytu: a past-tense verb fixed on sukun; the taʾ is a connected pronoun in the position of nominative as the subject."
+    },
+    {
+      "id": "s033",
+      "text": "hatayni: the haʾ is for drawing attention; tayni is a demonstrative pronoun in the accusative, marked by yaʾ because it is dual; the nun substitutes for the tanwin of the singular noun."
+    },
+    {
+      "id": "s034",
+      "text": "al-fatatayn: a badal in the accusative, marked by yaʾ because it is dual; the nun substitutes for the tanwin of the singular noun."
+    },
+    {
+      "id": "s035",
+      "text": "— The poet ʿAli Mahmud Taha said:"
+    },
+    {
+      "id": "s036",
+      "text": "[ʿAli Mahmud Taha, classical poetry]: 'And these miserable, hungry ones — that turning millstone is grinding them down.'"
+    },
+    {
+      "id": "s037",
+      "text": "wa-haʾulaʾ: the waw — its iʿrab depends on what precedes; haʾulaʾ — the haʾ is for drawing attention; ulaʾ is a demonstrative pronoun fixed on kasra, in the position of nominative as a mubtadaʾ."
+    },
+    {
+      "id": "s038",
+      "text": "al-baʾisun: a badal in the nominative, marked by waw and nun because it is a sound masculine plural."
+    },
+    {
+      "id": "s039",
+      "text": "al-jiyaʿ: a sifa (descriptive adjective) in the nominative, marked by the manifest damma at its end; the ending is given sukun for the rhyme."
+    },
+    {
+      "id": "s040",
+      "text": "tathanu-hum: a present-tense verb in the nominative, marked by the manifest damma; 'hum' is a connected pronoun fixed on sukun, in the position of accusative as the direct object."
+    },
+    {
+      "id": "s041",
+      "text": "tilka: the taʾ is a demonstrative pronoun fixed on kasra, in the position of nominative as the subject (faʿil); the lam is for far distance; the kaf is for addressing the listener."
+    },
+    {
+      "id": "s042",
+      "text": "al-raha: a badal in the nominative, marked by an estimated damma on the alif, prevented from appearing because of taʿadhdhur."
+    },
+    {
+      "id": "s043",
+      "text": "al-daʾira: a sifa in the nominative, marked by the manifest damma at its end; the ending is given sukun for the rhyme."
+    },
+    {
+      "id": "s044",
+      "text": "Demonstrative Pronouns in the Noble Quran"
+    },
+    {
+      "id": "s045",
+      "text": "Allah, Glorified and Most High, says in His noble Book:"
+    },
+    {
+      "id": "s046",
+      "items": [
+        "— \"Who is it that would loan Allah a goodly loan so He may multiply it for him many times over?\" — Quran 2:245 (Sahih International)",
+        "— \"This is the Book about which there is no doubt, a guidance for those conscious of Allah.\" — Quran 2:2 (Sahih International)",
+        "— \"My Lord, make this a secure city...\" — Quran 2:126 (Sahih International)",
+        "— \"That was a nation which has passed on. It will have [the consequence of] what it earned, and you will have what you have earned.\" — Quran 2:134 (Sahih International)",
+        "— \"...These are two proofs from your Lord to Pharaoh and his establishment.\" — Quran 28:32 (Sahih International)",
+        "— \"These are two adversaries who have disputed over their Lord...\" — Quran 22:19 (Sahih International)",
+        "— \"He said, 'Indeed, I wish to wed you one of these, my two daughters...'\" — Quran 28:27 (Sahih International)",
+        "— \"He said, 'They are close upon my tracks, and I hastened to You, my Lord, that You be pleased.'\" — Quran 20:84 (Sahih International)",
+        "— \"Those are upon [right] guidance from their Lord, and it is those who are the successful.\" — Quran 2:5 (Sahih International)",
+        "— \"[Lot] said, 'These are my daughters — if you would be doers [of lawful marriage].'\" — Quran 15:71 (Sahih International)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1151 @@
+{
+  "lesson_id": "thawabet_erabia",
+  "language": "en",
+  "title": "Thawabit Iʿrabiyya (Iʿrab Constants — Quick-Reference Patterns)",
+  "sections": [
+    {
+      "id": "s001",
+      "label_en": "Rule",
+      "text": "1 — Indefinite + Indefinite = a single descriptive adjective (naʿt mufrad)."
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "Hind-un talibat-un mujtahida",
+          "text": "— Hind is a diligent student."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "label_en": "Rule",
+      "text": "2 — Definite + Definite = a single descriptive adjective (naʿt mufrad)."
+    },
+    {
+      "id": "s004",
+      "items": [
+        {
+          "transliteration": "yahtarim-u al-ustadh-u al-talib-a al-mutafawwiq",
+          "text": "— The professor respects the excellent student."
+        }
+      ]
+    },
+    {
+      "id": "s005",
+      "label_en": "Rule",
+      "text": "3 — Indefinite + Definite = mudaf ilayh (the second term of a construct)."
+    },
+    {
+      "id": "s006",
+      "items": [
+        {
+          "transliteration": "lan yafirra al-mudhnib-u min qabdat-i al-qanun",
+          "text": "— The wrongdoer will not escape the grip of the law."
+        }
+      ]
+    },
+    {
+      "id": "s007",
+      "label_en": "Rule",
+      "text": "4 — Definite + Indefinite = a single circumstantial accusative (haal mufrada)."
+    },
+    {
+      "id": "s008",
+      "items": [
+        {
+          "transliteration": "jaʾa Ahmad-u rakiban",
+          "text": "— Ahmad came riding."
+        }
+      ]
+    },
+    {
+      "id": "s009",
+      "label_en": "Rule",
+      "text": "5 — Demonstrative pronoun + a noun made definite by 'al-' (an inflexible/non-derivative one) = a matching apposition (badal mutabiq)."
+    },
+    {
+      "id": "s010",
+      "items": [
+        {
+          "transliteration": "shahad-tu hadha al-rajul",
+          "text": "— I saw this man."
+        }
+      ]
+    },
+    {
+      "id": "s011",
+      "label_en": "Rule",
+      "text": "6 — Demonstrative pronoun + a noun made definite by 'al-' (a flexible/derivative one) = a single descriptive adjective."
+    },
+    {
+      "id": "s012",
+      "items": [
+        {
+          "transliteration": "najaha hadha al-mujtahid",
+          "text": "— This diligent one succeeded."
+        }
+      ]
+    },
+    {
+      "id": "s013",
+      "label_en": "Rule",
+      "text": "7 — Demonstrative pronoun + an indefinite = a predicate (khabar)."
+    },
+    {
+      "id": "s014",
+      "items": [
+        {
+          "transliteration": "hadha rajul-un karim",
+          "text": "— This is a generous man."
+        }
+      ]
+    },
+    {
+      "id": "s015",
+      "label_en": "Rule",
+      "text": "8 — ayyuha / ayyatuha + a derivative made definite by 'al-' = a single descriptive adjective."
+    },
+    {
+      "id": "s016",
+      "items": [
+        {
+          "transliteration": "ya ayyuha al-najih",
+          "text": "— O successful one!"
+        }
+      ]
+    },
+    {
+      "id": "s017",
+      "label_en": "Rule",
+      "text": "9 — ayyuha / ayyatuha + an inflexible noun made definite by 'al-' = a matching apposition."
+    },
+    {
+      "id": "s018",
+      "items": [
+        {
+          "transliteration": "ya ayyuha al-rajul",
+          "text": "— O man!"
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "label_en": "Rule",
+      "text": "10 — In a verbal sentence: a definite noun + an indefinite noun → the second is parsed as a haal in the accusative."
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "jaʾa al-tifl-u masruran",
+          "text": "— The child came joyful."
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "label_en": "Rule",
+      "text": "11 — In a nominal sentence: a definite noun + an indefinite noun → the second is parsed as a khabar."
+    },
+    {
+      "id": "s022",
+      "items": [
+        {
+          "transliteration": "hadha al-tifl-u masrurun",
+          "text": "— This child is joyful. (Note: the example written 'masruran' is incorrect; it should be 'masrurun'.)"
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "label_en": "Rule",
+      "text": "12 — Vocative particle + demonstrative pronoun + a noun made definite by 'al-' → the last is a naʿt."
+    },
+    {
+      "id": "s024",
+      "items": [
+        {
+          "transliteration": "ya hadha al-talib",
+          "text": "— O this student!"
+        }
+      ]
+    },
+    {
+      "id": "s025",
+      "label_en": "Rule",
+      "text": "13 — A noun made definite by 'al-' + a demonstrative pronoun = a naʿt."
+    },
+    {
+      "id": "s026",
+      "items": [
+        {
+          "transliteration": "rajiʿ al-qawaʿid-a hadhihi",
+          "text": "— Review these rules."
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "label_en": "Rule",
+      "text": "14 — A proper name or definite-by-'al-' + a relative pronoun = a naʿt."
+    },
+    {
+      "id": "s028",
+      "items": [
+        {
+          "transliteration": "qabal-tu al-talib-a alladhi najaha",
+          "text": "— I met the student who succeeded."
+        }
+      ]
+    },
+    {
+      "id": "s029",
+      "label_en": "Rule",
+      "text": "15 — Indefinite + relative pronoun = mudaf ilayh."
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "kull-u man ʿalayha fanin",
+          "text": "— Everyone upon it (the earth) is to perish. (Quran 55:26 paraphrase)"
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "label_en": "Rule",
+      "text": "16 — innama + a definite noun = mubtadaʾ."
+    },
+    {
+      "id": "s032",
+      "items": [
+        {
+          "transliteration": "innama al-umam-u al-akhlaq",
+          "text": "— Nations are but their morals."
+        }
+      ]
+    },
+    {
+      "id": "s033",
+      "label_en": "Rule",
+      "text": "17 — If a prepositional phrase or an adverbial occurs at the beginning of a nominal sentence, it is parsed as a fronted predicate (khabar muqaddam)."
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "text": "— \"Of the believers are men who have been true to what they pledged Allah.\" — Quran 33:23 (paraphrase, Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "label_en": "Rule",
+      "text": "18 — A noun occurring after the following words is parsed as a mudaf ilayh: kull (all), kila (both, m.), kilta (both, f.), nafs (self), ʿayn (very same), baʿd (some), siwa (other than), nahw (about/like), athnaʾ (during), khilal (during), lada (at), tilw (after), ayy (any), ʿinda (with), mithl (like), ʿabra (across), bayna (between), ibn (son), ab (father), akh (brother), fu (mouth), dhu (possessor), ham (in-law)."
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "text": "— \"And above every possessor of knowledge is one [more] knowing.\" — Quran 12:76 (paraphrase, Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "label_en": "Rule",
+      "text": "19 — A noun occurring after an adverbial (of time or place) is parsed as a mudaf ilayh."
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "qabal-tu sadiq-i baʿda salat-i al-ʿishaʾ amama al-masjid",
+          "text": "— I met my friend after the ʿishaʾ prayer in front of the mosque."
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "label_en": "Rule",
+      "text": "20 — The present-tense verb is in the accusative if preceded by an accusative-governing particle (an, lan, kay, hatta, lam al-taʿlil, faʾ al-sababiyya, waw al-maʿiyya, lam al-juhud, idhan)."
+    },
+    {
+      "id": "s040",
+      "label_en": "Rule",
+      "text": "21 — The present-tense verb is in the jussive if preceded by a jussive-governing particle (lam, lamma, lam al-amr, la al-nahiya), or if preceded by a conditional particle that puts two verbs in the jussive (in, man, mahma, mata, ayna, aynama, haythuma, ayyana, ayy)."
+    },
+    {
+      "id": "s041",
+      "items": [
+        {
+          "transliteration": "lam yanjah al-muhmil",
+          "text": "— The careless one did not succeed."
+        }
+      ]
+    },
+    {
+      "id": "s042",
+      "label_en": "Rule",
+      "text": "22 — The jussive markers of the present-tense verb are: sukun, dropping the nun, dropping the weak letter.\n— It takes jussive by dropping the weak letter if it ends in a weak letter.\n— It takes jussive by sukun if it ends in a sound consonant and no pronoun is attached.\n— It takes jussive by dropping the nun if it is one of the Five Verbs."
+    },
+    {
+      "id": "s043",
+      "label_en": "Rule",
+      "text": "23 — The Five Verbs are every present-tense verb attached to waw al-jamaʿa, alif al-ithnayn, or yaʾ al-mukhataba.\nThe Five Verbs take rafʿ by retaining the nun and take nasb and jazm by dropping the nun."
+    },
+    {
+      "id": "s044",
+      "items": [
+        {
+          "transliteration": "al-muslimun yutabbiquna al-shariʿa",
+          "text": "— Muslims apply the Shariʿa."
+        },
+        {
+          "transliteration": "al-saʿiyani fi al-khayr lan yandama",
+          "text": "— The two who strive in goodness will not regret."
+        },
+        {
+          "transliteration": "ya Fatima la tuhmili wajib-a-ki",
+          "text": "— O Fatima, do not neglect your duty."
+        }
+      ]
+    },
+    {
+      "id": "s045",
+      "label_en": "Rule",
+      "text": "24 — Any pronoun attached to an inflected noun is parsed as a mabni pronoun in the position of genitive as a mudaf ilayh."
+    },
+    {
+      "id": "s046",
+      "items": [
+        {
+          "transliteration": "aʿtay-tu al-talib-a haqq-a-hu",
+          "text": "— I gave the student his right."
+        }
+      ]
+    },
+    {
+      "id": "s047",
+      "label_en": "Rule",
+      "text": "25 — Any pronoun attached to a verb is parsed as a mabni pronoun in the position of nominative as the subject (faʿil) — except for kaf al-khitab, haʾ al-ghayba, and yaʾ al-mutakallim, which are parsed as mabni pronouns in the position of accusative as the direct object."
+    },
+    {
+      "id": "s048",
+      "items": [
+        {
+          "transliteration": "fahim-tu al-nahw",
+          "text": "— I understood the grammar."
+        },
+        {
+          "transliteration": "fahim-na al-nahw",
+          "text": "— We understood the grammar."
+        },
+        {
+          "transliteration": "shahad-tu Amal",
+          "text": "— I saw Amal."
+        },
+        {
+          "transliteration": "Fatima yuhibb-u-ha al-jamiʿ",
+          "text": "— Fatima — everyone loves her."
+        }
+      ]
+    },
+    {
+      "id": "s049",
+      "label_en": "Rule",
+      "text": "26 — Ism al-tafdil + an indefinite noun with tanwin in the accusative = a tamyiz in the accusative."
+    },
+    {
+      "id": "s050",
+      "items": [
+        {
+          "transliteration": "Muhammad-un aʿzam-u khuluqan",
+          "text": "— Muhammad is greater in character."
+        }
+      ]
+    },
+    {
+      "id": "s051",
+      "label_en": "Rule",
+      "text": "27 — A noun occurring after numbers, kinaya (numerical idioms), kam interrogative, kam declarative, weight, measure, or distance = a tamyiz."
+    },
+    {
+      "id": "s052",
+      "items": [
+        {
+          "transliteration": "kam yawman fi al-usbuʿ",
+          "text": "— How many days are in a week?"
+        }
+      ]
+    },
+    {
+      "id": "s053",
+      "label_en": "Rule",
+      "text": "28 — An indefinite noun occurring after a subject = a tamyiz."
+    },
+    {
+      "id": "s054",
+      "items": [
+        {
+          "transliteration": "zaraʿ-tu faddanan qutnan",
+          "text": "— I planted an acre of cotton."
+        }
+      ]
+    },
+    {
+      "id": "s055",
+      "label_en": "Rule",
+      "text": "29 — Numbers 11–99: their tamyiz is singular and accusative. All other numbers: their tamyiz is singular or plural and genitive."
+    },
+    {
+      "id": "s056",
+      "items": [
+        {
+          "transliteration": "al-Qurʾan-u thalathuna juzʾan",
+          "text": "— The Quran is thirty parts."
+        },
+        {
+          "transliteration": "fi al-junayh-i miʾat-u qirsh",
+          "text": "— In a pound (currency) there are one hundred piasters."
+        }
+      ]
+    },
+    {
+      "id": "s057",
+      "label_en": "Rule",
+      "text": "30 — The word 'maʿa' is parsed as an adverbial; what follows it is a mudaf ilayh. The word 'maʿan' (with tanwin) is parsed as a haal in the accusative, marked by fatha."
+    },
+    {
+      "id": "s058",
+      "items": [
+        {
+          "transliteration": "yad-u Allah-i maʿa al-jamaʿa",
+          "text": "— The hand of Allah is with the community."
+        },
+        {
+          "transliteration": "yanbaghi an naqif maʿan dida al-zulm",
+          "text": "— We must stand together against injustice."
+        }
+      ]
+    },
+    {
+      "id": "s059",
+      "label_en": "Rule",
+      "text": "31 — Iʿrab positions of the word 'kayfa' ('how'):\n(a) kayfa + a complete verb = in the position of accusative as a haal.\n(b) kayfa + a noun or separate pronoun = in the position of nominative as a fronted khabar.\n(c) kayfa + an incomplete verb = in the position of accusative as a fronted khabar.\nIt is also parsed as a substitute for the absolute object (naʾib ʿan al-mafʿul al-mutlaq)."
+    },
+    {
+      "id": "s060",
+      "items": [
+        {
+          "transliteration": "kayfa jaʾa Muhammad",
+          "text": "— How did Muhammad come?"
+        },
+        {
+          "transliteration": "kayfa hal-u-ka? kayfa anta?",
+          "text": "— How are you?"
+        },
+        {
+          "transliteration": "kayfa kana Muhammad?",
+          "text": "— How was Muhammad?"
+        },
+        {
+          "text": "— Allah Most High said: \"Have you not considered how your Lord dealt with the companions of the elephant?\" — Quran 105:1 (Sahih International)"
+        },
+        {
+          "text": "— \"Have you not considered how Allah strikes a parable...\" — Quran 14:24 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s061",
+      "label_en": "Rule",
+      "text": "32 — 'mudh, mundhu' + a noun in the genitive = a mudaf ilayh."
+    },
+    {
+      "id": "s062",
+      "items": [
+        {
+          "transliteration": "ma raʾay-tu-hu mundhu yawmayn",
+          "text": "— I have not seen him for two days."
+        }
+      ]
+    },
+    {
+      "id": "s063",
+      "label_en": "Rule",
+      "text": "33 — A clause occurring after 'idha, idh, haythu, hin, yawm' is in the position of genitive as a mudaf ilayh."
+    },
+    {
+      "id": "s064",
+      "items": [
+        {
+          "transliteration": "jalas-tu fi al-masjid haythu yajlis-u qariʾu al-Qurʾan",
+          "text": "— I sat in the mosque where the Quran reciter sits."
+        }
+      ]
+    },
+    {
+      "id": "s065",
+      "label_en": "Rule",
+      "text": "34 — The following nouns are parsed as a haal: awwalan ('first'), thaniyan ('second'), ila akhirih ('etc.'), maddiyyan ('materially'), siyasiyyan ('politically'), ʿiwadan ('in compensation'), badalan ('instead'), sahwan ('inadvertently'), ʿamdan ('intentionally'), daʾiman ('always'), jamiʿan ('all together'), maʿan ('together'), wahdaka ('alone — m. sg.'), wahdahu ('alone — m. sg.'), wahdaha ('alone — f.'), ajmaʿin ('all'), ʿammatan ('generally'), qatibatan ('entirely'), kaffatan ('all'), sawiyyan ('together / equally')."
+    },
+    {
+      "id": "s066",
+      "label_en": "Rule",
+      "text": "35 — The following nouns are parsed as al-mafʿul al-mutlaq for an omitted verb: subhana-hu ('glory be to Him'), khusuṣan ('especially'), ʿumuman ('generally'), aydan ('also'), mathalan ('for example'), haqqan ('truly'), labbayka ('at Your service'), saʿdayka ('and to Your delight'), shukran ('thanks'), ʿafwan ('pardon')."
+    },
+    {
+      "id": "s067",
+      "label_en": "Rule",
+      "text": "36 — The words hathithan ('quickly'), jiddan ('very'), kathiran ('much') are parsed as substitutes for al-mafʿul al-mutlaq."
+    },
+    {
+      "id": "s068",
+      "items": [
+        {
+          "transliteration": "kallam-tu-hu kathiran",
+          "text": "— I spoke to him much."
+        }
+      ]
+    },
+    {
+      "id": "s069",
+      "label_en": "Rule",
+      "text": "37 — What may substitute for al-mafʿul al-mutlaq: its description, its number, a demonstrative referring to it, its synonym, its kind, its pronoun, kull (all), baʿd (some), ghaya (extent), jamiʿ (all), or any noun annexed to a masdar."
+    },
+    {
+      "id": "s070",
+      "items": [
+        {
+          "text": "— \"...lash each one of them with one hundred lashes...\" — Quran 24:2 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s071",
+      "label_en": "Rule",
+      "text": "38 — 'khusuṣan, khassatan' are parsed as al-mafʿul al-mutlaq for an omitted verb (implied: 'akhuss-u' — 'I single out'); the noun following is a direct object in the accusative. If they come at the end of a sentence, they are parsed as a haal in the accusative."
+    },
+    {
+      "id": "s072",
+      "items": [
+        {
+          "transliteration": "uhibb-u al-rijal-a khusuṣan al-sadiqina",
+          "text": "— I love men, especially the truthful."
+        },
+        {
+          "transliteration": "uhibb-u al-rijal-a al-sadiqina khusuṣan",
+          "text": "— I love truthful men, especially."
+        }
+      ]
+    },
+    {
+      "id": "s073",
+      "label_en": "Rule",
+      "text": "39 — The word 'bi-khassatin' is a prepositional phrase in the position of nominative as a fronted khabar; the noun after it is parsed as a postponed mubtadaʾ in the nominative. If it comes at the end of a sentence, it is parsed as a haal — a quasi-clause."
+    },
+    {
+      "id": "s074",
+      "items": [
+        {
+          "transliteration": "uhibb-u al-rijal-a bi-khassatin Muhammad",
+          "text": "— I love men — especially Muhammad."
+        },
+        {
+          "transliteration": "uhibb-u al-rijal-a al-sadiqina bi-khassatin",
+          "text": "— I love the truthful men in particular."
+        }
+      ]
+    },
+    {
+      "id": "s075",
+      "label_en": "Rule",
+      "text": "40 — A noun occurring after (mata, ayna, kayfa) is parsed as a postponed mubtadaʾ; the interrogative nouns are parsed as fronted khabar."
+    },
+    {
+      "id": "s076",
+      "items": [
+        {
+          "transliteration": "ayna al-kitab?",
+          "text": "— Where is the book?"
+        }
+      ]
+    },
+    {
+      "id": "s077",
+      "label_en": "Rule",
+      "text": "41 — The khabar must be fronted before the mubtadaʾ if the mubtadaʾ contains a pronoun referring back to the khabar."
+    },
+    {
+      "id": "s078",
+      "items": [
+        {
+          "transliteration": "fi al-madrasat-i talamidh-u-ha",
+          "text": "— In the school are its pupils."
+        }
+      ]
+    },
+    {
+      "id": "s079",
+      "label_en": "Rule",
+      "text": "42 — The words (thamma, thammata, huna, hunaka) are parsed as mabni adverbs of place in the position of nominative as a fronted khabar; the noun after them is parsed as a postponed mubtadaʾ."
+    },
+    {
+      "id": "s080",
+      "items": [
+        {
+          "transliteration": "thamma khilaf-un bayn-i wa-bayna-ka",
+          "text": "— There is a disagreement between you and me."
+        },
+        {
+          "transliteration": "huna al-Qahira",
+          "text": "— Here is Cairo (i.e., this is the Cairo broadcast)."
+        }
+      ]
+    },
+    {
+      "id": "s081",
+      "label_en": "Rule",
+      "text": "43 — The noun after 'lawla' is parsed as a mubtadaʾ whose khabar is obligatorily omitted, implied as 'mawjudun' ('existing')."
+    },
+    {
+      "id": "s082",
+      "label_en": "Rule",
+      "text": "44 — The words 'la-ʿamruka, la-ʿamri, yamin Allah, ayam Allah' — and anything indicating an oath — are parsed as a mubtadaʾ whose khabar is omitted."
+    },
+    {
+      "id": "s083",
+      "items": [
+        {
+          "transliteration": "yamin-u Allah-i la-uhafizanna ʿala al-salat",
+          "text": "— By Allah, I shall surely maintain the prayer."
+        }
+      ]
+    },
+    {
+      "id": "s084",
+      "label_en": "Rule",
+      "text": "45 — The noun after (khala, ʿada, hasha) is either parsed as a noun in the genitive (treating these as prepositions) or as a direct object (treating them as past-tense verbs)."
+    },
+    {
+      "id": "s085",
+      "items": [
+        {
+          "transliteration": "jaʾa al-tullab-u min al-rihla khala Usama",
+          "text": "— The students returned from the trip except Usama."
+        }
+      ]
+    },
+    {
+      "id": "s086",
+      "label_en": "Rule",
+      "text": "46 — A noun occurring after (ma khala, ma ʿada, ma hasha) is always parsed as a direct object in the accusative."
+    },
+    {
+      "id": "s087",
+      "items": [
+        {
+          "transliteration": "najaha al-tullab-u jamiʿan ma ʿada Usama",
+          "text": "— All the students succeeded except Usama."
+        }
+      ]
+    },
+    {
+      "id": "s088",
+      "label_en": "Rule",
+      "text": "47 — When asking with (a-lam, a-lan, ama, ala, a-laysa), the affirmative answer is 'bala', and the negative answer is 'naʿam' + the negation particle."
+    },
+    {
+      "id": "s089",
+      "items": [
+        {
+          "transliteration": "a-lam tusafir? — al-ithbat: bala usafir. al-nafy: naʿam lam usafir",
+          "text": "— Did you not travel? Affirmative: yes [bala], I do travel. Negative: yes [naʿam, agreeing with the negation], I did not travel."
+        }
+      ]
+    },
+    {
+      "id": "s090",
+      "label_en": "Rule",
+      "text": "48 — Verb + the masdar = mafʿul mutlaq in the accusative."
+    },
+    {
+      "id": "s091",
+      "items": [
+        {
+          "transliteration": "isbir ya muʾmin sabran jamilan",
+          "text": "— Be patient, O believer, with beautiful patience."
+        }
+      ]
+    },
+    {
+      "id": "s092",
+      "label_en": "Rule",
+      "text": "49 — The masdar without the verb is parsed according to its position in the sentence."
+    },
+    {
+      "id": "s093",
+      "items": [
+        {
+          "transliteration": "al-sabr-u ʿala al-makarih wajib",
+          "text": "— Patience over hardships is obligatory."
+        }
+      ]
+    },
+    {
+      "id": "s094",
+      "label_en": "Rule",
+      "text": "50 — The original prepositions are: (min, ʿala, fi, the baʾ, the kaf, the lam); what follows them is a noun in the genitive."
+    },
+    {
+      "id": "s095",
+      "label_en": "Rule",
+      "text": "51 — rubba + an indefinite = a mubtadaʾ in the nominative, marked by an estimated damma — prevented from appearing because the position is occupied by the vowel of the redundant preposition."
+    },
+    {
+      "id": "s096",
+      "items": [
+        {
+          "transliteration": "rubba darrat-in nafiʿa",
+          "text": "— Many a harm turns out to be beneficial."
+        }
+      ]
+    },
+    {
+      "id": "s097",
+      "label_en": "Rule",
+      "text": "52 — The verbs (kasa, albasa, manaha, manaʿa, aʿta, zanna, khala, hasiba, zaʿama, jaʿala, raʾa, wajada, ʿalima, wahaba, akhadha, hawwala) take two direct objects in the accusative."
+    },
+    {
+      "id": "s098",
+      "items": [
+        {
+          "transliteration": "jaʿala Allah-u al-jannat-a dar-a al-muttaqin",
+          "text": "— Allah made Paradise the abode of the God-conscious."
+        }
+      ]
+    },
+    {
+      "id": "s099",
+      "label_en": "Rule",
+      "text": "53 — Clauses and quasi-clauses after indefinites are descriptive adjectives (sifat); after definites they are circumstantial accusatives (haal)."
+    },
+    {
+      "id": "s100",
+      "items": [
+        {
+          "transliteration": "jaʾa rajul-un khuluq-u-hu ʿazim",
+          "text": "— A man came whose character is great."
+        },
+        {
+          "transliteration": "jaʾa al-rajul-u khuluq-u-hu ʿazim",
+          "text": "— The man came (with) his character great."
+        }
+      ]
+    },
+    {
+      "id": "s101",
+      "text": "ahlan wa-sahlan wa-marhaban: parsed as direct objects of an omitted verb. Implied: 'halaltu ahlan wa-nazaltu sahlan' ('I have alighted upon a [welcoming] family and dismounted in an easy place')."
+    },
+    {
+      "id": "s102",
+      "label_en": "Rule",
+      "text": "54 — daʾiman, awwalan, thaniyan, thalithan, akhiran, maʿan, khassatan, ʿammatan, jamiʿan, sahwan, sawiyyan: parsed as a haal in the accusative."
+    },
+    {
+      "id": "s103",
+      "items": [
+        {
+          "transliteration": "jiʾna maʿan",
+          "text": "— We came together."
+        },
+        {
+          "transliteration": "nudhakir-u sawiyyan",
+          "text": "— We study together."
+        },
+        {
+          "transliteration": "dhakkar-tu al-nahw-a awwalan",
+          "text": "— I revised grammar first."
+        }
+      ]
+    },
+    {
+      "id": "s104",
+      "label_en": "Rule",
+      "text": "56 — Iʿrab positions of the word 'kull':\n(a) noun + kull + pronoun = a semantic emphasis (tawkid maʿnawi).\n(b) kull + a word indicating time = an adverb of time, with what follows as a mudaf ilayh."
+    },
+    {
+      "id": "s105",
+      "items": [
+        {
+          "transliteration": "dhakir al-nahw kull-a yawmin",
+          "text": "— Study grammar every day."
+        }
+      ]
+    },
+    {
+      "id": "s106",
+      "label_en": "Rule",
+      "text": "57 — Positions where al-tamyiz is parsed:\n(a) Words of measurement + an indefinite = tamyiz.\n(b) Number words and their idioms + an indefinite = tamyiz.\n(c) A word on the pattern afʿal + an indefinite = tamyiz.\n(d) The praise/blame style (niʿma, biʾsa) + an indefinite = tamyiz.\n(e) The wonderment forms (ma afʿala-hu, afʿil bi-hi) + an indefinite = tamyiz.\n(f) The word 'kafa' + an indefinite = tamyiz.\n(g) A relative-adjective noun (mansub) + an indefinite = tamyiz.\n(h) A verb on the pattern faʿula + an indefinite = tamyiz."
+    },
+    {
+      "id": "s107",
+      "items": [
+        {
+          "transliteration": "ishtaray-tu kilo tuffahan",
+          "text": "— I bought a kilo of apples."
+        },
+        {
+          "text": "— \"He imposed it upon them for seven nights and eight days, [during the days of] al-Husum.\" — Quran 69:7 (paraphrase, Sahih International)"
+        },
+        {
+          "transliteration": "aʿzam-u al-bilad-i quwwatan",
+          "text": "— The greatest of countries in strength."
+        },
+        {
+          "transliteration": "niʿma khuluqan al-sadiq",
+          "text": "— How excellent in character a friend is!"
+        },
+        {
+          "transliteration": "ma ajmala al-Qahira madinatan",
+          "text": "— How beautiful Cairo is as a city!"
+        },
+        {
+          "transliteration": "kafa bi-llahi wakilan",
+          "text": "— Sufficient is Allah as a Disposer of affairs."
+        },
+        {
+          "transliteration": "Khalid misriyy-un aban",
+          "text": "— Khalid is Egyptian on his father's side."
+        },
+        {
+          "text": "— \"...weighty as a word coming forth from their mouths.\" — Quran 18:5 (paraphrase, Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s108",
+      "text": "Morphological and Iʿrab Rules"
+    },
+    {
+      "id": "s109",
+      "label_en": "Rule",
+      "text": "1 — The words 'ithnan, ithnatan, kilahuma, kiltahuma' are nouns appended to the dual; they are inflected like the dual: nominative with alif, accusative and genitive with yaʾ — provided they are joined to a pronoun."
+    },
+    {
+      "id": "s110",
+      "label_en": "Rule",
+      "text": "2 — The words 'ʿalimun, banun, sinun, ahlun, ulu, dhawu, ʿishrun, thalathun, arbaʿun, khamsun, sittun, sabʿun, thamanun, tisʿun' are nouns appended to the sound masculine plural; they are inflected accordingly: nominative with waw, accusative and genitive with yaʾ."
+    },
+    {
+      "id": "s111",
+      "label_en": "Rule",
+      "text": "3 — The nun of the dual and what is appended to it, and of the sound masculine plural and what is appended to it, is dropped upon annexation. Likewise, the tanwin is dropped from the singular, broken plural, and sound feminine plural."
+    },
+    {
+      "id": "s112",
+      "items": [
+        {
+          "text": "— \"O children of Adam, take your adornment at every place of prayer.\" — Quran 7:31 (paraphrase, Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s113",
+      "label_en": "Rule",
+      "text": "4 — 'ulat' and 'akhwat', and every sound feminine plural by which a singular has been named (e.g., ʿArafat, Barakat, ʿInayat), are appended to the sound feminine plural: nominative with damma; accusative and genitive with kasra."
+    },
+    {
+      "id": "s114",
+      "label_en": "Rule",
+      "text": "5 — Verbal nouns (asmaʾ al-afʿal) have a single form for singular, dual, and plural — except when joined to kaf al-khitab, in which case the kaf must agree with the addressee.\nPast verbal nouns: shattan ('how far apart!'), surʿan ('how quickly!'), hayhata ('how far!').\nPresent verbal nouns: uffin ('ugh!'), ah ('oh!'), wah, way ('amazement').\nImperative verbal nouns: hayya ('come on'), halumma ('come'), amin ('amen'), sah ('hush'), mah ('stop'), ʿalayka ('upon you'), makanaka ('stay where you are'), bal-h ('leave it'), dunaka ('take it')."
+    },
+    {
+      "id": "s115",
+      "label_en": "Rule",
+      "text": "6 — Al-mamnuʿ min al-sarf does not take tanwin: nominative with damma, accusative with fatha, and genitive with fatha — except if it is annexed (mudaf) or made definite by 'al-', in which case it takes the genitive with kasra."
+    },
+    {
+      "id": "s116",
+      "label_en": "Rule",
+      "text": "7 — Al-mamnuʿ min al-sarf includes: every feminine proper name; every foreign proper name with more than three letters; one ending in alif and nun; a compound-blend proper name; one on the pattern of a verb or on the pattern fuʿal."
+    },
+    {
+      "id": "s117",
+      "items": [
+        {
+          "transliteration": "Fatima"
+        },
+        {
+          "transliteration": "Ibrahim"
+        },
+        {
+          "transliteration": "Salma"
+        },
+        {
+          "transliteration": "Ramadan"
+        },
+        {
+          "transliteration": "Ahmad"
+        },
+        {
+          "transliteration": "ʿUmar"
+        },
+        {
+          "transliteration": "Baʿlabakk"
+        },
+        {
+          "transliteration": "Bursaʿid"
+        }
+      ]
+    },
+    {
+      "id": "s118",
+      "label_en": "Rule",
+      "text": "8 — Every adjective on the pattern faʿlan or afʿal is mamnuʿ min al-sarf."
+    },
+    {
+      "id": "s119",
+      "items": [
+        {
+          "transliteration": "ʿatshan",
+          "text": "(thirsty)"
+        },
+        {
+          "transliteration": "aʿzam",
+          "text": "(greater/greatest)"
+        },
+        {
+          "transliteration": "aqwa",
+          "text": "(stronger/strongest)"
+        }
+      ]
+    },
+    {
+      "id": "s120",
+      "label_en": "Rule",
+      "text": "9 — All names of the prophets are mamnuʿ min al-sarf except: Muhammad, Salih, Hud, Nuh, and Lut."
+    },
+    {
+      "id": "s121",
+      "items": [
+        {
+          "transliteration": "Yusuf"
+        },
+        {
+          "transliteration": "Yaʿqub"
+        },
+        {
+          "transliteration": "Yunus"
+        },
+        {
+          "transliteration": "Adam"
+        },
+        {
+          "transliteration": "Ismaʿil"
+        }
+      ]
+    },
+    {
+      "id": "s122",
+      "label_en": "Rule",
+      "text": "10 — Sigha muntaha al-jumuʿ (the 'extreme plural' pattern) — every broken plural after whose alif there are two or three letters — is mamnuʿ min al-sarf."
+    },
+    {
+      "id": "s123",
+      "items": [
+        {
+          "transliteration": "darahim",
+          "text": "(dirhams)"
+        },
+        {
+          "transliteration": "madaris",
+          "text": "(schools)"
+        },
+        {
+          "transliteration": "danarir",
+          "text": "(dinars)"
+        },
+        {
+          "transliteration": "qanadil",
+          "text": "(lamps)"
+        }
+      ]
+    },
+    {
+      "id": "s124",
+      "label_en": "Rule",
+      "text": "11 — The words (ahad — 'one'), (muwahhad), (thunaʾ), (mathna), (ʿushar), (maʿshar), (ukhar), (ukhra) are mamnuʿ min al-sarf."
+    },
+    {
+      "id": "s125",
+      "label_en": "Rule",
+      "text": "12 — Ism al-faʿil from the triliteral verb is on the pattern 'faʿil'; from non-triliteral verbs: mu- + kasra before the last letter."
+    },
+    {
+      "id": "s126",
+      "items": [
+        {
+          "transliteration": "ʿamil",
+          "text": "(worker)"
+        },
+        {
+          "transliteration": "qatil",
+          "text": "(killer)"
+        },
+        {
+          "transliteration": "nasir",
+          "text": "(helper)"
+        },
+        {
+          "transliteration": "mutiʿ",
+          "text": "(obedient)"
+        },
+        {
+          "transliteration": "mustamiʿ",
+          "text": "(listener)"
+        }
+      ]
+    },
+    {
+      "id": "s127",
+      "label_en": "Rule",
+      "text": "13 — Ism al-mafʿul from the triliteral verb is on the pattern 'mafʿul'; from non-triliteral verbs: mu- + fatha before the last letter."
+    },
+    {
+      "id": "s128",
+      "items": [
+        {
+          "transliteration": "mansur",
+          "text": "(victorious)"
+        },
+        {
+          "transliteration": "masrur",
+          "text": "(joyful)"
+        },
+        {
+          "transliteration": "manshur",
+          "text": "(published)"
+        },
+        {
+          "transliteration": "mustafa",
+          "text": "(chosen)"
+        },
+        {
+          "transliteration": "muntaqa",
+          "text": "(selected)"
+        },
+        {
+          "transliteration": "murtaja",
+          "text": "(hoped for)"
+        }
+      ]
+    },
+    {
+      "id": "s129",
+      "label_en": "Rule",
+      "text": "14 — Sigha al-mubalagha has five patterns: faʿul, faʿil, faʿʿal, mifʿal, faʿil."
+    },
+    {
+      "id": "s130",
+      "items": [
+        {
+          "transliteration": "faʿul: ghafur",
+          "text": "(Most Forgiving)"
+        },
+        {
+          "transliteration": "faʿil: rahim",
+          "text": "(Most Merciful)"
+        },
+        {
+          "transliteration": "faʿʿal: ghaffar",
+          "text": "(Constantly Forgiving)"
+        },
+        {
+          "transliteration": "mifʿal: miʿtaʾ",
+          "text": "(extremely generous)"
+        },
+        {
+          "transliteration": "faʿil: hadhir",
+          "text": "(extremely cautious)"
+        }
+      ]
+    },
+    {
+      "id": "s131",
+      "label_en": "Rule",
+      "text": "15 — Al-maqsur is an inflected (muʿrab) noun ending in a fixed alif preceded by a fatha; it is inflected with notional vowel-marks for nominative, accusative, and genitive."
+    },
+    {
+      "id": "s132",
+      "items": [
+        {
+          "transliteration": "rida",
+          "text": "(contentment)"
+        },
+        {
+          "transliteration": "fata",
+          "text": "(young man)"
+        },
+        {
+          "transliteration": "kubra",
+          "text": "(greater [fem.])"
+        },
+        {
+          "transliteration": "Mustafa"
+        },
+        {
+          "transliteration": "mustashfa",
+          "text": "(hospital)"
+        }
+      ]
+    },
+    {
+      "id": "s133",
+      "label_en": "Rule",
+      "text": "16 — Al-manqus is an inflected noun ending in a fixed yaʾ preceded by a kasra."
+    },
+    {
+      "id": "s134",
+      "items": [
+        {
+          "transliteration": "al-muhami",
+          "text": "(the lawyer)"
+        },
+        {
+          "transliteration": "al-saʿi",
+          "text": "(the striver)"
+        },
+        {
+          "transliteration": "al-qadi",
+          "text": "(the judge)"
+        }
+      ]
+    },
+    {
+      "id": "s135",
+      "label_en": "Rule",
+      "text": "17 — Al-mamdud is an inflected noun ending in a hamza preceded by a fatha."
+    },
+    {
+      "id": "s136",
+      "items": [
+        {
+          "transliteration": "samaʾ",
+          "text": "(sky)"
+        },
+        {
+          "transliteration": "diyaʾ",
+          "text": "(light)"
+        },
+        {
+          "transliteration": "safaʾ",
+          "text": "(purity)"
+        }
+      ]
+    }
+  ]
+}

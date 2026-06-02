@@ -1,0 +1,256 @@
+{
+  "lesson_id": "nedaa",
+  "language": "en",
+  "title": "Definition of Al-Munada (the Vocative — the One Called)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Definition of Al-Munada"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "Al-munada and the style of al-nida' (the vocative) is a noun indicating that the speaker is calling upon the addressee to come forward or to pay attention. It is mentioned after one of the vocative particles, which are:"
+    },
+    {
+      "id": "s003",
+      "text": "Vocative Particles"
+    },
+    {
+      "id": "s004",
+      "text": "ay – a"
+    },
+    {
+      "id": "s005",
+      "text": "For the near vocative, e.g.: a-Muhammadu ('O Muhammad'), ay bunayya ('O my little son')."
+    },
+    {
+      "id": "s006",
+      "text": "ay – a – aya – haya – waw al-nudba"
+    },
+    {
+      "id": "s007",
+      "text": "For the far vocative, e.g.: aya Ibrahimu aqbil ('O Ibrahim, come forward!')."
+    },
+    {
+      "id": "s008",
+      "text": "ya"
+    },
+    {
+      "id": "s009",
+      "text": "For the vocative — whether near or far"
+    },
+    {
+      "id": "s010",
+      "text": "Near, e.g.: ijlis ya rajulu ('Sit, O man!')."
+    },
+    {
+      "id": "s011",
+      "text": "Far, e.g.: aqbil ya rajulu ('Come forward, O man!')."
+    },
+    {
+      "id": "s012",
+      "text": "Rulings of Al-Munada"
+    },
+    {
+      "id": "s013",
+      "text": "Proper Name (al-ʿAlam)"
+    },
+    {
+      "id": "s014",
+      "text": "It is mabni (indeclinable) on whatever raises it (in non-vocative use), occupying the position of accusative — as in the saying of Allah Most High: \"It was said, 'O Noah, disembark in security...'\" — Quran 11:48 (Sahih International)"
+    },
+    {
+      "id": "s015",
+      "text": "Specifically Indicated Indefinite (Al-Nakira al-Maqsuda)"
+    },
+    {
+      "id": "s016",
+      "text": "It is mabni on whatever raises it, in the position of accusative — as in the saying of Allah Most High: \"O mountains, repeat [Our] praises with him.\" — Quran 34:10 (Sahih International)"
+    },
+    {
+      "id": "s017",
+      "text": "Non-Specifically Indicated Indefinite (Al-Nakira Ghayr al-Maqsuda)"
+    },
+    {
+      "id": "s018",
+      "text": "Its ruling is obligatorily accusative, e.g.: ya ʿasiyan tub ila Allah ('O sinner, repent to Allah!')."
+    },
+    {
+      "id": "s019",
+      "text": "The Annexed (Al-Mudaf)"
+    },
+    {
+      "id": "s020",
+      "text": "Its ruling is obligatorily accusative."
+    },
+    {
+      "id": "s021",
+      "text": "As in the saying of Allah Most High: \"O People of the Scripture, why do you argue about Abraham...\" — Quran 3:65 (Sahih International)"
+    },
+    {
+      "id": "s022",
+      "text": "Resembling the Annexed (Al-Shabih bi-l-Mudaf)"
+    },
+    {
+      "id": "s023",
+      "text": "It is one in which the element attached to al-munada cannot be dispensed with, e.g.: ya taliʿan jabalan ('O climber of a mountain'). Its ruling is obligatorily accusative."
+    },
+    {
+      "id": "s024",
+      "text": "Al-Munada Annexed to the Speaker's Yaʾ"
+    },
+    {
+      "id": "s025",
+      "text": "Sound-Ending"
+    },
+    {
+      "id": "s026",
+      "text": "Retention of the Yaʾ"
+    },
+    {
+      "id": "s027",
+      "text": "It is mabni on:"
+    },
+    {
+      "id": "s028",
+      "text": "Sukun (ya sadiqi-y) ('O my friend!')\nor fatha (ya sadiqi-ya) ('O my friend!')"
+    },
+    {
+      "id": "s029",
+      "text": "Or by dropping the yaʾ and being content with kasra on the letter preceding it."
+    },
+    {
+      "id": "s030",
+      "text": "As in the saying of Allah Most High: \"O My servants, fear Me.\" (literally 'ya ʿibadi') — Quran 29:56 (Sahih International)"
+    },
+    {
+      "id": "s031",
+      "text": "Or by giving fatha to the letter and converting the yaʾ to alif."
+    },
+    {
+      "id": "s032",
+      "text": "As in the saying of Allah Most High: \"Oh, [how great is] my regret over what I neglected in regard to Allah!\" — Quran 39:56 (Sahih International)"
+    },
+    {
+      "id": "s033",
+      "text": "Weak-Ending"
+    },
+    {
+      "id": "s034",
+      "text": "It is obligatory to retain the yaʾ; it is mabni on fatha, e.g.: ya muhamiyya ('O my lawyer!')."
+    },
+    {
+      "id": "s035",
+      "text": "An Active Participle (Ism al-Faʿil), an Intensive Form (Mubalagha), or a Passive Participle (Ism al-Mafʿul)"
+    },
+    {
+      "id": "s036",
+      "text": "It is obligatory to retain it"
+    },
+    {
+      "id": "s037",
+      "text": "And it is mabni on fatha, e.g.: ya muʿallimi-ya ('O my teacher!')."
+    },
+    {
+      "id": "s038",
+      "text": "Or sukun"
+    },
+    {
+      "id": "s039",
+      "text": "E.g.: ya majruh-i ('O my wounded one!')."
+    },
+    {
+      "id": "s040",
+      "text": "Ab (Father) – Umm (Mother)"
+    },
+    {
+      "id": "s041",
+      "text": "These have the same rulings as a sound-ending [annexed to the speaker's yaʾ]; it is also possible to drop the yaʾ and substitute the fatha-bearing taʾ of the feminine in its place."
+    },
+    {
+      "id": "s042",
+      "text": "E.g.: ya abata ('O father!'), ya umma ('O mother!')."
+    },
+    {
+      "id": "s043",
+      "text": "Or the kasra-bearing taʾ"
+    },
+    {
+      "id": "s044",
+      "text": "E.g.: ya abati ('O father!'), ya ummi ('O mother!')."
+    },
+    {
+      "id": "s045",
+      "text": "Omission of the Vocative Particle:"
+    },
+    {
+      "id": "s046",
+      "text": "The vocative particle may be omitted; it is implied as 'ya', since 'ya' is the foundational particle of the chapter. However, omitting it is forbidden in the following cases:"
+    },
+    {
+      "id": "s047",
+      "text": "1 — Al-mandub (the lamented):"
+    },
+    {
+      "id": "s048",
+      "text": "E.g.: wa-hasrat-a ('Oh, what regret!')."
+    },
+    {
+      "id": "s049",
+      "text": "2 — Al-mustaghath (the one called for help):"
+    },
+    {
+      "id": "s050",
+      "text": "E.g.: ya li-Muhammad ('O Muhammad — help!')."
+    },
+    {
+      "id": "s051",
+      "text": "3 — Al-nakira ghayr al-maqsuda (the non-specifically indicated indefinite):"
+    },
+    {
+      "id": "s052",
+      "text": "E.g.: ya samiʿan aqbil ('O listener, come forward!')."
+    },
+    {
+      "id": "s053",
+      "text": "4 — Al-nakira al-maqsuda (the specifically indicated indefinite):"
+    },
+    {
+      "id": "s054",
+      "text": "E.g.: ya shurtiyy-u aghith-ni ('O police officer, help me!')."
+    },
+    {
+      "id": "s055",
+      "text": "5 — A demonstrative pronoun (ism al-ishara):"
+    },
+    {
+      "id": "s056",
+      "text": "E.g.: qif ya hadha ('Stop, you there!')."
+    },
+    {
+      "id": "s057",
+      "text": "6 — The far vocative:"
+    },
+    {
+      "id": "s058",
+      "text": "E.g.: ya saʾiqa al-sayyara ('O driver of the car!')."
+    },
+    {
+      "id": "s059",
+      "text": "7 — The addressee pronoun:"
+    },
+    {
+      "id": "s060",
+      "text": "E.g.: ya anta istamiʿ li-qawl-i ('O you, listen to my words!')."
+    },
+    {
+      "id": "s061",
+      "text": "8 — The divine name:"
+    },
+    {
+      "id": "s062",
+      "text": "E.g.: ya Allah-u istajib ('O Allah, respond!')."
+    }
+  ]
+}

@@ -1,4 +1,9 @@
 {
+  "lessons": {
+    "indexTitle": "Lessons",
+    "indexSubtitle": "Browse all Arabic grammar lessons.",
+    "backToLessons": "All lessons"
+  },
   "common": {
     "appName": "Al-Nahw Al-Kafi",
     "appNameAr": "النحو الكافي",
@@ -6,6 +11,7 @@
   },
   "nav": {
     "features": "Features",
+    "lessons": "Lessons",
     "pricing": "Pricing",
     "faq": "FAQ",
     "support": "Support",

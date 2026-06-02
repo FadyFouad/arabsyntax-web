@@ -1,0 +1,432 @@
+{
+  "lesson_id": "esm_faeel",
+  "language": "en",
+  "title": "What Is Ism al-Faʿil (the Active Participle)?",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentences:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "sadaqa al-rajul / al-rajul-u sadiq",
+          "text": "— The man told the truth / The man is truthful."
+        },
+        {
+          "transliteration": "nadima al-zalim / al-zalim-u nadim",
+          "text": "— The wrongdoer regretted / The wrongdoer is regretful."
+        },
+        {
+          "transliteration": "daraba al-muʿallim al-tilmidh / al-muʿallim-u darib",
+          "text": "— The teacher struck the pupil / The teacher is one who strikes."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "If you reflect on the underlined words, you find them to be derived nouns on the pattern 'faʿil', indicating the one from whom the action proceeds — i.e., the doer. So 'sadiq' indicates the doer of truthfulness, 'nadim' indicates the doer of regret, and so on. For this reason each of these words is called: ism al-faʿil (the active participle)."
+    },
+    {
+      "id": "s004",
+      "text": "Definition of Ism al-Faʿil"
+    },
+    {
+      "id": "s005",
+      "label_en": "Definition",
+      "text": "Ism al-faʿil (the active participle): a derived noun on the pattern 'faʿil', indicating the one who performs the action."
+    },
+    {
+      "id": "s006",
+      "text": "Forming Ism al-Faʿil"
+    },
+    {
+      "id": "s007",
+      "text": "1 — Ism al-faʿil is formed from the triliteral verb on the pattern 'faʿil'."
+    },
+    {
+      "id": "s008",
+      "text": "Example:"
+    },
+    {
+      "id": "s009",
+      "items": [
+        {
+          "transliteration": "shariba / sharib",
+          "text": "(he drank / a drinker)"
+        },
+        {
+          "transliteration": "nama / naʾim",
+          "text": "(he slept / a sleeper)"
+        },
+        {
+          "transliteration": "ʿamala / ʿamil",
+          "text": "(he worked / a worker)"
+        }
+      ]
+    },
+    {
+      "id": "s010",
+      "text": "2 — Ism al-faʿil is formed from a non-triliteral verb by converting the verb to the present tense, replacing the present-tense letter with a damma-bearing mim, and giving kasra to the letter before the last."
+    },
+    {
+      "id": "s011",
+      "text": "Example:"
+    },
+    {
+      "id": "s012",
+      "items": [
+        {
+          "transliteration": "istaqbala / mustaqbil",
+          "text": "(he received / a receiver)"
+        },
+        {
+          "transliteration": "istaqama / mustaqim",
+          "text": "(he became upright / one upright)"
+        },
+        {
+          "transliteration": "adhnaba / mudhnib",
+          "text": "(he sinned / a sinner)"
+        }
+      ]
+    },
+    {
+      "id": "s013",
+      "text": "Question: Could you explain in detail how to form ism al-faʿil from a non-triliteral verb?"
+    },
+    {
+      "id": "s014",
+      "text": "Yes — let us apply the rule above:\n(a) We have non-triliteral past verbs: istaqama, istaqbala, adhnaba.\n(b) We convert them to the present tense: yastaqbilu, yastaqimu, yudhnibu.\n(c) We replace the present-tense letter with a damma-bearing mim and put kasra before the last letter: mustaqbil, mustaqim, mudhnib."
+    },
+    {
+      "id": "s015",
+      "text": "Examples of Ism al-Faʿil"
+    },
+    {
+      "id": "s016",
+      "items": [
+        {
+          "transliteration": "muhsin",
+          "text": "(a doer of good)"
+        },
+        {
+          "transliteration": "baʾiʿ",
+          "text": "(a seller)"
+        },
+        {
+          "transliteration": "katib",
+          "text": "(a writer)"
+        },
+        {
+          "transliteration": "muntaqim",
+          "text": "(a vengeful one)"
+        },
+        {
+          "transliteration": "mubadhdhir",
+          "text": "(a wasteful one)"
+        },
+        {
+          "transliteration": "saʾil",
+          "text": "(a questioner)"
+        },
+        {
+          "transliteration": "munqatiʿ",
+          "text": "(one who has cut off / disconnected)"
+        },
+        {
+          "transliteration": "daʾiʿ",
+          "text": "(one who is lost)"
+        },
+        {
+          "transliteration": "laʿib",
+          "text": "(a player)"
+        }
+      ]
+    },
+    {
+      "id": "s017",
+      "text": "Ism al-Faʿil and Its Operation"
+    },
+    {
+      "id": "s018",
+      "text": "Ism al-faʿil that operates like its verb appears in two forms:"
+    },
+    {
+      "id": "s019",
+      "text": "1 — Made Definite with 'Al-'\nIn this form, ism al-faʿil performs its operation absolutely, without any further condition. E.g.:"
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "saraqa al-liss-u al-mal",
+          "text": "— The thief stole the money."
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "This sentence consists of a verb (saraqa), a subject (al-liss), and a direct object (al-mal). Let us convert it to ism al-faʿil:"
+    },
+    {
+      "id": "s022",
+      "items": [
+        {
+          "transliteration": "hadha al-sariq-u al-mal",
+          "text": "— This is the one who stole the money."
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "text": "Ism al-faʿil: al-sariq.\nal-mal: a direct object of ism al-faʿil."
+    },
+    {
+      "id": "s024",
+      "items": [
+        {
+          "transliteration": "zaʿama al-ʿaduww-u al-intisar-a ʿalayh-i mustahilan",
+          "text": "— The enemy claimed that defeating him was impossible."
+        }
+      ]
+    },
+    {
+      "id": "s025",
+      "text": "al-intisar: the first direct object of the verb 'zaʿama'.\nmustahilan: the second direct object of the verb 'zaʿama'.\nLet us convert it to ism al-faʿil:"
+    },
+    {
+      "id": "s026",
+      "items": [
+        {
+          "transliteration": "hadha al-ʿaduww-u al-zaʿim-u al-intisar-a ʿalayh-i mustahilan",
+          "text": "— This is the enemy who claims that defeating him is impossible."
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "text": "al-intisar: the first direct object of ism al-faʿil 'al-zaʿim'.\nmustahilan: the second direct object of ism al-faʿil 'al-zaʿim'."
+    },
+    {
+      "id": "s028",
+      "text": "2 — Free of 'Al-'\nIn this form, ism al-faʿil operates like its verb only under two conditions:"
+    },
+    {
+      "id": "s029",
+      "text": "(a) The meaning of the sentence — including ism al-faʿil — must be such that it pertains to the present or future, not the past. E.g.:"
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "al-muʿallim-u sharih-un al-dars-a al-an aw ghadan",
+          "text": "— The teacher is explaining the lesson now or [will explain it] tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "(b) Ism al-faʿil must depend on something preceding it — e.g., it falls after:"
+    },
+    {
+      "id": "s032",
+      "text": "— An interrogative, e.g.:"
+    },
+    {
+      "id": "s033",
+      "items": [
+        {
+          "transliteration": "a-munshid-un Muhammad-un qasidat-a-hu?",
+          "text": "— Is Muhammad reciting his poem?"
+        }
+      ]
+    },
+    {
+      "id": "s034",
+      "text": "— A negation, e.g.:"
+    },
+    {
+      "id": "s035",
+      "items": [
+        {
+          "transliteration": "ma samiʿ-un akh-u-ka nasihat-i",
+          "text": "— Your brother is not heeding my advice."
+        }
+      ]
+    },
+    {
+      "id": "s036",
+      "text": "— A vocative, e.g.:"
+    },
+    {
+      "id": "s037",
+      "items": [
+        {
+          "transliteration": "ya basitan kaffayh-i bi-l-duʿaʾ",
+          "text": "— O you who stretch out your hands in supplication!"
+        }
+      ]
+    },
+    {
+      "id": "s038",
+      "text": "— Falling as an attribute (sifa), e.g.:"
+    },
+    {
+      "id": "s039",
+      "items": [
+        {
+          "transliteration": "shahad-tu binaʾan natihan al-sahab",
+          "text": "— I saw a building reaching the clouds."
+        }
+      ]
+    },
+    {
+      "id": "s040",
+      "text": "— Falling as a predicate (khabar), e.g.:"
+    },
+    {
+      "id": "s041",
+      "items": [
+        {
+          "transliteration": "al-haqq-u dahid-un al-batil",
+          "text": "— The truth is the refuter of falsehood."
+        }
+      ]
+    },
+    {
+      "id": "s042",
+      "text": "— Falling as a circumstantial accusative (hal), e.g.:"
+    },
+    {
+      "id": "s043",
+      "items": [
+        {
+          "transliteration": "samiʿ-tu Muhammad-an munshidan qasidat-a-hu",
+          "text": "— I heard Muhammad reciting his poem."
+        }
+      ]
+    },
+    {
+      "id": "s044",
+      "text": "Iʿrab of Ism al-Faʿil"
+    },
+    {
+      "id": "s045",
+      "items": [
+        {
+          "transliteration": "al-ghulam-u sadiq-un",
+          "text": "— The boy is truthful."
+        }
+      ]
+    },
+    {
+      "id": "s046",
+      "text": "al-ghulam: mubtadaʾ in the nominative, marked by the manifest damma at its end.\nsadiq: khabar in the nominative, marked by the manifest damma at its end."
+    },
+    {
+      "id": "s047",
+      "items": [
+        {
+          "text": "— Allah Most High said: \"Creator of the heavens and the earth, [who] made the angels messengers...\" — Quran 35:1 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s048",
+      "text": "fatir: a naʿt for the divine name in the genitive, marked by the manifest kasra; a mudaf.\nal-samawat: a mudaf ilayh in the genitive, marked by the manifest kasra.\nwa-l-ard: the waw is a conjunction; al-ard is conjoined upon al-samawat in the genitive, marked by the manifest kasra.\njaʿil: a second naʿt for the divine name; an ism al-faʿil annexed to its direct object (al-malaʾika); when annexed to al-malaʾika, it becomes transitive to the [second] direct object 'rusulan'; a mudaf.\nal-malaʾika: a mudaf ilayh in the genitive, marked by the manifest kasra.\nrusulan: a direct object of the annexed ism al-faʿil 'jaʿil', in the accusative, marked by the manifest fatha."
+    },
+    {
+      "id": "s049",
+      "items": [
+        {
+          "text": "— Allah Most High said: \"Have you no desire for my gods, O Abraham?\" — Quran 19:46 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s050",
+      "text": "a-raghib: the hamza is interrogative; raghib is a fronted khabar in the nominative, marked by the manifest damma at its end.\nanta: a separate pronoun fixed on fatha, in the position of nominative as a postponed mubtadaʾ.\nʿan: a preposition.\naliha-ti: a noun in the genitive, marked by kasra, attached to 'raghib'; the yaʾ is a connected pronoun in the position of genitive as a mudaf ilayh.\nya: a vocative particle.\nIbrahim: a vocative fixed on damma, in the position of accusative."
+    },
+    {
+      "id": "s051",
+      "text": "Examples of Ism al-Faʿil from the Noble Quran"
+    },
+    {
+      "id": "s052",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s053",
+      "items": [
+        {
+          "text": "— \"Then would you possibly leave [out] some of what is revealed to you, or is your breast constrained by it...\" — Quran 11:12 (Sahih International)"
+        },
+        {
+          "text": "— \"Indeed, I will make upon the earth a successive authority.\" — Quran 2:30 (Sahih International)"
+        },
+        {
+          "text": "— \"Our Lord, take us out of this city of oppressive people...\" — Quran 4:75 (Sahih International)"
+        },
+        {
+          "text": "— \"I would not decide a matter until you witness [for] me.\" — Quran 27:32 (Sahih International)"
+        },
+        {
+          "text": "— \"Indeed, the Muslim men and Muslim women, the believing men and believing women...\" — Quran 33:35 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s054",
+      "text": "Exercises on Ism al-Faʿil"
+    },
+    {
+      "id": "s055",
+      "text": "1 — Identify every ism al-faʿil in the following passage and provide its full vowel-marking; indicate which is from a triliteral verb and which is from a non-triliteral verb:"
+    },
+    {
+      "id": "s056",
+      "text": "— Light and darkness have a clear effect on a person's health. Whoever lives in a dark dwelling that the sun's rays do not fill is seen with a wilted body and a pale complexion.\nThe sun's light is beneficial in many ways: it dries the air, kills disease germs, and helps reduce humidity. So make sure it is present in your home so that you may live with a healthy body, full of strength and vigor. Beware of weak artificial light, for it spoils the air and tires the power of sight."
+    },
+    {
+      "id": "s057",
+      "text": "2 — Complete the following sentences by inserting an ism al-faʿil in the blank, and indicate its position in iʿrab:"
+    },
+    {
+      "id": "s058",
+      "items": [
+        {
+          "transliteration": "kana al-inaʾ ……",
+          "text": "— The vessel was ……"
+        },
+        {
+          "transliteration": "laʿalla aba-ka ……",
+          "text": "— Perhaps your father is ……"
+        },
+        {
+          "transliteration": "al-nar …… fi al-manzil",
+          "text": "— The fire is …… in the house."
+        },
+        {
+          "transliteration": "rakib-tu al-bahr ……",
+          "text": "— I sailed the sea ……"
+        }
+      ]
+    },
+    {
+      "id": "s059",
+      "text": "3 — Provide the iʿrab for the underlined portions:"
+    },
+    {
+      "id": "s060",
+      "items": [
+        {
+          "text": "— Allah Most High said: \"Indeed, I will make upon the earth a successive authority.\" — Quran 2:30 (Sahih International)"
+        },
+        {
+          "text": "— [Classical poetry]: 'The slayer with the sword in the body of the slain — for swords, as for men, have appointed terms.'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "lesson_id": "zan_ekhawateha",
+  "language": "en",
+  "title": "Zanna and Its Sisters (Verbs of the Heart)",
+  "sections": [
+    {
+      "id": "s001",
+      "label_en": "Definition",
+      "text": "These are abrogating verbs (afʿal nasikha) that govern two objects in the accusative. They enter upon a nominal sentence (jumla ismiyya), making al-mubtadaʾ (the subject) into the first direct object and al-khabar (the predicate) into the second direct object."
+    },
+    {
+      "id": "s002",
+      "text": "Verbs of certainty: ʿalima ('to know'), wajada ('to find'), raʾa ('to see' — in the sense of 'to know').\nVerbs of preponderance: zanna ('to think'), hasiba ('to reckon'), zaʿama ('to claim'), khala ('to suppose').\nVerbs of transformation: jaʿala ('to make/turn into')."
+    },
+    {
+      "id": "s003",
+      "text": "The Operation of Zanna and Its Sisters"
+    },
+    {
+      "id": "s004",
+      "label_en": "Rule",
+      "text": "Zanna and its sisters are abrogating verbs that enter upon a nominal sentence: they put al-mubtadaʾ into the accusative as their first direct object, and al-khabar into the accusative as their second direct object."
+    },
+    {
+      "id": "s005",
+      "text": "Zanna and Its Sisters Are of Three Categories:"
+    },
+    {
+      "id": "s006",
+      "text": "1 — Those denoting certainty and the actual occurrence of the predicate: ʿalima, raʾa, wajada."
+    },
+    {
+      "id": "s007",
+      "text": "Examples:"
+    },
+    {
+      "id": "s008",
+      "items": [
+        {
+          "transliteration": "ʿalim-tu al-ʿilm-a asas-a al-nahda",
+          "text": "— I knew knowledge to be the foundation of advancement."
+        },
+        {
+          "transliteration": "raʾay-tu husn-a al-khulq-i afdal-a min al-mal",
+          "text": "— I saw [i.e., regarded] good character as better than wealth."
+        },
+        {
+          "transliteration": "wajad-tu al-sidq-a ahsan-a al-akhlaq",
+          "text": "— I found honesty to be the best of virtues."
+        }
+      ]
+    },
+    {
+      "id": "s009",
+      "text": "2 — Those denoting preponderance, i.e., that the predicate is likely to occur: zanna, zaʿama, khala, hasiba, jaʿala."
+    },
+    {
+      "id": "s010",
+      "text": "Examples:"
+    },
+    {
+      "id": "s011",
+      "items": [
+        {
+          "transliteration": "zanan-tu al-luʿbat-a sahla",
+          "text": "— I thought the game was easy."
+        },
+        {
+          "transliteration": "hasiba al-sariq-u al-sariqat-a nafiʿa la-hu",
+          "text": "— The thief reckoned theft would benefit him."
+        },
+        {
+          "transliteration": "khala al-tilmidh-u al-laʿib-a afdal-a min al-dirasa",
+          "text": "— The pupil supposed playing was better than studying."
+        },
+        {
+          "transliteration": "jaʿala al-tilmidh-u al-muʿadalat-a dhat-a majhul-in wahid-in wa-badaʾa fi hall-i-ha lam yufliḥ",
+          "text": "— The pupil considered the equation to have only one unknown and began trying to solve it — without success."
+        },
+        {
+          "transliteration": "zaʿama al-tabib-u al-marad-a basitan",
+          "text": "— The doctor claimed the illness was simple."
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "text": "3 — Those denoting transformation: sayyara ('to make/render'), jaʿala ('to make'), hawwala ('to convert')."
+    },
+    {
+      "id": "s013",
+      "text": "Examples:"
+    },
+    {
+      "id": "s014",
+      "items": [
+        {
+          "transliteration": "sayyara al-ʿilm-u wa-l-ʿamal-u al-umam-a mutaqaddima",
+          "text": "— Knowledge and work made the nations advanced."
+        },
+        {
+          "transliteration": "jaʿal-tu Muhammad-an masʾul-an ʿan al-mazraʿa",
+          "text": "— I made Muhammad responsible for the farm."
+        },
+        {
+          "transliteration": "hawwal-tu al-daqiq-a khubz-an",
+          "text": "— I converted the flour into bread."
+        }
+      ]
+    },
+    {
+      "id": "s015",
+      "label_en": "Note",
+      "text": "Some sisters of zanna take only one direct object when they carry a different meaning."
+    },
+    {
+      "id": "s016",
+      "items": [
+        {
+          "transliteration": "ʿalim-tu al-haqiqa",
+          "text": "— I knew the truth. (here meaning 'I came to know it')"
+        },
+        {
+          "transliteration": "wajada Ahmad-u hatif-a-hu",
+          "text": "— Ahmad found his phone. (here meaning 'he came upon it')"
+        },
+        {
+          "transliteration": "raʾay-tu al-sariq",
+          "text": "— I saw the thief. (here meaning 'I observed him with my eyes' — a verb of visual perception, not 'to know'; the other 'raʾa' is a verb of the heart, meaning 'to know')"
+        },
+        {
+          "transliteration": "taraka al-rajul-u watan-a-hu",
+          "text": "— The man left his homeland. (here meaning 'departed and abandoned')"
+        }
+      ]
+    },
+    {
+      "id": "s017",
+      "text": "Notes:"
+    },
+    {
+      "id": "s018",
+      "label_en": "Warning",
+      "text": "1 — The verbs of certainty and preponderance are called afʿal al-qulub ('verbs of the heart') because their meanings relate to the heart [i.e., mental cognition]. Based on whether they denote certainty or preponderance, they fall into four categories:\n(a) Those denoting certainty and the actual occurrence of the predicate: wajada, alfa, dara, taʿallam.\n(b) Those denoting preponderance, i.e., that the predicate is likely to occur with high probability: zaʿama, haja, ʿadda, jaʿala, hab.\n(c) Those denoting certainty originally but sometimes used for preponderance: raʾa, ʿalima.\n(d) Those denoting preponderance originally but sometimes used for certainty: zanna, hasiba, khala."
+    },
+    {
+      "id": "s019",
+      "label_en": "Warning",
+      "text": "2 — Zanna and its sisters operate in the past, present, and imperative — except for taʿallam (which is used only as imperative) and hab (which is used only as past)."
+    },
+    {
+      "id": "s020",
+      "label_en": "Warning",
+      "text": "3 — What is derived from zanna and its sisters operates the same way."
+    },
+    {
+      "id": "s021",
+      "items": [
+        {
+          "transliteration": "kun-tu zann-an najah-a-ka amr-an tabiʿiyyan",
+          "text": "— I had been thinking your success was a natural matter."
+        }
+      ]
+    },
+    {
+      "id": "s022",
+      "label_en": "Warning",
+      "text": "4 — Taʿallam carries the meaning of 'know!' (iʿlam), and hab carries the meaning of 'suppose that' (ifrid anna)."
+    },
+    {
+      "id": "s023",
+      "label_en": "Warning",
+      "text": "5 — When the hamza of transitivization (hamzat al-taʿdiya) enters upon ʿalima and raʾa, it makes them transitive to three objects."
+    },
+    {
+      "id": "s024",
+      "text": "Example:"
+    },
+    {
+      "id": "s025",
+      "items": [
+        {
+          "transliteration": "aray-tu al-walad-a al-ʿilm-a muhimm-an la-hu",
+          "text": "— I showed the boy that knowledge was important for him."
+        },
+        {
+          "transliteration": "aʿlam-tu al-talamidh-a husn-a al-khulq-i asas-a al-islah",
+          "text": "— I informed the pupils that good character is the foundation of reform."
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "label_en": "Warning",
+      "text": "6 — The verbs that convey the meaning of aʿlama ('to inform') and operate the same way — taking three objects — are: akhbara, anbaʾa, khabbara, nabbaʾa, haddatha (all meaning 'to inform/relate')."
+    },
+    {
+      "id": "s027",
+      "text": "Example:"
+    },
+    {
+      "id": "s028",
+      "items": [
+        {
+          "transliteration": "aʿlam-tu-ka al-nabaʾ-a sahihan",
+          "text": "— I informed you that the news was true."
+        }
+      ]
+    },
+    {
+      "id": "s029",
+      "text": "aʿlama: a verb.\nThe taʾ: the subject (faʿil).\nThe kaf: the first direct object (mafʿul bih awwal).\nal-nabaʾ: the second direct object.\nsahihan: the third direct object."
+    }
+  ]
+}

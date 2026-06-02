@@ -1,0 +1,544 @@
+{
+  "lesson_id": "algomlaa_alshartiaa",
+  "language": "en",
+  "title": "Definition of Al-Jumla al-Shartiyya (the Conditional Sentence)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Consider the following sentence:"
+    },
+    {
+      "id": "s002",
+      "items": [
+        {
+          "transliteration": "man dayyaʿa shayʾan min hadhihi al-wasaya fata-hu murad-u-hu",
+          "text": "— Whoever wastes any of these counsels — his desired aim eludes him."
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "text": "We have here a compound sentence beginning with a conditional particle: 'man' ('whoever'). It contains an original clause: 'man dayyaʿa shayʾan' ('whoever has wasted something'). This clause has not yet conveyed anything to the listener; it has therefore been joined to another clause: 'fata-hu murad-u-hu' ('his desired aim has eluded him'). This indicates that the eluding of the desired aim follows from — and is contingent upon — the wasting of any of these counsels. The first clause is called jumlat al-shart (the conditional clause), and the second is called jumlat jawab al-shart (the response of the condition)."
+    },
+    {
+      "id": "s004",
+      "label_en": "Definition",
+      "text": "Al-jumla al-shartiyya (the conditional sentence) is a compound sentence containing two interconnected clauses preceded by a conditional particle. The meaning of the first is not complete without the second. The first is called jumlat al-shart, and the second jumlat jawab al-shart."
+    },
+    {
+      "id": "s005",
+      "text": "Examples of the Conditional Sentence"
+    },
+    {
+      "id": "s006",
+      "items": [
+        {
+          "transliteration": "in tajtahid tanjah",
+          "text": "— If you strive, you will succeed."
+        },
+        {
+          "transliteration": "in ataʿta walid-ay-ka nilta rida-hum",
+          "text": "— If you obeyed your parents, you would attain their approval."
+        },
+        {
+          "transliteration": "in turafiq-ni tarbah",
+          "text": "— If you accompany me, you will gain."
+        },
+        {
+          "transliteration": "law istaqama al-nas-u la-ma wujidat mahakim",
+          "text": "— If people were upright, courts would not exist."
+        }
+      ]
+    },
+    {
+      "id": "s007",
+      "text": "Types of the Conditional Sentence"
+    },
+    {
+      "id": "s008",
+      "text": "The conditional sentence may be:"
+    },
+    {
+      "id": "s009",
+      "text": "— Verbal, e.g.:"
+    },
+    {
+      "id": "s010",
+      "items": [
+        {
+          "transliteration": "man zaraʿa hasada",
+          "text": "— Whoever sows reaps."
+        }
+      ]
+    },
+    {
+      "id": "s011",
+      "text": "— Nominal, e.g.:"
+    },
+    {
+      "id": "s012",
+      "items": [
+        {
+          "transliteration": "law anna-ka ʿamil-ta bi-nasihat-i la-najahta",
+          "text": "— Had you acted on my advice, you would have succeeded."
+        }
+      ]
+    },
+    {
+      "id": "s013",
+      "text": "The verb in jumlat jawab al-shart is usually:"
+    },
+    {
+      "id": "s014",
+      "text": "— Past-tense if the conditional verb is past-tense, e.g.:"
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "in sadaq-ta najaw-ta",
+          "text": "— If you told the truth, you escaped."
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "— Present-tense if the conditional verb is present-tense, e.g.:"
+    },
+    {
+      "id": "s017",
+      "items": [
+        {
+          "transliteration": "in tasduq tanjah",
+          "text": "— If you tell the truth, you succeed."
+        }
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "— Imperative — whether the conditional verb is past-tense or present-tense, e.g.:"
+    },
+    {
+      "id": "s019",
+      "items": [
+        {
+          "transliteration": "in atayta (or taʾti) ila al-ʿasimat-i fa-zur-ni",
+          "text": "— If you have come (or come) to the capital, then visit me."
+        }
+      ]
+    },
+    {
+      "id": "s020",
+      "text": "Linking the Response to the Condition"
+    },
+    {
+      "id": "s021",
+      "text": "1 — Jumlat al-jawab attaches directly to jumlat al-shart if it begins with a past-tense or present-tense verb, e.g.:"
+    },
+    {
+      "id": "s022",
+      "items": [
+        {
+          "transliteration": "man jadda wajada",
+          "text": "— Whoever strives, finds."
+        },
+        {
+          "transliteration": "man yazraʿ yahsud",
+          "text": "— Whoever sows reaps."
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "text": "2 — Jumlat al-jawab attaches to jumlat al-shart by means of the faʾ if it is:"
+    },
+    {
+      "id": "s024",
+      "text": "— Beginning with a past- or present-tense verb preceded by one of the following particles: qad, ma al-nafiya, lan, la al-nafiya or al-nahiya, sa-, sawfa, e.g.:"
+    },
+    {
+      "id": "s025",
+      "items": [
+        {
+          "transliteration": "in faʿal-ta khayran fa-lan tandam ʿalayh",
+          "text": "— If you do good, you will not regret it."
+        },
+        {
+          "transliteration": "man lam yashkur al-niʿam fa-qad taʿarrada li-zawal-i-ha",
+          "text": "— Whoever does not give thanks for blessings has indeed exposed himself to losing them."
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "text": "— Beginning with an imperative verb, e.g.:"
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "in turid fiʿl-a khayrin fa-ʿajjil bi-h",
+          "text": "— If you wish to do good, then hasten to it."
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "— An interrogative or exclamatory clause, e.g.:"
+    },
+    {
+      "id": "s029",
+      "items": [
+        {
+          "transliteration": "in khun-ta al-amanat-a fa-ma abshaʿ fiʿlat-a-ka!",
+          "text": "— If you betrayed the trust — how hideous is your deed!"
+        }
+      ]
+    },
+    {
+      "id": "s030",
+      "text": "— Beginning with one of the inflexible verbs: laysa, niʿma, biʾsa, ʿasa, e.g.:"
+    },
+    {
+      "id": "s031",
+      "items": [
+        {
+          "transliteration": "in ihtaqar-ta faqir-an fa-ʿasa an tatabaddal hal-u-hu",
+          "text": "— If you despise a poor man, perhaps his condition will change."
+        },
+        {
+          "transliteration": "in kun-ta marid-an fa-laysa ʿalayka haraj",
+          "text": "— If you are sick, there is no blame upon you."
+        }
+      ]
+    },
+    {
+      "id": "s032",
+      "text": "Order of the Condition and the Response"
+    },
+    {
+      "id": "s033",
+      "text": "The default order is for al-shart to precede al-jawab. But al-jawab may precede al-shart so as to be:"
+    },
+    {
+      "id": "s034",
+      "text": "— More prominent, e.g.:"
+    },
+    {
+      "id": "s035",
+      "items": [
+        {
+          "transliteration": "yandam-u al-kaslan-u in lam yanjah",
+          "text": "— The lazy one will regret if he does not succeed."
+        }
+      ]
+    },
+    {
+      "id": "s036",
+      "text": "— And if al-jawab is one that would normally attach with faʾ, the faʾ must be omitted, e.g.: 'sa-tanjahu in ihtamamta bi-durusika' ('you will succeed if you take care of your lessons') — originally: 'in ihtamamta bi-durusika fa-sa-tanjahu'."
+    },
+    {
+      "id": "s037",
+      "text": "— Sometimes it falls between the elements of jumlat al-jawab, to avoid heaviness, e.g.:"
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "laʿalla-ka in dhuq-ta marar-a al-fashal muttaʿiz",
+          "text": "— Perhaps you, if you have tasted the bitterness of failure, will take heed."
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "Omission in the Conditional Sentence"
+    },
+    {
+      "id": "s040",
+      "text": "— The conditional particle must be dispensed with if the conditional verb appears in the imperative form, e.g.:"
+    },
+    {
+      "id": "s041",
+      "items": [
+        {
+          "transliteration": "usduq tanju",
+          "text": "— Be truthful, you will be saved."
+        }
+      ]
+    },
+    {
+      "id": "s042",
+      "text": "— It is permissible to omit the conditional verb if the speech contains what indicates it and it is preceded by 'illa', e.g.:"
+    },
+    {
+      "id": "s043",
+      "items": [
+        {
+          "transliteration": "rattib umur-a-ka, wa-illa ikhtalatat ʿalayka al-umur",
+          "text": "— Order your affairs — otherwise the matters will become muddled for you."
+        }
+      ]
+    },
+    {
+      "id": "s044",
+      "text": "Additional Information"
+    },
+    {
+      "id": "s045",
+      "text": "1 — When jumlat al-shart begins with 'law' and is verbal, its verb is usually:"
+    },
+    {
+      "id": "s046",
+      "text": "— In the past-tense form, e.g.:"
+    },
+    {
+      "id": "s047",
+      "items": [
+        {
+          "transliteration": "law sada al-nizam-u wa-l-salam-u la-ma kana li-l-ʿuquba faʾida",
+          "text": "— If order and peace prevailed, punishment would have no benefit."
+        }
+      ]
+    },
+    {
+      "id": "s048",
+      "text": "— In the present-tense form preceded by 'lam', e.g.:"
+    },
+    {
+      "id": "s049",
+      "items": [
+        {
+          "transliteration": "law lam yujad al-taʿab-u la-ma kana li-l-rahat-i ladhdha",
+          "text": "— If there were no fatigue, rest would have no pleasure."
+        }
+      ]
+    },
+    {
+      "id": "s050",
+      "text": "— If nominal, it is joined with 'anna', e.g.:"
+    },
+    {
+      "id": "s051",
+      "items": [
+        {
+          "transliteration": "law anna al-mal-a mukhalladun sahib-u-hu la-khallada Qarun",
+          "text": "— If wealth could grant immortality to its owner, it would have made Qarun (Korah) immortal."
+        }
+      ]
+    },
+    {
+      "id": "s052",
+      "text": "2 — Jumlat al-shart beginning with 'lawla' is:"
+    },
+    {
+      "id": "s053",
+      "text": "— A simple nominal clause whose predicate is omitted, e.g.:"
+    },
+    {
+      "id": "s054",
+      "items": [
+        {
+          "transliteration": "lawla al-taʿab-u la-ma kana li-l-rahat-i ladhdha",
+          "text": "— Were it not for fatigue, rest would have no pleasure."
+        }
+      ]
+    },
+    {
+      "id": "s055",
+      "text": "— Or joined with 'anna' fully complete in elements, e.g.:"
+    },
+    {
+      "id": "s056",
+      "items": [
+        {
+          "transliteration": "lawla anna al-kitab-a mufid-un la-ma qaraʾ-tu-hu",
+          "text": "— Were it not for the fact that the book is beneficial, I would not have read it."
+        }
+      ]
+    },
+    {
+      "id": "s057",
+      "text": "3 — It is preferable to front jumlat al-jawab beginning with one of the verbs of approximation if the conditional particle is: law, law lam, lawla, e.g.:"
+    },
+    {
+      "id": "s058",
+      "items": [
+        {
+          "transliteration": "kadat al-harb-u tudammir-u al-bashariyya law lam yusriʿ al-ʿuqalaʾ ila iqaf-i-ha",
+          "text": "— War was about to destroy humanity had not the wise hastened to stop it."
+        }
+      ]
+    },
+    {
+      "id": "s059",
+      "text": "4 — The conditional sentence may also occur as:"
+    },
+    {
+      "id": "s060",
+      "text": "— A khabar (predicate), e.g.:"
+    },
+    {
+      "id": "s061",
+      "items": [
+        {
+          "transliteration": "al-shaʿb-u al-muttahid-u in asabat-hu karithat-un samada la-ha",
+          "text": "— A united people, when struck by a calamity, stand firm against it."
+        }
+      ]
+    },
+    {
+      "id": "s062",
+      "text": "— A naʿt (descriptive adjective), e.g.:"
+    },
+    {
+      "id": "s063",
+      "items": [
+        {
+          "transliteration": "la tuʿashir sadiqan in ihtaj-ta ilayh-i aʿrada ʿan-ka",
+          "text": "— Do not befriend a friend who turns away from you when you need him."
+        }
+      ]
+    },
+    {
+      "id": "s064",
+      "text": "— A relative clause (sila al-mawsul), e.g.:"
+    },
+    {
+      "id": "s065",
+      "items": [
+        {
+          "transliteration": "hadhihi hiya al-tariq-u allati in salak-ta-ha haqqaq-ta murad-a-ka",
+          "text": "— This is the path which, if you take it, will achieve your aim."
+        }
+      ]
+    },
+    {
+      "id": "s066",
+      "text": "Iʿrab of the Conditional Sentence"
+    },
+    {
+      "id": "s067",
+      "items": [
+        {
+          "transliteration": "1 — man yasʿa ila khayrin yajid-hu",
+          "text": "— Whoever strives toward goodness will find it."
+        }
+      ]
+    },
+    {
+      "id": "s068",
+      "text": "Conditional particle: man (a jussive-governing conditional noun, mubtadaʾ).\nJumlat al-shart: yasʿa ila khayrin (with no place in iʿrab).\nJumlat jawab al-shart: yajid-hu (with no place in iʿrab).\nThe two clauses (al-shart and its jawab) are in the position of nominative as the khabar of the mubtadaʾ 'man'."
+    },
+    {
+      "id": "s069",
+      "items": [
+        {
+          "transliteration": "2 — mahma yulqi al-ustadh-u fa-ana ahfaz-u-hu",
+          "text": "— Whatever the teacher delivers, I memorize it."
+        }
+      ]
+    },
+    {
+      "id": "s070",
+      "text": "Conditional particle: mahma (a jussive-governing conditional noun, fronted direct object).\nJumlat al-shart: yulqi al-ustadhu (with no place in iʿrab).\nJumlat jawab al-shart: fa-ana ahfazu-hu (the nominal clause is in the position of jussive as jumlat jawab al-shart, because of being attached with the faʾ)."
+    },
+    {
+      "id": "s071",
+      "items": [
+        {
+          "transliteration": "3 — ayyana tazur-ni ukrim-ka",
+          "text": "— Whenever you visit me, I shall honor you."
+        }
+      ]
+    },
+    {
+      "id": "s072",
+      "text": "Conditional particle: ayyana (a jussive-governing conditional noun, in the position of accusative as a noun of time).\nJumlat al-shart: tazur-ni (in the position of genitive as a mudaf ilayh).\nJumlat jawab al-shart: ukrim-ka (with no place in iʿrab)."
+    },
+    {
+      "id": "s073",
+      "items": [
+        {
+          "transliteration": "4 — bi-ayyi maqʿadin tajlis ajlis",
+          "text": "— On whatever seat you sit, I shall sit."
+        }
+      ]
+    },
+    {
+      "id": "s074",
+      "text": "Conditional particle: bi-ayy (a jussive-governing conditional noun in the genitive after the preposition).\nJumlat al-shart: tajlis (with no place in iʿrab).\nJumlat jawab al-shart: ajlis (with no place in iʿrab)."
+    },
+    {
+      "id": "s075",
+      "text": "Reminder: Review the dedicated lesson on the conditional style and its particles, mentioned at the start of this topic."
+    },
+    {
+      "id": "s076",
+      "items": [
+        {
+          "transliteration": "5 — idha sahib-ta al-laʾim-a taʾadhdhay-ta",
+          "text": "— If you keep company with the base, you are harmed."
+        }
+      ]
+    },
+    {
+      "id": "s077",
+      "text": "Conditional particle: idha (an adverbial conditional).\nJumlat al-shart: sahib-ta al-laʾim-a (in the position of genitive as a mudaf ilayh).\nJumlat jawab al-shart: taʾadhdhay-ta (with no place in iʿrab)."
+    },
+    {
+      "id": "s078",
+      "items": [
+        {
+          "transliteration": "6 — man yadrus bi-jiddin najaha bi-tafawwuq",
+          "text": "— Whoever studies diligently has succeeded with excellence."
+        }
+      ]
+    },
+    {
+      "id": "s079",
+      "text": "Conditional particle: man (a jussive-governing conditional noun, mubtadaʾ).\nJumlat al-shart: yadrus bi-jiddin (a present-tense verb in the jussive).\nJumlat jawab al-shart: najaha bi-tafawwuq (a past-tense verb)."
+    },
+    {
+      "id": "s080",
+      "items": [
+        {
+          "transliteration": "7 — anna sir-ta wajad-ta-ni janib-a-ka",
+          "text": "— Wherever you go, you find me at your side."
+        }
+      ]
+    },
+    {
+      "id": "s081",
+      "text": "Conditional particle: anna (a jussive-governing conditional noun — adverb of place).\nJumlat al-shart: sir-ta (a past-tense verb in the position of genitive as a mudaf ilayh).\nJumlat jawab al-shart: wajad-ta-ni janib-a-ka (with no place in iʿrab)."
+    },
+    {
+      "id": "s082",
+      "text": "The Conditional Sentence in the Noble Quran"
+    },
+    {
+      "id": "s083",
+      "text": "Allah Most High said:"
+    },
+    {
+      "id": "s084",
+      "items": [
+        {
+          "text": "— \"And whether you show what is within yourselves or conceal it, Allah will bring you to account for it. Then He will forgive whom He wills...\" — Quran 2:284 (Sahih International)"
+        },
+        {
+          "text": "— \"Whoever does a wrong will be recompensed for it...\" — Quran 4:123 (Sahih International)"
+        },
+        {
+          "text": "— \"And whatever good you do — Allah knows it.\" — Quran 2:197 (Sahih International)"
+        },
+        {
+          "text": "— \"And they said, 'Whatever sign you bring us with which to bewitch us, we will not be believers in you.'\" — Quran 7:132 (Sahih International)"
+        },
+        {
+          "text": "— \"If you do good, you do good for yourselves...\" — Quran 17:7 (Sahih International)"
+        }
+      ]
+    }
+  ]
+}

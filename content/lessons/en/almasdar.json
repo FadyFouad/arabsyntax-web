@@ -1,0 +1,790 @@
+{
+  "lesson_id": "almasdar",
+  "language": "en",
+  "title": "The Explicit and Interpreted Verbal Noun (Al-Masdar al-Sarih wa-l-Muʾawwal)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "The Explicit and Interpreted Verbal Noun (Al-Masdar al-Sarih wa-l-Muʾawwal)"
+    },
+    {
+      "id": "s002",
+      "text": "The masdar (verbal noun) in Arabic is divided into two main types: al-masdar al-sarih (the explicit verbal noun) and al-masdar al-muʾawwal (the interpreted verbal noun). Each has its own characteristics and uses in speech, and it is permissible for one to take the place of the other in many positions."
+    },
+    {
+      "id": "s003",
+      "text": "First: Al-Masdar al-Sarih (the Explicit Verbal Noun)"
+    },
+    {
+      "id": "s004",
+      "label_en": "Definition",
+      "text": "Al-masdar al-sarih is a noun indicating an event abstracted from time. It is the source of the derivatives (mushtaqqat) and is taken from the verb."
+    },
+    {
+      "id": "s005",
+      "items": [
+        {
+          "transliteration": "kataba, kitabatan",
+          "text": "(he wrote, writing)"
+        },
+        {
+          "transliteration": "qaraʾa, qiraʾatan",
+          "text": "(he read, reading)"
+        },
+        {
+          "transliteration": "jalasa, julusan",
+          "text": "(he sat, sitting)"
+        },
+        {
+          "transliteration": "dhahaba, dhahaban",
+          "text": "(he went, going)"
+        },
+        {
+          "transliteration": "nasara, nasran",
+          "text": "(he aided, aiding)"
+        }
+      ]
+    },
+    {
+      "id": "s006",
+      "items": [
+        {
+          "transliteration": "yasurr-u-ni ijtihad-u-ka",
+          "text": "— Your diligence pleases me."
+        },
+        {
+          "transliteration": "hubb-u al-watan-i min al-iman",
+          "text": "— Love of country is part of faith."
+        },
+        {
+          "transliteration": "fi al-sidq-i najat",
+          "text": "— In honesty there is salvation."
+        }
+      ]
+    },
+    {
+      "id": "s007",
+      "text": "Types of Al-Masdar al-Sarih"
+    },
+    {
+      "id": "s008",
+      "text": "Al-masdar al-sarih is divided, by the number of letters in its verb, into the masdar of: the triliteral verb, the four-letter verb, the five-letter verb, and the six-letter verb."
+    },
+    {
+      "id": "s009",
+      "text": "1 — Masdar of the Triliteral Verb"
+    },
+    {
+      "id": "s010",
+      "label_en": "Rule",
+      "text": "The masdar of the triliteral verb is samaʿi (heard, lexical) — i.e., one consults the dictionaries for it. Nevertheless, dominant patterns have been established for it according to the verb's meaning."
+    },
+    {
+      "id": "s011",
+      "headers": [
+        "Verb's Meaning",
+        "Masdar Pattern",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Indicating a craft or office",
+          "fiʿala",
+          {
+            "transliteration": "zaraʿa, ziraʿa / kataba, kitaba",
+            "text": "(planting / writing)"
+          }
+        ],
+        [
+          "Indicating disturbance or fluctuation",
+          "faʿalan",
+          {
+            "transliteration": "ghala, ghalayan / jala, jawalan",
+            "text": "(boiling / circling about)"
+          }
+        ],
+        [
+          "Indicating an illness",
+          "fuʿal",
+          {
+            "transliteration": "saʿala, suʿal / sadaʿa, sudaʿ",
+            "text": "(coughing / headache)"
+          }
+        ],
+        [
+          "Indicating travel",
+          "faʿil",
+          {
+            "transliteration": "rahala, rahil / dhahaba, dhahib",
+            "text": "(departing / going)"
+          }
+        ],
+        [
+          "Indicating a sound",
+          "faʿil or fuʿal",
+          {
+            "transliteration": "sahala, sahil / sarakha, surakh",
+            "text": "(neighing / shouting)"
+          }
+        ],
+        [
+          "Indicating a color",
+          "fuʿla",
+          {
+            "transliteration": "hamura, humra / khadura, khudra",
+            "text": "(redness / greenness)"
+          }
+        ],
+        [
+          "Intransitive on pattern faʿala",
+          "fuʿul",
+          {
+            "transliteration": "jalasa, julus / kharaja, khuruj",
+            "text": "(sitting / going out)"
+          }
+        ],
+        [
+          "Intransitive on pattern faʿila",
+          "faʿal",
+          {
+            "transliteration": "fariha, farah / taʿiba, taʿab",
+            "text": "(joy / fatigue)"
+          }
+        ],
+        [
+          "Intransitive on pattern faʿula",
+          "faʿala or fuʿula",
+          {
+            "transliteration": "fasuha, fasaha / sahula, suhula",
+            "text": "(eloquence / ease)"
+          }
+        ],
+        [
+          "Transitive on pattern faʿala",
+          "faʿl",
+          {
+            "transliteration": "nasara, nasr / fahima, fahm",
+            "text": "(victory / understanding)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s012",
+      "text": "2 — Masdar of the Four-Letter Verb"
+    },
+    {
+      "id": "s013",
+      "label_en": "Rule",
+      "text": "The masdar of the four-letter verb is qiyasi (analogical), having specific patterns according to the verb's pattern."
+    },
+    {
+      "id": "s014",
+      "headers": [
+        "Verb Pattern",
+        "Masdar Pattern",
+        "Example"
+      ],
+      "rows": [
+        [
+          {
+            "transliteration": "afʿala"
+          },
+          {
+            "transliteration": "ifʿal"
+          },
+          {
+            "transliteration": "akrama, ikram",
+            "text": "(he honored, honoring)"
+          }
+        ],
+        [
+          {
+            "transliteration": "faʿʿala (sound)"
+          },
+          {
+            "transliteration": "tafʿil"
+          },
+          {
+            "transliteration": "karrama, takrim",
+            "text": "(he honored, honoring)"
+          }
+        ],
+        [
+          {
+            "transliteration": "faʿʿala (weak)"
+          },
+          {
+            "transliteration": "tafʿila"
+          },
+          {
+            "transliteration": "rabba, tarbiya",
+            "text": "(he raised, upbringing)"
+          }
+        ],
+        [
+          {
+            "transliteration": "faʿala"
+          },
+          {
+            "transliteration": "mufaʿala or fiʿal"
+          },
+          {
+            "transliteration": "qatala, muqatala / qital",
+            "text": "(he fought, fighting)"
+          }
+        ],
+        [
+          {
+            "transliteration": "faʿlala"
+          },
+          {
+            "transliteration": "faʿlala or fiʿlal"
+          },
+          {
+            "transliteration": "dahraja, dahraja / dihraj",
+            "text": "(he rolled, rolling)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s015",
+      "text": "3 — Masdar of the Five-Letter Verb"
+    },
+    {
+      "id": "s016",
+      "label_en": "Rule",
+      "text": "The masdar of the five-letter verb is qiyasi (analogical), often taken from the present-tense form."
+    },
+    {
+      "id": "s017",
+      "headers": [
+        "Verb Pattern",
+        "Masdar Pattern",
+        "Example"
+      ],
+      "rows": [
+        [
+          {
+            "transliteration": "tafaʿʿala"
+          },
+          {
+            "transliteration": "tafaʿʿul"
+          },
+          {
+            "transliteration": "taʿallama, taʿallum",
+            "text": "(he learned, learning)"
+          }
+        ],
+        [
+          {
+            "transliteration": "tafaʿala"
+          },
+          {
+            "transliteration": "tafaʿul"
+          },
+          {
+            "transliteration": "taqabala, taqabul",
+            "text": "(he met, meeting)"
+          }
+        ],
+        [
+          {
+            "transliteration": "infaʿala"
+          },
+          {
+            "transliteration": "infiʿal"
+          },
+          {
+            "transliteration": "inkasara, inkisar",
+            "text": "(it broke, breaking)"
+          }
+        ],
+        [
+          {
+            "transliteration": "iftaʿala"
+          },
+          {
+            "transliteration": "iftiʿal"
+          },
+          {
+            "transliteration": "ijtamaʿa, ijtimaʿ",
+            "text": "(he gathered, gathering)"
+          }
+        ],
+        [
+          {
+            "transliteration": "ifʿalla"
+          },
+          {
+            "transliteration": "ifʿilal"
+          },
+          {
+            "transliteration": "ihmarra, ihmirar",
+            "text": "(it became red, reddening)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "4 — Masdar of the Six-Letter Verb"
+    },
+    {
+      "id": "s019",
+      "headers": [
+        "Verb Pattern",
+        "Masdar Pattern",
+        "Example"
+      ],
+      "rows": [
+        [
+          {
+            "transliteration": "istafʿala"
+          },
+          {
+            "transliteration": "istifʿal"
+          },
+          {
+            "transliteration": "istakhraja, istikhraj",
+            "text": "(he extracted, extracting)"
+          }
+        ],
+        [
+          {
+            "transliteration": "ifʿawʿala"
+          },
+          {
+            "transliteration": "ifʿiʿal"
+          },
+          {
+            "transliteration": "ikhshawshana, ikhshishan",
+            "text": "(he became coarse, becoming coarse)"
+          }
+        ],
+        [
+          {
+            "transliteration": "ifʿawwala"
+          },
+          {
+            "transliteration": "ifʿiwwal"
+          },
+          {
+            "transliteration": "ijlawwadha, ijliwwadh",
+            "text": "(he hastened, hastening)"
+          }
+        ],
+        [
+          {
+            "transliteration": "ifʿalla"
+          },
+          {
+            "transliteration": "ifʿilal"
+          },
+          {
+            "transliteration": "ihmarra, ihmirar",
+            "text": "(it became deep red, becoming deep red)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s020",
+      "text": "Second: Al-Masdar al-Muʾawwal (the Interpreted Verbal Noun)"
+    },
+    {
+      "id": "s021",
+      "label_en": "Definition",
+      "text": "Al-masdar al-muʾawwal is what is composed of an infinitival particle (harf masdari) together with what follows it; it is interpreted (taʾwil) as an explicit masdar that takes its place."
+    },
+    {
+      "id": "s022",
+      "text": "The Infinitival Particles"
+    },
+    {
+      "id": "s023",
+      "label_en": "Rule",
+      "text": "The infinitival particles from which al-masdar al-muʾawwal is composed are: an, anna, kay, ma, law, hamzat al-taswiya. Each is interpreted with what follows it as an explicit masdar."
+    },
+    {
+      "id": "s024",
+      "text": "1 — Infinitival 'an' with the Verb"
+    },
+    {
+      "id": "s025",
+      "label_en": "Rule",
+      "text": "When infinitival 'an' enters upon a present-tense or past-tense verb, it is interpreted with the verb as an explicit masdar."
+    },
+    {
+      "id": "s026",
+      "items": [
+        {
+          "transliteration": "yasurr-u-ni an tanjaha",
+          "text": "— Your succeeding pleases me. (interpretation: 'your success' — najahuka)"
+        },
+        {
+          "transliteration": "yuʿjib-u-ni an tajtahid",
+          "text": "— Your striving pleases me. (interpretation: 'your diligence' — ijtihaduka)"
+        },
+        {
+          "transliteration": "saʿid-tu bi-an zur-ta-ni",
+          "text": "— I was pleased that you visited me. (interpretation: 'by your visit' — bi-ziyaratika)"
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "text": "2 — Infinitival 'anna' with Its Noun and Predicate"
+    },
+    {
+      "id": "s028",
+      "label_en": "Rule",
+      "text": "When 'anna' comes with its ism and khabar, it is interpreted with them as an explicit masdar; the masdar is formed from the khabar and annexed to the ism."
+    },
+    {
+      "id": "s029",
+      "items": [
+        {
+          "transliteration": "sarra-ni anna-ka najih",
+          "text": "— It pleased me that you are successful. (interpretation: 'your success' — najahuka)"
+        },
+        {
+          "transliteration": "balagha-ni anna al-muʿallim-a musafir",
+          "text": "— It reached me that the teacher is traveling. (interpretation: 'the teacher's traveling' — safaru al-muʿallim)"
+        },
+        {
+          "transliteration": "yuʿjib-u-ni anna al-talib-a mujtahid",
+          "text": "— It pleases me that the student is diligent. (interpretation: 'the student's diligence' — ijtihadu al-talib)"
+        }
+      ]
+    },
+    {
+      "id": "s030",
+      "text": "3 — Infinitival 'kay' with the Verb"
+    },
+    {
+      "id": "s031",
+      "items": [
+        {
+          "transliteration": "jiʾtu kay ataʿallam",
+          "text": "— I came in order to learn. (interpretation: 'for learning' — li-l-taʿallum)"
+        },
+        {
+          "transliteration": "ijtahid kay tanjaha",
+          "text": "— Strive in order to succeed. (interpretation: 'for the sake of success' — li-l-najah)"
+        }
+      ]
+    },
+    {
+      "id": "s032",
+      "text": "4 — Infinitival 'ma' with the Verb"
+    },
+    {
+      "id": "s033",
+      "label_en": "Rule",
+      "text": "Infinitival 'ma' is interpreted with what follows it as an explicit masdar. It is sometimes called 'ma' al-masdariyya al-zarfiyya (adverbial infinitival ma) when it indicates time."
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "yuʿjib-u-ni ma tafʿal",
+          "text": "— What you do pleases me. (interpretation: 'your action' — fiʿluka)"
+        },
+        {
+          "transliteration": "sa-azall-u sadiq-a-ka ma hayit",
+          "text": "— I will remain your friend as long as I live. (interpretation: 'the duration of my life' — muddata hayati)"
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "5 — Infinitival 'law' with the Verb"
+    },
+    {
+      "id": "s036",
+      "label_en": "Rule",
+      "text": "Infinitival 'law' carries the meaning of 'an' and is interpreted with what follows it as an explicit masdar. It often follows verbs of wishing or affection."
+    },
+    {
+      "id": "s037",
+      "items": [
+        {
+          "transliteration": "yawadd-u al-kasul-u law yanjaha",
+          "text": "— The lazy one wishes that he would succeed. (interpretation: 'his success' — najahahu)"
+        },
+        {
+          "transliteration": "wadid-tu law zur-tu-ka",
+          "text": "— I wished that I had visited you. (interpretation: 'my visit to you' — ziyarataka)"
+        }
+      ]
+    },
+    {
+      "id": "s038",
+      "text": "6 — Hamzat al-Taswiya (the Hamza of Equality)"
+    },
+    {
+      "id": "s039",
+      "label_en": "Definition",
+      "text": "Hamzat al-taswiya: an interrogative hamza that comes after a word indicating equality (such as 'sawaʾ', 'it is the same'), and is interpreted with what follows it as an explicit masdar."
+    },
+    {
+      "id": "s040",
+      "items": [
+        {
+          "transliteration": "sawaʾ-un ʿalayya a-hadar-ta am ghibta",
+          "text": "— It is the same to me whether you came or were absent. (interpretation: 'your coming and your absence')"
+        },
+        {
+          "transliteration": "sawaʾ-un ʿalayhim a-andhar-ta-hum am lam tundhir-hum",
+          "text": "— It is the same to them whether you warned them or did not warn them. (interpretation: 'your warning and the absence thereof')"
+        }
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "How to Convert an Interpreted Masdar to an Explicit One"
+    },
+    {
+      "id": "s042",
+      "label_en": "Rule",
+      "text": "To convert an interpreted masdar to an explicit one, take the verb's root and form the masdar from it; then annex it to the subject or noun. In the case of 'anna' with its ism and khabar: form the masdar from the khabar and annex it to the ism."
+    },
+    {
+      "id": "s043",
+      "headers": [
+        "Interpreted Masdar",
+        "Equivalent Explicit Masdar"
+      ],
+      "rows": [
+        [
+          {
+            "transliteration": "an tanjaha"
+          },
+          {
+            "transliteration": "najahuka",
+            "text": "(your success)"
+          }
+        ],
+        [
+          {
+            "transliteration": "an yafuza al-talib"
+          },
+          {
+            "transliteration": "fawzu al-talib",
+            "text": "(the student's victory)"
+          }
+        ],
+        [
+          {
+            "transliteration": "annaka mujtahid"
+          },
+          {
+            "transliteration": "ijtihaduka",
+            "text": "(your diligence)"
+          }
+        ],
+        [
+          {
+            "transliteration": "anna al-muʿallima hadir"
+          },
+          {
+            "transliteration": "huduru al-muʿallim",
+            "text": "(the teacher's attendance)"
+          }
+        ],
+        [
+          {
+            "transliteration": "kay ataʿallam"
+          },
+          {
+            "transliteration": "li-l-taʿallum",
+            "text": "(for learning)"
+          }
+        ],
+        [
+          {
+            "transliteration": "ma tafʿal"
+          },
+          {
+            "transliteration": "fiʿluka",
+            "text": "(your action)"
+          }
+        ],
+        [
+          {
+            "transliteration": "law yanjaha"
+          },
+          {
+            "transliteration": "najahahu",
+            "text": "(his success)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s044",
+      "text": "Iʿrab of Al-Masdar al-Muʾawwal"
+    },
+    {
+      "id": "s045",
+      "label_en": "Rule",
+      "text": "Al-masdar al-muʾawwal is parsed according to its position in the sentence — in the position of nominative, accusative, or genitive — exactly like the explicit masdar. Its position is determined by substituting the explicit masdar for it."
+    },
+    {
+      "id": "s046",
+      "text": "1 — Al-Masdar al-Muʾawwal in the Position of Nominative"
+    },
+    {
+      "id": "s047",
+      "items": [
+        "In the position of nominative as the subject (faʿil): yasurruni an tanjaha (implied: 'your success pleases me').",
+        "In the position of nominative as the deputy subject (naʾib al-faʿil): ʿulima annaka mujtahid (implied: 'your diligence is known').",
+        "In the position of nominative as a mubtadaʾ: an tasumu khayrun lakum (implied: 'your fasting is better for you').",
+        "In the position of nominative as a khabar: zanni annaka najih (implied: 'my opinion is your success')."
+      ]
+    },
+    {
+      "id": "s048",
+      "text": "2 — Al-Masdar al-Muʾawwal in the Position of Accusative"
+    },
+    {
+      "id": "s049",
+      "items": [
+        "In the position of accusative as a direct object: uhibbu an aqraʾa (implied: 'I love reading').",
+        "In the position of accusative as the noun of inna or its sisters: ʿalimtu anna al-jidda miftahu al-najah.",
+        "In the position of accusative as the predicate of kana or its sisters: kana zanni annaka mujtahid (implied: 'your diligence').",
+        "In the position of accusative as a hal: dhahabtu kay ataʿallam."
+      ]
+    },
+    {
+      "id": "s050",
+      "text": "3 — Al-Masdar al-Muʾawwal in the Position of Genitive"
+    },
+    {
+      "id": "s051",
+      "items": [
+        "In the position of genitive after a preposition: saʿidtu bi-an zurtani (implied: 'by your visit').",
+        "In the position of genitive as a mudaf ilayh: waqta an tahdura (implied: 'at the time of your attendance')."
+      ]
+    },
+    {
+      "id": "s052",
+      "items": [
+        {
+          "transliteration": "yasurr-u-ni an tajtahid-a fi ʿamal-i-ka",
+          "text": "— It pleases me that you strive in your work."
+        },
+        {
+          "transliteration": "ʿalim-tu anna-ka sadiq",
+          "text": "— I knew that you are truthful."
+        },
+        {
+          "transliteration": "saʿid-tu bi-an najah-ta",
+          "text": "— I was pleased that you succeeded."
+        }
+      ]
+    },
+    {
+      "id": "s053",
+      "text": "Difference Between the Explicit and Interpreted Masdar"
+    },
+    {
+      "id": "s054",
+      "headers": [
+        "Aspect",
+        "Al-Masdar al-Sarih (Explicit)",
+        "Al-Masdar al-Muʾawwal (Interpreted)"
+      ],
+      "rows": [
+        [
+          "Composition",
+          "A single word",
+          "Infinitival particle + what follows"
+        ],
+        [
+          "Form",
+          "Manifest in expression",
+          "Requires interpretation"
+        ],
+        [
+          "Iʿrab",
+          "Inflected by its position",
+          "In the iʿrab-position determined by its place"
+        ],
+        [
+          "Example",
+          {
+            "transliteration": "ijtihaduka yuʿjibuni",
+            "text": "(your diligence pleases me)"
+          },
+          {
+            "transliteration": "an tajtahida yuʿjibuni",
+            "text": "(that you strive pleases me)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s055",
+      "text": "What is the benefit of using al-masdar al-muʾawwal instead of al-masdar al-sarih?"
+    },
+    {
+      "id": "s056",
+      "text": "Its benefit is that it can stand in for the explicit masdar when the explicit form is not used or sounds heavy in speech. It also serves to express the meaning in a verbal form that conveys time — al-masdar al-muʾawwal carries the temporal sense of the verb from which it is composed (past, present, or future) — unlike al-masdar al-sarih, which indicates the event abstracted from time."
+    },
+    {
+      "id": "s057",
+      "text": "Cases Where Conversion Between the Two Types Is Not Permissible"
+    },
+    {
+      "id": "s058",
+      "label_en": "Note",
+      "text": "Although the explicit and interpreted masdars generally interchange in their positions, there are cases where one is required: some verbs are followed only by al-masdar al-muʾawwal, such as the verbs of hope (ʿasa, hara, ikhlawlaqa); some positions admit only al-masdar al-sarih, such as a naʿt or badal of a manifest noun."
+    },
+    {
+      "id": "s059",
+      "items": [
+        {
+          "transliteration": "ʿasa Allah-u an yaʾtiy-a bi-l-fath",
+          "text": "— Perhaps Allah will bring victory."
+        },
+        {
+          "transliteration": "yuʿjib-u-ni al-talib-u ijtihad-u-hu",
+          "text": "— I am pleased by the student's diligence."
+        }
+      ]
+    },
+    {
+      "id": "s060",
+      "text": "Example of Iʿrab"
+    },
+    {
+      "id": "s061",
+      "items": [
+        {
+          "transliteration": "yasurr-u-ni an tanjaha",
+          "text": "— It pleases me that you should succeed."
+        }
+      ]
+    },
+    {
+      "id": "s062",
+      "text": "yasurru: a present-tense verb in the nominative, marked by the manifest damma. The yaʾ (in '-ni'): a connected pronoun fixed on sukun, in the position of accusative as the direct object. an: an infinitival, accusative-governing particle. tanjaha: a present-tense verb in the accusative by 'an', marked by the manifest fatha; the subject is an obligatorily concealed pronoun, implied as 'anta'. The interpreted masdar (an + verb) is in the position of nominative as the subject of 'yasurru' — implied: 'yasurruni najahuka' ('your success pleases me')."
+    },
+    {
+      "id": "s063",
+      "label_en": "Warning",
+      "text": "The student should distinguish between infinitival 'an' (which puts the present-tense verb in the accusative and enters upon a verb) and infinitival 'anna' (the verb-resembling particle that enters upon a nominal sentence). The first lends the verb after it the meaning of a masdar; the second lends the nominal sentence after it the meaning of a masdar; both are interpreted with what follows them as an explicit masdar."
+    },
+    {
+      "id": "s064",
+      "text": "Allah Most High said: \"And to fast is best for you, if you only knew.\" — Quran 2:184 (Sahih International)"
+    },
+    {
+      "id": "s065",
+      "text": "In this noble verse, 'an tasumu' is an interpreted masdar in the position of nominative as a mubtadaʾ — implied: 'your fasting is better for you' (siyamukum khayrun lakum). 'Khayrun' is the khabar of the mubtadaʾ in the nominative, marked by the manifest damma."
+    }
+  ]
+}

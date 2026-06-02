@@ -1,0 +1,143 @@
+{
+  "lesson_id": "aqsam_kalam",
+  "language": "en",
+  "title": "The Categories of Speech (Aqsam al-Kalam)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "First: Definition of Al-Kalam (Speech)"
+    },
+    {
+      "id": "s002",
+      "text": "(Al-kalam is: a composite, meaningful utterance established by linguistic convention.)"
+    },
+    {
+      "id": "s003",
+      "text": "An explanation of this is as follows:"
+    },
+    {
+      "id": "s004",
+      "text": "1 — Al-kalam: that is, in the technical usage of the grammarians (al-nahwiyyin)."
+    },
+    {
+      "id": "s005",
+      "text": "2 — Al-lafz (utterance): the discrete sound issuing from the mouth, containing some of the alphabetical letters either actually — as in 'Zayd' — or notionally, as in a concealed pronoun. The restriction here to 'utterance' excludes from al-kalam every act of communication that is not a verbal utterance, such as writing or gesture."
+    },
+    {
+      "id": "s006",
+      "text": "3 — Al-murakkab (composite): meaning the joining of one word to another or more, whether the joining is overt — as in 'Zayd stood (qama Zaydun)' — or implicit, as in 'Stand! (qum)', whose implicit form is 'Stand, you (qum anta).'"
+    },
+    {
+      "id": "s007",
+      "text": "Composition (al-tarkib) is of several types:"
+    },
+    {
+      "id": "s008",
+      "items": [
+        "Predicative composition (al-murakkab al-isnadi): consisting of a musnad (predicate) and a musnad ilayh (subject of predication), as in 'Zayd is standing (Zaydun qaʾimun)' and 'Zayd stood (qama Zaydun),' where Zayd is the musnad ilayh and the standing is the musnad.",
+        "Compound-blend composition (al-tarkib al-mazji), as in 'Baalbek (Baʿlabakk).'",
+        "Construct composition (al-tarkib al-idafi), as in 'Zayd's servant-boy (ghulamu Zaydin).'",
+        "Numerical composition (al-tarkib al-ʿadadi), as in 'fourteen (arbaʿata ʿashara).'"
+      ]
+    },
+    {
+      "id": "s009",
+      "text": "4 — Al-mufid (meaningful): meaning that which conveys a meaning making it appropriate to fall silent upon, as in 'Zayd stood (qama Zaydun)' — unlike 'If Zayd stood (in qama Zaydun)', upon which it is not appropriate to fall silent."
+    },
+    {
+      "id": "s010",
+      "text": "5 — Bi-l-wadʿ (by linguistic convention): that is, the establishment of an utterance as an indicator of a meaning, in accordance with Arabic usage."
+    },
+    {
+      "id": "s011",
+      "text": "Thus the technical definition of al-kalam comprises four conditions: utterance (al-lafz), composition (al-tarkib), conveying of meaning (al-ifada), and conventional establishment (al-wadʿ)."
+    },
+    {
+      "id": "s012",
+      "text": "Exercise:"
+    },
+    {
+      "id": "s013",
+      "text": "[Classical poetry]: 'Whoever takes knowledge from a teacher face-to-face is in a sanctuary safe from forgery and textual corruption; but whoever takes knowledge [only] from books — his knowledge, in the eyes of the people of knowledge, is as though it were nothing.'"
+    },
+    {
+      "id": "s014",
+      "text": "[The above verse] would be counted as al-kalam by the grammarians, since the definition of al-kalam applies to it. The phrase 'Whoever takes...' is an utterance (lafz), because it is a sound containing alphabetical letters — its first letter is mim, then nun, and so on. It is also composite (murakkab), composed of words, indeed of clauses. It is likewise meaningful (mufid), since it is appropriate for the speaker to fall silent upon it — even though the listener may not be acquainted with its formal structure or its meanings (i.e., the verses being cited). And it is established by Arabic linguistic convention and is intentional, since it issues from a rational person."
+    },
+    {
+      "id": "s015",
+      "text": "Second: The Categories of Al-Kalam"
+    },
+    {
+      "id": "s016",
+      "text": "Al-kalam is divided, by reference to its composition, into:"
+    },
+    {
+      "id": "s017",
+      "items": [
+        "Noun (ism).",
+        "Verb (fiʿl).",
+        "Particle (harf)."
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "1 — Al-ism (the noun): that which indicates a meaning in itself, without being associated with time."
+    },
+    {
+      "id": "s019",
+      "text": "It is divided into three categories:"
+    },
+    {
+      "id": "s020",
+      "items": [
+        "(a) The manifest noun (al-ism al-zahir): Zayd, ʿAmr.",
+        "(b) The pronoun (al-ism al-mudmar): I (ana), you (anta), he (huwa).",
+        "(c) The vague/demonstrative noun (al-ism al-mubham): this (hadha), the one who (alladhi)."
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "2 — Al-fiʿl (the verb): that which indicates a meaning in itself, and is associated with time."
+    },
+    {
+      "id": "s022",
+      "text": "It is divided into three categories:"
+    },
+    {
+      "id": "s023",
+      "items": [
+        "(a) Past-tense verb (fiʿl madi): daraba ('he struck'), akala ('he ate').",
+        "(b) Present-tense verb (fiʿl mudariʿ): yaʾkulu ('he eats'), aktubu ('I write'), nudhakir ('we revise'), talʿabu ('you/she play(s)').",
+        "(c) Imperative verb (fiʿl amr): uktub ('write!'), izraʿ ('plant!'), ifham ('understand!'), ʿi ('be aware!')."
+      ]
+    },
+    {
+      "id": "s024",
+      "text": "3 — Al-harf (the particle): that which indicates a meaning [only] together with something else, and is not associated with time."
+    },
+    {
+      "id": "s025",
+      "text": "It is divided into two categories:"
+    },
+    {
+      "id": "s026",
+      "items": [
+        "(a) Letters of construction (huruf al-mabani): those from which a word is built — like the letters zay, yaʾ, and dal in the word 'Zayd' — also called the spelling letters (huruf al-tahaji).",
+        "(b) Letters of meaning (huruf al-maʿani): those that have meaning when combined with something else — such as the prepositions (huruf al-jarr) and the jussive particles (huruf al-jazm)."
+      ]
+    },
+    {
+      "id": "s027",
+      "text": "Exercise on What Has Been Explained"
+    },
+    {
+      "id": "s028",
+      "text": "Imam Ibn Qutaybah — may Allah have mercy upon him — said in the introduction to his [Adab al-Katib]: \"We recommend to whoever accepts our teaching and follows our books: that he refine his self before he refines his tongue; that he polish his character before he polishes his expressions; that he guard his honor (muruʾa) from the baseness of backbiting, and his craft from the disgrace of lying; and that he shun — before he shuns grammatical errors and slips of speech — vile speech and the obscenity of jesting.\""
+    },
+    {
+      "id": "s029",
+      "text": "In these sentences there are nouns, verbs, and particles."
+    }
+  ]
+}

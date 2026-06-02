@@ -1,0 +1,440 @@
+{
+  "lesson_id": "la_alnafia_lelgens",
+  "language": "en",
+  "title": "La al-Nafiya li-l-Jins (the 'La' That Negates the Genus)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "La al-Nafiya li-l-Jins (the 'La' That Negates the Entire Genus)"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "La al-nafiya li-l-jins is an indeclinable particle (harf mabni) that operates like inna: it puts the noun (ism) in the accusative and leaves the predicate (khabar) in the nominative. It conveys the negation of the ruling for the entire genus of its noun, by way of comprehensive inclusion (istighraq wa-shumul)."
+    },
+    {
+      "id": "s003",
+      "items": [
+        {
+          "transliteration": "la talib-a fi al-fasl",
+          "text": "— There is no student at all in the classroom."
+        },
+        {
+          "transliteration": "la kasul-a mahbub",
+          "text": "— No lazy person whatsoever is loved."
+        },
+        {
+          "transliteration": "la ilah-a illa Allah",
+          "text": "— There is no god whatsoever except Allah."
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "In these examples, 'la' is the negator of the entire genus. In the first example, it negates the genus of 'student' completely — there is not even one student, nor more, in the classroom. In the second, it negates the genus of lazy persons being loved. In the third, it negates the genus of gods except for the One God (Allah)."
+    },
+    {
+      "id": "s005",
+      "text": "The Difference Between La al-Nafiya li-l-Jins and La al-Nafiya li-l-Wahda"
+    },
+    {
+      "id": "s006",
+      "label_en": "Rule",
+      "text": "La al-nafiya li-l-jins negates the ruling for the entire genus completely and absolutely; it does not allow for the negation of one and the affirmation of another. La al-nafiya li-l-wahda (the 'la' negating one instance), on the other hand, negates the ruling for only one of the genus — leaving open the possibility of affirming the rest."
+    },
+    {
+      "id": "s007",
+      "items": [
+        {
+          "transliteration": "la talib-a fi al-fasl",
+          "text": "— No student at all in the classroom. (genus-negation: it cannot be said 'rather, two students'.)"
+        },
+        {
+          "transliteration": "la talib-un fi al-fasl bal taliban",
+          "text": "— No (single) student is in the classroom — rather, two students. (negating one and affirming two.)"
+        }
+      ]
+    },
+    {
+      "id": "s008",
+      "text": "Conditions for the Operation of La al-Nafiya li-l-Jins"
+    },
+    {
+      "id": "s009",
+      "label_en": "Rule",
+      "text": "La al-nafiya li-l-jins operates like inna under four conditions: its noun and predicate must both be indefinite (nakira); nothing must separate it from its noun; it must not be preceded by a preposition; and the negation must be by way of comprehensive inclusion."
+    },
+    {
+      "id": "s010",
+      "items": [
+        "Its noun must be indefinite (nakira): la talib-a muhmilun (correct). If its noun is definite, its operation is cancelled.",
+        "Its predicate must be indefinite: la talib-a muhmilun (correct). If its predicate is definite, its operation is cancelled.",
+        "Nothing may separate it from its noun: la talib-a fi al-fasl (correct). If a separator intervenes, its operation is cancelled.",
+        "It must not be preceded by a preposition: jiʾtu bi-la zadin ('I came without provisions'). If preceded by a preposition, its operation is cancelled."
+      ]
+    },
+    {
+      "id": "s011",
+      "label_en": "Note",
+      "text": "If any of these conditions is not met, the operation of la al-nafiya li-l-jins is cancelled, and 'la' must then be repeated. What follows it is parsed according to its position in the sentence."
+    },
+    {
+      "id": "s012",
+      "items": [
+        {
+          "transliteration": "la Muhammad-un fi al-bayt-i wa-la ʿAliyy-un",
+          "text": "— Muhammad is not in the house, nor is Ali. (the noun is definite, so the operation is cancelled.)"
+        },
+        {
+          "transliteration": "la fi al-fasl-i talib-un wa-la fi al-malʿab-i",
+          "text": "— There is no student in the classroom, nor in the field. (a separator intervenes, so the operation is cancelled.)"
+        },
+        {
+          "transliteration": "jiʾtu bi-la zad-in",
+          "text": "— I came without provisions. (preceded by a preposition, so the operation is cancelled.)"
+        }
+      ]
+    },
+    {
+      "id": "s013",
+      "text": "States of the Noun (Ism) of La al-Nafiya li-l-Jins"
+    },
+    {
+      "id": "s014",
+      "text": "The noun of la al-nafiya li-l-jins has three states: it can be mufrad (single), mudaf (annexed/in construct), or shabih bi-l-mudaf (resembling the annexed). Each state has its own ruling regarding indeclension or inflection."
+    },
+    {
+      "id": "s015",
+      "text": "1 — The Mufrad Noun of La"
+    },
+    {
+      "id": "s016",
+      "label_en": "Definition",
+      "text": "The mufrad noun of la: that which is neither annexed nor resembling the annexed — whether it is genuinely singular, dual, or plural."
+    },
+    {
+      "id": "s017",
+      "label_en": "Rule",
+      "text": "The noun of la al-nafiya li-l-jins, when it is mufrad, is mabni (indeclinable) on the marker that would otherwise put it in the accusative — and it occupies the position of accusative as the ism of la. So it is mabni on fatha if singular or broken plural; mabni on yaʾ if dual or sound masculine plural; mabni on kasra if sound feminine plural."
+    },
+    {
+      "id": "s018",
+      "items": [
+        {
+          "transliteration": "la talib-a kasul",
+          "text": "— No student is lazy. (mabni on fatha)"
+        },
+        {
+          "transliteration": "la rijal-a fi al-bayt",
+          "text": "— No men are in the house. (broken plural, mabni on fatha)"
+        },
+        {
+          "transliteration": "la talibayni ghaʾiban",
+          "text": "— No two students are absent. (dual, mabni on yaʾ)"
+        },
+        {
+          "transliteration": "la muhmilina najihun",
+          "text": "— No careless persons are successful. (sound masculine plural, mabni on yaʾ)"
+        },
+        {
+          "transliteration": "la talibatin ghaʾibatun",
+          "text": "— No female students (genus) are absent. (sound feminine plural, mabni on kasra)"
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "2 — The Mudaf Noun of La"
+    },
+    {
+      "id": "s020",
+      "label_en": "Definition",
+      "text": "The mudaf noun of la: one annexed to a noun that follows it."
+    },
+    {
+      "id": "s021",
+      "label_en": "Rule",
+      "text": "The noun of la al-nafiya li-l-jins, when it is mudaf, is in the accusative case — its sign of accusative being the manifest fatha or whatever serves in its place, depending on its type."
+    },
+    {
+      "id": "s022",
+      "items": [
+        {
+          "transliteration": "la talib-a ʿilmin madhmum",
+          "text": "— No seeker of knowledge is blameworthy."
+        },
+        {
+          "transliteration": "la sahib-a khuluqin makruh",
+          "text": "— No man of [good] character is despised."
+        },
+        {
+          "transliteration": "la faʿil-a khayrin nadim",
+          "text": "— No doer of good is regretful."
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "text": "3 — The Shabih bi-l-Mudaf Noun of La (Resembling the Annexed)"
+    },
+    {
+      "id": "s024",
+      "label_en": "Definition",
+      "text": "The shabih bi-l-mudaf noun of la: one to which something is attached that completes its meaning — operating on what follows, as does an active participle (ism al-faʿil), passive participle (ism al-mafʿul), resembling adjective (al-sifa al-mushabbaha), or anything that operates on a complement."
+    },
+    {
+      "id": "s025",
+      "label_en": "Rule",
+      "text": "The noun of la al-nafiya li-l-jins, when it is shabih bi-l-mudaf, is in the accusative — its sign of accusative being the manifest fatha or whatever serves in its place, depending on its type."
+    },
+    {
+      "id": "s026",
+      "items": [
+        {
+          "transliteration": "la taliʿan jabalan hadir",
+          "text": "— No climber-of-a-mountain is present."
+        },
+        {
+          "transliteration": "la hasanan khuluq-u-hu madhmum",
+          "text": "— No one of good character is blameworthy."
+        },
+        {
+          "transliteration": "la mashkuran fiʿl-u-hu nadim",
+          "text": "— No one whose deeds are praised is regretful."
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "text": "Table of the States of the Ism of La al-Nafiya li-l-Jins"
+    },
+    {
+      "id": "s028",
+      "headers": [
+        "State",
+        "Ruling",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Mufrad",
+          "Indeclinable on its accusative-marker, in the position of accusative",
+          {
+            "transliteration": "la talib-a muhmil"
+          }
+        ],
+        [
+          "Mudaf",
+          "In the accusative, marked by fatha or its substitute",
+          {
+            "transliteration": "la talib-a ʿilmin madhmum"
+          }
+        ],
+        [
+          "Shabih bi-l-mudaf",
+          "In the accusative, marked by fatha or its substitute (with tanwin)",
+          {
+            "transliteration": "la taliʿan jabalan hadir"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s029",
+      "label_en": "Warning",
+      "text": "The difference between mudaf and shabih bi-l-mudaf: the mudaf does NOT carry tanwin (la talib-a ʿilmin), whereas the shabih bi-l-mudaf DOES carry tanwin (la taliʿan jabalan). The shabih bi-l-mudaf is not actually a mudaf — it is a tanwin-carrying noun connected to a complement that completes its meaning."
+    },
+    {
+      "id": "s030",
+      "text": "The Predicate (Khabar) of La al-Nafiya li-l-Jins"
+    },
+    {
+      "id": "s031",
+      "label_en": "Rule",
+      "text": "The khabar of la al-nafiya li-l-jins is in the nominative case (raised by it). It may come as a single word, a clause (nominal or verbal), or a quasi-clause (a prepositional or adverbial phrase)."
+    },
+    {
+      "id": "s032",
+      "items": [
+        {
+          "transliteration": "la talib-a muhmil",
+          "text": "— No student is careless. (single-word khabar)"
+        },
+        {
+          "transliteration": "la muʾmin-a yakdhibu",
+          "text": "— No believer lies. (verbal-clause khabar)"
+        },
+        {
+          "transliteration": "la muhadhdhab-a khuluq-u-hu sayyiʾ",
+          "text": "— No refined person has bad character. (nominal-clause khabar)"
+        },
+        {
+          "transliteration": "la talib-a fi al-fasl",
+          "text": "— No student is in the classroom. (prepositional-phrase khabar)"
+        },
+        {
+          "transliteration": "la tullab-a ʿinda-na",
+          "text": "— There are no students with us. (adverbial-phrase khabar)"
+        }
+      ]
+    },
+    {
+      "id": "s033",
+      "label_en": "Note",
+      "text": "Frequently the khabar of la al-nafiya li-l-jins is omitted when there is contextual evidence — especially in proverbs and aphorisms, e.g.: la baʾsa ('no harm'), la hawla wa-la quwwata illa bi-llahi ('there is no power and no strength except by Allah'). The implied meaning: la baʾsa ʿalayka ('no harm upon you'); la hawla wa-la quwwata kaʾinani illa bi-llahi ('no power or strength exists except by Allah')."
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "la baʾs",
+          "text": "— No harm. (implying: 'no harm upon you')"
+        },
+        {
+          "transliteration": "la shakk",
+          "text": "— No doubt. (implying: 'no doubt about that')"
+        },
+        {
+          "transliteration": "la hawla wa-la quwwata illa bi-llah",
+          "text": "— There is no power and no strength except by Allah. (the khabar is omitted)"
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "Repetition of La al-Nafiya li-l-Jins"
+    },
+    {
+      "id": "s036",
+      "label_en": "Rule",
+      "text": "When la al-nafiya li-l-jins is repeated, the second 'la's noun may take one of three forms: indeclinable on fatha (like the first); in the nominative as a mubtadaʾ (with the second la treated as ineffective); or in the accusative, parsed like the first la's noun."
+    },
+    {
+      "id": "s037",
+      "items": [
+        {
+          "transliteration": "la hawla wa-la quwwata illa bi-llah",
+          "text": "— There is no power and no strength except by Allah."
+        },
+        {
+          "transliteration": "la hawla wa-la quwwatun illa bi-llah",
+          "text": "— There is no power, and no strength [either], except by Allah. (alternative parsing)"
+        }
+      ]
+    },
+    {
+      "id": "s038",
+      "text": "Iʿrab of La al-Nafiya li-l-Jins, Its Ism, and Its Khabar"
+    },
+    {
+      "id": "s039",
+      "items": [
+        {
+          "transliteration": "la talib-a fi al-fasl",
+          "text": "— No student is in the classroom."
+        }
+      ]
+    },
+    {
+      "id": "s040",
+      "text": "la: a particle of genus-negation operating like inna. talib-a: ism of la al-nafiya li-l-jins, indeclinable on fatha, in the position of accusative. fi al-fasl: a prepositional phrase attached to an omitted khabar of la al-nafiya li-l-jins."
+    },
+    {
+      "id": "s041",
+      "items": [
+        {
+          "transliteration": "la talib-a ʿilmin madhmum",
+          "text": "— No seeker of knowledge is blameworthy."
+        }
+      ]
+    },
+    {
+      "id": "s042",
+      "text": "la: a particle of genus-negation operating like inna. talib-a: ism of la al-nafiya li-l-jins in the accusative, marked by the manifest fatha; a mudaf. ʿilmin: a mudaf ilayh in the genitive, marked by the manifest kasra. madhmum: khabar of la al-nafiya li-l-jins in the nominative, marked by the manifest damma."
+    },
+    {
+      "id": "s043",
+      "text": "What is the benefit of using la al-nafiya li-l-jins instead of la al-nafiya li-l-wahda?"
+    },
+    {
+      "id": "s044",
+      "text": "Its benefit is that it conveys absolute, comprehensive negation across all members of the genus, leaving no room for exception or affirmation of any. It is therefore more eloquent in negation and stronger in emphasis — unlike la al-nafiya li-l-wahda, which negates only a single instance while leaving open the possibility of affirming others."
+    },
+    {
+      "id": "s045",
+      "text": "Additional Examples"
+    },
+    {
+      "id": "s046",
+      "items": [
+        {
+          "transliteration": "la muʾminin-a kadhibun",
+          "text": "— No believers are liars. (its noun is mabni on yaʾ)"
+        },
+        {
+          "transliteration": "la hafizatin li-l-Qurʾani daʾiʿat",
+          "text": "— No women preservers of the Quran are lost. (its noun is mabni on kasra)"
+        },
+        {
+          "transliteration": "la faʿil-a khayrin nadim",
+          "text": "— No doer of good is regretful. (its noun is mudaf)"
+        },
+        {
+          "transliteration": "la qaʾilan haqqan madhmum",
+          "text": "— No one who speaks the truth is blameworthy. (its noun is shabih bi-l-mudaf)"
+        }
+      ]
+    },
+    {
+      "id": "s047",
+      "label_en": "Warning",
+      "text": "Do not confuse la al-nafiya li-l-jins with la al-nafiya li-l-wahda, la al-ʿatifa (the conjunctive 'la'), or la al-nahiya (the prohibitive 'la'). La al-nafiya li-l-jins operates like inna; la al-nafiya li-l-wahda sometimes operates like laysa or is treated as ineffective; la al-ʿatifa has no operation and conjoins what follows to what precedes; la al-nahiya governs the present-tense verb in the jussive mood and enters upon the addressee's verb to request abstaining from the action."
+    },
+    {
+      "id": "s048",
+      "headers": [
+        "Type of la",
+        "Operation",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Al-Nafiya li-l-Jins",
+          "Operates like inna: noun in accusative, predicate in nominative",
+          {
+            "transliteration": "la talib-a muhmil"
+          }
+        ],
+        [
+          "Al-Nafiya li-l-Wahda",
+          "Sometimes operates like laysa, sometimes treated as ineffective",
+          {
+            "transliteration": "la talib-un fi al-fasl bal taliban"
+          }
+        ],
+        [
+          "Al-ʿAtifa",
+          "No operation",
+          {
+            "transliteration": "jaʾa Muhammad-un la ʿAliyy"
+          }
+        ],
+        [
+          "Al-Nahiya",
+          "Puts the present-tense verb into the jussive mood",
+          {
+            "transliteration": "la taksal"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s049",
+      "text": "Allah Most High said: \"There is no deity except Him, the Ever-Living, the Sustainer of [all] existence.\" — Quran 2:255 / 3:2 (Sahih International)"
+    },
+    {
+      "id": "s050",
+      "text": "In this noble verse, 'la' is the negator of the genus, operating like inna; 'ilah-a' is its ism, indeclinable on fatha, in the position of accusative; its khabar is omitted, with implied meaning 'mawjud' ('existing') or 'haqq' ('truly worthy of worship') — i.e., 'there is no god worthy of worship except Him.' The negation here conveys istighraq and shumul (comprehensive inclusion): there is no god deserving of worship in truth except Allah alone."
+    }
+  ]
+}
