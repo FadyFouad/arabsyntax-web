@@ -80,7 +80,7 @@ export default async function Hero({ locale }: HeroProps) {
                   <div className="phone-dynamic-island" />
                   <div className="phone-screen">
                     <Image
-                      src="/screenshots/content.png"
+                      src="/screenshots/content.webp"
                       alt={t('mockupAlt')}
                       width={390}
                       height={844}
