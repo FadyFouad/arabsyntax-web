@@ -11,7 +11,7 @@ _Last verified against `main` after the i3rab phase (5 PRs merged)._
 
 | Feature | Used? | Where / detail |
 |---|---|---|
-| **Server Actions** | ✅ 1 | `app/actions/contact.ts` (`'use server'`) — contact form. Uses `headers()`, Resend, Upstash. |
+| **Server Actions** | ✅ 1 | `app/actions/contact.ts` (`'use server'`) — contact form. Uses `headers()`, `getLocale()`, Resend, Upstash. |
 | **Middleware** | ✅ | `proxy.ts` — next-intl `createMiddleware` for locale routing. Per-request (Edge runtime). |
 | **Route Handlers** | ❌ none | No `route.ts` anywhere. |
 | **API Routes** | ❌ none | No `pages/api`. |
@@ -49,7 +49,7 @@ _Last verified against `main` after the i3rab phase (5 PRs merged)._
 
 - **Node APIs in the request path: none.** `fs`/`path`/`process.cwd()` appear only in
   `lib/lessons/loader.ts` and `lib/i3rab/loader.ts`, executed **at build time** during
-  SSG prerender. At runtime only the Server Action runs (`headers()`, Resend, Upstash).
+  SSG prerender. At runtime only the Server Action runs (`headers()`, `getLocale()`, Resend, Upstash).
 - **Package compatibility (all fetch-based / edge-friendly):** `@upstash/ratelimit` +
   `@upstash/redis`, `resend`, `next-intl`, `react-hook-form`, `zod`, `lucide-react`,
   `clsx`, `tailwind-merge`, `@next/mdx` (build-time). No native Node modules. No
