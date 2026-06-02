@@ -30,7 +30,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // i3rab — Arabic-only (no /en alternate).
+  // i3rab — bilingual routing, but content is Arabic on both. List the canonical
+  // Arabic URL with hreflang alternates (the /en variant canonicalizes to /ar).
   const i3rabRoutes = ['/i3rab', ...getAllI3rabSlugs().map((slug) => `/i3rab/${slug}`)];
   for (const route of i3rabRoutes) {
     entries.push({
@@ -41,6 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: {
         languages: {
           ar: `${siteConfig.url}${route}`,
+          en: `${siteConfig.url}/en${route}`,
           'x-default': `${siteConfig.url}${route}`,
         },
       },

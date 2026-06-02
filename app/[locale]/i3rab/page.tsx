@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { Container } from '@/components/ui/Container';
@@ -12,32 +11,35 @@ interface PageProps {
   params: Promise<{ locale: string }>;
 }
 
-const indexUrl = `${siteConfig.url}/i3rab`;
+const arIndexUrl = `${siteConfig.url}/i3rab`;
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params;
-  if (locale !== 'ar') return {};
   const t = await getTranslations({ locale, namespace: 'i3rab' });
   return {
     title: t('indexTitle'),
     description: t('indexSubtitle'),
     alternates: {
-      canonical: indexUrl,
-      languages: { ar: indexUrl, 'x-default': indexUrl },
+      // Arabic content is the canonical original on both locales.
+      canonical: arIndexUrl,
+      languages: {
+        ar: arIndexUrl,
+        en: `${siteConfig.url}/en/i3rab`,
+        'x-default': arIndexUrl,
+      },
     },
     openGraph: {
       title: t('indexTitle'),
       description: t('indexSubtitle'),
-      url: indexUrl,
+      url: `${siteConfig.url}${locale === 'ar' ? '' : '/en'}/i3rab`,
       type: 'website',
-      locale: 'ar_AR',
+      locale: locale === 'ar' ? 'ar_AR' : 'en_US',
     },
   };
 }
 
 export default async function I3rabIndexPage({ params }: PageProps) {
   const { locale } = await params;
-  if (locale !== 'ar') notFound(); // Arabic-only section
   setRequestLocale(locale);
   const t = await getTranslations('i3rab');
   const groups = getI3rabIndex();

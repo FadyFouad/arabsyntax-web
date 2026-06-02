@@ -13,13 +13,16 @@ interface PageProps {
 
 export const dynamicParams = false;
 
-// Next crosses these slugs with both locales; the Arabic-only guard below makes
-// every /en/i3rab/* render a 404 (not advertised in sitemap/hreflang/nav).
+// Bilingual routing (like lessons): pages exist at /i3rab/* and /en/i3rab/*.
 export function generateStaticParams() {
   return getAllI3rabSlugs().map((slug) => ({ slug }));
 }
 
-const url = (slug: string) => `${siteConfig.url}/i3rab/${slug}`;
+// The content is Arabic on both locales, so the Arabic URL is the canonical
+// original (avoids duplicate-content). Per-locale URL is only used for OG/page url.
+const arUrl = (slug: string) => `${siteConfig.url}/i3rab/${slug}`;
+const localeUrl = (locale: string, slug: string) =>
+  `${siteConfig.url}${locale === 'ar' ? '' : '/en'}/i3rab/${slug}`;
 
 function metaDescription(e: I3rabEntry): string {
   const base = e.explanation.trim()
@@ -31,7 +34,6 @@ function metaDescription(e: I3rabEntry): string {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params;
-  if (locale !== 'ar') return {};
   const e = getI3rabEntry(slug);
   if (!e) return {};
   const description = metaDescription(e);
@@ -39,22 +41,26 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: e.sentence,
     description,
     alternates: {
-      canonical: url(slug),
-      languages: { ar: url(slug), 'x-default': url(slug) },
+      // Arabic is the canonical original on BOTH locales (same Arabic content).
+      canonical: arUrl(slug),
+      languages: {
+        ar: arUrl(slug),
+        en: localeUrl('en', slug),
+        'x-default': arUrl(slug),
+      },
     },
     openGraph: {
       title: e.sentence,
       description,
-      url: url(slug),
+      url: localeUrl(locale, slug),
       type: 'article',
-      locale: 'ar_AR',
+      locale: 'ar_AR', // content is Arabic regardless of UI locale
     },
   };
 }
 
 export default async function I3rabPage({ params }: PageProps) {
   const { locale, slug } = await params;
-  if (locale !== 'ar') notFound();
   setRequestLocale(locale);
   const e = getI3rabEntry(slug);
   if (!e) notFound();
@@ -65,7 +71,7 @@ export default async function I3rabPage({ params }: PageProps) {
     '@type': 'LearningResource',
     name: e.sentence,
     inLanguage: 'ar',
-    url: url(slug),
+    url: arUrl(slug),
     description: metaDescription(e),
     learningResourceType: 'إعراب',
     about: 'النحو العربي',
