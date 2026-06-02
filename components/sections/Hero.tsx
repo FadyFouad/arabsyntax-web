@@ -14,7 +14,7 @@ export default async function Hero({ locale }: HeroProps) {
   return (
     <section className="relative bg-background py-16 lg:py-24 overflow-hidden">
       {/* Subtle background grid */}
-      <div className="absolute inset-0 bg-[linear-gradient(rgba(20,184,166,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(20,184,166,0.03)_1px,transparent_1px)] bg-[size:64px_64px]" />
+      <div className="absolute inset-0 bg-grid" />
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">

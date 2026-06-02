@@ -6,18 +6,45 @@ html {
 }
 
 @theme {
-  --color-background: #0F1419;
-  --color-surface: #1A1F26;
-  --color-surface-elevated: #242A33;
+  /* ── Surfaces (dark values; a future light theme repopulates THESE only) ── */
+  --color-background: #0D1B2A;       /* page (adopted from app) */
+  --color-surface: #1B263B;          /* cards / nav */
+  --color-surface-elevated: #243049; /* raised surfaces */
+  --color-border: #2A3A54;
+
+  /* ── Text — SOLID composited hex, never raw alpha over a bg ── */
+  --color-text: #E0E1DD;             /* headings / strong   13.24:1 */
+  --color-text-body: #A1A6A7;        /* paragraphs           7.04:1 */
+  --color-text-secondary: #D1D5DB;   /* metadata / labels   11.80:1 */
+  --color-text-muted: #9298A0;       /* captions / translit  5.98:1 (raised from app 50% which failed AA) */
+
+  /* ── Brand / accents (primary tokenized; app-blue alignment deferred) ── */
   --color-primary: #14B8A6;
   --color-primary-hover: #0D9488;
-  --color-primary-fg: #0F1419;
-  --color-text: #F1F5F9;
-  --color-text-muted: #94A3B8;
-  --color-border: #2A2F38;
+  --color-primary-fg: #0D1B2A;       /* text on primary      6.99:1 */
+  --color-accent: #F59E0B;
+  --color-accent-teal: #4DB6AC;
+  --color-accent-gold: #FFD700;
+
+  /* ── Status ── */
   --color-success: #22C55E;
   --color-error: #EF4444;
   --color-warning: #F59E0B;
+
+  /* ── Qur'an verse block (priority fix — 11.56:1) ── */
+  --color-quote-quran-bg: #0E2E25;
+  --color-quote-quran-text: #D5EAD9;
+  --color-quote-quran-border: #7FBFA3; /* applied at /30, decorative */
+
+  /* ── Plain quote ── */
+  --color-quote-text: #8C9295;         /* italic            5.50:1 */
+  --color-quote-border: #93C5FD;       /* border-inline-start */
+
+  /* ── Highlight callouts {bg / border / text} ── */
+  --color-hl-purple-bg: #1E1A3A;  --color-hl-purple-border: #4A4480;  --color-hl-purple-text: #CCC8F0;
+  --color-hl-green-bg: #0E2E25;   --color-hl-green-border: #2D7A62;   --color-hl-green-text: #A3E0CA;
+  --color-hl-amber-bg: #2E2008;   --color-hl-amber-border: #8A6518;   --color-hl-amber-text: #F5D99A;
+  --color-hl-blue-bg: #0E2440;    --color-hl-blue-border: #3A6E9E;    --color-hl-blue-text: #A8CCE8;
 
   --font-arabic: var(--font-cairo), system-ui, sans-serif;
   --font-english: var(--font-inter), system-ui, sans-serif;
@@ -203,11 +230,11 @@ html {
 
 @layer components {
   .prose {
-    --tw-prose-body: var(--color-text);
+    --tw-prose-body: var(--color-text-body);
     --tw-prose-headings: var(--color-text);
     --tw-prose-links: var(--color-primary);
     --tw-prose-bold: var(--color-text);
-    --tw-prose-quotes: var(--color-text-muted);
+    --tw-prose-quotes: var(--color-text-body);
     --tw-prose-counters: var(--color-text-muted);
     --tw-prose-bullets: var(--color-text-muted);
     --tw-prose-hr: var(--color-border);
@@ -217,5 +244,13 @@ html {
 
   [dir="rtl"] .prose {
     line-height: 1.8;
+  }
+
+  /* Subtle hero grid — token-driven so no raw color lives in the component. */
+  .bg-grid {
+    background-image:
+      linear-gradient(color-mix(in srgb, var(--color-primary) 3%, transparent) 1px, transparent 1px),
+      linear-gradient(90deg, color-mix(in srgb, var(--color-primary) 3%, transparent) 1px, transparent 1px);
+    background-size: 64px 64px;
   }
 }
