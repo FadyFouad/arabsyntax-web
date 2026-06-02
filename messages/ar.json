@@ -4,6 +4,15 @@
     "indexSubtitle": "تصفّح جميع دروس النحو العربي.",
     "backToLessons": "كل الدروس"
   },
+  "i3rab": {
+    "indexTitle": "إعراب الجُمل",
+    "indexSubtitle": "أمثلة على إعراب الجُمل العربية، كلمةً كلمة.",
+    "misc": "أمثلة متنوعة",
+    "words": "إعراب الكلمات",
+    "explanation": "الشرح",
+    "relatedLesson": "الدرس المرتبط",
+    "backToIndex": "كل الأمثلة"
+  },
   "common": {
     "appName": "النحو الكافي",
     "appNameAr": "النحو الكافي",
@@ -12,6 +21,7 @@
   "nav": {
     "features": "المميزات",
     "lessons": "الدروس",
+    "i3rab": "الإعراب",
     "pricing": "الأسعار",
     "faq": "الأسئلة الشائعة",
     "support": "الدعم",
