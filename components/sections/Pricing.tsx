@@ -4,10 +4,9 @@ import SectionHeading from '@/components/ui/SectionHeading';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 
 // TODO: Replace with the real Google Play Store listing URL before launch
-const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.arabsyntax.app';
+import { siteConfig } from '@/lib/siteConfig';
 
 const PAID_TIERS = ['monthly', 'yearly', 'lifetime'] as const;
-type PaidTier = typeof PAID_TIERS[number];
 
 export default async function Pricing() {
   const t = await getTranslations('landing.pricing');
@@ -37,7 +36,7 @@ export default async function Pricing() {
               ))}
             </ul>
             <a
-              href={PLAY_STORE_URL}
+              href={siteConfig.stores.googlePlay}
               target="_blank"
               rel="noopener noreferrer"
               className="shrink-0 bg-surface-elevated text-text font-semibold py-3 px-6 rounded-xl hover:bg-border transition-colors"
@@ -76,7 +75,7 @@ export default async function Pricing() {
                     ))}
                   </ul>
                   <a
-                    href={PLAY_STORE_URL}
+                    href={siteConfig.stores.googlePlay}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`block text-center font-semibold py-3 px-6 rounded-xl transition-colors ${

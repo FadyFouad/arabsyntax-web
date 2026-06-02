@@ -1,7 +1,6 @@
 import Image from 'next/image';
 
-// TODO: Replace with the real Google Play Store listing URL before launch
-const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.arabsyntax.app';
+import { siteConfig } from '@/lib/siteConfig';
 
 interface PlayStoreBadgeProps {
   locale: string;
@@ -19,7 +18,7 @@ export default function PlayStoreBadge({ locale, className }: PlayStoreBadgeProp
 
   return (
     <a
-      href={PLAY_STORE_URL}
+      href={siteConfig.stores.googlePlay}
       target="_blank"
       rel="noopener noreferrer"
       className={className}
@@ -28,9 +27,10 @@ export default function PlayStoreBadge({ locale, className }: PlayStoreBadgeProp
       <Image
         src={badgeSrc}
         alt={altText}
-        width={200}
-        height={59}
+        width={202}
+        height={60}
         priority={false}
+        className="h-[60px] w-auto"
       />
     </a>
   );
