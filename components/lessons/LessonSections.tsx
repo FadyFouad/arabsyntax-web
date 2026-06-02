@@ -65,22 +65,32 @@ function Section({ section, locale }: { section: ResolvedSection; locale: Locale
     case 'highlight': {
       const label = locale === 'en' ? section.labelEn ?? section.labelAr : section.labelAr;
       return (
-        <aside className="not-prose my-6 rounded-xl border border-primary/30 bg-surface p-5">
+        <aside className="not-prose my-6 rounded-xl border border-hl-purple-border bg-hl-purple-bg p-5">
           {label && (
-            <div className="mb-2 inline-block rounded-md bg-primary/15 px-2 py-0.5 text-sm font-bold text-primary">
+            <div className="mb-2 inline-block rounded-md bg-hl-purple-border/30 px-2 py-0.5 text-sm font-bold text-hl-purple-text">
               {label}
             </div>
           )}
-          <p className="whitespace-pre-line text-text">{text(section.ar, section.en)}</p>
+          <p className="whitespace-pre-line text-hl-purple-text">{text(section.ar, section.en)}</p>
         </aside>
       );
     }
 
     case 'quote': {
       const caption = section.attribution ? attributionCaption(section.attribution, locale) : null;
+      // Qur'an verses get the high-contrast block; everything else is a plain
+      // quote with a logical inline-start border (flips correctly in RTL/LTR).
+      if (section.attribution?.isQuran) {
+        return (
+          <blockquote className="not-prose my-6 rounded-[14px] border border-quote-quran-border/30 bg-quote-quran-bg px-4 py-[18px]">
+            <p className="whitespace-pre-line text-quote-quran-text">{text(section.ar, section.en)}</p>
+            {caption && <footer className="mt-2 text-sm not-italic text-quote-quran-text">{caption}</footer>}
+          </blockquote>
+        );
+      }
       return (
-        <blockquote className="my-6 border-s-4 border-primary/50 ps-4">
-          <p className="whitespace-pre-line">{text(section.ar, section.en)}</p>
+        <blockquote className="not-prose my-6 border-s-4 border-quote-border ps-4">
+          <p className="whitespace-pre-line italic text-quote-text">{text(section.ar, section.en)}</p>
           {caption && <footer className="mt-2 text-sm not-italic text-text-muted">{caption}</footer>}
         </blockquote>
       );
