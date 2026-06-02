@@ -1,5 +1,9 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
+import { siteConfig } from '@/lib/siteConfig';
+import { featureFlags } from '@/lib/featureFlags';
+import { StructuredData } from '@/components/seo/StructuredData';
+import FreeCallout from '@/components/sections/FreeCallout';
 import Hero from '@/components/sections/Hero';
 import Features from '@/components/sections/Features';
 import HowItWorks from '@/components/sections/HowItWorks';
@@ -16,17 +20,35 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'landing.hero' });
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://arabsyntax.com';
 
+  const isAr = locale === 'ar';
+  const name = isAr ? siteConfig.name.ar : siteConfig.name.en;
   return {
     title: t('headline'),
     description: t('valueProposition'),
     alternates: {
-      canonical: locale === 'ar' ? baseUrl : `${baseUrl}/en`,
+      canonical: locale === 'ar' ? siteConfig.url : `${siteConfig.url}/en`,
       languages: {
-        ar: baseUrl,
-        en: `${baseUrl}/en`,
+        ar: siteConfig.url,
+        en: `${siteConfig.url}/en`,
+        'x-default': siteConfig.url,
       },
+    },
+    openGraph: {
+      title: t('headline'),
+      description: t('valueProposition'),
+      siteName: name,
+      url: `${siteConfig.url}${isAr ? '' : '/en'}`,
+      locale: isAr ? 'ar_AR' : 'en_US',
+      type: 'website',
+      images: [
+        {
+          url: `${siteConfig.url}/og/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: `${name} — ${t('tagline')}`,
+        },
+      ],
     },
   };
 }
@@ -35,7 +57,8 @@ export default async function LocalePage({ params }: PageProps) {
   const { locale } = await params;
 
   return (
-    <main id="main-content">
+    <>
+      <StructuredData locale={locale} />
       <Hero locale={locale} />
       <section id="features">
         <Features />
@@ -46,9 +69,13 @@ export default async function LocalePage({ params }: PageProps) {
       <section id="screenshots">
         <Screenshots />
       </section>
-      <section id="pricing">
-        <Pricing />
-      </section>
+      {featureFlags.showPricing ? (
+        <section id="pricing">
+          <Pricing />
+        </section>
+      ) : (
+        <FreeCallout locale={locale} />
+      )}
       <section id="audiences">
         <Audiences />
       </section>
@@ -56,6 +83,6 @@ export default async function LocalePage({ params }: PageProps) {
         <FAQ />
       </section>
       <FinalCTA locale={locale} />
-    </main>
+    </>
   );
 }
