@@ -37,12 +37,12 @@ export async function Header() {
         <div className="flex items-center gap-8">
           <Link href="/" className="hover:opacity-80 transition-opacity">
             <Image
-              src="/logos/logo.png"
+              src="/logos/logo-mark.png"
               alt={brandName}
-              width={48}
-              height={48}
+              width={246}
+              height={194}
               priority
-              className="h-12 w-12 object-contain"
+              className="h-10 w-auto"
             />
           </Link>
           

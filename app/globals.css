@@ -81,95 +81,50 @@ html {
   );
 }
 
-@media (prefers-color-scheme: light) {
-  html:not([data-theme]) {
-    color-scheme: light;
+/*
+ * Light palette — single source of truth for the hex values. The semantic
+ * `--color-*` tokens are remapped to these below for both activation paths
+ * (explicit `[data-resolved-theme="light"]` and the no-JS system fallback),
+ * so a colour only ever changes in one place.
+ */
+:root {
+  --light-color-background: #F7FAFC;
+  --light-color-surface: #FFFFFF;
+  --light-color-surface-elevated: #EEF4F8;
+  --light-color-border: #D8E3EA;
 
-    --color-background: #F7FAFC;
-    --color-surface: #FFFFFF;
-    --color-surface-elevated: #EEF4F8;
-    --color-border: #D8E3EA;
+  --light-color-text: #0F172A;
+  --light-color-text-body: #334155;
+  --light-color-text-secondary: #475569;
+  --light-color-text-muted: #64748B;
 
-    --color-text: #0F172A;
-    --color-text-body: #334155;
-    --color-text-secondary: #475569;
-    --color-text-muted: #64748B;
+  --light-color-primary: #0F766E;
+  --light-color-primary-hover: #115E59;
+  --light-color-primary-fg: #FFFFFF;
+  --light-color-accent: #B45309;
+  --light-color-accent-teal: #0F766E;
+  --light-color-accent-gold: #A16207;
 
-    --color-primary: #0F766E;
-    --color-primary-hover: #115E59;
-    --color-primary-fg: #FFFFFF;
-    --color-accent: #B45309;
-    --color-accent-teal: #0F766E;
-    --color-accent-gold: #A16207;
+  --light-color-success: #15803D;
+  --light-color-error: #B91C1C;
+  --light-color-warning: #B45309;
 
-    --color-success: #15803D;
-    --color-error: #B91C1C;
-    --color-warning: #B45309;
+  --light-color-quote-quran-bg: #E8F5EE;
+  --light-color-quote-quran-text: #0E3328;
+  --light-color-quote-quran-border: #2D7A62;
 
-    --color-quote-quran-bg: #E8F5EE;
-    --color-quote-quran-text: #0E3328;
-    --color-quote-quran-border: #2D7A62;
+  --light-color-quote-text: #52616B;
+  --light-color-quote-border: #2563EB;
 
-    --color-quote-text: #52616B;
-    --color-quote-border: #2563EB;
+  --light-color-hl-purple-bg: #F0EDFF;  --light-color-hl-purple-border: #C7BFFF;  --light-color-hl-purple-text: #312E81;
+  --light-color-hl-green-bg: #E8F5EE;   --light-color-hl-green-border: #A7D8BF;   --light-color-hl-green-text: #0E3328;
+  --light-color-hl-amber-bg: #FFF7E6;   --light-color-hl-amber-border: #F1C77A;   --light-color-hl-amber-text: #6B3F05;
+  --light-color-hl-blue-bg: #EAF4FF;    --light-color-hl-blue-border: #B6D9F7;    --light-color-hl-blue-text: #0F3A66;
 
-    --color-hl-purple-bg: #F0EDFF;  --color-hl-purple-border: #C7BFFF;  --color-hl-purple-text: #312E81;
-    --color-hl-green-bg: #E8F5EE;   --color-hl-green-border: #A7D8BF;   --color-hl-green-text: #0E3328;
-    --color-hl-amber-bg: #FFF7E6;   --color-hl-amber-border: #F1C77A;   --color-hl-amber-text: #6B3F05;
-    --color-hl-blue-bg: #EAF4FF;    --color-hl-blue-border: #B6D9F7;    --color-hl-blue-text: #0F3A66;
-
-    --hero-chip-bg: rgba(255, 255, 255, 0.82);
-    --hero-chip-border: rgba(15, 23, 42, 0.1);
-    --hero-chip-shadow: 0 12px 28px rgba(15, 23, 42, 0.14);
-    --hero-reflection-gradient: linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0.22),
-      transparent 45%,
-      transparent
-    );
-  }
-}
-
-html[data-resolved-theme="light"] {
-  color-scheme: light;
-
-  --color-background: #F7FAFC;
-  --color-surface: #FFFFFF;
-  --color-surface-elevated: #EEF4F8;
-  --color-border: #D8E3EA;
-
-  --color-text: #0F172A;
-  --color-text-body: #334155;
-  --color-text-secondary: #475569;
-  --color-text-muted: #64748B;
-
-  --color-primary: #0F766E;
-  --color-primary-hover: #115E59;
-  --color-primary-fg: #FFFFFF;
-  --color-accent: #B45309;
-  --color-accent-teal: #0F766E;
-  --color-accent-gold: #A16207;
-
-  --color-success: #15803D;
-  --color-error: #B91C1C;
-  --color-warning: #B45309;
-
-  --color-quote-quran-bg: #E8F5EE;
-  --color-quote-quran-text: #0E3328;
-  --color-quote-quran-border: #2D7A62;
-
-  --color-quote-text: #52616B;
-  --color-quote-border: #2563EB;
-
-  --color-hl-purple-bg: #F0EDFF;  --color-hl-purple-border: #C7BFFF;  --color-hl-purple-text: #312E81;
-  --color-hl-green-bg: #E8F5EE;   --color-hl-green-border: #A7D8BF;   --color-hl-green-text: #0E3328;
-  --color-hl-amber-bg: #FFF7E6;   --color-hl-amber-border: #F1C77A;   --color-hl-amber-text: #6B3F05;
-  --color-hl-blue-bg: #EAF4FF;    --color-hl-blue-border: #B6D9F7;    --color-hl-blue-text: #0F3A66;
-
-  --hero-chip-bg: rgba(255, 255, 255, 0.82);
-  --hero-chip-border: rgba(15, 23, 42, 0.1);
-  --hero-chip-shadow: 0 12px 28px rgba(15, 23, 42, 0.14);
-  --hero-reflection-gradient: linear-gradient(
+  --light-hero-chip-bg: rgba(255, 255, 255, 0.82);
+  --light-hero-chip-border: rgba(15, 23, 42, 0.1);
+  --light-hero-chip-shadow: 0 12px 28px rgba(15, 23, 42, 0.14);
+  --light-hero-reflection-gradient: linear-gradient(
     135deg,
     rgba(255, 255, 255, 0.22),
     transparent 45%,
@@ -177,8 +132,100 @@ html[data-resolved-theme="light"] {
   );
 }
 
+/*
+ * Remap semantic tokens to the light palette. The declarations are mechanical
+ * 1:1 aliases, kept in an @media nested at-rule so the no-JS path (system
+ * preference) and the explicit choice share the exact same values.
+ */
+html[data-resolved-theme="light"] {
+  color-scheme: light;
+
+  --color-background: var(--light-color-background);
+  --color-surface: var(--light-color-surface);
+  --color-surface-elevated: var(--light-color-surface-elevated);
+  --color-border: var(--light-color-border);
+
+  --color-text: var(--light-color-text);
+  --color-text-body: var(--light-color-text-body);
+  --color-text-secondary: var(--light-color-text-secondary);
+  --color-text-muted: var(--light-color-text-muted);
+
+  --color-primary: var(--light-color-primary);
+  --color-primary-hover: var(--light-color-primary-hover);
+  --color-primary-fg: var(--light-color-primary-fg);
+  --color-accent: var(--light-color-accent);
+  --color-accent-teal: var(--light-color-accent-teal);
+  --color-accent-gold: var(--light-color-accent-gold);
+
+  --color-success: var(--light-color-success);
+  --color-error: var(--light-color-error);
+  --color-warning: var(--light-color-warning);
+
+  --color-quote-quran-bg: var(--light-color-quote-quran-bg);
+  --color-quote-quran-text: var(--light-color-quote-quran-text);
+  --color-quote-quran-border: var(--light-color-quote-quran-border);
+
+  --color-quote-text: var(--light-color-quote-text);
+  --color-quote-border: var(--light-color-quote-border);
+
+  --color-hl-purple-bg: var(--light-color-hl-purple-bg);  --color-hl-purple-border: var(--light-color-hl-purple-border);  --color-hl-purple-text: var(--light-color-hl-purple-text);
+  --color-hl-green-bg: var(--light-color-hl-green-bg);     --color-hl-green-border: var(--light-color-hl-green-border);     --color-hl-green-text: var(--light-color-hl-green-text);
+  --color-hl-amber-bg: var(--light-color-hl-amber-bg);     --color-hl-amber-border: var(--light-color-hl-amber-border);     --color-hl-amber-text: var(--light-color-hl-amber-text);
+  --color-hl-blue-bg: var(--light-color-hl-blue-bg);       --color-hl-blue-border: var(--light-color-hl-blue-border);       --color-hl-blue-text: var(--light-color-hl-blue-text);
+
+  --hero-chip-bg: var(--light-hero-chip-bg);
+  --hero-chip-border: var(--light-hero-chip-border);
+  --hero-chip-shadow: var(--light-hero-chip-shadow);
+  --hero-reflection-gradient: var(--light-hero-reflection-gradient);
+}
+
 html[data-resolved-theme="dark"] {
   color-scheme: dark;
+}
+
+/* No-JS fallback: honour the OS preference until the theme script runs. */
+@media (prefers-color-scheme: light) {
+  html:not([data-theme]) {
+    color-scheme: light;
+
+    --color-background: var(--light-color-background);
+    --color-surface: var(--light-color-surface);
+    --color-surface-elevated: var(--light-color-surface-elevated);
+    --color-border: var(--light-color-border);
+
+    --color-text: var(--light-color-text);
+    --color-text-body: var(--light-color-text-body);
+    --color-text-secondary: var(--light-color-text-secondary);
+    --color-text-muted: var(--light-color-text-muted);
+
+    --color-primary: var(--light-color-primary);
+    --color-primary-hover: var(--light-color-primary-hover);
+    --color-primary-fg: var(--light-color-primary-fg);
+    --color-accent: var(--light-color-accent);
+    --color-accent-teal: var(--light-color-accent-teal);
+    --color-accent-gold: var(--light-color-accent-gold);
+
+    --color-success: var(--light-color-success);
+    --color-error: var(--light-color-error);
+    --color-warning: var(--light-color-warning);
+
+    --color-quote-quran-bg: var(--light-color-quote-quran-bg);
+    --color-quote-quran-text: var(--light-color-quote-quran-text);
+    --color-quote-quran-border: var(--light-color-quote-quran-border);
+
+    --color-quote-text: var(--light-color-quote-text);
+    --color-quote-border: var(--light-color-quote-border);
+
+    --color-hl-purple-bg: var(--light-color-hl-purple-bg);  --color-hl-purple-border: var(--light-color-hl-purple-border);  --color-hl-purple-text: var(--light-color-hl-purple-text);
+    --color-hl-green-bg: var(--light-color-hl-green-bg);     --color-hl-green-border: var(--light-color-hl-green-border);     --color-hl-green-text: var(--light-color-hl-green-text);
+    --color-hl-amber-bg: var(--light-color-hl-amber-bg);     --color-hl-amber-border: var(--light-color-hl-amber-border);     --color-hl-amber-text: var(--light-color-hl-amber-text);
+    --color-hl-blue-bg: var(--light-color-hl-blue-bg);       --color-hl-blue-border: var(--light-color-hl-blue-border);       --color-hl-blue-text: var(--light-color-hl-blue-text);
+
+    --hero-chip-bg: var(--light-hero-chip-bg);
+    --hero-chip-border: var(--light-hero-chip-border);
+    --hero-chip-shadow: var(--light-hero-chip-shadow);
+    --hero-reflection-gradient: var(--light-hero-reflection-gradient);
+  }
 }
 
 body {
