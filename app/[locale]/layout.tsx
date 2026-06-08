@@ -7,6 +7,7 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { routing } from '@/i18n/routing';
 import { siteConfig } from '@/lib/siteConfig';
+import { themeInitScript } from '@/lib/theme';
 
 const cairo = Cairo({ subsets: ['arabic'], variable: '--font-cairo', display: 'swap' });
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
@@ -98,7 +99,15 @@ export default async function LocaleLayout({
   const isAr = locale === 'ar';
 
   return (
-    <html lang={locale} dir={isAr ? 'rtl' : 'ltr'} className={`${cairo.variable} ${inter.variable}`}>
+    <html
+      lang={locale}
+      dir={isAr ? 'rtl' : 'ltr'}
+      className={`${cairo.variable} ${inter.variable}`}
+      suppressHydrationWarning
+    >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
       <body
         suppressHydrationWarning
         className={`${isAr ? 'font-arabic' : 'font-english'} min-h-screen flex flex-col bg-background text-text`}

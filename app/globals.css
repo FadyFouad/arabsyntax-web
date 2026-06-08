@@ -6,7 +6,7 @@ html {
 }
 
 @theme {
-  /* ── Surfaces (dark values; a future light theme repopulates THESE only) ── */
+  /* ── Surfaces (dark values; light mode overrides these tokens below) ── */
   --color-background: #0D1B2A;       /* page (adopted from app) */
   --color-surface: #1B263B;          /* cards / nav */
   --color-surface-elevated: #243049; /* raised surfaces */
@@ -48,6 +48,147 @@ html {
 
   --font-arabic: var(--font-cairo), system-ui, sans-serif;
   --font-english: var(--font-inter), system-ui, sans-serif;
+}
+
+html {
+  color-scheme: dark;
+}
+
+:root {
+  --phone-frame-gradient: linear-gradient(
+    145deg,
+    #3a3a3f 0%,
+    #2a2a2e 20%,
+    #1c1c1f 50%,
+    #2a2a2e 80%,
+    #3a3a3f 100%
+  );
+  --phone-frame-shadow:
+    0 25px 60px -12px rgba(0, 0, 0, 0.5),
+    0 0 40px -8px rgba(20, 184, 166, 0.25),
+    inset 0 0 0 1.5px rgba(255, 255, 255, 0.08),
+    inset 0 1px 1px rgba(255, 255, 255, 0.06);
+  --phone-screen-bg: #000;
+  --phone-button-gradient: linear-gradient(180deg, #4a4a4f, #2a2a2e);
+  --hero-chip-bg: rgba(26, 31, 38, 0.75);
+  --hero-chip-border: rgba(255, 255, 255, 0.08);
+  --hero-chip-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  --hero-reflection-gradient: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.06),
+    transparent 45%,
+    transparent
+  );
+}
+
+@media (prefers-color-scheme: light) {
+  html:not([data-theme]) {
+    color-scheme: light;
+
+    --color-background: #F7FAFC;
+    --color-surface: #FFFFFF;
+    --color-surface-elevated: #EEF4F8;
+    --color-border: #D8E3EA;
+
+    --color-text: #0F172A;
+    --color-text-body: #334155;
+    --color-text-secondary: #475569;
+    --color-text-muted: #64748B;
+
+    --color-primary: #0F766E;
+    --color-primary-hover: #115E59;
+    --color-primary-fg: #FFFFFF;
+    --color-accent: #B45309;
+    --color-accent-teal: #0F766E;
+    --color-accent-gold: #A16207;
+
+    --color-success: #15803D;
+    --color-error: #B91C1C;
+    --color-warning: #B45309;
+
+    --color-quote-quran-bg: #E8F5EE;
+    --color-quote-quran-text: #0E3328;
+    --color-quote-quran-border: #2D7A62;
+
+    --color-quote-text: #52616B;
+    --color-quote-border: #2563EB;
+
+    --color-hl-purple-bg: #F0EDFF;  --color-hl-purple-border: #C7BFFF;  --color-hl-purple-text: #312E81;
+    --color-hl-green-bg: #E8F5EE;   --color-hl-green-border: #A7D8BF;   --color-hl-green-text: #0E3328;
+    --color-hl-amber-bg: #FFF7E6;   --color-hl-amber-border: #F1C77A;   --color-hl-amber-text: #6B3F05;
+    --color-hl-blue-bg: #EAF4FF;    --color-hl-blue-border: #B6D9F7;    --color-hl-blue-text: #0F3A66;
+
+    --hero-chip-bg: rgba(255, 255, 255, 0.82);
+    --hero-chip-border: rgba(15, 23, 42, 0.1);
+    --hero-chip-shadow: 0 12px 28px rgba(15, 23, 42, 0.14);
+    --hero-reflection-gradient: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.22),
+      transparent 45%,
+      transparent
+    );
+  }
+}
+
+html[data-resolved-theme="light"] {
+  color-scheme: light;
+
+  --color-background: #F7FAFC;
+  --color-surface: #FFFFFF;
+  --color-surface-elevated: #EEF4F8;
+  --color-border: #D8E3EA;
+
+  --color-text: #0F172A;
+  --color-text-body: #334155;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748B;
+
+  --color-primary: #0F766E;
+  --color-primary-hover: #115E59;
+  --color-primary-fg: #FFFFFF;
+  --color-accent: #B45309;
+  --color-accent-teal: #0F766E;
+  --color-accent-gold: #A16207;
+
+  --color-success: #15803D;
+  --color-error: #B91C1C;
+  --color-warning: #B45309;
+
+  --color-quote-quran-bg: #E8F5EE;
+  --color-quote-quran-text: #0E3328;
+  --color-quote-quran-border: #2D7A62;
+
+  --color-quote-text: #52616B;
+  --color-quote-border: #2563EB;
+
+  --color-hl-purple-bg: #F0EDFF;  --color-hl-purple-border: #C7BFFF;  --color-hl-purple-text: #312E81;
+  --color-hl-green-bg: #E8F5EE;   --color-hl-green-border: #A7D8BF;   --color-hl-green-text: #0E3328;
+  --color-hl-amber-bg: #FFF7E6;   --color-hl-amber-border: #F1C77A;   --color-hl-amber-text: #6B3F05;
+  --color-hl-blue-bg: #EAF4FF;    --color-hl-blue-border: #B6D9F7;    --color-hl-blue-text: #0F3A66;
+
+  --hero-chip-bg: rgba(255, 255, 255, 0.82);
+  --hero-chip-border: rgba(15, 23, 42, 0.1);
+  --hero-chip-shadow: 0 12px 28px rgba(15, 23, 42, 0.14);
+  --hero-reflection-gradient: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.22),
+    transparent 45%,
+    transparent
+  );
+}
+
+html[data-resolved-theme="dark"] {
+  color-scheme: dark;
+}
+
+body {
+  transition: background-color 0.16s ease, color 0.16s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    transition: none;
+  }
 }
 
 @keyframes hero-float {
@@ -117,25 +258,10 @@ html {
   position: relative;
   width: 260px;
   height: 530px;
-  background: linear-gradient(
-    145deg,
-    #3a3a3f 0%,
-    #2a2a2e 20%,
-    #1c1c1f 50%,
-    #2a2a2e 80%,
-    #3a3a3f 100%
-  );
+  background: var(--phone-frame-gradient);
   border-radius: 3.2rem;
   padding: 12px;
-  box-shadow:
-    /* outer depth shadow */
-    0 25px 60px -12px rgba(0, 0, 0, 0.5),
-    /* teal ambient glow */
-    0 0 40px -8px rgba(20, 184, 166, 0.25),
-    /* inner bezel shadow */
-    inset 0 0 0 1.5px rgba(255, 255, 255, 0.08),
-    /* subtle inner highlight */
-    inset 0 1px 1px rgba(255, 255, 255, 0.06);
+  box-shadow: var(--phone-frame-shadow);
 }
 
 /* Screen area */
@@ -145,7 +271,7 @@ html {
   height: 100%;
   border-radius: 2.4rem;
   overflow: hidden;
-  background: #000;
+  background: var(--phone-screen-bg);
 }
 
 /* Dynamic Island */
@@ -156,7 +282,7 @@ html {
   transform: translateX(-50%);
   width: 84px;
   height: 24px;
-  background: #000;
+  background: var(--phone-screen-bg);
   border-radius: 100px;
   z-index: 10;
 }
@@ -169,7 +295,7 @@ html {
   top: 100px;
   width: 3.5px;
   height: 20px;
-  background: linear-gradient(180deg, #4a4a4f, #2a2a2e);
+  background: var(--phone-button-gradient);
   border-radius: 2px 0 0 2px;
 }
 
@@ -180,7 +306,7 @@ html {
   top: 140px;
   width: 3.5px;
   height: 40px;
-  background: linear-gradient(180deg, #4a4a4f, #2a2a2e);
+  background: var(--phone-button-gradient);
   border-radius: 2px 0 0 2px;
 }
 
@@ -191,7 +317,7 @@ html {
   top: 190px;
   width: 3.5px;
   height: 40px;
-  background: linear-gradient(180deg, #4a4a4f, #2a2a2e);
+  background: var(--phone-button-gradient);
   border-radius: 2px 0 0 2px;
 }
 
@@ -202,7 +328,7 @@ html {
   top: 155px;
   width: 3.5px;
   height: 55px;
-  background: linear-gradient(180deg, #4a4a4f, #2a2a2e);
+  background: var(--phone-button-gradient);
   border-radius: 0 2px 2px 0;
 }
 
@@ -219,13 +345,17 @@ html {
   align-items: center;
   gap: 10px;
   padding: 10px 16px;
-  background: rgba(26, 31, 38, 0.75);
+  background: var(--hero-chip-bg);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--hero-chip-border);
   border-radius: 14px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--hero-chip-shadow);
   white-space: nowrap;
+}
+
+.hero-reflection {
+  background: var(--hero-reflection-gradient);
 }
 
 @layer components {

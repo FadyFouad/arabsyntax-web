@@ -121,7 +121,7 @@ export default async function Hero({ locale }: HeroProps) {
                 </div>
 
                 {/* Reflection highlight */}
-                <div className="absolute top-0 left-0 w-[260px] h-[530px] rounded-[3.2rem] bg-gradient-to-br from-white/[0.06] via-transparent to-transparent pointer-events-none" />
+                <div className="hero-reflection absolute top-0 left-0 w-[260px] h-[530px] rounded-[3.2rem] pointer-events-none" />
               </div>
             </div>
           </div>

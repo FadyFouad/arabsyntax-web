@@ -4,6 +4,7 @@ import { Link } from '@/i18n/routing';
 import { Container } from '@/components/ui/Container';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { MobileMenu } from './MobileMenu';
+import { ThemeToggle } from './ThemeToggle';
 import { siteConfig } from '@/lib/siteConfig';
 import { featureFlags } from '@/lib/featureFlags';
 
@@ -35,7 +36,14 @@ export async function Header() {
       <Container className="flex items-center justify-between h-16">
         <div className="flex items-center gap-8">
           <Link href="/" className="hover:opacity-80 transition-opacity">
-            <Image src="/logos/logo.png" alt={brandName} width={120} height={40} priority />
+            <Image
+              src="/logos/logo.png"
+              alt={brandName}
+              width={48}
+              height={48}
+              priority
+              className="h-12 w-12 object-contain"
+            />
           </Link>
           
           <nav className="hidden md:flex gap-6 items-center" aria-label="Main Navigation">
@@ -51,7 +59,8 @@ export async function Header() {
           </nav>
         </div>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 sm:gap-4">
+          <ThemeToggle />
           <LanguageSwitcher />
           <MobileMenu 
             links={navLinks} 
