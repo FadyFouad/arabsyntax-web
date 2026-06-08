@@ -103,6 +103,7 @@ export default async function LocaleLayout({
       lang={locale}
       dir={isAr ? 'rtl' : 'ltr'}
       className={`${cairo.variable} ${inter.variable}`}
+      data-scroll-behavior="smooth"
       suppressHydrationWarning
     >
       <head>

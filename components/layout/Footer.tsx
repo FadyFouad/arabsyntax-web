@@ -1,6 +1,6 @@
 import { getTranslations, getLocale } from 'next-intl/server';
-import { Link } from '@/i18n/routing';
 import { Container } from '@/components/ui/Container';
+import { NavLink } from './SectionNav';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { siteConfig } from '@/lib/siteConfig';
 import { featureFlags } from '@/lib/featureFlags';
@@ -51,12 +51,12 @@ export async function Footer() {
               <ul className="flex flex-col gap-2">
                 {group.links.map((link) => (
                   <li key={link.href}>
-                    <Link
+                    <NavLink
                       href={link.href}
                       className="text-text-muted hover:text-primary transition-colors"
                     >
                       {link.label}
-                    </Link>
+                    </NavLink>
                   </li>
                 ))}
               </ul>

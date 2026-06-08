@@ -4,6 +4,7 @@ import { Link } from '@/i18n/routing';
 import { Container } from '@/components/ui/Container';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { MobileMenu } from './MobileMenu';
+import { NavLink } from './SectionNav';
 import { ThemeToggle } from './ThemeToggle';
 import { siteConfig } from '@/lib/siteConfig';
 import { featureFlags } from '@/lib/featureFlags';
@@ -48,13 +49,13 @@ export async function Header() {
           
           <nav className="hidden md:flex gap-6 items-center" aria-label="Main Navigation">
             {navLinks.map((link) => (
-              <Link
+              <NavLink
                 key={link.href}
                 href={link.href}
                 className="text-text-muted hover:text-primary transition-colors font-medium"
               >
                 {link.label}
-              </Link>
+              </NavLink>
             ))}
           </nav>
         </div>
