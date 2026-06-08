@@ -405,24 +405,31 @@ body {
   background: var(--hero-reflection-gradient);
 }
 
+/*
+ * Map Tailwind Typography's prose tokens to our theme tokens. Kept UNLAYERED
+ * on purpose: `@tailwindcss/typography` emits `.prose` into the `utilities`
+ * layer, which would otherwise win over a `@layer components` rule (later
+ * layers beat earlier ones regardless of specificity) and force the plugin's
+ * light-mode defaults — e.g. near-black headings invisible on the dark bg.
+ */
+.prose {
+  --tw-prose-body: var(--color-text-body);
+  --tw-prose-headings: var(--color-text);
+  --tw-prose-links: var(--color-primary);
+  --tw-prose-bold: var(--color-text);
+  --tw-prose-quotes: var(--color-text-body);
+  --tw-prose-counters: var(--color-text-muted);
+  --tw-prose-bullets: var(--color-text-muted);
+  --tw-prose-hr: var(--color-border);
+  --tw-prose-code: var(--color-primary);
+  line-height: 1.7;
+}
+
+[dir="rtl"] .prose {
+  line-height: 1.8;
+}
+
 @layer components {
-  .prose {
-    --tw-prose-body: var(--color-text-body);
-    --tw-prose-headings: var(--color-text);
-    --tw-prose-links: var(--color-primary);
-    --tw-prose-bold: var(--color-text);
-    --tw-prose-quotes: var(--color-text-body);
-    --tw-prose-counters: var(--color-text-muted);
-    --tw-prose-bullets: var(--color-text-muted);
-    --tw-prose-hr: var(--color-border);
-    --tw-prose-code: var(--color-primary);
-    line-height: 1.7;
-  }
-
-  [dir="rtl"] .prose {
-    line-height: 1.8;
-  }
-
   /* Subtle hero grid — token-driven so no raw color lives in the component. */
   .bg-grid {
     background-image:
