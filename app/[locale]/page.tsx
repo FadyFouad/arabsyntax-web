@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { siteConfig } from '@/lib/siteConfig';
 import { featureFlags } from '@/lib/featureFlags';
 import { StructuredData } from '@/components/seo/StructuredData';
+import { SectionScrollOnLoad } from '@/components/layout/SectionNav';
 import FreeCallout from '@/components/sections/FreeCallout';
 import Hero from '@/components/sections/Hero';
 import Features from '@/components/sections/Features';
@@ -59,6 +60,7 @@ export default async function LocalePage({ params }: PageProps) {
   return (
     <>
       <StructuredData locale={locale} />
+      <SectionScrollOnLoad />
       <Hero locale={locale} />
       <section id="features">
         <Features />

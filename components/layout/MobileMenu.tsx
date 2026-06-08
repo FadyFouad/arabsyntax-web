@@ -2,15 +2,15 @@
 
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import { Link } from '@/i18n/routing';
+import { NavLink } from './SectionNav';
 
-interface NavLink {
+interface NavItem {
   label: string;
   href: string;
 }
 
 interface MobileMenuProps {
-  links: NavLink[];
+  links: NavItem[];
   labels: {
     openMenu: string;
     closeMenu: string;
@@ -40,13 +40,13 @@ export function MobileMenu({ links, labels }: MobileMenuProps) {
           <ul className="flex flex-col py-4 px-4 gap-4">
             {links.map((link) => (
               <li key={link.href}>
-                <Link
+                <NavLink
                   href={link.href}
                   className="block text-text hover:text-primary transition-colors font-medium text-lg"
-                  onClick={() => setIsOpen(false)}
+                  onNavigate={() => setIsOpen(false)}
                 >
                   {link.label}
-                </Link>
+                </NavLink>
               </li>
             ))}
           </ul>
