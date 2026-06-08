@@ -18,6 +18,12 @@
     "appNameAr": "النحو الكافي",
     "skipToContent": "Skip to main content"
   },
+  "theme": {
+    "label": "Theme",
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark"
+  },
   "nav": {
     "features": "Features",
     "lessons": "Lessons",

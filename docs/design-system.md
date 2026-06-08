@@ -7,8 +7,8 @@ only — raw color literals are blocked by `npm run lint` (see [Governance](#gov
 1. **Tokens only.** No `#hex`, `rgb()`, `hsl()` in `components/**` or `app/**/*.tsx`.
 2. **Text tokens are solid composited hex**, never raw alpha over a background — alpha
    over an unknown/transparent surface was the original faint-text bug.
-3. **Theme-ready, dark-only now.** A light theme later = repopulating token *values*; no
-   restructuring. Light values are [recorded below](#light-theme-reference) but not built.
+3. **Theme-aware.** Components use semantic tokens. Dark values are the fallback; light
+   values override the same tokens via `html[data-resolved-theme="light"]`.
 4. **Type & spacing reuse Tailwind v4's built-in scale** — no parallel `--text-*`/`--space-*`
    tokens (that would be a drift source).
 
@@ -81,7 +81,30 @@ Locale-aware: `/ar` Arabic only; `/en` English + transliteration (`text-text-mut
 `#hex` / `rgb()` / `hsl()` in `components/**` and `app/**/*.tsx`. Token definitions
 (`globals.css`) and `.ts` config (`manifest.ts`, `sitemap.ts`) are exempt.
 
-## Light-theme reference
-Recorded for a future light theme — **not implemented**:
-- Qur'an block: bg `#E8F5EE`, text `#0E3328`, accent `#2D7A62`.
-- Primary (light): `#1D5FA8`.
+## Theme behavior
+The site supports **System / Light / Dark** from the header theme menu.
+
+- Preference is stored in `localStorage` under `arabsyntax-theme`.
+- `lib/theme.ts` provides the pre-hydration script that sets
+  `html[data-theme]`, `html[data-resolved-theme]`, and `color-scheme` before React
+  hydrates, avoiding a visible theme flash.
+- The root layout does **not** read cookies for theme selection, preserving static/SSG
+  behavior.
+- The browser `theme-color` meta tag is synchronized from `--color-background`.
+
+## Color tokens (light)
+
+| Token | Value | Usage |
+|---|---|---|
+| `--color-background` | `#F7FAFC` | page |
+| `--color-surface` | `#FFFFFF` | cards, nav, example blocks |
+| `--color-surface-elevated` | `#EEF4F8` | raised surfaces |
+| `--color-border` | `#D8E3EA` | hairlines |
+| `--color-text` | `#0F172A` | headings / strong |
+| `--color-text-body` | `#334155` | paragraphs |
+| `--color-text-secondary` | `#475569` | metadata / labels |
+| `--color-text-muted` | `#64748B` | captions, transliteration |
+| `--color-primary` | `#0F766E` | links, CTA, active nav |
+| `--color-primary-hover` | `#115E59` | hover state |
+| `--color-primary-fg` | `#FFFFFF` | text on primary |
+| `--color-quote-quran-bg` / `-text` / `-border` | `#E8F5EE` / `#0E3328` / `#2D7A62` | Qur'an verse block |

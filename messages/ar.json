@@ -18,6 +18,12 @@
     "appNameAr": "النحو الكافي",
     "skipToContent": "تخطي إلى المحتوى الرئيسي"
   },
+  "theme": {
+    "label": "المظهر",
+    "system": "تلقائي",
+    "light": "فاتح",
+    "dark": "داكن"
+  },
   "nav": {
     "features": "المميزات",
     "lessons": "الدروس",

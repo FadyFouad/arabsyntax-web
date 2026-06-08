@@ -6,7 +6,7 @@ html {
 }
 
 @theme {
-  /* ── Surfaces (dark values; a future light theme repopulates THESE only) ── */
+  /* ── Surfaces (dark values; light mode overrides these tokens below) ── */
   --color-background: #0D1B2A;       /* page (adopted from app) */
   --color-surface: #1B263B;          /* cards / nav */
   --color-surface-elevated: #243049; /* raised surfaces */
@@ -48,6 +48,194 @@ html {
 
   --font-arabic: var(--font-cairo), system-ui, sans-serif;
   --font-english: var(--font-inter), system-ui, sans-serif;
+}
+
+html {
+  color-scheme: dark;
+}
+
+:root {
+  --phone-frame-gradient: linear-gradient(
+    145deg,
+    #3a3a3f 0%,
+    #2a2a2e 20%,
+    #1c1c1f 50%,
+    #2a2a2e 80%,
+    #3a3a3f 100%
+  );
+  --phone-frame-shadow:
+    0 25px 60px -12px rgba(0, 0, 0, 0.5),
+    0 0 40px -8px rgba(20, 184, 166, 0.25),
+    inset 0 0 0 1.5px rgba(255, 255, 255, 0.08),
+    inset 0 1px 1px rgba(255, 255, 255, 0.06);
+  --phone-screen-bg: #000;
+  --phone-button-gradient: linear-gradient(180deg, #4a4a4f, #2a2a2e);
+  --hero-chip-bg: rgba(26, 31, 38, 0.75);
+  --hero-chip-border: rgba(255, 255, 255, 0.08);
+  --hero-chip-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  --hero-reflection-gradient: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.06),
+    transparent 45%,
+    transparent
+  );
+}
+
+/*
+ * Light palette — single source of truth for the hex values. The semantic
+ * `--color-*` tokens are remapped to these below for both activation paths
+ * (explicit `[data-resolved-theme="light"]` and the no-JS system fallback),
+ * so a colour only ever changes in one place.
+ */
+:root {
+  --light-color-background: #F7FAFC;
+  --light-color-surface: #FFFFFF;
+  --light-color-surface-elevated: #EEF4F8;
+  --light-color-border: #D8E3EA;
+
+  --light-color-text: #0F172A;
+  --light-color-text-body: #334155;
+  --light-color-text-secondary: #475569;
+  --light-color-text-muted: #64748B;
+
+  --light-color-primary: #0F766E;
+  --light-color-primary-hover: #115E59;
+  --light-color-primary-fg: #FFFFFF;
+  --light-color-accent: #B45309;
+  --light-color-accent-teal: #0F766E;
+  --light-color-accent-gold: #A16207;
+
+  --light-color-success: #15803D;
+  --light-color-error: #B91C1C;
+  --light-color-warning: #B45309;
+
+  --light-color-quote-quran-bg: #E8F5EE;
+  --light-color-quote-quran-text: #0E3328;
+  --light-color-quote-quran-border: #2D7A62;
+
+  --light-color-quote-text: #52616B;
+  --light-color-quote-border: #2563EB;
+
+  --light-color-hl-purple-bg: #F0EDFF;  --light-color-hl-purple-border: #C7BFFF;  --light-color-hl-purple-text: #312E81;
+  --light-color-hl-green-bg: #E8F5EE;   --light-color-hl-green-border: #A7D8BF;   --light-color-hl-green-text: #0E3328;
+  --light-color-hl-amber-bg: #FFF7E6;   --light-color-hl-amber-border: #F1C77A;   --light-color-hl-amber-text: #6B3F05;
+  --light-color-hl-blue-bg: #EAF4FF;    --light-color-hl-blue-border: #B6D9F7;    --light-color-hl-blue-text: #0F3A66;
+
+  --light-hero-chip-bg: rgba(255, 255, 255, 0.82);
+  --light-hero-chip-border: rgba(15, 23, 42, 0.1);
+  --light-hero-chip-shadow: 0 12px 28px rgba(15, 23, 42, 0.14);
+  --light-hero-reflection-gradient: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.22),
+    transparent 45%,
+    transparent
+  );
+}
+
+/*
+ * Remap semantic tokens to the light palette. The declarations are mechanical
+ * 1:1 aliases, kept in an @media nested at-rule so the no-JS path (system
+ * preference) and the explicit choice share the exact same values.
+ */
+html[data-resolved-theme="light"] {
+  color-scheme: light;
+
+  --color-background: var(--light-color-background);
+  --color-surface: var(--light-color-surface);
+  --color-surface-elevated: var(--light-color-surface-elevated);
+  --color-border: var(--light-color-border);
+
+  --color-text: var(--light-color-text);
+  --color-text-body: var(--light-color-text-body);
+  --color-text-secondary: var(--light-color-text-secondary);
+  --color-text-muted: var(--light-color-text-muted);
+
+  --color-primary: var(--light-color-primary);
+  --color-primary-hover: var(--light-color-primary-hover);
+  --color-primary-fg: var(--light-color-primary-fg);
+  --color-accent: var(--light-color-accent);
+  --color-accent-teal: var(--light-color-accent-teal);
+  --color-accent-gold: var(--light-color-accent-gold);
+
+  --color-success: var(--light-color-success);
+  --color-error: var(--light-color-error);
+  --color-warning: var(--light-color-warning);
+
+  --color-quote-quran-bg: var(--light-color-quote-quran-bg);
+  --color-quote-quran-text: var(--light-color-quote-quran-text);
+  --color-quote-quran-border: var(--light-color-quote-quran-border);
+
+  --color-quote-text: var(--light-color-quote-text);
+  --color-quote-border: var(--light-color-quote-border);
+
+  --color-hl-purple-bg: var(--light-color-hl-purple-bg);  --color-hl-purple-border: var(--light-color-hl-purple-border);  --color-hl-purple-text: var(--light-color-hl-purple-text);
+  --color-hl-green-bg: var(--light-color-hl-green-bg);     --color-hl-green-border: var(--light-color-hl-green-border);     --color-hl-green-text: var(--light-color-hl-green-text);
+  --color-hl-amber-bg: var(--light-color-hl-amber-bg);     --color-hl-amber-border: var(--light-color-hl-amber-border);     --color-hl-amber-text: var(--light-color-hl-amber-text);
+  --color-hl-blue-bg: var(--light-color-hl-blue-bg);       --color-hl-blue-border: var(--light-color-hl-blue-border);       --color-hl-blue-text: var(--light-color-hl-blue-text);
+
+  --hero-chip-bg: var(--light-hero-chip-bg);
+  --hero-chip-border: var(--light-hero-chip-border);
+  --hero-chip-shadow: var(--light-hero-chip-shadow);
+  --hero-reflection-gradient: var(--light-hero-reflection-gradient);
+}
+
+html[data-resolved-theme="dark"] {
+  color-scheme: dark;
+}
+
+/* No-JS fallback: honour the OS preference until the theme script runs. */
+@media (prefers-color-scheme: light) {
+  html:not([data-theme]) {
+    color-scheme: light;
+
+    --color-background: var(--light-color-background);
+    --color-surface: var(--light-color-surface);
+    --color-surface-elevated: var(--light-color-surface-elevated);
+    --color-border: var(--light-color-border);
+
+    --color-text: var(--light-color-text);
+    --color-text-body: var(--light-color-text-body);
+    --color-text-secondary: var(--light-color-text-secondary);
+    --color-text-muted: var(--light-color-text-muted);
+
+    --color-primary: var(--light-color-primary);
+    --color-primary-hover: var(--light-color-primary-hover);
+    --color-primary-fg: var(--light-color-primary-fg);
+    --color-accent: var(--light-color-accent);
+    --color-accent-teal: var(--light-color-accent-teal);
+    --color-accent-gold: var(--light-color-accent-gold);
+
+    --color-success: var(--light-color-success);
+    --color-error: var(--light-color-error);
+    --color-warning: var(--light-color-warning);
+
+    --color-quote-quran-bg: var(--light-color-quote-quran-bg);
+    --color-quote-quran-text: var(--light-color-quote-quran-text);
+    --color-quote-quran-border: var(--light-color-quote-quran-border);
+
+    --color-quote-text: var(--light-color-quote-text);
+    --color-quote-border: var(--light-color-quote-border);
+
+    --color-hl-purple-bg: var(--light-color-hl-purple-bg);  --color-hl-purple-border: var(--light-color-hl-purple-border);  --color-hl-purple-text: var(--light-color-hl-purple-text);
+    --color-hl-green-bg: var(--light-color-hl-green-bg);     --color-hl-green-border: var(--light-color-hl-green-border);     --color-hl-green-text: var(--light-color-hl-green-text);
+    --color-hl-amber-bg: var(--light-color-hl-amber-bg);     --color-hl-amber-border: var(--light-color-hl-amber-border);     --color-hl-amber-text: var(--light-color-hl-amber-text);
+    --color-hl-blue-bg: var(--light-color-hl-blue-bg);       --color-hl-blue-border: var(--light-color-hl-blue-border);       --color-hl-blue-text: var(--light-color-hl-blue-text);
+
+    --hero-chip-bg: var(--light-hero-chip-bg);
+    --hero-chip-border: var(--light-hero-chip-border);
+    --hero-chip-shadow: var(--light-hero-chip-shadow);
+    --hero-reflection-gradient: var(--light-hero-reflection-gradient);
+  }
+}
+
+body {
+  transition: background-color 0.16s ease, color 0.16s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    transition: none;
+  }
 }
 
 @keyframes hero-float {
@@ -117,25 +305,10 @@ html {
   position: relative;
   width: 260px;
   height: 530px;
-  background: linear-gradient(
-    145deg,
-    #3a3a3f 0%,
-    #2a2a2e 20%,
-    #1c1c1f 50%,
-    #2a2a2e 80%,
-    #3a3a3f 100%
-  );
+  background: var(--phone-frame-gradient);
   border-radius: 3.2rem;
   padding: 12px;
-  box-shadow:
-    /* outer depth shadow */
-    0 25px 60px -12px rgba(0, 0, 0, 0.5),
-    /* teal ambient glow */
-    0 0 40px -8px rgba(20, 184, 166, 0.25),
-    /* inner bezel shadow */
-    inset 0 0 0 1.5px rgba(255, 255, 255, 0.08),
-    /* subtle inner highlight */
-    inset 0 1px 1px rgba(255, 255, 255, 0.06);
+  box-shadow: var(--phone-frame-shadow);
 }
 
 /* Screen area */
@@ -145,7 +318,7 @@ html {
   height: 100%;
   border-radius: 2.4rem;
   overflow: hidden;
-  background: #000;
+  background: var(--phone-screen-bg);
 }
 
 /* Dynamic Island */
@@ -156,7 +329,7 @@ html {
   transform: translateX(-50%);
   width: 84px;
   height: 24px;
-  background: #000;
+  background: var(--phone-screen-bg);
   border-radius: 100px;
   z-index: 10;
 }
@@ -169,7 +342,7 @@ html {
   top: 100px;
   width: 3.5px;
   height: 20px;
-  background: linear-gradient(180deg, #4a4a4f, #2a2a2e);
+  background: var(--phone-button-gradient);
   border-radius: 2px 0 0 2px;
 }
 
@@ -180,7 +353,7 @@ html {
   top: 140px;
   width: 3.5px;
   height: 40px;
-  background: linear-gradient(180deg, #4a4a4f, #2a2a2e);
+  background: var(--phone-button-gradient);
   border-radius: 2px 0 0 2px;
 }
 
@@ -191,7 +364,7 @@ html {
   top: 190px;
   width: 3.5px;
   height: 40px;
-  background: linear-gradient(180deg, #4a4a4f, #2a2a2e);
+  background: var(--phone-button-gradient);
   border-radius: 2px 0 0 2px;
 }
 
@@ -202,7 +375,7 @@ html {
   top: 155px;
   width: 3.5px;
   height: 55px;
-  background: linear-gradient(180deg, #4a4a4f, #2a2a2e);
+  background: var(--phone-button-gradient);
   border-radius: 0 2px 2px 0;
 }
 
@@ -219,13 +392,17 @@ html {
   align-items: center;
   gap: 10px;
   padding: 10px 16px;
-  background: rgba(26, 31, 38, 0.75);
+  background: var(--hero-chip-bg);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--hero-chip-border);
   border-radius: 14px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--hero-chip-shadow);
   white-space: nowrap;
+}
+
+.hero-reflection {
+  background: var(--hero-reflection-gradient);
 }
 
 @layer components {
