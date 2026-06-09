@@ -18,11 +18,12 @@ app that also publishes the app's grammar **lessons** and word-by-word **i'rab
 | Email | Resend (contact form) |
 | Rate limiting | Upstash Redis |
 | Validation | Zod |
-| Hosting | Firebase App Hosting (Node runtime — see [Deployment](#deployment)) |
+| Hosting | Cloudflare Workers via OpenNext — see [Deployment](#deployment) |
 
 ## Getting started
 
 ```bash
+nvm use
 npm install
 cp .env.example .env.local   # fill in values (see Environment)
 npm run dev                  # http://localhost:3000
@@ -34,7 +35,12 @@ npm run dev                  # http://localhost:3000
 |---|---|
 | `npm run dev` | Start the dev server |
 | `npm run build` | Production build (prerenders all static pages) |
+| `npm run build:worker` | Build the Cloudflare Worker output with OpenNext |
 | `npm run start` | Serve the production build |
+| `npm run preview` | Build and preview the Cloudflare Worker locally |
+| `npm run deploy` | Build and deploy to Cloudflare Workers |
+| `npm run upload` | Build and upload a Cloudflare Worker version without deploying |
+| `npm run cf-typegen` | Generate Cloudflare binding types |
 | `npm run lint` | ESLint **+** the design-token governance check |
 | `npm run check:tokens` | Run only the raw-color-literal check |
 
@@ -45,10 +51,15 @@ Copy `.env.example` → `.env.local`.
 | Variable | Required | Purpose |
 |---|---|---|
 | `RESEND_API_KEY` | yes (for contact form) | Resend API key for support emails |
+| `RESEND_FROM_EMAIL` | prod | Verified Resend sender address/domain |
 | `SUPPORT_EMAIL` | yes (for contact form) | Destination address for the contact form |
 | `UPSTASH_REDIS_REST_URL` | prod | Upstash Redis endpoint (contact-form rate limiting) |
 | `UPSTASH_REDIS_REST_TOKEN` | prod | Upstash Redis token |
 | `NEXT_PUBLIC_SITE_URL` | prod | Canonical site origin (e.g. `https://…`). Defaults to `http://localhost:3000`; used for canonical/hreflang/OG/sitemap URLs. |
+| `NEXT_SERVER_ACTIONS_ENCRYPTION_KEY` | prod | Stable Server Actions encryption key across overlapping deployments |
+
+For local Worker preview, copy `.dev.vars.example` to `.dev.vars` and fill in the same
+runtime values. Keep `.env.local` and `.dev.vars` out of Git.
 
 ## Project structure
 
@@ -83,7 +94,9 @@ scripts/check-tokens.mjs # governance: blocks raw color literals
 
 - `next-intl` with `localePrefix: 'as-needed'`: **Arabic is the default and unprefixed**
   (`/`, `/lessons`), **English is prefixed** (`/en`, `/en/lessons`).
-- Locale routing is handled by `proxy.ts` (next-intl middleware).
+- Locale routing is handled by `middleware.ts` (next-intl middleware). Next 16
+  renamed this convention to `proxy.ts`, but `proxy.ts` is Node-only in this
+  version; Cloudflare/OpenNext currently needs the Edge middleware path.
 - `app/[locale]/layout.tsx` is the sole root layout and sets `<html lang dir>`
   (`rtl` for Arabic). UI strings live in `messages/{ar,en}.json`.
 
@@ -126,15 +139,48 @@ Qur'an verse block, plain quote, and highlight callouts have dedicated tokens.
 
 ## Deployment
 
-Deployed on **Firebase App Hosting** (Node runtime). The site is **not** a pure static
-export: it uses Server Actions (contact form) and next-intl middleware, both of which
-require a server. Content pages are still statically prerendered (SSG), so they ship as
-crawlable HTML. Set `NEXT_PUBLIC_SITE_URL` and the Resend/Upstash env vars in the
-hosting environment.
+Deploy on **Cloudflare Workers** with `@opennextjs/cloudflare`. The site is **not** a
+pure static export: it uses Server Actions (contact form), runtime support email config,
+and next-intl proxy routing, which require a server/adapter runtime. Content pages are
+still statically prerendered where possible, so they ship as crawlable HTML.
+
+Full production checklist: [`plan/production-deployment-runbook.md`](plan/production-deployment-runbook.md).
+
+Local production/Worker checks:
 
 ```bash
+npm ci
+npm run lint
 npm run build
+npm run preview
 ```
+
+Production deploy:
+
+```bash
+export NEXT_PUBLIC_SITE_URL=https://<canonical-host>
+npm run deploy
+```
+
+Before production, choose the final domain/canonical host, attach a Cloudflare Worker
+Custom Domain, verify HTTPS, configure the secondary host redirect, and verify Resend
+and Upstash with real credentials.
+
+Set Cloudflare runtime secrets before deploying:
+
+```bash
+npx wrangler secret put RESEND_API_KEY
+npx wrangler secret put RESEND_FROM_EMAIL
+npx wrangler secret put SUPPORT_EMAIL
+npx wrangler secret put UPSTASH_REDIS_REST_URL
+npx wrangler secret put UPSTASH_REDIS_REST_TOKEN
+npx wrangler secret put NEXT_SERVER_ACTIONS_ENCRYPTION_KEY
+```
+
+CI also needs Cloudflare credentials such as `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
+Image optimization is intentionally disabled in `next.config.ts`; current public assets are
+small and served directly. Add a Cloudflare Images binding later if optimized image
+transforms become necessary.
 
 ## Conventions
 

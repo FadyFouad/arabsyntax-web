@@ -16,6 +16,7 @@
 # next.js
 /.next/
 /out/
+/.open-next/
 
 # production
 /build
@@ -24,6 +25,9 @@
 .DS_Store
 *.pem
 content/lessons/.claude/
+brain/
+.wrangler/
+cloudflare-env.d.ts
 
 # debug
 npm-debug.log*
@@ -33,6 +37,9 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+.dev.vars*
+!.env.example
+!.dev.vars.example
 
 # vercel
 .vercel
