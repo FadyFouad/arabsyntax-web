@@ -6,6 +6,7 @@ import { Container } from '@/components/ui/Container';
 import I3rabWords from '@/components/i3rab/I3rabWords';
 import { siteConfig } from '@/lib/siteConfig';
 import { getAllI3rabSlugs, getI3rabEntry, type I3rabEntry } from '@/lib/i3rab/loader';
+import { serializeJsonLd } from '@/lib/jsonLd';
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
@@ -79,7 +80,7 @@ export default async function I3rabPage({ params }: PageProps) {
 
   return (
     <Container className="py-12 lg:py-16">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }} />
       <div className="mx-auto max-w-3xl">
         <Link href="/i3rab" className="text-sm font-medium text-primary hover:underline">
           {t('backToIndex')}

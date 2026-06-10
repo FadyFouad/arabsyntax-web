@@ -6,7 +6,6 @@ export const siteConfig = {
   developer: {
     name: "ETA TECH",
     contact: "Fady Fouad",
-    email: "fady.fouad.a@gmail.com",
   },
   // Publicly displayed support address (UI only). Contact-form delivery is
   // controlled separately by the SUPPORT_EMAIL secret via getSupportEmail().

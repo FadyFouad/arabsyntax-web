@@ -6,6 +6,7 @@ import SectionHeading from '@/components/ui/SectionHeading';
 import Card from '@/components/ui/Card';
 import { siteConfig } from '@/lib/siteConfig';
 import { getLessonIndex, type Locale } from '@/lib/lessons/loader';
+import { serializeJsonLd } from '@/lib/jsonLd';
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -59,7 +60,7 @@ export default async function LessonsIndexPage({ params }: PageProps) {
 
   return (
     <Container className="py-12 lg:py-16">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemList) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(itemList) }} />
       <SectionHeading heading={t('indexTitle')} subtitle={t('indexSubtitle')} className="mb-10" />
       <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {lessons.map((l) => (

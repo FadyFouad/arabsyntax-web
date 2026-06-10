@@ -68,13 +68,16 @@ export async function sendContactEmail(
     });
 
     if (error) {
-      console.error('Resend error:', error);
+      // Log only the message (not the full object) to keep Worker logs free of
+      // request metadata; the submission body is never logged.
+      console.error('Resend error:', error.message);
       return { ok: false, error: error.message };
     }
 
     return { ok: true };
   } catch (err: unknown) {
-    console.error('Email send failed:', err);
-    return { ok: false, error: err instanceof Error ? err.message : String(err) };
+    const message = err instanceof Error ? err.message : String(err);
+    console.error('Email send failed:', message);
+    return { ok: false, error: message };
   }
 }

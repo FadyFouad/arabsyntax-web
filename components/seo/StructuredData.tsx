@@ -1,4 +1,5 @@
 import { siteConfig } from '@/lib/siteConfig';
+import { serializeJsonLd } from '@/lib/jsonLd';
 
 export function StructuredData({ locale }: { locale: string }) {
   const isAr = locale === 'ar';
@@ -64,7 +65,7 @@ export function StructuredData({ locale }: { locale: string }) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
     />
   );
 }
