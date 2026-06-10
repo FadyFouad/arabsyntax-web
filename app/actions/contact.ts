@@ -8,7 +8,7 @@ import { checkRateLimit } from '@/lib/ratelimit';
 
 type ContactActionResult =
   | { success: true }
-  | { success: false; error: 'rate_limited' | 'send_failed' | 'validation_error' };
+  | { success: false; error: 'rate_limited' | 'rate_limit_unavailable' | 'send_failed' | 'validation_error' };
 
 export async function submitContact(data: ContactFormData): Promise<ContactActionResult> {
   const result = contactSchema.safeParse(data);
@@ -29,7 +29,10 @@ export async function submitContact(data: ContactFormData): Promise<ContactActio
 
   const rateLimitResult = await checkRateLimit(ip);
   if (!rateLimitResult.success) {
-    return { success: false, error: 'rate_limited' };
+    return {
+      success: false,
+      error: rateLimitResult.unavailable ? 'rate_limit_unavailable' : 'rate_limited',
+    };
   }
 
   const locale = (await getLocale()) as 'ar' | 'en';

@@ -8,7 +8,7 @@ import { contactSchema, type ContactFormData } from '@/lib/validation/contact';
 import { submitContact } from '@/app/actions/contact';
 import { cn } from '@/lib/cn';
 
-type FormStatus = 'idle' | 'submitting' | 'success' | { error: 'rate_limited' | 'send_failed' | 'validation_error' };
+type FormStatus = 'idle' | 'submitting' | 'success' | { error: 'rate_limited' | 'rate_limit_unavailable' | 'send_failed' | 'validation_error' };
 
 export default function ContactForm() {
   const t = useTranslations('support.form');
@@ -59,8 +59,10 @@ export default function ContactForm() {
       {isError && (
         <div role="alert" className="bg-error/10 border border-error/50 p-4 rounded-lg">
           <p className="text-error font-medium">
-            {status.error === 'rate_limited' 
-              ? t('errors.rateLimited') 
+            {status.error === 'rate_limited'
+              ? t('errors.rateLimited')
+              : status.error === 'rate_limit_unavailable'
+              ? t('errors.rateLimitUnavailable')
               : t('errors.sendFailed')}
           </p>
         </div>
