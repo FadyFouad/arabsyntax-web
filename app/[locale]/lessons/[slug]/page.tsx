@@ -11,9 +11,6 @@ interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
 }
 
-// Every lesson is known at build → prerender all, 404 anything else.
-export const dynamicParams = false;
-
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
 }

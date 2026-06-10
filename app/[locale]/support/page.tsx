@@ -1,7 +1,9 @@
 import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
+import { connection } from 'next/server';
 import { siteConfig } from '@/lib/siteConfig';
+import { getSupportEmail } from '@/lib/supportConfig';
 import { Container } from '@/components/ui/Container';
 import SectionHeading from '@/components/ui/SectionHeading';
 import ContactForm from '@/components/forms/ContactForm';
@@ -42,7 +44,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function SupportPage({ params }: PageProps) {
   const { locale } = await params;
   setRequestLocale(locale);
+  await connection();
   const t = await getTranslations('support');
+  const supportEmail = getSupportEmail();
 
   return (
     <div className="py-16 lg:py-24">
@@ -60,8 +64,8 @@ export default async function SupportPage({ params }: PageProps) {
 
         <div className="mt-8 text-center text-text-muted">
           <span>{t('directEmail.label')} </span>
-          <a href={`mailto:${process.env.SUPPORT_EMAIL || siteConfig.developer.email}`} className="text-primary underline hover:text-primary-hover transition-colors font-medium">
-            {process.env.SUPPORT_EMAIL || 'support@arabsyntax.com'}
+          <a href={`mailto:${supportEmail}`} className="text-primary underline hover:text-primary-hover transition-colors font-medium">
+            {supportEmail}
           </a>
         </div>
       </Container>

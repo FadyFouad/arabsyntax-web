@@ -11,8 +11,6 @@ interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
 }
 
-export const dynamicParams = false;
-
 // Bilingual routing (like lessons): pages exist at /i3rab/* and /en/i3rab/*.
 export function generateStaticParams() {
   return getAllI3rabSlugs().map((slug) => ({ slug }));

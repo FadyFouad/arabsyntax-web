@@ -1,0 +1,31 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "arabsyntax-web",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-06-09",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "find_additional_modules": true,
+  "base_dir": ".open-next/server-functions/default",
+  "preserve_file_names": true,
+  "rules": [
+    {
+      "type": "Text",
+      "globs": ["content/**/*.json", "content/**/*.mdx"],
+      "fallthrough": true
+    }
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "services": [
+    {
+      // Self-reference service binding; service must match this Worker name.
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "arabsyntax-web"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
