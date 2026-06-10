@@ -303,5 +303,10 @@
     "title": "Page not found",
     "description": "Sorry, the page you're looking for doesn't exist or may have been moved.",
     "backHome": "Back to home"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "description": "Sorry, an unexpected error occurred. Please try again.",
+    "retry": "Try again"
   }
 }
