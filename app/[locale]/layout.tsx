@@ -83,6 +83,13 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+// Only 'ar' and 'en' are real locales. Without this, a single-segment request
+// like /.env or /package.json is treated as locale=".env" and rendered
+// dynamically, throwing a 500 before the layout's notFound() guard runs.
+// dynamicParams: false makes any locale outside generateStaticParams return a
+// clean 404 (the localized not-found page) up front.
+export const dynamicParams = false;
+
 export default async function LocaleLayout({
   children,
   params,
