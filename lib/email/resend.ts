@@ -52,7 +52,7 @@ export async function sendContactEmail(
     const { error } = await resend.emails.send({
       from: `${siteConfig.name.en} Support <${fromEmail}>`,
       to: supportEmail,
-      replyTo: submission.email,
+      replyTo: normalizeHeaderValue(submission.email),
       subject: `[${siteConfig.name.en} Support] ${normalizeHeaderValue(submission.subject)}`,
       html: `
         <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse;">
