@@ -8,6 +8,9 @@ export const siteConfig = {
     contact: "Fady Fouad",
     email: "fady.fouad.a@gmail.com",
   },
+  // Publicly displayed support address (UI only). Contact-form delivery is
+  // controlled separately by the SUPPORT_EMAIL secret via getSupportEmail().
+  supportEmail: "support@alnahwalkafi.com",
   stores: {
     googlePlay: "https://play.google.com/store/apps/details?id=com.etateck.arabsyntax",
     appStore: "https://apps.apple.com/us/app/%D8%A7%D9%84%D9%86%D8%AD%D9%88-%D8%A7%D9%84%D9%83%D8%A7%D9%81%D9%8A/id6448959921",

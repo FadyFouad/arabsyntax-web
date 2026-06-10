@@ -3,7 +3,6 @@ import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import { connection } from 'next/server';
 import { siteConfig } from '@/lib/siteConfig';
-import { getSupportEmail } from '@/lib/supportConfig';
 import { Container } from '@/components/ui/Container';
 import SectionHeading from '@/components/ui/SectionHeading';
 import ContactForm from '@/components/forms/ContactForm';
@@ -46,7 +45,7 @@ export default async function SupportPage({ params }: PageProps) {
   setRequestLocale(locale);
   await connection();
   const t = await getTranslations('support');
-  const supportEmail = getSupportEmail();
+  const supportEmail = siteConfig.supportEmail;
 
   return (
     <div className="py-16 lg:py-24">
