@@ -1,16 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "arabsyntax-web",
-  // Apex is the canonical host (matches NEXT_PUBLIC_SITE_URL). Attaching it as a
-  // Worker Custom Domain provisions the DNS record + edge certificate on deploy.
-  // www is intentionally omitted: redirect www -> apex via a Cloudflare Redirect
-  // Rule rather than a custom domain, so it never serves duplicate content.
-  "routes": [
-    {
-      "pattern": "alnahwalkafi.com",
-      "custom_domain": true
-    }
-  ],
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-06-09",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
