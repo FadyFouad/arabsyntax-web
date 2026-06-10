@@ -39,6 +39,7 @@ npm run dev                  # http://localhost:3000
 | `npm run start` | Serve the production build |
 | `npm run preview` | Build and preview the Cloudflare Worker locally |
 | `npm run deploy` | Build and deploy to Cloudflare Workers |
+| `npm run deploy:prod` | Production deploy — use this; loads `.env.production` build-time vars |
 | `npm run upload` | Build and upload a Cloudflare Worker version without deploying |
 | `npm run cf-typegen` | Generate Cloudflare binding types |
 | `npm run lint` | ESLint **+** the design-token governance check |
@@ -158,9 +159,16 @@ npm run preview
 Production deploy:
 
 ```bash
-export NEXT_PUBLIC_SITE_URL=https://<canonical-host>
-npm run deploy
+npm run deploy:prod
 ```
+
+Always use `npm run deploy:prod` for production, **not** bare `npm run deploy` from
+a fresh shell. The build-time vars `NEXT_PUBLIC_SITE_URL` and
+`NEXT_SERVER_ACTIONS_ENCRYPTION_KEY` live in the gitignored `.env.production`, which
+`next build` auto-loads. Forgetting to set `NEXT_PUBLIC_SITE_URL` is what previously
+shipped `http://localhost:3000` into the sitemap, robots.txt, JSON-LD, and canonical
+URLs. Copy `.env.example` to `.env.production` and fill in the production values on a
+new machine.
 
 Before production, choose the final domain/canonical host, attach a Cloudflare Worker
 Custom Domain, verify HTTPS, configure the secondary host redirect, and verify Resend
