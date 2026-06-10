@@ -14,6 +14,14 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'sw
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  // Invalid single-segment paths like /.env resolve here with locale=".env"
+  // (they bypass the next-intl middleware, so no request locale is set).
+  // Establish the default locale so the localized not-found page can read
+  // messages, then short-circuit to a clean 404 instead of a 500.
+  if (!hasLocale(routing.locales, locale)) {
+    setRequestLocale(routing.defaultLocale);
+    notFound();
+  }
   const isAr = locale === 'ar';
   const name = isAr ? siteConfig.name.ar : siteConfig.name.en;
   const description = isAr
@@ -83,13 +91,6 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-// Only 'ar' and 'en' are real locales. Without this, a single-segment request
-// like /.env or /package.json is treated as locale=".env" and rendered
-// dynamically, throwing a 500 before the layout's notFound() guard runs.
-// dynamicParams: false makes any locale outside generateStaticParams return a
-// clean 404 (the localized not-found page) up front.
-export const dynamicParams = false;
-
 export default async function LocaleLayout({
   children,
   params,
@@ -99,6 +100,7 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
+    setRequestLocale(routing.defaultLocale);
     notFound();
   }
   setRequestLocale(locale);
