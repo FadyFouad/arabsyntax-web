@@ -50,3 +50,8 @@ next-env.d.ts
 
 # local planning notes
 brain/
+
+# generated at build time by scripts/generate-seo.mjs (served statically to
+# bypass the OpenNext metadata-route handler)
+/public/sitemap.xml
+/public/robots.txt
