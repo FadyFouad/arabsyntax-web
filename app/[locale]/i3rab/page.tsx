@@ -6,6 +6,7 @@ import SectionHeading from '@/components/ui/SectionHeading';
 import Card from '@/components/ui/Card';
 import { siteConfig } from '@/lib/siteConfig';
 import { getI3rabIndex } from '@/lib/i3rab/loader';
+import { serializeJsonLd } from '@/lib/jsonLd';
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -59,7 +60,7 @@ export default async function I3rabIndexPage({ params }: PageProps) {
 
   return (
     <Container className="py-12 lg:py-16">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemList) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(itemList) }} />
       <SectionHeading heading={t('indexTitle')} subtitle={t('indexSubtitle')} className="mb-10" />
       <div className="space-y-10">
         {groups.map((g) => (

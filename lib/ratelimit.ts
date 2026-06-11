@@ -13,18 +13,19 @@ if (process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN) 
 
 export async function checkRateLimit(
   ip: string
-): Promise<{ success: boolean }> {
+): Promise<{ success: boolean; unavailable?: boolean }> {
   if (!ratelimit) {
-    // Local dev fallback
+    // Upstash not configured (e.g. local dev): allow through unthrottled.
     return { success: true };
   }
-  
+
   try {
     const { success } = await ratelimit.limit(`contact:${ip}`);
     return { success };
   } catch (error) {
-    // If Upstash fails, fallback to allow if Redis is down.
+    // Upstash is configured but the check failed. Fail closed: we can't
+    // verify the limit, so reject rather than allow unbounded submissions.
     console.error('Rate limit error:', error);
-    return { success: true }; 
+    return { success: false, unavailable: true };
   }
 }

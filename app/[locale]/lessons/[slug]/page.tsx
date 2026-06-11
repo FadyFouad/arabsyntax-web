@@ -6,6 +6,7 @@ import { Container } from '@/components/ui/Container';
 import LessonSections from '@/components/lessons/LessonSections';
 import { siteConfig } from '@/lib/siteConfig';
 import { getAllSlugs, getLesson, type Locale } from '@/lib/lessons/loader';
+import { serializeJsonLd } from '@/lib/jsonLd';
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
@@ -72,7 +73,7 @@ export default async function LessonPage({ params }: PageProps) {
 
   return (
     <Container className="py-12 lg:py-16">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }} />
       <div className="mx-auto max-w-3xl">
         <Link href="/lessons" className="text-sm font-medium text-primary hover:underline">
           {t('backToLessons')}

@@ -5,10 +5,11 @@ import { getLocale } from 'next-intl/server';
 import { contactSchema, type ContactFormData } from '@/lib/validation/contact';
 import { sendContactEmail } from '@/lib/email/resend';
 import { checkRateLimit } from '@/lib/ratelimit';
+import { pickClientIp } from '@/lib/clientIp';
 
 type ContactActionResult =
   | { success: true }
-  | { success: false; error: 'rate_limited' | 'send_failed' | 'validation_error' };
+  | { success: false; error: 'rate_limited' | 'rate_limit_unavailable' | 'send_failed' | 'validation_error' };
 
 export async function submitContact(data: ContactFormData): Promise<ContactActionResult> {
   const result = contactSchema.safeParse(data);
@@ -24,12 +25,14 @@ export async function submitContact(data: ContactFormData): Promise<ContactActio
   }
 
   const headersList = await headers();
-  const forwardedFor = headersList.get('x-forwarded-for');
-  const ip = forwardedFor ? forwardedFor.split(',')[0].trim() : '127.0.0.1';
+  const ip = pickClientIp(headersList);
 
   const rateLimitResult = await checkRateLimit(ip);
   if (!rateLimitResult.success) {
-    return { success: false, error: 'rate_limited' };
+    return {
+      success: false,
+      error: rateLimitResult.unavailable ? 'rate_limit_unavailable' : 'rate_limited',
+    };
   }
 
   const locale = (await getLocale()) as 'ar' | 'en';

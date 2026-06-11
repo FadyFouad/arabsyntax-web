@@ -3,7 +3,6 @@ import Card from '@/components/ui/Card';
 import SectionHeading from '@/components/ui/SectionHeading';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 
-// TODO: Replace with the real Google Play Store listing URL before launch
 import { siteConfig } from '@/lib/siteConfig';
 
 const PAID_TIERS = ['monthly', 'yearly', 'lifetime'] as const;

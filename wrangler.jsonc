@@ -1,6 +1,12 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "arabsyntax-web",
+  // Apex is the canonical host (matches NEXT_PUBLIC_SITE_URL). The domain is
+  // already attached/verified, so custom_domain: true just publishes to it.
+  // www is handled by a Cloudflare Redirect Rule (www -> apex), not here.
+  "routes": [
+    { "pattern": "alnahwalkafi.com", "custom_domain": true }
+  ],
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-06-09",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
