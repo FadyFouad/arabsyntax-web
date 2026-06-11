@@ -22,13 +22,22 @@
 # they can't be immutable (a rebrand must be able to propagate). A 7-day cache
 # replaces the default `max-age=0, must-revalidate` — enough for browsers/CDNs
 # (and a clean cacheability signal for crawlers) without locking in a stale
-# favicon for a year. The /* security headers still apply (more-specific rules
-# only override the same-named header).
+# favicon for a year.
+#
+# NOTE: a matching rule REPLACES the catch-all (`/*`) for this path — it does not
+# merge — so the one security header that matters for non-document static assets,
+# X-Content-Type-Options: nosniff, is re-declared here (same as /_next/static/*).
+# X-Frame-Options / Referrer-Policy / Permissions-Policy are document-level and
+# immaterial for an image/JSON response; HSTS is applied at the Cloudflare edge.
 /favicon.ico
   Cache-Control: public,max-age=604800
+  X-Content-Type-Options: nosniff
 /favicon/*
   Cache-Control: public,max-age=604800
+  X-Content-Type-Options: nosniff
 /og/*
   Cache-Control: public,max-age=604800
+  X-Content-Type-Options: nosniff
 /manifest.webmanifest
   Cache-Control: public,max-age=604800
+  X-Content-Type-Options: nosniff
