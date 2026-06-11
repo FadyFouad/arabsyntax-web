@@ -17,3 +17,18 @@
 /_next/static/*
   Cache-Control: public,max-age=31536000,immutable
   X-Content-Type-Options: nosniff
+
+# Icons, OG image, and the web manifest are stable but NOT content-hashed, so
+# they can't be immutable (a rebrand must be able to propagate). A 7-day cache
+# replaces the default `max-age=0, must-revalidate` — enough for browsers/CDNs
+# (and a clean cacheability signal for crawlers) without locking in a stale
+# favicon for a year. The /* security headers still apply (more-specific rules
+# only override the same-named header).
+/favicon.ico
+  Cache-Control: public,max-age=604800
+/favicon/*
+  Cache-Control: public,max-age=604800
+/og/*
+  Cache-Control: public,max-age=604800
+/manifest.webmanifest
+  Cache-Control: public,max-age=604800
