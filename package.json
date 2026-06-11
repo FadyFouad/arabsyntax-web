@@ -16,7 +16,9 @@
     "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
     "lint": "eslint && node scripts/check-tokens.mjs",
-    "check:tokens": "node scripts/check-tokens.mjs"
+    "check:tokens": "node scripts/check-tokens.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@hookform/resolvers": "5.2.2",
@@ -48,6 +50,10 @@
     "eslint-config-next": "16.2.6",
     "tailwindcss": "4.2.2",
     "typescript": "5.9.3",
+    "vitest": "4.1.8",
     "wrangler": "4.99.0"
+  },
+  "overrides": {
+    "postcss": "8.5.15"
   }
 }

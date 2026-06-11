@@ -5,6 +5,12 @@
  * `rgba(`, `hsl(`, `hsla(`. Token definitions live in app/globals.css (the
  * single source of truth) and config files (manifest/sitemap) are exempt.
  *
+ * A file may opt out only with an explicit, justified marker comment:
+ *   `check-tokens-disable-file: <reason>`
+ * Reserved for render files that run without the theme stylesheet loaded (e.g.
+ * app/global-error.tsx, which replaces the root layout), where tokens are
+ * unavailable and raw literals are unavoidable.
+ *
  * Run: node scripts/check-tokens.mjs   (exit 1 on any violation)
  */
 import { readdirSync, readFileSync, statSync } from 'node:fs';
@@ -33,12 +39,12 @@ for (const root of ROOTS) {
     continue;
   }
   for (const file of files) {
-    readFileSync(file, 'utf8')
-      .split('\n')
-      .forEach((line, i) => {
-        const m = line.match(COLOR_RE);
-        if (m) violations.push(`${file}:${i + 1}  ${m.join(', ')}  →  ${line.trim()}`);
-      });
+    const contents = readFileSync(file, 'utf8');
+    if (contents.includes('check-tokens-disable-file:')) continue;
+    contents.split('\n').forEach((line, i) => {
+      const m = line.match(COLOR_RE);
+      if (m) violations.push(`${file}:${i + 1}  ${m.join(', ')}  →  ${line.trim()}`);
+    });
   }
 }
 

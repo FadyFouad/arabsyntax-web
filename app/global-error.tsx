@@ -6,6 +6,9 @@ import { useEffect } from 'react';
 // (app/[locale]/layout.tsx). It replaces that layout entirely, so it runs
 // without the next-intl provider or a known locale — hence self-contained
 // markup, inline brand styling, and bilingual copy rather than message keys.
+//
+// check-tokens-disable-file: replaces the root layout, so globals.css and the
+// @theme tokens are not loaded here — raw brand hex literals are unavoidable.
 export default function GlobalError({
   error,
   reset,
