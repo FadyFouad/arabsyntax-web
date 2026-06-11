@@ -1,3 +1,19 @@
+# Security + caching headers for files served by the Cloudflare Workers Assets
+# binding (favicon, sitemap.xml, robots.txt, /favicon/*, /og/*, /_next/static).
+#
+# next.config.ts `headers()` only decorates worker-rendered (HTML) responses, so
+# static assets would otherwise ship with no security headers. CSP is omitted
+# here on purpose: it governs document/script execution (set on HTML by the
+# worker) and is not needed on standalone assets. More specific rules below
+# override the catch-all for the same header name.
+
+/*
+  X-Content-Type-Options: nosniff
+  Strict-Transport-Security: max-age=63072000; includeSubDomains
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+
 /_next/static/*
   Cache-Control: public,max-age=31536000,immutable
   X-Content-Type-Options: nosniff
