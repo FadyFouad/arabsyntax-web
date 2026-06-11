@@ -12,10 +12,6 @@ interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
 }
 
-// Every lesson slug is enumerated at build time, so reject any slug outside
-// that set with a 404 at the edge instead of invoking the worker on demand.
-export const dynamicParams = false;
-
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
 }
