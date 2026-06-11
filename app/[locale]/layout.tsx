@@ -49,6 +49,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     category: 'education',
     formatDetection: { telephone: false, email: false, address: false },
     manifest: '/manifest.webmanifest',
+    // Static icons served from public/ (the ASSETS binding), not Next metadata
+    // route handlers — those intermittently 500 on OpenNext/Cloudflare.
+    icons: {
+      icon: [
+        { url: '/favicon.ico', sizes: 'any' },
+        { url: '/favicon/favicon.svg', type: 'image/svg+xml' },
+        { url: '/favicon/favicon-96x96.png', type: 'image/png', sizes: '96x96' },
+      ],
+      apple: [{ url: '/favicon/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
+    },
     appleWebApp: { capable: true, title: name, statusBarStyle: 'black-translucent' as const },
     robots: {
       index: true,

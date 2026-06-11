@@ -24,8 +24,10 @@ const csp = [
   "img-src 'self' data:",
   "font-src 'self' data:",
   "style-src 'self' 'unsafe-inline'",
-  "script-src 'self' 'unsafe-inline'",
-  "connect-src 'self'",
+  // static.cloudflareinsights.com serves the Web Analytics beacon script.
+  "script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com",
+  // The beacon POSTs RUM data to cloudflareinsights.com.
+  "connect-src 'self' https://cloudflareinsights.com",
   "manifest-src 'self'",
   'upgrade-insecure-requests',
 ].join('; ');
