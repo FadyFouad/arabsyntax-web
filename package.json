@@ -25,7 +25,8 @@
     "lint": "eslint && node scripts/check-tokens.mjs",
     "check:tokens": "node scripts/check-tokens.mjs",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@hookform/resolvers": "5.2.2",
@@ -48,6 +49,7 @@
     "zod": "4.3.6"
   },
   "devDependencies": {
+    "@playwright/test": "^1.60.0",
     "@tailwindcss/postcss": "4.2.2",
     "@tailwindcss/typography": "0.5.19",
     "@types/node": "20.19.39",

@@ -1,0 +1,91 @@
+name: CI
+
+# Two jobs, run in parallel on every push/PR to main:
+#   • test — the FAST GATE: lint + the Vitest suite (282 unit/integration tests,
+#     incl. the content-integrity and i18n-parity regression guards). Runs in
+#     ~1s; keep this as the required check so a broken content file or dropped
+#     translation key can never reach main.
+#   • e2e  — the Playwright suite (builds + serves the prod site, sweeps chromium
+#     + mobile-chrome). Heavier (build + browser download), so it's its own job
+#     and need not block merges the way the fast gate does.
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# A new push to a PR cancels the in-flight run for that ref — no point finishing
+# a check on a commit that's already been superseded.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Lint & test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22 # matches package.json engines (">=22")
+          cache: npm
+
+      # vitest 4 pulls in rolldown, whose linux native binding
+      # (@rolldown/binding-linux-x64-gnu) is recorded as an optionalDependency
+      # but gets NO package entry in a macOS-authored lockfile — so neither
+      # `npm ci` nor `npm install` materializes it on the linux runner (npm
+      # cross-platform optional-dep bug). The same bug would mirror (missing the
+      # darwin binding) on a linux-authored lock, so no single committed lock
+      # satisfies both OSes. Resolve fresh on the runner's own platform instead.
+      - name: Install dependencies
+        run: rm -f package-lock.json && npm install --no-audit --no-fund
+
+      - name: Lint (eslint + design-token check)
+        run: npm run lint
+
+      - name: Unit & integration tests (Vitest)
+        run: npm test
+
+  e2e:
+    name: E2E (Playwright)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # See the note in the `test` job: resolve deps fresh on the runner so the
+      # linux rolldown/esbuild native bindings are installed (cross-platform
+      # lockfile bug).
+      - name: Install dependencies
+        run: rm -f package-lock.json && npm install --no-audit --no-fund
+
+      # Only chromium is needed: both projects (desktop chromium + mobile-chrome)
+      # use the chromium engine. --with-deps pulls the OS libraries on the runner.
+      - name: Install Playwright chromium
+        run: npx playwright install --with-deps chromium
+
+      # playwright.config.ts's webServer runs `npm run build && next start`, so
+      # this builds the prod site and serves it before sweeping. CI=true makes
+      # the config forbid `.only`, retry flaky specs, and not reuse a server.
+      - name: Run E2E suite
+        run: npm run test:e2e
+
+      # Keep the HTML report + traces/screenshots from failures for debugging.
+      - name: Upload Playwright report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 7
