@@ -91,16 +91,15 @@ describe('submitContact — validation gate (runs first, before any side effect)
 });
 
 describe('submitContact — honeypot', () => {
-  // NOTE (real finding): the honeypot field `website` is also constrained by the
-  // schema (`z.string().max(0)`). So a bot that FILLS it fails validation FIRST
-  // and gets `validation_error` — the `if (website) return {success:true}`
-  // "silent accept" branch in the action is effectively DEAD CODE. Spam is still
-  // blocked (no email), but not silently. This test documents the ACTUAL
-  // behavior so a future refactor of the honeypot is a conscious decision.
-  it('a filled honeypot is rejected as validation_error (NOT a silent success) and sends nothing', async () => {
+  // A bot that fills the hidden `website` field is SILENTLY accepted: the action
+  // returns success without sending email or even consulting the rate limiter,
+  // so the bot can't tell it was caught. The schema accepts any honeypot value
+  // (see contact-validation.test.ts); enforcement lives here.
+  it('a filled honeypot returns silent success and triggers no side effects', async () => {
     const res = await submitContact({ ...VALID, website: 'http://spam.example' });
-    expect(res).toEqual({ success: false, error: 'validation_error' });
+    expect(res).toEqual({ success: true });
     expect(sendContactEmail).not.toHaveBeenCalled();
+    expect(checkRateLimit).not.toHaveBeenCalled();
   });
 });
 

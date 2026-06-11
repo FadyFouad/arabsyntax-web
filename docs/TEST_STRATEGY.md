@@ -115,13 +115,14 @@ rate-limit fail-closed, IP-spoof resistance, email HTML-escaping + header normal
 
 ### 🟡 Medium
 
-3. **Dead honeypot branch (logic smell).** In `submitContact`, the `if (website) return
-   {success:true}` "silent accept" is **unreachable**: `contactSchema` has
-   `website: z.string().max(0)`, so any filled honeypot fails validation *first* and
-   returns `validation_error`. Spam is still blocked (no email), but not *silently* — a
-   bot can detect the honeypot, and the branch misleads readers.
-   → **Recommendation**: either drop `website` from the schema (let the action's honeypot
-   own it) or delete the dead branch. Documented in `contact-action.test.ts`.
+3. **Dead honeypot branch (logic smell).** _(Fixed.)_ The `if (website) return
+   {success:true}` "silent accept" in `submitContact` was **unreachable**: `contactSchema`
+   had `website: z.string().max(0)`, so any filled honeypot failed validation *first* and
+   returned `validation_error` — detectable by a bot.
+   → **Fixed**: the schema now accepts any `website` value (`z.string()`) and the action
+   owns the honeypot, silently accepting a filled value without rate-limiting or sending.
+   Covered by `contact-action.test.ts` (silent success, no side effects) and
+   `contact-validation.test.ts` (schema accepts; enforcement is in the action).
 4. **`withUnderlines` / `attributionCaption` (in `LessonSections.tsx`) are untestable.**
    They are module-private and mix pure logic with JSX. `withUnderlines` builds a
    `RegExp` from content tokens — it *does* escape regex metachars (good), but the logic

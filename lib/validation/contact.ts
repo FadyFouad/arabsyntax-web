@@ -17,7 +17,12 @@ export const contactSchema = z.object({
     .min(1, { message: 'messageRequired' })
     .min(10, { message: 'messageMin' })
     .max(5000),
-  website: z.string().max(0),
+  // Honeypot: a hidden field real users never fill. It is accepted (any value)
+  // at the schema level on purpose — enforcement lives in the action, which
+  // SILENTLY accepts a filled honeypot so a bot can't tell it was caught.
+  // (Constraining it here with .max(0) would reject bots with a detectable
+  // validation_error and leave the action's silent-block branch unreachable.)
+  website: z.string(),
 });
 
 export type ContactFormData = z.infer<typeof contactSchema>;

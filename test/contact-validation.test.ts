@@ -83,14 +83,18 @@ describe('contactSchema — subject & message bounds', () => {
 });
 
 describe('contactSchema — honeypot (website)', () => {
-  it('accepts an empty honeypot (the only value a human submits)', () => {
+  it('accepts an empty honeypot (the value a human submits)', () => {
     expect(parse({ website: '' }).success).toBe(true);
   });
-  it('rejects ANY non-empty honeypot value', () => {
-    expect(parse({ website: 'http://spam' }).success).toBe(false);
-    expect(parse({ website: ' ' }).success).toBe(false);
+  // The honeypot is intentionally NOT rejected at the schema level: a filled
+  // value passes validation and is silently blocked by the action, so a bot
+  // can't distinguish the honeypot from a normal success. See
+  // contact-action.test.ts for the silent-accept behavior.
+  it('accepts a non-empty honeypot at the schema level (the action blocks it)', () => {
+    expect(parse({ website: 'http://spam' }).success).toBe(true);
+    expect(parse({ website: ' ' }).success).toBe(true);
   });
-  it('rejects a submission with the honeypot field omitted entirely', () => {
+  it('still requires the honeypot field to be present (a string)', () => {
     const { website, ...withoutHoneypot } = base;
     void website;
     expect(contactSchema.safeParse(withoutHoneypot).success).toBe(false);

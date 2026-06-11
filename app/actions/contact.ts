@@ -19,9 +19,11 @@ export async function submitContact(data: ContactFormData): Promise<ContactActio
 
   const { name, email, subject, message, website } = result.data;
 
-  // Honeypot check
+  // Honeypot: real users never fill the hidden `website` field. Silently accept
+  // (return success without rate-limiting or sending) so a bot can't distinguish
+  // being caught from a real submission. Runs before any side effect.
   if (website) {
-    return { success: true }; // Silently block
+    return { success: true };
   }
 
   const headersList = await headers();
