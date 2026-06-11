@@ -39,11 +39,14 @@ npm run dev                  # http://localhost:3000
 | `npm run start` | Serve the production build |
 | `npm run preview` | Build and preview the Cloudflare Worker locally |
 | `npm run deploy` | Build and deploy to Cloudflare Workers |
-| `npm run deploy:prod` | Production deploy — use this; loads `.env.production` build-time vars |
+| `npm run deploy:prod` | Production deploy (alias for `npm run deploy`) — use this; the build auto-loads `.env.production` |
 | `npm run upload` | Build and upload a Cloudflare Worker version without deploying |
+| `npm run seo` | Generate `public/sitemap.xml` + `public/robots.txt` (runs automatically before dev/build/preview/deploy) |
 | `npm run cf-typegen` | Generate Cloudflare binding types |
 | `npm run lint` | ESLint **+** the design-token governance check |
 | `npm run check:tokens` | Run only the raw-color-literal check |
+| `npm test` | Run the Vitest unit suite |
+| `npm run test:watch` | Run Vitest in watch mode |
 
 ## Environment
 
@@ -71,9 +74,10 @@ app/
     lessons/             # /lessons + /lessons/[slug]
     i3rab/               # /i3rab + /i3rab/[slug]
     privacy|terms|support/
-  sitemap.ts             # enumerates all routes (incl. lessons & i'rab slugs)
-  robots.ts
-  manifest.ts            # PWA manifest
+    [...rest]/           # locale-scoped catch-all → not-found
+    error.tsx not-found.tsx
+  actions/contact.ts     # contact-form Server Action
+  global-error.tsx       # root error boundary
   globals.css            # Tailwind import + @theme design tokens
 components/
   lessons/ i3rab/        # section renderers
@@ -87,8 +91,12 @@ lib/
   siteConfig.ts featureFlags.ts email/ ratelimit/ validation/
 i18n/                    # next-intl routing + request config
 messages/{ar,en}.json    # UI strings
+public/                  # static assets + build-generated sitemap.xml, robots.txt, manifest.webmanifest
 docs/design-system.md    # token reference + component catalog
-scripts/check-tokens.mjs # governance: blocks raw color literals
+scripts/
+  check-tokens.mjs       # governance: blocks raw color literals
+  generate-seo.mjs       # emits public/sitemap.xml + robots.txt at build time
+test/                    # Vitest unit tests
 ```
 
 ## Internationalization
@@ -135,8 +143,11 @@ Qur'an verse block, plain quote, and highlight callouts have dedicated tokens.
 - `<html lang/dir>`, canonical + `hreflang` (`ar` / `en` / `x-default`) on every page.
 - JSON-LD: an Organization + WebSite + SoftwareApplication graph site-wide, and
   `LearningResource` on lessons & i'rab pages.
-- OpenGraph + Twitter card metadata, PWA `manifest.ts`, generated `sitemap.ts` /
-  `robots.ts`.
+- OpenGraph + Twitter card metadata, plus a PWA `manifest.webmanifest`.
+- `sitemap.xml` and `robots.txt` are generated as **static files** in `public/` by
+  `scripts/generate-seo.mjs` (wired into the build/deploy scripts) and served by the
+  Cloudflare ASSETS binding — the OpenNext worker handler intermittently 500'd on the
+  old `app/sitemap.ts` / `app/robots.ts` metadata routes.
 
 ## Deployment
 
@@ -162,13 +173,13 @@ Production deploy:
 npm run deploy:prod
 ```
 
-Always use `npm run deploy:prod` for production, **not** bare `npm run deploy` from
-a fresh shell. The build-time vars `NEXT_PUBLIC_SITE_URL` and
-`NEXT_SERVER_ACTIONS_ENCRYPTION_KEY` live in the gitignored `.env.production`, which
-`next build` auto-loads. Forgetting to set `NEXT_PUBLIC_SITE_URL` is what previously
-shipped `http://localhost:3000` into the sitemap, robots.txt, JSON-LD, and canonical
-URLs. Copy `.env.example` to `.env.production` and fill in the production values on a
-new machine.
+`deploy:prod` is an alias for `deploy`; the production guarantee comes from the
+gitignored `.env.production`, **not** the script name. The build-time vars
+`NEXT_PUBLIC_SITE_URL` and `NEXT_SERVER_ACTIONS_ENCRYPTION_KEY` live there, and both
+`next build` and the `generate-seo.mjs` prebuild read it. Forgetting to set
+`NEXT_PUBLIC_SITE_URL` is what previously shipped `http://localhost:3000` into the
+sitemap, robots.txt, JSON-LD, and canonical URLs. Copy `.env.example` to
+`.env.production` and fill in the production values on a new machine.
 
 Before production, choose the final domain/canonical host, attach a Cloudflare Worker
 Custom Domain, verify HTTPS, configure the secondary host redirect, and verify Resend
