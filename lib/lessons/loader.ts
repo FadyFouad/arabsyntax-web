@@ -14,6 +14,12 @@ export type Locale = 'ar' | 'en';
 
 const LESSONS_DIR = path.join(process.cwd(), 'content', 'lessons');
 
+// A slug is interpolated into a filesystem path below, and getLesson() is
+// reachable with an attacker-controlled route param (dynamicParams). Restrict
+// to the charset lesson filenames actually use (lowercase, digits, '_', '-')
+// so no slug can contain '.' or '/' and traverse out of LESSONS_DIR.
+const SLUG_PATTERN = /^[a-z0-9_-]+$/;
+
 // ── Resolved model (consumed by the renderer) ───────────────────────────────
 // Every node keeps the AR source AND the resolved EN overlay, so the /en page
 // shows EN + transliteration today and a future AR side-by-side toggle is a
@@ -206,6 +212,7 @@ function resolveSection(ar: ArSection, en?: EnSection): ResolvedSection {
 const lessonCache = new Map<string, ResolvedLesson | null>();
 
 export function getLesson(slug: string, locale: Locale): ResolvedLesson | null {
+  if (!SLUG_PATTERN.test(slug)) return null;
   const key = `${locale}:${slug}`;
   if (lessonCache.has(key)) return lessonCache.get(key)!;
 

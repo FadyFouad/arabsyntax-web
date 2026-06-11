@@ -13,6 +13,10 @@ interface PageProps {
 }
 
 // Bilingual routing (like lessons): pages exist at /i3rab/* and /en/i3rab/*.
+// Every slug is enumerated at build time, so reject anything outside that set
+// with a 404 at the edge instead of invoking the worker on demand.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return getAllI3rabSlugs().map((slug) => ({ slug }));
 }
