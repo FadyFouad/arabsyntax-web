@@ -45,8 +45,9 @@ npm run dev                  # http://localhost:3000
 | `npm run cf-typegen` | Generate Cloudflare binding types |
 | `npm run lint` | ESLint **+** the design-token governance check |
 | `npm run check:tokens` | Run only the raw-color-literal check |
-| `npm test` | Run the Vitest unit suite |
+| `npm test` | Vitest unit + integration suite (incl. content-integrity & i18n-parity regression guards) |
 | `npm run test:watch` | Run Vitest in watch mode |
+| `npm run test:e2e` | Playwright end-to-end suite (builds + serves the prod site, sweeps chromium + mobile-chrome) |
 
 ## Environment
 
@@ -96,8 +97,27 @@ docs/design-system.md    # token reference + component catalog
 scripts/
   check-tokens.mjs       # governance: blocks raw color literals
   generate-seo.mjs       # emits public/sitemap.xml + robots.txt at build time
-test/                    # Vitest unit tests
+test/                    # Vitest unit + integration tests
+e2e/                     # Playwright end-to-end specs
+playwright.config.ts     # Playwright config (chromium + mobile-chrome)
+docs/TEST_STRATEGY.md    # test inventory + risk report
+.github/workflows/ci.yml # CI: lint + tests (fast gate) and a separate E2E job
 ```
+
+## Testing
+
+- **Unit + integration** (`npm test`, Vitest, ~1s) — focused on the dynamic surface
+  (contact pipeline: action control-flow, Zod validation, Resend escaping/headers) and the
+  content loaders, plus two **regression guards**: `content-integrity` (every lesson/i'rab/
+  manifest file validated against its schema) and `i18n-parity` (`ar.json` ↔ `en.json` key
+  parity + every contact-form error code resolves). Specs in `test/`.
+- **End-to-end** (`npm run test:e2e`, Playwright) — smoke, navigation, contact form,
+  SEO/theme, and prerender completeness across **desktop chromium + mobile-chrome**. Specs in
+  `e2e/`, config in `playwright.config.ts`. First run downloads the browser:
+  `npx playwright install chromium`.
+- **CI** (`.github/workflows/ci.yml`) — on every push/PR to `main`, a **fast gate**
+  (`npm run lint` + `npm test`, the required check) runs alongside a separate **E2E** job.
+- Full inventory + risk report: [`docs/TEST_STRATEGY.md`](docs/TEST_STRATEGY.md).
 
 ## Internationalization
 
@@ -196,7 +216,9 @@ npx wrangler secret put UPSTASH_REDIS_REST_TOKEN
 npx wrangler secret put NEXT_SERVER_ACTIONS_ENCRYPTION_KEY
 ```
 
-CI also needs Cloudflare credentials such as `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
+The current CI (`.github/workflows/ci.yml`) runs only lint, tests, and E2E — it does **not**
+deploy, so it needs no Cloudflare credentials. Deploys are run manually with `npm run deploy`.
+A future deploy job would need `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
 Image optimization is intentionally disabled in `next.config.ts`; current public assets are
 small and served directly. Add a Cloudflare Images binding later if optimized image
 transforms become necessary.
@@ -205,4 +227,6 @@ transforms become necessary.
 
 - Branch each change off `main`; open a PR; keep unrelated work in separate PRs.
 - Run `npm run lint` (ESLint + token check) and `npm run build` before opening a PR.
+- CI gates every PR with `npm run lint` + `npm test` (the required **Lint & test** check),
+  plus a separate Playwright E2E job.
 - Don't introduce raw color literals in components — use design tokens.
