@@ -233,5 +233,5 @@ transforms become necessary.
 
 ## Contributors
 
-- Fady Fouad (ETA TECH)
+- Fady Fouad
 - Ahmed Farag
