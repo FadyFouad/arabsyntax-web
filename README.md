@@ -230,3 +230,8 @@ transforms become necessary.
 - CI gates every PR with `npm run lint` + `npm test` (the required **Lint & test** check),
   plus a separate Playwright E2E job.
 - Don't introduce raw color literals in components — use design tokens.
+
+## Contributors
+
+- Fady Fouad (ETA TECH)
+- Ahmed Farag
