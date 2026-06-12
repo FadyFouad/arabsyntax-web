@@ -233,5 +233,9 @@ transforms become necessary.
 
 ## Contributors
 
-- Fady Fouad (ETA TECH)
-- Ahmed Farag
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ahmedfarag9"><img src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/44787287?v=4&w=100&h=100&fit=cover&mask=circle" width="100px;" alt=""/><br /><sub><b>Ahmed Farag</b></sub></a><br /> </td>
+    <td align="center"><a href="https://github.com/FadyFouad"><img src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/26604339?v=4&w=100&h=100&fit=cover&mask=circle" width="100px;" alt=""/><br /><sub><b>Fady Fouad</b></sub></a><br /> </td>
+  </tr>
+</table>
