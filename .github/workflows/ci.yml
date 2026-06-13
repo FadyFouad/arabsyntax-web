@@ -1,13 +1,20 @@
 name: CI
 
-# Two jobs, run in parallel on every push/PR to main:
-#   • test — the FAST GATE: lint + the Vitest suite (282 unit/integration tests,
-#     incl. the content-integrity and i18n-parity regression guards). Runs in
-#     ~1s; keep this as the required check so a broken content file or dropped
-#     translation key can never reach main.
+# Two jobs, run in parallel on every push/PR to main. BOTH are required status
+# checks on main (branch protection), so neither can be skipped to reach main:
+#   • test — the FAST GATE: lint + typecheck + the Vitest suite (298 unit/
+#     integration tests, incl. the content-integrity and i18n-parity regression
+#     guards) run WITH coverage thresholds (see vitest.config.ts). Runs in ~a few
+#     seconds; catches a broken content file, a dropped translation key, a type
+#     error, or a coverage drop.
 #   • e2e  — the Playwright suite (builds + serves the prod site, sweeps chromium
-#     + mobile-chrome). Heavier (build + browser download), so it's its own job
-#     and need not block merges the way the fast gate does.
+#     + mobile-chrome). Heavier (build + browser download) so it's slower, but it
+#     is a required check too: a broken prod build or page regression blocks merge.
+#
+# NOTE: the required-check names below are wired into branch protection by job
+# `name:` ("Lint, typecheck & test" and "E2E (Playwright)"). Renaming a job here
+# without updating the required contexts will deadlock merges (the old context
+# never reports). Update both together.
 on:
   push:
     branches: [main]
@@ -25,7 +32,7 @@ permissions:
 
 jobs:
   test:
-    name: Lint & test
+    name: Lint, typecheck & test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -48,8 +55,13 @@ jobs:
       - name: Lint (eslint + design-token check)
         run: npm run lint
 
-      - name: Unit & integration tests (Vitest)
-        run: npm test
+      - name: Typecheck (tsc --noEmit)
+        run: npm run typecheck
+
+      # Runs the suite WITH coverage; vitest.config.ts's coverage.thresholds fail
+      # the job if lib/ coverage regresses below the committed floor.
+      - name: Unit & integration tests + coverage gate (Vitest)
+        run: npm run test:coverage
 
   e2e:
     name: E2E (Playwright)

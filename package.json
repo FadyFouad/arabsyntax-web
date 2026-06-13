@@ -22,10 +22,12 @@
     "preupload": "node scripts/generate-seo.mjs",
     "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
+    "typecheck": "tsc --noEmit",
     "lint": "eslint && node scripts/check-tokens.mjs",
     "check:tokens": "node scripts/check-tokens.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "test:e2e": "playwright test"
   },
   "dependencies": {
@@ -55,6 +57,7 @@
     "@types/node": "20.19.39",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
+    "@vitest/coverage-v8": "4.1.8",
     "eslint": "9.39.4",
     "eslint-config-next": "16.2.6",
     "tailwindcss": "4.2.2",

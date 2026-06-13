@@ -25,6 +25,7 @@ export function StructuredData({ locale }: { locale: string }) {
         "@type": "WebSite",
         "@id": `${siteConfig.url}/#website`,
         "name": name,
+        "alternateName": isAr ? siteConfig.name.en : siteConfig.name.ar,
         "url": siteConfig.url,
         "inLanguage": lang,
         "publisher": { "@id": `${siteConfig.url}/#organization` },

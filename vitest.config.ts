@@ -12,5 +12,31 @@ export default defineConfig({
   test: {
     environment: 'node',
     include: ['test/**/*.test.ts'],
+    coverage: {
+      provider: 'v8',
+      // `include` globs pull EVERY matching file into the report — even ones no
+      // test imports — so an untested file surfaces as 0% instead of silently
+      // vanishing. (Vitest 4 folded the old `all: true` behaviour into `include`;
+      // the explicit key was removed from the type.)
+      //
+      // Scope to the surface vitest actually unit-tests. The app/ and components/
+      // trees are React Server Components / client UI exercised by the Playwright
+      // e2e suite (see e2e/), which V8 unit coverage can't attribute — including
+      // them here would peg the report at ~28% regardless of unit-test quality.
+      include: ['lib/**'],
+      exclude: ['**/*.d.ts'],
+      reporter: ['text', 'json-summary'],
+      reportsDirectory: './coverage',
+      // Regression gate: `npm run test:coverage` (and CI) fail if coverage drops
+      // below these. Pinned at/just under the numbers the suite currently hits
+      // (lines & functions 100%, statements ~98%, branches ~83%) so a real drop
+      // fails fast while a trivial refactor that adds one defensive branch won't.
+      thresholds: {
+        lines: 100,
+        functions: 100,
+        statements: 97,
+        branches: 80,
+      },
+    },
   },
 });
