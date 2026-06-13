@@ -1,13 +1,13 @@
 import Image from 'next/image';
 
-import { siteConfig } from '@/lib/siteConfig';
-
 interface PlayStoreBadgeProps {
   locale: string;
   className?: string;
+  /** Placement label for download attribution (e.g. "hero", "final_cta"). */
+  source?: string;
 }
 
-export default function PlayStoreBadge({ locale, className }: PlayStoreBadgeProps) {
+export default function PlayStoreBadge({ locale, className, source }: PlayStoreBadgeProps) {
   const isArabic = locale === 'ar';
   const badgeSrc = isArabic
     ? '/badges/google-play-ar.png'
@@ -17,10 +17,12 @@ export default function PlayStoreBadge({ locale, className }: PlayStoreBadgeProp
     : 'Get it on Google Play';
 
   return (
+    // Routed through /go/android so the click is counted server-side before
+    // redirecting to Google Play (see app/go/[platform]/route.ts).
     <a
-      href={siteConfig.stores.googlePlay}
+      href={`/go/android?l=${locale}${source ? `&s=${source}` : ''}`}
       target="_blank"
-      rel="noopener noreferrer"
+      rel="noopener noreferrer nofollow"
       className={className}
       aria-label={altText}
     >

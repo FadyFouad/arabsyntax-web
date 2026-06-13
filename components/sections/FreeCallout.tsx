@@ -16,8 +16,8 @@ export default async function FreeCallout({ locale }: { locale: string }) {
           className="mx-auto"
         />
         <div className="flex flex-wrap items-center justify-center gap-4 mt-8">
-          <AppStoreBadge locale={locale} />
-          <PlayStoreBadge locale={locale} />
+          <AppStoreBadge locale={locale} source="free_callout" />
+          <PlayStoreBadge locale={locale} source="free_callout" />
         </div>
       </Container>
     </section>
