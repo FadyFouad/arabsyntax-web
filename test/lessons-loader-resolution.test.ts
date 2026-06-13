@@ -202,6 +202,139 @@ describe('getLesson — description derivation', () => {
   });
 });
 
+describe('getLesson — EN overlay missing for a specific section (file present, id absent)', () => {
+  it('falls back to AR for a section whose id has no EN counterpart, while siblings translate', async () => {
+    files['ar/demo.json'] = {
+      lesson_id: 'demo',
+      language: 'ar',
+      title: 't',
+      sections: [
+        { id: 'p1', type: 'paragraph', text: 'فقرة بلا ترجمة' }, // no EN section with id p1
+        { id: 'p2', type: 'paragraph', text: 'فقرة مترجمة' },
+      ],
+    };
+    files['en/demo.json'] = {
+      lesson_id: 'demo',
+      language: 'en',
+      title: 't',
+      sections: [{ id: 'p2', text: 'Translated paragraph' }], // p1 deliberately absent
+    };
+    const { getLesson } = await freshLoader();
+    const sections = getLesson('demo', 'en')!.sections as Array<{ ar: string; en?: string }>;
+    expect(sections[0].en).toBeUndefined(); // missing overlay → AR-only
+    expect(sections[1].en).toBe('Translated paragraph');
+  });
+});
+
+describe('getLesson — example item overlay (positional, index-matched to AR)', () => {
+  const arExample = {
+    lesson_id: 'demo',
+    language: 'ar',
+    title: 't',
+    sections: [
+      {
+        id: 'ex1',
+        type: 'example',
+        style: 'sentences',
+        items: [
+          'جملة أولى', // bare string
+          { text: 'جملة ثانية', underlined: ['ثانية'] }, // object with underlined words
+          'جملة ثالثة',
+        ],
+      },
+    ],
+  };
+
+  it('overlays EN positionally and falls back to AR-only where the EN array is shorter', async () => {
+    files['ar/demo.json'] = arExample;
+    files['en/demo.json'] = {
+      lesson_id: 'demo',
+      language: 'en',
+      title: 't',
+      // Only 2 EN items for 3 AR items → index 2 has no overlay.
+      sections: [
+        { id: 'ex1', items: ['First sentence', { text: 'Second', transliteration: 'jumla thaniya' }] },
+      ],
+    };
+    const { getLesson } = await freshLoader();
+    const ex = getLesson('demo', 'en')!.sections[0] as {
+      type: string;
+      style?: string;
+      items: Array<{ ar: { text: string; underlined?: string[] }; en?: { text?: string; transliteration?: string } }>;
+    };
+    expect(ex.type).toBe('example');
+    expect(ex.style).toBe('sentences');
+    // AR side preserves underlined metadata from the object-form item.
+    expect(ex.items[1].ar.underlined).toEqual(['ثانية']);
+    // EN overlay: string item → { text }, object item → { text, transliteration }.
+    expect(ex.items[0].en).toEqual({ text: 'First sentence' });
+    expect(ex.items[1].en).toEqual({ text: 'Second', transliteration: 'jumla thaniya' });
+    // EN array shorter than AR → trailing item renders AR-only.
+    expect(ex.items[2].en).toBeUndefined();
+    expect(ex.items[2].ar.text).toBe('جملة ثالثة');
+  });
+
+  it('renders an example AR-only when the EN file omits the section entirely', async () => {
+    files['ar/demo.json'] = arExample;
+    files['en/demo.json'] = {
+      lesson_id: 'demo',
+      language: 'en',
+      title: 't',
+      sections: [], // no overlay for ex1 at all
+    };
+    const { getLesson } = await freshLoader();
+    const ex = getLesson('demo', 'en')!.sections[0] as { items: Array<{ en?: unknown }> };
+    expect(ex.items.every((i) => i.en === undefined)).toBe(true);
+  });
+});
+
+describe('getLesson — table overlay dropped on a ROW-count mismatch (partial translation)', () => {
+  it('renders AR-only when EN supplies fewer rows than AR', async () => {
+    files['ar/demo.json'] = {
+      lesson_id: 'demo',
+      language: 'ar',
+      title: 't',
+      sections: [
+        {
+          id: 't1',
+          type: 'table',
+          headers: ['أ', 'ب'],
+          rows: [
+            ['1', '2'],
+            ['3', '4'],
+          ],
+        },
+      ],
+    };
+    files['en/demo.json'] = {
+      lesson_id: 'demo',
+      language: 'en',
+      title: 't',
+      // headers match (2), but only 1 row vs AR's 2 → rowsMatch is false.
+      sections: [{ id: 't1', headers: ['A', 'B'], rows: [['one', 'two']] }],
+    };
+    const { getLesson } = await freshLoader();
+    const table = getLesson('demo', 'en')!.sections[0] as {
+      headers: Array<{ ar: string; en?: { text?: string } }>;
+      rows: Array<Array<{ ar: string; en?: unknown }>>;
+    };
+    // Headers DID match → they overlay; rows did NOT → AR-only, no crash.
+    expect(table.headers[0].en?.text).toBe('A');
+    expect(table.rows[0][0].en).toBeUndefined();
+    expect(table.rows[0][0].ar).toBe('1');
+  });
+});
+
+describe('getAllSlugs — falls back to the ar/ directory listing when the manifest is empty', () => {
+  it('lists slugs from disk when manifest.en has no entries', async () => {
+    files['manifest.json'] = { en: {} }; // empty → triggers readdir fallback
+    files['ar/foo.json'] = { lesson_id: 'foo', language: 'ar', title: 't', sections: [] };
+    files['ar/bar.json'] = { lesson_id: 'bar', language: 'ar', title: 't', sections: [] };
+    const { getAllSlugs } = await freshLoader();
+    expect(new Set(getAllSlugs())).toEqual(new Set(['foo', 'bar']));
+  });
+});
+
 describe('getLesson — caching', () => {
   it('returns a stable reference for repeated (slug, locale) calls', async () => {
     files['ar/demo.json'] = {
