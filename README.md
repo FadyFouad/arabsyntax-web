@@ -169,6 +169,40 @@ Qur'an verse block, plain quote, and highlight callouts have dedicated tokens.
   Cloudflare ASSETS binding — the OpenNext worker handler intermittently 500'd on the
   old `app/sitemap.ts` / `app/robots.ts` metadata routes.
 
+## Analytics
+
+- **Page views / Web Vitals** — Cloudflare Web Analytics (edge-injected, cookieless,
+  no code in this repo). View it in the Cloudflare dashboard → Web Analytics.
+- **App-download conversions** — tracked server-side. Store badges and pricing CTAs
+  link to an internal redirect route (`app/go/[platform]/route.ts`), which records one
+  data point to the `app_downloads` **Workers Analytics Engine** dataset and then `302`s
+  to the App Store / Google Play. Counting at the edge is bot-resistant, ad-blocker-proof,
+  and needs no cookies or consent banner. The write is best-effort (wrapped in try/catch,
+  binding optional-chained) so it never blocks the redirect. The `APP_DOWNLOADS` binding is
+  declared in `wrangler.jsonc`; Analytics Engine must be enabled once on the account, and
+  the dataset is created on first write (no dashboard provisioning).
+
+Each click records: `index1` = platform; `blob1..4` = platform, locale, country, source
+placement (`hero` / `final_cta` / `free_callout` / `pricing_*`); `double1` = 1.
+
+Query the data via the **Analytics Engine SQL API** (the blob/double columns are *not*
+exposed by the GraphQL `workersAnalyticsEngineAdaptiveGroups` schema on this account — use
+SQL):
+
+```bash
+curl "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/analytics_engine/sql" \
+  -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+  --data "SELECT blob1 AS platform, blob2 AS locale, blob3 AS country, blob4 AS source,
+          SUM(_sample_interval) AS clicks
+          FROM app_downloads
+          WHERE timestamp > NOW() - INTERVAL '7' DAY
+          GROUP BY platform, locale, country, source
+          ORDER BY clicks DESC"
+```
+
+Use `SUM(_sample_interval)` (not `COUNT(*)`) for the true estimated count once Analytics
+Engine begins sampling at higher volumes.
+
 ## Deployment
 
 Deploy on **Cloudflare Workers** with `@opennextjs/cloudflare`. The site is **not** a
