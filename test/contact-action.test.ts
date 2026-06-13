@@ -38,6 +38,7 @@ const VALID = {
   subject: 'Question about lessons',
   message: 'I would like to know more about the audio lessons offered.',
   website: '', // honeypot left empty by real users
+  turnstileToken: 'XXXX.DUMMY.TOKEN.XXXX', // non-empty token; siteverify is mocked per-test in step 3
 };
 
 beforeEach(() => {

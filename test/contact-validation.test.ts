@@ -12,6 +12,7 @@ const base = {
   subject: 'Hello there',
   message: 'This message is definitely long enough to pass.',
   website: '',
+  turnstileToken: 'XXXX.DUMMY.TOKEN.XXXX', // non-empty token; verified server-side, not here
 };
 
 function parse(overrides: Record<string, unknown>) {

@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslations } from 'next-intl';
 import { Turnstile } from '@marsidev/react-turnstile';
-import { contactSchema, type ContactFormData } from '@/lib/validation/contact';
+import { contactFieldsSchema, type ContactFields } from '@/lib/validation/contact';
 import { submitContact } from '@/app/actions/contact';
 import { cn } from '@/lib/cn';
 
@@ -25,11 +25,11 @@ export default function ContactForm() {
     handleSubmit,
     reset,
     formState: { errors },
-  } = useForm<ContactFormData>({
-    resolver: zodResolver(contactSchema),
+  } = useForm<ContactFields>({
+    resolver: zodResolver(contactFieldsSchema),
   });
 
-  const onSubmit = async (data: ContactFormData) => {
+  const onSubmit = async (data: ContactFields) => {
     // Block submission until the visitor has solved the Turnstile challenge.
     if (!turnstileToken) {
       setStatus({ error: 'turnstile' });
