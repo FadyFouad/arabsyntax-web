@@ -4,15 +4,21 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslations } from 'next-intl';
+import { Turnstile } from '@marsidev/react-turnstile';
 import { contactSchema, type ContactFormData } from '@/lib/validation/contact';
 import { submitContact } from '@/app/actions/contact';
 import { cn } from '@/lib/cn';
 
-type FormStatus = 'idle' | 'submitting' | 'success' | { error: 'rate_limited' | 'rate_limit_unavailable' | 'send_failed' | 'validation_error' };
+type FormStatus = 'idle' | 'submitting' | 'success' | { error: 'rate_limited' | 'rate_limit_unavailable' | 'send_failed' | 'validation_error' | 'turnstile' };
+
+// Build-time public env var (like the other NEXT_PUBLIC_* values). Empty when
+// unconfigured — the widget then can't issue a token, so submit stays blocked.
+const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? '';
 
 export default function ContactForm() {
   const t = useTranslations('support.form');
   const [status, setStatus] = useState<FormStatus>('idle');
+  const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
 
   const {
     register,
@@ -24,9 +30,18 @@ export default function ContactForm() {
   });
 
   const onSubmit = async (data: ContactFormData) => {
+    // Block submission until the visitor has solved the Turnstile challenge.
+    if (!turnstileToken) {
+      setStatus({ error: 'turnstile' });
+      return;
+    }
     setStatus('submitting');
-    const result = await submitContact(data);
-    
+    // Send the token alongside the form fields; the server verifies it before
+    // rate-limiting or sending. (Assigned via a variable so the extra field is
+    // carried even though ContactFormData doesn't yet declare it.)
+    const payload = { ...data, turnstileToken };
+    const result = await submitContact(payload);
+
     if (result.success) {
       setStatus('success');
     } else {
@@ -42,6 +57,7 @@ export default function ContactForm() {
         <button
           onClick={() => {
             reset();
+            setTurnstileToken(null);
             setStatus('idle');
           }}
           className="mt-4 px-6 py-2 bg-primary text-primary-fg rounded-xl font-medium hover:bg-primary-hover transition-colors"
@@ -63,6 +79,8 @@ export default function ContactForm() {
               ? t('errors.rateLimited')
               : status.error === 'rate_limit_unavailable'
               ? t('errors.rateLimitUnavailable')
+              : status.error === 'turnstile'
+              ? t('errors.turnstile')
               : t('errors.sendFailed')}
           </p>
         </div>
@@ -150,13 +168,20 @@ export default function ContactForm() {
         )}
       </div>
 
+      <Turnstile
+        siteKey={TURNSTILE_SITE_KEY}
+        onSuccess={setTurnstileToken}
+        onExpire={() => setTurnstileToken(null)}
+        onError={() => setTurnstileToken(null)}
+      />
+
       <button
         type="submit"
-        disabled={status === 'submitting'}
+        disabled={status === 'submitting' || !turnstileToken}
         className={cn(
           "w-full sm:w-auto sm:ms-auto px-8 py-3 rounded-xl font-bold transition-colors",
-          status === 'submitting' 
-            ? "bg-surface-elevated text-text-muted cursor-not-allowed" 
+          status === 'submitting' || !turnstileToken
+            ? "bg-surface-elevated text-text-muted cursor-not-allowed"
             : "bg-primary text-primary-fg hover:bg-primary-hover"
         )}
       >
