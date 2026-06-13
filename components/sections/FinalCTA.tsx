@@ -19,8 +19,8 @@ export default async function FinalCTA({ locale }: FinalCTAProps) {
           className="mb-8"
         />
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <AppStoreBadge locale={locale} />
-          <PlayStoreBadge locale={locale} />
+          <AppStoreBadge locale={locale} source="final_cta" />
+          <PlayStoreBadge locale={locale} source="final_cta" />
         </div>
       </div>
     </section>

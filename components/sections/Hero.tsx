@@ -28,8 +28,8 @@ export default async function Hero({ locale }: HeroProps) {
               {t('valueProposition')}
             </p>
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4">
-              <AppStoreBadge locale={locale} />
-              <PlayStoreBadge locale={locale} />
+              <AppStoreBadge locale={locale} source="hero" />
+              <PlayStoreBadge locale={locale} source="hero" />
             </div>
             <p className="mt-4 text-sm text-text-muted flex items-center justify-center lg:justify-start gap-1">
               <span aria-hidden="true" className="text-primary">★</span>

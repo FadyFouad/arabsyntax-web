@@ -31,6 +31,16 @@
       "service": "arabsyntax-web"
     }
   ],
+  // Server-side app-download tracking. The /go/:platform redirect route writes
+  // one data point per click here; query it via the GraphQL Analytics API
+  // (workersAnalyticsEngineAdaptiveGroups). No dashboard provisioning needed —
+  // the dataset is created on first write.
+  "analytics_engine_datasets": [
+    {
+      "binding": "APP_DOWNLOADS",
+      "dataset": "app_downloads"
+    }
+  ],
   "observability": {
     "enabled": true
   }

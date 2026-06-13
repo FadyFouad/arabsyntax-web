@@ -73,7 +73,7 @@ export default async function LocalePage({ params }: PageProps) {
       </section>
       {featureFlags.showPricing ? (
         <section id="pricing">
-          <Pricing />
+          <Pricing locale={locale} />
         </section>
       ) : (
         <FreeCallout locale={locale} />

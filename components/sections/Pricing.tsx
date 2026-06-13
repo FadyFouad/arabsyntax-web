@@ -3,11 +3,13 @@ import Card from '@/components/ui/Card';
 import SectionHeading from '@/components/ui/SectionHeading';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 
-import { siteConfig } from '@/lib/siteConfig';
-
 const PAID_TIERS = ['monthly', 'yearly', 'lifetime'] as const;
 
-export default async function Pricing() {
+interface PricingProps {
+  locale: string;
+}
+
+export default async function Pricing({ locale }: PricingProps) {
   const t = await getTranslations('landing.pricing');
   const freeFeatures = t.raw('tiers.free.features') as string[];
 
@@ -35,9 +37,9 @@ export default async function Pricing() {
               ))}
             </ul>
             <a
-              href={siteConfig.stores.googlePlay}
+              href={`/go/android?l=${locale}&s=pricing_free`}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               className="shrink-0 bg-surface-elevated text-text font-semibold py-3 px-6 rounded-xl hover:bg-border transition-colors"
             >
               {t('tiers.free.cta')}
@@ -74,9 +76,9 @@ export default async function Pricing() {
                     ))}
                   </ul>
                   <a
-                    href={siteConfig.stores.googlePlay}
+                    href={`/go/android?l=${locale}&s=pricing_${tierKey}`}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className={`block text-center font-semibold py-3 px-6 rounded-xl transition-colors ${
                       isYearly
                         ? 'bg-primary text-primary-fg hover:bg-primary-hover'
