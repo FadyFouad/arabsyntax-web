@@ -30,6 +30,17 @@ vi.mock('@/lib/email/resend', () => ({
   sendContactEmail: (s: unknown) => sendContactEmail(s),
 }));
 
+// Turnstile siteverify is a raw `fetch` to Cloudflare. Stub global fetch so the
+// action never hits the network; default to a passing verification and let
+// individual tests override the resolved body. (Step 5 adds the dedicated
+// pass/fail verification cases.)
+const fetchMock = vi.fn();
+vi.stubGlobal('fetch', fetchMock);
+
+// A secret must be present or verifyTurnstile fails closed. Cloudflare's
+// always-pass test secret stands in; the fetch itself is mocked regardless.
+process.env.TURNSTILE_SECRET_KEY = '1x0000000000000000000000000000000AA';
+
 const { submitContact } = await import('@/app/actions/contact');
 
 const VALID = {
@@ -44,10 +55,13 @@ const VALID = {
 beforeEach(() => {
   checkRateLimit.mockReset();
   sendContactEmail.mockReset();
+  fetchMock.mockReset();
   getLocale.mockClear();
   // Default happy collaborators; individual tests override as needed.
   checkRateLimit.mockResolvedValue({ success: true });
   sendContactEmail.mockResolvedValue({ ok: true });
+  // Turnstile siteverify passes by default.
+  fetchMock.mockResolvedValue({ json: () => Promise.resolve({ success: true }) });
 });
 
 describe('submitContact — happy path', () => {
