@@ -22,10 +22,12 @@ on:
     branches: [main]
 
 # A new push to a PR cancels the in-flight run for that ref — no point finishing
-# a check on a commit that's already been superseded.
+# a check on a commit that's already been superseded. On main we DON'T cancel:
+# a superseded run there may be mid-`deploy`, and killing wrangler partway is
+# riskier than letting the older run finish (the newer push deploys right after).
 concurrency:
   group: ci-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 permissions:
   contents: read
@@ -101,3 +103,47 @@ jobs:
             playwright-report/
             test-results/
           retention-days: 7
+
+  # Build the OpenNext bundle and ship it to Cloudflare Workers. Runs ONLY on a
+  # direct push to main (never on PRs) and ONLY after both gates above are green,
+  # so nothing reaches production without passing lint/typecheck/tests + E2E.
+  deploy:
+    name: Deploy (Cloudflare Workers)
+    needs: [test, e2e]
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    # Serialize deploys: at most one in flight, and never cancel a running one
+    # (a half-applied `wrangler deploy` is worse than a queued one).
+    concurrency:
+      group: deploy-production
+      cancel-in-progress: false
+    environment:
+      name: production
+      url: https://alnahwalkafi.com
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # Same cross-platform lockfile bug as the other jobs: resolve deps fresh on
+      # the linux runner so the native rolldown/esbuild bindings are installed.
+      - name: Install dependencies
+        run: rm -f package-lock.json && npm install --no-audit --no-fund
+
+      # `.env.production` is gitignored, so the build-time vars it holds locally
+      # are absent on the runner. Without them the sitemap/robots/JSON-LD/canonical
+      # URLs ship as localhost and server-action payloads get a fresh encryption
+      # key each deploy. Supply them from repo secrets at build time. The encryption
+      # key MUST be the same value every deploy so overlapping deploys can decrypt
+      # each other's action payloads — keep it pinned in the secret.
+      - name: Build & deploy to Cloudflare
+        run: npm run deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          NEXT_PUBLIC_SITE_URL: https://alnahwalkafi.com
+          NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ secrets.NEXT_PUBLIC_TURNSTILE_SITE_KEY }}
+          NEXT_SERVER_ACTIONS_ENCRYPTION_KEY: ${{ secrets.NEXT_SERVER_ACTIONS_ENCRYPTION_KEY }}
