@@ -19,15 +19,19 @@ const csp = [
   "base-uri 'self'",
   "form-action 'self'",
   "frame-ancestors 'none'",
-  "frame-src 'none'",
+  // challenges.cloudflare.com: the contact form's Turnstile widget renders in an
+  // iframe from there.
+  "frame-src https://challenges.cloudflare.com",
   "object-src 'none'",
   "img-src 'self' data:",
   "font-src 'self' data:",
   "style-src 'self' 'unsafe-inline'",
-  // static.cloudflareinsights.com serves the Web Analytics beacon script.
-  "script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com",
-  // The beacon POSTs RUM data to cloudflareinsights.com.
-  "connect-src 'self' https://cloudflareinsights.com",
+  // static.cloudflareinsights.com serves the Web Analytics beacon script;
+  // challenges.cloudflare.com serves the Turnstile widget script (api.js).
+  "script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com https://challenges.cloudflare.com",
+  // The beacon POSTs RUM data to cloudflareinsights.com; the Turnstile widget
+  // talks to challenges.cloudflare.com to fetch/solve the challenge.
+  "connect-src 'self' https://cloudflareinsights.com https://challenges.cloudflare.com",
   "manifest-src 'self'",
   'upgrade-insecure-requests',
 ].join('; ');

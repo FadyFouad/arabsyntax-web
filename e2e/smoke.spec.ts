@@ -34,7 +34,13 @@ for (const [path, dir, lang] of PAGES) {
     page.on('console', (m) => m.type() === 'error' && note(m.text()));
     page.on('pageerror', (e) => note(String(e)));
 
-    const res = await page.goto(path, { waitUntil: 'networkidle' });
+    // 'load' (not 'networkidle'): /support embeds a Turnstile widget that keeps
+    // polling challenges.cloudflare.com to refresh its token, so the network
+    // never goes idle and 'networkidle' times out. 'load' still fires after all
+    // subresources (incl. Turnstile's api.js) load — so a CSP/mount console error
+    // is captured — and the visibility assertions below give late errors time to
+    // surface before the final check.
+    const res = await page.goto(path, { waitUntil: 'load' });
     expect(res?.status(), `HTTP status for ${path}`).toBe(200);
 
     await expect(page.locator('html')).toHaveAttribute('dir', dir);

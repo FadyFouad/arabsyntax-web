@@ -90,8 +90,18 @@ jobs:
       # playwright.config.ts's webServer runs `npm run build && next start`, so
       # this builds the prod site and serves it before sweeping. CI=true makes
       # the config forbid `.only`, retry flaky specs, and not reuse a server.
+      #
+      # The contact form embeds a Turnstile widget keyed off this build-time var.
+      # Without it the widget mounts with an empty sitekey, throws a console error
+      # (fails the /support "no page errors" smoke test) and never issues a token
+      # (so the mocked-submission specs can't submit). Use Cloudflare's documented
+      # testing sitekey, which always passes and auto-issues a token with no user
+      # interaction — deterministic in CI. The server siteverify is mocked by the
+      # specs, so no secret key is needed here.
       - name: Run E2E suite
         run: npm run test:e2e
+        env:
+          NEXT_PUBLIC_TURNSTILE_SITE_KEY: 1x00000000000000000000AA
 
       # Keep the HTML report + traces/screenshots from failures for debugging.
       - name: Upload Playwright report
