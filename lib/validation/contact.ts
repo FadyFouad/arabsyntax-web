@@ -1,6 +1,11 @@
 import { z } from 'zod';
 
-export const contactSchema = z.object({
+// Visible fields the user actually fills in. Validated on BOTH the client
+// (react-hook-form) and the server. The full server payload additionally
+// carries `turnstileToken` (see contactSchema below) — that value comes from
+// the Turnstile widget, not a typed input, so it is NOT part of this
+// client-validated shape.
+export const contactFieldsSchema = z.object({
   name: z.string()
     .min(1, { message: 'nameRequired' })
     .min(2, { message: 'nameMin' })
@@ -25,4 +30,12 @@ export const contactSchema = z.object({
   website: z.string(),
 });
 
+// Full submission the server action receives. On top of the visible fields it
+// requires a non-empty Turnstile token, which the action verifies against
+// Cloudflare siteverify before any side effect (see app/actions/contact.ts).
+export const contactSchema = contactFieldsSchema.extend({
+  turnstileToken: z.string().min(1),
+});
+
+export type ContactFields = z.infer<typeof contactFieldsSchema>;
 export type ContactFormData = z.infer<typeof contactSchema>;

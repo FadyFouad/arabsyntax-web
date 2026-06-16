@@ -289,7 +289,8 @@
         "messageMin": "Message must be at least 10 characters",
         "rateLimited": "Too many messages sent. Please try again later.",
         "rateLimitUnavailable": "We couldn't process your request right now. Please try again in a moment.",
-        "sendFailed": "Something went wrong. Please try again."
+        "sendFailed": "Something went wrong. Please try again.",
+        "turnstile": "Please complete the verification challenge, then try again."
       },
       "submit": "Send Message",
       "submitting": "Sending...",
