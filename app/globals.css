@@ -3,6 +3,11 @@
 
 html {
   scroll-behavior: smooth;
+  /* Single source of truth for the sticky header height; consumed both as the
+     header's own height and as the scroll offset so hash targets aren't hidden
+     under it. Keep in sync with the header markup via this variable only. */
+  --header-h: 4rem;
+  scroll-padding-top: var(--header-h);
 }
 
 @theme {
