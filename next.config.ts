@@ -14,6 +14,8 @@ const withMDX = createMDX({ extension: /\.mdx?$/ });
 // everything; 'unsafe-inline' (no nonce) keeps pages statically rendered while
 // permitting those inline scripts/styles. Store badges are plain outbound <a>
 // links, not embeds, so they need no allowance here.
+const isDev = process.env.NODE_ENV !== 'production';
+
 const csp = [
   "default-src 'self'",
   "base-uri 'self'",
@@ -28,7 +30,9 @@ const csp = [
   "style-src 'self' 'unsafe-inline'",
   // static.cloudflareinsights.com serves the Web Analytics beacon script;
   // challenges.cloudflare.com serves the Turnstile widget script (api.js).
-  "script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com https://challenges.cloudflare.com",
+  // 'unsafe-eval' is added in development only — Turbopack/React need eval() for
+  // HMR and debugging; production builds keep the stricter policy without it.
+  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ''} https://static.cloudflareinsights.com https://challenges.cloudflare.com`,
   // The beacon POSTs RUM data to cloudflareinsights.com; the Turnstile widget
   // talks to challenges.cloudflare.com to fetch/solve the challenge.
   "connect-src 'self' https://cloudflareinsights.com https://challenges.cloudflare.com",

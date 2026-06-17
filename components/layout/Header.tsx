@@ -26,7 +26,7 @@ export async function Header() {
   ];
 
   return (
-    <header role="banner" className="border-b border-border bg-background relative z-50">
+    <header role="banner" className="border-b border-border bg-background sticky top-0 z-50">
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:start-4 bg-primary text-primary-fg px-4 py-2 rounded font-bold z-50"

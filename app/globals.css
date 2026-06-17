@@ -3,6 +3,8 @@
 
 html {
   scroll-behavior: smooth;
+  /* offset for the sticky header (h-16 = 4rem) so hash targets aren't hidden under it */
+  scroll-padding-top: 4rem;
 }
 
 @theme {
