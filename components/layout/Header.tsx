@@ -34,7 +34,7 @@ export async function Header() {
         {tCommon('skipToContent')}
       </a>
       
-      <Container className="flex items-center justify-between h-16">
+      <Container className="flex items-center justify-between h-[var(--header-h)]">
         <div className="flex items-center gap-8">
           <Link href="/" className="hover:opacity-80 transition-opacity">
             <Image
