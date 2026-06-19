@@ -1,0 +1,24 @@
+{
+  "mutun": [
+    {
+      "id": "aljurrumiyya",
+      "titleAr": "المقدمة الآجرومية",
+      "titleEn": "Al-Ajurrumiyya",
+      "author": "ابن آجرّوم",
+      "era": "القرن الثامن الهجري (ت ٧٢٣ هـ)",
+      "level": "beginner",
+      "type": "prose",
+      "unitCount": 26
+    },
+    {
+      "id": "alimriti",
+      "titleAr": "الدُّرَّة البهيَّة في نظم الآجرومية",
+      "titleEn": "Ad-Durra al-Bahiyya (Al-Imriti's versification of Al-Ajurrumiyya)",
+      "author": "شرف الدين يحيى العمريطي",
+      "era": "القرن التاسع الهجري (ت ٨٩٠ هـ)",
+      "level": "beginner",
+      "type": "verse",
+      "unitCount": 33
+    }
+  ]
+}

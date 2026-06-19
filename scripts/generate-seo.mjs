@@ -69,6 +69,16 @@ function i3rabSlugs() {
   return slugs;
 }
 
+// mutun: manifest `mutun[].id` order, matching getMatnIds().
+function mutunIds() {
+  try {
+    const manifest = JSON.parse(readFileSync(path.join(ROOT, 'content/mutun/manifest.json'), 'utf8'));
+    return (manifest.mutun ?? []).map((m) => m.id);
+  } catch {
+    return [];
+  }
+}
+
 const xml = (s) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
 
@@ -112,6 +122,21 @@ function buildSitemap() {
       urlEntry({
         loc: `${SITE}${route}`,
         priority: route === '/i3rab' ? '0.6' : '0.7',
+        alternates: {
+          ar: `${SITE}${route}`,
+          en: `${SITE}/en${route}`,
+          'x-default': `${SITE}${route}`,
+        },
+      }),
+    );
+  }
+
+  const mutunRoutes = ['/mutun', ...mutunIds().map((id) => `/mutun/${id}`)];
+  for (const route of mutunRoutes) {
+    entries.push(
+      urlEntry({
+        loc: `${SITE}${route}`,
+        priority: route === '/mutun' ? '0.6' : '0.7',
         alternates: {
           ar: `${SITE}${route}`,
           en: `${SITE}/en${route}`,
