@@ -4,6 +4,21 @@
     "indexSubtitle": "Browse all Arabic grammar lessons.",
     "backToLessons": "All lessons"
   },
+  "mutun": {
+    "indexTitle": "Al-Mutun (Classical Texts)",
+    "indexSubtitle": "Read the classical Arabic grammar texts in full.",
+    "backToMutun": "All texts",
+    "emptyTitle": "لا توجد متون متاحة بعد",
+    "errorTitle": "Couldn’t load the texts",
+    "errorBody": "Something went wrong loading the content. Try reloading the page.",
+    "retry": "Try again",
+    "sharh": "Explanation",
+    "level": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  },
   "i3rab": {
     "indexTitle": "I'rab (Grammatical Analysis)",
     "indexSubtitle": "Word-by-word grammatical analysis of Arabic sentences.",
@@ -27,6 +42,7 @@
   "nav": {
     "features": "Features",
     "lessons": "Lessons",
+    "mutun": "Al-Mutun",
     "i3rab": "I'rab",
     "pricing": "Pricing",
     "faq": "FAQ",
