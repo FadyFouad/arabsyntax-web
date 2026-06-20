@@ -50,7 +50,7 @@ describe('2. canonical opening of al-Ajurrumiyya', () => {
 // 3 ── No wrong / fabricated text ─────────────────────────────────────────────
 describe('3. no wrong/fabricated text in any matn asset', () => {
   const FORBIDDEN = ['كلامنا', 'كاستقم', 'ابن مالك', 'ألفية', 'الفية'];
-  const files = ['manifest.json', 'aljurrumiyya.json', 'alimriti.json'];
+  const files = ['manifest.json', 'aljurrumiyya.json', 'alimriti.json', 'qatr_alnada.json'];
 
   it.each(files)('%s contains none of the Alfiyya-mislabel substrings', (file) => {
     // Strip tashkeel first so a diacriticised match (e.g. "ألفيّة") can't slip past.
@@ -66,9 +66,17 @@ describe('4. type purity', () => {
   const prose = manifest.mutun.filter((m) => m.type === 'prose');
   const verse = manifest.mutun.filter((m) => m.type === 'verse');
 
-  it.each(prose)('$id (prose): contains NO verse sections', (entry) => {
+  // A prose matn's body is paragraph-driven, but it MAY embed poetic شواهد as
+  // `verse` sections (e.g. قطر الندى). Those must be well-formed (sadr+ajz) so
+  // the prose renderer shows them as أبيات instead of dropping them. What stays
+  // forbidden is a verse section in شرح (شرح is always prose).
+  it.each(prose)('$id (prose): شرح has NO verse sections; any body شاهد is well-formed', (entry) => {
     const { body, sharh } = allSections(entry.id);
-    expect([...body, ...sharh].some((s) => s.type === 'verse')).toBe(false);
+    expect(sharh.some((s) => s.type === 'verse')).toBe(false);
+    for (const s of body.filter((s) => s.type === 'verse')) {
+      expect((s.sadr ?? '').trim().length).toBeGreaterThan(0);
+      expect((s.ajz ?? '').trim().length).toBeGreaterThan(0);
+    }
   });
 
   it.each(verse)('$id (verse): every body section is a verse with non-empty sadr AND ajz', (entry) => {
