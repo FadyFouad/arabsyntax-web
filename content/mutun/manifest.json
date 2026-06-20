@@ -19,6 +19,16 @@
       "level": "beginner",
       "type": "verse",
       "unitCount": 33
+    },
+    {
+      "id": "qatr_alnada",
+      "titleAr": "قَطْرُ النَّدَى وَبَلُّ الصَّدَى",
+      "titleEn": "Qatr al-Nada wa-Ball al-Sada",
+      "author": "ابن هشام الأنصاري",
+      "era": "القرن الثامن الهجري (ت ٧٦١ هـ)",
+      "level": "intermediate",
+      "type": "prose",
+      "unitCount": 16
     }
   ]
 }

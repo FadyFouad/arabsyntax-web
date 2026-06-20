@@ -15,11 +15,19 @@ function Paragraph({ section }: { section: Section }) {
 }
 
 function ProseSections({ sections }: { sections: Section[] }) {
+  // Prose أبواب are mostly paragraphs, but a prose matn (e.g. قطر الندى) embeds
+  // poetic شواهد as `verse` sections — render those as أبيات inline rather than
+  // dropping them. شاهد numbering is 1-based among the verses within this باب.
+  const isVerse = (s: Section) => s.type === 'verse' && !!s.sadr && !!s.ajz;
   return (
     <div className="space-y-4">
-      {sections.map((s, i) => (
-        <Paragraph key={i} section={s} />
-      ))}
+      {sections.map((s, i) => {
+        if (isVerse(s)) {
+          const number = sections.slice(0, i + 1).filter(isVerse).length;
+          return <VerseLine key={i} sadr={s.sadr!} ajz={s.ajz!} number={number} />;
+        }
+        return <Paragraph key={i} section={s} />;
+      })}
     </div>
   );
 }
