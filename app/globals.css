@@ -305,6 +305,60 @@ body {
   }
 }
 
+/* ── Mobile glass drawer (open/close + staggered items) ── */
+@keyframes mobile-menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes mobile-menu-out {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes mobile-menu-item-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mobile-menu-in {
+  animation: mobile-menu-in 0.24s ease-out both;
+}
+
+.mobile-menu-out {
+  animation: mobile-menu-out 0.18s ease-in both;
+}
+
+.mobile-menu-item {
+  animation: mobile-menu-item-in 0.3s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mobile-menu-in,
+  .mobile-menu-out,
+  .mobile-menu-item {
+    animation: none;
+  }
+}
+
 /* ── iPhone device frame ── */
 .phone-frame {
   position: relative;
