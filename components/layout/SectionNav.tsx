@@ -8,6 +8,7 @@ interface NavLinkProps {
   className?: string;
   children: ReactNode;
   onNavigate?: () => void;
+  'aria-current'?: 'page' | undefined;
 }
 
 /**
@@ -49,7 +50,13 @@ function scrollToSection(target: HTMLElement, sectionId: string, updateHash: boo
  * Modified clicks (new tab/window) and the no-section case fall through to the
  * native anchor behaviour, so accessibility and back-button stay intact.
  */
-export function SectionLink({ href, className, children, onNavigate }: NavLinkProps) {
+export function SectionLink({
+  href,
+  className,
+  children,
+  onNavigate,
+  'aria-current': ariaCurrent,
+}: NavLinkProps) {
   const sectionId = href.replace(/^#/, '');
   const pathname = usePathname();
   const isHome = pathname === '/';
@@ -76,7 +83,12 @@ export function SectionLink({ href, className, children, onNavigate }: NavLinkPr
   }
 
   return (
-    <Link href={{ pathname: '/', hash: sectionId }} className={className} onClick={handleClick}>
+    <Link
+      href={{ pathname: '/', hash: sectionId }}
+      className={className}
+      onClick={handleClick}
+      aria-current={ariaCurrent}
+    >
       {children}
     </Link>
   );
@@ -87,17 +99,28 @@ export function SectionLink({ href, className, children, onNavigate }: NavLinkPr
  * link, based on whether `href` is a hash. Shared by the desktop nav and the
  * mobile menu so both behave identically.
  */
-export function NavLink({ href, className, children, onNavigate }: NavLinkProps) {
+export function NavLink({
+  href,
+  className,
+  children,
+  onNavigate,
+  'aria-current': ariaCurrent,
+}: NavLinkProps) {
   if (href.startsWith('#')) {
     return (
-      <SectionLink href={href} className={className} onNavigate={onNavigate}>
+      <SectionLink
+        href={href}
+        className={className}
+        onNavigate={onNavigate}
+        aria-current={ariaCurrent}
+      >
         {children}
       </SectionLink>
     );
   }
 
   return (
-    <Link href={href} className={className} onClick={onNavigate}>
+    <Link href={href} className={className} onClick={onNavigate} aria-current={ariaCurrent}>
       {children}
     </Link>
   );
