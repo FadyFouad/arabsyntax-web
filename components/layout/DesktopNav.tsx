@@ -19,10 +19,9 @@ export function DesktopNav({ links }: { links: NavItem[] }) {
   const [activeHash, setActiveHash] = useState('');
 
   useEffect(() => {
-    if (pathname !== '/') {
-      setActiveHash('');
-      return;
-    }
+    // Off the homepage there are no sections to spy on; a stale hash is harmless
+    // because isActive() only honours section links when pathname === '/'.
+    if (pathname !== '/') return;
 
     const sections = links
       .filter((l) => l.href.startsWith('#'))
