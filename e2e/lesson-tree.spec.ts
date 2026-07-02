@@ -31,6 +31,32 @@ test('zoom controls change the zoom level and clamp at the reset', async ({ page
   await expect(page.getByText('100%')).toBeVisible();
 });
 
+test('fit-to-view scales the tree to fit and reset returns to 100%', async ({ page }) => {
+  await openTree(page);
+  await page.getByRole('button', { name: 'ملء الشاشة' }).click(); // fit
+  // The full tree is taller than the viewport, so fit zooms out below 100%.
+  await expect(page.getByText('100%')).toHaveCount(0);
+  await page.getByRole('button', { name: 'إعادة الضبط' }).click();
+  await expect(page.getByText('100%')).toBeVisible();
+});
+
+test('hovering a node highlights its prerequisite path', async ({ page }) => {
+  await openTree(page);
+  // No path is lit until a node is engaged.
+  await expect.poll(() => page.locator('svg path.text-primary').count()).toBe(0);
+  await page.getByRole('button', { name: CHILD }).hover();
+  // The edge from the prerequisite (علم النحو) to the hovered child lights up.
+  await expect.poll(() => page.locator('svg path.text-primary').count()).toBeGreaterThan(0);
+});
+
+test('the tree canvas is the horizontal scroller — the page never overflows', async ({ page }) => {
+  await openTree(page);
+  const pageOverflow = await page.evaluate(
+    () => document.documentElement.scrollWidth - document.documentElement.clientWidth,
+  );
+  expect(pageOverflow).toBeLessThanOrEqual(0);
+});
+
 test('a node opens its detail sheet with an Open lesson link', async ({ page }) => {
   await openTree(page);
   await page.getByRole('button', { name: ROOT }).click();

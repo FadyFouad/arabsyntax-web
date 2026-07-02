@@ -9,6 +9,7 @@ import { getLessonIndex, type Locale } from '@/lib/lessons/loader';
 import { getTreeLayout } from '@/lib/lessons/tree/loader';
 import { serializeJsonLd } from '@/lib/jsonLd';
 import LessonsView from '@/components/lessons/LessonsView';
+import LessonStatusBadge from '@/components/lessons/LessonStatusBadge';
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -73,8 +74,9 @@ export default async function LessonsIndexPage({ params }: PageProps) {
             {lessons.map((l) => (
               <li key={l.slug}>
                 <Link href={`/lessons/${l.slug}`} className="block h-full">
-                  <Card className="h-full transition-colors hover:border-primary">
+                  <Card className="flex h-full flex-col transition-colors hover:border-primary">
                     <h2 className="text-xl font-semibold text-text">{l.title}</h2>
+                    <LessonStatusBadge lessonId={l.slug} />
                   </Card>
                 </Link>
               </li>
