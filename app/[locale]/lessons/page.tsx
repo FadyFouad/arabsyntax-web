@@ -6,7 +6,10 @@ import SectionHeading from '@/components/ui/SectionHeading';
 import Card from '@/components/ui/Card';
 import { siteConfig } from '@/lib/siteConfig';
 import { getLessonIndex, type Locale } from '@/lib/lessons/loader';
+import { getTreeLayout } from '@/lib/lessons/tree/loader';
 import { serializeJsonLd } from '@/lib/jsonLd';
+import LessonsView from '@/components/lessons/LessonsView';
+import LessonStatusBadge from '@/components/lessons/LessonStatusBadge';
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -46,6 +49,7 @@ export default async function LessonsIndexPage({ params }: PageProps) {
   setRequestLocale(locale);
   const t = await getTranslations('lessons');
   const lessons = getLessonIndex(locale as Locale);
+  const treeLayout = getTreeLayout();
 
   const itemList = {
     '@context': 'https://schema.org',
@@ -62,17 +66,24 @@ export default async function LessonsIndexPage({ params }: PageProps) {
     <Container className="py-12 lg:py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(itemList) }} />
       <SectionHeading heading={t('indexTitle')} subtitle={t('indexSubtitle')} className="mb-10" />
-      <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {lessons.map((l) => (
-          <li key={l.slug}>
-            <Link href={`/lessons/${l.slug}`} className="block h-full">
-              <Card className="h-full transition-colors hover:border-primary">
-                <h2 className="text-xl font-semibold text-text">{l.title}</h2>
-              </Card>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <LessonsView
+        tree={treeLayout}
+        rtl={locale === 'ar'}
+        listSlot={
+          <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {lessons.map((l) => (
+              <li key={l.slug}>
+                <Link href={`/lessons/${l.slug}`} className="block h-full">
+                  <Card className="flex h-full flex-col transition-colors hover:border-primary">
+                    <h2 className="text-xl font-semibold text-text">{l.title}</h2>
+                    <LessonStatusBadge lessonId={l.slug} />
+                  </Card>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        }
+      />
     </Container>
   );
 }
