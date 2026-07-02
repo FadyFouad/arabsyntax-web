@@ -40,6 +40,44 @@ test('fit-to-view scales the tree to fit and reset returns to 100%', async ({ pa
   await expect(page.getByText('100%')).toBeVisible();
 });
 
+test('every node stays reachable after zooming in (RTL scroll bounds)', async ({ page }) => {
+  await openTree(page);
+  // Zoom well past 100% so the canvas overflows the viewport on both axes.
+  const zoomIn = page.getByRole('button', { name: 'تكبير' });
+  await zoomIn.click();
+  await zoomIn.click();
+  await zoomIn.click();
+
+  // Sweep scrollLeft across its full (dir-normalised) range and confirm every
+  // node can be brought fully into view. Regression guard: under the page's
+  // native RTL scroll origin the scaled canvas used to spill past the sizing
+  // wrapper, leaving the leftmost columns permanently unreachable.
+  const { total, reachable } = await page.evaluate(() => {
+    const el = document.querySelector('[role="group"][aria-label="شجرة الدروس"]') as HTMLElement;
+    const nodes = [...el.querySelectorAll('button')].filter((b) =>
+      (b.getAttribute('aria-label') ?? '').startsWith('الدرس'),
+    );
+    el.scrollLeft = -1e7;
+    const lo = el.scrollLeft;
+    el.scrollLeft = 1e7;
+    const hi = el.scrollLeft;
+    const min = Math.min(lo, hi);
+    const max = Math.max(lo, hi);
+    const seen = new Set<number>();
+    for (let i = 0; i <= 60; i++) {
+      el.scrollLeft = min + ((max - min) * i) / 60;
+      const er = el.getBoundingClientRect();
+      nodes.forEach((n, idx) => {
+        const nr = n.getBoundingClientRect();
+        if (nr.left >= er.left - 0.5 && nr.right <= er.right + 0.5) seen.add(idx);
+      });
+    }
+    return { total: nodes.length, reachable: seen.size };
+  });
+  expect(total).toBeGreaterThan(0);
+  expect(reachable).toBe(total);
+});
+
 test('hovering a node highlights its prerequisite path', async ({ page }) => {
   await openTree(page);
   // No path is lit until a node is engaged.

@@ -245,9 +245,18 @@ export default function LessonTree({ layout, rtl }: LessonTreeProps) {
         </button>
       </div>
 
+      {/* Force LTR flow on the scroll container: the tree's horizontal order is
+          baked into each node's `left` (xOf mirrors columns for RTL), so the
+          canvas doesn't need — and is actively broken by — the page's native RTL
+          scroll origin. Under dir=rtl the unscaled canvas pins to the inline
+          (right) start and transform-scales rightward past the sizing wrapper,
+          pushing the leftmost columns outside the scroll range (unreachable).
+          dir=ltr pins it left so the scaled footprint aligns with the reserved
+          width, and normalizes scrollLeft to 0..max for the focal/drag math. */}
       <div
         ref={scrollRef}
         role="group"
+        dir="ltr"
         aria-label={t('treeRegionLabel')}
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
