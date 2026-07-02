@@ -2,7 +2,13 @@
   "lessons": {
     "indexTitle": "Lessons",
     "indexSubtitle": "Browse all Arabic grammar lessons.",
-    "backToLessons": "All lessons"
+    "backToLessons": "All lessons",
+    "viewToggleLabel": "View mode",
+    "viewList": "List",
+    "viewTree": "Tree",
+    "treeRegionLabel": "Lesson tree",
+    "treeNodeAria": "Lesson: {title}",
+    "treeUnavailable": "The lesson tree can't be displayed right now. Try the list view."
   },
   "mutun": {
     "indexTitle": "Al-Mutun (Classical Texts)",

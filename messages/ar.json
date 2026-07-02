@@ -2,7 +2,13 @@
   "lessons": {
     "indexTitle": "الدروس",
     "indexSubtitle": "تصفّح جميع دروس النحو العربي.",
-    "backToLessons": "كل الدروس"
+    "backToLessons": "كل الدروس",
+    "viewToggleLabel": "طريقة العرض",
+    "viewList": "قائمة",
+    "viewTree": "شجرة",
+    "treeRegionLabel": "شجرة الدروس",
+    "treeNodeAria": "الدرس: {title}",
+    "treeUnavailable": "تعذّر عرض شجرة الدروس. جرّب عرض القائمة."
   },
   "mutun": {
     "indexTitle": "المتون",
