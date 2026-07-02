@@ -47,16 +47,28 @@ describe('validateTree', () => {
     expect(codes).not.toContain('dangling_prerequisite'); // self is not "dangling"
   });
 
-  it('detects a two-node cycle', () => {
+  it('detects a two-node cycle and names every participant', () => {
     const definition = def([node('a', ['b']), node('b', ['a'])]);
-    const codes = validateTree(definition, ['a', 'b']).map((v) => v.code);
-    expect(codes).toContain('cycle');
+    const violations = validateTree(definition, ['a', 'b']);
+    expect(violations.map((v) => v.code)).toContain('cycle');
+    // Both nodes are attributed, in definition order (deterministic).
+    expect(violations.filter((v) => v.code === 'cycle').map((v) => v.ref)).toEqual(['a', 'b']);
   });
 
-  it('detects a longer cycle', () => {
+  it('detects a longer cycle and names every participant', () => {
     const definition = def([node('a', ['c']), node('b', ['a']), node('c', ['b'])]);
-    const codes = validateTree(definition, ['a', 'b', 'c']).map((v) => v.code);
-    expect(codes).toContain('cycle');
+    const violations = validateTree(definition, ['a', 'b', 'c']);
+    expect(violations.filter((v) => v.code === 'cycle').map((v) => v.ref)).toEqual(['a', 'b', 'c']);
+  });
+
+  it('attributes the cycle to its members only, not acyclic nodes pointing into it', () => {
+    // a⇄b is the cycle; c depends on both a and b (cross edges into a finished
+    // SCC) but is not itself part of any cycle.
+    const definition = def([node('a', ['b']), node('b', ['a']), node('c', ['a', 'b'])]);
+    const cyclicRefs = validateTree(definition, ['a', 'b', 'c'])
+      .filter((v) => v.code === 'cycle')
+      .map((v) => v.ref);
+    expect(cyclicRefs).toEqual(['a', 'b']);
   });
 
   it('does not run reachability while a cycle is present (cycle takes precedence)', () => {

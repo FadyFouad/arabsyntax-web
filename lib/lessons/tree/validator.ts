@@ -88,36 +88,67 @@ export function validateTree(
     }
   }
 
-  // ── Cycle detection (DFS over resolvable edges) ───────────────────────────
-  // WHITE=unvisited, GRAY=on the current stack, BLACK=done. A GRAY→GRAY edge
-  // is a back-edge ⇒ cycle. Skip edges to unknown ids (already flagged above).
-  const WHITE = 0;
-  const GRAY = 1;
-  const BLACK = 2;
-  const color = new Map<string, number>();
-  for (const id of ids) color.set(id, WHITE);
+  // ── Cycle detection (Tarjan SCC over resolvable edges) ────────────────────
+  // A node participates in a cycle iff it lies in a strongly connected
+  // component of size > 1, or has a self-edge. Tarjan names EVERY such node
+  // deterministically; a plain DFS back-edge probe would report only an
+  // arbitrary, order-dependent subset (the back-edge targets it happens to
+  // meet). Detection is exact either way — this is about complete, stable
+  // attribution in the error log. Edges to unknown ids are skipped (already
+  // flagged above).
+  const successorsOf = (id: string): string[] =>
+    (byId.get(id)?.prerequisites ?? []).filter((prereq) => ids.has(prereq));
+
   const cyclic = new Set<string>();
 
-  const visit = (id: string): void => {
-    color.set(id, GRAY);
-    for (const prereq of byId.get(id)?.prerequisites ?? []) {
-      if (!ids.has(prereq)) continue;
-      const c = color.get(prereq);
-      if (c === GRAY) {
-        cyclic.add(prereq);
-      } else if (c === WHITE) {
-        visit(prereq);
+  // Self-edges are degenerate cycles Tarjan alone treats as size-1 SCCs, so
+  // collect them explicitly (mirrors the separate self_prerequisite flag).
+  for (const node of nodes) {
+    for (const prereq of node.prerequisites) if (prereq === node.id) cyclic.add(node.id);
+  }
+
+  const index = new Map<string, number>();
+  const lowlink = new Map<string, number>();
+  const onStack = new Set<string>();
+  const stack: string[] = [];
+  let counter = 0;
+
+  const strongConnect = (v: string): void => {
+    index.set(v, counter);
+    lowlink.set(v, counter);
+    counter += 1;
+    stack.push(v);
+    onStack.add(v);
+    for (const w of successorsOf(v)) {
+      if (!index.has(w)) {
+        strongConnect(w);
+        lowlink.set(v, Math.min(lowlink.get(v)!, lowlink.get(w)!));
+      } else if (onStack.has(w)) {
+        lowlink.set(v, Math.min(lowlink.get(v)!, index.get(w)!));
       }
     }
-    color.set(id, BLACK);
+    if (lowlink.get(v) === index.get(v)) {
+      const scc: string[] = [];
+      let w: string;
+      do {
+        w = stack.pop()!;
+        onStack.delete(w);
+        scc.push(w);
+      } while (w !== v);
+      if (scc.length > 1) for (const member of scc) cyclic.add(member);
+    }
   };
-  for (const id of ids) if (color.get(id) === WHITE) visit(id);
-  for (const id of cyclic) {
-    violations.push({
-      code: 'cycle',
-      ref: id,
-      message: `Node "${id}" participates in a prerequisite cycle.`,
-    });
+  for (const id of ids) if (!index.has(id)) strongConnect(id);
+
+  // Emit in definition order so the report is stable across runs.
+  for (const id of ids) {
+    if (cyclic.has(id)) {
+      violations.push({
+        code: 'cycle',
+        ref: id,
+        message: `Node "${id}" participates in a prerequisite cycle.`,
+      });
+    }
   }
 
   // ── Reachability from entry points (nodes with no prerequisites) ──────────
