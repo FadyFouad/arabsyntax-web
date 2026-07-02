@@ -8,7 +8,17 @@
     "viewTree": "شجرة",
     "treeRegionLabel": "شجرة الدروس",
     "treeNodeAria": "الدرس: {title}",
-    "treeUnavailable": "تعذّر عرض شجرة الدروس. جرّب عرض القائمة."
+    "treeUnavailable": "تعذّر عرض شجرة الدروس. جرّب عرض القائمة.",
+    "markComplete": "أكملتُ هذا الدرس",
+    "markIncomplete": "إلغاء علامة الإكمال",
+    "completedBadge": "مكتمل",
+    "openLesson": "فتح الدرس",
+    "close": "إغلاق",
+    "prerequisitesTitle": "المتطلبات السابقة",
+    "lockedHint": "أكمِل هذه الدروس أولًا:",
+    "stateLocked": "مُقفَل",
+    "stateAvailable": "متاح",
+    "stateCompleted": "مكتمل"
   },
   "mutun": {
     "indexTitle": "المتون",

@@ -1,20 +1,23 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/routing';
-import type { TreeLayout } from '@/lib/lessons/tree/types';
+import { Check, Lock } from 'lucide-react';
+import type { LayoutNode, NodeState, TreeLayout } from '@/lib/lessons/tree/types';
+import { deriveNodeState } from '@/lib/lessons/progress/state';
+import { useCompletedLessons } from './useLessonProgress';
+import NodeSheet from './NodeSheet';
 
 /**
- * Read-only lesson-tree canvas (US1). Renders the static, build-time layout as
- * an absolutely-positioned grid of lesson links with an SVG edge layer behind
- * them. Node STATE (locked/completed) is intentionally absent here — that lands
- * in Phase 3 once local progress exists; every node is a plain link for now.
+ * Interactive lesson-tree canvas (US1/US2). Renders the static, build-time
+ * layout as an absolutely-positioned grid over an SVG edge layer, and colours
+ * each node by its derived state (locked / available / completed) from the local
+ * progress store. Tapping a node opens the {@link NodeSheet} with its actions.
  *
  * Geometry is a pure function of `layout`, so the SVG dimensions are known up
- * front and the whole thing lives inside a natively-scrollable container (no
- * pan/zoom dependency). RTL mirrors columns so col 0 sits right-most, matching
- * the JSON authoring order under the Arabic reading direction.
+ * front and the whole thing lives inside a natively-scrollable container. RTL
+ * mirrors columns so col 0 sits right-most, matching JSON authoring order under
+ * the Arabic reading direction.
  */
 
 const NODE_W = 168;
@@ -26,6 +29,13 @@ const PAD = 24;
 const STEP_X = NODE_W + COL_GAP;
 const STEP_Y = NODE_H + ROW_GAP;
 
+const NODE_CLASS: Record<NodeState, string> = {
+  completed: 'border-success bg-surface-elevated text-success hover:border-success',
+  available: 'border-border bg-surface-elevated text-text hover:border-primary hover:text-primary',
+  locked: 'border-border bg-surface text-text-muted opacity-70 hover:opacity-100',
+  needsReview: 'border-warning bg-surface-elevated text-warning hover:border-warning',
+};
+
 interface LessonTreeProps {
   layout: TreeLayout;
   rtl: boolean;
@@ -33,6 +43,13 @@ interface LessonTreeProps {
 
 export default function LessonTree({ layout, rtl }: LessonTreeProps) {
   const t = useTranslations('lessons');
+  const completed = useCompletedLessons();
+  const [selected, setSelected] = useState<LayoutNode | null>(null);
+
+  const titleById = useMemo(
+    () => new Map(layout.nodes.map((n) => [n.id, n.title])),
+    [layout],
+  );
 
   const { width, height, placed, paths } = useMemo(() => {
     const columns = Math.max(1, layout.columns);
@@ -65,35 +82,53 @@ export default function LessonTree({ layout, rtl }: LessonTreeProps) {
   }, [layout, rtl]);
 
   return (
-    <div
-      role="group"
-      aria-label={t('treeRegionLabel')}
-      className="overflow-auto rounded-2xl border border-border bg-surface p-2"
-    >
-      <div className="relative mx-auto" style={{ width, height }}>
-        <svg
-          className="pointer-events-none absolute inset-0 text-border"
-          width={width}
-          height={height}
-          aria-hidden="true"
-        >
-          {paths.map((p) => (
-            <path key={p.key} d={p.d} fill="none" stroke="currentColor" strokeWidth={2} />
-          ))}
-        </svg>
-
-        {placed.map(({ node, x, y }) => (
-          <Link
-            key={node.id}
-            href={`/lessons/${node.lessonId}`}
-            aria-label={t('treeNodeAria', { title: node.title })}
-            className="absolute flex items-center justify-center rounded-xl border border-border bg-surface-elevated px-3 text-center text-sm font-semibold text-text transition-colors hover:border-primary hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary"
-            style={{ left: x, top: y, width: NODE_W, height: NODE_H }}
+    <>
+      <div
+        role="group"
+        aria-label={t('treeRegionLabel')}
+        className="overflow-auto rounded-2xl border border-border bg-surface p-2"
+      >
+        <div className="relative mx-auto" style={{ width, height }}>
+          <svg
+            className="pointer-events-none absolute inset-0 text-border"
+            width={width}
+            height={height}
+            aria-hidden="true"
           >
-            {node.title}
-          </Link>
-        ))}
+            {paths.map((p) => (
+              <path key={p.key} d={p.d} fill="none" stroke="currentColor" strokeWidth={2} />
+            ))}
+          </svg>
+
+          {placed.map(({ node, x, y }) => {
+            const state = deriveNodeState(node, completed);
+            return (
+              <button
+                key={node.id}
+                type="button"
+                aria-label={t('treeNodeAria', { title: node.title })}
+                onClick={() => setSelected(node)}
+                className={`absolute flex items-center justify-center gap-1.5 rounded-xl border px-3 text-center text-sm font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-primary ${NODE_CLASS[state]}`}
+                style={{ left: x, top: y, width: NODE_W, height: NODE_H }}
+              >
+                {state === 'completed' && <Check className="h-4 w-4 shrink-0" aria-hidden="true" />}
+                {state === 'locked' && <Lock className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />}
+                <span className="line-clamp-2">{node.title}</span>
+              </button>
+            );
+          })}
+        </div>
       </div>
-    </div>
+
+      {selected && (
+        <NodeSheet
+          node={selected}
+          state={deriveNodeState(selected, completed)}
+          titleById={titleById}
+          completed={completed}
+          onClose={() => setSelected(null)}
+        />
+      )}
+    </>
   );
 }
