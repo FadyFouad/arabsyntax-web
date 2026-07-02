@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useCallback, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent } from 'react';
 import { useTranslations } from 'next-intl';
 import { Check, Lock } from 'lucide-react';
 import type { LayoutNode, NodeState, TreeLayout } from '@/lib/lessons/tree/types';
@@ -51,6 +51,42 @@ export default function LessonTree({ layout, rtl }: LessonTreeProps) {
     [layout],
   );
 
+  // Mouse drag-to-pan over the (natively scrollable) canvas. Touch keeps native
+  // scroll/pinch; pointerdown on a node is left alone so clicks still open the
+  // sheet. Panning just adjusts scroll offset — no CSS transform, so layout math
+  // and keyboard focus scrolling stay intact.
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const drag = useRef({ active: false, startX: 0, startY: 0, left: 0, top: 0 });
+
+  const onPointerDown = useCallback((event: ReactPointerEvent<HTMLDivElement>) => {
+    if (event.pointerType !== 'mouse' || event.button !== 0) return;
+    if ((event.target as HTMLElement).closest('button, a')) return;
+    const el = scrollRef.current;
+    if (!el) return;
+    drag.current = {
+      active: true,
+      startX: event.clientX,
+      startY: event.clientY,
+      left: el.scrollLeft,
+      top: el.scrollTop,
+    };
+    el.setPointerCapture(event.pointerId);
+  }, []);
+
+  const onPointerMove = useCallback((event: ReactPointerEvent<HTMLDivElement>) => {
+    if (!drag.current.active) return;
+    const el = scrollRef.current;
+    if (!el) return;
+    el.scrollLeft = drag.current.left - (event.clientX - drag.current.startX);
+    el.scrollTop = drag.current.top - (event.clientY - drag.current.startY);
+  }, []);
+
+  const endDrag = useCallback((event: ReactPointerEvent<HTMLDivElement>) => {
+    if (!drag.current.active) return;
+    drag.current.active = false;
+    scrollRef.current?.releasePointerCapture?.(event.pointerId);
+  }, []);
+
   const { width, height, placed, paths } = useMemo(() => {
     const columns = Math.max(1, layout.columns);
     const width = PAD * 2 + (columns - 1) * STEP_X + NODE_W;
@@ -84,9 +120,14 @@ export default function LessonTree({ layout, rtl }: LessonTreeProps) {
   return (
     <>
       <div
+        ref={scrollRef}
         role="group"
         aria-label={t('treeRegionLabel')}
-        className="overflow-auto rounded-2xl border border-border bg-surface p-2"
+        onPointerDown={onPointerDown}
+        onPointerMove={onPointerMove}
+        onPointerUp={endDrag}
+        onPointerCancel={endDrag}
+        className="overflow-auto rounded-2xl border border-border bg-surface p-2 cursor-grab active:cursor-grabbing"
       >
         <div className="relative mx-auto" style={{ width, height }}>
           <svg

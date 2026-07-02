@@ -35,12 +35,17 @@ export default function NodeSheet({ node, state, titleById, completed, onClose }
   const closeRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
+    // Return focus to whatever opened the sheet (the tapped node) on close.
+    const previouslyFocused = document.activeElement as HTMLElement | null;
     closeRef.current?.focus();
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') onClose();
     };
     document.addEventListener('keydown', onKeyDown);
-    return () => document.removeEventListener('keydown', onKeyDown);
+    return () => {
+      document.removeEventListener('keydown', onKeyDown);
+      previouslyFocused?.focus?.();
+    };
   }, [onClose]);
 
   const done = state === 'completed';
@@ -95,9 +100,14 @@ export default function NodeSheet({ node, state, titleById, completed, onClose }
             <p className="mb-2 text-sm font-medium text-text-secondary">{t('lockedHint')}</p>
             <ul className="space-y-1">
               {missing.map((id) => (
-                <li key={id} className="flex items-center gap-2 text-sm text-text-muted">
-                  <Lock className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
-                  {titleById.get(id) ?? id}
+                <li key={id}>
+                  <Link
+                    href={`/lessons/${id}`}
+                    className="flex items-center gap-2 rounded-md py-1 text-sm text-text-secondary transition-colors hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary"
+                  >
+                    <Lock className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
+                    {titleById.get(id) ?? id}
+                  </Link>
                 </li>
               ))}
             </ul>
