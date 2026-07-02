@@ -2,7 +2,7 @@
 
 import { useCallback, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent } from 'react';
 import { useTranslations } from 'next-intl';
-import { Check, Lock } from 'lucide-react';
+import { Check, Lock, RotateCcw, ZoomIn, ZoomOut } from 'lucide-react';
 import type { LayoutNode, NodeState, TreeLayout } from '@/lib/lessons/tree/types';
 import { deriveNodeState } from '@/lib/lessons/progress/state';
 import { useCompletedLessons } from './useLessonProgress';
@@ -29,6 +29,11 @@ const PAD = 24;
 const STEP_X = NODE_W + COL_GAP;
 const STEP_Y = NODE_H + ROW_GAP;
 
+const ZOOM_MIN = 0.6;
+const ZOOM_MAX = 1.6;
+const ZOOM_STEP = 0.2;
+const clampZoom = (z: number) => Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, Math.round(z * 100) / 100));
+
 const NODE_CLASS: Record<NodeState, string> = {
   completed: 'border-success bg-surface-elevated text-success hover:border-success',
   available: 'border-border bg-surface-elevated text-text hover:border-primary hover:text-primary',
@@ -45,6 +50,8 @@ export default function LessonTree({ layout, rtl }: LessonTreeProps) {
   const t = useTranslations('lessons');
   const completed = useCompletedLessons();
   const [selected, setSelected] = useState<LayoutNode | null>(null);
+  const [zoom, setZoom] = useState(1);
+  const zoomPercent = Math.round(zoom * 100);
 
   const titleById = useMemo(
     () => new Map(layout.nodes.map((n) => [n.id, n.title])),
@@ -117,8 +124,33 @@ export default function LessonTree({ layout, rtl }: LessonTreeProps) {
     return { width, height, placed, paths };
   }, [layout, rtl]);
 
+  const zoomIn = useCallback(() => setZoom((z) => clampZoom(z + ZOOM_STEP)), []);
+  const zoomOut = useCallback(() => setZoom((z) => clampZoom(z - ZOOM_STEP)), []);
+  const zoomReset = useCallback(() => setZoom(1), []);
+
+  const btn =
+    'inline-flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-surface text-text-muted transition-colors hover:border-primary hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:border-border disabled:hover:text-text-muted';
+
   return (
     <>
+      <div className="mb-3 flex items-center gap-2">
+        <button type="button" aria-label={t('zoomOut')} onClick={zoomOut} disabled={zoom <= ZOOM_MIN} className={btn}>
+          <ZoomOut className="h-4 w-4" aria-hidden="true" />
+        </button>
+        <span
+          className="min-w-14 text-center text-sm font-medium tabular-nums text-text-secondary"
+          aria-label={t('zoomLevel', { percent: zoomPercent })}
+        >
+          {zoomPercent}%
+        </span>
+        <button type="button" aria-label={t('zoomIn')} onClick={zoomIn} disabled={zoom >= ZOOM_MAX} className={btn}>
+          <ZoomIn className="h-4 w-4" aria-hidden="true" />
+        </button>
+        <button type="button" aria-label={t('zoomReset')} onClick={zoomReset} disabled={zoom === 1} className={btn}>
+          <RotateCcw className="h-4 w-4" aria-hidden="true" />
+        </button>
+      </div>
+
       <div
         ref={scrollRef}
         role="group"
@@ -129,7 +161,13 @@ export default function LessonTree({ layout, rtl }: LessonTreeProps) {
         onPointerCancel={endDrag}
         className="overflow-auto rounded-2xl border border-border bg-surface p-2 cursor-grab active:cursor-grabbing"
       >
-        <div className="relative mx-auto" style={{ width, height }}>
+        {/* Sizing wrapper: reserves the SCALED footprint so the scrollbars track
+            the zoomed canvas (transform alone doesn't change layout size). */}
+        <div className="mx-auto" style={{ width: width * zoom, height: height * zoom }}>
+          <div
+            className="relative"
+            style={{ width, height, transform: `scale(${zoom})`, transformOrigin: '0 0' }}
+          >
           <svg
             className="pointer-events-none absolute inset-0 text-border"
             width={width}
@@ -158,6 +196,7 @@ export default function LessonTree({ layout, rtl }: LessonTreeProps) {
               </button>
             );
           })}
+          </div>
         </div>
       </div>
 

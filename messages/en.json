@@ -18,7 +18,11 @@
     "lockedHint": "Complete these lessons first:",
     "stateLocked": "Locked",
     "stateAvailable": "Available",
-    "stateCompleted": "Completed"
+    "stateCompleted": "Completed",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "zoomReset": "Reset zoom",
+    "zoomLevel": "Zoom level: {percent}%"
   },
   "mutun": {
     "indexTitle": "Al-Mutun (Classical Texts)",

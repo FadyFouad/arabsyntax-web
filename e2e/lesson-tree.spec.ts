@@ -22,6 +22,15 @@ test('toggles to the tree view and persists the choice across reloads', async ({
   await expect(page.getByRole('group', { name: TREE_LABEL })).toBeVisible();
 });
 
+test('zoom controls change the zoom level and clamp at the reset', async ({ page }) => {
+  await openTree(page);
+  await expect(page.getByText('100%')).toBeVisible();
+  await page.getByRole('button', { name: 'تكبير' }).click(); // zoom in
+  await expect(page.getByText('120%')).toBeVisible();
+  await page.getByRole('button', { name: 'إعادة الضبط' }).click(); // reset
+  await expect(page.getByText('100%')).toBeVisible();
+});
+
 test('a node opens its detail sheet with an Open lesson link', async ({ page }) => {
   await openTree(page);
   await page.getByRole('button', { name: ROOT }).click();

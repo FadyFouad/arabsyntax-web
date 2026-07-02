@@ -18,7 +18,11 @@
     "lockedHint": "أكمِل هذه الدروس أولًا:",
     "stateLocked": "مُقفَل",
     "stateAvailable": "متاح",
-    "stateCompleted": "مكتمل"
+    "stateCompleted": "مكتمل",
+    "zoomIn": "تكبير",
+    "zoomOut": "تصغير",
+    "zoomReset": "إعادة الضبط",
+    "zoomLevel": "مستوى التكبير: {percent}٪"
   },
   "mutun": {
     "indexTitle": "المتون",
