@@ -98,7 +98,11 @@ export default function LessonsView({ listSlot, tree, rtl }: LessonsViewProps) {
         })}
       </div>
 
-      {view === 'tree' ? <LessonTree layout={tree} rtl={rtl} /> : listSlot}
+      {/* Wrap the swappable view in its own element so `listSlot` (a server-
+          rendered <ul> owned by the page) is a lone child here, not a keyless
+          sibling of the toggle in a mixed-owner children array — which trips
+          React's dev "unique key" reconciliation check. */}
+      <div>{view === 'tree' ? <LessonTree layout={tree} rtl={rtl} /> : listSlot}</div>
     </div>
   );
 }
