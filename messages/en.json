@@ -2,7 +2,23 @@
   "lessons": {
     "indexTitle": "Lessons",
     "indexSubtitle": "Browse all Arabic grammar lessons.",
-    "backToLessons": "All lessons"
+    "backToLessons": "All lessons",
+    "viewToggleLabel": "View mode",
+    "viewList": "List",
+    "viewTree": "Tree",
+    "treeRegionLabel": "Lesson tree",
+    "treeNodeAria": "Lesson: {title}",
+    "treeUnavailable": "The lesson tree can't be displayed right now. Try the list view.",
+    "markComplete": "Mark as complete",
+    "markIncomplete": "Mark as not complete",
+    "completedBadge": "Completed",
+    "openLesson": "Open lesson",
+    "close": "Close",
+    "prerequisitesTitle": "Prerequisites",
+    "lockedHint": "Complete these lessons first:",
+    "stateLocked": "Locked",
+    "stateAvailable": "Available",
+    "stateCompleted": "Completed"
   },
   "mutun": {
     "indexTitle": "Al-Mutun (Classical Texts)",

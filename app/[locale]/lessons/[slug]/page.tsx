@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { Container } from '@/components/ui/Container';
 import LessonSections from '@/components/lessons/LessonSections';
+import MarkComplete from '@/components/lessons/MarkComplete';
 import { siteConfig } from '@/lib/siteConfig';
 import { getAllSlugs, getLesson, type Locale } from '@/lib/lessons/loader';
 import { serializeJsonLd } from '@/lib/jsonLd';
@@ -78,7 +79,10 @@ export default async function LessonPage({ params }: PageProps) {
         <Link href="/lessons" className="text-sm font-medium text-primary hover:underline">
           {t('backToLessons')}
         </Link>
-        <h1 className="mb-8 mt-4 text-3xl font-bold text-text lg:text-4xl">{lesson.title}</h1>
+        <h1 className="mb-6 mt-4 text-3xl font-bold text-text lg:text-4xl">{lesson.title}</h1>
+        <div className="mb-8">
+          <MarkComplete lessonId={slug} />
+        </div>
         <LessonSections lesson={lesson} />
       </div>
     </Container>
