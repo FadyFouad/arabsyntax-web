@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "files": [
+    "primary.json",
+    "midOne.json",
+    "midTwo.json",
+    "midThree.json",
+    "secondaryOne.json",
+    "secondaryTwo.json",
+    "secondaryThree.json",
+    "unstaged.json"
+  ]
+}

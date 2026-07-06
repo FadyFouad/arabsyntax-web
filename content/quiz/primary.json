@@ -1,0 +1,2537 @@
+[
+  {
+    "questionID": "0279",
+    "question": "هذان التلميذان مجتهدان في دراستهما. المشار إليه في الجملة هو .......",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "المشار إليه هو الاسم الذي يقع بعد اسم الإشارة.",
+    "options": [
+      "التلميذان",
+      "هذان",
+      "مجتهدان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0280",
+    "question": "هذا ....... مخلص.",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (هذا ) يُستخدَم للمفرد المذكَّر.",
+    "options": [
+      "معلِّم",
+      "معلِّمان",
+      "معلِّمون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0281",
+    "question": "اسم الإشارة الوحيد الذي يدلُّ على المفرد فيما يلي هو .......",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (هذه ) يُستخدَم للمفردة المؤنَّثة.",
+    "options": [
+      "هذه",
+      "هذان",
+      "هاتان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0282",
+    "question": "ما يُستخدم للمفردة المؤنَّثة في أسماء الإشارة هي .......",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (هذه ) يشير إلى المفردة المؤنَّثة.",
+    "options": [
+      "هذه",
+      "هذان",
+      "هاتان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0283",
+    "question": "هذان ....... محترمان.",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "ما يشير إلى المثنَّى المذكَّر في أسماء الإشارة هو (هذان ) .",
+    "options": [
+      "البنتان",
+      "الولدان",
+      "الشخصيتان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0284",
+    "question": "....... المدرسة مكوَّنة من خمسة فصول.",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (هذه ) يشير إلى المفردة المؤنَّثة.",
+    "options": [
+      "هذا",
+      "هذه",
+      "هذان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0285",
+    "question": "لا يُستخدَم للمؤنَّث فيما يلي إلا .......",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (هاتان ) يشير إلى المثنَّى المؤنَّث.",
+    "options": [
+      "هذان",
+      "هذا",
+      "هاتان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0286",
+    "question": "اشتريتُ ....... الكُرَّاستَين.",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (هاتان ) يشير إلى المثنَّى المؤنَّث (وأحيانًا تُستخدَم بالياء والنون ) .",
+    "options": [
+      "هذه",
+      "هؤلاء",
+      "هاتين"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0287",
+    "question": "اسم الإشارة (هؤلاء ) يُستخدَم لـ :",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (هؤلاء ) يُستخدَم لجمع المذكَّر وجمع المؤنَّث.",
+    "options": [
+      "جمع المذكَّر",
+      "الجمع بنوعيه",
+      "جمع المؤنَّث"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0288",
+    "question": "كل ما يلي أسماء إشارة، ما عدا:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "(التي ) : اسم موصول.",
+    "options": [
+      "التي",
+      "هذا",
+      "هذان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0289",
+    "question": "هؤلاء الفتيات مهذَّبات. إذا أتينا بالمفرد من هذه الجملة نقول:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "الصواب هو: هذه الفتاة مهذَّبة.",
+    "options": [
+      "هذه الفتاة مهذَّبة",
+      "هذا الفتى مهذَّب",
+      "هؤلاء الفتيان مهذَّبون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0290",
+    "question": "كلُّ أسماء الإشارة للقريب تبدأ بـ.......",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "كلُّ أسماء الإشارة للقريب تبدأ بهاء.",
+    "options": [
+      "ميم",
+      "هاء",
+      "نون"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0291",
+    "question": "ذلك الكتاب لا ريب فيه . (ذلك ) :",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "(ذلك ) : اسم إشارة للبعيد.",
+    "options": [
+      "اسم إشارة",
+      "اسم موصول",
+      "ضمير"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0292",
+    "question": "هؤلاء .......",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "الصواب هو: هؤلاء التلاميذ نابغون.",
+    "options": [
+      "التلاميذ نابغون",
+      "التلاميذ نابغ",
+      "التلميذ نابغ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0293",
+    "question": "كلُّ ما يلي من أسماء الإشارة قد يُستخدَم للمذكَّر، ما عدا:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (هاتان ) يُستخدَم للمثنَّى المؤنَّث.",
+    "options": [
+      "هذا",
+      "هذان",
+      "هاتان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0294",
+    "question": "اسم الإشارة الوحيد الذي يدلُّ على المثنَّى فيما يلي هو:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (هذان ) يُستخدَم للمثنَّى المذكَّر.",
+    "options": [
+      "هذان",
+      "هذه",
+      "هذا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0295",
+    "question": "اسم الإشارة الوحيد فيما يلي هو:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "(هما ) و (أنتما ) : من الضمائر، و (الذين ) : اسم موصول.",
+    "options": [
+      "هما",
+      "هذه",
+      "الذين"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0296",
+    "question": "هذان ....... مفيدان.",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (هذان ) يُستخدَم للمثنَّى المذكَّر.",
+    "options": [
+      "القصَّتان",
+      "الوجبتان",
+      "الكتابان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0297",
+    "question": "هؤلاء ....... مخلصون.",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (هؤلاء ) يُستخدَم لجمع المذكَّر وجمع المؤنَّث.",
+    "options": [
+      "العلماء",
+      "العالمات",
+      "العالمان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0298",
+    "question": "الجملة الوحيدة الصحيحة فيما يلي هي:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (هذه ) يُستخدَم للمفردة المؤنَّثة.",
+    "options": [
+      "هذه التلميذتان مجتهدتان",
+      "هذه التلميذات مخلصات",
+      "هذه التلميذة مجتهدة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0299",
+    "question": "كلُّ مما يلي أسماء إشارة، ما عدا:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "(هو ) : من ضمائر الغائب.",
+    "options": [
+      "هذا",
+      "هو",
+      "هذه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0300",
+    "question": "هذه القصَّة ممتعة. التثنية الصحيحة لهذه الجملة:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (هاتان ) يُستخدَم للمثنَّى المؤنَّث.",
+    "options": [
+      "هاتان القصَّتان ممتعتان",
+      "هذه القصَّتان ممتعتان",
+      "هؤلاء القصَّتان ممتعتان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0301",
+    "question": "رأيتُ زهرة في ....... الحديقة. أكمل باسم إشارة للبعيد.",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (تلك ) يشير إلى المفرد المذكَّر البعيد.",
+    "options": [
+      "هذه",
+      "هذا",
+      "تلك"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0302",
+    "question": "يوجد اسم إشارة واحد فيما يلي، وهو .......",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "(هو ) ، و(هي ) ، و(هم ) ضمائر للغائب.",
+    "options": [
+      "هو",
+      "هؤلاء",
+      "هم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0303",
+    "question": "هذا القصَّة ممتعة. بتصحيح هذه الجملة تصبح:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "الصواب: هذا الكتاب ممتع، أو: هذه القصَّة ممتعة.",
+    "options": [
+      "هذا الكتاب ممتع",
+      "هذه الكتاب ممتع",
+      "هاتان القصَّة ممتعة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0304",
+    "question": "فيما يلي اسم إشارة واحد للبعيد، وهو .......",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "أسماء الإشارة للبعيد هي: ذلك، وتلك، وأولئك.",
+    "options": [
+      "ذلك",
+      "هذا",
+      "هذان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0305",
+    "question": "هذا المكتب منظَّم. بتثنية هذه الجملة تصبح:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "المثنَّى من كلمة (مكتب ) مكتبان، وما يشير إلى المثنَّى المذكَّر هي (هذان ) .",
+    "options": [
+      "هاتان المكتبان منظَّمان",
+      "هذان المكتبان منظَّمتان",
+      "هذان المكتبان منظَّمان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0306",
+    "question": "هذا هو التلميذ الذي يجتهد. في الجملة من أسماء الإشارة .......",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "لا يوجد في الجملة من أسماء الإشارة إلا (هذا ) .",
+    "options": [
+      "اسم واحد",
+      "اسمان",
+      "ثلاثة أسماء"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0307",
+    "question": "لا يُستخدم من أسماء الإشارة للمؤنَّث والمذكَّر معًا إلا .......",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (هؤلاء ) يشير إلى الجمع بنوعَيه : (جمع المذكَّر، وجمع المؤنَّث ) .",
+    "options": [
+      "هؤلاء",
+      "هاتان",
+      "هذا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0308",
+    "question": "الفاعل ....... دائمًا.",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الفاعل من المرفوعات.",
+    "options": [
+      "مرفوعٌ",
+      "منصوبٌ",
+      "مجرورٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0309",
+    "question": "يؤدِّي ....... الصلاة.",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُرفَع الفاعل بالواو إذا كان جمع مذكَّر سالمًا.",
+    "options": [
+      "المُصَلِّين",
+      "المُصَلُّون",
+      "المسلمِين"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0310",
+    "question": "إذا كان الفاعل جمع مؤنَّث سالمًا فإنَّه يُرفَع بـ .......",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُرفَع الفاعل بالضمة إذا كان: مفردًا، أو جمع تكسيرٍ، أو جمع مؤنَّث سالمًا.",
+    "options": [
+      "الألف",
+      "الضمة",
+      "الواو"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0311",
+    "question": "أحرز ....... هدفَين.",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُرفَع الفاعل بالضمة إذا كان مفردًا.",
+    "options": [
+      "اللاعبِ (بكسر الباء ) .",
+      "اللاعبَ (بفتح الباء ) .",
+      "اللاعبُ (بضمِّ الباء ) ."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0312",
+    "question": "حقَّق الطلاب .......",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "إعراب كلمة (النجاح ) : مفعول به منصوب، وعلامة النصب الفتحة.",
+    "options": [
+      "النجاحُ (بضمِّ الحاء ) .",
+      "النجاحَ (بفتح الحاء ) .",
+      "النجاحِ (بكسر الحاء ) ."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0313",
+    "question": "ربَّت الأمُّ أبناءها. علامة إعراب كلمة (الأم ) هي:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُرفَع الفاعل بالضمة إذا كان مفردًا.",
+    "options": [
+      "الضمة",
+      "الفتحة",
+      "الكسرة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0314",
+    "question": "افتتح ....... الوزراء المشروع.",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "إعراب كلمة (رئيس ) : فاعل مرفوع، وعلامة الرفع الضمة؛ لأنَّها مفردة.",
+    "options": [
+      "رئيسِ (بكسر السين )",
+      "رئيسَ (بفتح السين )",
+      "رئيسُ (بضمِّ السين )"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0315",
+    "question": "يُرفَع الفاعل بالواو إذا كان .......",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُرفَع الفاعل بالواو إذا كان جمع مذكَّرٍ سالمًا.",
+    "options": [
+      "جمع مذكَّرٍ سالمًا",
+      "مفردًا",
+      "مثنَّى"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0316",
+    "question": "أعان الله ....... على فعل الخير.",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "إعراب كلمة (المؤمنِين ) : مفعول به منصوب، وعلامة النصب الياء ) .",
+    "options": [
+      "المؤمنِين",
+      "المؤمنان",
+      "المؤمنون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0317",
+    "question": "سعت ....... في الخير.",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الصواب: سعت المؤمنتان في الخير.",
+    "options": [
+      "المؤمنتان",
+      "المؤمنان",
+      "المؤمنون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0318",
+    "question": "علامة واحدة مما يلي ليست من علامات رفع الفاعل:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "علامات رفع الفاعل هي: الضمة، والألف، والواو.",
+    "options": [
+      "الضمة",
+      "الألف",
+      "الياء"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0319",
+    "question": "يُرفَع الفاعل بالألف إذا كان:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُرفَع الفاعل بالألف إذا كان مثنَّى.",
+    "options": [
+      "مثنَّى",
+      "مفردًا",
+      "جمع مذكَّر سالمًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0320",
+    "question": "التلاميذ أخلصوا العمل. الفاعل في الجملة هو:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "قد يأتي الفاعل ضميرًا متَّصلا.",
+    "options": [
+      "واو الجماعة",
+      "التلاميذ",
+      "ضمير مستتر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0321",
+    "question": "يُرفَع الفاعل بالواو إذا كان .......",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُرفَع الفاعل بالواو إذا كان جمع مذكَّر سالمًا.",
+    "options": [
+      "مفردًا",
+      "جمع مذكَّر سالمًا",
+      "جمع تكسير"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0322",
+    "question": "ما يقع عليه الفعل هو:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "ما يقع عليه الفعل هو المفعول به.",
+    "options": [
+      "المفعول به",
+      "الفاعل",
+      "الظرف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0323",
+    "question": "لا يأتي الفاعل مرفوعًا بـ.......",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الفتحة ليست من علامات إعراب الفاعل.",
+    "options": [
+      "الفتحة",
+      "الضمة",
+      "الألف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0324",
+    "question": "أدَّيتُ واجبي كاملا. الفاعل في هذه الجملة هو .......",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "قد يأتي الفاعل ضميرًا متَّصلا.",
+    "options": [
+      "كلمة (واجبي )",
+      "كلمة ( كاملا )",
+      "التاء في (أدَّيتُ )"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0325",
+    "question": "كلُّ ما يلي مرفوع، ما عدا .......",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alzarf",
+    "hint": "الظرف من المنصوبات.",
+    "options": [
+      "الظرف",
+      "المبتدأ",
+      "الخبر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0326",
+    "question": "المعلِّمة شرحت الدرس بإخلاص. الفاعل في هذه الجملة هو .......",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "تاء التأنيث ليست ضميرًا، ولا تُعرَب فاعلا.",
+    "options": [
+      "التاء في (شرحت )",
+      "كلمة (المعلِّمة )",
+      "ضمير مستتر"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0327",
+    "question": "احتفل بالفوز ....... الفائز.",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "إعراب كلمة (الفريقُ ) : فاعل مرفوع، وعلامة الرفع الألف.",
+    "options": [
+      "الفريقَ (بفتح القاف )",
+      "الفريقِ (بكسر القاف",
+      "الفريقُ (بضمِّ القاف )"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0328",
+    "question": "نجح المجتهد. بتثنية كلمة (المجتهد ) تصبح الجملة:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُرفَع الفاعل بالألف إذا كان مثنَّى.",
+    "options": [
+      "نجح المجتهدان",
+      "نجح المجتهدون",
+      "نجح المجتهدِين"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0329",
+    "question": "يحبُّكَ والداكَ. علامة رفع الفاعل في الجملة (كلمة: والداكَ ) هي:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "كلمة (والداكَ ) مثنَّى، وأصلها: والدان، وهي مرفوعة بالألف.",
+    "options": [
+      "الألف",
+      "الضمة",
+      "الفتحة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0330",
+    "question": "يُرفَع الفاعل بالألف في:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُرفَع الفاعل بالألف في حالةٍ واحدةٍ: إذا كان مثنَّى.",
+    "options": [
+      "حالةٍ واحدةٍ",
+      "حالتَين",
+      "ثلاثَ حالاتٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0331",
+    "question": "حارب المصريِّين اليهودَ يومَ السادس من أكتوبر. إذا كانت كلمة (اليهود ) تُعرَب مفعولا به فإنَّ الكلمة الخطأ في الجملة هي:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُرفَع الفاعل بالواو إذا كان جمع مذكَّر سالمًا.",
+    "options": [
+      "المصريِّين",
+      "حارب",
+      "اليهودَ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0332",
+    "question": "البائعان يتَّصفان بالأمانة. بتحويل الجملة الاسميَّة إلى جملةٍ فعليَّة تصبح:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "إذا جاء الفعل في بداية الجملة فإنَّه يلزم صورة المفرد.",
+    "options": [
+      "يتَّصف البائعان بالأمانة",
+      "يتَّصف البائعَين بالأمانة",
+      "يتَّصفان البائعان بالأمانة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0333",
+    "question": "يصون المسلم الأمانة. بجمع كلمة (المسلم ) جمع مذكَّر سالمًا تصبح الجملة:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُرفَع الفاعل بالواو إذا كان جمع مذكَّر سالمًا.",
+    "options": [
+      "يصون المسلمون الأمانة",
+      "يصون المسلمِين الأمانة",
+      "تصون المسلمات الأمانة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0334",
+    "question": "جملة واحدة مما يلي صحيحة:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الصواب: جلس المسافران (فاعل مرفوع بالألف ) في مقعدَين (اسم مجرور بالياء ) .",
+    "options": [
+      "جلس المسافران في مقعدان",
+      "جلس المسافرَين في مقعدَين",
+      "جلس المسافران في مقعدَين"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0335",
+    "question": "عصى الشياطين الله. كلمة (الشياطين ) : ...........",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "إعراب كلمة (الشياطين ) : فاعل مرفوع، وعلامة الرفع الضمة؛ لأنَّها جمع تكسير.",
+    "options": [
+      "مرفوعة بالضمة",
+      "مرفوعة بالألف؛ لأنَّها مثنَّى",
+      "مجرورة بالياء"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0336",
+    "question": "أكرمني .......",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "إعراب كلمة (المعلِّمون ) : فاعل مرفوع، وعلامة الرفع الواو؛ لأنَّها جمع مذكَّر سالم.",
+    "options": [
+      "المعلِّمون",
+      "المعلِّمِين",
+      "المعلِّمَين"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0337",
+    "question": "الطالب قرأ القصَّة - قرأ الطالب القصَّة.",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "إذا تقدَّم الفاعل على الفعل يُعرَب مبتدأً، ويكون الفاعل ضميرًا مستترًا.",
+    "options": [
+      "الفاعل في الجملة الأولى كلمة (الطالب ) ، وفي الثانية ضمير مستتر",
+      "الفاعل في الجملتَين ضمير مستتر",
+      "الفاعل في الجملة الأولى ضمير مستتر، وفي الثانية كلمة (الطالب )"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0338",
+    "question": "يُرفَع الفاعل بالضمة إذا كان:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُرفَع الفاعل بالضمة إذا كان: مفردًا، أو جمع تكسير، أو جمع مؤنَّث سالمًا.",
+    "options": [
+      "مفردًا، أو جمع تكسير، أو جمع مؤنَّث سالمًا",
+      "مفردًا، أو جمع تكسير، أو مثنَّى",
+      "مفردًا، أو جمع تكسير، أو جمع مذكَّر سالمًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0339",
+    "question": "العاملون أنجزوا المشروع بسرعة. بتحويل هذه الجملة إلى جملة فعليَّة تصبح:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "إذا جاء الفعل في أول الجملة فإنَّه يلزم صورة المفرد.",
+    "options": [
+      "أنجز العاملين المشروع بسرعة",
+      "أنجزوا العاملون المشروع بسرعة",
+      "أنجز العاملون المشروع بسرعة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0340",
+    "question": "اصطاد ....... الطيور. كل ما يلي يصلح فاعلا لهذه الجملة، ما عدا:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الفاعل مرفوع دائمًا.",
+    "options": [
+      "الصَّيَّادَ (بفتح الدال )",
+      "الصَّيَّادون",
+      "الصَّيَّادُ (بضمِّ الدال )"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0341",
+    "question": "قدَّم ....... الفريق مباراة متميِّزةً.",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "إعراب كلمة (لاعبو ) : فاعل مرفوع، وعلامة الرفع الواو؛ لأنَّها جمع مذكَّر سالم، وحُذِفت النون للإضافة.",
+    "options": [
+      "لاعبو",
+      "لاعبوا",
+      "لاعبون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0342",
+    "question": "كلُّ الجمل التالية صحيحة، ما عدا:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُرفَع الفاعل بالواو إذا كان جمع مذكَّر سالمًا.",
+    "options": [
+      "كافأ المعلِّمان المجتهدِين من الطلاب",
+      "كافأ المعلِّمُ المجتهدِين من الطلاب",
+      "كافأ المعلِّمِين المجتهدِين من الطلاب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0343",
+    "question": "يؤدِّي ....... الصلاة. كلُّ الإجابات التالية صحيحة، ما عدا:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "علامات رفع الفاعل هي: الضمة، والألف، والواو.",
+    "options": [
+      "المسلمِين",
+      "المسلمون",
+      "المسلمان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0344",
+    "question": "الفاعل مرفوع بالضمة في كلِّ الجمل التالية ما عدا:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُرفَع الفاعل بالألف إذا كان مثنَّى.",
+    "options": [
+      "نجح الطالبان",
+      "نجح الطالب",
+      "نجح الطلاب"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0345",
+    "question": "حَضَرَ ....... كلُّ ما يلي صحيح ما عدا:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُرفَع الفاعل بالضمة إذا كان جمع تكسير.",
+    "options": [
+      "الطالبُ (بضمِّ الباء )",
+      "الطلابَ (بفتح الباء )",
+      "الطلابُ (بضمِّ الباء )"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0346",
+    "question": "تهتزُّ الغصون على الأشجار. علامة رفع الفاعل (كلمة: الغصون ) هي:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "كلمة (الغصون ) جمع تكسير؛ لأن النون فيها أصلية، وهي مرفوعة بالضمة.",
+    "options": [
+      "الواو",
+      "الضمة",
+      "الفتحة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0347",
+    "question": "أعدنا (الحقوق ) لأصحابها - عادت (الحقوق ) لأصحابها.",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "إعراب كلمة (الحقوق ) في الجملة الأولى: مفعول به منصوب، وعلامة النصب الفتحة، وإعراب كلمة (الحقوق ) في الجملة الثانية: فاعل مرفوع، وعلامة الرفع الضمة.",
+    "options": [
+      "الكلمة الأولى منصوبة، والثانية مرفوعة",
+      "الكلمة الأولى مرفوعة، والثانية منصوبة",
+      "الكلمتان مرفوعتان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0942",
+    "question": "علامات الاسم عند النحاة هي:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "علاماتٌ خمسٌ تميِّز الاسمَ عن الفعل والحرف.",
+    "options": [
+      "الرفع والنصب والجر والجزم",
+      "الجر والتنوين والنداء وأل والإسناد",
+      "التقديم والتأخير والحذف والذكر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0943",
+    "question": "أنفعُ علامات الاسم كما ذكر ابنُ هشامٍ هي:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "أنفعُها ما يدل على اسمية الكلمة ولو لم تقبل باقي العلامات.",
+    "options": [
+      "الإسناد",
+      "التنوين",
+      "دخول أل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0944",
+    "question": "الجرُّ علامةٌ من علامات الاسم، ويقع على:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "يكون الجرُّ بحرف الجر، وبالإضافة، وبالتبعية.",
+    "options": [
+      "وجهين",
+      "أربعة أوجهٍ",
+      "ثلاثة أوجهٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0945",
+    "question": "الجرُّ بالتبعية يكون في أربعة أنواعٍ من التوابع، هي:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "التوابع تتبع ما قبلها في الإعراب.",
+    "options": [
+      "الفاعل والمفعول والحال والتمييز",
+      "النعت والبدل والتوكيد والعطف",
+      "المبتدأ والخبر والاسم والفعل"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0946",
+    "question": "التنوينُ نونٌ ساكنةٌ تلحق آخر الاسم:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "التنوينُ يُنطق ولا يُكتب نونًا.",
+    "options": [
+      "نطقًا لا خطًّا",
+      "خطًّا لا نطقًا",
+      "نطقًا وخطًّا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0947",
+    "question": "من أنواع التنوين المختصة بالأسماء:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "الترنُّم والغالي خاصان بالقوافي لا بالأسماء.",
+    "options": [
+      "تنوين الترنُّم",
+      "تنوين الغالي",
+      "تنوين التمكين"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0948",
+    "question": "تنوينُ المقابلة يختص بـ:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "سُمِّي مقابلةً لأنه يقابل نونَ جمع المذكر السالم.",
+    "options": [
+      "جمع المذكر السالم",
+      "جمع المؤنث السالم",
+      "جمع التكسير"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0949",
+    "question": "قال تعالى: مُسْلِمَاتٍ مُؤْمِنَاتٍ . التنوينُ في (مُسْلِمَاتٍ ) نوعه:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "الكلمةُ جمعُ مؤنثٍ سالمٍ.",
+    "options": [
+      "تنوين المقابلة",
+      "تنوين التمكين",
+      "تنوين العوض"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0950",
+    "question": "وَأَنْتُمْ حِينَئِذٍ تَنْظُرُونَ . التنوينُ في (حِينَئِذٍ ) هو تنوين:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "عُوِّض بالتنوين عن جملةٍ محذوفةٍ.",
+    "options": [
+      "التمكين",
+      "المقابلة",
+      "العوض"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0951",
+    "question": "سُئل أحدُهم فأجاب: كلٌّ مثقفٌ. التنوينُ في (كلٌّ ) عوضٌ عن:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "الأصلُ: كلُّ عضوٍ مثقفٌ، فحُذف المضاف إليه.",
+    "options": [
+      "حرفٍ محذوفٍ",
+      "كلمةٍ محذوفةٍ",
+      "جملةٍ محذوفةٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0952",
+    "question": "دخولُ (أل ) على الكلمة علامةٌ على أنها:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "الحروفُ والأفعالُ لا تقبل (أل ).",
+    "options": [
+      "اسمٌ",
+      "فعلٌ",
+      "حرفٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0953",
+    "question": "قَبولُ الكلمةِ للنداء دليلٌ على أنها:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "لا يُنادى إلا الاسمُ.",
+    "options": [
+      "فعلٌ",
+      "حرفٌ",
+      "اسمٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0954",
+    "question": "الإسنادُ في علامات الاسم معناه:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "أن تُخبر عن الكلمةِ بشيءٍ.",
+    "options": [
+      "الإخبارُ عن الاسم",
+      "جرُّ الاسم بحرفٍ",
+      "لحاقُ التنوين بالاسم"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0955",
+    "question": "حضرتُ اليومَ . (تاءُ الفاعل ) في (حضرتُ ) اسمٌ؛ لأنها قبِلت علامة:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "لا تقبل تاءُ الفاعل تنوينًا ولا جرًّا ولا (أل )، وإنما أُسند إليها الفعلُ.",
+    "options": [
+      "التنوين",
+      "الإسناد",
+      "الجر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0956",
+    "question": "التوكيدُ قسمان، هما:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "أحدُهما يعيد اللفظَ، والآخرُ يستعمل ألفاظًا خاصةً.",
+    "options": [
+      "مذكرٌ ومؤنثٌ",
+      "قريبٌ وبعيدٌ",
+      "لفظيٌّ ومعنويٌّ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0957",
+    "question": "من ألفاظ التوكيد المعنوي الدالة على دفع الشكِّ:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "ألفاظُ الشمول غيرُ ألفاظِ دفعِ الشكِّ.",
+    "options": [
+      "نفس وعين",
+      "كل وجميع",
+      "الذي والتي"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0958",
+    "question": "حفظتُ الشعرَ والنثرَ . نوعُ التابع (النثرَ ) هو:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "توسَّط بينه وبين متبوعه حرفُ عطفٍ.",
+    "options": [
+      "نعتٌ",
+      "معطوفٌ",
+      "بدلٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0959",
+    "question": "أعجبني قولُ الشيخِ عبدِ الرحمنِ . التابعُ (عبدِ الرحمنِ ) نوعه:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "هو المقصودُ بالحكم بلا واسطةٍ، ويوضِّح المتبوعَ قبله.",
+    "options": [
+      "نعتٌ",
+      "توكيدٌ",
+      "بدلٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0960",
+    "question": "هذا موضوعٌ جميلٌ . كلمة (جميلٌ ) تابعٌ نوعه:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "وصفَ المتبوعَ لتوضيح صفته.",
+    "options": [
+      "بدلٌ",
+      "نعتٌ",
+      "توكيدٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0961",
+    "question": "التابعُ دائمًا يتبع المتبوعَ في:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "alesm",
+    "hint": "قاعدةُ التوابع أنها تجري على ما قبلها في الحركة الإعرابية.",
+    "options": [
+      "الإعراب",
+      "المعنى دون الإعراب",
+      "العدد فقط"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0962",
+    "question": "الاسمُ كلمةٌ دلَّت على معنًى في نفسها ولم تقترن بـ:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "ما اقترن بالزمن فهو فعلٌ لا اسمٌ.",
+    "options": [
+      "مكانٍ",
+      "زمنٍ",
+      "عددٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0963",
+    "question": "ينقسم الاسمُ من حيث العددُ إلى:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "قِسمةٌ ثلاثيةٌ مدارُها على الواحد والاثنين وما فوقهما.",
+    "options": [
+      "مفردٍ ومثنًّى وجمعٍ",
+      "مذكرٍ ومؤنثٍ",
+      "نكرةٍ ومعرفةٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0964",
+    "question": "المثنى يُرفع بالألف، ويُنصب ويُجر بـ:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "علامةُ نصبِ المثنى وجرِّه واحدةٌ.",
+    "options": [
+      "الفتحة",
+      "الكسرة",
+      "الياء"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0965",
+    "question": "جمعُ المذكر السالم يُرفع بـ:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "يُرفع بحرفٍ نيابةً عن الضمة.",
+    "options": [
+      "الواو",
+      "الألف",
+      "الضمة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0966",
+    "question": "جاء المعلمون . علامةُ رفعِ (المعلمون ):",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "هو جمعُ مذكرٍ سالمٍ يُرفع بحرفٍ.",
+    "options": [
+      "الضمة",
+      "الواو",
+      "الألف"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0967",
+    "question": "جمعُ المؤنث السالم يُنصب بـ:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "يُنصب بحركةٍ نيابةً عن الفتحة.",
+    "options": [
+      "الفتحة",
+      "الياء",
+      "الكسرة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0968",
+    "question": "كافأتُ المجتهداتِ . علامةُ نصبِ (المجتهداتِ ):",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "هو جمعُ مؤنثٍ سالمٍ يُنصب بالكسرة نيابةً عن الفتحة.",
+    "options": [
+      "الكسرة",
+      "الفتحة",
+      "الياء"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0969",
+    "question": "جمعُ التكسير يُنصب بـ:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "يُعرب بالحركات الأصلية الظاهرة.",
+    "options": [
+      "الكسرة",
+      "الفتحة",
+      "الياء"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0970",
+    "question": "أقسامُ المعرفة عند النحاة عددها:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "منها الضميرُ والعلمُ واسمُ الإشارة والموصولُ والمحلَّى بأل والمضافُ والمنادى.",
+    "options": [
+      "ثلاثة",
+      "خمسة",
+      "سبعة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0971",
+    "question": "أيُّ الأسماء الآتية معرفةٌ؟",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "العَلَمُ من أقسام المعرفة.",
+    "options": [
+      "محمدٌ",
+      "تلميذٌ",
+      "وردةٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0972",
+    "question": "الاسمُ الذي يدل على شيءٍ غيرِ معيَّنٍ يسمى:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "ضدُّه ما دلَّ على شيءٍ معيَّنٍ.",
+    "options": [
+      "معرفةً",
+      "نكرةً",
+      "مشتقًّا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0973",
+    "question": "الاسمُ الجامدُ قسمان، هما:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "أحدُهما يدل على ذاتٍ، والآخرُ على معنًى مجرَّدٍ.",
+    "options": [
+      "مذكرٌ ومؤنثٌ",
+      "مقصورٌ وممدودٌ",
+      "اسمُ ذاتٍ واسمُ معنًى"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0974",
+    "question": "من الأسماء المشتقة:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "المشتقُّ ما أُخذ من غيره وحمل معنى الوصف.",
+    "options": [
+      "اسمُ الفاعل",
+      "اسمُ الإشارة",
+      "الضميرُ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0975",
+    "question": "كلمةُ (مصنع ) اسمٌ مشتقٌّ يدل على:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "الصيغةُ تدل على الموضع الذي يقع فيه الفعلُ.",
+    "options": [
+      "الزمان",
+      "المكان",
+      "الآلة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0976",
+    "question": "الاسمُ الذي آخرُه ألفٌ لازمةٌ مثل (هُدى ) يسمى:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "سُمِّي بذلك لقِصَر آخره على الألف.",
+    "options": [
+      "منقوصًا",
+      "ممدودًا",
+      "مقصورًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0977",
+    "question": "الاسمُ المنقوصُ آخرُه:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "مثالُه: القاضي والداعي والساعي.",
+    "options": [
+      "ياءٌ لازمةٌ مكسورٌ ما قبلها",
+      "ألفٌ لازمةٌ",
+      "همزةٌ قبلها ألفٌ زائدةٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0978",
+    "question": "الاسمُ الممدودُ مثل (سماء ) آخرُه:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "يمتد آخرُه بألفٍ زائدةٍ ثم همزةٍ.",
+    "options": [
+      "ألفٌ مقصورةٌ",
+      "همزةٌ قبلها ألفٌ زائدةٌ",
+      "ياءٌ مشددةٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0979",
+    "question": "عثرتُ على قاضٍ . حُذفت ياءُ (قاضٍ ) لأنه اسمٌ:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "تُحذف ياؤه لفظًا وخطًّا في الرفع والجر عند التنوين.",
+    "options": [
+      "مقصورٌ",
+      "ممدودٌ",
+      "منقوصٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0980",
+    "question": "تُقدَّر الحركاتُ الإعرابيةُ جميعُها على الاسم:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "الألفُ اللازمةُ في آخره تمنع ظهورَ الحركات كلِّها.",
+    "options": [
+      "المقصور",
+      "الممدود",
+      "الصحيح الآخر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0981",
+    "question": "(فاطماتٌ ) و(مسلماتٌ ) مثالان على:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "anwaa_asmaa",
+    "hint": "زِيدَ في آخر المفرد ألفٌ وتاءٌ.",
+    "options": [
+      "جمع التكسير",
+      "جمع المؤنث السالم",
+      "جمع المذكر السالم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0982",
+    "question": "المفعولُ به في الإعراب:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "حكمُه ثابتٌ لا يتغير مهما تغيَّرت علامتُه.",
+    "options": [
+      "مرفوعٌ دائمًا",
+      "منصوبٌ دائمًا",
+      "مجرورٌ دائمًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0983",
+    "question": "ضرب المعلمُ التلميذَ . المفعولُ به هو:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "ابحث عمَّن وقع عليه فعلُ الفاعل.",
+    "options": [
+      "المعلمُ",
+      "ضرب",
+      "التلميذَ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0984",
+    "question": "قصدتُ النهرَ . علامةُ نصبِ (النهرَ ):",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "الاسمُ صحيحُ الآخر تظهر عليه علامةُ النصب.",
+    "options": [
+      "الفتحة الظاهرة",
+      "الفتحة المقدرة",
+      "الكسرة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0985",
+    "question": "ساعدتُ الفتى . علامةُ نصبِ (الفتى ):",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "الألفُ المقصورةُ في آخره تمنع ظهورَ الحركة.",
+    "options": [
+      "الفتحة الظاهرة",
+      "الفتحة المقدرة للتعذر",
+      "الكسرة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0986",
+    "question": "لمحتُ عصفورَينِ . نُصب (عصفورَينِ ) بـ:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "هو مثنًّى يُنصب بحرفٍ.",
+    "options": [
+      "الفتحة",
+      "الكسرة",
+      "الياء"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0987",
+    "question": "أحببتُ أخاكَ . علامةُ نصبِ (أخاكَ ):",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "الكلمةُ من الأسماء الخمسة تُنصب بحرفٍ.",
+    "options": [
+      "الألف",
+      "الفتحة",
+      "الياء"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0988",
+    "question": "رأيتُ طالباتٍ . نُصب (طالباتٍ ) بـ:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "جمعُ المؤنث السالم يُنصب بالكسرة نيابةً عن الفتحة.",
+    "options": [
+      "الفتحة",
+      "الكسرة",
+      "الياء"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0989",
+    "question": "المفعولُ به المعربُ لا يكون إلا:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "المبنيُّ يكون ضميرًا أو اسمَ إشارةٍ أو موصولًا.",
+    "options": [
+      "مبنيًّا",
+      "ضميرًا",
+      "ظاهرًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0990",
+    "question": "المعلمُ نصحني . المفعولُ به في (نصحني ) هو:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "النونُ للوقاية، وما بعدها هو المفعولُ به.",
+    "options": [
+      "ياءُ المتكلم",
+      "المعلمُ",
+      "نونُ الوقاية"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0991",
+    "question": "إِيَّاكَ نَعْبُدُ . (إِيَّاكَ ) تُعرب:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "ضميرٌ منفصلٌ تقدَّم في محل نصبٍ.",
+    "options": [
+      "فاعلًا",
+      "مفعولًا به",
+      "مبتدأً"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0992",
+    "question": "الضميرُ (إيا ) في نحو (إياكِ أعني ) ضميرٌ:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "ينفصل عن عامله ويُنطق وحده.",
+    "options": [
+      "متصلٌ",
+      "مستترٌ",
+      "منفصلٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0993",
+    "question": "أكرمتُ الذي زارني . المفعولُ به (الذي ) نوعه:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "لفظٌ يحتاج إلى صلةٍ تُوضِّح معناه.",
+    "options": [
+      "اسمٌ موصولٌ",
+      "اسمُ إشارةٍ",
+      "ضميرٌ منفصلٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0994",
+    "question": "ضربتُ هذا الغلامَ . المفعولُ به (هذا ) نوعه:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "لفظٌ يُشار به إلى معيَّنٍ.",
+    "options": [
+      "اسمٌ موصولٌ",
+      "اسمُ إشارةٍ",
+      "ضميرٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0995",
+    "question": "طلبتُ من التلميذ أن يراجعَ دروسه . المفعولُ به هنا:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "(أن ) والفعلُ بعدها في تأويل مصدرٍ.",
+    "options": [
+      "ضميرٌ متصلٌ",
+      "اسمُ إشارةٍ",
+      "مصدرٌ مؤوَّلٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0996",
+    "question": "المفعولُ به المبنيُّ يكون ضميرًا:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "الضميرُ نوعان بحسب اتصاله بعامله.",
+    "options": [
+      "متصلًا أو منفصلًا",
+      "مرفوعًا فقط",
+      "ظاهرًا فقط"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0997",
+    "question": "احترمتُ القاضِينَ . نُصب (القاضِينَ ) بالياء لأنه:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "دلَّ على أكثرَ من اثنين بزيادةٍ سالمةٍ في آخره.",
+    "options": [
+      "مثنًّى",
+      "جمعُ مذكرٍ سالمٍ",
+      "من الأسماء الخمسة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0998",
+    "question": "المفعولُ به في الجملة الفعلية يأتي في الأصل بعد:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "أصلُ الترتيب: فعلٌ ثم فاعلٌ ثم مفعولٌ.",
+    "options": [
+      "الحرف",
+      "المبتدأ",
+      "الفاعل"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0999",
+    "question": "رأيتُ المحاميَ . علامةُ نصبِ (المحاميَ ):",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "الفتحةُ خفيفةٌ فتظهر على الياء في حالة النصب.",
+    "options": [
+      "الفتحة الظاهرة",
+      "الفتحة المقدرة",
+      "الكسرة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1000",
+    "question": "قد يتقدَّم المفعولُ به على فعله وفاعله، كما في:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "ابحث عن جملةٍ بدأت بضميرِ نصبٍ منفصلٍ.",
+    "options": [
+      "حضر الطلابُ",
+      "إياهما أكرمتُ",
+      "ذهب المعلمُ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1001",
+    "question": "أيُّ الجمل الآتية تشتمل على مفعولٍ به؟",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "mafool_bh",
+    "hint": "المفعولُ به لا يكون إلا مع فعلٍ متعدٍّ يقع أثرُه على غيره.",
+    "options": [
+      "نام الطفلُ",
+      "طلعت الشمسُ",
+      "كتب الولدُ الدرسَ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1002",
+    "question": "اسمُ الإشارة اسمٌ معرفةٌ يدل على:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "يُعيَّن به المشارُ إليه بإشارةٍ حسيةٍ.",
+    "options": [
+      "شيءٍ معيَّنٍ مشارٍ إليه",
+      "شيءٍ غيرِ معيَّنٍ",
+      "زمنِ وقوعِ الحدث"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1003",
+    "question": "للإشارة إلى المكان القريب نستعمل:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "تبدأ بالهاء وتدل على قُربِ الموضع.",
+    "options": [
+      "هناك",
+      "هنا",
+      "هنالك"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1004",
+    "question": "للإشارة إلى المكان البعيد نستعمل:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "ومثلُها: ثَمَّ وثَمَّةَ.",
+    "options": [
+      "هنا",
+      "هاهنا",
+      "هنالك"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1005",
+    "question": "الحرفُ الذي يُجاء به لتنبيه المخاطب في (هذا ) و(هؤلاء ) هو:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "يتقدَّم اسمَ الإشارة لينبِّه السامعَ إلى المشار إليه.",
+    "options": [
+      "هاءُ التنبيه",
+      "همزةُ الوصل",
+      "نونُ الوقاية"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1006",
+    "question": "هاءُ التنبيه في (هذا ) تُعرب:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "هي حرفٌ لا يقع منه موقعُ الأسماء في الإعراب.",
+    "options": [
+      "اسمَ إشارةٍ",
+      "حرفًا لا محل له من الإعراب",
+      "ضميرًا متصلًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1007",
+    "question": "للإشارة إلى المثنى المذكر المتوسط نستعمل:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "أسماءُ المتوسط تلحقها كافُ الخطاب دون لامٍ.",
+    "options": [
+      "هذان",
+      "ذلك",
+      "ذانك"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1008",
+    "question": "للإشارة إلى المفرد المذكر البعيد نستعمل:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "يلحقه اللامُ والكافُ للدلالة على البُعد.",
+    "options": [
+      "ذلك",
+      "ذا",
+      "ذان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1009",
+    "question": "للإشارة إلى المفردة المؤنثة البعيدة نستعمل:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "قال تعالى: تِلْكَ أُمَّةٌ قَدْ خَلَتْ.",
+    "options": [
+      "ذلك",
+      "تلك",
+      "هذه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1010",
+    "question": "جميعُ أسماء الإشارة مبنيةٌ، ويُستثنى من ذلك:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "ما دلَّ على المثنى منها يُعرب إعرابَ المثنى.",
+    "options": [
+      "ذلك وتلك",
+      "هذا وهذه",
+      "هذان وهاتان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1011",
+    "question": "هَٰذَانِ خَصْمَانِ اخْتَصَمُوا . إعرابُ (هذان ):",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "يُعرب إعرابَ المثنى فيُرفع بالألف.",
+    "options": [
+      "مبتدأ مرفوع بالألف",
+      "مبتدأ مبني على السكون",
+      "فاعل مرفوع بالضمة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1012",
+    "question": "قال تعالى: تِلْكَ أُمَّةٌ قَدْ خَلَتْ . (تِلْكَ ) اسمُ إشارةٍ مبنيٌّ في محل:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "وقع في أول الجملة الاسمية مخبَرًا عنه.",
+    "options": [
+      "نصبٍ",
+      "رفعٍ",
+      "جرٍّ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1013",
+    "question": "قال تعالى: فَذَانِكَ بُرْهَانَانِ . (ذانك ) اسمُ إشارةٍ للـ:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "دلَّ على اثنين بقرينة (برهانان ).",
+    "options": [
+      "مفرد",
+      "جمع",
+      "مثنى"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1014",
+    "question": "تسقط هاءُ التنبيه وجوبًا مع اسم الإشارة:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "هو المفردُ المذكرُ البعيدُ الذي فيه لامٌ وكافٌ.",
+    "options": [
+      "ذلك",
+      "هذا",
+      "هؤلاء"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1015",
+    "question": "للجمع (مذكرًا كان أو مؤنثًا ) نستعمل من أسماء الإشارة:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "يُشار بها إلى الجماعة قريبةً كانت أو بعيدةً.",
+    "options": [
+      "ذان",
+      "أولاء",
+      "تان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1016",
+    "question": "قال تعالى: أُولَٰئِكَ عَلَىٰ هُدًى . (أولئك ) اسمُ إشارةٍ يدل على:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "لفظٌ واحدٌ يُشار به إلى جماعةٍ.",
+    "options": [
+      "مفردٍ مذكرٍ",
+      "مثنًّى مؤنثٍ",
+      "جمعٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1017",
+    "question": "الفرقُ بين (ذاك ) و(ذلك ) أن الأول للـ:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "زيادةُ اللام في الثاني تدل على زيادة البُعد.",
+    "options": [
+      "المتوسط والثاني للبعيد",
+      "البعيد والثاني للقريب",
+      "القريب والثاني للمتوسط"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1018",
+    "question": "للإشارة إلى المكان المتوسط نستعمل:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "تلحقها كافُ الخطاب دون لامٍ.",
+    "options": [
+      "هنا",
+      "هناك",
+      "هنالك"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1019",
+    "question": "(هذا – هذان – هؤلاء ) كلُّها أسماءُ إشارةٍ للـ:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "خلَت من كاف الخطاب واللام الدالَّتين على البُعد.",
+    "options": [
+      "البعيد",
+      "المتوسط",
+      "القريب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1020",
+    "question": "رأيتُ هاتين الفتاتين . (هاتين ) اسمُ إشارةٍ منصوبٌ بـ:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "يُعرب إعرابَ المثنى فيُنصب بحرفٍ.",
+    "options": [
+      "الياء",
+      "الفتحة",
+      "الكسرة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1021",
+    "question": "أسماءُ الإشارة (هنا – هناك – هنالك ) تدل على:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الأول",
+    "lessonId": "esm_eshara",
+    "hint": "تختص بالإشارة إلى الموضع لا إلى الذات.",
+    "options": [
+      "الزمان",
+      "المكان",
+      "العدد"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1022",
+    "question": "نائبُ الفاعل اسمٌ مرفوعٌ حلَّ محلَّ:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يأخذ أحكامَ ما حُذف بعد بناء الفعل للمجهول.",
+    "options": [
+      "الفاعل المحذوف",
+      "المفعول به",
+      "المبتدأ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1023",
+    "question": "عند بناء الفعل الماضي للمجهول:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "مثالُه: ضُرِب، أُكِل، قُرِئ.",
+    "options": [
+      "يُفتح أولُه ويُضم آخرُه",
+      "يُضم أولُه ويُكسر ما قبل آخره",
+      "يُكسر أولُه ويُفتح آخرُه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1024",
+    "question": "أكل محمدٌ الطعامَ . عند بنائها للمجهول تصير:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يُحذف الفاعلُ ويُقام المفعولُ به مقامَه.",
+    "options": [
+      "أَكَل الطعامُ",
+      "أُكِل محمدٌ",
+      "أُكِل الطعامُ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1025",
+    "question": "عند بناء الفعل المضارع للمجهول:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "مثالُه: يُعاقَب، يُؤجَر، يُكرَّم.",
+    "options": [
+      "يُضم أولُه ويُفتح ما قبل آخره",
+      "يُضم أولُه ويُكسر ما قبل آخره",
+      "يُفتح أولُه ويُكسر آخرُه"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1026",
+    "question": "يُعاقَب المجرمُ . بُني الفعلُ (يُعاقَب ) للمجهول بضمِّ أوله وجعلِ ما قبل آخره:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "المضارعُ المبنيُّ للمجهول يُفتح ما قبل آخره.",
+    "options": [
+      "مكسورًا",
+      "مفتوحًا",
+      "ساكنًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1027",
+    "question": "ضُرب الغلامُ . نائبُ الفاعل في الجملة هو:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الاسمُ المرفوعُ بعد الفعل المبني للمجهول.",
+    "options": [
+      "ضُرب",
+      "محذوفٌ",
+      "الغلامُ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1028",
+    "question": "أُكِل . نائبُ الفاعل في هذا الفعل:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "لم يَظهر لفظًا، فهو مقدَّرٌ يعود على معلومٍ من السياق.",
+    "options": [
+      "ضميرٌ مستترٌ تقديره هو",
+      "التاء",
+      "محذوفٌ لا نائب له"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1029",
+    "question": "ضُربتُ . التاءُ في (ضُربتُ ) تُعرب:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الفعلُ مبنيٌّ للمجهول، فما بعده قائمٌ مقامَ الفاعل.",
+    "options": [
+      "فاعلًا",
+      "نائبَ فاعلٍ",
+      "مفعولًا به"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1030",
+    "question": "نائبُ الفاعل في الإعراب:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "أخذ حكمَ الفاعل الذي ناب عنه.",
+    "options": [
+      "منصوبٌ",
+      "مجرورٌ",
+      "مرفوعٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1031",
+    "question": "قُرِئ القرآنُ . الفعلُ (قُرِئ ) يسمى:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "حُذف فاعلُه فضُمَّ أولُه وكُسِر ما قبل آخره.",
+    "options": [
+      "مبنيًّا للمجهول",
+      "مبنيًّا للمعلوم",
+      "لازمًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1032",
+    "question": "عُوقب المجرمون . علامةُ رفعِ نائب الفاعل (المجرمون ):",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "نائبُ الفاعل هنا جمعُ مذكرٍ سالمٍ.",
+    "options": [
+      "الضمة",
+      "الواو",
+      "الألف"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1033",
+    "question": "ضُرب الولدان . نائبُ الفاعل (الولدان ) مرفوعٌ بـ:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "نائبُ الفاعل هنا مثنًّى.",
+    "options": [
+      "الضمة",
+      "الواو",
+      "الألف"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1034",
+    "question": "يحتاج نائبُ الفاعل دائمًا إلى فعلٍ:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "لا يُقام نائبُ الفاعل إلا بعد حذف الفاعل وتغيير صيغة الفعل.",
+    "options": [
+      "مبنيٍّ للمجهول",
+      "لازمٍ",
+      "ناقصٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1035",
+    "question": "الفاعلُ اسمٌ مرفوعٌ يدل على:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "قد يقع منه الفعلُ حقيقةً أو يقترن به فحسب.",
+    "options": [
+      "من وقع عليه الفعلُ",
+      "من وقع منه الفعلُ أو اقترن به",
+      "زمنِ وقوعِ الفعل"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1036",
+    "question": "مرض محمدٌ . عُدَّ (محمدٌ ) فاعلًا وإن لم يقع منه الفعلُ بإرادته؛ لأنه:",
+    "difficulty": "hard",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الفاعلُ قد يقترن به الفعلُ دون أن يصدر عنه قصدًا.",
+    "options": [
+      "وقع عليه الفعلُ",
+      "حلَّ محلَّ المحذوف",
+      "اقترن به الفعلُ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1037",
+    "question": "ضربنا الكرةَ . الفاعلُ في (ضربنا ) هو:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "ضميرٌ متصلٌ مبنيٌّ في محل رفعٍ.",
+    "options": [
+      "(نا )",
+      "الكرةُ",
+      "ضميرٌ مستترٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1038",
+    "question": "ضربتُ . الفاعلُ في هذا الفعل هو:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "ضميرٌ متصلٌ في محل رفعٍ يدل على المتكلم.",
+    "options": [
+      "ضميرٌ مستترٌ",
+      "التاء",
+      "محذوفٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1039",
+    "question": "ينقسم الفاعلُ إلى:",
+    "difficulty": "easy",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "أحدُهما يظهر لفظًا، والآخرُ ضميرٌ.",
+    "options": [
+      "ماضٍ ومضارعٍ",
+      "معربٍ ومبنيٍّ",
+      "ظاهرٍ ومضمرٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1040",
+    "question": "ضُرب أخوك . نائبُ الفاعل (أخوك ) مرفوعٌ بـ:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "نائبُ الفاعل هنا من الأسماء الخمسة.",
+    "options": [
+      "الواو",
+      "الضمة",
+      "الألف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1041",
+    "question": "بُعثتُ . هذا فعلٌ مبنيٌّ للمجهول، ونائبُ الفاعل فيه:",
+    "difficulty": "medium",
+    "stage": "primary",
+    "mClass": "الثاني",
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الضميرُ المتصلُ في آخره قام مقامَ الفاعل المحذوف.",
+    "options": [
+      "محذوفٌ",
+      "التاء (ضميرٌ متصلٌ )",
+      "مستترٌ"
+    ],
+    "correctIndex": 1
+  }
+]

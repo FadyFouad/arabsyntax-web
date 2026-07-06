@@ -1,0 +1,1937 @@
+[
+  {
+    "questionID": "0002",
+    "question": "النعت السببي يتبع ماقبله في التذكير والتأنيث كالنعت الحقيقي",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alnaat",
+    "hint": "النعت السببي يتبع ما بعده في التذكير والتأنيث، ويتبع ما قبله في الإعراب والتعريف والتنكير.",
+    "options": [
+      "صح",
+      "خطأ",
+      "؟؟"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0006",
+    "question": "الحمدُ للهِ الحميدَ هو :الحميد",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alnaat",
+    "hint": "الصواب هو: نعت حقيقي",
+    "options": [
+      "توكيد معنوي",
+      "نعت حقيقي",
+      "نعت سببي"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0007",
+    "question": "العطف بالفاء يفيد الترتيب والتعقيب",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alatf",
+    "hint": "العطف بالفاء يفيد",
+    "options": [
+      "مطلق الجمع",
+      "الترتيب والتعقيب",
+      "الترتيب والتراخي"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0014",
+    "question": "يجر الممنوع من الصرف بالكسره اذا كان",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "الممنوع من الصرف يجر بالفتحة نيابة عن الكسرة، إلا إذا أضيف أو عُرف بـ (أل) فإنه يجر بالكسرة كالأصل.",
+    "options": [
+      "معرَّفًا بأل",
+      "غير معرَّفٍ بأل",
+      "جمعا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0015",
+    "question": "من الأسماء التي همزتها همزه وصل",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "مصادر الأفعال الخماسية والسداسية تبدأ بهمزة وصل (مثل: انطلاق، استخراج)، بينما مصادر الرباعي تبدأ بهمزة قطع.",
+    "options": [
+      "مصدر الفعل الثلاثي",
+      "مصدر الفعل الرباعي",
+      "مصدر الفعل الخماسي"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0016",
+    "question": "عسى : لا يجوز صياغة فعل التعجب منه لأنه",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "aqsam_alfeal",
+    "hint": "يُشترط في الفعل الذي يُصاغ منه التعجب أن يكون متصرفاً، و(عسى) فعل ماضٍ جامد يلزم صيغة واحدة ولا يأتي منه مضارع أو أمر.",
+    "options": [
+      "ليس بفعل",
+      "فعل جامد",
+      "فعل متصرف"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0017",
+    "question": "الكلمه التي آخرها تاء متحركه وليست من جمع المؤنث السالم نحو:شجره:يوقف عليها",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": null,
+    "hint": "التاء المربوطة يُوقف عليها بالهاء الساكنة لتمييزها عن التاء المفتوحة في لغة العرب.",
+    "options": [
+      "بالتاء على الوجه الكثير الفصيح",
+      "بالهاء على الوجه الكثير الفصيح",
+      "بالتاء وجوبا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0018",
+    "question": "الاسم المنقوص غير المنون نحو:القاضي:يوقف عليه بحاله الرفع والجر",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "إذا كان الاسم المنقوص معرفاً بـ (أل) أو مضافاً (أي غير منون)، تثبت ياؤه عند الوقف في جميع الحالات.",
+    "options": [
+      "بحذف الياء وجوبا",
+      "بحذف الياء على الوجه الكثير الفصيح",
+      "بإثبات الياء على الوجه الكثير الفصيح"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0019",
+    "question": "الاسم المشتق الذي يكمل متبوعه ببيان صفه من صفاته",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alnaat",
+    "hint": "النعت (الصفة) هو التابع المشتق الذي يوضح صفة من صفات متبوعه (المنعوت).",
+    "options": [
+      "توكيدًا",
+      "بدلًا",
+      "نعتًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0020",
+    "question": "من أغراض النعت التخصيص، وذلك اذا كان المنعوت",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alnaat",
+    "hint": "النعت يفيد التوضيح إذا كان المنعوت معرفة، ويفيد التخصيص وتقليل الاشتراك إذا كان المنعوت نكرة.",
+    "options": [
+      "معرفه",
+      "نكره",
+      "معرفه أو نكره"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0022",
+    "question": "جاء محمد محمد - محمد الثانيه",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "altawkeed",
+    "hint": "التوكيد اللفظي يكون بتكرار اللفظ بعينه، اسماً كان أو فعلاً أو حرفاً، بغرض تقرير المعنى.",
+    "options": [
+      "بدل",
+      "معطوف",
+      "توكيد لفظي"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0023",
+    "question": "من شروط التوكيد بكلاوكلتا:أن يكون المؤكد",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "altawkeed",
+    "hint": "(كلا) و(كلتا) تستخدمان لتوكيد المثنى المذكر والمؤنث على الترتيب، ويجب أن يسبقهما المؤكد وأن تضافا إلى ضمير يعود عليه.",
+    "options": [
+      "مفردا",
+      "مثنى",
+      "جمعا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0024",
+    "question": "أجمعين في قوله: لأغوينهم أجمعين",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "altawkeed",
+    "hint": "(أجمعين) من ألفاظ التوكيد المعنوي التي تأتي لتقوية الكلام ودفع الشك وإفادة الشمول.",
+    "options": [
+      "بدل",
+      "توكيد لفظي",
+      "توكيد معنوي"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0025",
+    "question": "الحمدلله الحميد :الحميد",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alnaat",
+    "hint": "(الحميد) تصف لفظ الجلالة وتتبعه في الإعراب والتعريف والنوع والعدد، فهو نعت حقيقي.",
+    "options": [
+      "توكيد معنوي",
+      "نعت حقيقي",
+      "نعت سببي"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0026",
+    "question": "العطف بالفاء يفيد",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alatf",
+    "hint": "الفاء تفيد الترتيب مع التعقيب (أي تتابع وقوع الأحداث بلا مهلة زمنية طويلة بين المعطوف والمعطوف عليه).",
+    "options": [
+      "مطلق الجمع",
+      "الترتيب والتعقيب",
+      "الترتيب والتراخي"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0027",
+    "question": "حرف العطف أو في قولك:جالس العلماء أو الصالحين: يفيد",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alatf",
+    "hint": "(أو) هنا تفيد الإباحة؛ لأنه يجوز لك مجالسة أي منهما ويجوز لك الجمع بينهما دون حرج.",
+    "options": [
+      "الشك",
+      "التخيير",
+      "الإباحه"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0028",
+    "question": "أعجبني الشيخ علمه: علمه",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "albadal",
+    "hint": "العلم مما يشتمل عليه المبدل منه (الشيخ) وليس جزءاً مادياً حقيقياً منه يمكن فصله، لذا فهو بدل اشتمال.",
+    "options": [
+      "بدل مطابق",
+      "بدل اشتمال",
+      "بدل بعض"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0029",
+    "question": "من الأعداد التي تطابق المعدود في التذكير والتأنيث",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "altameez",
+    "hint": "العددان (1) و (2) يوافقان المعدود تذكيراً وتأنيثاً دائماً، في الإفراد والتركيب والعطف.",
+    "options": [
+      "الثلاثه والسبعه ومابينهما",
+      "الثلاثه والتسعة ومابينهما",
+      "الواحد والاثنان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0030",
+    "question": "اشتريت ست سيارات",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "altameez",
+    "hint": "الجملة صحيحة لأن (سيارات) مفردها (سيارة) وهي مؤنث، والعدد (6) يخالف المعدود فيأتي مذكراً (ست).",
+    "options": [
+      "صح",
+      "خطأ",
+      "؟؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0031",
+    "question": "عندي...كتابا",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "altameez",
+    "hint": "(كتاباً) مذكر. في العدد المركب (13-19): الجزء الأول يخالف (ثلاثة مؤنث)، والجزء الثاني يوافق (عشر مذكر).",
+    "options": [
+      "ثلاث عشرة",
+      "ثلاثة عشرة",
+      "ثلاثة عشر"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0032",
+    "question": "كلمه(حبلى:ممنوعة من الصرف وعلَّة منعها",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "الأسماء المختومة بألف التأنيث المقصورة (كـ حبلى) أو الممدودة (كـ صحراء) تُمنع من الصرف لعلة واحدة تقوم مقام علتين.",
+    "options": [
+      "العلميه والتأنيث",
+      "الوصفيه والتأنيث",
+      "كونها مختومه بألف التأنيث"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0038",
+    "question": "من الأفعال التي همزتها همزه قطع",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "الفعل الماضي الثلاثي المبدوء بهمزة تكون همزته همزة قطع (مثل: أكل، أخذ، أمر).",
+    "options": [
+      "الفعل الماضي الخماسي",
+      "الفعل الماضي الثلاثي",
+      "الفعل الماضي السداسي"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0039",
+    "question": "الفعل: يقول: فيه",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alealaal",
+    "hint": "الأصل (يَقْوُلُ)، استُثقلت الضمة على الواو فنُقلت حركتها إلى الحرف الصحيح الساكن قبلها (القاف) فصارت (يَقُولُ).",
+    "options": [
+      "إعلال بالنقل",
+      "إعلال بالحذف",
+      "إعلال بالقلب"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0040",
+    "question": "الفعل: يعد:فيه",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alealaal",
+    "hint": "الأصل (يَوْعِدُ)، حُذفت الواو لوقوعها بين عدوتيها: ياء مفتوحة وكسرة.",
+    "options": [
+      "إعلال بالنقل",
+      "إعلال بالحذف",
+      "إعلال بالقلب"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0041",
+    "question": "تكون الجمل على نوعين",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "aqsam_kalam",
+    "hint": "الجملة المفيدة في اللغة العربية نوعان رئيسيان: تبدأ باسم فتكون اسمية، أو تبدأ بفعل فتكون فعلية.",
+    "options": [
+      "اسميه وفعليه",
+      "فعل وفاعل",
+      "مبتدأ وخبر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0042",
+    "question": "تتكون الجمله الاسميه من ركنين",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "الركنان الأساسيان اللذان يقومان عليهما معنى الجملة الاسمية هما المبتدأ والخبر.",
+    "options": [
+      "فعل وفاعل",
+      "مفعول به و مفعول مطلق",
+      "مبتدأ وخبر"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0043",
+    "question": "اركان الجمله الفعليه هم",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "لا توجد جملة فعلية تامة بدون فعل وفاعل، فهما ركناها الأساسيان.",
+    "options": [
+      "مبتدأ و خبر",
+      "فعل وفاعل",
+      "مفعول به مفعول مطلق"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0044",
+    "question": "لفظ الذي يدل على حدث مقترن بزمن معين .. تعريف",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "aqsam_kalam",
+    "hint": "الفعل هو الكلمة التي تدل على حدث ارتبط بزمن محدد (ماضٍ، مضارع، أمر).",
+    "options": [
+      "الفعل",
+      "الفاعل",
+      "الظرف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0045",
+    "question": "هو مايسند إليه الفعل سواء قام بالفعل ام لم يقم به ..تعريف",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الفاعل هو الاسم المرفوع الذي تقدمه فعل مبني للمعلوم، ودل على من فعل الفعل أو اتصف به.",
+    "options": [
+      "الفعل",
+      "الفاعل",
+      "الظرف"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0046",
+    "question": "هي الجملة التي تبدأ بفعل تام(ليس من كان وأخواتها)",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الجملة التي تتصدر بفعل تام تُسمى جملة فعلية، وتتكون من فعل وفاعل.",
+    "options": [
+      "جمله أسميه",
+      "جمله خاطئه",
+      "جمله فعليه"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0047",
+    "question": "كتَبَ في جمله \" كَتَبَ احمد الدرس\"",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "كلمة دلت على حدث (الكتابة) مقترن بالزمن الماضي، فهي فعل.",
+    "options": [
+      "فاعل",
+      "فعل",
+      "مبتدأ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0048",
+    "question": "الفاعل في جمله \" وقتل داوودُ جالوتَ\"",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الفاعل هو من قام بفعل القتل وأُسند إليه الفعل، وهو (داوودُ).",
+    "options": [
+      "جالوت",
+      "ضمير مستتر",
+      "داوود"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0049",
+    "question": "الفاعل في جمله \" مات الرجل \"",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الفاعل هنا لم يقم بالفعل بل اتصف به وأُسند إليه، وهو (الرجل).",
+    "options": [
+      "مات",
+      "الرجل",
+      "ضمير مستتر تقديره هو."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0050",
+    "question": "الفاعل دائما يكون :",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "حكم الفاعل الإعرابي هو الرفع دائماً، سواء بالضمة أو بما ينوب عنها.",
+    "options": [
+      "منصوب",
+      "مجرور",
+      "مرفوع"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0051",
+    "question": "في قولنا \" نجح الطالبُ\" تعرف الطالبُ:",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "(الطالب) اسم مفرد، وعلامة رفع الاسم المفرد الصحيح الآخر هي الضمة الظاهرة.",
+    "options": [
+      "فاعل مرفوع وعلامة رفعه الألف لأنه مثنى",
+      "فاعل مرفوع وعلامة رفعه الواو لأنه من الأسماء الخمسة.",
+      "فاعل مرفوع وعلامة رفعه الضمة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0052",
+    "question": "في قولنا \" نجح الطالبآن\" تعرب الطالبان:",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الفاعل هنا مثنى، والمثنى يُرفع بالألف نيابة عن الضمة.",
+    "options": [
+      "فاعل مرفوع وعلامة رفعه الألف لأنه مثنى",
+      "فاعل مرفوع وعلامة رفعه الواو لأنه من الأسماء الستة.",
+      "فاعل مرفوع وعلامة رفعه الضمة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0053",
+    "question": "في قولنا \"لايفشل ذو علم \" تعرب ذو",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "asmaa_khamsa",
+    "hint": "كلمة (ذو) من الأسماء الخمسة، وهي تُرفع بالواو نيابة عن الضمة.",
+    "options": [
+      "فاعل مرفوع وعلامة رفعه الألف لأنه مثنى",
+      "فاعل مرفوع وعلامة رفعه الواو لأنه من الأسماء الخمسه.",
+      "فاعل مرفوع وعلامة رفعه الضمة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0054",
+    "question": "في قولنا \"انتصر المسلمون\" تعرب المسلمون :",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "جمع المذكر السالم يُرفع بالواو نيابة عن الضمة.",
+    "options": [
+      "فاعل مرفوع وعلامة رفعه الواو لأنه من الأسماء الخمسة.",
+      "فاعل مرفوع وعلامة رفعه الضمة",
+      "فاعل مرفوع وعلامة رفعه الواو لأنه جمع مذكر سالم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0055",
+    "question": "الفاعل لا يأتي \"......\" أبدا",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الفاعل يأتي اسماً ظاهراً أو ضميراً أو مصدراً مؤولاً، ولكنه لا يقع جملة أو شبه جملة مطلقاً.",
+    "options": [
+      "جمله",
+      "حرف",
+      "أسم"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0056",
+    "question": "الفاعل دائما",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الفاعل إما أن يكون اسماً صريحاً (ظاهراً أو ضميراً) أو مؤولاً بالصريح (مثل: أن والفعل).",
+    "options": [
+      "اسم ظاهر أو مصدر مؤول",
+      "اسم جمع أو مصدر مؤول",
+      "اسم مفرد او مصدر مؤول"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0057",
+    "question": "\"يسرني ان تزورني\" المصدر المؤول \"أن\" والفعل \"تزور\" في محل",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "تقدير الكلام (يسرني زيارتُك)، فالمصدر المؤول أخذ الموقع الإعرابي للفاعل المرفوع.",
+    "options": [
+      "جر فاعل",
+      "نصب فاعل",
+      "رفع فاعل"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0058",
+    "question": "\"يسعدني انك ناجحٌ\" المصدر المؤول هنا هو",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "المصدر المؤول يتكون هنا من الحرف المصدري المشبه بالفعل (أنّ) مع اسمها (الكاف) وخبرها (ناجح) بتقدير: يسعدني نجاحُك.",
+    "options": [
+      "أن واسمها وخبرها",
+      "أن فقط",
+      "ناجح"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0059",
+    "question": "\"تُشفيني لا إله إلا الله \" فـ \"لا إله إلا الله\" تعرب كامله",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الجملة بأكملها مقصودة كلفظ (الحكاية)، وتُعرب إعراب الكلمة الواحدة في محل رفع فاعل.",
+    "options": [
+      "فاعل مرفوع وعلامه رفعه الضمه المقدره",
+      "فاعل مفرفوع ولا علامه رفعه الضمه الظاهره",
+      "فاعل مرفوع وعلامه رفعه الضمه منع من ظهورها الحكايه"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0060",
+    "question": "قد يجر الفاعل بحرف جر زائد فيكون",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "حرف الجر الزائد يؤثر في حركة اللفظ الظاهر (فيجعله مجروراً) لكن الموقع الإعرابي الأصلي يبقى للفاعل (مرفوع محلاً).",
+    "options": [
+      "مجرور لفظا مرفوع محلا",
+      "مجرور محلا مرفوع لفظا",
+      "مجرور لفظا فقط"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0061",
+    "question": "أحد في جمله \" ما جاءنا من احد\"",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "(مِن) حرف جر زائد للتوكيد، و(أحد) فاعل مجرور باللفظ ولكنه في محل رفع.",
+    "options": [
+      "فاعل مجرور لفظا ومحلا",
+      "فاعل مرفوع",
+      "فاعل مجرور لفظا مرفوع محلا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0062",
+    "question": "زيد في جمله \" اكرم بزيد\"",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الباء حرف جر زائد في صيغة التعجب (أفعل بـ)، وما بعدها يُعرب فاعلاً مجرور اللفظ مرفوع المحل.",
+    "options": [
+      "فاعل مجرور لفظا ومحلا",
+      "فاعل مرفوع",
+      "فاعل مجرور لفظا مرفوع محلا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0063",
+    "question": "الفاعل ..",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الفاعل ركن عمدة في الجملة الفعلية ولا يمكن الاستغناء عنه نحوياً، وإذا لم يكن ظاهراً فهو ضمير مستتر.",
+    "options": [
+      "لايحذف مطلقا",
+      "لا يرفع مطلقا",
+      "يحذف مطلقا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0064",
+    "question": "اذا حذف الفاعل فأنه يحذف لعه",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "قد يُحذف الفاعل في بعض التراكيب لأغراض بلاغية أو لفظية (صوتية) وينوب عنه نائب الفاعل أو يُستتر.",
+    "options": [
+      "نحويه",
+      "صوتيه",
+      "جهريه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0065",
+    "question": "الفاعل لا",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "إذا تقدم الفاعل على فعله، لم يعد فاعلاً بل أصبح المتقدم مبتدأ والجملة الفعلية بعده خبراً له.",
+    "options": [
+      "يتأخر عن فعله",
+      "يتقدم عن فعله",
+      "يحذف عن فعله"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0066",
+    "question": "إذا تقدم الفاعل على الفعل",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "نظام الجملة يتغير؛ الاسم المرفوع في الصدارة يُعرب مبتدأ، والجملة الفعلية بعده تُعرب خبراً.",
+    "options": [
+      "صار مبتدأ والفعل خبرا عنه",
+      "صار خبرا والفعل مبتدأ عنه",
+      "صار منصوربا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0067",
+    "question": "كلمه الحقّ في \"يعلو الحقُّ\"",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "لأنها جاءت بعد الفعل وأُسند إليها حدث العلو.",
+    "options": [
+      "فاعل",
+      "فعل",
+      "اسم"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0068",
+    "question": "كلمه الحقّ في \"الحق يعلو\"",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "لأنها تصدرت الجملة الاسمية، والفاعل هنا ضمير مستتر تقديره (هو) يعود على الحق.",
+    "options": [
+      "فاعل",
+      "مبتدأ",
+      "خبر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0069",
+    "question": "اذا كان الفاعل اسم ظاهر فليزم فعله حاله \".........\" حتى لو كان الفاعل مثنى او جمع",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الفعل في صدر الجملة يلزم حالة الإفراد ولا تلحقه علامة تثنية أو جمع (مثل: نجح الطالبان، ولا يصح نجحا الطالبان).",
+    "options": [
+      "الجمع",
+      "الافراد",
+      "التثنيه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0070",
+    "question": "أي من هذه الجمل صحيحه",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "القاعدة تنص على تجريد الفعل من الضمائر (ألف الاثنين أو واو الجماعة) إذا كان الفاعل اسماً ظاهراً.",
+    "options": [
+      "نجحا الطالبان",
+      "نجحوا الطالبات",
+      "نجح الطلابُ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0071",
+    "question": "يحذف الفعل \"....\" إذا دل عليه دليل او في جواب السؤال",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "يجوز حذف الفعل في حال فهم المعنى من السياق، مثل إجابة السؤال اختصاراً بكلمة واحدة.",
+    "options": [
+      "وجوبا",
+      "جوازا",
+      "ضميرا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0072",
+    "question": "في قول \"من نجح؟\" الجواب \"محمد\" فتعرب محمد",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "التقدير الكامل للجواب: (نجح محمد)، فحُذف الفعل لدلالة السؤال عليه جوازاً.",
+    "options": [
+      "فاعل لفعل محذوف تقديره انت",
+      "فاعل لفعل موجود تقديره نجح",
+      "فاعل لفعل محذوف تقديره نجح"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0073",
+    "question": "يجوز تذكير الفعل والفاعل مؤنث أذا",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "من مواضع جواز التأنيث أو التذكير أن يفصل بين الفعل والفاعل المؤنث بفاصل.",
+    "options": [
+      "اذا كان الفاعل مؤنث تأنيث مزاجي و فصل بينه وبين الفعل بفاصل",
+      "اذا كان الفاعل مؤنث تأنيث حقيقي وفصل بينه وبين الفعل بفاصل",
+      "اذا كان الفاعل مؤنث تأنيث مجازي ولم يفصل بينه وبين الفعل بفاصل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0074",
+    "question": "يذكر الفعل اذا كان فاعله \".....\" ويؤنث اذا كان فاعله \"......\"",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الأصل في اللغة مطابقة الفعل للفاعل في التذكير والتأنيث.",
+    "options": [
+      "مؤنث – مذكر",
+      "مذكر – مؤنث",
+      "مؤنث – مؤنث"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0075",
+    "question": "﴿وَجُمِعَ الشَّمْسُ وَالْقَمَرُ﴾ نائب الفاعل هنا (الشمس) وهي:",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الشمس لا تلد ولا تبيض، فهي تُعامل معاملة المؤنث تأنيثاً مجازياً.",
+    "options": [
+      "مذكر مجازي",
+      "مؤنث مجازي",
+      "مذكر حقيقي"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0076",
+    "question": "\"ماجاء إلا امرأةٌ\" يجوز تذكير الفعل والفاعل مؤنث هنا لأنه",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "الفاصل هنا أداة الاستثناء (إلا)، مما يسوغ ترك تاء التأنيث من الفعل.",
+    "options": [
+      "مؤنث مجازي",
+      "مذكر مزاجي",
+      "فصل بينه وبين الفعل بفاصل"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0077",
+    "question": "\"وحضر القاضي فاطمهُ\" يجوز تذكير الفعل والفاعل مؤنث هنا لأنه",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alfaael_w_naeb_alfaeel",
+    "hint": "المفعول به (القاضي) فَصَل بين الفعل (حضر) والفاعل (فاطمة)، فساغ ترك التأنيث.",
+    "options": [
+      "مؤنث مجازي",
+      "مذكر مزاجي",
+      "فصل بينه وبين الفعل بفاصل"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0078",
+    "question": "الشجاع مَهيبٌ ....",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "esm_mafool",
+    "hint": "(مَهيب) اسم مفعول عامل، يرفع بعده نائب فاعل، ولأن الكلمة مرفوعة تُرسم الهمزة على واو (لقاؤُه).",
+    "options": [
+      "لقاءه",
+      "لقاؤه",
+      "لقائه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0079",
+    "question": "\"ما عندكم ينفدُ وما عند الله باقٍ \" نوع ما في الآية هو :",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "esm_maosol",
+    "hint": "(ما) هنا اسم موصول بمعنى (الذي)، أي: الذي عندكم ينفد والذي عند الله باقٍ.",
+    "options": [
+      "نافية",
+      "شرطية",
+      "موصولية"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0080",
+    "question": "قيل في وصف زهرة المدائن : \" لا قرينَ لها في الحسن \" نوع )لا( في العبارة هو :",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "(لا) دخلت على نكرة ونصبتها (مبنية على الفتح) وتعمل عمل إنّ بنفي الجنس بالكلية.",
+    "options": [
+      "عاطفة",
+      "نافية للجنس",
+      "نافية"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0081",
+    "question": "\"إن أريدُ إلا الإصلاحَ ما استطعت \" إعراب كلمة الإصلاح هو :",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "alestsnaa",
+    "hint": "الاستثناء هنا مفرّغ، فتُعرب الكلمة حسب موقعها وكأن (إن) النافية و(إلا) غير موجودتين: أريدُ الإصلاحَ.",
+    "options": [
+      "مفعول به منصوب",
+      "اسم منصوب على الاستثناء",
+      "بدل منصوب"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0082",
+    "question": "دخل الجنديُّ مرفوعاً ...",
+    "difficulty": "easy",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "esm_mafool",
+    "hint": "(مرفوعاً) اسم مفعول عامل يرفع نائب فاعل، فـ (رأسُه) مرفوعة بالضمة.",
+    "options": [
+      "رأسَه",
+      "رأسُه",
+      "رأ سه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0084",
+    "question": "قوله تعالى: ان للمتقين مفازا،حدائق واعنابا: مثال ل",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "albadal",
+    "hint": "(حدائق) بدل من (مفازاً) وهو من أنواع بدل المطابق (الكل من الكل) لتفصيل المعنى.",
+    "options": [
+      "بدل الكل من الكل",
+      "بدل البعض",
+      "بدل الاشتمال"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0085",
+    "question": "يجر الممنوع من الصرف بالكسره اذا كان",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "الأصل جره بالفتحة، ويُجر بالكسرة كبقية الأسماء إذا أُضيف أو دَخلت عليه (أل).",
+    "options": [
+      "معرَّفًا بأل",
+      "مفردا",
+      "جمعا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0088",
+    "question": "الاسم المنقوص غير المنون نحو:القاضي:يوقف عليه بحاله الرفع والجر",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "لأن الياء لا تُحذف في الوقف إلا إذا كان الاسم نكرة ومنوناً في حالتي الرفع والجر.",
+    "options": [
+      "بحذف الياء وجوبا",
+      "بإثبات الياء وجوبا",
+      "بإثبات الياء على الوجه الكثير الفصيح"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0089",
+    "question": "الاسم المجرد من العوامل اللفظية للإسناد هو :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "المبتدأ مرفوع بالابتداء، وهو عامل معنوي، لعدم سبقه بعوامل لفظية كالأفعال أو الحروف الناسخة.",
+    "options": [
+      "المبتدأ",
+      "الخبر",
+      "الفاعل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0090",
+    "question": "يأتي المبتدأ اسما صريحا ً واسما ًمؤولا ًبالصريح :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "المبتدأ يأتي كلمة صريحة (محمد مجتهد) أو مصدراً مؤولاً كقوله تعالى (وأن تصوموا خير لكم).",
+    "options": [
+      "صح",
+      "خطأ",
+      "؟؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0091",
+    "question": "قال تعالى {وأن يستعففن خير لهن } المبتدأ هو :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "التقدير: (واستعفافُهن خيرٌ لهن)، فالمبتدأ هنا مصدر مؤول من أن والفعل.",
+    "options": [
+      "خير",
+      "المصدر المؤول من (أن) و الفعل المضارع(يستعففن)",
+      "لهن"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0092",
+    "question": "إن محمداً كريمٌ ، (محمداً) لم يعد صالحاً ليكون مبتدأ لأنه :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "دخول الحرف الناسخ (إنّ) وهو عامل لفظي جعله اسماً لـ (إنّ) منصوباً بدلاً من كونه مبتدأ مجرداً.",
+    "options": [
+      "أصبح اسم غير صريح",
+      "تأثر بعامل لفظي",
+      "أصبح صالحاً للإسناد"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0093",
+    "question": "(محمداً) في قولك ( إن محمداً مجتهد ) ليس مبتدأ :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "المبتدأ شرطه التجرد من العوامل اللفظية غير الزائدة، و(إنّ) عامل لفظي ناسخ يغير الإعراب.",
+    "options": [
+      "لأنه ليس مجردا عن العوامل اللفظية",
+      "لأنه ليس اسما ً",
+      "لأنه مجرور"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0094",
+    "question": "الخبر هو ............ الذي تتم مع المبتدأ فائدته :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "الخبر يُسند إلى المبتدأ (الذي هو المسند إليه) ليكمل معه معنى جملة مفيدة.",
+    "options": [
+      "المسند",
+      "المسند إليه",
+      "؟؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0096",
+    "question": "في جملة ( محمد قائم ( :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "أسندنا القيام (المسند) إلى محمد (المسند إليه).",
+    "options": [
+      "(محمد) مسند، و(قائم) مسند إليه",
+      "(محمد) مسند إليه ، و(قائم) مسند",
+      "؟؟"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0097",
+    "question": "(محمد ٌ) في قولك (محمدٌ كريمٌ ) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "اسم مجرد من العوامل اللفظية وقع في أول الجملة.",
+    "options": [
+      "مبتدأ",
+      "خبر",
+      "فاعل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0098",
+    "question": "المبتدأ والخبر حكمهما الرفع :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "كلاهما من المرفوعات الأساسية في اللغة العربية.",
+    "options": [
+      "صح",
+      "خطأ",
+      "؟؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0099",
+    "question": "(الرجلان) في قولك ( ما مسافر الرجلان ) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "(مسافر) مبتدأ وهو اسم فاعل معتمد على نفي، فرفع فاعلاً (الرجلان) سد مسد الخبر.",
+    "options": [
+      "مبتدأ",
+      "فاعل أغنى عن الخبر",
+      "لا شي مما ذكر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0100",
+    "question": "(ما مسافر الرجلان) ، كلمة (الرجلان) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "لأنها فاعل لاسم الفاعل (مسافر)، والفاعل هو مسند إليه دائماً.",
+    "options": [
+      "مسند",
+      "مسند إليه",
+      "؟؟"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0101",
+    "question": "(الطالبان) في قولك : (أناجح الطالبان ) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "اسم الفاعل (ناجح) معتمد على استفهام ومسبوق به، فيرفع فاعلاً يغني عن الخبر.",
+    "options": [
+      "مبتدأ",
+      "خبر",
+      "فاعل أغنى عن الخبر"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0102",
+    "question": "(أناجح الطالبان) ، كلمة (الطالبان) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "نفس القاعدة السابقة، اسم فاعل اعتمد على استفهام فاكتفى بفاعله عن الخبر.",
+    "options": [
+      "مبتدأ متأخر",
+      "خبر",
+      "فاعل أغنى عن الخبر"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0103",
+    "question": "(الطالبان) في قولك (أناجحٌ الطالبان) فاعل بـ (ناجح) سدَّ مسدَّ الخبر :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "الوصف المشتق (كاسم الفاعل ناجح) إذا اعتمد على نفي أو استفهام احتاج إلى فاعل يغني عن الخبر.",
+    "options": [
+      "صح",
+      "خطأ",
+      "؟؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0104",
+    "question": "(المال) في قوله تعالى :\" المال والبنون زينة الحياة الدنيا \" :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "الكلمة جمعت شروط الابتداء؛ فهي مبتدأ، ومرفوعة، ومجردة من العوامل اللفظية.",
+    "options": [
+      "مبتدأ مرفوع",
+      "اسم مجرد عن العوامل اللفظية",
+      "جميع ما ذكر"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0105",
+    "question": "الأصل في المبتدأ أن يكون معرفة :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "لأن الحكم على المجهول (النكرة) لا يفيد، فيجب أن يكون المبتدأ معرفة في الأصل لتتم الفائدة.",
+    "options": [
+      "صح",
+      "خطأ",
+      "؟؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0106",
+    "question": "يصح الابتداء بالنكرة مطلقاً :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "لا يصح الابتداء بالنكرة إلا بمسوغ (كأن تفيد التخصيص أو التعميم).",
+    "options": [
+      "صح",
+      "خطأ",
+      "؟؟"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0107",
+    "question": "يصح الابتداء بالنكرة :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "النفي والإضافة إلى نكرة هما من مسوغات الابتداء بالنكرة في لغة العرب.",
+    "options": [
+      "إذا وقعت في سياق النفي",
+      "إذا أضيفت إلى نكرة",
+      "جميع ما ذكر صحيح"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0108",
+    "question": "( أإله ٌ مع الله ) ، ساغ الابتداء بالنكرة هنا لأنها :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "الاستفهام من المسوغات التي تجعل النكرة تفيد العموم فيصح الابتداء بها.",
+    "options": [
+      "وقعت في سياق النفي",
+      "وقعت في سياق الاستفهام",
+      "أضيفت إلى نكرة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0109",
+    "question": "ما رجاءٌ محققٌ بالتمني ، ساغ الابتداء بالنكرة هنا لأنها :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "النفي يجعل النكرة تفيد العموم مما يصحح الابتداء بها.",
+    "options": [
+      "وقعت فيسياق النفي",
+      "وقعت في سياق الاستفهام",
+      "أضيفت إلى نكرة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0110",
+    "question": "( ولعبدٌ مؤمنٌ خير من مشرك ( ، ساغ الابتداء بالنكرة هنا لأنها :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "الوصف يخصص النكرة ويقلل شيوعها فيسوغ الابتداء بها.",
+    "options": [
+      "وصفت بكلمة \"مؤمن\"",
+      "وقعت في سياق النفي",
+      "وقعت في سياق الاستفهام"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0111",
+    "question": "صاحبُ مالٍ في المجلس ، ساغ الابتداء بالنكرة هنا لأنها :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "الإضافة إلى نكرة (مال) تكسب المبتدأ تخصيصاً يجيز الابتداء به.",
+    "options": [
+      "وقعت في سياق النفي",
+      "وقعت في سياق الاستفهام",
+      "أضيفت إلى نكرة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0112",
+    "question": "(عدوٌّ عاقل أهون من صديق جاهل) ساغ الابتداء بالنكرة هنا لأنها :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "كلمة (عاقل) صفة خصصت كلمة (عدوّ) النكرة فجعلتها صالحة للابتداء.",
+    "options": [
+      "أضيفت إلى نكرة",
+      "وقعت في سياق النفي",
+      "وصفت"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0113",
+    "question": "(أأَضَحك في الفصل ؟ ) ساغ الابتداء بالنكرة هنا :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "أداة الاستفهام (الهمزة) سوغت الابتداء بالنكرة لإفادتها العموم.",
+    "options": [
+      "لأنها وصفت",
+      "لأنها وقعت في سياق النفي",
+      "لأنها وقعت في سياق الاستفهام"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0114",
+    "question": "( العلم نور) أسلوب وقع فيه المبتدأ نكرة بمسوغ :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "كلمة (العلم) معرفة بـ (أل) وليست نكرة، فالابتداء بها جاء على الأصل.",
+    "options": [
+      "صح",
+      "خطأ",
+      "؟؟"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0115",
+    "question": "الخبر في قولك زيدٌ يكتب درسه :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "(يكتب درسه) تبدأ بفعل مضارع، فهي خبر جملة فعلية.",
+    "options": [
+      "جملة اسمية",
+      "جملة فعلية",
+      "مفرد"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0116",
+    "question": "( محمدٌ علمه غزيرٌ) ، الخبر هو :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "الجملة المكونة من مبتدأ ثانٍ (علمه) وخبره (غزير) هي في محل رفع خبر المبتدأ الأول.",
+    "options": [
+      "المفرد : غزيرٌ",
+      "الجملة الاسمية : علمه غزيرٌ",
+      "الجملة الفعلية : علمه غزيرٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0117",
+    "question": "الخبر في جملة : (عليٌ يأكل ) هو :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "(يأكل) فعل مضارع والفاعل ضمير مستتر، والجملة الفعلية هي الخبر.",
+    "options": [
+      "مفرد",
+      "جملة اسمية",
+      "جملةفعلية"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0118",
+    "question": "خبر المبتدأ في قوله تعالى :\" الله يعلم ما تحمل كل أنثى \" :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "الجملة الفعلية (يعلم ما تحمل...) هي الخبر للمبتدأ (الله).",
+    "options": [
+      "جملة اسمية",
+      "جملة فعلية",
+      "شبه جملة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0119",
+    "question": "رابط جملة الخبر بالمبتدأ في قولك ( محمد نعم الرجل ) هو :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "(الرجل) اسم جنس يفيد العموم، ومحمد فرد من هذا العموم، وهذا يربط جملة الخبر بالمبتدأ.",
+    "options": [
+      "الضمير",
+      "الإشارة",
+      "العموم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0120",
+    "question": "رابط جملة الخبر بالمبتدأ في قولة تعالى ( القارعة *ما لقارعه ) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "إعادته بلفظه للتعظيم والتهويل تعتبر أحد الروابط التي تربط الخبر الجملة بالمبتدأ.",
+    "options": [
+      "الضمير",
+      "إعادة المبتدأبلفظه",
+      "العموم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0121",
+    "question": "رابط جملة الخبر بالمبتدأ في قولك ( زيدٌ يحمل كتابه) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "الضمير المستتر في الفعل (يحمل) يعود على المبتدأ (زيد) ويربط الجملة به.",
+    "options": [
+      "الضمير المستتر",
+      "إعادة المبتدأ بلفظه",
+      "العموم"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0122",
+    "question": "رابط جملة الخبر بالمبتدأ في قولك (أهلُ الاجتهاد أولئك أحب إلي) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "اسم الإشارة (أولئك) يعود على المبتدأ (أهل الاجتهاد) ويربطه بالخبر.",
+    "options": [
+      "الضمير",
+      "إعادة المبتدأ بلفظه",
+      "الإشارة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0123",
+    "question": "رابط جملة الخبر بالمبتدأ في قوله تعالى { الحاقةُ * ما الحاقة } :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "إعادة لفظ المبتدأ تعمل كرابط يفيد التفخيم والتهويل.",
+    "options": [
+      "الضمير",
+      "إعادة المبتدأبلفظه",
+      "العموم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0124",
+    "question": "رابط جملة الخبر بالمبتدأ في قولك ( أبو لهب بئس الإنسان ) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "(الإنسان) لفظ يفيد العموم ويشمل المبتدأ كجزء منه، مما يربط الخبر به.",
+    "options": [
+      "الضمير",
+      "إعادة المبتدأ بلفظه",
+      "العموم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0125",
+    "question": "رابط جمله الخبر بالمبتدأ في قوله تعالى (ولباس التقوى ذلك خير ) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "اسم الإشارة (ذلك) يربط جملة الخبر بالمبتدأ (لباس).",
+    "options": [
+      "الضمير",
+      "إعادة المبتدأ بلفظه",
+      "الإشارة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0126",
+    "question": "إذا كان المبتدأ هو نفس الخبر في المعنى فلا تحتاج الجملة إلى رابط:",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "كقولنا (نطقي اللهُ حسبي)، فالخبر هو المبتدأ في المعنى ولا يحتاج لرابط.",
+    "options": [
+      "صح",
+      "خطأ",
+      "؟؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0127",
+    "question": "( زيد في البيت ) ، الخبر هنا :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "شبه الجملة (الجار والمجرور) تتعلق بمحذوف وجوباً تقديره (مستقر) أو (كائن) يقع خبراً.",
+    "options": [
+      "مفرد",
+      "جملة",
+      "شبة جملة جار ومجرور"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0128",
+    "question": "الخبر في قوله تعالى { الحمد لله رب العالمين } هو :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "(لله) جار ومجرور متعلقان بمحذوف خبر المبتدأ (الحمد).",
+    "options": [
+      "جملة اسمية",
+      "جملة فعلية",
+      "شبه جملة جار ومجرور"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0129",
+    "question": "محمدٌ في السوق ، الخبر هنا :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "الجار والمجرور (في السوق) شبه جملة تعلقت بمحذوف في محل رفع خبر.",
+    "options": [
+      "مفرد",
+      "جملة",
+      "شبه جملة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0130",
+    "question": "(أسفل) في قوله تعالى (والركب أسفل منكم) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "شبه الجملة الظرفية (أسفل) تتعلق بخبر محذوف للمبتدأ (الركب).",
+    "options": [
+      "مبتدأ",
+      "ظرف مكان متعلق بمحذوف خبر",
+      "ظرف زمان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0131",
+    "question": "ظرف الزمان يصلح أن يقع خبراً للمبتدأ :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "أسماء المعاني (كالأحداث) يصح الإخبار عنها بالزمان فنقول (السفر غداً)، ولا يصح للذوات (فلا يقال زيد غداً).",
+    "options": [
+      "للمعاني",
+      "للذوات",
+      "؟؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0132",
+    "question": "يصح أن يقع خبراً عن الأمرين محسوسات وغير محسوسات ، أو بمعنى آخر (يصح أن يقع خبراً عن الأمر",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "ظرف المكان يقع خبراً للذوات المحسوسة (الكتاب فوق الطاولة) وللمعاني (الاجتماع أمام القاعة).",
+    "options": [
+      "ظرف الزمان",
+      "ظرف المكان",
+      "؟؟"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0133",
+    "question": "إذا وقع المبتدأ وصفاً مسبوق بنفي أو استفهام فإنه لا يكتفي بمرفوعة عن الخبر :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "بل يكتفي بمرفوعه (الفاعل أو نائب الفاعل) ويغني هذا المرفوع عن الخبر ويؤدي معناه.",
+    "options": [
+      "صح",
+      "خطأ",
+      "؟؟"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0134",
+    "question": "أمكرم الضيفان ، الضيفان : نائب فاعل سد مسد الخبر:",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "(مُكرَم) اسم مفعول يُرفع بعده نائب فاعل، ولأنه اعتمد على استفهام فقد أغنى هذا النائب عن الخبر.",
+    "options": [
+      "صح",
+      "خطأ",
+      "؟؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0135",
+    "question": "أقاطن قوم سلمى أم نوا ظعناً ، (قومُ) خبر قاطن مرفوع :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "(قوم) فاعل لاسم الفاعل (قاطن)، وقد سد مسد الخبر لاغناء المعنى به.",
+    "options": [
+      "صح",
+      "خطأ",
+      "؟؟"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0136",
+    "question": "قولنا: ( أمكتوب الدرسان ) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "(مكتوب) اسم مفعول يعتمد على استفهام فيرفع بعده (نائب فاعل) يغني عن الخبر.",
+    "options": [
+      "مبتدأ وخبر",
+      "مبتدأ وفاعل أغنى عن الخبر",
+      "مبتدأ ونائب فاعل أغنى عن الخبر"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0137",
+    "question": "الخبر يجوز تعدده :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "كأن نقول: (محمد كريمٌ شجاعٌ وفيٌّ)، فالمبتدأ واحد والأخبار متعددة بدون حروف عطف.",
+    "options": [
+      "صح",
+      "خطأ",
+      "؟؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0139",
+    "question": "محمدٌ شاعرٌ وكاتبٌ ، كاتبٌ خبر ثاني مرفوع وعلامة رفعه الضمة الظاهرة في آخره :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "وجود حرف العطف (الواو) يجعل كلمة (كاتب) اسماً معطوفاً على الخبر الأول، وليس خبراً ثانياً مستقلاً.",
+    "options": [
+      "صح",
+      "خطأ",
+      "؟؟"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0140",
+    "question": "( الرمان حلو حامض )، هذه الجملة ليست من تعدد الخبر والسبب هو :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "لأن المقصود أنهما امتزجا وصارا طعماً واحداً (مُزّاً)، فالخبران هنا بمعنى خبر واحد.",
+    "options": [
+      "الخبر في كل واحد مما دل عليه المبتدأ ،والمبتدأ في قوة مبتدآت متعددة",
+      "الخبران في قوة خبر واحد",
+      "لا شيء مما ذكر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0141",
+    "question": "( محمد شاعر وكاتب وقارئ ) ، هذه الجملة ليست من تعدد الخبر والسبب هو :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "حروف العطف تجعل ما بعدها تابعاً (اسماً معطوفاً) لا خبراً مستقلاً يُسند مباشرة للمبتدأ.",
+    "options": [
+      "لوجود العطف",
+      "لأن الخبر لكل واحد مما يدل عليه المبتدأ",
+      "لان الأخبار الثلاثة في قوة خبر واحد"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0142",
+    "question": "يجب تقديم الخبر :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "يتقدم الخبر وجوباً في عدة حالات منها: إذا كان من الألفاظ التي لها الصدارة، أو لتجنب التباسه بالصفة إذا كان المبتدأ نكرة.",
+    "options": [
+      "أن يخشى التباس الخبر بالصفة",
+      "أن يكون لها الصدارة في الكلام",
+      "جميع ما ذكر"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0143",
+    "question": "(أين البيت؟ ) وجب في هذه الجملة تقديم الخبر :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "(أين) اسم استفهام، وأسماء الاستفهام لها حق الصدارة في الكلام دائماً.",
+    "options": [
+      "خشية التباس المبتدأ بالصفة",
+      "لأن له الصدارة",
+      "لاتصال المبتدأ بضمير يعود على بعض الخبر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0144",
+    "question": "حكم تقدم الخبر على المبتدأ في هذه الجملة (أين البيت ؟) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "لأن الخبر (أين) اسم استفهام له حق الصدارة، فيجب التقديم.",
+    "options": [
+      "جائز",
+      "واجب",
+      "؟؟"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0145",
+    "question": "حكم تقدم الخبر على المبتدأ في هذه الجملة (في الدار رجل) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "لأن المبتدأ (رجل) نكرة غير مخصصة، والخبر (في الدار) شبه جملة، فيجب التقديم لئلا يُبتدأ بالنكرة المحضة.",
+    "options": [
+      "جائز",
+      "واجب",
+      "؟؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0146",
+    "question": "حكم تقدم الخبر على المبتدأ في هذه الجملة (في الدار زيد) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "لأن المبتدأ (زيد) معرفة، فيجوز تقديم الخبر المكون من شبه الجملة عليه وتأخيره.",
+    "options": [
+      "جائز",
+      "واجب",
+      "؟؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0147",
+    "question": "حكم تقدم الخبر على المبتدأ في هذه الجملة (حزينة سعاد) :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "المبتدأ (سعاد) معرفة، فيجوز تقديم الخبر المفرد (حزينة) عليه أو تأخيره.",
+    "options": [
+      "جائز",
+      "واجب",
+      "؟؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0148",
+    "question": "حكم تقدم الخبر على المبتدأ في هذه الآية { وآية لهم الليل نسلخ منه النهار } :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "المبتدأ (الليل) معرفة والخبر (آية لهم)، فيجوز التقديم والتأخير لعدم وجود مانع نحوي.",
+    "options": [
+      "جائز",
+      "واجب",
+      "؟؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0149",
+    "question": "حكم تقدم الخبر على المبتدأ في هذه الآية } سلام هي حتى مطلع الفجر { :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "المبتدأ (هي) معرفة، والخبر (سلام)، وتقديم الخبر هنا جائز للاهتمام به وإفادة الحصر.",
+    "options": [
+      "جائز",
+      "واجب",
+      "؟؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0150",
+    "question": "حكم تقدم الخبر على المبتدأ في هذه الآية }أم على قلوب أقفالها } :",
+    "difficulty": "medium",
+    "stage": null,
+    "mClass": null,
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "المبتدأ (أقفالها) اتصل به ضمير يعود على بعض الخبر (قلوب)، فيجب تقديم الخبر حتى لا يعود الضمير على متأخر لفظاً ورتبة.",
+    "options": [
+      "جائز",
+      "واجب",
+      "؟؟"
+    ],
+    "correctIndex": 1
+  }
+]

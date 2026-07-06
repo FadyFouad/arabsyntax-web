@@ -21,6 +21,7 @@ export async function Header() {
     { label: tNav('lessons'), href: '/lessons' },
     { label: tNav('mutun'), href: '/mutun' },
     { label: tNav('i3rab'), href: '/i3rab' },
+    { label: tNav('quiz'), href: '/quiz' },
     ...(featureFlags.showPricing ? [{ label: tNav('pricing'), href: '#pricing' }] : []),
     { label: tNav('faq'), href: '#faq' },
     { label: tNav('support'), href: '/support' },

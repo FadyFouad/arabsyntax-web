@@ -65,11 +65,53 @@
     "lessons": "Lessons",
     "mutun": "Al-Mutun",
     "i3rab": "I'rab",
+    "quiz": "Quiz",
     "pricing": "Pricing",
     "faq": "FAQ",
     "support": "Support",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
+  },
+  "quiz": {
+    "pageTitle": "اختبر نفسك",
+    "pageSubtitle": "اختر المرحلة والصعوبة، ثم ابدأ اختبارًا من عشرة أسئلة في النحو العربي.",
+    "asideTitle": "اختبارك، طريقك للتقدّم",
+    "asideBody": "اختر الإعدادات المناسبة لك وابدأ رحلتك لاختبار فهمك للنحو العربي.",
+    "asidePoint1": "أسئلة متنوّعة تناسب كل المراحل الدراسية",
+    "asidePoint2": "تصحيح فوري مع تلميح لكل سؤال",
+    "asidePoint3": "أعد الاختبار كما تشاء دون حساب",
+    "stepMarhala": "١. اختر المرحلة",
+    "stepYear": "اختر السنة الدراسية",
+    "stepDifficulty": "٢. اختر الصعوبة",
+    "all": "الكل",
+    "start": "ابدأ الاختبار",
+    "bestScore": "أفضل نتيجة: {score}٪",
+    "loading": "جارٍ تحضير الأسئلة…",
+    "noQuestions": "لا توجد أسئلة تطابق هذا الاختيار. جرّب إعدادات أخرى.",
+    "loadError": "تعذّر تحميل الأسئلة. تأكّد من اتصالك وحاول مرّة أخرى.",
+    "backToSetup": "العودة إلى الإعدادات",
+    "progress": "{current} / {total}",
+    "hint": "تلميح",
+    "next": "التالي",
+    "showResults": "عرض النتيجة",
+    "submitting": "جارٍ التصحيح…",
+    "resultsTitle": "انتهى الاختبار",
+    "scoreLine": "أجبت عن {correct} من {total} إجابة صحيحة",
+    "reviewHeading": "مراجعة الإجابات",
+    "questionN": "السؤال {n}:",
+    "yourAnswer": "إجابتك",
+    "correctAnswer": "الإجابة الصحيحة",
+    "noAnswer": "لم تُجب",
+    "newBest": "أفضل نتيجة لك حتى الآن!",
+    "retake": "إعادة الاختبار",
+    "newQuiz": "اختبار جديد",
+    "tier": {
+      "perfect": "ممتاز! إجابات كاملة، لقد أتقنت هذا المستوى تمامًا 🎉",
+      "great": "أحسنت! مستوى رائع، واصل التقدّم 👏",
+      "good": "جيّد، لديك أساس متين — راجِع وحاول مرّة أخرى 💪",
+      "fair": "لا بأس، البداية طريق الإتقان — راجِع الدروس وأعد المحاولة 📚",
+      "low": "تحتاج إلى مزيد من المراجعة، لا تستسلم وابدأ من الدروس 🌱"
+    }
   },
   "footer": {
     "product": {
@@ -166,9 +208,10 @@
       "heading": "A Complete Learning Experience",
       "subtitle": "A clean, focused interface that keeps you on what matters.",
       "alts": {
+        "home": "ArabSyntax app home screen",
         "lesson": "ArabSyntax app lesson screen showing audio playback and Arabic text",
         "quiz": "Interactive quiz screen in the ArabSyntax app",
-        "examples": "Worked examples screen with detailed إعراب in the ArabSyntax app"
+        "analysis": "Grammatical analysis (إعراب) screen in the ArabSyntax app"
       }
     },
     "pricing": {
