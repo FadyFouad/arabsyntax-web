@@ -1,0 +1,2927 @@
+[
+  {
+    "questionID": "0703",
+    "question": "الوزن (مفاعلة ) من أوزان المصدر:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "إذا كان الفعل الماضي الرباعيُّ على وزن (فاعَلَ ) جاء مصدره على وزن (مفاعلة ) .",
+    "options": [
+      "الخماسيِّ",
+      "الثلاثيِّ",
+      "الرباعيِّ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0704",
+    "question": "الفعل الماضي (أنزل ) مصدره .......",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "إذا كان الفعل الماضي على وزن (أفعَلَ ) جاء مصدره على وزن (إفعال ) .",
+    "options": [
+      "تنزيل",
+      "تنازُل",
+      "إنزال"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0705",
+    "question": "المصدر من الفعل (ربَّى ) هو مصدر .......",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "الفعل (ربَّى ) فعل رباعيٌّ على وزن (فعَّل ) .",
+    "options": [
+      "رباعيٌّ",
+      "خماسيٌّ",
+      "ثلاثيٌّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0706",
+    "question": "الفعل الماضي من المصدر (تعريف ) هو .......",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "إذا كان المصدر الرباعيُّ على وزن (تفعيل ) كان فعله على وزن (فعَّل ) .",
+    "options": [
+      "عرَّف",
+      "اعترف",
+      "تعارَفَ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0707",
+    "question": "المصدر (إطالة ) مصدر .......",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر (إطالة ) مصدر رباعيٌّ، وفعله (أطال ) .",
+    "options": [
+      "ثلاثيٌّ",
+      "رباعيٌّ",
+      "خماسيٌّ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0708",
+    "question": "(الاستقلال ) مصدر .......",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "(الاستقلال ) مصدر سداسيٌّ من الفعل الماضي (استقلَّ ) .",
+    "options": [
+      "رباعيٌّ",
+      "سداسيٌّ",
+      "ثلاثيٌّ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0709",
+    "question": "سمعتُ الدرس .......",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "مصدر الفعل الماضي الثلاثيِّ (سمع ) : سماع.",
+    "options": [
+      "سماعًا",
+      "إسماعًا",
+      "استماعًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0710",
+    "question": "المصدر من الفعل الماضي (شرب ) هو مصدر .......",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر من الفعل الماضي (شرب ) هو مصدر سماعيٌّ؛ لأنَّ المصادر الثلاثيَّة سماعيَّة.",
+    "options": [
+      "قياسيٌّ",
+      "رباعيٌّ",
+      "سماعيٌّ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0711",
+    "question": "يأتي المصدر الرباعيُّ على وزن (تفعيل ) إذا كان الفعل الماضي منه على وزن:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "الفعل الماضي الذي يكون على وزن (فعَّل ) يكون مصدره على وزن (تفعيل ) .",
+    "options": [
+      "فاعَلَ",
+      "أفعَلَ",
+      "فعَّل"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0712",
+    "question": "تميَّز عمَّال مصر ....... واضحَا.",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "إذا كان الفعل الماضي الخماسيُّ مبدوءًا بتاء يأتي مصدره على نفس صورة الفعل، مع ضمِّ ما قبل الآخر.",
+    "options": [
+      "تمييزًا",
+      "تميُّزًا",
+      "امتيازًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0713",
+    "question": "فيما يلي مصدر واحد سماعيٌّ:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر (نجاح ) مصدر ثلاثيٌّ سماعيٌّ من الفعل الماضي الثلاثيِّ (نجح ) .",
+    "options": [
+      "نجاح",
+      "مسالمة",
+      "تَلاقي"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0714",
+    "question": "يجب أن تكافح الدولة الأمراض المزمنة ....... مستمرَّة.",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "الفعل (كافح ) له مصدران: (مكافحة ) و (كفاح ) ، ولكن لأنَّ النعت (كلمة: مستمرَّة ) ورد منصوبًا فإنَّ الصواب أن نقول: يجب أن تكافح الدولة الأمراض المزمنة مكافحة مستمرَّة.",
+    "options": [
+      "مكافحة",
+      "كفاحًا",
+      "كفاح"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0715",
+    "question": "فيما يلي مصدر واحد ليس رباعيًّا:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر (تقابُل ) مصدر خماسيٌّ.",
+    "options": [
+      "تقابُل",
+      "إقبال",
+      "تقبيل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0716",
+    "question": "مصدر الفعل (واجه ) :",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "إذا كان الفعل الماضي على وزن (فاعَلَ ) يأتي مصدره على وزن (مفاعلة ) .",
+    "options": [
+      "توجيه",
+      "توجُّه",
+      "مواجهة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0717",
+    "question": "يواصل – يتواصل – يوصِّل. مصادر هذه الأفعال بالترتيب:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "مصدر (واصل ) : مواصلة، ومصدر (تواصل ) : تواصُل، ومصدر (وصَّل ) : توصيل.",
+    "options": [
+      "مواصلة – تواصُل – توصيل",
+      "مواصلة – توصيل – تواصُل",
+      "توصيل – تواصُل – مواصلة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0718",
+    "question": "المصدر السماعيُّ فيما يلي هو .......",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر الثلاثيُّ مصدر سماعيٌّ، أما المصادر الرباعيَّة والخماسيَّة والسداسيَّة فهي مصادر قياسيَّة.",
+    "options": [
+      "المصدر الرباعيُّ",
+      "المصدر الثلاثيُّ",
+      "المصدر الخماسيُّ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0719",
+    "question": "المصدر (تَغيُّر ) مصدر .......",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر (تغيُّر ) مصدر خماسيٌّ من الفعل الماضي الخماسيِّ (تَغيَّر) .",
+    "options": [
+      "ثلاثيٌّ",
+      "خماسيٌّ",
+      "رباعيٌّ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0720",
+    "question": "الفعل الماضي الرباعيُّ له ....... أوزان.",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "للفعل الماضي الرباعيِّ أربعة أوزان وهي: أفعَلَ، وفاعَلَ، وفعَّل، وفعلَلَ.",
+    "options": [
+      "أربعة",
+      "ثلاثة",
+      "خمسة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0721",
+    "question": "المصدر (طمأنة ) مصدر .......",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر (طمأنة ) فعله (طمأن ) ، وهو فعل رباعيٌّ مجرَّد.",
+    "options": [
+      "رباعيٌّ",
+      "ثلاثيٌّ",
+      "خماسيٌّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0722",
+    "question": "إذا كان الفعل الماضي الرباعيُّ على وزن (فعَّل ) يأتي مصدره على وزن: (تفعيل ) ، أو .......",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "إذا كان الفعل الماضي الرباعيُّ على وزن (فعَّل ) يأتي مصدره على وزن (تفعيل ) ، أو (تفعلة ) إذا كانت لام الفعل ألفًا (مثل: ربَّى تربية ) .",
+    "options": [
+      "تفاعُل",
+      "تفعُّل",
+      "تفعلة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0723",
+    "question": "مصدر واحد مما يلي رباعيٌّ:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "(ترتيب ) مصدر رباعيٌّ من الفعل الماضي (رتَّب ) ، وبقية المصادر خماسيَّة.",
+    "options": [
+      "ترتيب",
+      "تنافُس",
+      "تعدِّي"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0724",
+    "question": "المصدر من الفعل الماضي (تقارَبَ ) هو .......",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر من الفعل الماضي الخماسيِّ (تقارَبَ ) هو (تقارُب ) .",
+    "options": [
+      "تقرُّب",
+      "تقارُب",
+      "تقريب"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0725",
+    "question": "أسهمتُ في نهضة وطني .......",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر من الفعل الماضي الرباعيِّ (أسهم ) هو (إسهام ) ؛ لأنَّه إذا جاء الفعل الماضي الرباعيُّ على وزن (أفعَلَ ) يأتي مصدره على وزن (إفعال ) .",
+    "options": [
+      "مساهمةً",
+      "إسهامًا",
+      "تسهيمًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0726",
+    "question": "أحد المصادر التالية لا يبدأ إلا بألف أو تاء:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر الخماسيُّ إما أن يبدأ بألف (ويكون ما قبل آخره ألفًا ) ، وإما أن يبدأ بتاء (ويكون ما قبل الآخر مضمومًا ) .",
+    "options": [
+      "المصدر الخماسيُّ",
+      "المصدر الثلاثيُّ",
+      "المصدر الرباعيُّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0727",
+    "question": "المصدر الذي يكون على وزن (استفعلة ) هو مصدر:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "إذا كان الفعل الماضي السداسيُّ على وزن (استفعل ) ، وكانت عينه ألفًا فإنَّ مصدره يكون على وزن (استفعلة ) .",
+    "options": [
+      "ثلاثيٌّ",
+      "رباعيٌّ",
+      "سداسيٌّ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0728",
+    "question": "بات ضروريًّا أن تهتمَّ مصر بالصناعة.",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "أصل الجملة: بات (اهتمام ) مصر بالصناعة (ضروريًّا ) .",
+    "options": [
+      "اسم (بات ) هو كلمة (ضروريًّا ) ، وخبرها هو المصدر المؤوَّل",
+      "اسم (بات ) ضمير مستتر، وخبرها هو المصدر المؤوَّل",
+      "اسم (بات ) هو المصدر المؤوَّل، وخبرها هو كلمة (ضروريًّا )"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0729",
+    "question": "لقد كان لزامًا عليكم أيُّها العرب أن تقفوا في وجه إسرائيل. المصدر المؤوَّل (أن تقفوا ) وقع في محلِّ .......",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر المؤوَّل (أن تقفوا ) وقع في محلِّ رفع اسم (كان ) .",
+    "options": [
+      "جرٍِّ",
+      "نصب",
+      "رفع"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0730",
+    "question": "إنَّ التضامن العربيَّ هو السبيل لتحقيق الاستقرار في المستقبل. في الجملة من المصادر القياسيَّة:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "في الجملة ثلاثة مصادر قياسيَّة: المصدر الخماسيُّ (تضامن ) ، والمصدر الرباعيُّ (تحقيق ) ، والمصدر السداسيُّ (استقرار ) .",
+    "options": [
+      "مصدر واحد",
+      "ثلاثة مصادر",
+      "مصدران"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0731",
+    "question": "يجب أن نجعل من (التربية ) البدنيَّة (اتجاهًا ) عامًّا في المجتمع.",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "كلمة (تربية ) مصدر رباعيٌّ قياسيٌّ، والمصدر (اتجاه ) مصدر خماسيٌّ قياسيٌّ.",
+    "options": [
+      "المصدر الأوَّل سماعيٌّ، والثاني قياسيٌّ",
+      "المصدران قياسيَّان",
+      "المصدر الأوَّل قياسيٌّ، والثاني سماعيٌّ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0732",
+    "question": "يجب أن نقيل المسئولِين الفاسدِين. باستبدال المصدر الصريح بالمصدر المؤوَّل في الجملة تصبح:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "الفعل الماضي من الفعل المضارع (يقيل ) هو (أقال ) ، ومصدره: إقالة.",
+    "options": [
+      "يجب تقليل المسئولِين الفاسدِين",
+      "يجب إقالة المسئولِين الفاسدِين",
+      "يجب استقالة المسئولِين الفاسدِين"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0733",
+    "question": "مصدر الفعل (تماسَكَ ) :",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "يأتي المصدر من الفعل الماضي الخماسيِّ المبدوء بتاء على نفس صورة الفعل، مع ضمِّ ما قبل الآخر.",
+    "options": [
+      "تماسُك",
+      "إمساك",
+      "تمسُّك"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0734",
+    "question": "ما لا يبدأ إلا بألف وصل أو تاء هو المصدر .......",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر الخماسيُّ إما أن يبدأ بألف وصل (ويكون ما قبل الآخر ألف ) ، وإما أن يبدأ بتاء، ويكون ما قبل الآخر مضمومًا.",
+    "options": [
+      "الثلاثيُّ",
+      "الرباعيُّ",
+      "الخماسيُّ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0735",
+    "question": "المصدر الرباعيُّ الوحيد فيما يلي هو .......",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "(تعامُل ) و (ارتفاع ) مصدران خماسيَّان، و (استخدام ) مصدر سداسيٌّ.",
+    "options": [
+      "تعاَمُل",
+      "استخدام",
+      "تعبئة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0736",
+    "question": "المصدر من الفعل الماضي (تحلَّى ) :",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "يُكسَر ما قبل الآخر في المصدر؛ لأنَّ الفعل الماضي منه آخره ألف.",
+    "options": [
+      "تَحلِّي",
+      "تحلية",
+      "تَحايُل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0737",
+    "question": "كلُّ ما يلي مصادر خماسيَّة، ما عدا:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر (إحلال ) مصدر رباعيٌّ من الفعل الماضي الرباعيِّ (أحلَّ ) .",
+    "options": [
+      "انحلال",
+      "إحلال",
+      "احتلال"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0738",
+    "question": "فعل واحد مما يلي له مصدران:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "إذا كان الفعل الماضي الرباعيُّ على وزن (فاعَلَ ) جاء مصدره على وزن (مفاعلة ) ، أو (فِعال ) .",
+    "options": [
+      "عاقَبَ",
+      "عقَّب",
+      "تعقَّب"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0739",
+    "question": "المصدر الوحيد القياسيُّ فيما يلي هو .......",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر (إنقاذ ) مصدر رباعيٌّ؛ فهو قياسيٌّ، وبقيَّة المصادر ثلاثيَّة؛ فهي سماعيَّة.",
+    "options": [
+      "إنقاذ",
+      "أخذ",
+      "معرفة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0740",
+    "question": "مصدر الفعل الرباعيِّ المجرَّد يكون على وزن .......",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "الفعل الرباعيُّ المجرَّد كـ (طمأن ) يكون على وزن (فعلَلَ ) ، ويأتي مصدره على وزن (فعللة ) .",
+    "options": [
+      "مفاعلة",
+      "انفعال",
+      "فعللة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0741",
+    "question": "مشاركة – اندماج – إنقاذ – تسهيل. المصدر الوحيد الخماسيُّ فيما سبق هو:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر (اندماج ) مصدر خماسيٌّ من الفعل الماضي (اندمج ) .",
+    "options": [
+      "مشاركة",
+      "إنقاذ",
+      "اندماج"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0742",
+    "question": "تعلَّمتُ هواية الرسم .......",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "الفعل (تعلَّم ) فعل ماضٍ خماسيٌّ مبدوء بتاء، ويأتي مصدره على نفس صورة الفعل، مع ضمِّ ما قبل الآخر.",
+    "options": [
+      "تعلُّمًا",
+      "تعليمًا",
+      "علمًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0743",
+    "question": "المصدر من الفعل (اخضَّر ) يكون على وزن .......",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "إذا كان الفعل الماضي الخماسيُّ على وزن (افعلَّ ) كـ (اخضرَّ ) يأتي مصدره على وزن (افعلال ) .",
+    "options": [
+      "إفعال",
+      "افعلال",
+      "انفعال"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0744",
+    "question": "كلُّ هذه الأفعال تأتي مصادرها مبدوءةً بألف، ما عدا:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "إذا بدأ الفعل الرباعيُّ، أو الخماسيُّ، أو السداسيُّ بألف فلا بد أن يأتي مصدره مبدوءًا بألف.",
+    "options": [
+      "عاون",
+      "أعان",
+      "استعان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0745",
+    "question": "جملة واحدة مما يلي صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "إعراب كلمة (صديقيَّ ) : مفعول به منصوب، وعلامة النصب الياء؛ لأنها مثنَّى، وحُذِفت النون للإضافة، وياء المتكلِّم ضمير مبني في محلِّ جرٍّ مضاف إليه، ومصدر الفعل الماضي (حاور ) : محاورة وحوار.",
+    "options": [
+      "حاورتُ صديقيَّ محاورة",
+      "حاورتُ صديقاي محاورة",
+      "حاورتُ صديقيَّ تحاورًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0746",
+    "question": "لم يعد من المألوف أن نرى أحدًا لا يحمل هاتفًا. المصدر المؤوَّل (أن نرى ) وقع في محلِّ .......",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر المؤوَّل (أن نرى ) وقع في محلِّ رفع فاعل.",
+    "options": [
+      "رفع",
+      "نصب",
+      "جرٍّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0747",
+    "question": "تطوَّرت الصناعة في العصر الحديث ....... إذا أردنا إكمال الجملة بمصدر صريح فإنَّنا نقول:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر الصريح من الفعل الماضي الخماسي (تطوَّر ) هو (تطوُّر ) .",
+    "options": [
+      "تطويرًا",
+      "متطوَّرًا",
+      "تطوُّرًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0748",
+    "question": "تعددت مصادر الدخل في العصر الحديث .......",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "الفعل الماضي للمصدر الخماسيِّ (تعدَّد ) هو (تعدُّد ).",
+    "options": [
+      "تعديدًا",
+      "إعدادًا",
+      "تعددًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0749",
+    "question": "أتمنَّى أن يَسلم مَن في الأرض جميعًا. باستبدال المصدر الصريح بالمصدر المؤوَّل في الجملة تصبح الجملة:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "(يَسلَم ) فعل ماضي ثلاثيٌّ، وماضيه: (سَلِم ) ، ومصدره: سلامة.",
+    "options": [
+      "أتمنَّى إسلام مَن في الأرض جميعًا",
+      "أتمنَّى سلامة مَن في الأرض جميعًا",
+      "أتمنَّى تسليم مَن في الأرض جميعًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0750",
+    "question": "المصدر (إيواء ) فعله الماضي:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "الفعل الماضي من المصدر الرباعيِّ (إيواء ) هو: آوى.",
+    "options": [
+      "آوى",
+      "أوى",
+      "يؤوي"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0751",
+    "question": "أما آن للعرب أن يتَّحدوا. المصدر المؤوَّل في الجملة وقع في محلِّ:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر المؤوَّل في الجملة وقع في محلِّ رفع فاعل.",
+    "options": [
+      "رفع",
+      "نصب",
+      "جرٍّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0752",
+    "question": "لا يمكن تقدم البلاد إلا بالتنمية الشاملة. المصدر (تقدم ) :",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر (تقدُّم ) مصدر خماسيٌّ من الفعل الماضي (تقدَّم ) .",
+    "options": [
+      "مصدر خماسيٌّ",
+      "مصدر رباعيٌّ",
+      "مصدر سماعيٌّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0753",
+    "question": "مصدر الفعل (استوصى ) :",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "مصدر الفعل السداسيِّ (استوصى ) : استيصاء.",
+    "options": [
+      "استيصاء",
+      "استوصاء",
+      "استصاء"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0754",
+    "question": "يجب أن ترجع الحقَّ لأصحابه. باستبدال مصدر صريح بالمصدر المؤوَّل تصبح الجملة:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "الفعل المضارع (تُرجِع ) مصدره: إرجاع.",
+    "options": [
+      "يجب رجوع الحقِّ لأصحابه",
+      "يجب تراجع الحقِّ لأصحابه",
+      "يجب إرجاع الحقِّ لأصحابه"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0755",
+    "question": "من حسن إسلام المرء ألا يتدخَّل فيما لا يعنيه . المصدر المؤوَّل في الحديث وقع في محلِّ:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر المؤوَّل في الحديث وقع في محلِّ رفع مبتدأ.",
+    "options": [
+      "نصب",
+      "رفع",
+      "جر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0756",
+    "question": "يجب أن تعرض عن السفهاء. مصدر الفعل (تعرض ) الوارد في الجملة هو .......",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "الفعل الماضي من (تُعرض ) هو (أعرَضَ ) ، ومصدره: إعراض.",
+    "options": [
+      "إعراض",
+      "عرض",
+      "إعتراض"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0757",
+    "question": "ينبغي أن نحقِّق العدل. المصدر المؤوَّل في الجملة وقع في محلِّ .......",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر المؤوَّل في الجملة وقع في محلِّ رفع فاعل.",
+    "options": [
+      "رفع",
+      "نصب",
+      "جرٍّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0758",
+    "question": "وأولات الأحمال أجلهن أن يضعن حملهن . المصدر المؤوَّل (أن يضعن ) وقع في محلِّ .......",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر المؤوَّل (أن يضعن ) وقع في محلِّ.رفع خبر.",
+    "options": [
+      "رفع",
+      "نصب",
+      "جرٍّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0759",
+    "question": "وردت كلمة (الإنتاجيَّة ) كمصدر صناعيٍّ في جملةٍ واحدةٍ مما يلي:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "يُشترَط في المصدر الصناعيِّ ألا يقع نعتًا.",
+    "options": [
+      "تزيد الدولة الإنتاجيَّة",
+      "تطوِّر الدولة طاقتها الإنتاجيَّة",
+      "تهتمُّ الدولة بالمشاريع الإنتاجيَّة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0760",
+    "question": "اجتهِدوا من أجل تحقق آمالكم. إذا أردنا أن نستبدل بالمصدر الصريح في الجملة مصدرًا مؤوَّلا تصبح الجملة:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المصدر (تحقُّق ) مصدر خماسيٌّ، وفعله الماضي: تحقَّق.",
+    "options": [
+      "اجتهِدوا من أجل أن تحققوا آمالكم",
+      "اجتهِدوا من أجل تحقيق آمالكم",
+      "اجتهِدوا من أجل أن تتحقق آمالكم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0761",
+    "question": "إن اجتهدتم تجنبوا سوء النتيجة. إذا كانت هذه الجملة صحيحة فإنَّ (تجنبوا ) :",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "(تُجَنَّبوا ) : فعل مضارع مبنيٌّ للمجهول، ولو كان فعل أمر لوجب اقترانه بالفاء.",
+    "options": [
+      "مصدر خماسيٌّ",
+      "فعل أمر",
+      "فعل مضارع"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0762",
+    "question": "عليكم معشر الشباب واجب عظيم. الأسلوب في الجملة:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الأسلوب في الجملة أسلوب اختصاص.",
+    "options": [
+      "أسلوب اختصاص",
+      "أسلوب تفضيل",
+      "أسلوب مدح"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0763",
+    "question": "نحن التلاميذ مجتهدون. إعراب كلمة (التلاميذ ) :",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ يُعرَب مفعولا به لفعلٍ محذوفٍ تقديره: أخصُّ.",
+    "options": [
+      "مفعول به",
+      "خبر",
+      "نعت"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0764",
+    "question": "الفعل المحذوف في أسلوب الاختصاص تقديره:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الفعل المحذوف في أسلوب الاختصاص تقديره: أخصُّ، أو أعني، أو أقصد.",
+    "options": [
+      "أخصُّ",
+      "الزم",
+      "احذر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0765",
+    "question": "أنتِ أيَّتها المعلِّمة صانعة الأجيال. إعراب كلمة (المعلِّمة ) :",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المشتقُّ المعرَّف بأل بعد (أيُّها ) أو (أيَّتها ) يُعرَب نعتًا مرفوعًا.",
+    "options": [
+      "نعت مرفوع",
+      "منادى",
+      "خبر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0766",
+    "question": "نحن أهل مصر معروفون بالكرم. الاسم المختصُّ في الجملة:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ قد يكون معرَّفًا بأل، وقد يكون مضافًا إلى المعرَّف، وقد يكون لفظة (أي ) أو (أية ) .",
+    "options": [
+      "معرَّف بأل",
+      "نكرة",
+      "مضاف إلى المعرَّف"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0767",
+    "question": "عليكن أيَّتها الأمَّهات حسن تربية أبنائكن. الأسلوب في الجملة:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الأسلوب في الجملة أسلوب اختصاص.",
+    "options": [
+      "أسلوب اختصاص",
+      "أسلوب أمر",
+      "أسلوب تعجُّب"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0768",
+    "question": "نحن ....... نشرنا مبادئ العدل والرحمة.",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "إعراب كلمة (العرب ) : مفعول به لفعلٍ محذوفٍ تقديره أخصُّ، أو أعني، أو أقصد.",
+    "options": [
+      "العربَ (بفتح الباء )",
+      "العربُ (بضمِّ الباء )",
+      "عربًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0769",
+    "question": "إنَّني حارس البيت أمسكتُ باللص. الاسم المختصُّ في الجملة نوعه .......",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ قد يكون معرَّفًا بأل، أو مضافًا إلى المعرَّف، أو كلمة (أي ) .",
+    "options": [
+      "مضاف إلى المعرَّف",
+      "معرَّف بأل",
+      "لفظ (أي )"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0770",
+    "question": "نحن معشر الأنبياء لا نُوَرَّث . إعراب كلمة (معشر ) : مفعول به لفعلٍ محذوفٍ تقديره .......",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ إعرابه: مفعول به لفعلٍ محذوفٍ تقديره: أخصُّ، أو أعني، أو أقصد.",
+    "options": [
+      "أخصُّ",
+      "الزم",
+      "أحذِّر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0771",
+    "question": "علينا أيُّها الآباء واجب تجاه أولادنا. كلمة (الآباء ) : .......",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "إعراب كلمة (الآباء ) : نعت مرفوع.",
+    "options": [
+      "مرفوعة",
+      "منصوبة",
+      "مجرورة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0772",
+    "question": "نحن جنود مصر نحمي أرضها. إعراب كلمة (مصر ) :",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ في الجملة مضاف إلي المعرَّف، وإعراب كلمة (مصر ) : مضاف إليه مجرور.",
+    "options": [
+      "خبر",
+      "فاعل",
+      "مضاف إليه"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0773",
+    "question": "إنَّني حارس البيت أمسكتُ باللص. جملة (أمسكتُ باللص ) :",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "جملة (أمسكتُ باللص ) وقعت في محلِّ رفع خبر (إنَّ ) .",
+    "options": [
+      "وقعت في محلِّ جرّ نعت",
+      "وقعت في محل نصب حال",
+      "وقعت في محلِّ رفع خبر (إنَّ )"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0774",
+    "question": "إنَّني المعلِّم أعمل بجدٍّ. جملة (أعمل بجدٍّ ) وقعت:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الخبر (خبر المبتدأ، أو خبر [إنَّ ] وأخواتها، أو خبر [كان ] وأخواتها ) قد يكون مفردًا، أو جملةً، أو شبه جملةٍ.",
+    "options": [
+      "خبرًا لـ (إنَّ)",
+      "نعتًا للمعلِّم",
+      "حال من (المعلِّم )"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0775",
+    "question": "لنا ....... تاريخ مجيد.",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ يُعرَب مفعولا به لفعلٍ محذوفٍ تقديره: أخصُّ، وجمع المذكَّر السالم يُرفَع بالواو، ويُنصَب ويُجَرُّ بالياء.",
+    "options": [
+      "المصريِّين",
+      "المصريُّون",
+      "المصريَّان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0776",
+    "question": "نحن العرب نكرم الضيف. جملة (نكرم الضيف ) وقعت:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الخبر (خبر المبتدأ، أو خبر [إنَّ ] وأخواتها، أو خبر [كان ] وأخواتها ) قد يأتي مفردًا، أو جملةً، أو شبه جملةٍ.",
+    "options": [
+      "في محلِّ رفع",
+      "في محلِّ نصب",
+      "في محلِّ جرٍّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0777",
+    "question": "أنت طالب العلم مصباح الحياة. كلمة (العلم ) وردت في الجملة:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "إعراب كلمة (العلم ) : مضاف إليه مجرور.",
+    "options": [
+      "مجرورة",
+      "مرفوعة",
+      "منصوبة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0778",
+    "question": "بكم أصدقائي أواجه الصعاب. الاسم المختصُّ في الجملة نوعه .......",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ قد يكون معرَّفًا بأل، أو مضافًا إلى المعرَّف، أو كلمة (أي ) .",
+    "options": [
+      "مضاف إلى المعرَّف",
+      "معرَّف بأل",
+      "لفظ (أي )"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0779",
+    "question": "نحن المتصدِّقِين أسعد الناس. الكلمة الوحيدة المنصوبة في الجملة هي:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الأسلوب في الجملة أسلوب اختصاص، وإعراب كلمة (المتصدِّقِين ) : مفعول به لفعل محذوف تقديره: أخصُّ أو أعني أو أقصد.",
+    "options": [
+      "أسعد",
+      "الناس",
+      "المتصدِّقِين"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0780",
+    "question": "عليكم أيها الشباب مسئوليَّة كبرى. إعراب كلمة (الشباب ) :",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "إعراب كلمة (الشباب ) : نعت مرفوع، والاسم المختصُّ في الجملة هو كلمة (أي ) .",
+    "options": [
+      "مفعول به منصوب",
+      "منادى منصوب",
+      "نعت مرفوع"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0781",
+    "question": "لنا المصريِّين تاريخ مجيد. إعراب كلمة (تاريخ ) :",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "إعراب كلمة (تاريخ ) : مبتدأ مؤخَّر مرفوع.",
+    "options": [
+      "مبتدأ مؤخَّر",
+      "خبر",
+      "مفعول به"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0782",
+    "question": "عليكم أيُّها الجنود الدفاع عن وطنكم. كلمة (أي ) :",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "كلمة (أي ) : مبنيَّة على الضمِّ في محلِّ نصب، وهي الاسم المختصُّ.",
+    "options": [
+      "مبنيَّة على الضمِّ في محلِّ نصب",
+      "مبنيَّة على الضمِّ في محلِّ رفع",
+      "مبنيَّة على الفتح في محلِّ نصب"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0783",
+    "question": "إننا معشر الصحفيِّين نتحرَّى الحقيقة. جملة (نتحرَّى الحقيقة ) وقعت .......",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "جملة (نتحرَّى الحقيقة ) وقعت في محلِّ رفع خبر (إنَّ ) .",
+    "options": [
+      "خبرًا لـ (إنَّ )",
+      "نعتًا",
+      "حالا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0784",
+    "question": "نحن معشر الأنبياء لا نُوَرَّث . الكلمة الوحيدة المنصوبة فيما سبق هي .......",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ يُعرَب مفعولا به لفعلٍ محذوفٍ تقديره (أخصُّ ) أو (أعني ) أو (أقصد ) .",
+    "options": [
+      "معشر",
+      "الأنبياء",
+      "نُوَرَّث"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0785",
+    "question": "بنا أيُّها المهندسون ينهض الوطن. كلمة (أي ) : .......",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "إعراب كلمة (أي ) : مبنيَّة على الضمِّ في محلِّ نصب مفعول به لفعلٍ محذوفٍ تقديره: (أخصُّ ) أو (أعني ) أو ( أقصد ) .",
+    "options": [
+      "مبنيَّة على الفتح في محلِّ نصب",
+      "مبنيَّة على الفتح في محلِّ رفع",
+      "مبنيَّة على الضمِّ في محلِّ نصب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0786",
+    "question": "واحد مما يلي ليس من أنواع الاسم المختصِّ:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ إما أن يكون معرَّفًا، أو مضافًا إلي المعرَّف، أو كلمة (أي ) ، أو (أية ) .",
+    "options": [
+      "معرَّف بأل",
+      "مضاف إلي المعرَّف",
+      "نكرة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0787",
+    "question": "إنَّنا المسلمِين ....... في الخير.",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "إعراب كلمة (ساعون ) : خبر (إنَّ ) مرفوع، وعلامة الرفع الواو؛ لأنَّه جمع مذكَّر سالم.",
+    "options": [
+      "ساعون",
+      "ساعِين",
+      "ساعيَين"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0788",
+    "question": "أنت ذا الهمَّة العالية محترم. نوع الاسم المختصِّ في الجملة: .......",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ في الجملة مضاف إلى المعرَّف.",
+    "options": [
+      "مضاف إلي المعرَّف",
+      "معرَّف",
+      "مبنيٌّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0789",
+    "question": "نحن (شباب ) نحبُّ وطننا – نحن (شباب ) مصر نحبُّ وطننا.",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "إعراب كلمة (شباب ) في الجملة الأولى: خبر مرفوع، وعلامة الرفع الضَّمَّة (الأسلوب في الجملة ليس أسلوب اختصاص ) ، وإعراب كلمة (شباب ) في الجملة الثانية: مفعول به لفعلٍ محذوفٍ تقديره (أخصُّ ) منصوب، وعلامة النصب الفتحة (الأسلوب في الجملة أسلوب اختصاص ) .",
+    "options": [
+      "الكلمة الأولى منصوبة، والثانية مرفوعة",
+      "الكلمة الأولى مرفوعة، والثانية منصوبة",
+      "الكلمتان مرفوعتان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0790",
+    "question": "نحن العمَّال شعارنا إتقان العمل. إعراب كلمة (شعارنا ) :",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ في الجملة هو كلمة (العمَّال ) ، وخبر المبتدأ في الجملة نوعه: جملة اسميَّة، وإعراب كلمة (شعارنا ) : مبتدأ مرفوع، وعلامة الرفع الضَّمَّة، و (نا ) مبنيَّة في محلِّ جرّ مضاف إليه.",
+    "options": [
+      "خبر",
+      "مبتدأ",
+      "مفعول به لفعلٍ محذوفٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0791",
+    "question": "أنتم أيُّها الشباب تحافظون على وطنكم. (أي ) :",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "إعراب (أي ) : مبنيَّة على الضمِّ في محلِّ نصب مفعول به.",
+    "options": [
+      "مبنيَّة على الضمِّ في محلِّ نصب",
+      "مبنيَّة على الفتح في محلِّ رفع",
+      "مبنيَّة على الضمِّ في محلِّ رفع"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0792",
+    "question": "أنا العربيَّ ....... في الخير.",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "تُحذَف الياء من آخر الاسم المنقوص النكرة في حالتَي الرفع والجرِّ.",
+    "options": [
+      "ساعي",
+      "ساعيًا",
+      "ساعٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0793",
+    "question": "عليكم شباب الأمة مسئوليَّة كبرى. كلمة (كبرى ) :",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "النعت يطابق المنعوت، ولأنَّ المنعوت في الجملة وقع مبتدأً مؤخَّرًا مرفوعًا فإنَّ النعت (كلمة [كبرى ] ) يكون أيضًا مرفوعًا.",
+    "options": [
+      "مرفوعة",
+      "منصوبة",
+      "مجرورة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0794",
+    "question": "نحن أطباء نعالج المرضى. إعراب كلمة (أطباء ) :",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ لا يكون نكرةً.",
+    "options": [
+      "خبر",
+      "حال",
+      "مفعول به"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0795",
+    "question": "إنَّ لكم أيُّها المعلِّمون ....... لا يُنكَر لنهضة أمتكم.",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "إعراب كلمة (جهدًا ) : اسم (إنَّ ) مؤخَّر منصوب.",
+    "options": [
+      "جهدًا",
+      "جهدٌ",
+      "جهدٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0796",
+    "question": "بكم أيُّها الشباب ....... ينهض الوطن.",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "كلمة (المخلصون ) وقعت نعتًا مرفوعًا.",
+    "options": [
+      "المخلصِين",
+      "المخلصون",
+      "المخلصَين"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0797",
+    "question": "نحن المهندسِين مخلصون. إذا أردنا أن نجعل الخبر نعتًا فإنَّنا نقول:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ يُعرَب مفعولا به لفعلٍ محذوفٍ تقديره: أخصُّ.",
+    "options": [
+      "نحن مهندسون مخلصون",
+      "نحن مهندسِين مخلصِين",
+      "نحن مهندسون مخلصِين"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0798",
+    "question": "نحن فدائيُّون لا نهابْ الموت. الكلمة الخطأ في الجملة هي .......",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "(لا ) النافية لا تؤثِّر في الفعل المضارع، والفعل المضارع بعدها مرفوع، والأسلوب في الجملة ليس أسلوب اختصاص.",
+    "options": [
+      "الموت",
+      "نحن",
+      "لا نهابْ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0799",
+    "question": "نحن عرب (نكرم الضيف ) - نحن العرب (نكرم الضيف ) .",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الجملة الأولى وقعت نعتًا للخبر في محلِّ رفع، والثانية في محلِّ رفع خبر.",
+    "options": [
+      "الجملة الأولى في محلِّ رفع، والثانية في محلِّ نصب",
+      "الجملة الأولى في محلِّ نصب، والثانية في محلِّ رفع",
+      "الجملتان في محلِّ رفع"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0800",
+    "question": "أنا (المعلِّم ) أبني العقول - أنا (معلِّم ) أبني العقول.",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الأسلوب في الجملة الأولى فقط أسلوب اختصاص.",
+    "options": [
+      "الكلمة الأولى منصوبة، والثانية مرفوعة",
+      "الكلمة الأولى مرفوعة، والثانية منصوبة",
+      "الكلمتان منصوبتان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0801",
+    "question": "سيكون لكم أيُّها الشباب ....... في بلادكم.",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "إعراب كلمة (دور ) : اسم (سيكون ) مؤخَّر مرفوع، وإعراب كلمة (مهمٌّ ) : نعت مرفوع.",
+    "options": [
+      "دورًا مهمًّا",
+      "دورٌ مهمٌّ",
+      "دورٍ مهمٍّ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0802",
+    "question": "فيما يلي جملة واحدة صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ منصوب، والاسم المشتقُّ المعرَّف بأل بعد (أيُّها ) و (أيَّتها ) يُعرَب نعتًا مرفوعًا.",
+    "options": [
+      "أنتم المجتهدون مكرَّمِين من وطنكم",
+      "أنتم المجتهدِين مكرَّمون من وطنكم",
+      "أنتم المجتهدِين مكرَّمِين من وطنكم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0803",
+    "question": "جملة واحدة مما يلي صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "يجب حذف النون من جمع المذكَّر السالم والمثنَّى إذا جاء بعدهما مضاف إليه.",
+    "options": [
+      "أنتم طالبي العلمِ مصابيح الحياة",
+      "أنتم أيُّها الطلابَ مصابيح الحياة",
+      "أنتم معشرُ الطلاب مصابيح الحياة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0804",
+    "question": "جملة واحدة مما يلي فيها أسلوب اختصاص:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ يُعرَب مفعولا به لفعلٍ محذوفٍ، وهو لا يكون نكرةً.",
+    "options": [
+      "نحن عرب نتَّصف بالكرم",
+      "أنا مسلم لا أخضع لأحدٍ غير الله",
+      "بكم أصدقائي نعبر الصعاب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0805",
+    "question": "إنَّ عليكم شباب مصر ....... كبرى.",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "إعراب كلمة (مسئوليَّة ) : اسم (إنَّ ) مؤخَّر منصوب.",
+    "options": [
+      "مسئوليَّةٍ (بكسر التاء المربوطة )",
+      "مسئوليَّةٌ (بضمِّ التاء المربوطة )",
+      "مسئوليَّةً (بفتح التاء المربوطة )"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0806",
+    "question": "إنَّنا المعلِّمون ذوو أخلاق طيبة. بتصحيح هذه العبارة تصبح:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الصواب: إنَّنا المعلِّمِين ذوو أخلاق طيبة.",
+    "options": [
+      "إنَّنا المعلِّمِين ذوو أخلاق طيبة",
+      "إنَّنا المعلِّمون ذوي أخلاق طيبة",
+      "إنَّنا المعلِّمِين ذوي أخلاق طيبة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0807",
+    "question": "إنَّنا ....... مصر حريصون على رعاية النشء.",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "تُحذَف النون من جمع المذكَّر السالم والمثنَّى للإضافة.",
+    "options": [
+      "معلِّما",
+      "معلِّمِي",
+      "معلِّمِين"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0808",
+    "question": "أنا المخلص (ذو ) تفكير عمليٍّ - أنا مخلص (ذو ) تفكير عمليٍّ.",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الأسلوب في الجملة الأولى فقط أسلوب اختصاص.",
+    "options": [
+      "إعراب الكلمة الأولى: نعت، وإعراب الكلمة الثانية: خبر",
+      "إعراب الكلمة الأولى: خبر، وإعراب الكلمة الثانية: نعت",
+      "إعراب الكلمة الأولى: خبر، وإعراب الكلمة الثانية: مبتدأ مؤخَّر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0809",
+    "question": "....... معشر المسلمِين إلى الخير.",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "إعراب (لتدعوا ) : اللام لام الأمر، وهي أداة من أدوات جزم الفعل المضارع، و (تدعوا ) : فعل مضارع مجزوم، وعلامة الجزم حذف النون؛ لأنَّه من الأفعال الخمسة.",
+    "options": [
+      "لتدعوا",
+      "لتدعو",
+      "لتدعون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0810",
+    "question": "إنَّنا معلِّمون (نؤدِّي واجبنا بإخلاص ) - إنَّنا المعلِّمِين (نؤدِّي واجبنا بإخلاص ) .",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الجملة الأولى وقعت نعتًا لخبر (إنَّ ) المرفوع، والثانية في محلِّ رفع خبر (إنَّ ) .",
+    "options": [
+      "كلتا الجملتَين في محلِّ رفع",
+      "الجملة الأولى في محلِّ رفع، والثانية في محلِّ نصب",
+      "الجملة الأولى في محلِّ نصب، والثانية في محلِّ رفع"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0811",
+    "question": "جملة واحدة مما يلي غير صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "(إنَّ ) وأخواتها تنصب الاسم، وترقع الخبر.",
+    "options": [
+      "إنَّنا مخلصِين نقدِّم النصيحة",
+      "إنَّنا مخلصون نقدِّم النصيحة",
+      "إنَّنا المخلصِين نقدِّم النصيحة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0812",
+    "question": "نحن أولو التَّفوُّق .......",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "لا يجوز من كلِّ ما ذُكِر من إجابات إلا (المتميِّزون ) باعتبارها نعتًا لكلمة (أولو ) ، والأسلوب في الجملة ليس أسلوب اختصاص.",
+    "options": [
+      "المتميِّزون",
+      "المتميِّزِين",
+      "متميِّزون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0813",
+    "question": "نحن حماة الوطن أحرار. إعراب كلمة (حماة ) : .......",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الأسلوب في الجملة أسلوب اختصاص.",
+    "options": [
+      "مفعول به",
+      "خبر",
+      "نعت"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0814",
+    "question": "أنا عربيَّة مشهود فضلي. حقيقة واحدة مما يلي غير صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "لو كان الأسلوب في الجملة أسلوب اختصاص لقلنا: أنا العربية مشهود فضلي.",
+    "options": [
+      "إعراب كلمة (فضلي ) : نائب فاعل",
+      "الأسلوب في الجملة أسلوب اختصاص",
+      "كلمة (عربيَّة ) مرفوعة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0815",
+    "question": "جملة واحدة مما يلي صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الاسم المختصُّ لا يكون إلا معرَّفًا، أو مضافًا إلى المعرَّف، أو كلمة (أيّ، أو أيَّة ) .",
+    "options": [
+      "نحن المصريِّين نقدِّر إخواننا العرب",
+      "نحن مصريِّين نقدِّر إخواننا العرب",
+      "نحن ساكنِين مصر نقدِّر إخواننا العرب"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0816",
+    "question": "أنت أيُّها الطالب مجتهد . إعراب (أيّ ) :",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "الأسلوب في الجملة أسلوب اختصاص، والاسم المختصُّ (أيّ ) ، وهي مبنيَّة على الضَّمِّ في محلِّ نصب مفعول به لفعلٍ محذوفٍ تقديره (أخصُّ ) .",
+    "options": [
+      "منادى مبنيٌّ على الضَّمِّ",
+      "مبنيَّة على الضَّمِّ في محلِّ نصب مفعول به",
+      "منادى منصوب"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0817",
+    "question": "لنجتهدن نحن الطلاب في دراستنا.",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "oslop_alekhtesas",
+    "hint": "اللام في (لنجتهد ) هي لام الأمر، والفعل المضارع يُبنَى على الفتح إظذا اتَّصلت به نون التوكيد، والفاعل لا يقع ضميرًا منفصلا، والضمير (نحن ) توكيد للضمير المستتر، والأسلوب في الجملة أسلوب اختصاص.",
+    "options": [
+      "الفعل المضارع (نجتهد ) منصوب، وإعراب (نحن ) : توكيد، وكلمة (الطلاب ) منصوبة",
+      "الفعل المضارع (لنجتهدن ) مبنيٌّ، وإعراب (نحن ) : توكيد، وكلمة (الطلاب ) منصوبة",
+      "الفعل المضارع (نجتهد ) مجزوم، وإعراب (نحن ) : فاعل، وكلمة (الطلاب ) مرفوعة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1442",
+    "question": "المفعولُ معه اسمٌ منصوبٌ يُذكر بعد واوٍ بمعنى:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "تدل الواوُ على المصاحبة.",
+    "options": [
+      "(مع )",
+      "(أو )",
+      "(ثم )"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1443",
+    "question": "الواوُ التي يُذكر بعدها المفعولُ معه تسمى:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "سُمِّيت بذلك لدلالتها على المصاحبة.",
+    "options": [
+      "واوَ العطف",
+      "واوَ المعية",
+      "واوَ الحال"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1444",
+    "question": "حكمُ المفعول معه:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "شأنُه شأنُ المفاعيل.",
+    "options": [
+      "الرفع",
+      "الجر",
+      "النصب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1445",
+    "question": "سافرتُ والفجرَ . المفعولُ معه هو:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "الاسمُ المنصوبُ الواقعُ بعد واو المعية.",
+    "options": [
+      "الفجرَ",
+      "سافرتُ",
+      "الواو"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1446",
+    "question": "من شروط المفعول معه أن يُسبق بـ:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "لا يُسبق باسمٍ مفردٍ.",
+    "options": [
+      "اسمٍ مفردٍ",
+      "جملةٍ تامةٍ",
+      "حرف جرٍّ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1447",
+    "question": "المفعولُ معه لا يجوز أن:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "لا نقول: والجبلَ سار عليٌّ.",
+    "options": [
+      "يُسبق بجملةٍ",
+      "يُنصب",
+      "يتقدم على جملته"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1448",
+    "question": "إذا لم يصح العطفُ في المعنى وصحت المعيةُ، كان الاسمُ بعد الواو:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "لا يصلح إشراكُه في الحكم فيُنصب على المعية.",
+    "options": [
+      "مفعولًا معه",
+      "معطوفًا",
+      "مبتدأً"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1449",
+    "question": "سرتُ والجبلَ . أُعرب (الجبلَ ) مفعولًا معه لأن:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "الجبلُ لا يسير، فلا يصح إشراكُه في الفعل.",
+    "options": [
+      "العطف يصح",
+      "العطف لا يصح والمعية تصح",
+      "الجبل يسير"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1450",
+    "question": "زرتُ مكةَ والمدينةَ . (المدينةَ ) تُعرب:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "يصح إشراكُها مع مكة في فعل الزيارة.",
+    "options": [
+      "مفعولًا معه",
+      "مبتدأً",
+      "معطوفًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1451",
+    "question": "إذا صحت المعيةُ ولم يصح العطفُ، كان الاسمُ بعد الواو:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "يمتنع الإشراكُ في الحكم فيبقى النصبُ على المعية.",
+    "options": [
+      "مفعولًا معه",
+      "معطوفًا",
+      "بدلًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1452",
+    "question": "استوى الماءُ والخشبةَ . إعرابُ (الخشبةَ ):",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "الواوُ للمعية والاسمُ بعدها منصوبٌ.",
+    "options": [
+      "فاعل",
+      "مفعول معه منصوب",
+      "معطوف"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1453",
+    "question": "كيف أنتَ والامتحانَ ؟ إعرابُ (الامتحانَ ):",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "الواوُ للمعية بعد جملةٍ تامةٍ.",
+    "options": [
+      "مبتدأ",
+      "خبر",
+      "مفعول معه منصوب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1454",
+    "question": "زيدٌ سائرٌ والطريقَ . إعرابُ (الطريقَ ):",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "الواوُ للمعية بعد جملةٍ اسميةٍ تامةٍ.",
+    "options": [
+      "مفعول معه منصوب",
+      "خبر",
+      "مضاف إليه"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1455",
+    "question": "الواوُ في (سافرتُ والفجرَ ) تفيد معنى:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "تُقدَّر بـ(مع ).",
+    "options": [
+      "الترتيب",
+      "المصاحبة",
+      "الجمع المطلق"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1456",
+    "question": "المفعولُ معه يُشترط ألا يُسبق بـ:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "لا بد أن تسبقه جملةٌ لا مفردٌ.",
+    "options": [
+      "جملةٍ فعليةٍ",
+      "جملةٍ اسميةٍ",
+      "اسمٍ مفردٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1457",
+    "question": "أقبل رشيدٌ وحصانَه . المفعولُ معه هو:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "الاسمُ المنصوبُ بعد واو المعية.",
+    "options": [
+      "حصانَه",
+      "رشيدٌ",
+      "أقبل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1458",
+    "question": "الفرقُ بين المفعول معه والمعطوف يُعرف بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "المدارُ على المعنى لا على اللفظ.",
+    "options": [
+      "علامة الإعراب",
+      "صحة العطف أو المعية في المعنى",
+      "موقعه في الجملة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1459",
+    "question": "اتركني والكتابَ . إعرابُ (الكتابَ ):",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "الواوُ للمعية، والاسمُ بعدها منصوبٌ.",
+    "options": [
+      "فاعل",
+      "معطوف",
+      "مفعول معه منصوب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1460",
+    "question": "علامةُ نصب المفعول معه في الأسماء المفردة:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "علامةُ النصب الأصليةُ.",
+    "options": [
+      "الفتحة",
+      "الكسرة",
+      "الياء"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1461",
+    "question": "المفعولُ معه لا يقع في الكلام إلا بعد:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mafool_maah",
+    "hint": "لا بد من جملةٍ تسبق واوَ المعية.",
+    "options": [
+      "اسمٍ مبهمٍ",
+      "جملةٍ تامةٍ قبل واو المعية",
+      "حرف نداءٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1462",
+    "question": "الصفةُ المشبهةُ صفةٌ مشتقةٌ تدل على معنًى:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "لا تتقيد بزمنٍ يزول بانقضائه.",
+    "options": [
+      "ثابتٍ في الموصوف",
+      "متجددٍ",
+      "ماضٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1463",
+    "question": "تُصاغ الصفةُ المشبهةُ من مصدر الفعل الثلاثي:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "من الفعل الذي لا يتعدى إلى مفعولٍ.",
+    "options": [
+      "المتعدي",
+      "اللازم",
+      "المزيد"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1464",
+    "question": "سُمِّيت الصفةُ المشبهةُ بذلك لمشابهتها:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "تشبهه في الدلالة على من قام بالفعل.",
+    "options": [
+      "المصدر",
+      "اسم المفعول",
+      "اسم الفاعل"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1465",
+    "question": "الفرقُ بين الصفة المشبهة واسم الفاعل أن الصفة المشبهة تدل على:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "اسمُ الفاعل يدل على التجدد، وهي على الثبات.",
+    "options": [
+      "الثبوت والدوام",
+      "الحدوث والتجدد",
+      "الزمن الماضي"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1466",
+    "question": "الوزنُ (فَعِل ) في الصفة المشبهة يأتي فيما دل على:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "نحو: فَرِح وقَلِق وحَذِر.",
+    "options": [
+      "اللون",
+      "الفرح أو الحزن",
+      "الامتلاء"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1467",
+    "question": "الوزنُ (أفعَل ) في الصفة المشبهة يأتي فيما دل على:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "نحو: أزرق وأعور وأكحل.",
+    "options": [
+      "الفرح",
+      "الخلو",
+      "اللون أو العيب أو الحِلية"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1468",
+    "question": "الوزنُ (فَعْلان ) في الصفة المشبهة يأتي غالبًا فيما دل على:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "نحو: عطشان وملآن.",
+    "options": [
+      "الخلو أو الامتلاء",
+      "اللون",
+      "العيب"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1469",
+    "question": "مؤنثُ الصفة المشبهة (أعور ) يكون على وزن:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "مؤنثُ (أفعل ) في اللون والعيب.",
+    "options": [
+      "فُعلى",
+      "فَعلاء",
+      "فَعلانة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1470",
+    "question": "مؤنثُ الصفة المشبهة (عطشان ) يكون:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "مؤنثُ (فَعْلان ) على وزن (فَعْلى ).",
+    "options": [
+      "عطشانة",
+      "عطشاء",
+      "عطشى"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1471",
+    "question": "كلُّ ما جاء على وزن (فاعل ) أو (مفعول ) ودلَّ على الثبوت والدوام يُعد:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "نحو: صافي النية، معتدل القامة.",
+    "options": [
+      "صفةً مشبهةً",
+      "اسمَ تفضيلٍ",
+      "مصدرًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1472",
+    "question": "تعمل الصفةُ المشبهةُ عملَ:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "ترفع فاعلًا وتنصب معمولًا واحدًا.",
+    "options": [
+      "الفعل اللازم",
+      "اسم الفاعل المتعدي إلى مفعولٍ واحدٍ",
+      "المصدر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1473",
+    "question": "خالدٌ نظيفٌ ثوبُه . إعرابُ (ثوبُه ):",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "رفعته الصفةُ المشبهةُ (نظيف ) على الفاعلية.",
+    "options": [
+      "مفعول به",
+      "مبتدأ",
+      "فاعل للصفة المشبهة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1474",
+    "question": "العاملُ ضجِرٌ . (ضجِرٌ ):",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "دلَّت على صفةٍ ثابتةٍ على وزن (فَعِل ).",
+    "options": [
+      "صفةٌ مشبهةٌ",
+      "اسمُ تفضيلٍ",
+      "اسمُ مفعولٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1475",
+    "question": "الحصانُ أشهبُ . (أشهبُ ) صفةٌ مشبهةٌ على وزن:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "دلَّت على لونٍ.",
+    "options": [
+      "فَعِل",
+      "أفعَل",
+      "فَعْلان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1476",
+    "question": "أنت حسنُ المعشرِ . الأصلُ (أنت حسنٌ معشرُك )، فأُضيفت الصفةُ المشبهةُ إلى:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "المعشرُ فاعلٌ لها في المعنى.",
+    "options": [
+      "مفعولها",
+      "مبتدئها",
+      "ما هو فاعلٌ لها في المعنى"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1477",
+    "question": "الفائزُ فرحٌ . (فرحٌ ) صفةٌ مشبهةٌ على وزن:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "دلَّت على فرحٍ.",
+    "options": [
+      "فَعِل",
+      "أفعَل",
+      "فَعال"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1478",
+    "question": "الصفةُ المشبهةُ تُصاغ من الفعل:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "لا تُصاغ من المتعدي.",
+    "options": [
+      "المتعدي",
+      "اللازم",
+      "الناقص"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1479",
+    "question": "اللصُّ جبانٌ . (جبانٌ ) صفةٌ مشبهةٌ على وزن:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "من أوزان الصفة المشبهة المسموعة.",
+    "options": [
+      "فَعِل",
+      "أفعَل",
+      "فَعال"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1480",
+    "question": "الصفةُ المشبهةُ تدل على من قام بالفعل، ولكن على وجه:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "بخلاف اسم الفاعل الذي يدل على الحدوث.",
+    "options": [
+      "الثبوت",
+      "الحدوث المتجدد",
+      "المضي"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1481",
+    "question": "من أوزان الصفة المشبهة الدالة على اللون والعيب:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "alsefaa_almoshabaha",
+    "hint": "مذكَّرُه (أفعل ) ومؤنثُه (فَعلاء ).",
+    "options": [
+      "فَعِل",
+      "أفعَل",
+      "فُعال"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1482",
+    "question": "الممنوعُ من الصرف اسمٌ معربٌ لا يقبل:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "لا تلحقه علامةُ التمكين في آخره.",
+    "options": [
+      "التنوينَ",
+      "الجرَّ",
+      "الرفعَ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1483",
+    "question": "(الصرفُ ) في الاصطلاح النحوي هو:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "الاسمُ المصروفُ هو ما يقبله.",
+    "options": [
+      "الجرُّ",
+      "التنوينُ",
+      "النصبُ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1484",
+    "question": "يُجر الممنوعُ من الصرف بـ:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "ما لم يُضَف أو تدخل عليه (أل ).",
+    "options": [
+      "الكسرة دائمًا",
+      "الياء",
+      "الفتحة نيابةً عن الكسرة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1485",
+    "question": "يُجر الممنوعُ من الصرف بالكسرة إذا:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "الإضافةُ ودخولُ (أل ) يردانه إلى الجر بالكسرة.",
+    "options": [
+      "أُضيف أو دخلت عليه (أل )",
+      "كان علمًا",
+      "كان صفةً"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1486",
+    "question": "يُمنع العَلَمُ من الصرف مع العَلَمية إذا اجتمعت معه علةٌ مثل:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "من العلل التأنيثُ والعجمةُ ووزنُ الفعل.",
+    "options": [
+      "الجمع",
+      "التأنيث أو العجمة",
+      "الإفراد"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1487",
+    "question": "سلَّمتُ على أحمدَ . جُرَّ (أحمدَ ) بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "علمٌ على وزن الفعل ممنوعٌ من الصرف.",
+    "options": [
+      "الكسرة",
+      "الياء",
+      "الفتحة نيابةً عن الكسرة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1488",
+    "question": "جاءتْ فاطمةُ . مُنعت (فاطمةُ ) من الصرف لأنها:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "اجتمع فيها العَلَمية والتأنيث.",
+    "options": [
+      "عَلَمٌ مؤنثٌ",
+      "صفةٌ",
+      "على وزن الفعل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1489",
+    "question": "هاجرَ إبراهيمُ . مُنع (إبراهيمُ ) من الصرف لأنه علمٌ:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "أعجميٌّ تجاوز ثلاثةَ أحرفٍ.",
+    "options": [
+      "مؤنثٌ",
+      "أعجميٌّ زائدٌ على ثلاثة أحرف",
+      "على وزن الفعل"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1490",
+    "question": "صُمتُ في رمضانَ . مُنع (رمضانَ ) من الصرف لأنه علمٌ:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "في آخره ألفٌ ونونٌ زائدتان.",
+    "options": [
+      "أعجميٌّ",
+      "مؤنثٌ",
+      "مختومٌ بألفٍ ونونٍ زائدتين"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1491",
+    "question": "جاء أحمدُ . مُنع (أحمدُ ) من الصرف لأنه علمٌ:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "وزنُه خاصٌّ بالفعل (أَفعَل ).",
+    "options": [
+      "على وزن الفعل",
+      "أعجميٌّ",
+      "مؤنثٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1492",
+    "question": "جاء نوحٌ . صُرِف (نوحٌ ) لأنه علمٌ أعجميٌّ:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "الثلاثيُّ الساكنُ الوسط خفيفٌ فيُصرف.",
+    "options": [
+      "زائدٌ على ثلاثة أحرف",
+      "ثلاثيٌّ ساكنُ الوسط",
+      "مختومٌ بألفٍ ونونٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1493",
+    "question": "العَلَمُ المؤنثُ الثلاثيُّ الساكنُ الوسط العربيُّ (كهند ):",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "الصرفُ فيه أولى.",
+    "options": [
+      "يُمنع وجوبًا",
+      "يُصرف وجوبًا",
+      "يجوز فيه الصرفُ والمنعُ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1494",
+    "question": "يُمنع العَلَمُ من الصرف لعلَّتين إذا اجتمع مع العَلَمية:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "العَلَميةُ علةٌ، وتحتاج إلى علةٍ ثانيةٍ.",
+    "options": [
+      "علةٌ أخرى",
+      "التنوينُ",
+      "الإضافةُ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1495",
+    "question": "من العلل التي تُمنع العَلَم من الصرف:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "نحو: بعلبكَّ وحضرموتَ.",
+    "options": [
+      "الإفرادُ",
+      "التركيبُ المزجيُّ",
+      "التنكيرُ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1496",
+    "question": "الاسمُ المصروفُ هو:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "يقبل علامةَ التمكين في آخره.",
+    "options": [
+      "ما لا يقبل التنوين",
+      "ما يُجر بالفتحة",
+      "ما يقبل التنوين"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1497",
+    "question": "تكلَّمتْ زينبُ . نوعُ التأنيث في (زينبُ ):",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "دلَّت على مؤنثٍ ولم تكن فيها تاءُ التأنيث.",
+    "options": [
+      "معنويٌّ",
+      "لفظيٌّ",
+      "لفظيٌّ ومعنويٌّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1498",
+    "question": "زارَ معاويةُ الشامَ . مُنع (معاويةُ ) من الصرف لتأنيثه:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "فيه تاءُ التأنيث وإن كان علمًا لمذكر.",
+    "options": [
+      "المعنوي",
+      "اللفظي",
+      "الحقيقي"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1499",
+    "question": "لو أُضيف الممنوعُ من الصرف نحو (صلَّيتُ في مساجدِ المدينة )، جُرَّ بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "الإضافةُ تردُّه إلى الجر بالكسرة.",
+    "options": [
+      "الفتحة",
+      "الياء",
+      "الكسرة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1500",
+    "question": "ينقسم الممنوعُ من الصرف إلى:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "ما يُمنع لعلَّتين، وما يُمنع لعلَّةٍ، والصفةُ.",
+    "options": [
+      "ثلاثة أقسامٍ",
+      "قسمين",
+      "خمسة أقسامٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1501",
+    "question": "يُمنع العَلَمُ من الصرف إذا كان على وزنٍ خاصٍّ بالفعل مثل:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "mamnoa_mn_alsarf",
+    "hint": "(يزيد ) على وزن المضارع.",
+    "options": [
+      "محمد",
+      "يزيد",
+      "خالد"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1502",
+    "question": "المصدرُ الصريحُ اسمٌ يدل على حدثٍ مجردٍ من:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "بخلاف الفعل الذي يقترن بالزمن.",
+    "options": [
+      "الزمن",
+      "المكان",
+      "العدد"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1503",
+    "question": "المصدرُ الصريحُ يُعد أصلَ:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "منه يُؤخذ اسمُ الفاعل واسمُ المفعول وغيرُهما.",
+    "options": [
+      "الحروف",
+      "المشتقات",
+      "الأفعال الجامدة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1504",
+    "question": "ينقسم المصدرُ إلى نوعين رئيسيين:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "أحدُهما ظاهرٌ والآخرُ مؤوَّلٌ بحرفٍ وفعلٍ.",
+    "options": [
+      "ماضٍ ومضارع",
+      "قريب وبعيد",
+      "صريح ومؤول"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1505",
+    "question": "المصدرُ المؤولُ يتكون من (أنْ ) و:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "نحو: أن تجتهدَ = اجتهادُك.",
+    "options": [
+      "الفعل المضارع",
+      "اسمٍ مفردٍ",
+      "حرف جرٍّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1506",
+    "question": "يتكون المصدرُ المؤولُ أيضًا من (أنَّ ) و:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "نحو: سرَّني أنَّك ناجحٌ = نجاحُك.",
+    "options": [
+      "الفعل فقط",
+      "اسمها وخبرها",
+      "حرف نفيٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1507",
+    "question": "يعجبني ما فعلتَ . المصدرُ المؤولُ (ما فعلتَ ) يؤول بمصدرٍ صريحٍ هو:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "(ما ) المصدريةُ مع الفعل في تأويل مصدرٍ.",
+    "options": [
+      "مفعولُك",
+      "أن تفعل",
+      "فِعلُك"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1508",
+    "question": "مصدرُ الفعل الثلاثي:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "له أوزانٌ غالبةٌ لكنه لا يُقاس عليها قياسًا مطردًا.",
+    "options": [
+      "سماعيٌّ يُرجَع فيه إلى المعاجم",
+      "قياسيٌّ",
+      "لا مصدر له"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1509",
+    "question": "مصدرُ الفعل الرباعي والخماسي والسداسي:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "له أوزانٌ محدَّدةٌ مطردةٌ بحسب وزن الفعل.",
+    "options": [
+      "سماعيٌّ",
+      "قياسيٌّ",
+      "لا يُقاس"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1510",
+    "question": "المصدرُ الدالُّ على حرفةٍ أو ولايةٍ يأتي غالبًا على وزن:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "نحو: زِراعة وكِتابة.",
+    "options": [
+      "فُعال",
+      "فَعيل",
+      "فِعالة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1511",
+    "question": "المصدرُ الدالُّ على داءٍ يأتي غالبًا على وزن:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "نحو: سُعال وصُداع.",
+    "options": [
+      "فُعال",
+      "فِعالة",
+      "فُعْلة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1512",
+    "question": "المصدرُ الدالُّ على سَيرٍ يأتي غالبًا على وزن:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "نحو: رَحيل.",
+    "options": [
+      "فُعال",
+      "فَعيل",
+      "فَعَلان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1513",
+    "question": "المصدرُ الدالُّ على لونٍ يأتي غالبًا على وزن:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "نحو: حُمْرة وخُضْرة.",
+    "options": [
+      "فَعيل",
+      "فُعال",
+      "فُعْلة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1514",
+    "question": "المصدرُ الدالُّ على اضطرابٍ أو تقلُّبٍ يأتي على وزن:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "نحو: غَلَيان وجَوَلان.",
+    "options": [
+      "فَعَلان",
+      "فِعالة",
+      "فَعْل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1515",
+    "question": "مصدرُ الفعل (زرع ) الدالِّ على حرفةٍ:",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "على وزن (فِعالة ).",
+    "options": [
+      "زَرْع",
+      "زِراعة",
+      "زُروع"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1516",
+    "question": "مصدرُ الفعل (سعل ):",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "دالٌّ على داءٍ على وزن (فُعال ).",
+    "options": [
+      "سَعْل",
+      "سعيل",
+      "سُعال"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1517",
+    "question": "مصدرُ الفعل اللازم (جلس ) على وزن (فَعَلَ ):",
+    "difficulty": "hard",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "اللازمُ على وزن (فَعَلَ ) مصدرُه (فُعول ).",
+    "options": [
+      "جُلوس",
+      "جَلْس",
+      "جِلاسة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1518",
+    "question": "مصدرُ الفعل المتعدي (نصر ) على وزن (فَعَلَ ):",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "المتعدي على وزن (فَعَلَ ) مصدرُه (فَعْل ).",
+    "options": [
+      "نُصور",
+      "نَصْر",
+      "نِصارة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1519",
+    "question": "المصدرُ المؤولُ يصح أن يحل محلَّ:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "يتبادلان المواقعَ في كثيرٍ من الكلام.",
+    "options": [
+      "الفعل",
+      "الحرف",
+      "المصدر الصريح"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1520",
+    "question": "أتمنى أن يسلمَ الناسُ . المصدرُ المؤولُ (أن يسلم ) يؤول بـ:",
+    "difficulty": "medium",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "(أن ) والفعلُ في تأويل مصدرٍ صريحٍ.",
+    "options": [
+      "سلامةِ الناس",
+      "الناس",
+      "أن"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1521",
+    "question": "يسرُّني اجتهادُك . (اجتهادُك ) مصدرٌ:",
+    "difficulty": "easy",
+    "stage": "secondaryTwo",
+    "mClass": "الثاني",
+    "lessonId": "almasdar",
+    "hint": "ورد لفظًا صريحًا لا بحرفٍ وفعلٍ.",
+    "options": [
+      "مؤولٌ",
+      "صريحٌ",
+      "صناعيٌّ"
+    ],
+    "correctIndex": 1
+  }
+]

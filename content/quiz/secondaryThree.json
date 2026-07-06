@@ -1,0 +1,7232 @@
+[
+  {
+    "questionID": "0818",
+    "question": "يا طالب العلم، لا تقصِّر. المنادى في الجملة نوعه:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "المنادى المضاف يكون منصوبًا.",
+    "options": [
+      "نكرة مقصودة",
+      "شبيه بالمضاف",
+      "مضاف"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0819",
+    "question": "(لا ) النافية للجنس تعمل عمل .......",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "(لا ) النافية للجنس تعمل عمل (إنَّ ) وأخواتها بشروط.",
+    "options": [
+      "(كان ) وأخواتها",
+      "(كاد ) وأخواتها",
+      "(إنَّ ) وأخواتها"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0820",
+    "question": "لستُ مهملا ....... مجتهدًا.",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "أداة العطف (لكن ) تُسبَق بنفيٍ أو نهيٍ.",
+    "options": [
+      "لا",
+      "و",
+      "لكن"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0821",
+    "question": "تمييز (كم ) الخبريَّة يكون:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altameez",
+    "hint": "تمييز (كم ) الخبريَّة يكون مفردًا، أو جمعًا مجرورًا.",
+    "options": [
+      "مفردًا، أو جمعًا مجرورًا",
+      "مفردًا منصوبًا",
+      "جمعًا منصوبًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0823",
+    "question": "ما تسأل عن الحال في أدوات الاستفهام هي:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "أداة الاستفهام (كيف ) تسأل عن الحال.",
+    "options": [
+      "كم",
+      "لماذا",
+      "كيف"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0824",
+    "question": "(لا ) الناهية .......",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "(لا ) الناهية تجزم فعلا مضارعًا واحدًا.",
+    "options": [
+      "تجزم فعلَين",
+      "تنصب الفعل المضارع",
+      "تجزم فعلا مضارعًا واحدًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0825",
+    "question": "ربَّنا لا تُزِغ قلوبنا بعد إذ هديتنا . الفعل المضارع (تُزِغ ) ورد في الآية:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "(لا ) الناهية أداة من أدوات جزم الفعل المضارع.",
+    "options": [
+      "مجزومًا",
+      "مرفوعًا",
+      "منصوبًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0826",
+    "question": "ربنا إنك تعلم ما نخفي وما نعلن وما يخفى على الله من شيء في الأرض ولا في السماء .",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "من أنواع (ما ) : (ما ) الموصولة، و (ما ) النافية.",
+    "options": [
+      "(ما ) في (ما نخفي ) نافية، و(ما ) في (وما يخفى ) موصولة",
+      "(ما ) في (ما نخفي ) موصولة، و(ما ) في (وما يخفى ) نافية",
+      "(ما ) في الموضعين موصولة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0827",
+    "question": "تقليد الآخرِين ليس بذي أهمية. بحذف حرف الجرِّ الزائد تصبح الجملة:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "إعراب كلمة (بذي ) : الباء حرف جرٍّ زائد، وإعراب كلمة (ذي ) : خبر (ليس ) مجرور لفظًا منصوب محلا.",
+    "options": [
+      "تقليد الآخرِين ليس ذو أهمية",
+      "تقليد الآخرِين ليس ذا أهمية",
+      "تقليد الآخرِين ليس ذي أهمية"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0828",
+    "question": "أداة واحدة ممَّا يلي تؤكِّد الفعل الماضي:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "الفعل الماضي يؤَكَّد بـ (لقد ) ، كما يُؤكَّد بـ (قد ) .",
+    "options": [
+      "لقد",
+      "إنَّ",
+      "نون التوكيد"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0829",
+    "question": "إذا لم تحرص على الاجتهاد فلن تنجح. الفعل المضارع (تحرص ) :",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "رغم أنَّ أداة الشرط في الجملة غير جازمة إلا أنَّ الفعل المضارع (يحرص ) مجزوم بعد (لم ) .",
+    "options": [
+      "مرفوع؛ لأنَّ أداة الشرط في الجملة غير جازمة",
+      "مبنيٌّ",
+      "مجزوم بعد (لم )"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0830",
+    "question": "كلُّ أدوات الاستفهام مبنيَّة، ما عدا:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "كلُّ أدوات الاستفهام مبنيَّة، ما عدا (أي ) .",
+    "options": [
+      "كيف",
+      "ما",
+      "أي"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0831",
+    "question": "يا مصريُّ، اعمل لرقيِّ وطنكَ. كلمة (مصريُّ ) :",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "المنادى النكرة المقصودة يُبنَى على ما يُرفَع به.",
+    "options": [
+      "مبنيَّة على الضمِّ",
+      "مبنيَّة على الياء",
+      "مبنيَّة على الفتح"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0832",
+    "question": "من كم لاعب يتكوَّن الفريق. (كم ) في الجملة:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altameez",
+    "hint": "إذا سُبِقت (كم ) بحرف جرٍّ فإنَّها تكون (كم ) الاستفهاميَّة.",
+    "options": [
+      "تسأل عن العدد",
+      "تسأل عن السبب",
+      "تفيد الكثرة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0833",
+    "question": "المنادى النكرة غير المقصودة يكون:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "المنادى النكرة غير المقصودة يكون منصوبًا.",
+    "options": [
+      "مبنيًّا على ما يُنصَب به",
+      "منصوبًا",
+      "مبنيًّا على ما يُرفَع به"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0834",
+    "question": "لا أمان لمن لا أمانة له. اسم (لا ) النافية للجنس في الجملة:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "اسم (لا ) النافية للجنس المفرد يُبنَى على ما يُنصَب به.",
+    "options": [
+      "مبنيٌّ على الضم",
+      "مبنيٌّ على الفتح",
+      "منصوب بالفتحة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0835",
+    "question": "ومن الناس مَن يجادل في الله بغير علم . نوع (مَن ) في الآية:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "(مَن ) في الآية موصولة.",
+    "options": [
+      "موصولة",
+      "شرطيَّة",
+      "استفهاميَّة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0836",
+    "question": "أداة نداء واحدة مما يلي تُستخدَم للقريب والبعيد:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "أداة النداء (يا ) تُستخدَم للقريب والبعيد.",
+    "options": [
+      "يا",
+      "أيا",
+      "أي"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0837",
+    "question": "المسلم مَن سلم المسلمون من لسانه ويده . إعراب الاسم الموصول (مَن ) :",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "(مَن ) الموصولة تُعرَب حسب موقعها في الجملة.",
+    "options": [
+      "نعت",
+      "مضاف إليه",
+      "خبر"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0838",
+    "question": "حرف الجرِّ الشبيه بالزائد فيما يلي هو:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "حرف الجرِّ الشبيه بالزائد هو: رُبَّ.",
+    "options": [
+      "رُبَّ",
+      "على",
+      "الكاف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0839",
+    "question": "إنَّما يفيد الاجتهاد الإنسان - إنَّ ما يفيد الإنسان هو الاجتهاد.",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "(ما ) الأولى كافَّة، و (ما ) الثانية موصولة.",
+    "options": [
+      "(ما ) الأولى موصولة، والثانية كافَّة",
+      "(ما ) الأولى كافَّة، والثانية موصولة",
+      "(ما ) في الموضعَين كافَّة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0840",
+    "question": "قلتُ أنَّ اللاعبَين ماهران في الانطلاق. الكلمة الخطأ في الجملة هي:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "همزة (إنَّ ) تكون مكسورة بعد القول.",
+    "options": [
+      "اللاعبَين",
+      "أنَّ",
+      "ماهران"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0841",
+    "question": "رب أخٍ لك لم تلده أمُّكَ. جملة (لم تلده أمُّكَ ) وقعت:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "الجملة وقعت خبرًا للمبتدأ المجرور لفظًا المرفوع محلا (كلمة [أخ ] ) .",
+    "options": [
+      "في محلِّ رفع خبر",
+      "في محلِّ رفع نعت",
+      "في محلِّ جرٍّ نعت"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0842",
+    "question": "إنَّ ما تُوعَدون لآتٍ . حقيقة واحدة مما يلي صحيحة:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "(ما ) في الآية نوعها: موصولة.",
+    "options": [
+      "(ما ) في الآية نوعها موصولة",
+      "(ما ) في الآية كفَّت (إنًّ ) عن العمل",
+      "كلمة (لآتٍ ) مجرورة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0843",
+    "question": "ربِّ إنِّي وهن العظم منِّي . كلمة (ربِّ ) وردت في الآية:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "الأسلوب في الآية أسلوب نداء، وكلمة (ربِّ ) مضافة إلى ياء المتكلِّم المحذوفة؛ ولذلك فإنَّها تُعرَب منادى منصوبًا، وعلامة النصب الفتحة المقدَّرة.",
+    "options": [
+      "مجرورةً",
+      "مبنيَّةً على الضَّمِّ",
+      "منصوبةً"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0844",
+    "question": "ما كافأ المعلِّم من أحد. كلمة (أحد ) في الجملة:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "إعراب كلمة (أحد ) : مفعول به مجرور لفظًا منصوب محلا.",
+    "options": [
+      "مجرورة لفظًا مرفوعة محلا",
+      "مجرورة بعد حرف جرٍّ أصليٍّ",
+      "مجرورة لفظًا منصوبة محلا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0845",
+    "question": "كم طالب في المدرسة. هذه الجملة يجب أن يُوضَع في نهايتها:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altameez",
+    "hint": "تمييز (كم ) الخبرية يكون مفردًا أو جمعًا مجرورًا.",
+    "options": [
+      "؟",
+      "!",
+      ":"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0846",
+    "question": "التفوُّق ليس بصعبٍ. كلمة (صعب ) :",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "إعراب كلمة (صعب ) : خبر (ليس ) مجرور لفظًا، منصوب محلا.",
+    "options": [
+      "منصوبة لفظًا، مجرورة محلا",
+      "مجرورة لفظًا، منصوبة محلا",
+      "مجرورة لفظًا، مرفوعة محلا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0847",
+    "question": "يعجبني ما فعلتَ. المصدر المؤوَّل من (ما ) والفعل الماضي وقع:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "almasdar",
+    "hint": "المصدر المؤوَّل من (ما ) والفعل الماضي وقع في محلِّ رفع فاعل.",
+    "options": [
+      "في محلِّ رفع",
+      "في محلِّ نصب",
+      "في محلِّ جرٍّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0848",
+    "question": "أداة واحدة ما يلي لا تجزم الفعل المضارع:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "oslop_shart",
+    "hint": "أداة الشرط (لو ) غير جازمة، ولا تؤثِّر في الفعل المضارع.",
+    "options": [
+      "لو",
+      "مَن",
+      "مهما"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0849",
+    "question": "حرف جرٍّ واحد مما يلي لا يأتي زائدًا:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "حرف الجرِّ (إلى ) حرف أصليٌّ، ولا يأتي زائدًا.",
+    "options": [
+      "الباء",
+      "الكاف",
+      "إلى"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0850",
+    "question": "وكفى بالله وكيلا . إعراب لفظ الجلالة (الله ) :",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "إعراب لفظ الجلالة (الله ) : فاعل مجرور لفظًا، مرفوع محلا.",
+    "options": [
+      "فاعل مرفوع لفظًا، مجرور محلا",
+      "مفعول به مجرور لفظًا، منصوب محلا",
+      "فاعل مجرور لفظًا، مرفوع محلا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0851",
+    "question": "ما تفعل من خير ينفعكَ. الفعل المضارع (ينفعكَ ) ورد في الجملة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "oslop_shart",
+    "hint": "(ما ) في الجملة: أداة شرط جازمة تجزم فعلَين.",
+    "options": [
+      "مجزومًا",
+      "مرفوعًا",
+      "مبنيًّا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0852",
+    "question": "فيما يلي جملة واحدة صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altameez",
+    "hint": "تمييز (كم ) الاستفهاميَّة يكون مفردًا منصوبًا، وتمييز (كم ) الخبريَّة يكون مفردًا أو جمعًا مجرورًا.",
+    "options": [
+      "كم لاعبًا في الفريق!",
+      "كم تلميذًا مجتهدًا في الفصل؟",
+      "من كم قسم تتكوَّن الكلِّيَّة!"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0853",
+    "question": "ليس كمثله شيء . كلمة (مثله ) :",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "إعراب كلمة (مثله ) : خبر (ليس ) مقدَّم مجرور لفظًا، منصوب محلا.",
+    "options": [
+      "منصوبة لفظًا، ومجرورة محلا",
+      "مجرورة لفظًا، ومنصوبة محلا",
+      "مجرورة لفظًا، ومرفوعة محلا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0854",
+    "question": "يا بني آدم لا يفتنكم الشيطان . إعراب كلمة (بني ) :",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "المنادى في الجملة منصوب؛ لأنَّه مضاف، وكلمة (بني ) ملحقة بجمع المذكَّر السالم؛ ولذلك نُصِبت بالياء.",
+    "options": [
+      "منادى منصوب بالياء",
+      "منادى منصوب بالفتحة",
+      "منادى مبنيٌّ على الضم"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0855",
+    "question": "لولا الله لفسدت الأرض. خبر المبتدأ (لفظ الجلالة [الله ] ) :",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "almobtada_w_alkhabar",
+    "hint": "خبر (لولا ) محذوف وجوبًا، وتقديره: (موجود ) .",
+    "options": [
+      "محذوف، وتقديره: موجود",
+      "الجملة الفعلية (لفسدت )",
+      "محذوف، وتقديره: (خلق السموات والأرض )"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0856",
+    "question": "أداة شرط واحدة مما يلي لابد أن يكون فعل الشرط وجواب الشرط معها ماضيََين:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "oslop_shart",
+    "hint": "أداة الشرط (كلما ) لا بد أن يكون فعل الشرط وجواب الشرط معها ماضيَين.",
+    "options": [
+      "لولا",
+      "مَن",
+      "كلما"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0857",
+    "question": "لا يتأخَّر منكم ....... أحد. حرف الجرِّ الزائد الذي يمكن دخوله هنا هو:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "من مواضع زيادة حرف الجرِّ (من ) أن يسبقه نهي، وأن يدخل على اسم نكرة.",
+    "options": [
+      "الباء",
+      "الكاف",
+      "من"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0858",
+    "question": "لا قائلِين حقًّا نادمون. بالإتيان بالمفرد من كلمة (قائلِين ) تصبح الجملة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "الصواب هو: لا قائلا حقًّا نادم؛ لأنَّ اسم (لا ) النافية للجنس في الجملة نوعه: شبيه بالمضاف.",
+    "options": [
+      "لا قائلا حقٍّ نادم",
+      "لا قائلا حقًّا نادم",
+      "لا قائل حقًّا نادم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0859",
+    "question": "ما جاءنا من بشير . إعراب كلمة (بشير ) :",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "إعراب كلمة (بشير ) : فاعل مجرور لفظًا مرفوع محلا.",
+    "options": [
+      "تمييز مجرور لفظًا",
+      "فاعل مجرور لفظًا",
+      "مفعول به مجرور لفظًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0860",
+    "question": "لكلِّ شيء إذا ما تمَّ نقصان. (ما ) في العبارة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "(ما ) في العبارة زائدة.",
+    "options": [
+      "زائدة",
+      "موصولة",
+      "نافية"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0861",
+    "question": "كأنما على رءوسهم الطير . علامة إعراب كلمة (الطير ) :",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "(ما ) كفَّت (كأنَّ ) عن العمل، وإعراب كلمة (الطير ) : مبتدأ مؤخَّر مرفوع.",
+    "options": [
+      "الضمة",
+      "الفتحة",
+      "الكسرة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0862",
+    "question": "إذا كانت (مَن ) في الجمل التالية موصولة فإنَّ الجملة الوحيدة الصحيحة فيما يلي هي:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "(مَن ) الموصولة لا تجزم الفعل المضارع.",
+    "options": [
+      "مَن يتمسَّكون بالفضيلة يعلوا شأنهم",
+      "مَن يتمسَّكوا بالفضيلة يعلو شأنهم",
+      "مَن يتمسَّكون بالفضيلة يعلو شأنهم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0863",
+    "question": "مَن يؤدُّون واجبهم بإخلاص محبوبون. نوع (مَن ) في العبارة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "لو كانت (مَن ) في العبارة شرطيَّة لجزمت الفعل المضارع بعدها.",
+    "options": [
+      "شرطيَّة",
+      "كافَّة",
+      "موصولة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0864",
+    "question": "والعصر إنَّ الإنسان لفي خسر . إعراب كلمة (العصر ) :",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "(واو القسم ) حرف جرٍّ.",
+    "options": [
+      "اسم معطوف",
+      "مبتدأ لخبر محذوف",
+      "اسم مجرور"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0865",
+    "question": "جملة واحدة مما يلي صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "oslop_shart",
+    "hint": "فعل الشرط وفعل جواب الشرط مع (كلما ) لا بد أن يكونا ماضيَين.",
+    "options": [
+      "كلما أخلصتَ رضي الله عنكَ",
+      "كلما أخلصتَ يرضى الله عنكَ",
+      "كلما أخلصتَ يرضَ الله عنكَ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0866",
+    "question": "جملة واحدة مما يلي غير صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "تُحذَف ياء الاسم المنقوص النكرة في حالتي الرفع والجرِّ.",
+    "options": [
+      "كم قاضي بالحقِّ!",
+      "كم قاضٍ بالحقِّ!",
+      "كم قاضيا بالحقِّ؟"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0867",
+    "question": "ليس كمثل تعاون النحل .......",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "إعراب كلمة (تعاون ) : اسم (ليس ) مؤخَّر مرفوع.",
+    "options": [
+      "تعاونٌ (بضمِّ النون )",
+      "تعاونًا",
+      "تعاونٍ (بكسر النون )"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0868",
+    "question": "كلُّ أدوات الشرط مبنيَّة، ما عدا .......",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "oslop_shart",
+    "hint": "كلُّ أدوات الشرط مبنيَّة، ما عدا (أي ) .",
+    "options": [
+      "مَن",
+      "ما",
+      "أي"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0869",
+    "question": "إذا اتَّصل الفعل المضارع بنون التوكيد فإنَّه يكون:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "إذا اتَّصل الفعل المضارع بنون التوكيد فإنَّه يكون مبنيًّا على الفتح.",
+    "options": [
+      "مبنيًّا على السكون",
+      "منصوبًا بالفتحة",
+      "مبنيًّا على الفتح"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0870",
+    "question": "الأفعال الخمسة هي كلُّ فعل مضارع اتَّصلت به ألف الاثنين، أو واو الجماعة، أو .......",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "الأفعال الخمسة هي كلُّ فعل مضارع اتَّصلت به ألف الاثنين، أو واو الجماعة، أو ياء المخاطبة.",
+    "options": [
+      "ياء المتكلِّم",
+      "نون النسوة",
+      "ياء المخاطبة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0871",
+    "question": "الاسم المبنيُّ الوحيد فيما يلي هو:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الأسماء الموصولة كلُّها مبنيَّة، ما عدا المثنَّى منها.",
+    "options": [
+      "اللذان",
+      "الذين",
+      "اللتان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0872",
+    "question": "واحد مما يلي كلُّ علامات إعرابه فرعيَّة:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "المثنَّى يُرفَع بالألف ويُنصَب ويُجَرُّ بالياء.",
+    "options": [
+      "المفرد",
+      "المثنَّى",
+      "جمع التكسير"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0873",
+    "question": "لام الجحود .......",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "لام الجحود تُسبَق بكونٍ منفيًّ.",
+    "options": [
+      "تُسبَق بكون منفيٍّ",
+      "تُسبَق بطلب",
+      "تُسبَق بنفي أو طلب"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0874",
+    "question": "الفعل المضارع .......",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الفعل المضارع معرب، ولا يُبنى إلا في حالتَين: إذا اتَّصلت به نون النسوة يُبنَى على السكون، وإذا اتَّصلت به نون التوكيد يُبنَى على الفتح.",
+    "options": [
+      "معرب، ولا يُبنَى إلا في حالتَين",
+      "مبنيٌّ، ولا يُعرَب إلا في حالتَين",
+      "معرب دائمًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0875",
+    "question": "الاسم الذي لا يتغيَّر شكل آخره مهما تغيَّر موقعه في الكلام هو .......",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الاسم الذي لا يتغيَّر شكل آخره مهما تغيَّر موقعه في الكلام هو: الاسم المبنيُّ.",
+    "options": [
+      "الاسم المعرب",
+      "الاسم المعرب بعلامة فرعيَّة",
+      "الاسم المبنيُّ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0876",
+    "question": "واحد ممَّا يلي مبنيٌّ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "المنادى النكرة المقصودة يُبنَى على ما يُرفَع به.",
+    "options": [
+      "المنادى النكرة غير المقصودة",
+      "المنادى المضاف",
+      "المنادى النكرة المقصودة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0877",
+    "question": "واحد ممَّا يلي يُنصَب بعلامةٍ فرعيَّةٍ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "جمع المؤنَّث السالم يُنصَب بالكسرة، وعلامة النصب الأصليَّة هي الفتحة.",
+    "options": [
+      "الاسم الممنوع من الصرف",
+      "المفرد",
+      "جمع المؤنَّث السالم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0878",
+    "question": "الضمائر .......",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "الضمائر كلُّها مبنيَّة.",
+    "options": [
+      "كلُّها معربة",
+      "كلُّها مبنية",
+      "مبنيَّة، ما عدا المثنَّى منها"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0879",
+    "question": "إذا اتَّصلت نون النسوة بأي فعل يكون مبنيًّا على .......",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "إذا اتَّصلت نون النسوة بأي فعل (سواءً أكان فعلا ماضيًا أم فعلا مضارعًا أم فعل أمر ) فإنَّه يكون مبنيًّا على السكون.",
+    "options": [
+      "الفتح",
+      "السكون",
+      "الضمِّ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0880",
+    "question": "هاتان طالبتان مجتهدتان. إعراب (هاتان ) :",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_eshara",
+    "hint": "أسماء الإشارة كلُّها مبنيَّة، ما عدا المثنَّى منها.",
+    "options": [
+      "مبتدأ مرفوع بثبوت النون",
+      "مبنيَّة في محلِّ رفع مبتدأ",
+      "مبتدأ مرفوع بالألف"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0881",
+    "question": "كدنا ننتصر في الحرب على الأمِّيَّة. الفعل (كدنا ) .......",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "إذا اتَّصل الفعل الماضي بـ (نا ) الفاعلَين فإنَّه يكون مبنيًّا على السكون.",
+    "options": [
+      "مبنيٌّ على الفتح",
+      "مرفوع بالضمة المقدَّرة",
+      "مبنيٌّ على السكون"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0882",
+    "question": "المخلصون يضحُّون بأنفسهم من أجل وطنهم. الفعل (يضحُّون ) .......",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "الأفعال الخمسة تُرفَع بثبوت النون، وتُنصَب وتُجزَم بحذف النون.",
+    "options": [
+      "مبنيٌّ على السكون",
+      "مرفوع بالضمة",
+      "مرفوع بثبوت النون"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0883",
+    "question": "المؤمن ساعٍ في الخير. كلمة (ساعٍ ) .......",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "إعراب كلمة (ساعٍ ) : خبر مرفوع، وعلامة الرفع الضمة المقدَّرة.",
+    "options": [
+      "مرفوعة بالضمة الظاهرة",
+      "مرفوعة بالضمة المقدَّرة",
+      "مجرورة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0884",
+    "question": "كلُّ الظروف التالية مبنيَّة، ما عدا .......",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "الظرف (بعد ) ليس مبنيًّا.",
+    "options": [
+      "الآن",
+      "بعد",
+      "أمس"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0885",
+    "question": "كما تكونوا يُوَلَّ عليكم . نوع (ما ) في (كما ) :",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "oslop_shart",
+    "hint": "(ما) هنا أداة شرط جازمة، والدليل جزم فعل الشرط (تكونوا) بحذف النون، وتفيد معنى الشرط.",
+    "options": [
+      "اسم موصول",
+      "أداة شرط",
+      "أداة استفهام"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0886",
+    "question": "فعل الأمر يُبنَى على .......",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "فعل الأمر يُبنَى على ما يُجزَم به مضارعه.",
+    "options": [
+      "ما يُجزَم به مضارعه",
+      "ما يُرفَع به مضارعه",
+      "ما يُنصَب به مضارعه"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0887",
+    "question": "قرأتُ ذلك الكتاب. (ذلك ) : .......",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_eshara",
+    "hint": "من أسماء الإشارة التي تُستخدَم للبعيد: ذلك، وتلك، وأولئك.",
+    "options": [
+      "اسم إشارة معرب",
+      "اسم موصول مبنيٌّ",
+      "اسم إشارة مبنيٌّ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0888",
+    "question": "انتهت المباراة منذ ساعة. الظرف (منذ ) .......",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "إعراب (منذ ) : ظرف زمان مبنيٌّ على الضمِّ.",
+    "options": [
+      "مبنيٌّ على الكسر",
+      "مبنيٌّ على الفتح",
+      "مبنيٌّ على الضمِّ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0889",
+    "question": "جملة واحدة مما يلي صحيحة:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "إعراب (انهَ ) : فعل أمر مبنيٌّ على حذف حرف العلَِّة، وهو مبدوء بألف وصل؛ لأنَّه فعل أمر من الثلاثيِّ.",
+    "options": [
+      "إنهَ نفسكَ عن فعل الشَّرِّ",
+      "انهى نفسكَ عن فعل الشَّرِّ",
+      "انهَ نفسكَ عن فعل الشَّرِّ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0890",
+    "question": "المؤمنون لا يدعون إلى الشَّرِّ، والنساء ....... إلى السوء.",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alfeal_almoatal",
+    "hint": "عند إسناد الفعل المعتلِّ الآخر إلى نون النسوة يُرَدُّ حرف العلَّة إلى أصله؛ ولذلك فإنَّ الصواب (لا يدعون ) .",
+    "options": [
+      "لا يدعين",
+      "لا يدعون",
+      "لا تدعين"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0891",
+    "question": "اسعين في طريق الخير. الخطاب في هذه الجملة:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "النون في فعل الأمر (اسعين ) هي نون التوكيد، والفعل جائز التوكيد بالنون، والخطاب في الجملة للمفرد المذكَّر، ولو كان الخطاب للمفردة المؤنَّثة لقلنا: اسعي في طريق الخير، ولكان فعل الأمر مبنيًّا على حذف النون.",
+    "options": [
+      "للمفردة المؤنَّثة",
+      "للمفرد المذكَّر",
+      "لجمع المذكَّر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0892",
+    "question": "في الأفعال الموجودة بين القوسين بالجمل التالية فعل واحد معرب:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "المعرب من الأفعال هو الفعل المضارع الذي لاغ تتَّصل به نون النسوة ولا نون التوكيد.",
+    "options": [
+      "المريض (يئنُّ ) من المرض",
+      "(قدَّم ) المؤمن الخير للناس",
+      "الطالبات (تؤدِّين ) واجبهن بإخلاص"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0893",
+    "question": "واحد ممَّا يلي يُبنَى على ما يُنصَب به:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "اسم (لا ) النافية للجنس المفرد يُبنَى على ما يُنصَب به.",
+    "options": [
+      "اسم (لا ) النافية للجنس المفرد",
+      "اسم (لا ) النافية للجنس المضاف",
+      "اسم (لا ) النافية للجنس الشبيه بالمضاف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0894",
+    "question": "في الكلمات الموجودة بين القوسين فيما يلي اسم واحد مبنيٌّ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "المثنَّى من أسماء الإشارة (هذان، وهاتان ) ، والمثنَّى من الأسماء الموصولة (اللذان، واللتان ) معرب، وليس مبنيًّا.",
+    "options": [
+      "أحترم (الذين ) يجتهدون",
+      "أحترم (اللذين ) يجتهدان",
+      "(هذان ) طالبان مجتهدان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0895",
+    "question": "لا يُبنَى من الأفعال على الضمِّ إلا .......",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الفعل الماضي يُبنَى على الضمِّ إذا اتَّصلت به واو الجماعة.",
+    "options": [
+      "الفعل الماضي",
+      "فعل الأمر",
+      "الفعل المضارع"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0896",
+    "question": "ذاكرتُ دروسي. الفعل في الجملة .......",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "إذا اتَّصل الفعل الماضي بتاء الفاعل فإنَّه يُبنَى على السكون.",
+    "options": [
+      "مبنيٌّ على السكون",
+      "مبنيٌّ على الفتح",
+      "مبنيٌّ على الضمِّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0897",
+    "question": "إيَّاك نعبد وإيَّاك نستعين . إعراب (إيَّاك ) :",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "(إيَّاك ) ضمير منفصل لا يأتي إلا في محلِّ نصب.",
+    "options": [
+      "ضمير مبنيٌّ في محلِّ جرٍّ مضاف إليه",
+      "ضمير مبنيٌّ في محلِّ نصب مفعول به",
+      "ضمير مبنيٌّ في محلِّ رفع فاعل"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0898",
+    "question": "(أدِّ ) واجبكَ، ولا (تهمل ) .",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "فعل الأمر مبنيٌّ دائمًا.",
+    "options": [
+      "الفعل الأول مبنيٌّ، والثاني معرب",
+      "الفعل الأول معرب، والثاني مبنيٌّ",
+      "الفعلان مبنيَّان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0899",
+    "question": "ضمير واحد مما يلي إذا اتَّصل به أيُّ فعلٍ فإنَّه يكون مبنيًّا:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "أيُّ فعل يتصل بنون النسوة يكون مبنيًّ على السكون.",
+    "options": [
+      "نون النسوة",
+      "(نا ) الفاعلَين",
+      "واو الجماعة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0900",
+    "question": "(أيُّ الأعمال أحبُّ إلى الله ) . (أيُّ ) نوعها: .......",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "كل أدوات الشرط مبنيَّة، ما عدا (أيّ ) .",
+    "options": [
+      "أداة شرط معربة",
+      "أداة شرط مبنيَّة",
+      "أداة استفهام معربة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0901",
+    "question": "هؤلاء تلاميذ مجتهدون. اسم الإشارة (هؤلاء ) .......",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_eshara",
+    "hint": "اسم الإشارة (هؤلاء ) مبنيٌّ على الكسر.",
+    "options": [
+      "مبنيٌّ على الفتح",
+      "مبنيٌّ على الضمِّ",
+      "مبنيٌّ على الكسر"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0902",
+    "question": "قاعدة واحدة مما يلي غير صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "asmaa_khamsa",
+    "hint": "الأسماء الخمسة تُرفَع بالواو، وتُنصَب بالألف، وتُجَرُّ بالياء.",
+    "options": [
+      "جمع المؤنَّث السالم يُنصَب بالكسرة",
+      "الأسماء الخمسة تُنصَب بالياء",
+      "الاسم الممنوع من الصرف يُجَرُّ بالفتحة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0903",
+    "question": "جمع المؤنَّث السالم .......",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "جمع المؤنَّث السالم يُنصَب بعلامة فرعيَّة، وهي الكسرة.",
+    "options": [
+      "يُنصَب بعلامة فرعَّية",
+      "يُنصَب، ويُجَرُّ بعلامة فرعيَّة",
+      "يُرفَع بعلامة فرعيَّة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0904",
+    "question": "لتجتهدْن في دراستكن. الفعل المضارع (تجتهدن ) .......",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الفعل المضارع (تجتهدن ) مبنيٌّ على السكون لاتِّصاله بنون النسوة.",
+    "options": [
+      "مبنيٌّ على السكون",
+      "منصوب بعد لام التعليل",
+      "مجزوم بعد لام الأمر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0905",
+    "question": "الأطبَّاء يعالجون المرضى. الفعل (يعالجون ) .......",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "الأفعال الخمسة تُرفَع بثبوت النون، وتُنصَب وتُجزَم بحذف النون.",
+    "options": [
+      "مرفوع بثبوت النون",
+      "مبنيٌّ على السكون؛ لاتِّصاله بنون النسوة",
+      "مبنيٌّ على الضمِّ؛ لاتِّصاله بواو الجماعة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0906",
+    "question": "قاعدة واحدة مما يلي صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الاسم لا يُجزَم، والفعل لا يُجَرُّ.",
+    "options": [
+      "الاسم لا يُجزَم، والفعل لا يُجَرُّ",
+      "الفعل لا يُجزَم، والاسم لا يُجَرُّ",
+      "الاسم يُرفَع، و يُجزَم، و يُجَرُّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0907",
+    "question": "قاعدة واحدة مما يلي صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "جمع المؤنَّث السالم يُنصَب بعلامةٍ فرعيٍَّة؛ لأنَّه يُنصَب بالكسرة، وعلامة النصب الأصليَّة هي الفتحة.",
+    "options": [
+      "الأسماء الخمسة تُرفَع بالألف",
+      "جمع المؤنَّث السالم يُنصَب بعلامةٍ فرعيَّةٍ",
+      "المثنَّى يُجَرُّ بعلامةٍ أصليَّةٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0908",
+    "question": "ادعون الله دائمًا. إعراب (ادعون ) :",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "يُبنَى الفعل المضارع على الفتح إذا اتَّصلت به نون التوكيد.",
+    "options": [
+      "فعل أمر مبنيٌّ على السكون",
+      "فعل أمر مبنيٌّ على الفتح",
+      "فعل مضارع مرفوع بثبوت النون"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0909",
+    "question": "لا تخشين إلا الله. حقيقة واحدة مما يلي صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "إذا اتَّصل الفعل المضارع بنون التوكيد يُبنَى على الفتح.",
+    "options": [
+      "الفعل في الجملة مبنيٌّ على الفتح",
+      "الفعل في الجملة مبنيٌّ على السكون",
+      "الفعل في الجملة مجزوم بالسكون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0910",
+    "question": "جملة واحدة مما يلي غير صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "جملة ( أنتِ لا تبالي بالأخطار ) غير صحيحة، لأنَّ الفعل في الجملة يجب أن يُرفَع بثبوت النون.",
+    "options": [
+      "أنتِ لا تبالي بالأخطار",
+      "لا تبالي بالأخطار",
+      "لا تبالِ بالأخطار"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0911",
+    "question": "احترمنا معلِّمونا. الفعل الماضي (احترمنا ) مبنيٌّ على .....",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "إذا اتَّصلت (نا ) بالفعل الماضي وأُعرِبت مفعولا به يكون الفعل مبنيًّا على الفتح.",
+    "options": [
+      "الفتح",
+      "الضمِّ",
+      "السكون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0912",
+    "question": "جملة واحدة مما يلي صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "فعل الأمر(ادعُ ) مبنيٌّ على حذف حرف العلَّة، وإعراب كلمة (موقن ) : خبر مرفوع، وعلامة الرفع الضمة، والجملة الاسميَّة وقعت في محلِّ نصب حال.",
+    "options": [
+      "ادعو ربَّكَ وأنت موقنٌ بالإجابة",
+      "ادعُ ربَّكَ وأنت موقنٌ بالإجابة",
+      "ادعوا ربَّكَ وأنت موقنٌ بالإجابة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0913",
+    "question": "اجتهِدي في دراستكِ. سبب حذف حرف النون من فعل الأمر (اجتهِدي ) :",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "يُبنَى فعل الأمر على حذف النون إذا اتَّصلت به ألف الاثنين أو واو الجماعة أو ياء المخاطبة.",
+    "options": [
+      "للإضافة",
+      "أنَّه مبنيٌّ على حذف النون",
+      "لأنَّه منصوب بحذف النون"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0914",
+    "question": "لا تقصِّرن في أداء واجبكن. الفعل (تقصِّرن ) :",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "يُبنَى الفعل المضارع على السكون إذا اتَّصلت به نون النسوة.",
+    "options": [
+      "مبنيٌّ على الفتح",
+      "مبنيٌّ على السكون",
+      "مجزوم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0915",
+    "question": "اسعوا جادِّين في العمل. بجعل الخطاب في الجملة للمفرد تصبح الجملة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "فعل الأمر من الثلاثيِّ يبدأ بألف وصل.",
+    "options": [
+      "اسعَ جادًّا في العمل",
+      "اسعى جادًّا في العمل",
+      "أسعى جادًّا في العمل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0916",
+    "question": "ربَّنا وآتِنا ما وعدتنا على رسلكَ . الفعل (آتِنا ) :",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "إعراب (آتِنا ) : فعل أمر مبنيٌّ على حذف حرف العلَّة، وإعراب (نا ) : ضمير مبنيٌّ في محلِّ نصب مفعول به، والفاعل ضمير مستتر تقديره (أنت ) .",
+    "options": [
+      "مبنيٌّ على حذف حرف العلة",
+      "مبنيٌّ على السكون",
+      "مبنيٌّ على حذف النون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0918",
+    "question": "ادعوا الله إن ....... النجاح.",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الخطاب في الجملة للمثنى، والفعل متَّصل بألف الاثنين، وهو مبنيٌّ على حذف النون.",
+    "options": [
+      "أردتما",
+      "أردتَ",
+      "أرادت"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0919",
+    "question": "أرضهم ما دمتَ في أرضهم. إعراب كلمة (أرضهم ) الأولى:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "إعراب كلمة (أرضهم ) الأولى: فعل مبنيٌّ على حذف حرف العلَّة.",
+    "options": [
+      "فعل مبنيٌّ على السكون",
+      "فعل مبنيٌّ على حذف حرف العلَّة",
+      "فعل مبنيٌّ على الفتح"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0920",
+    "question": "لا (تقدُّم ) بلا (إخلاص ) .",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "اسم (لا ) النافية للجنس المفرد يكون مبنيًّا، وإذا سُبقت (لا ) النافية للجنس بحرف جرٍّ يُلغَى عملها، ويُجَرُّ ما بعدها.",
+    "options": [
+      "الكلمة الأولى منصوبة، والثانية مجرورة",
+      "الكلمة الأولى مبنيَّة، والثانية مجرورة",
+      "الكلمتان مبنيَّتان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0921",
+    "question": "أتقنَّ العمل. حقيقة واحدة مما يلي غير صحيحة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "لا يمكن أن يكون (أتقنَّ ) فعلا مضارعًا؛ لعدم وجود مبرِّر لتوكيده بالنون، ولكنه فعل أمر يمكن أن يكون متَّصلا بنون النسوة، ويمكن أنت يكون متَّصلا بنون النسوة.",
+    "options": [
+      "الخطاب في الجملة يجوز أن يكون للمفرد المذكَّر",
+      "(أتقنَّ ) فعل مضارع",
+      "الخطاب في الجملة يجوز أن يكون لجمع المؤنَّث"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0922",
+    "question": "المنادى اسم يدل على طلب المتكلم من المخاطب .......",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "أسلوب النداء غرضه لفت انتباه المخاطَب وطلب إقباله.",
+    "options": [
+      "الإقبال عليه أو الانتباه إليه",
+      "الابتعاد عنه",
+      "السكوت وعدم الرد"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0923",
+    "question": "(أيا ) أداة نداء تُستخدَم لنداء:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "(آ ) و(أيا ) و(هيا ) من أدوات نداء البعيد.",
+    "options": [
+      "القريب",
+      "البعيد",
+      "القريب والبعيد"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0924",
+    "question": "أدوات نداء القريب هي:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "(أي ) و(أ ) للقريب، و(أيا ) و(هيا ) للبعيد.",
+    "options": [
+      "أيا – هيا",
+      "آ – وا",
+      "أي – أ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0925",
+    "question": "قِيلَ يَا نُوحُ اهْبِطْ بِسَلَامٍ . المنادى (نوحُ ) ورد في الآية:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "المنادى العلم يُبنَى على ما يُرفَع به في غير النداء، ويكون في محل نصب.",
+    "options": [
+      "مبنيًّا على الضم في محل نصب",
+      "منصوبًا بالفتحة الظاهرة",
+      "مجرورًا بالكسرة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0926",
+    "question": "يَا أَهْلَ الْكِتَابِ لِمَ تُحَاجُّونَ فِي إِبْرَاهِيمَ . المنادى في الآية نوعه:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "المنادى المضاف يأتي بعده مضاف إليه، وحكمه وجوب النصب.",
+    "options": [
+      "نكرة مقصودة",
+      "علم",
+      "مضاف"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0927",
+    "question": "واحد ممَّا يلي من أنواع المنادى واجبة النصب:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "النكرة غير المقصودة والمضاف والشبيه بالمضاف حكمها وجوب النصب.",
+    "options": [
+      "النكرة غير المقصودة",
+      "العلم",
+      "النكرة المقصودة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0928",
+    "question": "يا سائقَ السيارةِ، تمهَّلْ. المنادى (سائقَ ) :",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "المنادى الذي يليه مضاف إليه حكمه وجوب النصب.",
+    "options": [
+      "مبنيٌّ على الضم",
+      "منادى منصوب لأنه مضاف",
+      "منادى منصوب لأنه شبيه بالمضاف"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0929",
+    "question": "يَا جِبَالُ أَوِّبِي مَعَهُ . المنادى (جبالُ ) نوعه:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "النكرة المقصودة يُقصَد بها مخاطَب معيَّن، وتُبنَى على ما تُرفَع به.",
+    "options": [
+      "نكرة مقصودة",
+      "نكرة غير مقصودة",
+      "مضاف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0930",
+    "question": "يا عاصيًا، تبْ إلى اللهِ. نُصِب المنادى (عاصيًا ) لأنه:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "النكرة غير المقصودة لا يُقصَد بها معيَّن، وحكمها وجوب النصب.",
+    "options": [
+      "مضاف",
+      "شبيه بالمضاف",
+      "نكرة غير مقصودة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0931",
+    "question": "الشبيه بالمضاف هو المنادى الذي:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "(يا طالعًا جبلًا ) لا يستقيم معنى المنادى فيه بحذف ما لحق به.",
+    "options": [
+      "يُبنَى على الضم دائمًا",
+      "يُقصَد به معيَّن من النكرات",
+      "لا يمكن الاستغناء عمَّا لحق به"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0932",
+    "question": "يا طالعًا جبلًا، احذرْ. المنادى في الجملة نوعه:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "الشبيه بالمضاف نكرة لحق بها ما يُتمِّم معناها، وحكمه وجوب النصب.",
+    "options": [
+      "مضاف",
+      "شبيه بالمضاف",
+      "نكرة مقصودة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0933",
+    "question": "عند حذف أداة النداء تُقدَّر الأداة بـ(يا ) لأنها:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "(يا ) هي الأصل في أدوات النداء، وتصلح للقريب والبعيد.",
+    "options": [
+      "أقصر الأدوات",
+      "أم الباب",
+      "تُستخدَم للقريب فقط"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0934",
+    "question": "يا أبتِ، اسمعْ نصيحتي. التاء في (أبتِ ) :",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "في نداء (أب ) و(أم ) يمكن حذف ياء المتكلم والتعويض عنها بتاء مفتوحة أو مكسورة.",
+    "options": [
+      "عوض عن ياء المتكلم المحذوفة",
+      "تاء التأنيث الأصلية في الكلمة",
+      "حرف زائد للتوكيد"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0935",
+    "question": "يا ....... العلمِ، اجتهدْ. أكمل بمنادى مضبوطٍ ضبطًا صحيحًا:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "المنادى المضاف واجب النصب.",
+    "options": [
+      "طالبَ",
+      "طالبُ",
+      "طالبٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0936",
+    "question": "يَا عِبَادِ فَاتَّقُونِ . المنادى المضاف إلى ياء المتكلم ورد في الآية:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "من صور المنادى المضاف إلى ياء المتكلم حذفُ الياء والاكتفاء بكسر ما قبلها.",
+    "options": [
+      "بإثبات الياء ساكنة",
+      "بقلب الياء ألفًا",
+      "بحذف الياء والاكتفاء بالكسرة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0937",
+    "question": "يَا حَسْرَتَا عَلَى مَا فَرَّطْتُ فِي جَنْبِ اللَّهِ . أصل (حسرتا ) : يا حسرتي، وقد:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "من صور المضاف إلى ياء المتكلم فتحُ ما قبل الياء وقلبُ الياء ألفًا.",
+    "options": [
+      "حُذفت الياء واكتُفي بالكسرة",
+      "فُتح ما قبل الياء وقُلبت الياء ألفًا",
+      "أُثبتت الياء مبنيَّةً على السكون"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0938",
+    "question": "يا محاميَّ، دافعْ عن الحقِّ. ياء المتكلم مع المنادى المعتلِّ الآخر:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "المنادى المعتل الآخر المضاف إلى ياء المتكلم تثبت ياؤه مبنيَّةً على الفتح.",
+    "options": [
+      "يجوز حذفها والاكتفاء بالكسرة",
+      "يجب إثباتها مبنيَّةً على الفتح",
+      "تُقلَب ألفًا وجوبًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0939",
+    "question": "جملة واحدة ممَّا يلي لا يجوز فيها حذف أداة النداء:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "يمتنع حذف أداة النداء مع اسم الإشارة.",
+    "options": [
+      "يا يوسفُ، اجتهدْ في دروسك",
+      "يا هذا، تمهَّلْ في سيرك",
+      "يا صديقي، أخلصْ في عملك"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0940",
+    "question": "واحد ممَّا يلي يمتنع فيه حذف أداة النداء:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "من مواضع امتناع حذف الأداة: المندوب، والمستغاث، ولفظ الجلالة، واسم الإشارة.",
+    "options": [
+      "العلم",
+      "المضاف",
+      "لفظ الجلالة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0941",
+    "question": "تريد نداء أخيك القريب منك، فالأنسب ممَّا يلي:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "nedaa",
+    "hint": "(أي ) و(أ ) لنداء القريب، و(أيا ) و(هيا ) لنداء البعيد.",
+    "options": [
+      "أيا أخي، ساعدْني",
+      "أي أخي، ساعدْني",
+      "هيا أخي، ساعدْني"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1522",
+    "question": "كان وأخواتها أفعالٌ ناسخةٌ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "تُبقي المبتدأ مرفوعًا وتُغيِّر الخبر.",
+    "options": [
+      "ترفع المبتدأ وتنصب الخبر",
+      "تنصب المبتدأ وترفع الخبر",
+      "تجزم الفعل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1523",
+    "question": "المبتدأ بعد دخول كان يسمى:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "يبقى مرفوعًا وينسب إلى كان.",
+    "options": [
+      "خبرها",
+      "اسمها",
+      "مفعولها"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1524",
+    "question": "الخبرُ بعد دخول كان يسمى:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "يصير منصوبًا وينسب إلى كان.",
+    "options": [
+      "اسمها",
+      "مبتدأها",
+      "خبرها"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1525",
+    "question": "سُميت كان وأخواتها أفعالًا ناقصةً لأنها:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "لا يتم المعنى بها حتى يُذكر الخبر.",
+    "options": [
+      "تحتاج إلى خبرٍ ليتم المعنى",
+      "لا فاعل لها",
+      "لا ماضي لها"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1526",
+    "question": "سُميت كان وأخواتها نواسخَ لأنها:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "غيَّرت الحكمَ السابقَ للخبر.",
+    "options": [
+      "تجزم المضارع",
+      "نسخت حكمَ الخبر",
+      "تدخل على الفعل"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1527",
+    "question": "كان المطرُ غزيرًا . إعرابُ (غزيرًا ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "الخبرُ يُنصب بعد كان.",
+    "options": [
+      "اسم كان",
+      "مبتدأ",
+      "خبر كان منصوب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1528",
+    "question": "أصبح الساهرُ متعبًا . إعرابُ (الساهرُ ):",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "المبتدأ يبقى مرفوعًا اسمًا لأصبح.",
+    "options": [
+      "اسم أصبح مرفوع",
+      "خبر",
+      "مفعول به"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1529",
+    "question": "الفعلُ (صار ) من أخوات كان يفيد:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "نحو: صار القطنُ نسيجًا.",
+    "options": [
+      "النفي",
+      "التحويل",
+      "الاستمرار"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1530",
+    "question": "الفعلُ (ليس ) من أخوات كان يفيد:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "نحو: ليس الغشُّ مقبولًا.",
+    "options": [
+      "التوقيت",
+      "التحويل",
+      "النفي"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1531",
+    "question": "الأفعالُ (ما زال، ما برح، ما انفك، ما فتئ ) تفيد:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "تدل على دوام الحدث واتصاله.",
+    "options": [
+      "الاستمرار",
+      "التحويل",
+      "النفي"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1532",
+    "question": "الفعلُ (بات ) يفيد التوقيت بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "نحو: بات الضيفُ شبعانَ.",
+    "options": [
+      "الصبح",
+      "الليل",
+      "الضحى"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1533",
+    "question": "الفعلُ (ظل ) يفيد التوقيت بـ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "نحو: ظل الضبابُ كثيفًا.",
+    "options": [
+      "الليل",
+      "المساء",
+      "النهار"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1534",
+    "question": "الأفعالُ (زال، برح، انفك، فتئ ) لا تعمل عمل كان إلا إذا سُبقت بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "نحو: ما زال، ولا يبرحْ.",
+    "options": [
+      "نفيٍ أو نهيٍ",
+      "استفهامٍ",
+      "شرطٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1535",
+    "question": "ما زال العدوُّ ناقمًا . (زال ) هنا عملت عمل كان لأنها من:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "اقترنت بالنفي فتحقق شرطُ عملها.",
+    "options": [
+      "العاملة بلا شرط",
+      "المشروطة بالنفي أو النهي",
+      "الأفعال التامة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1536",
+    "question": "صار الجوُّ جميلًا . إعرابُ (جميلًا ):",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "الخبرُ يُنصب بعد (صار ).",
+    "options": [
+      "اسم صار",
+      "مبتدأ",
+      "خبر صار منصوب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1537",
+    "question": "كان الطالبُ مجتهدًا . اسمُ كان هو:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "هو المبتدأ الذي بقي مرفوعًا.",
+    "options": [
+      "الطالبُ",
+      "مجتهدًا",
+      "كان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1538",
+    "question": "الأفعالُ (كان، صار، ليس، أصبح ) تعمل عملها:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "لا تحتاج إلى نفيٍ ولا نهيٍ ولا ظرفٍ.",
+    "options": [
+      "بشرط النفي",
+      "مطلقًا بلا شرطٍ",
+      "بشرط الظرفية"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1539",
+    "question": "الفعلُ (ما دام ) يفيد:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "نحو: أحسنْ ما دمتَ حيًّا.",
+    "options": [
+      "التحويل",
+      "النفي",
+      "بيان المدة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1540",
+    "question": "كان وأخواتها تدخل على:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "أصلُ ما تدخل عليه مبتدأٌ وخبرٌ.",
+    "options": [
+      "الجملة الاسمية",
+      "الجملة الفعلية",
+      "الحرف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1541",
+    "question": "الفعلُ (أمسى ) يفيد التوقيت بـ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kan_w_eakhawateha",
+    "hint": "يقابله (أصبح ) في التوقيت بالصبح.",
+    "options": [
+      "الصبح",
+      "المساء",
+      "النهار"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1542",
+    "question": "إن وأخواتها حروفٌ تدخل على الجملة الاسمية فـ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "عملُها عكسُ عمل كان وأخواتها.",
+    "options": [
+      "تنصب المبتدأ وترفع الخبر",
+      "ترفع المبتدأ وتنصب الخبر",
+      "تجزم الخبر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1543",
+    "question": "المبتدأ بعد دخول (إنّ ) يسمى:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "يصير منصوبًا وينسب إلى إنّ.",
+    "options": [
+      "خبرها",
+      "اسمها",
+      "مفعولها"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1544",
+    "question": "الخبرُ بعد دخول (إنّ ) يسمى:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "يبقى مرفوعًا وينسب إلى إنّ.",
+    "options": [
+      "اسمها",
+      "مبتدأها",
+      "خبرها"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1545",
+    "question": "(إنّ ) و(أنّ ) تفيدان:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "لتقوية الحكم وإزالة الشك.",
+    "options": [
+      "التوكيد",
+      "التشبيه",
+      "التمني"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1546",
+    "question": "(كأنّ ) تفيد:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "نحو: كأنّ خالدًا أسدٌ.",
+    "options": [
+      "الاستدراك",
+      "التشبيه",
+      "الترجي"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1547",
+    "question": "(لكنّ ) تفيد:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "نحو: القضاءُ نزيهٌ ولكنّ العدلَ بطيءٌ.",
+    "options": [
+      "التمني",
+      "التوكيد",
+      "الاستدراك"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1548",
+    "question": "(ليت ) تفيد:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "طلبُ ما لا يُرجى أو يعسر حصوله.",
+    "options": [
+      "التمني",
+      "الترجي",
+      "التشبيه"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1549",
+    "question": "(لعل ) تفيد:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "توقُّعُ أمرٍ محبوبٍ أو مخوفٍ.",
+    "options": [
+      "التمني",
+      "الترجي",
+      "الاستدراك"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1550",
+    "question": "إنّ الحياةَ جهادٌ . إعرابُ (الحياةَ ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "المبتدأ يُنصب اسمًا لإنّ.",
+    "options": [
+      "خبر إن",
+      "مبتدأ",
+      "اسم إن منصوب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1551",
+    "question": "لعل النصرَ قريبٌ . إعرابُ (قريبٌ ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "الخبرُ يبقى مرفوعًا خبرًا للعل.",
+    "options": [
+      "خبر لعل مرفوع",
+      "اسمها",
+      "مفعول به"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1552",
+    "question": "الفرقُ بين عائلة كان وعائلة إنّ أن:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "إحداهما ترفع الاسم، والأخرى تنصبه.",
+    "options": [
+      "كلتيهما أفعالٌ",
+      "كان أفعالٌ وإنّ حروفٌ",
+      "كلتيهما حروفٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1553",
+    "question": "لو قلنا: إنّ الأجواءُ ممطرةٌ . فالصوابُ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "(إنّ ) تنصب اسمَها.",
+    "options": [
+      "إنّ الأجواءِ ممطرةٌ",
+      "لا تغيير",
+      "إنّ الأجواءَ ممطرةٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1554",
+    "question": "الأصلُ في اسم (إنّ ) وخبرها:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "الاسمُ يسبق الخبرَ في الأصل.",
+    "options": [
+      "تقديم الاسم على الخبر",
+      "تقديم الخبر",
+      "حذف الخبر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1555",
+    "question": "قد يتقدم خبرُ (إنّ ) على اسمها إذا كان:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "نحو: إنّ في ذلك لعبرةً.",
+    "options": [
+      "مفردًا",
+      "شبهَ جملةٍ (جارًّا ومجرورًا أو ظرفًا )",
+      "جملةً فعليةً"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1556",
+    "question": "إنّ في ذلك لعبرةً . (لعبرةً ) اسمُ إنّ مؤخرٌ، واللامُ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "تدخل على اسم إنّ المؤخر لتقويته.",
+    "options": [
+      "حرف جر",
+      "زائدة",
+      "للتوكيد"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1557",
+    "question": "كأنّ المطرَ لؤلؤٌ . إعرابُ (المطرَ ):",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "المبتدأ يُنصب اسمًا لكأنّ.",
+    "options": [
+      "اسم كأن منصوب",
+      "خبر",
+      "مبتدأ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1558",
+    "question": "ليت الامتحانَ سهلٌ . اسمُ ليت هو:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "هو المبتدأ الذي نُصب بعد ليت.",
+    "options": [
+      "سهلٌ",
+      "الامتحانَ",
+      "ليت"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1559",
+    "question": "قد يقترن اسمُ (إنّ ) أو خبرُها بـ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "لامٌ مفتوحةٌ تفيد التوكيد.",
+    "options": [
+      "نون التوكيد",
+      "همزة الاستفهام",
+      "لام التوكيد المفتوحة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1560",
+    "question": "إن وأخواتها من حيث النوعُ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "بخلاف كان وأخواتها الأفعال.",
+    "options": [
+      "حروفٌ",
+      "أفعالٌ",
+      "أسماءٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1561",
+    "question": "إنّ المعلمَ شريفٌ . خبرُ إنّ هو:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "enn_akhwateha",
+    "hint": "هو المرفوعُ الذي تمَّ به المعنى.",
+    "options": [
+      "المعلمَ",
+      "شريفٌ",
+      "إنّ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1562",
+    "question": "ظن وأخواتها أفعالٌ ناسخةٌ تنصب:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "تدخل على المبتدأ والخبر فتنصبهما.",
+    "options": [
+      "مفعولين",
+      "مفعولًا واحدًا",
+      "الفاعل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1563",
+    "question": "تدخل ظن وأخواتها على الجملة الاسمية فيصبح المبتدأ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "أولُ مفعوليها.",
+    "options": [
+      "فاعلًا",
+      "مفعولًا به أولَ",
+      "خبرًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1564",
+    "question": "يصبح الخبرُ بعد دخول ظن:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "ثاني مفعوليها.",
+    "options": [
+      "مبتدأً",
+      "فاعلًا",
+      "مفعولًا به ثانيًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1565",
+    "question": "من أفعال اليقين في باب ظن:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "تدل على تحقُّق وقوع الخبر.",
+    "options": [
+      "علم ورأى ووجد",
+      "ظن وحسب",
+      "صيّر وحوّل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1566",
+    "question": "من أفعال الرجحان في باب ظن:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "تدل على ترجيح وقوع الخبر.",
+    "options": [
+      "علم",
+      "ظن وحسب وزعم",
+      "جعل التحويلية"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1567",
+    "question": "من أفعال التحويل في باب ظن:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "تدل على تصيير الشيء شيئًا آخر.",
+    "options": [
+      "ظن",
+      "علم",
+      "صيّر وجعل وحوّل"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1568",
+    "question": "ظننتُ اللعبةَ سهلةً . (اللعبةَ ) و(سهلةً ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "أصلُهما مبتدأٌ وخبرٌ نصبهما الفعلُ.",
+    "options": [
+      "مفعولان به",
+      "فاعل وخبر",
+      "اسم وخبر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1569",
+    "question": "علمتُ العلمَ أساسَ النهضة . إعرابُ (أساسَ ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "هو الخبرُ في الأصل، صار المفعولَ الثاني.",
+    "options": [
+      "مفعول به أول",
+      "مفعول به ثانٍ",
+      "خبر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1570",
+    "question": "تسمى أفعالُ اليقين والرجحان:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "لأن معانيها متعلقةٌ بالقلب.",
+    "options": [
+      "أفعال التحويل",
+      "أفعال الشروع",
+      "أفعال القلوب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1571",
+    "question": "علمتُ الحقيقةَ . نصبت (علم ) هنا مفعولًا واحدًا لأنها بمعنى:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "خرجت عن معنى اليقين القلبي إلى المعرفة.",
+    "options": [
+      "عرفتُ",
+      "ظننتُ",
+      "صيّرتُ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1572",
+    "question": "رأيتُ السارقَ . (رأى ) هنا نصبت مفعولًا واحدًا لأنها:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "بمعنى شاهدتُ بالعين لا بالقلب.",
+    "options": [
+      "قلبية بمعنى علم",
+      "بصرية بمعنى شاهد",
+      "تحويلية"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1573",
+    "question": "الفعلُ (جعل ) قد يكون من أفعال:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "نحو: جعلتُ الطينَ إناءً.",
+    "options": [
+      "اليقين",
+      "النفي",
+      "التحويل"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1574",
+    "question": "حولتُ الدقيقَ خبزًا . (حوّل ) من أفعال:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "تدل على تصيير شيءٍ آخرَ.",
+    "options": [
+      "التحويل",
+      "اليقين",
+      "الرجحان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1575",
+    "question": "ما يُشتق من ظن وأخواتها:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "نحو: كنتُ ظانًّا نجاحَك أمرًا طبيعيًّا.",
+    "options": [
+      "لا يعمل",
+      "يعمل عملها",
+      "يعمل عمل كان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1576",
+    "question": "من أفعال ظن ما لا يتصرف، فـ(تعلَّمْ ) لا تأتي إلا:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "بمعنى (اعلمْ )، وهي صيغةُ طلبٍ.",
+    "options": [
+      "للماضي",
+      "للمضارع",
+      "للأمر"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1577",
+    "question": "الفعلُ (هَبْ ) من أخوات ظن لا يأتي إلا:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "لا يُتصرَّف فيه فيلزم صيغةً واحدةً.",
+    "options": [
+      "للأمر",
+      "للماضي",
+      "للمضارع"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1578",
+    "question": "ظن وأخواتها ثلاثةُ أقسامٍ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "بحسب دلالتها على تحقُّق الخبر أو ترجيحه أو تصييره.",
+    "options": [
+      "ماضٍ ومضارع وأمر",
+      "يقين ورجحان وتحويل",
+      "رفع ونصب وجر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1579",
+    "question": "وجد أحمدُ هاتفَه . (وجد ) هنا نصبت مفعولًا واحدًا لأنها بمعنى:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "خرجت عن معنى اليقين إلى اللقاء والعثور.",
+    "options": [
+      "علم",
+      "ظن",
+      "لقي"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1580",
+    "question": "الفعلُ (ظن ) يدل في الأصل على:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "ترجيحُ وقوع الخبر لا تحقُّقُه.",
+    "options": [
+      "الرجحان",
+      "اليقين",
+      "التحويل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1581",
+    "question": "الفعلُ (علم ) في الأصل يدل على:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "zan_ekhawateha",
+    "hint": "تحقُّقُ وقوع الخبر وثبوتُه.",
+    "options": [
+      "الرجحان",
+      "اليقين",
+      "الشروع"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1582",
+    "question": "أفعالُ المقاربة (كاد وأخواتها ) تعمل عملَ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "ترفع المبتدأ وتنصب الخبر.",
+    "options": [
+      "كان وأخواتها",
+      "إن وأخواتها",
+      "ظن وأخواتها"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1583",
+    "question": "كاد وأخواتها ترفع المبتدأ ويسمى اسمها، وتنصب الخبر ويسمى:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "كخبر كان في التسمية.",
+    "options": [
+      "مفعولها",
+      "خبرها",
+      "نعتها"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1584",
+    "question": "أقسامُ كاد وأخواتها ثلاثةٌ: المقاربة والرجاء و:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "ما يدل على البدء في العمل.",
+    "options": [
+      "التحويل",
+      "اليقين",
+      "الشروع"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1585",
+    "question": "من أفعال المقاربة الدالة على قرب الوقوع:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "نحو: كاد المطرُ يهطل.",
+    "options": [
+      "كاد وأوشك وكرب",
+      "عسى وحرى",
+      "أخذ وطفق"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1586",
+    "question": "من أفعال الرجاء:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "تدل على رجاء وقوع الخبر.",
+    "options": [
+      "كاد",
+      "عسى وحرى واخلولق",
+      "شرع"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1587",
+    "question": "من أفعال الشروع:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "تدل على البدء في الفعل.",
+    "options": [
+      "عسى",
+      "كاد",
+      "أنشأ وأخذ وطفق"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1588",
+    "question": "يُشترط في خبر كاد وأخواتها أن يكون:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "لا يكون خبرُها اسمًا مفردًا.",
+    "options": [
+      "جملةً فعليةً فعلُها مضارعٌ",
+      "اسمًا مفردًا",
+      "جارًّا ومجرورًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1589",
+    "question": "يقترن خبرُ (أوشك ) غالبًا بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "نحو: أوشك المطرُ أن ينزل.",
+    "options": [
+      "اللام",
+      "(أن ) المصدرية",
+      "الفاء"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1590",
+    "question": "يتجرد خبرُ (كاد ) و(كرب ) وأفعالِ الشروع من:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "نحو: كادت السفينةُ تغرق (بلا أن ).",
+    "options": [
+      "الفاعل",
+      "المضارع",
+      "(أن ) المصدرية"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1591",
+    "question": "الفعلُ (عسى ) يفيد:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "نحو: عسى اللهُ أن يأتيَ بالفرج.",
+    "options": [
+      "الرجاء",
+      "الشروع",
+      "قرب الوقوع"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1592",
+    "question": "كادت السفينةُ تغرقُ . خبرُ (كاد ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "جاء جملةً فعليةً فعلُها مضارعٌ.",
+    "options": [
+      "اسمٌ مفردٌ",
+      "جملةٌ فعليةٌ (تغرق )",
+      "شبهُ جملةٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1593",
+    "question": "أوشك المطرُ أن ينزلَ . اقترن خبرُ (أوشك ) بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "لزمت (أوشك ) اقترانَ خبرها بها.",
+    "options": [
+      "اللام",
+      "الفاء",
+      "(أن ) المصدرية"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1594",
+    "question": "شرع الطفلُ يبكي . (شرع ) من أفعال:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "دلَّت على البدء في البكاء.",
+    "options": [
+      "الشروع",
+      "الرجاء",
+      "المقاربة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1595",
+    "question": "عسى اللهُ أن يأتيَ بالفرج . (عسى ) من أفعال:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "دلَّت على رجاء الفرج.",
+    "options": [
+      "المقاربة",
+      "الرجاء",
+      "الشروع"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1596",
+    "question": "كادت الشمسُ تغيبُ . إعرابُ (الشمسُ ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "المبتدأ يبقى مرفوعًا اسمًا لكاد.",
+    "options": [
+      "خبر كاد",
+      "مفعول به",
+      "اسم كاد مرفوع"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1597",
+    "question": "كاد وأخواتها أفعالٌ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "لا يتم المعنى بها إلا بخبرها.",
+    "options": [
+      "ناقصةٌ",
+      "تامةٌ",
+      "جامدةٌ لا تعمل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1598",
+    "question": "من أفعال الرجاء الشبيهة بـ(عسى ):",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "نحو: حرى زيدٌ أن يتفوق.",
+    "options": [
+      "كرب",
+      "حرى واخلولق",
+      "طفق"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1599",
+    "question": "الفعلُ (طفق ) من أفعال الشروع، وفيه معنى:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "الملازمةُ والمواصلةُ للعمل.",
+    "options": [
+      "الرجاء",
+      "قرب الوقوع",
+      "لزوم الشيء ومواصلته"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1600",
+    "question": "أفعالُ الشروع تدل على:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "البدءُ في الفعل بعد رفعها اسمَها.",
+    "options": [
+      "الشروع في العمل والبدء فيه",
+      "رجاء الوقوع",
+      "النفي"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1601",
+    "question": "أخذ البناءُ ينهارُ . (أخذ ) هنا من أفعال:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "kad_w_eakhawateha",
+    "hint": "دلَّت على الشروع في الانهيار.",
+    "options": [
+      "الرجاء",
+      "الشروع",
+      "المقاربة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1602",
+    "question": "الحالُ اسمٌ نكرةٌ منصوبٌ يبيِّن:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "يوضِّح الهيئةَ التي وقع عليها الحدثُ.",
+    "options": [
+      "هيئةَ صاحبه",
+      "زمنَ الفعل",
+      "سببَ الفعل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1603",
+    "question": "الاسمُ الذي تبيِّن الحالُ هيئتَه يسمى:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "قد يكون فاعلًا أو مفعولًا أو غيرَهما.",
+    "options": [
+      "المميَّز",
+      "صاحبَ الحال",
+      "المنعوت"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1604",
+    "question": "الحالُ في الإعراب:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "حكمُه ثابتٌ كسائر فضلات الجملة.",
+    "options": [
+      "مرفوعٌ",
+      "مجرورٌ",
+      "منصوبٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1605",
+    "question": "الحالُ في الأصل يكون:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "يقابله صاحبُه المعرفةُ.",
+    "options": [
+      "نكرةً",
+      "معرفةً",
+      "فعلًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1606",
+    "question": "صاحبُ الحال في الأصل يكون:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "يقابله الحالُ النكرةُ.",
+    "options": [
+      "نكرةً",
+      "معرفةً",
+      "حرفًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1607",
+    "question": "الحالُ يجيب عن السؤال:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "يُسأل به عن الهيئة.",
+    "options": [
+      "لماذا؟",
+      "متى؟",
+      "كيف؟"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1608",
+    "question": "عاد الجيشُ ظافرًا . صاحبُ الحال (الجيشُ ) نوعه:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "هو من قام بالفعل.",
+    "options": [
+      "فاعل",
+      "مفعول به",
+      "خبر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1609",
+    "question": "بعتُ الإناءَ مكسورًا . صاحبُ الحال (الإناءَ ) نوعه:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "هو من وقع عليه الفعلُ.",
+    "options": [
+      "فاعل",
+      "مفعول به",
+      "مبتدأ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1610",
+    "question": "جاء الولدُ ضاحكًا . الحالُ في الجملة هو:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "الاسمُ النكرةُ المنصوبُ الذي بيَّن الهيئةَ.",
+    "options": [
+      "الولدُ",
+      "جاء",
+      "ضاحكًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1611",
+    "question": "دخلتُ إلى السوقِ مكتظًّا . صاحبُ الحال (السوقِ ) نوعه:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "سُبق بحرف جرٍّ.",
+    "options": [
+      "اسم مجرور",
+      "فاعل",
+      "مفعول به"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1612",
+    "question": "الحالُ يأتي بعد:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "لا يقع الحالُ إلا بعد تمام المعنى.",
+    "options": [
+      "اسمٍ مفردٍ",
+      "جملةٍ تامةٍ",
+      "حرف جرٍّ مباشرةً"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1613",
+    "question": "أخوك متعلمًا خيرٌ منه جاهلًا . صاحبُ الحال (أخوك ) نوعه:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "وقع في أول الجملة الاسمية.",
+    "options": [
+      "خبر",
+      "مفعول به",
+      "مبتدأ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1614",
+    "question": "من أنواع الحال أن يكون:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "يأتي كلمةً واحدةً أو جملةً أو ظرفًا وجارًّا ومجرورًا.",
+    "options": [
+      "مفردًا أو جملةً أو شبهَ جملةٍ",
+      "معرفةً",
+      "فعلًا ماضيًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1615",
+    "question": "رأيتُ الأولادَ لاهينَ . الحالُ (لاهينَ ) نوعه:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "كلمةٌ واحدةٌ جاءت جمعًا لا جملةً.",
+    "options": [
+      "جملةٌ",
+      "مفردٌ",
+      "شبهُ جملةٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1616",
+    "question": "قطعتُ الطريقَ راكضًا . الحالُ في الجملة هو:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "بيَّن هيئةَ الفاعل حين القطع.",
+    "options": [
+      "الطريقَ",
+      "قطعتُ",
+      "راكضًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1617",
+    "question": "الجملةُ التي يقع فيها الحالُ يتضمن قبله:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "الحالُ فضلةٌ تأتي بعد استيفاء الجملة أركانَها.",
+    "options": [
+      "كلامًا تامًّا",
+      "مبتدأً فقط",
+      "حرفًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1618",
+    "question": "هذا ابني ناجحًا . صاحبُ الحال (ابني ) وقع:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "هو الجزءُ الذي أخبر به عن اسم الإشارة.",
+    "options": [
+      "فاعلًا",
+      "خبرًا",
+      "مفعولًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1619",
+    "question": "الحالُ الجملةُ لا بد أن تشتمل على رابطٍ يربطها بصاحبها مثل:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "يربطها بصاحبها ما يعود عليه أو واوُ الحال.",
+    "options": [
+      "حرف جرٍّ",
+      "التنوين",
+      "الواو أو الضمير"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1620",
+    "question": "أقبل المظلومُ باكيًا . الحالُ هو:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "الاسمُ النكرةُ المنصوبُ الذي بيَّن هيئةَ المُقبِل.",
+    "options": [
+      "باكيًا",
+      "المظلومُ",
+      "أقبل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1621",
+    "question": "الحالُ يبيِّن هيئةَ الفاعل أو المفعول به أو:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alhaal",
+    "hint": "صاحبُ الحال قد يكون مبتدأً أو خبرًا أو مجرورًا.",
+    "options": [
+      "الفعل",
+      "صاحبِ الحال من مبتدأٍ أو خبرٍ أو مجرورٍ",
+      "الحرف"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1622",
+    "question": "التوكيدُ أسلوبٌ يُراد به:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "يرسِّخ المعنى في ذهن المخاطب.",
+    "options": [
+      "تقويةُ الكلام ورفعُ الشك",
+      "بيانُ الزمن",
+      "الاستفهام"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1623",
+    "question": "علامةُ التوكيد أنه يصح:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "لا يؤثر رفعُه في تركيب الجملة.",
+    "options": [
+      "تقديمُه",
+      "حذفُه من الجملة",
+      "جرُّه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1624",
+    "question": "التوكيدُ نوعان:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "أحدُهما بتكرار اللفظ، والآخرُ بألفاظٍ خاصةٍ.",
+    "options": [
+      "قريب وبعيد",
+      "ماضٍ ومضارع",
+      "لفظيٌّ ومعنويٌّ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1625",
+    "question": "التوكيدُ اللفظيُّ هو:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "يُعاد فيه اللفظُ الأولُ.",
+    "options": [
+      "تكرارُ اللفظ المراد توكيده",
+      "استعمالُ ألفاظٍ خاصةٍ",
+      "حذفُ المؤكَّد"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1626",
+    "question": "جاءَ جاءَ الطالبُ . (جاءَ ) الثانية توكيدٌ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "أُعيد لفظُ الفعل دون تكرار الفاعل.",
+    "options": [
+      "معنويٌّ",
+      "لفظيٌّ بتكرار الفعل",
+      "بدلٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1627",
+    "question": "السابقون السابقون أولئك المقربون . (السابقون ) الثانية توكيدٌ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "أُعيد الاسمُ الأولُ بلفظه.",
+    "options": [
+      "معنويٌّ",
+      "بدلٌ",
+      "لفظيٌّ بتكرار الاسم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1628",
+    "question": "التوكيدُ المعنويُّ يكون بألفاظٍ منها:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "تُضاف إلى ضميرٍ يعود على المؤكَّد.",
+    "options": [
+      "نفس وعين",
+      "قد وسوف",
+      "لن وما"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1629",
+    "question": "ألفاظُ التوكيد المعنوي الدالةُ على الشمول:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "تُفيد استيعابَ جميع أفراد المؤكَّد.",
+    "options": [
+      "نفس وعين",
+      "كل وجميع",
+      "الذي والتي"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1630",
+    "question": "اللفظان (نفس ) و(عين ) في التوكيد المعنوي يفيدان:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "يرفعان توهُّمَ إرادةِ غير المؤكَّد.",
+    "options": [
+      "الشمول",
+      "التكرار",
+      "رفعَ توهُّم السهو عن المؤكَّد"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1631",
+    "question": "جاء القائدُ نفسُه . (نفسُه ) توكيدٌ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "لفظٌ خاصٌّ أُضيف إلى ضميرٍ يعود على القائد.",
+    "options": [
+      "معنويٌّ",
+      "لفظيٌّ",
+      "بدلٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1632",
+    "question": "التوكيدُ يتبع المؤكَّدَ في:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "هو من التوابع يجري على ما قبله.",
+    "options": [
+      "المعنى دون الإعراب",
+      "الإعراب رفعًا ونصبًا وجرًّا",
+      "العدد فقط"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1633",
+    "question": "قرأتُ الكتابَ كلَّه . (كلَّه ) توكيدٌ معنويٌّ يفيد:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "استوعب أجزاءَ المؤكَّد كلَّها.",
+    "options": [
+      "دفعَ توهم السهو",
+      "التشبيه",
+      "الشمول"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1634",
+    "question": "الجملةُ التي فيها توكيدٌ واحدٌ تُقال:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "لمن عنده شكٌّ يسيرٌ في الخبر.",
+    "options": [
+      "للمتشكِّك",
+      "للمنكِر",
+      "للجاهل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1635",
+    "question": "الجملةُ التي فيها أكثرُ من توكيدٍ تُقال:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "لمن يرد الخبرَ ويجحده.",
+    "options": [
+      "للمتشكِّك",
+      "للمنكِر أو الرافض",
+      "للعالِم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1636",
+    "question": "من ألفاظ التوكيد المعنوي الدالة على الشمول الملحقة بـ(كل ):",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "تُستعمل لتوكيد استغراق المؤكَّد.",
+    "options": [
+      "نفس",
+      "عين",
+      "جميع وعامة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1637",
+    "question": "يُشترط في التوكيد اللفظي أن يطابق الأولَ في:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "لا يكفي أن يطابقه في المعنى وحده.",
+    "options": [
+      "اللفظ والمعنى",
+      "المعنى فقط",
+      "الإعراب فقط"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1638",
+    "question": "حضر الطلابُ جميعُهم . (جميعُهم ) توكيدٌ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "لفظٌ خاصٌّ يدل على الشمول.",
+    "options": [
+      "لفظيٌّ",
+      "معنويٌّ",
+      "بدلٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1639",
+    "question": "هيهات هيهات لما توعدون . (هيهات ) الثانية توكيدٌ لفظيٌّ بتكرار:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "(هيهات ) اسمُ فعلٍ ماضٍ بمعنى بَعُد.",
+    "options": [
+      "الاسم",
+      "الفعل",
+      "اسم الفعل"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1640",
+    "question": "التوكيدُ من التوابع، فهو يتبع ما قبله في:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "يجري على المؤكَّد في حركته الإعرابية.",
+    "options": [
+      "الإعراب",
+      "المعنى دون الإعراب",
+      "العدد فقط"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1641",
+    "question": "التوكيدُ اللفظيُّ يكون بتكرار الاسم أو الفعل أو الحرف أو:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "altawkeed",
+    "hint": "قد يُعاد التركيبُ كلُّه.",
+    "options": [
+      "الظرف",
+      "الجملة",
+      "المصدر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1642",
+    "question": "العطفُ يربط بين شيئين بحرفٍ يُسمى:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "يُسمى أيضًا حرفَ الربط.",
+    "options": [
+      "حرفَ عطفٍ",
+      "حرفَ جرٍّ",
+      "حرفَ نصبٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1643",
+    "question": "اللفظُ الذي يقع قبل حرف العطف يسمى:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "يقابله المعطوفُ بعد الحرف.",
+    "options": [
+      "معطوفًا",
+      "معطوفًا عليه",
+      "مضافًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1644",
+    "question": "اللفظُ الذي يقع بعد حرف العطف يسمى:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "يقابله المعطوفُ عليه قبل الحرف.",
+    "options": [
+      "معطوفًا عليه",
+      "نعتًا",
+      "معطوفًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1645",
+    "question": "يشترك المعطوفُ والمعطوفُ عليه في:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "لذلك عُدَّ العطفُ من التوابع.",
+    "options": [
+      "الإعراب",
+      "المعنى دون الإعراب",
+      "العدد فقط"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1646",
+    "question": "الحرفُ (ثم ) يفيد:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "ترتيبٌ مع مُهلةٍ بين المعطوفين.",
+    "options": [
+      "الترتيب والتعقيب",
+      "الترتيب والتراخي",
+      "التخيير"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1647",
+    "question": "الحرفُ (بل ) يفيد:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "نحو: لم آكل لحمًا بل بيضًا.",
+    "options": [
+      "الجمع المطلق",
+      "الغاية",
+      "إثباتَ ما بعدها ونفيَ ما قبلها"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1648",
+    "question": "الحرفُ (لا ) العاطفةُ تفيد:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "نحو: يفوز الشجاعُ لا الجبانُ.",
+    "options": [
+      "إثباتَ ما قبلها ونفيَ ما بعدها",
+      "الاستدراك",
+      "التراخي"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1649",
+    "question": "الحرفُ (حتى ) العاطفُ يفيد:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "يدل على انتهاء الشيء.",
+    "options": [
+      "التخيير",
+      "الغاية (الانتهاء )",
+      "الشك"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1650",
+    "question": "الحرفُ (لكن ) العاطفُ يفيد الاستدراكَ ويُسبق بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "نحو: ما أكلتُ عنبًا لكن تفاحًا.",
+    "options": [
+      "أمرٍ",
+      "شرطٍ",
+      "نفيٍ أو استفهامٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1651",
+    "question": "الحرفُ (الواو ) يفيد:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "يجمع المعطوفَين في الحكم دون ترتيبٍ.",
+    "options": [
+      "مطلقَ الجمع",
+      "الترتيب والتعقيب",
+      "الغاية"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1652",
+    "question": "من حروف العطف:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "منها الواوُ والفاءُ وثمَّ.",
+    "options": [
+      "إنّ",
+      "الفاء",
+      "لم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1653",
+    "question": "جاء خالدٌ فعليٌّ . أفادت (الفاء ) هنا:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "مجيءُ عليٍّ عقب خالدٍ بلا مُهلةٍ.",
+    "options": [
+      "التراخي",
+      "التخيير",
+      "الترتيب والتعقيب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1654",
+    "question": "العطفُ نوعان:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "أحدُهما بحرفٍ والآخرُ بلا حرفٍ.",
+    "options": [
+      "عطفُ نسقٍ وعطفُ بيانٍ",
+      "لفظيٌّ ومعنويٌّ",
+      "قريبٌ وبعيدٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1655",
+    "question": "عطفُ النسق هو تابعٌ يتوسط بينه وبين متبوعه:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "لا يكون النسقُ إلا بأداةٍ رابطةٍ.",
+    "options": [
+      "ضميرٌ",
+      "حرفُ عطفٍ",
+      "أداةُ شرطٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1656",
+    "question": "عطفُ البيان اسمٌ تابعٌ جامدٌ يوضح متبوعَه و:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "يشبه النعتَ في الإيضاح دون أداةٍ.",
+    "options": [
+      "يسبقه حرفُ عطفٍ",
+      "يُنصب دائمًا",
+      "لا يحتاج إلى حرف عطفٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1657",
+    "question": "نضج الخوخُ والعنبُ . المعطوفُ هو:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "الاسمُ الواقعُ بعد حرف العطف.",
+    "options": [
+      "العنبُ",
+      "الخوخُ",
+      "نضج"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1658",
+    "question": "الحرفُ (أم ) يفيد:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "نحو: أتسافر أم تجلس؟",
+    "options": [
+      "الغاية",
+      "طلبَ التعيين أو التسوية",
+      "الاستدراك"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1659",
+    "question": "سهرتُ حتى الفجرِ . أفادت (حتى ) هنا:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "الفجرُ غايةٌ انتهى إليها السهرُ.",
+    "options": [
+      "التعقيب",
+      "التخيير",
+      "الغاية"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1660",
+    "question": "العطفُ من التوابع، فالمعطوفُ يتبع المعطوفَ عليه في:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "يجري على ما قبله في الحركة الإعرابية.",
+    "options": [
+      "الإعراب",
+      "المعنى فقط",
+      "العدد فقط"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1661",
+    "question": "يفوز الشجاعُ لا الجبانُ . أفادت (لا ) هنا:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alatf",
+    "hint": "أثبتت الحكمَ لما قبلها ونفته عما بعدها.",
+    "options": [
+      "التخيير",
+      "إثباتَ الفوز للشجاع ونفيَه عن الجبان",
+      "التراخي"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1662",
+    "question": "الأفعالُ الخمسةُ كلُّ فعلٍ مضارعٍ اتصلت به:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "ضمائرُ الرفع الثلاثةُ البارزةُ.",
+    "options": [
+      "ألفُ الاثنين أو واوُ الجماعة أو ياءُ المخاطبة",
+      "تاءُ التأنيث",
+      "نونُ النسوة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1663",
+    "question": "أمثلةُ الأفعال الخمسة المشهورة:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "جمعها العلماءُ في خمس صيغٍ.",
+    "options": [
+      "فعل يفعل افعل",
+      "يفعلان تفعلان يفعلون تفعلون تفعلين",
+      "كتب كاتب مكتوب"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1664",
+    "question": "تُرفع الأفعالُ الخمسةُ بـ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "بقاءُ النون علامةُ الرفع فيها.",
+    "options": [
+      "الضمة",
+      "حذف النون",
+      "ثبوت النون"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1665",
+    "question": "تُنصب الأفعالُ الخمسةُ وتُجزم بـ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "النصبُ والجزمُ يشتركان في علامةٍ واحدةٍ.",
+    "options": [
+      "حذف النون",
+      "ثبوت النون",
+      "السكون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1666",
+    "question": "المجتهدان يفوزان . إعرابُ (يفوزان ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "لم يُسبق بناصبٍ ولا جازمٍ.",
+    "options": [
+      "مجزوم بحذف النون",
+      "مرفوع بثبوت النون",
+      "منصوب بحذف النون"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1667",
+    "question": "لن تنالوا البرَّ . إعرابُ (تنالوا ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "(لن ) من أدوات النصب.",
+    "options": [
+      "مرفوع بثبوت النون",
+      "مجزوم",
+      "منصوب بحذف النون"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1668",
+    "question": "وإن تصلحوا وتتقوا . إعرابُ (تصلحوا ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "(إن ) من أدوات الجزم.",
+    "options": [
+      "مجزوم بحذف النون",
+      "مرفوع",
+      "منصوب"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1669",
+    "question": "أنت تصرخين . (تصرخين ) فعلٌ مضارعٌ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "اتصلت به ياءُ المخاطبة ولم يُسبق بعاملٍ.",
+    "options": [
+      "مجزوم",
+      "مرفوع بثبوت النون",
+      "منصوب"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1670",
+    "question": "الضميرُ المتصل في الأفعال الخمسة (الواو/الألف/الياء ) يُعرب:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "ضميرٌ مبنيٌّ في محل رفعٍ.",
+    "options": [
+      "مفعولًا به",
+      "حرفًا",
+      "فاعلًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1671",
+    "question": "الأطباءُ يعالجون المرضى . (يعالجون ):",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "لم يُسبق بناصبٍ ولا جازمٍ.",
+    "options": [
+      "مرفوع بثبوت النون",
+      "مجزوم",
+      "منصوب"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1672",
+    "question": "علامةُ رفع الأفعال الخمسة (ثبوتُ النون ) نيابةً عن:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "الرفعُ أصلُه الضمةُ.",
+    "options": [
+      "الفتحة",
+      "الضمة",
+      "السكون"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1673",
+    "question": "لم تفعلوا . إعرابُ (تفعلوا ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "(لم ) حرفُ جزمٍ.",
+    "options": [
+      "مرفوع",
+      "منصوب",
+      "مجزوم بحذف النون"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1674",
+    "question": "الضميرُ (ألفُ الاثنين ) في الأفعال الخمسة يدل على:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "نحو: يفعلان وتفعلان.",
+    "options": [
+      "المثنى",
+      "الجمع",
+      "المفردة المخاطبة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1675",
+    "question": "الضميرُ (ياءُ المخاطبة ) لا يكون إلا:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "نحو: تفعلين.",
+    "options": [
+      "للمثنى",
+      "للواحدة المخاطبة",
+      "لجماعة الغائبين"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1676",
+    "question": "تسرون وتعلنون . هذان الفعلان مرفوعان لأنهما:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "بقيت النونُ فيهما لعدم دخول عاملٍ.",
+    "options": [
+      "سُبقا بجازمٍ",
+      "سُبقا بناصبٍ",
+      "من الأفعال الخمسة ولم يُسبقا بناصبٍ ولا جازمٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1677",
+    "question": "سُميت الأفعالُ الخمسةُ بذلك لأنها:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "عند عدِّ الأمثلة نجدها خمسةً.",
+    "options": [
+      "خمسةُ أمثلةٍ مشهورةٍ",
+      "خمسةُ حروفٍ",
+      "تُرفع بخمس علامات"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1678",
+    "question": "الأفعالُ الخمسةُ تُعرب بالحروف نيابةً عن:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "ثبوتُ النون وحذفُها بدلٌ من الضمة والفتحة والسكون.",
+    "options": [
+      "البناء",
+      "الحركات",
+      "التنوين"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1679",
+    "question": "يجب أن تجتهدوا . نُصب (تجتهدوا ) بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "(أن ) من أدوات النصب.",
+    "options": [
+      "ثبوت النون",
+      "السكون",
+      "حذف النون"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1680",
+    "question": "الفعلُ (تفهمين ) من الأفعال الخمسة اتصلت به:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "ضميرٌ خاصٌّ بالمفردة المخاطبة.",
+    "options": [
+      "ياءُ المخاطبة",
+      "واوُ الجماعة",
+      "ألفُ الاثنين"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1681",
+    "question": "واوُ الجماعة في (يفعلون ) لجماعة الغائبين، وفي (تفعلون ) لجماعة:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "التاءُ في أوله علامةُ الخطاب.",
+    "options": [
+      "الغائبين",
+      "الحاضرين",
+      "المتكلمين"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1682",
+    "question": "الكلامُ في اصطلاح النحاة هو:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "يشتمل على أربعة قيودٍ.",
+    "options": [
+      "اللفظُ المركبُ المفيدُ بالوضع",
+      "كلُّ صوتٍ",
+      "الكتابةُ والإشارةُ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1683",
+    "question": "قيودُ تعريف الكلام أربعةٌ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "بها يتميز الكلامُ عمّا سواه.",
+    "options": [
+      "الاسم والفعل والحرف والجملة",
+      "اللفظ والتركيب والإفادة والوضع",
+      "الرفع والنصب والجر والجزم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1684",
+    "question": "قيدُ (اللفظ ) في تعريف الكلام يُخرج:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "ما حصل به التفاهمُ وليس بصوتٍ من الفم.",
+    "options": [
+      "قام زيد",
+      "الجملة المفيدة",
+      "الكتابة والإشارة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1685",
+    "question": "قيدُ (المفيد ) يُراد به ما:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "لا يبقى السامعُ منتظرًا لشيءٍ بعده.",
+    "options": [
+      "يحسن السكوتُ عليه",
+      "يقترن بزمنٍ",
+      "يدل على ذاتٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1686",
+    "question": "قيدُ (بالوضع ) معناه:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "أن يكون اللفظُ مقصودًا موضوعًا وضعًا عربيًّا.",
+    "options": [
+      "ضمُّ كلمةٍ لأخرى",
+      "جعلُ اللفظ دليلًا على معنًى وفق الاستعمال العربي",
+      "الإفادةُ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1687",
+    "question": "ينقسم الكلامُ من جهة تركيبه إلى:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "أقسامٌ ثلاثةٌ هي مادةُ الكلام كلِّه.",
+    "options": [
+      "ماضٍ ومضارع وأمر",
+      "معرب ومبني",
+      "اسمٍ وفعلٍ وحرفٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1688",
+    "question": "الاسمُ ما دلَّ على معنًى في نفسه و:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "يخالف الفعلَ في هذه الخاصية.",
+    "options": [
+      "لم يقترن بزمانٍ",
+      "اقترن بزمانٍ",
+      "دلَّ على معنًى في غيره"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1689",
+    "question": "الفعلُ ما دلَّ على معنًى في نفسه و:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "يخالف الاسمَ في الاقتران بالزمن.",
+    "options": [
+      "لم يقترن بزمانٍ",
+      "اقترن بزمانٍ",
+      "لا معنى له"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1690",
+    "question": "أقسامُ الاسم ثلاثةٌ: الظاهرُ والمضمرُ و:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "منه أسماءُ الإشارة والموصول.",
+    "options": [
+      "الماضي",
+      "المشتق",
+      "المبهم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1691",
+    "question": "الضميران (أنا ) و(هو ) من الاسم:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "يقابله الظاهرُ نحو (زيد ).",
+    "options": [
+      "المضمر",
+      "الظاهر",
+      "المبهم"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1692",
+    "question": "الاسمان (هذا ) و(الذي ) من الاسم:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "يُشار به أو يُوصَل، فهو غيرُ محدَّدٍ بذاته.",
+    "options": [
+      "الظاهر",
+      "المبهم",
+      "المضمر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1693",
+    "question": "من أنواع التركيب: الإسناديُّ والمزجيُّ والإضافيُّ و:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "نحو: أربعة عشر.",
+    "options": [
+      "الوصفي",
+      "البدلي",
+      "العددي"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1694",
+    "question": "التركيبُ في (غلام زيد ) نوعه:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "ضُمَّ الاسمُ الأولُ إلى الثاني على جهة الإضافة.",
+    "options": [
+      "إضافي",
+      "مزجي",
+      "عددي"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1695",
+    "question": "التركيبُ في (بعلبك ) نوعه:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "مُزجت كلمتان حتى صارتا كالكلمة الواحدة.",
+    "options": [
+      "إضافي",
+      "مزجي",
+      "إسنادي"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1696",
+    "question": "التركيبُ في (أربعة عشر ) نوعه:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "رُكِّب عددٌ مع عددٍ.",
+    "options": [
+      "إضافي",
+      "مزجي",
+      "عددي"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1697",
+    "question": "أقسامُ الفعل باعتبار الزمن:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "بحسب دلالته على الماضي أو الحاضر أو الطلب.",
+    "options": [
+      "ماضٍ ومضارع وأمر",
+      "ظاهر ومضمر ومبهم",
+      "اسم وفعل وحرف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1698",
+    "question": "التركيبُ الإسناديُّ مكوَّنٌ من:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "نحو: زيدٌ قائمٌ، وقام زيدٌ.",
+    "options": [
+      "مضافٍ ومضافٍ إليه",
+      "مسندٍ ومسندٍ إليه",
+      "عددٍ ومعدودٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1699",
+    "question": "الكلمةُ (زيد ) من الاسم:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "له صورةٌ محدَّدةٌ لا إبهامَ فيها ولا خفاءَ.",
+    "options": [
+      "المضمر",
+      "المبهم",
+      "الظاهر"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1700",
+    "question": "(إن قام زيدٌ ) ليست كلامًا مفيدًا لأنه:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "يبقى السامعُ منتظرًا لجواب الشرط.",
+    "options": [
+      "لا يحسن السكوتُ عليها",
+      "ليست لفظًا",
+      "غير موضوعةٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1701",
+    "question": "من أقسام الكلام ما يدل على معنًى في غيره وهو:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aqsam_kalam",
+    "hint": "لا يظهر معناه إلا بانضمامه لغيره كحروف الجر.",
+    "options": [
+      "الاسم",
+      "الحرف",
+      "الفعل"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1722",
+    "question": "الفعلُ المضارعُ هو الفعلُ الوحيدُ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "يقبل التغييرَ في آخره بحسب العوامل.",
+    "options": [
+      "المعربُ من الأفعال",
+      "المبنيُّ",
+      "الجامد"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1723",
+    "question": "حالاتُ إعراب المضارع ثلاثٌ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "لا يدخله الجرُّ.",
+    "options": [
+      "الرفع والجر والجزم",
+      "الرفع والنصب والجزم",
+      "الرفع والنصب والجر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1724",
+    "question": "يُرفع الفعلُ المضارعُ إذا:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "الرفعُ أصلٌ عند خلوِّه من العوامل.",
+    "options": [
+      "سُبق بناصبٍ",
+      "سُبق بجازمٍ",
+      "تجرد من الناصب والجازم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1725",
+    "question": "يُرفع المضارعُ الصحيحُ الآخر بـ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "علامةُ الرفع الأصليةُ تظهر عليه.",
+    "options": [
+      "الضمة الظاهرة",
+      "ثبوت النون",
+      "حذف النون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1726",
+    "question": "يُرفع المضارعُ المعتلُّ الآخر (كيسعى ) بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "حرفُ العلة في آخره يمنع ظهورَ الضمة.",
+    "options": [
+      "الضمة الظاهرة",
+      "الضمة المقدرة",
+      "حذف النون"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1727",
+    "question": "الطلابُ يكتبون الدرسَ . رُفع (يكتبون ) بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "هو من الأفعال الخمسة.",
+    "options": [
+      "الضمة الظاهرة",
+      "الضمة المقدرة",
+      "ثبوت النون"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1728",
+    "question": "يُنصب الفعلُ المضارعُ إذا:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "لا بد من أداةٍ ناصبةٍ قبله.",
+    "options": [
+      "سُبق بأحد أدوات النصب",
+      "تجرد من العوامل",
+      "سُبق بجازمٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1729",
+    "question": "من أدوات نصب المضارع:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "منها المصدريةُ وحرفُ نفي المستقبل.",
+    "options": [
+      "لم",
+      "أن ولن وكي",
+      "لا الناهية"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1730",
+    "question": "يسرُّني أن تنجحَ . (تنجحَ ) فعلٌ مضارعٌ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "(أن ) حرفٌ مصدريٌّ ناصبٌ.",
+    "options": [
+      "مرفوع",
+      "مجزوم",
+      "منصوب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1731",
+    "question": "لن أتأخرَ عن الحضور . (أتأخرَ ) منصوبٌ بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "الفعلُ صحيحُ الآخر ليس من الأفعال الخمسة.",
+    "options": [
+      "الفتحة",
+      "حذف النون",
+      "حذف حرف العلة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1732",
+    "question": "الحرفُ (أنْ ) الناصبُ يُؤوَّل مع الفعل بعده بـ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "نحو: أُحبُّ أن أقرأ = أُحبُّ القراءةَ.",
+    "options": [
+      "اسمٍ ظاهرٍ",
+      "مصدرٍ",
+      "ظرفٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1733",
+    "question": "لن تنجحوا . نُصب (تنجحوا ) بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "هو من الأفعال الخمسة.",
+    "options": [
+      "الفتحة",
+      "السكون",
+      "حذف النون"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1734",
+    "question": "علامةُ نصب المضارع الصحيح الآخر:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "علامةُ النصب الأصليةُ.",
+    "options": [
+      "الفتحة",
+      "الضمة",
+      "السكون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1735",
+    "question": "من أدوات نصب المضارع أيضًا:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "منها ما يدل على التعليل والغاية.",
+    "options": [
+      "إنْ",
+      "لامُ التعليل وحتى",
+      "متى"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1736",
+    "question": "يدعو الواعظُ إلى الله . رُفع (يدعو ) بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "الواوُ في آخره تُثقل عليها الضمةُ فتُقدَّر.",
+    "options": [
+      "ثبوت النون",
+      "الضمة الظاهرة",
+      "الضمة المقدرة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1737",
+    "question": "يُجزم الفعلُ المضارعُ إذا:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "لا بد من أداةٍ جازمةٍ قبله.",
+    "options": [
+      "سُبق بأحد أدوات الجزم",
+      "تجرد من العوامل",
+      "سُبق بناصبٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1738",
+    "question": "الطالبانِ يكتبان . رُفع (يكتبان ) بـ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "هو من الأفعال الخمسة (اتصل بألف الاثنين ).",
+    "options": [
+      "الضمة",
+      "ثبوت النون",
+      "حذف النون"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1739",
+    "question": "من علامات رفع المضارع:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "علامةُ الرفع الأصليةُ للصحيح الآخر.",
+    "options": [
+      "الفتحة",
+      "السكون",
+      "الضمةُ الظاهرةُ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1740",
+    "question": "(لن ) حرفٌ ينصب المضارعَ ويدل على:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "تخلِّص المضارعَ للاستقبال مع النفي.",
+    "options": [
+      "نفي الفعل في المستقبل",
+      "الأمر",
+      "الشرط"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1741",
+    "question": "يجتهدُ الطالبُ . (يجتهدُ ) فعلٌ مضارعٌ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "eaarab_almodare",
+    "hint": "لم يُسبق بناصبٍ ولا جازمٍ.",
+    "options": [
+      "منصوب",
+      "مرفوع",
+      "مجزوم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1742",
+    "question": "المفعولُ فيه اسمٌ منصوبٌ يدل على زمان أو مكان وقوع الفعل متضمنًا معنى:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "وقع الحدثُ فيه ظرفًا له.",
+    "options": [
+      "(في )",
+      "(مع )",
+      "(عن )"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1743",
+    "question": "المفعولُ فيه نوعان:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "أحدُهما للوقت والآخرُ للموضع.",
+    "options": [
+      "مذكر ومؤنث",
+      "ظرفُ زمانٍ وظرفُ مكانٍ",
+      "قريب وبعيد"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1744",
+    "question": "المفعولُ فيه في الإعراب:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "شأنُه شأنُ المفاعيل.",
+    "options": [
+      "مرفوعٌ",
+      "مجرورٌ",
+      "منصوبٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1745",
+    "question": "شرب المريضُ الدواءَ صباحًا . (صباحًا ) ظرفُ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "دلَّ على وقت وقوع الشرب.",
+    "options": [
+      "زمانٍ",
+      "مكانٍ",
+      "حالٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1746",
+    "question": "وقفتُ أمامَ المرآة . (أمامَ ) ظرفُ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "دلَّ على موضع وقوع الوقوف.",
+    "options": [
+      "زمانٍ",
+      "مكانٍ",
+      "استفهامٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1747",
+    "question": "من ظروف الزمان:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "تدل على وقت الحدث.",
+    "options": [
+      "أمام",
+      "فوق",
+      "ليلة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1748",
+    "question": "من ظروف المكان:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "تدل على موضع الحدث.",
+    "options": [
+      "خلف",
+      "شهر",
+      "ساعة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1749",
+    "question": "إذا لم يتضمن الظرفُ معنى (في ) فإنه يُعرب:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "قد يكون فاعلًا أو مفعولًا به أو مجرورًا.",
+    "options": [
+      "ظرفًا منصوبًا دائمًا",
+      "بحسب موقعه في الجملة",
+      "مجرورًا دائمًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1750",
+    "question": "أقبل يومُ العيدِ . إعرابُ (يومُ ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "لم يتضمن معنى (في )، بل وقع فاعلًا لأقبل.",
+    "options": [
+      "مفعول فيه",
+      "مفعول به",
+      "فاعل"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1751",
+    "question": "تذكرتُ يومَ الحجِّ . إعرابُ (يومَ ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "وقع عليه فعلُ التذكُّر ولم يتضمن معنى (في ).",
+    "options": [
+      "مفعول به",
+      "مفعول فيه",
+      "فاعل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1752",
+    "question": "تجهزتُ ليومِ الزفافِ . إعرابُ (يومِ ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "سُبق بحرف جرٍّ فجُرَّ ولم يقع ظرفًا.",
+    "options": [
+      "مفعول فيه",
+      "اسم مجرور",
+      "مفعول به"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1753",
+    "question": "سُمي المفعولُ فيه عند البصريين، وسُمي عند الكوفيين:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "الاسمان لمسمًّى واحدٍ.",
+    "options": [
+      "حالًا",
+      "تمييزًا",
+      "ظرفًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1754",
+    "question": "مكثتُ بالقاهرةِ شهرًا . الظرفُ في الجملة هو:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "الاسمُ المنصوبُ الدالُّ على مدة المكوث.",
+    "options": [
+      "شهرًا",
+      "القاهرةِ",
+      "مكثتُ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1755",
+    "question": "اختبأ الطفلُ خلفَ الباب . (خلفَ ) ظرفُ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "دلَّ على موضع الاختباء.",
+    "options": [
+      "زمانٍ",
+      "مكانٍ",
+      "سببٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1756",
+    "question": "قفزتُ فوقَ السورِ . إعرابُ (فوقَ ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "دلَّ على مكان القفز متضمنًا معنى (في ).",
+    "options": [
+      "فاعل",
+      "مفعول به",
+      "مفعول فيه (ظرف مكان ) منصوب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1757",
+    "question": "الظرفُ يتضمن معنى (في ) الدالةِ على:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "أي أن الحدثَ وقع فيه.",
+    "options": [
+      "الظرفية",
+      "الملكية",
+      "التعليل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1758",
+    "question": "جلستُ مع صديقي لحظةً . (لحظةً ) ظرفُ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "دلَّ على مقدارٍ من الزمن وقع فيه الجلوس.",
+    "options": [
+      "مكانٍ",
+      "زمانٍ",
+      "حالٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1759",
+    "question": "وصل القطارُ ظهرًا . إعرابُ (ظهرًا ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "دلَّ على وقت الوصول متضمنًا معنى (في ).",
+    "options": [
+      "فاعل",
+      "مفعول به",
+      "ظرف زمان منصوب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1760",
+    "question": "الظرفُ الذي يدل على وقت وقوع الفعل يسمى ظرف:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "يقابله ظرفُ المكان.",
+    "options": [
+      "الزمان",
+      "المكان",
+      "الحال"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1761",
+    "question": "ينام الحارسُ نهارًا . الظرفُ في الجملة هو:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alzarf",
+    "hint": "الاسمُ المنصوبُ الدالُّ على زمن النوم.",
+    "options": [
+      "الحارسُ",
+      "نهارًا",
+      "ينام"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1702",
+    "question": "الضميرُ اسمٌ جامدٌ مبنيٌّ يدل على:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "على أحد الأشخاص الثلاثة في الخطاب.",
+    "options": [
+      "متكلمٍ أو مخاطبٍ أو غائبٍ",
+      "زمنِ الفعل",
+      "مكانِ الفعل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1703",
+    "question": "الضميرُ يُغني عن:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "يقوم مقامه فيختصر الكلامَ.",
+    "options": [
+      "الفعل",
+      "ذكرِ الاسم الظاهر",
+      "الحرف"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1704",
+    "question": "الضمائرُ في الإعراب:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "لا يتغير آخرُها بتغير موقعها.",
+    "options": [
+      "معربةٌ",
+      "بعضها معربٌ",
+      "مبنيةٌ كلُّها"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1705",
+    "question": "تنقسم الضمائرُ بحسب ظهورها إلى:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "أحدُهما ظاهرٌ والآخرُ مقدَّرٌ.",
+    "options": [
+      "بارزةٍ ومستترةٍ",
+      "رفعٍ ونصبٍ",
+      "متكلمٍ وغائبٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1706",
+    "question": "الضميرُ المستترُ هو ما:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "يُفهم من السياق وإن لم يُنطق.",
+    "options": [
+      "له صورةٌ في اللفظ",
+      "ليس له صورةٌ في اللفظ بل يُقدَّر",
+      "يُبتدأ به"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1707",
+    "question": "الضميرُ البارزُ هو ما:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "يُنطق ويُكتب في الجملة.",
+    "options": [
+      "يُقدَّر تقديرًا",
+      "لا يُنطق",
+      "له صورةٌ في اللفظ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1708",
+    "question": "تنقسم الضمائرُ البارزةُ إلى:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "أحدُهما يُنطق مستقلًّا والآخرُ يتصل بالكلمة.",
+    "options": [
+      "منفصلةٍ ومتصلةٍ",
+      "رفعٍ وجرٍّ",
+      "ظاهرةٍ ومبهمةٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1709",
+    "question": "الضميرُ المنفصلُ هو ما:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "يقابله المتصلُ الذي يلتصق بآخر الكلمة.",
+    "options": [
+      "يتصل بآخر الكلمة",
+      "يُنطق مستقلًّا ويُمكن الابتداءُ به",
+      "يُقدَّر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1710",
+    "question": "إياك نعبد . (إياك ) ضميرٌ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "يُنطق مستقلًّا وهو في محل نصبٍ.",
+    "options": [
+      "متصل",
+      "مستتر",
+      "منفصل نصب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1711",
+    "question": "من ضمائر الرفع المنفصلة:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "يُبتدأ بها فتقع مبتدأً.",
+    "options": [
+      "أنا ونحن وأنت",
+      "إياي وإياك",
+      "الكاف والهاء"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1712",
+    "question": "أنا طالبٌ . (أنا ) ضميرٌ منفصلٌ للمتكلم:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "يقابله (نحن ) للمتكلم المثنى أو الجمع.",
+    "options": [
+      "المثنى",
+      "المفرد",
+      "الجمع"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1713",
+    "question": "الضميرُ (نحن ) يدل على المتكلم:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "يشمل الاثنين فما فوقهما من المتكلمين.",
+    "options": [
+      "المفرد",
+      "المخاطب",
+      "المثنى أو الجمع"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1714",
+    "question": "أنتِ مجتهدةٌ . (أنتِ ) ضميرٌ منفصلٌ للمخاطبة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "كسرُ التاء علامةُ تأنيث المخاطبة.",
+    "options": [
+      "المفردة المؤنثة",
+      "المثنى",
+      "الجمع"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1715",
+    "question": "من الضمائر المتصلة:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "تلتصق بآخر الفعل أو الاسم أو الحرف.",
+    "options": [
+      "إياك",
+      "تاءُ الفاعل وواوُ الجماعة",
+      "أنتَ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1716",
+    "question": "الضميرُ المستترُ يكون:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "بحسب جواز ظهوره أو امتناعه.",
+    "options": [
+      "بارزًا في اللفظ",
+      "منفصلًا",
+      "واجبَ الاستتار أو جائزَه"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1717",
+    "question": "هو طالبٌ نشيطٌ . (هو ) ضميرٌ يدل على:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "لمن ليس متكلمًا ولا مخاطبًا.",
+    "options": [
+      "الغائب",
+      "المتكلم",
+      "المخاطب"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1718",
+    "question": "درستُ . التاءُ في (درستُ ) ضميرٌ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "التصقت بآخر الفعل في محل رفع فاعلٍ.",
+    "options": [
+      "منفصل",
+      "متصل",
+      "مستتر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1719",
+    "question": "من ضمائر النصب المنفصلة ما يبدأ بـ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "نحو: إياي، إياك، إياه.",
+    "options": [
+      "الكاف",
+      "التاء",
+      "(إيا )"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1720",
+    "question": "الضميرُ من حيث النوعُ اسمٌ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "لا يقبل التغييرَ في آخره ولا يُشتق.",
+    "options": [
+      "جامدٌ مبنيٌّ",
+      "مشتقٌّ معربٌ",
+      "فعلٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1721",
+    "question": "أنتَ مجتهدٌ . (أنتَ ) ضميرٌ منفصلٌ للمخاطب:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "aldamaer",
+    "hint": "فتحُ التاء علامةُ خطاب المذكر.",
+    "options": [
+      "المؤنث",
+      "المفرد المذكر",
+      "الجمع"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1762",
+    "question": "الاسمُ الموصولُ اسمٌ يدل على معيَّنٍ بواسطة:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "لا يتضح معناه إلا بما يذكر بعده.",
+    "options": [
+      "جملةٍ بعده تسمى صلةَ الموصول",
+      "اسم إشارةٍ",
+      "حرف جرٍّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1763",
+    "question": "الجملةُ التي تُذكر بعد الاسم الموصول وتوضح معناه تسمى:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "بها يتم المعنى ويتعيَّن المقصودُ.",
+    "options": [
+      "جملةَ الشرط",
+      "صلةَ الموصول",
+      "جملةَ الحال"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1764",
+    "question": "الأسماءُ الموصولةُ نوعان:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "أحدُهما يختص بنوعٍ، والآخرُ يستوي لفظُه.",
+    "options": [
+      "قريبة وبعيدة",
+      "لفظية ومعنوية",
+      "خاصة ومشتركة عامة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1765",
+    "question": "الاسمُ الموصولُ (الذي ) يُستعمل لـ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "يقابله (التي ) للمفردة المؤنثة.",
+    "options": [
+      "المفرد المذكر",
+      "المثنى المؤنث",
+      "الجمع المؤنث"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1766",
+    "question": "الاسمُ الموصولُ (التي ) يُستعمل لـ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "يقابله (الذي ) للمفرد المذكر.",
+    "options": [
+      "المفرد المذكر",
+      "المفردة المؤنثة",
+      "الجمع المذكر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1767",
+    "question": "الاسمُ الموصولُ (الذين ) يُستعمل لـ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "يختص بالعاقل من الذكور.",
+    "options": [
+      "المثنى المذكر",
+      "المفرد",
+      "جمع المذكر العاقل"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1768",
+    "question": "للمثنى المذكر من الأسماء الموصولة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "يُعرب إعرابَ المثنى رفعًا ونصبًا وجرًّا.",
+    "options": [
+      "اللذان واللذين",
+      "اللتان واللتين",
+      "الذين"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1769",
+    "question": "للجمع المؤنث من الأسماء الموصولة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "ألفاظٌ ثلاثةٌ للعاقلة وغيرها.",
+    "options": [
+      "الذين",
+      "اللاتي واللائي واللواتي",
+      "اللذان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1770",
+    "question": "من الأسماء الموصولة المشتركة:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "يستوي لفظُها مع المذكر والمؤنث والمثنى والجمع.",
+    "options": [
+      "الذي والتي",
+      "اللذان واللتان",
+      "من وما"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1771",
+    "question": "الاسمُ الموصولُ (من ) يُستعمل غالبًا لـ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "يقابله (ما ) لغير العاقل.",
+    "options": [
+      "العاقل",
+      "غير العاقل",
+      "الزمان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1772",
+    "question": "الاسمُ الموصولُ (ما ) يُستعمل غالبًا لـ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "يقابله (من ) للعاقل.",
+    "options": [
+      "العاقل",
+      "غير العاقل",
+      "المكان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1773",
+    "question": "(ذو ) الموصولةُ (الطائيةُ ) بمعنى:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "تخالف (ذو ) الخاصةَ بالأسماء الخمسة بمعنى صاحب.",
+    "options": [
+      "صاحب",
+      "الفم",
+      "الذي"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1774",
+    "question": "يُشترط في (ذا ) لتكون موصولةً أن تقع بعد (من ) أو (ما ) وألا تكون:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "تخرج (ذا ) الإشاريةُ.",
+    "options": [
+      "للإشارة",
+      "للاستفهام فقط",
+      "معرفةً"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1775",
+    "question": "المشتركُ من الأسماء الموصولة سُمي بذلك لأن لفظه:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "لا يتغير بتغير المدلول عددًا ونوعًا.",
+    "options": [
+      "يختص بالمذكر",
+      "يستوي مع المذكر والمؤنث والمثنى والجمع",
+      "لا صلة له"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1776",
+    "question": "سامحتُ الذي شتمني . جملةُ (شتمني ) هي:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "وضَّحت معنى الموصول (الذي ).",
+    "options": [
+      "صفةٌ",
+      "خبرٌ",
+      "صلةُ الموصول"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1777",
+    "question": "حضر اللذان كانا غائبين . الاسمُ الموصولُ هو:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "اللفظُ الدالُّ على المثنى المذكر.",
+    "options": [
+      "اللذان",
+      "كانا",
+      "غائبين"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1778",
+    "question": "صلةُ الموصول من الإعراب:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "الجملُ بعد المعارف لا محل لها.",
+    "options": [
+      "في محل رفعٍ",
+      "لا محل لها من الإعراب",
+      "في محل نصبٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1779",
+    "question": "لا بد أن تشتمل صلةُ الموصول على ضميرٍ يعود على الموصول يسمى:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "يربط الصلةَ بموصولها.",
+    "options": [
+      "الصلة",
+      "الرابط اللفظي",
+      "العائد"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1780",
+    "question": "الاسمُ الموصولُ لا يتم معناه إلا بـ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "الجملةُ التي تليه توضح المراد.",
+    "options": [
+      "صلته",
+      "حرف جرٍّ",
+      "التنوين"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1781",
+    "question": "الاسمُ الموصولُ (أل ) يوصل بـ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "esm_maosol",
+    "hint": "نحو: جاء الضاربُ زيدًا.",
+    "options": [
+      "جملةٍ فعليةٍ",
+      "اسمٍ مشتقٍّ (كاسم الفاعل )",
+      "حرفٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1782",
+    "question": "حروفُ الجر تجعل الاسمَ بعدها:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "تظهر عليه علامةُ الجر.",
+    "options": [
+      "مجرورًا",
+      "مرفوعًا",
+      "منصوبًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1783",
+    "question": "حروفُ الجر تربط الأسماءَ بالأسماء أو:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "توصل الأفعالَ بما بعدها من الأسماء.",
+    "options": [
+      "الحروفَ بالحروف",
+      "الأسماءَ بالأفعال",
+      "الأفعالَ بالأفعال"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1784",
+    "question": "عددُ حروف الجر التي حصرها ابنُ مالك:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "جمعها في بيتين من الشعر.",
+    "options": [
+      "عشرة",
+      "خمسة عشر",
+      "عشرون"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1785",
+    "question": "الحرفُ (إلى ) يدل على:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "نحو: سرتُ من البيت إلى المدرسة.",
+    "options": [
+      "انتهاء الغاية",
+      "الاستعلاء",
+      "الظرفية"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1786",
+    "question": "الحرفُ (على ) يدل على:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "نحو: الكتابُ على الطاولة.",
+    "options": [
+      "الظرفية",
+      "الاستعلاء",
+      "التشبيه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1787",
+    "question": "الحرفُ (في ) يدل على:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "نحو: الماءُ في الكوب.",
+    "options": [
+      "الاستعلاء",
+      "التشبيه",
+      "الظرفية"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1788",
+    "question": "الحرفُ (الكاف ) يستعمل للتشبيه و:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "قد تفيد معنى (لأجل ) في بعض المواضع.",
+    "options": [
+      "التعليل",
+      "الظرفية",
+      "القسم"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1789",
+    "question": "الحرفُ (اللام ) يفيد:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "نحو: الكتابُ لزيدٍ.",
+    "options": [
+      "انتهاء الغاية",
+      "الاختصاص",
+      "الظرفية"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1790",
+    "question": "الحرفان (منذ ) و(مذ ) يفيدان:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "نحو: ما رأيته منذ يومِ الجمعة.",
+    "options": [
+      "انتهاء الغاية",
+      "التشبيه",
+      "ابتداء الغاية"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1791",
+    "question": "الحرفُ (رُبّ ) يفيد:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "تدخل غالبًا على النكرة وتفيد معنيين متضادين.",
+    "options": [
+      "التكثيرَ والتقليل",
+      "الاستعلاء",
+      "الظرفية"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1792",
+    "question": "نزل المطرُ من السماءِ . أفادت (من ) هنا:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "السماءُ مبدأُ نزول المطر.",
+    "options": [
+      "التبعيض",
+      "ابتداءَ الغاية",
+      "التشبيه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1793",
+    "question": "سارت الماشيةُ إلى الحقلِ . أفادت (إلى ) هنا:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "الحقلُ منتهى سير الماشية.",
+    "options": [
+      "الاستعلاء",
+      "الظرفية",
+      "انتهاءَ الغاية"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1794",
+    "question": "يطفو الخشبُ على الماءِ . أفادت (على ) هنا:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "الخشبُ فوق الماء.",
+    "options": [
+      "الاستعلاء",
+      "التعليل",
+      "المصاحبة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1795",
+    "question": "من معاني الحرف (من ) أيضًا:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "نحو: أكلتُ من الطعام (التبعيض ).",
+    "options": [
+      "الاستعلاء",
+      "التبعيض وبيان الجنس",
+      "القسم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1796",
+    "question": "الحرفُ (الباء ) من معانيه الإلصاقُ والاستعانةُ و:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "نحو: كتبتُ بالقلم، ونجا بصبره.",
+    "options": [
+      "الغاية",
+      "التشبيه",
+      "السببية"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1797",
+    "question": "من حروف الجر:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "تجر الاسمَ الواقعَ بعدها.",
+    "options": [
+      "مِن وإلى وعن",
+      "إنّ وكأنّ",
+      "لم ولن"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1798",
+    "question": "ثلاثةٌ من حروف الجر مختصةٌ بالاستثناء، وهي:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "وردت في بيت ابن مالك ضمن حروف الجر.",
+    "options": [
+      "من وإلى وعن",
+      "خلا وحاشا وعدا",
+      "في وعلى والباء"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1799",
+    "question": "الحرفان (واوُ القسم ) و(تاءُ القسم ) يستعملان لـ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "نحو: والله، وتالله.",
+    "options": [
+      "التشبيه",
+      "الظرفية",
+      "القسم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1800",
+    "question": "الاسمُ الواقعُ بعد حرف الجر يُسمى:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "يتعلق هو والحرفُ بما قبلهما.",
+    "options": [
+      "اسمًا مجرورًا",
+      "فاعلًا",
+      "مبتدأً"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1801",
+    "question": "الحرفُ (حتى ) الجارُّ يدل على:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "horof_gar",
+    "hint": "يشارك (إلى ) في هذا المعنى.",
+    "options": [
+      "التبعيض",
+      "انتهاء الغاية",
+      "التشبيه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1802",
+    "question": "لا النافيةُ للجنس تعمل عملَ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "تنصب الاسمَ وترفع الخبرَ.",
+    "options": [
+      "إنَّ",
+      "كان",
+      "ظن"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1803",
+    "question": "لا النافيةُ للجنس تنصب الاسمَ و:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "كعمل (إنَّ ) في الجملة الاسمية.",
+    "options": [
+      "تنصب الخبرَ",
+      "ترفع الخبرَ",
+      "تجزم الفعلَ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1804",
+    "question": "تُفيد لا النافيةُ للجنس نفيَ الحكم عن جنس اسمها على سبيل:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "تنفي عن الجنس كلِّه لا عن فردٍ واحدٍ.",
+    "options": [
+      "الاحتمال",
+      "الوحدة",
+      "الاستغراق والشمول"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1805",
+    "question": "الفرقُ بين لا النافية للجنس ولا النافية للوحدة أن الأولى:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "لا تحتمل الإثباتَ لما عدا المنفي.",
+    "options": [
+      "تنفي الجنسَ كلَّه نفيًا قطعيًّا",
+      "تنفي واحدًا ويصح الإثباتُ لغيره",
+      "لا تعمل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1806",
+    "question": "لا طالبٌ في الفصلِ بل طالبانِ . (لا ) هنا:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "صحَّ معها الإثباتُ للاثنين، فليست للجنس.",
+    "options": [
+      "نافية للجنس",
+      "نافية للوحدة",
+      "عاطفة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1807",
+    "question": "شروطُ عمل لا النافية للجنس عددها:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "تنكيرُ الطرفين، وعدمُ الفصل، وعدمُ سبق الجار، والاستغراق.",
+    "options": [
+      "شرطان",
+      "ثلاثة",
+      "أربعة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1808",
+    "question": "من شروط عمل لا النافية للجنس أن يكون اسمُها وخبرُها:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "فإن جاء أحدُهما معرفةً بطل عملُها.",
+    "options": [
+      "نكرتين",
+      "معرفتين",
+      "جملتين"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1809",
+    "question": "من شروط عمل لا النافية للجنس ألا يفصل بينها وبين اسمها:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "فإن فُصل بينهما بطل عملُها.",
+    "options": [
+      "فعلٌ",
+      "فاصلٌ",
+      "خبرٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1810",
+    "question": "من شروط عمل لا النافية للجنس ألا تُسبق بـ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "نحو: جئتُ بلا زادٍ.",
+    "options": [
+      "اسمٍ",
+      "فعلٍ",
+      "حرف جرٍّ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1811",
+    "question": "لا محمدٌ في البيتِ ولا عليٌّ . بطل عملُ (لا ) لأن اسمها:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "(محمد ) و(علي ) عَلَمان.",
+    "options": [
+      "معرفةٌ",
+      "مضافٌ",
+      "شبيهٌ بالمضاف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1812",
+    "question": "لا في الفصلِ طالبٌ ولا في الملعبِ . بطل عملُ (لا ) بسبب:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "جاء الجارُّ والمجرورُ بينها وبين اسمها.",
+    "options": [
+      "تعريف الاسم",
+      "الفصلِ بينها وبين اسمها",
+      "سبقِ حرف جرٍّ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1813",
+    "question": "جئتُ بلا زادٍ . بطل عملُ (لا ) لأنها:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "دخلت عليها الباءُ الجارَّة.",
+    "options": [
+      "اسمها معرفةٌ",
+      "فُصل بينهما",
+      "سُبقت بحرف جرٍّ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1814",
+    "question": "إذا اختلَّ شرطٌ من شروط عمل لا النافية للجنس:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "يُعرب ما بعدها بحسب موقعه.",
+    "options": [
+      "بطل عملُها ووجب تكرارُها",
+      "بقي عملُها",
+      "صارت عاطفةً"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1815",
+    "question": "أحوالُ اسم لا النافية للجنس:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "مفردٌ ومضافٌ وشبيهٌ بالمضاف.",
+    "options": [
+      "حالان",
+      "ثلاثةُ أحوالٍ",
+      "أربعةٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1816",
+    "question": "أحوالُ اسم لا النافية للجنس: المفردُ والمضافُ و:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "ما اتصل بما يتمم معناه فأشبه المضافَ.",
+    "options": [
+      "المعرفةُ",
+      "المثنى",
+      "الشبيهُ بالمضاف"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1817",
+    "question": "اسمُ لا النافية للجنس المفردُ هو:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "يُبنى على ما يُنصب به.",
+    "options": [
+      "ما ليس مضافًا ولا شبيهًا بالمضاف",
+      "المضافُ",
+      "الشبيهُ بالمضاف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1818",
+    "question": "لا طالبَ في الفصلِ . إعرابُ (طالبَ ):",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "اسمٌ مفردٌ يُبنى على الفتح في محل نصبٍ.",
+    "options": [
+      "خبر لا",
+      "اسم لا مبني على الفتح",
+      "مبتدأ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1819",
+    "question": "لا كسولَ محبوبٌ . إعرابُ (محبوبٌ ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "الخبرُ يبقى مرفوعًا كخبر (إنَّ ).",
+    "options": [
+      "اسم لا",
+      "مفعول به",
+      "خبر لا مرفوع"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1820",
+    "question": "لا النافيةُ للجنس حرفٌ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "لا يتغير آخرُه بتغير موقعه.",
+    "options": [
+      "مبنيٌّ",
+      "معربٌ",
+      "متصرفٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1821",
+    "question": "لا إلهَ إلا اللهُ . نفت (لا ) هنا:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "la_alnafia_lelgens",
+    "hint": "استغرقت جنسَ الآلهة كلَّه إلا الواحدَ الأحد.",
+    "options": [
+      "إلهًا واحدًا",
+      "جنسَ الآلهة كلَّه",
+      "إلهين"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1822",
+    "question": "الاسمُ المقصورُ اسمٌ معربٌ مختومٌ بـ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "نحو: الفتى والعصا والهدى.",
+    "options": [
+      "ألفٍ لازمةٍ",
+      "ياءٍ قبلها كسرةٌ",
+      "همزةٍ قبلها ألفٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1823",
+    "question": "الاسمُ المنقوصُ اسمٌ معربٌ مختومٌ بـ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "نحو: القاضي والداعي.",
+    "options": [
+      "ألفٍ لازمةٍ",
+      "ياءٍ قبلها كسرةٌ",
+      "واوٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1824",
+    "question": "الاسمُ الممدودُ اسمٌ معربٌ مختومٌ بـ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "نحو: الصحراء والبناء.",
+    "options": [
+      "ألفٍ لازمةٍ",
+      "ياءٍ قبلها كسرةٌ",
+      "همزةٍ قبلها ألفٌ زائدةٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1825",
+    "question": "الكلمةُ (الفتى ) اسمٌ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "مختومٌ بألفٍ لازمةٍ.",
+    "options": [
+      "مقصورٌ",
+      "منقوصٌ",
+      "ممدودٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1826",
+    "question": "الكلمةُ (القاضي ) اسمٌ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "مختومٌ بياءٍ قبلها كسرةٌ.",
+    "options": [
+      "مقصورٌ",
+      "منقوصٌ",
+      "ممدودٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1827",
+    "question": "الكلمةُ (الصحراء ) اسمٌ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "مختومٌ بهمزةٍ قبلها ألفٌ زائدةٌ.",
+    "options": [
+      "مقصورٌ",
+      "منقوصٌ",
+      "ممدودٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1828",
+    "question": "تُقدَّر الحركاتُ الثلاثُ على الاسم المقصور للتعذر لأن آخره:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "الألفُ لا تقبل شيئًا من الحركات.",
+    "options": [
+      "ألفٌ لا تقبل الحركةَ",
+      "ياءٌ ثقيلةٌ",
+      "همزةٌ ظاهرةٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1829",
+    "question": "الاسمُ المنقوصُ تُقدَّر عليه الضمةُ والكسرةُ للثقل، وتظهر عليه:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "الحركةُ الخفيفةُ تظهر على الياء.",
+    "options": [
+      "الضمةُ",
+      "الفتحةُ",
+      "الكسرةُ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1830",
+    "question": "مررتُ بقاضٍ . حُذفت ياءُ (قاضٍ ) لأنه اسمٌ منقوصٌ نكرةٌ في حالة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "تُحذف ياؤه لفظًا وخطًّا في الرفع والجر عند التنوين.",
+    "options": [
+      "النصب",
+      "الرفع فقط",
+      "الجر"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1831",
+    "question": "الاسمُ الممدودُ تظهر عليه:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "الهمزةُ في آخره تقبل الحركاتِ.",
+    "options": [
+      "الحركاتُ الإعرابيةُ",
+      "الضمةُ فقط",
+      "لا شيء"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1832",
+    "question": "الكلمةُ (أخا ) في (شاهدتُ أخاك ) ليست مقصورةً لأن ألفها:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "تنقلب في حالٍ أخرى فنقول: أخوك، أخيك.",
+    "options": [
+      "لازمةٌ",
+      "غيرُ لازمةٍ (عارضةٌ )",
+      "همزةٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1833",
+    "question": "يُشترط في المقصور والمنقوص والممدود أن يكون الاسمُ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "يخرج المبنيُّ نحو (متى ) و(ذا ).",
+    "options": [
+      "مبنيًّا",
+      "جامدًا",
+      "معربًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1834",
+    "question": "الكلمةُ (العصا ) اسمٌ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "مختومٌ بألفٍ لازمةٍ.",
+    "options": [
+      "مقصورٌ",
+      "منقوصٌ",
+      "ممدودٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1835",
+    "question": "الكلمةُ (البناء ) اسمٌ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "مختومٌ بهمزةٍ قبلها ألفٌ زائدةٌ.",
+    "options": [
+      "مقصورٌ",
+      "ممدودٌ",
+      "منقوصٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1836",
+    "question": "الكلمةُ (المنادي ) اسمٌ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "مختومٌ بياءٍ قبلها كسرةٌ.",
+    "options": [
+      "مقصورٌ",
+      "ممدودٌ",
+      "منقوصٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1837",
+    "question": "علامةُ الاسم المقصور أنه ينتهي بـ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "حرفٌ لا يقبل الحركةَ.",
+    "options": [
+      "ألفٍ",
+      "ياءٍ",
+      "همزةٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1838",
+    "question": "تُقدَّر على الاسم المقصور:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "الألفُ تمنع ظهورَ الحركات كلِّها.",
+    "options": [
+      "الفتحةُ فقط",
+      "جميعُ الحركات",
+      "الضمةُ فقط"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1839",
+    "question": "الاسمُ (الأذى ) تُقدَّر عليه الحركاتُ كلُّها لأنه:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "مختومٌ بألفٍ لازمةٍ.",
+    "options": [
+      "منقوصٌ",
+      "ممدودٌ",
+      "مقصورٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1840",
+    "question": "الاسمُ المنقوصُ تظهر عليه الفتحةُ لأنها:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "أخفُّ من الضمة والكسرة على الياء.",
+    "options": [
+      "خفيفةٌ",
+      "ثقيلةٌ",
+      "متعذرةٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1841",
+    "question": "الألفُ في الاسم الممدود قبل الهمزة تكون:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "mankoos_maksor_mmdood",
+    "hint": "غيرُ مقلوبةٍ عن أصلٍ، بخلاف (ماء ) أصلها (موه ).",
+    "options": [
+      "أصليةً",
+      "زائدةً",
+      "مقلوبةً دائمًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1842",
+    "question": "الإعلالُ هو حذفُ حرف العلة أو قلبُه أو:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "تغييرٌ يطرأ على حروف العلة للتخفيف.",
+    "options": [
+      "تسكينُه",
+      "تكرارُه",
+      "تشديدُه"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1843",
+    "question": "حروفُ العلة الأصليةُ في بنية الكلمة العربية:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "الألفُ ليست أصلًا في بناء الكلمات.",
+    "options": [
+      "ثلاثةٌ",
+      "الواو والياء فقط",
+      "الألف فقط"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1844",
+    "question": "الألفُ في الكلمة العربية إذا وُجدت فهي:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "لا تكون أصلًا في بنية الكلمة.",
+    "options": [
+      "أصليةٌ دائمًا",
+      "حرفُ علةٍ ثالثٌ",
+      "منقلبةٌ عن واوٍ أو ياءٍ أو زائدةٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1845",
+    "question": "أنواعُ الإعلال ثلاثةٌ:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "بحسب ما يطرأ على حرف العلة.",
+    "options": [
+      "بالحذف والقلب والتسكين",
+      "بالزيادة والإدغام",
+      "بالفتح والكسر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1846",
+    "question": "الأصلُ في (قال ) هو (قَوَل )، فأُعِلَّ بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "تحركت الواوُ وانفتح ما قبلها.",
+    "options": [
+      "الحذف",
+      "قلب الواو ألفًا",
+      "التسكين"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1847",
+    "question": "الأصلُ في (باع ) هو (بَيَع )، فأُعِلَّ بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "تحركت الياءُ وانفتح ما قبلها.",
+    "options": [
+      "الحذف",
+      "التسكين",
+      "قلب الياء ألفًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1848",
+    "question": "يُقلب حرفُ العلة (الواو أو الياء ) ألفًا إذا تحرك وكان قبله:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "نحو: قال وباع ودعا ورمى.",
+    "options": [
+      "فتحةٌ",
+      "كسرةٌ",
+      "ضمةٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1849",
+    "question": "الأصلُ في (ميزان ) هو (مِوْزان )، فقُلبت الواو الساكنةُ بعد الكسرة:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "سكونُ الواو مع كسرِ ما قبلها يوجب قلبها.",
+    "options": [
+      "ألفًا",
+      "ياءً",
+      "همزةً"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1850",
+    "question": "الواوُ الساكنةُ إذا سبقتها كسرةٌ تُقلب:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "نحو: موقات صارت ميقات.",
+    "options": [
+      "ألفًا",
+      "همزةً",
+      "ياءً"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1851",
+    "question": "الأصلُ في (وبع ) هو (وبيع )، فحُذف السابقُ من الساكنين، وهذا إعلالٌ بـ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "التقى ساكنان فحُذف الأولُ منهما.",
+    "options": [
+      "الحذف",
+      "القلب",
+      "التسكين"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1852",
+    "question": "إذا كان أولُ الماضي واوًا حُذفت في:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "نحو: وعد يعد عد.",
+    "options": [
+      "الماضي",
+      "المضارع والأمر",
+      "المصدر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1853",
+    "question": "الفعلُ (وعد ) مضارعُه (يعد ) وأمرُه (عد )؛ حُذفت الواوُ إعلالًا بـ:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "أُسقط حرفُ العلة من أول الفعل.",
+    "options": [
+      "القلب",
+      "التسكين",
+      "الحذف"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1854",
+    "question": "يُشترط في الإعلال بالحذف عند التقاء الساكنين أن يكون السابقُ:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "ألفًا أو واوًا أو ياءً.",
+    "options": [
+      "حرفَ علةٍ",
+      "حرفًا صحيحًا",
+      "همزةً"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1855",
+    "question": "الأصلُ في (سيّد ) هو (سيود )، فقُلبت الواوُ ياءً و:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "اجتمعت الياءُ والواوُ والسابقُ ساكنٌ.",
+    "options": [
+      "حُذفت",
+      "أُدغمت في الياء",
+      "سُكِّنت"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1856",
+    "question": "الأصلُ في (ميقات ) هو (موقات )، فأُعِلَّ بقلب الواو:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "سكنت الواوُ وانكسر ما قبلها.",
+    "options": [
+      "ألفًا",
+      "همزةً",
+      "ياءً"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1857",
+    "question": "القاعدةُ الكليةُ في العربية: لا يُبدأ بساكنٍ ولا يُوقف على:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "عند الوقف يُسكَّن آخرُ الكلمة.",
+    "options": [
+      "متحركٍ",
+      "ساكنٍ",
+      "حرف علةٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1858",
+    "question": "الفعلُ (وقف ) مضارعُه:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "تُحذف الواوُ الأولى في المضارع.",
+    "options": [
+      "يوقف",
+      "يقف",
+      "أقف"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1859",
+    "question": "الكلمةُ (موسر ) أصلها (ميسر )، فأُعِلَّت بقلب:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "قُلبت الياءُ واوًا في كلماتٍ معدودةٍ.",
+    "options": [
+      "الواو ألفًا",
+      "الياء ألفًا",
+      "الياء واوًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1860",
+    "question": "الإعلالُ يقع في:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "لا يقع في الحروف الصحيحة.",
+    "options": [
+      "حروف العلة",
+      "الحروف الصحيحة",
+      "الهمزة فقط"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1861",
+    "question": "الإعلالُ بالتسكين هو:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "alealaal",
+    "hint": "نحو: يدعُو أصلها يدعُوُ فسُكِّنت الواو.",
+    "options": [
+      "حذفُ حرف العلة",
+      "تسكينُ حرف العلة بعد أن كان متحركًا",
+      "قلبُه ألفًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1862",
+    "question": "في القاعدة الإعرابية: نكرةٌ + نكرةٌ (الاسم الثاني ) = .",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "نحو: هند طالبةٌ مجتهدةٌ.",
+    "options": [
+      "نعتٌ",
+      "مضافٌ إليه",
+      "حالٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1863",
+    "question": "في القاعدة الإعرابية: نكرةٌ + معرفةٌ (الاسم الثاني ) = .",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "نحو: قبضةِ القانونِ.",
+    "options": [
+      "نعتٌ",
+      "مضافٌ إليه",
+      "حالٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1864",
+    "question": "في الجملة الفعلية: معرفةٌ + نكرةٌ (الاسم الثاني ) = .",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "نحو: جاء الطفلُ مسرورًا.",
+    "options": [
+      "نعتٌ",
+      "خبرٌ",
+      "حالٌ منصوبةٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1865",
+    "question": "معرفةٌ + معرفةٌ (الاسم الثاني نعتٌ ) كما في:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "الاسمان معرفتان والثاني وصفٌ للأول.",
+    "options": [
+      "يحترم الأستاذُ الطالبَ المتفوقَ",
+      "هند طالبةٌ مجتهدةٌ",
+      "جاء أحمدُ راكبًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1866",
+    "question": "جاء أحمدُ راكبًا . إعرابُ (راكبًا ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "معرفةٌ + نكرةٌ في جملةٍ فعليةٍ.",
+    "options": [
+      "نعت",
+      "حال منصوبة",
+      "مضاف إليه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1867",
+    "question": "لن يفرَّ المذنبُ من قبضةِ القانونِ . (القانونِ ) إعرابها:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "نكرةٌ (قبضة ) + معرفةٌ (القانون ).",
+    "options": [
+      "نعت",
+      "حال",
+      "مضاف إليه"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1868",
+    "question": "اسمُ الإشارة + المعرَّف بأل الجامد = .",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "نحو: شاهدتُ هذا الرجلَ.",
+    "options": [
+      "بدل مطابق",
+      "نعت",
+      "خبر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1869",
+    "question": "اسمُ الإشارة + المعرَّف بأل المشتق (المتصرف ) = .",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "نحو: نجح هذا المجتهدُ.",
+    "options": [
+      "بدل",
+      "نعت",
+      "حال"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1870",
+    "question": "شاهدتُ هذا الرجلَ . إعرابُ (الرجلَ ):",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "المعرَّفُ بأل بعد اسم الإشارة جامدٌ.",
+    "options": [
+      "نعت",
+      "خبر",
+      "بدل مطابق"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1871",
+    "question": "هذا رجلٌ كريمٌ . إعرابُ (رجلٌ ):",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "اسمُ إشارةٍ + نكرةٍ.",
+    "options": [
+      "خبر",
+      "نعت",
+      "بدل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1872",
+    "question": "الاسمُ الواقعُ بعد (كل ) و(بعض ) و(نفس ) و(عند ) يُعرب:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "هذه الألفاظُ ملازمةٌ للإضافة.",
+    "options": [
+      "نعتًا",
+      "مضافًا إليه",
+      "حالًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1873",
+    "question": "الاسمُ الواقعُ بعد الظرف (زمان أو مكان ) يُعرب:",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "نحو: أمامَ المسجدِ.",
+    "options": [
+      "نعتًا",
+      "خبرًا",
+      "مضافًا إليه"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1874",
+    "question": "إذا تقدم الجارُّ والمجرورُ أو الظرفُ في أول الجملة الاسمية أُعرب:",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "نحو: من المؤمنين رجالٌ.",
+    "options": [
+      "خبرًا مقدَّمًا",
+      "مبتدأً",
+      "حالًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1875",
+    "question": "(أيها ) و(أيتها ) + المعرَّف بأل المشتق = .",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "نحو: يا أيها الناجحُ.",
+    "options": [
+      "بدل",
+      "نعت",
+      "خبر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1876",
+    "question": "(أيها ) و(أيتها ) + المعرَّف بأل الجامد = .",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "نحو: يا أيها الرجلُ.",
+    "options": [
+      "نعت",
+      "خبر",
+      "بدل مطابق"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1877",
+    "question": "العَلَمُ أو المعرَّفُ بأل + الاسم الموصول = .",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "نحو: قابلتُ الطالبَ الذي نجح.",
+    "options": [
+      "نعت",
+      "بدل",
+      "حال"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1878",
+    "question": "النكرةُ + الاسم الموصول = .",
+    "difficulty": "hard",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "نحو: كلُّ من عليها فانٍ.",
+    "options": [
+      "نعت",
+      "مضاف إليه",
+      "خبر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1879",
+    "question": "(إنما ) + الاسم المعرَّف = .",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "نحو: إنما الأممُ الأخلاقُ.",
+    "options": [
+      "خبر",
+      "حال",
+      "مبتدأ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1880",
+    "question": "هند طالبةٌ مجتهدةٌ . إعرابُ (مجتهدةٌ ):",
+    "difficulty": "easy",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "نكرةٌ + نكرةٌ.",
+    "options": [
+      "نعت",
+      "خبر",
+      "حال"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1881",
+    "question": "قابلتُ صديقي بعد صلاةِ العشاءِ . (صلاةِ ) إعرابها:",
+    "difficulty": "medium",
+    "stage": "secondaryThree",
+    "mClass": "الثالث",
+    "lessonId": "thawabet_erabia",
+    "hint": "وقعت بعد الظرف (بعد ).",
+    "options": [
+      "نعت",
+      "مضاف إليه",
+      "حال"
+    ],
+    "correctIndex": 1
+  }
+]

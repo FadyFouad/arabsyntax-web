@@ -1,0 +1,3212 @@
+[
+  {
+    "questionID": "0348",
+    "question": "الفعل (رأى ) نوعه:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "المعتلّ الناقص هو ما كان آخر حروفه الأصلية حرف علَّة.",
+    "options": [
+      "معتلّ ناقص",
+      "صحيح مهموز",
+      "معتلّ أجوف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0349",
+    "question": "الفعل المعتلّ الأجوف هو ما كان ....... حروفه الأصلية حرف علَّة.",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل المعتلّ الأجوف هو ما كان أوسط حروفه الأصلية حرف علَّة.",
+    "options": [
+      "أول",
+      "أوسط",
+      "آخر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0350",
+    "question": "الفعل (زحزح ) نوعه:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل المضعَّف الرباعي هو ما كان أوله مثل ثالثه وثانيه مثل رابعه (وكلُّ حروفه الأربعة أصلية ) .",
+    "options": [
+      "صحيح سالم",
+      "صحيح مهموز",
+      "صحيح مضعَّف"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0351",
+    "question": "الفعل (اشتكى ) نوعه:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "أصل الفعل: (شكا ) ، ولا يمكن تحديد نوع الفعل من حيث الصحة والاعتلال إلا بعد حذف حروف الزيادة.",
+    "options": [
+      "معتلّ ناقص",
+      "معتلّ مثال",
+      "معتلّ أجوف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0352",
+    "question": "إذا كان أول حروف الفعل الأصلية حرف علَّة فإن الفعل يكون:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "المعتلّ المثال هو ما كان أول حروفه الأصلية حرف علَّة.",
+    "options": [
+      "مثالا",
+      "ناقصًا",
+      "أجوف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0353",
+    "question": "يكون الفعل الصحيح مهموزًا إذا كان ....... همزة.",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل الصحيح المهموز هو ما كان أحد حروفه الأصلية همزة، بشرط خلوه من حروف العلَّة.",
+    "options": [
+      "أوله",
+      "أحد حروفه الأصلية",
+      "أوسطه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0354",
+    "question": "إذا اجتمع حرفا علَّة أصليان في الفعل فهو:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل المعتلّ اللفيف هو ما اجتمع في حروفه الأصلية حرفان من حروف العلَّة.",
+    "options": [
+      "ناقص",
+      "أجوف",
+      "لفيف"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0355",
+    "question": "واحد مما يلي فعل صحيح مضعَّف رباعي:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل المضعَّف الرباعي هو ما كان أوله مثل ثالثه وثانيه مثل رابعه (وكلُّ حروفه الأربعة أصلية ) .",
+    "options": [
+      "زقزق",
+      "يتقدَّم",
+      "يستمدُّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0356",
+    "question": "شارك الطالب في أسبوع النظافة. الفعل (شارك ) نوعه:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (شارك ) فعل صحيح سالم، والألف فيه حرف زائد.",
+    "options": [
+      "سالم",
+      "مهموز",
+      "مضعَّف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0357",
+    "question": "الأفعال الآتية أفعال سالمة، ما عدا .......",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (قرأ ) فعل صحيح مهموز.",
+    "options": [
+      "فرح",
+      "قرأ",
+      "حضر"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0358",
+    "question": "....... الطالب المجتهد درسه. أكمل بفعل معتلّ لفيف مفروق.",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (وعى ) فعل معتلّ لفيف مفروق؛ لوجود حرفي علَّة غير متتاليين في حروفه الأصلية.",
+    "options": [
+      "فهم",
+      "استوعب",
+      "وعى"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0359",
+    "question": "....... المؤمنون في سبيل إعلاء كلّمة التوحيد. أكمل بفعل صحيح سالم.",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (جاهد ) فعل صحيح سالم، والألف فيه حرف زائد.",
+    "options": [
+      "جاهد",
+      "قاوم",
+      "سعى"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0360",
+    "question": "كلُّ الأفعال التالية صحيحة ما عدا:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل الماضي (وصف ) معتلٌّ مثال.",
+    "options": [
+      "وصف",
+      "عرف",
+      "نجح"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0361",
+    "question": "كلُّ الأفعال التالية معتلَّة ما عدا:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (أكل ) صحيح مهموز.",
+    "options": [
+      "ورد",
+      "أكل",
+      "عاد"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0362",
+    "question": "الولدان (أكلا ) الطعام. الفعل (أكلا ) :",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الألف الأخيرة في (أكلا ) هي ألف الاثنين، وهي ضمير، وليست حرف علَّة.",
+    "options": [
+      "معتلٌّ ناقص",
+      "صحيح سالم",
+      "صحيح مهموز"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0363",
+    "question": "....... التلميذ القصَّة. أكمل بفعلٍ معتلٍّ:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (يحكي ) معتلٌّ ناقص.",
+    "options": [
+      "يحكي",
+      "يقص",
+      "يقرأ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0364",
+    "question": "(يعد ) الله المؤمنِين بالنصر. الفعل (يعد ) نوعه:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (يعد ) أصله: (وعد ) ، وهو معتلٌّ مثال.",
+    "options": [
+      "معتلٌّ مثال",
+      "معتلٌّ أجوف",
+      "صحيح مضعَّف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0365",
+    "question": "كل الأفعال التالية معتلّة، ما عدا:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "لا يمكن تحديد نوع الفعل من حيث الصحة والاعتلال إلا بعد حذف حروف الزيادة، وحرف الألف في الفعل الماضي (ساعد ) حرف زائد.",
+    "options": [
+      "يقف",
+      "ساعد",
+      "قال"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0366",
+    "question": "فعل واحد مما يلي معتلّ مثال:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "المعتلّ المثال هو ما كان أول حروفه الأصلية حرف علَّة.",
+    "options": [
+      "أكل",
+      "يذهب",
+      "يصل"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0367",
+    "question": "فعل واحد مما يلي صحيح مهموز:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل الصحيح المهموز هو ما كان أحد حروفه الأصلية همزة، بشرط خلوه من حروف العلَّة.",
+    "options": [
+      "بدأ",
+      "أراد",
+      "أعاد"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0368",
+    "question": "الفعل الوحيد السالم فيما يلي هو:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل الصحيح السالم هو ما خلت حروفه الأصلية من الهمزة والتضعيف وحروف العلَّة.",
+    "options": [
+      "يحترم",
+      "اشتدَّ",
+      "ارتقى"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0369",
+    "question": "الفعل (وعى ) نوعه:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل المعتلّ اللفيف هو ما اجتمع فيه حرفان من حروف العلَّة، وإن كان حرفا العلَّة متتاليين فهو لفيف مقرون، وإلا فهو لفيف مفروق.",
+    "options": [
+      "معتلّ لفيف مفروق",
+      "معتلّ لفيف مقرون",
+      "معتلّ مثال"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0370",
+    "question": "الفعل (يتعاون ) نوعه:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "أصل الفعل: (عَوَنَ ) ، والفعل المعتلّ الأجوف هو ما كان أوسط حروفه الأصلية حرف علَّة.",
+    "options": [
+      "معتلّ لفيف",
+      "معتلّ أجوف",
+      "معتلّ ناقص"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0371",
+    "question": "ووصَّينا الإنسان بوالديه . الفعل (وصَّينا ) فعل معتلّ .......",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل المعتلّ اللفيف هو ما اجتمع في حروفه الأصلية حرفان من حروف العلَّة.",
+    "options": [
+      "لفيف مفروق",
+      "أجوف",
+      "مثال"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0372",
+    "question": "والنجم إذا هوى . الفعل الماضي (هوى ) فعل معتلّ .......",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل المعتلّ اللفيف هو ما اجتمع في حروفه الأصلية حرفان من حروف العلَّة.",
+    "options": [
+      "لفيف مفروق",
+      "لفيف مقرون",
+      "أجوف"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0373",
+    "question": "إنما الأعمال بالنيات وإنما لكل امرئ ما نوى . الفعل (نوى ) نوعه .......",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل المعتلّ اللفيف هو ما اجتمع في حروفه الأصلية حرفان من حروف العلَّة.",
+    "options": [
+      "لفيف مفروق",
+      "أجوف",
+      "لفيف مقرون"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0374",
+    "question": "أشرف المعلم على الأنشطة الطلابية. الفعل (أشرف ) نوعه: .......",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (أشرف ) فعل صحيح سالم، والهمزة فيه زائدة.",
+    "options": [
+      "معتلّ أجوف",
+      "صحيح مهموز",
+      "صحيح سالم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0375",
+    "question": "لم يقل الشاهد الحق. الفعل (يقل ) نوعه: .......",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (يقل ) فعل معتلّ أجوف؛ لأن أصله: (قال ) .",
+    "options": [
+      "معتلّ مثال",
+      "معتلّ أجوف",
+      "صحيح سالم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0376",
+    "question": "الطبيب البارع ....... الكثير من الأمراض الخطيرة. أكمل بفعل معتلّ لفيف مقرون.",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (يداوي ) فعل معتلّ لفيف؛ لأن أصله: (دوى ) .",
+    "options": [
+      "يعالج",
+      "يشفي",
+      "يداوي"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0377",
+    "question": "....... الطالب عن جميع الأسئلة. أكمل بفعل معتلّ أجوف.",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل المعتلّ الأجوف هو ما كان أوسط حروفه الأصلية حرف علَّة.",
+    "options": [
+      "أجاب",
+      "أعرض",
+      "حلّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0378",
+    "question": "....... الأسئلة بطريقة متأنية. أكمل بفعل صحيح مهموز.",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل الصحيح المهموز هو ما كانت أحد حروفه الأصلية همزة.",
+    "options": [
+      "اقرأ",
+      "أجب",
+      "انظر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0379",
+    "question": "....... التاجر نقوده كلَّ يوم. أكمل بفعل صحيح مضعَّف ثلاثي.",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل المضعَّف الثلاثي هو ما كانت عينه مثل لامه.",
+    "options": [
+      "يحسب",
+      "يعد",
+      "يجمع"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0380",
+    "question": "الشيطان ....... للإنسان بالشر. أكمل بفعل صحيح مضعَّف رباعي.",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل المضعَّف الرباعي هو ما كان أوله مثل ثالثه، وثانيه مثل رابعه.",
+    "options": [
+      "يوسوس",
+      "يغري",
+      "يضلل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0381",
+    "question": "فعل واحد ممَّا يلي معتلٌّ لفيف مفروق:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (وقى ) فعل معتلٌّ لفيف (فيه حرفا علَّة ) مفروق (حرفا العلَّة غير متتاليين ) .",
+    "options": [
+      "وقى",
+      "قوي",
+      "هدى"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0382",
+    "question": "فعل واحد ممَّا يلي صحيح مهموز:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "كلُّ الأفعال الواردة أفعال معتلَّة ما عدا (رأف ) فهو صحيح مهموز.",
+    "options": [
+      "رأى",
+      "نأى",
+      "رأف"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0383",
+    "question": "كلُّ ما يلي أفعال رباعيَّة مضعَّفة ما عدا:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "المضعَّف الرباعيُّ هو الفعل الذي أوَّله مثل ثالثه، وثنيه مثل رابعه.",
+    "options": [
+      "زلزل",
+      "طمأن",
+      "زحزح"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0384",
+    "question": "ينشأ المؤمن صادقًا. الفعل (ينشأ ) نوعه:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (ينشأ ) صحيح مهموز.",
+    "options": [
+      "صحيح مهموز",
+      "معتلٌّ أجوف",
+      "صحيح سالم"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0385",
+    "question": "فعل واحد ممَّا يلي ليس معتلا مثالا:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (يهزُّ ) أصله: (هزَّ ) ، وهو فعل صحيح مضعَّف ثلاثيٌّ.",
+    "options": [
+      "يصف",
+      "يقف",
+      "يهز"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0386",
+    "question": "كل الأفعال التالية صحيحة مضعَّفة، ماعدا:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل المضعَّف الثلاثي هو ما كانت عينه مثل لامه، والمضعَّف الرباعي هو ما كان أوله مثل ثالثه وثانيه مثل رابعه.",
+    "options": [
+      "مرَّ",
+      "أدَّى",
+      "زلزل"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0387",
+    "question": "رأيتُ العلم نافعاً . الفعل (رأيتُ ) نوعه:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (رأى ) معتلّ، وليس صحيحًا.",
+    "options": [
+      "معتلّ ناقص",
+      "صحيح مهموز",
+      "معتلّ أجوف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0388",
+    "question": "جميع الأفعال التالية صحيحة، ما عدا:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (يجب ) فعل معتلّ؛ لأن أصله: (وجب ) .",
+    "options": [
+      "يجب",
+      "سأل",
+      "اكتب"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0389",
+    "question": "الأفعال التالية كلها صحيحة، ما عدا:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (قم ) معتلّ أجوف؛ لأن الماضي منه: (قام ) .",
+    "options": [
+      "يتجمهرون",
+      "قُم",
+      "اعملي"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0390",
+    "question": "....... الرسول الكريم بالصدق والأمانة منذ الصغر. أكمل بفعل معتلّ مثال.",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "أصل الفعل (اتصف ) : (وصف ) .",
+    "options": [
+      "عُرِف",
+      "تحلى",
+      "اتصف"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0391",
+    "question": "الإيمان ....... صاحبه من المعصية. أكمل بفعل لفيف مفروق.",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل المعتلّ اللفيف هو ما اجتمع في حروفه الأصلية حرفان من حروف العلَّة.",
+    "options": [
+      "يحمي",
+      "يقي",
+      "يقرب"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0392",
+    "question": "....... الرجل حقَّه. إذا أردنا أن نكمل الجملة بفعلٍ صحيحٍ مضعَّفٍ فإنَّ الصواب ممَّا يلي هو:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل الوحيد الصحيح المضعَّف فيما ذُكِر هو (استردَّ ) ، وأصله: (ردَّ ) .",
+    "options": [
+      "استرد",
+      "استعاد",
+      "استرجع"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0393",
+    "question": "متى (تكن ) مخلصًا يحترمكَ الناس - متى (تكن ) التقدير للناس يحترموكَ.",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (تكن ) الأوَّل أصله: (تكون ) ؛ ولذلك فإنَّه معتلٌّ أجوف، والفعل الثاني (تُكِنّ ) فعل صحيح مضعَّف.",
+    "options": [
+      "الفعل الأوَّل صحيح مضعَّف، والثاني معتلٌّ أجوف",
+      "الفعلان معتلان",
+      "الفعل الأوَّل معتلٌّ أجوف، والثاني صحيح مضعَّف"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0394",
+    "question": "(يرد ) إلينا السُّيَّاح من قارة أوروبا – الرجل (يرد ) الحقوق لأصحابها.",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (يرد ) في الجملة الأولى أصله: (ورد ) ، وهو معتلٌّ مثال، والفعل (يردّ ) في الجملة الثانية أصله: (ردَّ ) ، وهو صحيح مضعَّف ثلاثيٌّ.",
+    "options": [
+      "الفعل الأوَّل صحيح، والثاني معتلٌّ",
+      "الفعل الأوَّل معتلٌّ، والثاني صحيح",
+      "الفعلان صحيحان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0395",
+    "question": "الشاهد لم (يقل ) الحقَّ – منسوب النيل لم (يقل ) .",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل الأوَّل معتلٌّ أجوف؛ لأنَّ أصله: (يقول ) ، والفعل الثاني صحيح مضعَّف ثلاثيٌّ؛ لأن أصله: (يقلّ ) ، والفعل الماضي منه: (قلَّ ) .",
+    "options": [
+      "الفعل الأوَّل أجوف، والثاني مضعَّف",
+      "الفعل الأوَّل أجوف، والثاني مثال",
+      "الفعل الأوَّل مثال، والثاني أجوف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0396",
+    "question": "....... بالله. أكمل بفعلٍ معتلٍّ أجوف:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (استعِن ) أصله: (استعان ) ، والثلاثيُّ منه: (عان ) ، وهو معتلٌّ أجوف.",
+    "options": [
+      "ثِق",
+      "آمِن",
+      "استعِن"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0397",
+    "question": "....... الطالب سؤالا. أكمل بفعلٍ صحيحٍ مهموزٍ:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (أجاب ) معتلٌّ أجوف، والفعل (كتب ) صحيح سالم، والفعل (أعدَّ ) صحيح مضعَّف ثلاثيٌّ، وأصله: (عدَّ )",
+    "options": [
+      "أجاب",
+      "سأل",
+      "كتب"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0398",
+    "question": "يقارن المعلِّم بين قارة أفريقيا وقارة أوروبا. الفعل (يقارن ) نوعه:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعل (يقارن ) أصله: (قرن ) ، وهو صحيح سالم.",
+    "options": [
+      "صحيح سالم",
+      "معتلٌّ مثال",
+      "معتلٌّ أجوف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0399",
+    "question": "(أكرم ) الرجل ضيفه – (كرم ) الرجل ضيفه.",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الفعلان صحيحان سالمان؛ لأنَّ أصل كليهما: (كرم ) .",
+    "options": [
+      "الفعلان صحيحان سالمان",
+      "الفعل الأوَّل مهموز، والثاني مضعَّف",
+      "الفعل الأوَّل صحيح سالم، والثاني مضعَّف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0400",
+    "question": "وما تقدموا لأنفسكم من خيرٍ تجدوه عند الله . الأسلوب في الآية أسلوب:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "(ما ) : من أدوات الشرط الجازمة.",
+    "options": [
+      "شرط",
+      "تعجُّب",
+      "نهي"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0401",
+    "question": "كلُّ ما يلي من أدوات الشرط الجازمة، ما عدا:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "(إذا ) : من أدوات الشرط غير الجازمة.",
+    "options": [
+      "مَن",
+      "ما",
+      "إذا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0402",
+    "question": "أداة الشرط التي تُستخدَم لغير العاقل فيما يلي هي:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "(ما ) و (مهما ) أداتا شرط تُستخدَمان لغير العاقل.",
+    "options": [
+      "مَن",
+      "إن",
+      "ما"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0403",
+    "question": "إذا كان الفعل المضارع صحيح الآخر فإنه يُجزَم بـ.......",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "eaarab_almodare",
+    "hint": "الفعل المضارع صحيح الآخر يُجزَم بالسكون.",
+    "options": [
+      "السكون",
+      "حذف النون",
+      "حذف حرف العلَّة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0404",
+    "question": "أين يوجد الماء يعش الناس. فعل جواب الشرط في الجملة هو:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الفعل (يعش ) مجزوم بالسكون؛ لأنه صحيح الآخر، وحُذِفت الياء لعدم تجاور حرفَين ساكنَين.",
+    "options": [
+      "الناس",
+      "أين",
+      "يعش"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0405",
+    "question": "أداة الشرط (مَن ) تُستخدَم لـ .......",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "أداة الشرط (مَن ) تُستخدَم للعاقل.",
+    "options": [
+      "غير العاقل",
+      "الزمان",
+      "العاقل"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0406",
+    "question": "ما يُستخدَم لغير العاقل من أدوات الشرط:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "ما يُستخدم لغير العاقل من أدوات الشرط: ما، ومهما.",
+    "options": [
+      "ما، ومهما",
+      "ما، ومتى",
+      "إن، وما"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0407",
+    "question": "الأفعال الخمسة تُجزَم بـ.......",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "الأفعال الخمسة تُجزَم بحذف النون.",
+    "options": [
+      "ثبوت النون",
+      "حذف النون",
+      "حذف حرف العلَّة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0408",
+    "question": "يجب أن تجتهدوا في مذاكرتكم. الفعل المضارع (تجتهدوا ) :",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alafaal_alkhamsa",
+    "hint": "الفعل المضارع (تجتهدوا ) منصوب بعد (أن ) ، وعلامة النصب حذف النون؛ لأنه من الأفعال الخمسة.",
+    "options": [
+      "منصوب بحذف النون",
+      "مرفوع",
+      "مجزوم بحذف حرف العلَّة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0409",
+    "question": "أدوات الشرط الجازمة:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "أدوات الشرط الجازمة تجزم فعلَين: (فعل الشرط ) ، و (فعل جواب الشرط ) .",
+    "options": [
+      "تجزم ثلاثة أفعال",
+      "تجزم فعلا مضارعًا واحدًا",
+      "تجزم فعلَين مضارعَين"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0410",
+    "question": "لام الأمر:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "eaarab_almodare",
+    "hint": "(لام الأمر ) : أداة من أدوات جزم الفعل المضارع، وهي تجزم فعلا مضارعًا واحدًا.",
+    "options": [
+      "تجزم فعلا مضارعًا واحدًا",
+      "تجزم فعلَين مضارعَين",
+      "تنصب الفعل المضارع"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0411",
+    "question": "اُستُخدِمت (مَن ) كأداة شرطٍ في جملةٍ واحدةٍ ممَّا يلي:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "(مَن ) في جملة: (أحترم مَن يقول الحقَّ ) نوعها: موصولة، و (مَن ) في جملة: (مَن الذي حضر الاجتماع ) نوعها: استفهاميَّة.",
+    "options": [
+      "أحترم مَن يقول الحقَّ",
+      "مَن الذي حضر الاجتماع",
+      "مَن يشهد بالحقِّ يكن صادقًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0412",
+    "question": "فيما يلي أداة شرطٍ واحدة غير جازمة:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "(إذا ) : أداة شرط غير جازمة.",
+    "options": [
+      "إذا",
+      "مَن",
+      "متى"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0413",
+    "question": "متى ....... في عون أخيكم يكن الله في عونكم.",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الصواب: متى تكونوا في عون أخيكم يكن الله في عونكم.",
+    "options": [
+      "تكونوا",
+      "تكونون",
+      "تكونا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0414",
+    "question": "إن ....... تنجحوا.",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "إعراب (تذاكروا ) : فعل مضارع مجزوم، وعلامة الجزم حذف النون؛ لأنه من الأفعال الخمسة (وهو فعل الشرط ) .",
+    "options": [
+      "تذاكرون",
+      "تذاكرا",
+      "تذاكروا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0415",
+    "question": "مَن يفعل الخير ....... الله عنه.",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "إعراب (يرضَ ) : فعل مضارع مجزوم، وعلامة الجزم حذف حرف العلَّة (وهو فعل جواب الشرط ) .",
+    "options": [
+      "يرضَ (بفتح الضاد )",
+      "يرضُ (بضمِّ الضاد )",
+      "يرضِ (بكسر الضاد )"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0416",
+    "question": "متى استعبدتم الناس وقد ولدتهم أمَّهاتهم أحرارًا. الأسلوب في الجملة أسلوب:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "(متى ) : قد تُستخدَم كأداة شرطٍ، وقد تُستخدَم كأداة استفهامٍ.",
+    "options": [
+      "استفهام",
+      "شرط",
+      "أمر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0417",
+    "question": "يُجزم فعل الشرط بحذف النون إذا كان:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الأفعال الخمسة تُرفَع بثبوت النون، وتُنصَب وتُجزَم بحذف النون.",
+    "options": [
+      "من الأفعال الخمسة",
+      "صحيح الآخر",
+      "معتلّ الآخر بالواو"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0418",
+    "question": "إن ....... بالسباق تنل المكافأة.",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الفعل المضارع (تفز ) مجزوم بالسكون، وحُذِفت الواو لعدم تجاوُر حرفَين ساكنَين.",
+    "options": [
+      "تفوز",
+      "تفز",
+      "تفوزا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0419",
+    "question": "من أدوات الشرط الجازمة:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "من أدوات الشرط الجازمة: إن، ومن، وما، وأين.",
+    "options": [
+      "إن، ومَن، وما، وحيث",
+      "إن، ولو، وما، وأين",
+      "إن، ومَن، وما، وأين"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0420",
+    "question": "إن تحترم الناس يقدِّروكَ. فعل جواب الشرط (يقدِّروكَ ) مجزوم، وعلامة جزمه:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الأفعال الخمسة تُرفَع بثبوت النون، وتُنصَب وتُجزَم بحذف النون.",
+    "options": [
+      "حذف النون",
+      "ثبوت النون",
+      "حذف حرف العلَّة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0421",
+    "question": "فيما يلي أداة واحدة لا تجزم إلا فعلا مضارعًا واحدًا، وهي:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "eaarab_almodare",
+    "hint": "(لم ) : أداة من أدوات جزم الفعل المضارع، وهي تجزم فعلا مضارعًا واحدًا.",
+    "options": [
+      "إن",
+      "مَن",
+      "لم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0422",
+    "question": "تحسنين العمل – تكونين محبوبة. بالربط بين الجملتَين بأداة شرطٍ جازمةٍ تصبح الجملة:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "(تحسنين ) و (تكونين ) من الأفعال الخمسة، ويُجزَمان بحذف النون: (تحسني ) و (تكوني ) .",
+    "options": [
+      "متى تحسنِ العمل تكوني محبوبة",
+      "متى تحسني العمل تكوني محبوبة",
+      "متى تحسني العمل تكونِ محبوبة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0423",
+    "question": "إن تقم بواجبكَ تجاه الناس يحبُّوكَ.",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الفعل (تقم ) مجزوم بالسكون، وحُذِفت الواو لعدم تجاور حرفَين ساكنَين، والفعل (يحبُّوكَ ) مجزوم بحذف النون؛لأنَّه من الأفعال الخمسة، وأصله: (يحبُّونكَ ) .",
+    "options": [
+      "فعل الشرط مجزوم بحذف حرف العلَّة، وفعل جواب الشرط مجزوم بحذف النون",
+      "فعل الشرط مجزوم بالسكون، وفعل جواب الشرط مجزوم بحذف النون",
+      "فعل الشرط مجزوم بحذف حرف العلَّة، وفعل جواب الشرط مجزوم بالسكون"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0424",
+    "question": "إن ترجون الله يعفو عنكم. إذا علمنا بأنَّ هذه الجملة غير صحيحة فإنَّ الصواب ممَّا يلي هو:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الصواب جزم الفعل المضارع (ترجون ) بحذف النون (ترجوا ) ، وجزم الفعل المضارع (يعفو ) بحذف حرف العلَّة (يعفُ ) .",
+    "options": [
+      "إن ترجو رضا الله يعفُ عنكم",
+      "إن ترجوا رضا الله يعفُ عنكم",
+      "إن ترجُ رضا الله يعفُ عنكم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0425",
+    "question": "مَن يجتهد ويخلص يكن محبوبًا. الفعل المضارع (ويخلص ) ورد في الجملة:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alatf",
+    "hint": "الفعل المضارع (ويخلص ) معطوف على فعل الشرط المجزوم (يجتهد ) ؛ ولذلك فإنه أيضًا مجزوم.",
+    "options": [
+      "مرفوعًا",
+      "منصوبًا",
+      "مجزومًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0426",
+    "question": "تفشي السر – لا تكون أمينًا. إذا أردنا أن نربط بين الجملتَين بأداة شرطٍ جازمةٍ للزمان فإنّنا يجب أن نقول:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "(متى ) : أداة شرطٍ للزمان.",
+    "options": [
+      "متى تفشِ السر لا تكن أمينًا",
+      "إن تفشِ السر لا تكن أمينًا",
+      "مَن يفشِ السر لا يكن أمينًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0427",
+    "question": "ومَن يعصِ الله ورسوله ويتعدَّ حدوده يدخله نارًا خالدًا فيها . في الجملة من الأفعال المجزومة:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "في الآية ثلاثة أفعال مجزومة: (يعصِ )؛ لأنَّه فعل الشرط، و (ويتعدَّ ) ؛ لأنَّه معطوف على فعل الشرط، و (يدخله ) ، وهو فعل جواب الشرط.",
+    "options": [
+      "فعل واحد",
+      "ثلاثة أفعال",
+      "فعلان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0428",
+    "question": "متى تقيموا المشروعاتِ تستفيد بلادُكم. الكلمة الخطأ في الجملة هي:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "يجب أن تُحذَف الياء من الفعل المضارع (تستفيد ) لعدم تجاور حرفَين ساكنَين.",
+    "options": [
+      "تقيموا",
+      "المشروعاتِ",
+      "تستفيد"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0429",
+    "question": "تطيعون الله – يحميكم. بالربط بين الجملتين بأداة شرط جازمة تصبح الجملة:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "فعل الشرط مجزوم بحذف النون، وفعل جواب الشرط مجزوم بحذف حرف العلَّة.",
+    "options": [
+      "إن تطيعوا الله يحميكم",
+      "إن تطيعوا الله يحمكم",
+      "إن تطيعون الله يحمكم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0430",
+    "question": "مَن اجتهد في مذكراته (ينل ) النجاح . الفعل (ينل ) :",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الفعل (ينل ) مجزوم بالسكون، وحُذِفت الألف لعدم تجاور حرفَين ساكنَين.",
+    "options": [
+      "مجزوم بالسكون",
+      "مجزوم بحذف حرف العلَّة",
+      "مجزوم بحذف النون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0431",
+    "question": "متى (تستقيموا ) (ترتق ) حياتكم.",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "فعل الشرط (تستقيموا ) مجزوم بحذف النون؛ لأنه من الأفعال الخمسة، وفعل جواب الشرط (ترتقِ ) مجزوم بحذف حرف العلَّة.",
+    "options": [
+      "الفعل الأول مجزوم بحذف النون، والثاني مجزوم بحذف حرف العلَّة",
+      "الفعل الأول مجزوم بحذف النون، والثاني مجزوم بالسكون",
+      "الفعلان مجزومان بحذف النون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0432",
+    "question": "إن تلتزموا بقوانين المرور لا ....... بحوادث.",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الفعل (تصابوا ) مجزوم بحذف النون، و (لا ) النافية لم تؤثِّر في الفعل المضارع.",
+    "options": [
+      "تصابون",
+      "تصيبكم",
+      "تصابوا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0433",
+    "question": "تدعو الله - تجده سميعًا. إذا ردنا الربط بين الجملتين بأداة شرط للزمان فإننا نقول:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "أداة الشرط (متى ) تُستخدَم للزمان.",
+    "options": [
+      "مهما تدعُ الله تجده سميعًا",
+      "متى تدعُ الله تجده سميعًا",
+      "إن تدعُ الله تجده سميعًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0434",
+    "question": "تسعى في الخير - يعلو شأنك. بالربط بين الجملتين بأداة الشرط (إن ) تصبح الجملة:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الفعلان في الجملة يُجزَمان بحذف حرف العلَّة.",
+    "options": [
+      "إن تسعَ في الخير يعلو شأنك",
+      "إن تسعَ في الخير يعلُ شأنك",
+      "إن تسعى في الخير يعلُ شأنك"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0435",
+    "question": "(ما ) تذاكره ينفعكَ - اعمل (ما ) ينفعكَ.",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "قد تأتي (ما ) أداة شرط جازمة تجزم فعلَين مضارعَين، وقد تأتي موصولة، وقد تأتي استفهامية، وقد تأتي نافية.",
+    "options": [
+      "(ما ) الأولى موصولة، والثانية شرطيَّة",
+      "(ما ) الأولى شرطيَّة، والثانية موصولة",
+      "كلتاهما شرطيَّتان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0436",
+    "question": "جملة واحدة مما يلي صحيحة:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الفعل المضارع (تدعوا ) مجزوم بحذف النون، والفعل المضارع (يستجب ) مجزوم بالسكون.",
+    "options": [
+      "متى تدعوا الله يستجيب لكم",
+      "متى تدعوا الله يستجب لكم",
+      "متى تدعُ الله يستجيب لكم"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0437",
+    "question": "متى تأتينا طالبًا المساعدة نستجب لطلبكَ. الكلمة الخطأ في الجملة هي:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الفعل المضارع (تأتينا ) يُجزَم بحذف حرف العلَّة، والصواب: تأتنا.",
+    "options": [
+      "تأتينا",
+      "طالبًا",
+      "نستجب"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0438",
+    "question": "مَن يذاكرون ينجحون. (من ) الواردة في الجملة نوعها:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "لو كان الأسلوب في الجملة أسلوب شرط لجُزِم فعل الشرط وفعل جواب الشرط.",
+    "options": [
+      "أداة شرط",
+      "أداة استفهام",
+      "اسم موصول"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0440",
+    "question": "أين تسكنْ .......",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الأسلوب في الجملة أسلوب شرط.",
+    "options": [
+      "أزركَ",
+      "أزوركَ",
+      "لأزركَ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0441",
+    "question": "متى دعاكَ الوطن أجبته مسرعًا. باستبدال فعلَين مضارعَين بفعلي الشرط والجواب. تصبح الجملة:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الصواب: متى يدعُكَ (فعل الشرط فعل مضارع مجزوم بحذف حرف العلَّة ) الوطن تجبه ( فعل جواب الشرط فعل مضارع مجزوم بالسكون، وحُذِفت النون لعدم تجاور حرفَين ساكنَين ) مسرعًا.",
+    "options": [
+      "متى يدعوكَ الوطن تجبه مسرعًا",
+      "متى يدعكَ الوطن تجيبه مسرعًا",
+      "متى يدعُكَ الوطن تجبه مسرعًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0442",
+    "question": "إن ....... عن المسيء إليكم يرضَ الله عنكم.",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "إعراب (تعفوا ) : فعل الشرط فعل مضارع مجزوم، وعلامة الجزم حذف النون؛ لأنَّه من الأفعال الخمسة، وواو الجماعة ضمير مبنيٌّ في محلِّ رفع فاعل.",
+    "options": [
+      "تعفو",
+      "تعفُ",
+      "تعفوا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1042",
+    "question": "حروفُ العلة في اللغة العربية هي:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "بها يُعرف الفعلُ المعتلُّ من الصحيح.",
+    "options": [
+      "الألف والواو والياء",
+      "الألف والهمزة والواو",
+      "الواو والنون والياء"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1043",
+    "question": "الفعلُ الصحيحُ هو ما خلت حروفُه الأصليةُ من:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "لا يدخل في أصوله ألفٌ ولا واوٌ ولا ياءٌ.",
+    "options": [
+      "الهمزة",
+      "حروف العلة",
+      "التضعيف"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1044",
+    "question": "الفعلُ المعتلُّ هو ما كان أحدُ حروفه الأصلية:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "يشتمل جذرُه على أحد الألف أو الواو أو الياء.",
+    "options": [
+      "مهموزًا",
+      "مضعَّفًا",
+      "حرفَ علةٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1045",
+    "question": "أقسامُ الفعل الصحيح ثلاثةٌ، هي:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "تُصنَّف بحسب خلوِّها من الهمزة والتضعيف أو اشتمالها عليهما.",
+    "options": [
+      "السالم والمهموز والمضعَّف",
+      "المثال والأجوف والناقص",
+      "الماضي والمضارع والأمر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1046",
+    "question": "الفعلُ الصحيحُ السالمُ هو ما خلت حروفُه الأصلية من:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "أنقى أنواع الصحيح؛ لا همزةَ فيه ولا شدةَ.",
+    "options": [
+      "حروف العلة",
+      "الهمزة والتضعيف",
+      "الزيادة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1047",
+    "question": "الفعلُ (سقطَ ) نوعه:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "حروفُه الأصلية صحيحةٌ خاليةٌ من الهمزة والتضعيف.",
+    "options": [
+      "صحيح مهموز",
+      "صحيح مضعَّف",
+      "صحيح سالم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1048",
+    "question": "الفعلُ (جأرَ ) نوعه:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "أحدُ أصوله همزةٌ في وسطه.",
+    "options": [
+      "صحيح مهموز",
+      "صحيح سالم",
+      "معتل ناقص"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1049",
+    "question": "الفعلُ (ضمَّ ) نوعه:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "أحدُ أصوله مُكرَّرٌ مُدغَمٌ.",
+    "options": [
+      "صحيح سالم",
+      "صحيح مضعَّف",
+      "صحيح مهموز"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1050",
+    "question": "من الأمثلة على الفعل الصحيح المهموز:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "ابحث عمَّا كان أحدُ أصوله همزةً.",
+    "options": [
+      "مدَّ",
+      "قامَ",
+      "أخذَ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1051",
+    "question": "الفعلُ (وجدَ ) نوعه:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "أولُ أصوله حرفُ علةٍ.",
+    "options": [
+      "معتل مثال",
+      "معتل أجوف",
+      "معتل ناقص"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1052",
+    "question": "الفعلُ (باعَ ) نوعه:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "حرفُ العلة في وسطه (أصله: بَيَعَ ).",
+    "options": [
+      "معتل مثال",
+      "معتل أجوف",
+      "معتل ناقص"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1053",
+    "question": "الفعلُ (قرأ ) نوعه:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "الهمزةُ ليست من حروف العلة، فهو صحيحٌ لا معتلٌّ.",
+    "options": [
+      "معتل ناقص",
+      "صحيح سالم",
+      "صحيح مهموز"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1054",
+    "question": "الفعلُ المعتلُّ الناقصُ هو ما كان حرفُ العلة في:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "سُمِّي ناقصًا لأن آخره يُحذف عند الجزم والوقف أحيانًا.",
+    "options": [
+      "آخره",
+      "وسطه",
+      "أوله"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1055",
+    "question": "الفعلُ (سعى ) نوعه:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "آخرُ أصوله حرفُ علةٍ (أصله: سَعَيَ ).",
+    "options": [
+      "معتل أجوف",
+      "معتل ناقص",
+      "معتل مثال"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1056",
+    "question": "الفعلُ (وفى ) الذي فيه حرفا علةٍ يفصل بينهما حرفٌ صحيحٌ نوعه معتلٌّ:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "افتراقُ حرفي العلة بحرفٍ صحيحٍ علامةُ هذا النوع.",
+    "options": [
+      "مقرون",
+      "أجوف",
+      "لفيف مفروق"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1057",
+    "question": "الفعلُ (طوى ) الذي فيه حرفا علةٍ متجاوران نوعه معتلٌّ:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "اقترانُ حرفي العلة دون فاصلٍ علامةُ هذا النوع.",
+    "options": [
+      "لفيف مقرون",
+      "لفيف مفروق",
+      "ناقص"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1058",
+    "question": "الفرقُ بين اللفيف المفروق واللفيف المقرون أن حرفي العلة في المفروق:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "المفروقُ افترق حرفا علته، والمقرونُ اقترنا.",
+    "options": [
+      "متجاوران",
+      "مفصولان بحرفٍ صحيحٍ",
+      "في أول الفعل"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1059",
+    "question": "الفعلُ (رسمَ ) نوعه:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "أصوله صحيحةٌ لا همزةَ فيها ولا تضعيفَ.",
+    "options": [
+      "صحيح مهموز",
+      "معتل أجوف",
+      "صحيح سالم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1060",
+    "question": "الفعلُ (زلزل ) نوعه:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "فعلٌ رباعيٌّ كُرِّرت أصولُه ولا علةَ فيه.",
+    "options": [
+      "صحيح مضعَّف رباعي",
+      "معتل لفيف",
+      "صحيح مهموز"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1061",
+    "question": "الفعلُ الذي كُرِّر أحدُ حروفه الأصلية وأُدغم يسمى:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alfeal_almoatal",
+    "hint": "التضعيفُ هو تكرارُ الحرف مع الإدغام.",
+    "options": [
+      "مهموزًا",
+      "مضعَّفًا",
+      "سالمًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1062",
+    "question": "أسلوبُ الشرط اقترانُ أمرٍ بأمرٍ بحيث:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "تحقُّقُ الثاني معلَّقٌ على تحقُّق الأول.",
+    "options": [
+      "لا يتحقق الثاني إلا بتحقق الأول",
+      "يتحققان معًا دائمًا",
+      "لا علاقة بينهما"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1063",
+    "question": "أركانُ أسلوب الشرط عددها:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "أداةٌ وجملتان.",
+    "options": [
+      "ركنان",
+      "ثلاثة أركان",
+      "أربعة أركان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1064",
+    "question": "أركانُ أسلوب الشرط هي:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "أداةٌ تربط بين جملتين متلازمتين.",
+    "options": [
+      "مبتدأٌ وخبرٌ وأداةٌ",
+      "فعلٌ وفاعلٌ ومفعولٌ",
+      "أداةٌ وجملةُ فعلِ شرطٍ وجملةُ جوابِ شرطٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1065",
+    "question": "أدواتُ الشرط الجازمةُ الحرفيةُ هما:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "حرفان لا يدلان على عاقلٍ ولا زمانٍ ولا مكانٍ.",
+    "options": [
+      "إنْ وإذما",
+      "لو ولولا",
+      "إذا وكلّما"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1066",
+    "question": "الحرفان (إنْ ) و(إذما ) في أسلوب الشرط:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الحروفُ لا يكون لها موقعٌ إعرابيٌّ.",
+    "options": [
+      "اسمان يُعربان حسب الموقع",
+      "حرفان لا محل لهما من الإعراب",
+      "ظرفا زمانٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1067",
+    "question": "من أدوات الشرط الجازمة الدالة على الزمان:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "يُسأل بها عن وقت وقوع الجواب.",
+    "options": [
+      "أين",
+      "كيفما",
+      "متى"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1068",
+    "question": "من أدوات الشرط الجازمة الدالة على المكان:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "يُسأل بها عن موضع وقوع الجواب.",
+    "options": [
+      "حيثما",
+      "متى",
+      "مَن"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1069",
+    "question": "أداةُ الشرط الجازمة (كيفما ) تدل على:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "تُبيِّن هيئةَ وقوع الفعل.",
+    "options": [
+      "الزمان",
+      "الحال",
+      "المكان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1070",
+    "question": "أداةُ الشرط (أيان ) تدل على:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "هي أختُ (متى ) في الدلالة.",
+    "options": [
+      "المكان",
+      "العاقل",
+      "الزمان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1071",
+    "question": "أدواتُ الشرط الاسميةُ (من، متى، أين ) في الأصل:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "لا تتغير حركةُ آخرها، ويكون لها محلٌّ من الإعراب.",
+    "options": [
+      "مبنيةٌ",
+      "معربةٌ",
+      "أفعالٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1072",
+    "question": "من أدوات الشرط غير الجازمة:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "لا تجزم فعلَ الشرط ولا جوابَه.",
+    "options": [
+      "مهما",
+      "لو",
+      "إنْ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1073",
+    "question": "الحرفُ (لو ) يُسمَّى حرفَ:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "امتنع جوابُه لامتناع شرطه.",
+    "options": [
+      "امتناعٍ لوجودٍ",
+      "شرطٍ جازمٍ",
+      "امتناعٍ لامتناعٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1074",
+    "question": "الحرفان (لولا ) و(لوما ) يُسمَّيان حرفي:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "امتنع جوابُهما لوجود شرطهما.",
+    "options": [
+      "امتناعٍ لوجودٍ",
+      "امتناعٍ لامتناعٍ",
+      "تفصيلٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1075",
+    "question": "أداةُ الشرط (أمّا ) تفيد:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "تقوم مقام أداة الشرط وفعله، وتُستعمل لتفصيل الكلام.",
+    "options": [
+      "الزمانَ الماضي",
+      "التفصيلَ",
+      "المكانَ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1076",
+    "question": "أمّا المجتهدُ فمكرَّمٌ . وجب اقترانُ جواب (أمّا ) بـ:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "جوابُ (أمّا ) يلزمه حرفٌ لا يجوز حذفُه.",
+    "options": [
+      "الواو",
+      "اللام",
+      "الفاء"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1077",
+    "question": "أداةُ الشرط (إذا ) ظرفٌ لـ:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "تدل على زمنٍ لم يقع بعد.",
+    "options": [
+      "الزمان المستقبل",
+      "الزمان الماضي",
+      "المكان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1078",
+    "question": "الأداتان (لمّا ) و(كلّما ) ظرفان لـ:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "تدلان على زمنٍ قد مضى.",
+    "options": [
+      "المكان",
+      "الزمان الماضي",
+      "الحال"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1079",
+    "question": "أيان تزرني أكرمك . (أيان ) اسمُ شرطٍ في محل:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "تعرب بحسب دلالتها على الزمان.",
+    "options": [
+      "رفع مبتدأ",
+      "جر بحرف",
+      "نصب ظرف زمان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1080",
+    "question": "كيفما تعملْ فسأعملُ . (كيفما ) اسمُ شرطٍ في محل:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "تعرب بحسب دلالتها على الهيئة.",
+    "options": [
+      "نصب حالٍ مقدمةٍ",
+      "رفع مبتدأ",
+      "جر مضاف إليه"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1081",
+    "question": "مهما يُلقِ الأستاذُ أحفظْه . (مهما ) اسمُ شرطٍ في محل:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "oslop_shart",
+    "hint": "الفعلُ بعدها متعدٍّ لم يستوفِ مفعولَه، فتقع موقعَه.",
+    "options": [
+      "رفع مبتدأ",
+      "نصب مفعولٍ به مقدَّمٍ",
+      "نصب ظرفٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1082",
+    "question": "الجملةُ الشرطيةُ جملةٌ مركبةٌ تشتمل على:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "لا يتم معنى أولاهما إلا بالثانية.",
+    "options": [
+      "جملتين متلازمتين مسبوقتين بأداة شرطٍ",
+      "جملةٍ واحدةٍ فعليةٍ",
+      "مبتدأٍ وخبرٍ فقط"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1083",
+    "question": "تسمى الجملةُ الأولى في الأسلوب الشرطي:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "هي التي تلي الأداةَ مباشرةً ويتوقف عليها الجوابُ.",
+    "options": [
+      "جملةَ الجواب",
+      "جملةَ الشرط",
+      "جملةَ الحال"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1084",
+    "question": "من زرع حصد . هذه الجملةُ الشرطيةُ نوعها:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "بُدئت جملةُ شرطها بفعلٍ.",
+    "options": [
+      "اسميةٌ",
+      "ظرفيةٌ",
+      "فعليةٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1085",
+    "question": "لو أنك عملتَ بنصيحتي لنجحتَ . الجملةُ الشرطيةُ هنا:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "اقترنت (لو ) بـ(أنَّ ) واسمِها.",
+    "options": [
+      "اسميةٌ",
+      "فعليةٌ",
+      "أمريةٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1086",
+    "question": "إن صدقتَ نجوتَ . جاء فعلُ الجواب ماضيًا لأن فعلَ الشرط:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "يتبع الجوابُ الشرطَ في الزمن غالبًا.",
+    "options": [
+      "مضارعٌ",
+      "ماضٍ",
+      "أمرٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1087",
+    "question": "من جدَّ وجد . اقترنت جملةُ الجواب بجملة الشرط:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "الجوابُ المبدوءُ بماضٍ صريحٍ لا يحتاج رابطًا.",
+    "options": [
+      "بالفاء",
+      "بالواو",
+      "مباشرةً بلا رابطٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1088",
+    "question": "تجب الفاءُ في جواب الشرط إذا كان الجوابُ جملةً:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "الجملةُ التي لا تصلح فعلًا للشرط تحتاج رابطَ الفاء.",
+    "options": [
+      "اسميةً",
+      "فعليةً ماضيةً",
+      "فعليةً مضارعةً"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1089",
+    "question": "إن فعلتَ خيرًا فلن تندمَ عليه . اقترن الجوابُ بالفاء لأنه بُدئ بـ:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "حرفُ نفيٍ ينصب المضارعَ ويخلِّصه للاستقبال.",
+    "options": [
+      "فعلٍ ماضٍ",
+      "(لن )",
+      "فعلٍ مضارعٍ مجردٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1090",
+    "question": "من لم يشكر النعمَ فقد تعرَّض لزوالها . سبب اقتران الجواب بالفاء أنه بُدئ بـ:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "حرفُ تحقيقٍ يدخل على الماضي.",
+    "options": [
+      "(ما ) النافية",
+      "السين",
+      "(قد )"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1091",
+    "question": "إن ترد فعلَ خيرٍ فعجِّل به . وجبت الفاءُ في الجواب لأنه:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "الجوابُ صيغةُ طلبٍ لا تصلح شرطًا.",
+    "options": [
+      "فعلُ أمرٍ",
+      "فعلٌ مضارعٌ",
+      "فعلٌ ماضٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1092",
+    "question": "إن خنتَ الأمانةَ فما أبشعَ فعلتَك . اقترن الجوابُ بالفاء لأنه جملةٌ:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "أُنشئ بها التعجبُ من قبح الفعل.",
+    "options": [
+      "اسميةٌ",
+      "تعجبيةٌ",
+      "فعليةٌ مضارعةٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1093",
+    "question": "من الأفعال الجامدة التي إذا وقعت جوابًا للشرط اقترن بالفاء:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "من أخوات (كان ) الدالةِ على الرجاء.",
+    "options": [
+      "كتب",
+      "ذهب",
+      "عسى"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1094",
+    "question": "الأصلُ في ترتيب الجملة الشرطية أن يتقدم:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "الجوابُ فرعٌ عن الشرط يتأخر عنه في الأصل.",
+    "options": [
+      "الشرطُ على الجواب",
+      "الجوابُ على الشرط",
+      "الأداةُ في آخر الكلام"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1095",
+    "question": "ستنجحُ إن اهتممتَ بدروسك . عند تقديم جواب الشرط المقترنِ بالفاء وجب:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "الأصلُ: إن اهتممتَ بدروسك فستنجح.",
+    "options": [
+      "زيادةُ الواو",
+      "حذفُ الفاء",
+      "تكرارُ الأداة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1096",
+    "question": "اصدُقْ تَنْجُ . حُذفت أداةُ الشرط وجوبًا لأن فعل الشرط جاء:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "صيغةُ الطلب أغنت عن الأداة والفعل المضارع المجزوم.",
+    "options": [
+      "ماضيًا",
+      "مضارعًا",
+      "أمرًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1097",
+    "question": "رتِّب أمورَك وإلا اختلطت عليك . جاز حذفُ فعل الشرط لأنه:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "التقدير: وإلا ترتِّبها اختلطت.",
+    "options": [
+      "دلَّ عليه ما قبله وسُبق بـ(إلا )",
+      "كان أمرًا",
+      "كان جامدًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1098",
+    "question": "إذا كانت جملةُ الشرط المبدوءةُ بـ(لو ) اسميةً اقترنت بـ:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "نحو: لو أنَّ المال مخلَّدٌ صاحبه لخلَّد قارونَ.",
+    "options": [
+      "الفاء",
+      "(أنَّ )",
+      "اللام"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1099",
+    "question": "جملةُ الشرط المبدوءةُ بـ(لولا ) قد تكون اسميةً مجردةً:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "نحو: لولا التعبُ لما كان للراحة لذةٌ، وتقديرُ الخبر: موجودٌ.",
+    "options": [
+      "مبتدؤها محذوفٌ",
+      "أداتُها محذوفةٌ",
+      "خبرُها محذوفٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1100",
+    "question": "قد ترد الجملةُ الشرطيةُ في الكلام:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "تقع موقعَ المفردِ في عدة مواضع.",
+    "options": [
+      "خبرًا أو نعتًا أو صلةً",
+      "فاعلًا فقط",
+      "حرفًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1101",
+    "question": "من يسعَ إلى خيرٍ يجده . جملتا الشرط والجواب في محل:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "algomlaa_alshartiaa",
+    "hint": "(من ) اسمُ شرطٍ مبتدأٌ، والجملتان خبرُه.",
+    "options": [
+      "نصب حالٍ",
+      "رفع خبرِ المبتدأ (من )",
+      "جر مضافٍ إليه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1102",
+    "question": "المفعولُ لأجله اسمٌ نكرةٌ منصوبٌ مصدرٌ يبيِّن:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "يُذكر بعد الفعل ليوضِّح الباعثَ عليه.",
+    "options": [
+      "سببَ الفعل وعلةَ حصوله",
+      "زمنَ الفعل",
+      "مكانَ الفعل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1103",
+    "question": "يسمى المفعولُ لأجله أيضًا:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "تسميةٌ ثانيةٌ تدل على أنه عُمِل لأجله.",
+    "options": [
+      "المفعولَ فيه",
+      "المفعولَ له",
+      "المفعولَ المطلق"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1104",
+    "question": "يصوم المسلمُ طاعةً لربه . المفعولُ لأجله هو:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "الاسمُ الذي بيَّن سببَ الصوم.",
+    "options": [
+      "المسلمُ",
+      "يصوم",
+      "طاعةً"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1105",
+    "question": "حكمُ المفعول لأجله المجرد من (أل ) والإضافة:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "لا يجوز جرُّه إلا إذا أُضيف أو اقترن بأل.",
+    "options": [
+      "النصب",
+      "الجر",
+      "الرفع"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1106",
+    "question": "استبسل الأبطالُ دفاعًا عن وطنهم . إعرابُ (دفاعًا ):",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "مصدرٌ نكرةٌ بيَّن سببَ الاستبسال.",
+    "options": [
+      "مفعول به",
+      "مفعول لأجله منصوب",
+      "حال"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1107",
+    "question": "من شروط المفعول لأجله أن يكون مصدرًا:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "المصدرُ القلبيُّ ما دلَّ على إحساسٍ باطنٍ كالخوف والرغبة.",
+    "options": [
+      "مشتقًّا",
+      "جامدًا",
+      "قلبيًّا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1108",
+    "question": "يُشترط في المفعول لأجله أن يتحد مع الفعل في:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "لا بد أن يقعا في وقتٍ واحدٍ ومن فاعلٍ واحدٍ.",
+    "options": [
+      "الزمن والفاعل",
+      "العدد فقط",
+      "الوزن الصرفي"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1109",
+    "question": "قم احترامًا لمعلمك . سبب القيام في الجملة هو:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "المصدرُ الذي جاء بعد فعل الأمر مبيِّنًا العلة.",
+    "options": [
+      "القيامُ",
+      "الاحترامُ",
+      "المعلمُ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1110",
+    "question": "المفعولُ لأجله المضافُ:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "الإضافةُ تُجيز فيه وجهين إعرابيين.",
+    "options": [
+      "يجب نصبُه",
+      "يجب جرُّه",
+      "يجوز نصبُه وجرُّه"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1111",
+    "question": "وَلَا تَقْتُلُوا أَوْلَادَكُمْ خَشْيَةَ إِمْلَاقٍ . (خشيةَ ) مفعولٌ لأجله نوعه:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "أُضيف إلى (إملاق ) بعده.",
+    "options": [
+      "مضافٌ",
+      "مجردٌ",
+      "مقترنٌ بأل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1112",
+    "question": "يجوز في المفعول لأجله المقترن بأل:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "الأكثرُ فيه الجرُّ بحرفٍ، ويجوز نصبُه.",
+    "options": [
+      "النصبُ فقط",
+      "النصبُ والجرُّ",
+      "الرفعُ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1113",
+    "question": "لا يصح أن يكون المفعولُ لأجله مصدرًا:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "شرطُه أن يكون قلبيًّا، فيخرج ما كان اسمَ ذاتٍ أو وصفًا.",
+    "options": [
+      "دالًّا على إحساسٍ",
+      "دالًّا على سببٍ",
+      "مشتقًّا أو جامدًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1114",
+    "question": "من أحكام المفعول لأجله أنه يجوز:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "نحو: رغبةً في العلم أتيتُ.",
+    "options": [
+      "تقديمُه على فعله",
+      "أن يكون معرفةً دائمًا",
+      "أن يكون فعلًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1115",
+    "question": "رغبةً في العلم أتيتُ . تقدَّم المفعولُ لأجله (رغبةً ) على:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "العاملُ فيه هو الفعلُ الذي دلَّ على العلة.",
+    "options": [
+      "فاعله",
+      "عامله (الفعل )",
+      "المبتدأ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1116",
+    "question": "تصدقتُ على الفقير أملًا في الثواب . المفعولُ لأجله:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "المصدرُ الذي بيَّن الباعثَ على الصدقة.",
+    "options": [
+      "الفقيرِ",
+      "الثواب",
+      "أملًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1117",
+    "question": "المفعولُ لأجله يجيب عن السؤال:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "يُسأل به عن الباعث والعلة.",
+    "options": [
+      "لماذا حدث الفعلُ؟",
+      "متى حدث الفعلُ؟",
+      "أين حدث الفعلُ؟"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1118",
+    "question": "ماتَ حرصًا على ماله . (حرصًا ) مفعولٌ لأجله لأنه مصدرٌ:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "دلَّ على إحساسٍ نفسيٍّ وبيَّن سببَ الموت.",
+    "options": [
+      "مشتقٌّ",
+      "قلبيٌّ يبيِّن السبب",
+      "جامدٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1119",
+    "question": "المفعولُ لأجله في الأصل يكون:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "الأصلُ فيه التنكيرُ، وقد يُعرَّف بالإضافة أو أل.",
+    "options": [
+      "معرفةً",
+      "جملةً",
+      "نكرةً"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1120",
+    "question": "زيدٌ مسرعٌ خوفًا من الكلب . إعرابُ (خوفًا ):",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "مصدرٌ قلبيٌّ بيَّن سببَ الإسراع.",
+    "options": [
+      "مفعول لأجله منصوب",
+      "خبر",
+      "فاعل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1121",
+    "question": "المفعولُ لأجله ثلاثةُ أنواعٍ باعتبار (أل ) والإضافة، هي:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_mn_agleh",
+    "hint": "مجردٌ يُنصب، والآخران يجوز فيهما الوجهان.",
+    "options": [
+      "الماضي والحاضر والمستقبل",
+      "المجرد والمضاف والمقترن بأل",
+      "المفرد والمثنى والجمع"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1122",
+    "question": "المفعولُ المطلق اسمٌ مصدرٌ منصوبٌ موافقٌ للفعل في:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "يُؤخذ من لفظ الفعل الذي قبله.",
+    "options": [
+      "لفظه",
+      "زمنه",
+      "عدد حروفه"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1123",
+    "question": "أغراضُ المفعول المطلق ثلاثةٌ: توكيدُ الفعل وبيانُ نوعه و:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "الغرضُ الثالثُ يُعرَف به مقدارُ تكرار الحدث.",
+    "options": [
+      "زمانه",
+      "عدده",
+      "مكانه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1124",
+    "question": "خطف الثعلبُ الدجاجةَ خطفًا . المفعولُ المطلق هو:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "المصدرُ المأخوذُ من لفظ الفعل.",
+    "options": [
+      "الثعلبُ",
+      "الدجاجةَ",
+      "خطفًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1125",
+    "question": "خطف الثعلبُ الدجاجةَ خطفًا . جاء المفعولُ المطلق (خطفًا ) لـ:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "جاء مجردًا من الوصف والعدد، فأفاد تقويةَ المعنى.",
+    "options": [
+      "توكيد الفعل",
+      "بيان النوع",
+      "بيان العدد"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1126",
+    "question": "يثب النمرُ وثوبَ الأسد . جاء المفعولُ المطلق (وثوبَ ) لـ:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "أُضيف إلى (الأسد ) فبيَّن هيئةَ الوثوب.",
+    "options": [
+      "توكيد الفعل",
+      "بيان النوع",
+      "بيان العدد"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1127",
+    "question": "تدور الأرضُ دورةً في اليوم . جاء المفعولُ المطلق (دورةً ) لـ:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "صيغةُ (فَعْلة ) تدل على المرة الواحدة.",
+    "options": [
+      "توكيد الفعل",
+      "بيان النوع",
+      "بيان العدد"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1128",
+    "question": "المفعولُ المطلق يُؤخذ من لفظ:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "هو مصدرُ الفعل الذي سبقه.",
+    "options": [
+      "الفعل الذي قبله",
+      "الفاعل",
+      "المفعول به"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1129",
+    "question": "المفعولُ المطلق في الإعراب:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "حكمُه ثابتٌ كسائر المفاعيل.",
+    "options": [
+      "مرفوعٌ",
+      "منصوبٌ",
+      "مجرورٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1130",
+    "question": "جرى خالدٌ جريًا سريعًا . المفعولُ المطلق (جريًا ) جاء لـ:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "وُصف بـ(سريعًا ) فبيَّن هيئةَ الجري.",
+    "options": [
+      "توكيد الفعل",
+      "بيان العدد",
+      "بيان النوع"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1131",
+    "question": "سرتُ هرولةً . ناب عن المفعول المطلق ما دلَّ على:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "التقديرُ: سرتُ سيرًا هرولةً، فذُكر ما يرادف المصدر.",
+    "options": [
+      "معناه",
+      "عدده",
+      "آلته"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1132",
+    "question": "ضربته سكينًا . ناب عن المفعول المطلق ما دلَّ على:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "التقديرُ: ضربته ضربًا بالسكين.",
+    "options": [
+      "صفته",
+      "آلته",
+      "عدده"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1133",
+    "question": "صفَّق الجمهورُ كثيرًا . ناب عن المفعول المطلق ما دلَّ على:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "التقديرُ: صفَّق الجمهورُ تصفيقًا كثيرًا.",
+    "options": [
+      "عدده",
+      "آلته",
+      "صفته"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1134",
+    "question": "ركض ذلك الركضَ . ناب عن المفعول المطلق ما دلَّ على:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "أُشير إلى المصدر باسم إشارةٍ.",
+    "options": [
+      "الإشارة إليه",
+      "معناه",
+      "عدده"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1135",
+    "question": "فزنا بالمباراة مرتين . ناب عن المفعول المطلق ما دلَّ على:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "التقديرُ: فزنا فوزتين.",
+    "options": [
+      "صفته",
+      "عدده",
+      "آلته"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1136",
+    "question": "صمد شعبُنا كلَّ الصمود . ناب عن المفعول المطلق:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "لفظُ (كل ) و(بعض ) ينوبان إذا أُضيفا إلى المصدر.",
+    "options": [
+      "مصدرٌ صريحٌ",
+      "اسمُ إشارةٍ",
+      "لفظُ (كل ) مضافًا إلى مصدره"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1137",
+    "question": "أكل عليٌّ أكلتين . المفعولُ المطلق (أكلتين ) يبيِّن:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "صيغةُ التثنية دلَّت على مقدار تكرار الحدث.",
+    "options": [
+      "العدد",
+      "النوع",
+      "التوكيد"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1138",
+    "question": "المفعولُ المطلق الدالُّ على مجرد التوكيد لا يبيِّن:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "المؤكِّدُ يأتي مجردًا من الوصف والإضافة.",
+    "options": [
+      "حصولَ الفعل",
+      "نوعَه أو عددَه",
+      "لفظَ الفعل"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1139",
+    "question": "المفعولُ المطلق يجيء في الجملة:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "يتأخر عن العامل الذي اشتُقَّ منه.",
+    "options": [
+      "قبل الفعل دائمًا",
+      "بدل الفاعل",
+      "بعد الفعل"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1140",
+    "question": "ينوب عن المفعول المطلق لفظُ (بعض ) إذا أُضيف إلى:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "نحو: تعلَّم بعضَ التعلُّم.",
+    "options": [
+      "مصدر الفعل",
+      "الفاعل",
+      "المفعول به"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1141",
+    "question": "المفعولُ المطلق الذي يُذكر لمجرد تأكيد وقوع الفعل يسمى المفعول المطلق:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "mafool_motlak",
+    "hint": "يقابله المبيِّن للنوع والمبيِّن للعدد.",
+    "options": [
+      "المبيِّن للعدد",
+      "المؤكِّد للفعل",
+      "المبيِّن للنوع"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1142",
+    "question": "همزةُ الوصل همزةٌ تُنطق في ابتداء الكلام و:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "سُمِّيت وصلًا لأنها تسقط عند وصلها بما قبلها.",
+    "options": [
+      "لا تُنطق عند وصلها بما قبلها",
+      "تُنطق دائمًا",
+      "تُحذف في الابتداء"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1143",
+    "question": "همزةُ القطع همزةٌ متحركةٌ يُنطق بها:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "لا تسقط في الوصل كما تسقط همزةُ الوصل.",
+    "options": [
+      "في الابتداء فقط",
+      "في الابتداء وفي وسط الكلام",
+      "عند الوصل فقط"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1144",
+    "question": "همزةُ الوصل في الحروف تكون في:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "هي الحرفُ الوحيدُ من الحروف الذي همزتُه وصلٌ.",
+    "options": [
+      "حرف (إلى )",
+      "حرف (أنَّ )",
+      "(ال ) التعريف"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1145",
+    "question": "أمرُ الفعل الثلاثي مثل (اجلس ) يبدأ بهمزة:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "ضع قبله فاءً: (فاجلس ) تجد الهمزةَ لا تُنطق.",
+    "options": [
+      "وصلٍ",
+      "قطعٍ",
+      "ممدودةٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1146",
+    "question": "ماضي الفعل الخماسي (انطلق ) يبدأ بهمزة:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "ماضي الخماسي والسداسي وأمرهما ومصدرهما همزتُها من نوعٍ واحدٍ.",
+    "options": [
+      "قطعٍ",
+      "وصلٍ",
+      "متطرفةٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1147",
+    "question": "الفعلُ (أكل ) ماضٍ ثلاثيٌّ يبدأ بهمزة:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "ضع قبله واوًا: (وأكل ) تجد الهمزةَ تُنطق.",
+    "options": [
+      "وصلٍ",
+      "ممدودةٍ",
+      "قطعٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1148",
+    "question": "الفعلُ (استقبل ) ماضٍ سداسيٌّ يبدأ بهمزة:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "ضع قبله فاءً: (فاستقبل ) تجد الهمزةَ لا تُنطق.",
+    "options": [
+      "وصلٍ",
+      "قطعٍ",
+      "لا همزة فيه"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1149",
+    "question": "الفعلُ (أكرم ) ماضٍ رباعيٌّ يبدأ بهمزة:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "ماضي الرباعي وأمره ومصدره همزتُها ثابتةُ النطق.",
+    "options": [
+      "وصلٍ",
+      "قطعٍ",
+      "مكسورةٍ وصلٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1150",
+    "question": "مضارعُ المتكلم (أكتبُ ) يبدأ بهمزة:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "همزةُ المضارعة تُنطق ابتداءً ووصلًا.",
+    "options": [
+      "وصلٍ",
+      "ساكنةٍ",
+      "قطعٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1151",
+    "question": "أيُّ الأسماء الآتية همزتُها همزةُ وصلٍ؟",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "أسماءٌ سماعيةٌ محفوظةٌ منها: ابن، اسم، اثنان.",
+    "options": [
+      "ابن",
+      "إبراهيم",
+      "أحمد"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1152",
+    "question": "همزةُ القطع المفتوحةُ أو المضمومةُ تُكتب هكذا:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "تُرسم الهمزةُ على ألفٍ فوقها.",
+    "options": [
+      "ا",
+      "أ",
+      "ء منفردة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1153",
+    "question": "همزةُ القطع المكسورةُ تُكتب هكذا:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "تُرسم الهمزةُ تحت الألف عند الكسر.",
+    "options": [
+      "أ",
+      "ا",
+      "إ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1154",
+    "question": "للتفريق بين الهمزتين نضع قبل الكلمة واوًا أو فاءً، فإن نُطقت الهمزةُ فهي همزةُ:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "نطقُ الهمزة بعد الواو أو الفاء دليلُ ثباتها.",
+    "options": [
+      "قطعٍ",
+      "وصلٍ",
+      "مدٍّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1155",
+    "question": "تُحذف همزةُ الوصل إذا سبقتها:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "نحو: للرجل، للفتى.",
+    "options": [
+      "واوُ العطف",
+      "لامُ الجر",
+      "الفاءُ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1156",
+    "question": "محمدُ بنُ عبد الله . حُذفت همزةُ (ابن ) لأنها وقعت:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "بشرط ألا تقع (ابن ) في أول السطر.",
+    "options": [
+      "أولَ السطر",
+      "بعد حرف نداءٍ",
+      "بين علمين الثاني والدٌ للأول"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1157",
+    "question": "يا بنَ عبد الله . حُذفت همزةُ (ابن ) لأنها سُبقت بـ:",
+    "difficulty": "hard",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "الأداةُ التي نُودي بها قبل (ابن ).",
+    "options": [
+      "حرف نداءٍ",
+      "لام الجر",
+      "همزة استفهامٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1158",
+    "question": "(امرؤ ) و(امرأة ) إذا دخلت عليهما (أل ) صارتا:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "تُحذف همزةُ الوصل فيهما بعد دخول (أل ).",
+    "options": [
+      "الامرء والامرأة",
+      "المرء والمرأة",
+      "الإمرء والإمرأة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1159",
+    "question": "علامةُ همزة الوصل أنها في الكتابة:",
+    "difficulty": "easy",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "لا يُرسم عليها ولا تحتها همزةٌ.",
+    "options": [
+      "تُرسم عليها همزةٌ",
+      "تُكتب (أ )",
+      "تُكتب ألفًا مجردةً بلا همزةٍ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1160",
+    "question": "الحروفُ كلُّها همزتُها همزةُ قطعٍ ما عدا:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "الحرفُ المستثنى هو أداةُ التعريف.",
+    "options": [
+      "(ال ) التعريف",
+      "حرف (أو )",
+      "حرف (إنَّ )"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1161",
+    "question": "مصدرُ الفعل السداسي (استقبال ) همزتُه همزةُ:",
+    "difficulty": "medium",
+    "stage": "midOne",
+    "mClass": "الأول",
+    "lessonId": "alef_wasl_hamzt_kataa",
+    "hint": "مصدرُ الخماسي والسداسي كماضيهما في نوع الهمزة.",
+    "options": [
+      "قطعٍ",
+      "وصلٍ",
+      "مكسورةٍ قطعٍ"
+    ],
+    "correctIndex": 1
+  }
+]

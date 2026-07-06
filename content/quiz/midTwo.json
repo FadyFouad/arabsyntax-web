@@ -1,0 +1,2237 @@
+[
+  {
+    "questionID": "0443",
+    "question": "هي تذاكر الدروس باهتمام. الاسم المبنيُّ في الجملة هو:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الضمائر كلها مبنيَّة.",
+    "options": [
+      "تذاكر",
+      "الدروس",
+      "هي"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0444",
+    "question": "....... طالب مجتهد. أكمل باسم مبنيٍّ.",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "كلُّ أسماء الإشارة مبنيَّة، ما عدا المثنَّى منها.",
+    "options": [
+      "هذه",
+      "هذان",
+      "هذا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0445",
+    "question": "كلُّ أسماء الإشارة مبنيَّة، ما عدا:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "كلُّ أسماء الإشارة مبنيَّة، ما عدا المثنَّى منها.",
+    "options": [
+      "هذا",
+      "المثنَّى منها",
+      "هذه"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0446",
+    "question": "الضمائر .......",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الضمائر كلُّها مبنيَّة.",
+    "options": [
+      "كلُّها معربة",
+      "كلُّها مبنية",
+      "بعضها مبنيٌّ، وبعضها معرب"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0447",
+    "question": "قرأتُ هذا الكتاب. اسم الإشارة (هذا ) مبنيٌّ في محلِّ:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "إعراب (هذا ) في الجملة: اسم إشارة مبنيٌّ في محلِّ نصب مفعول به.",
+    "options": [
+      "رفع",
+      "جرٍّ",
+      "نصب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0448",
+    "question": "أكرمتُ الذي اجتهد. الاسم الموصول (الذي ) :",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "إعراب كلمة (الذي ) : اسم موصول مبنيٌّ في محلِّ نصب مفعول به.",
+    "options": [
+      "مبنيٌّ في محلِّ رفع",
+      "منصوب",
+      "مبنيٌّ في محلِّ نصب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0449",
+    "question": "(إذا ) : اسم مبنيٌّ، نوعه: .......",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "(إذا ) : أداة شرط.",
+    "options": [
+      "أداة شرط",
+      "أداة استفهام",
+      "ظرف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0450",
+    "question": "هذان كتابان مفيدان. في الجملة من الأسماء المبنيَّة:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "المثنَّى من أسماء الإشارة معرب وليس مبنيًّا.",
+    "options": [
+      "لا يوجد",
+      "اسم مبنيٌّ واحد",
+      "اسمان مبنيَّان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0451",
+    "question": "يعيش الناس ....... يوجد الماء. أكمل بظرفٍ مبنيٍّ:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الصواب: يعيش الناس حيث يوجد الماء.",
+    "options": [
+      "حيث",
+      "الآن",
+      "أمس"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0452",
+    "question": "فيما يلي اسم واحد معرب:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "(قبل ) : ظرف معرب.",
+    "options": [
+      "منذ",
+      "تلك",
+      "قبل"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0453",
+    "question": "كلُّ الأسماء الموصولة مبنيَّة ما عدا:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "كلُّ الأسماء الموصولة مبنيَّة ما عدا (اللذان ) و (اللتان ) .",
+    "options": [
+      "هذان، وهاتان",
+      "الذين",
+      "اللذان، واللتان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0454",
+    "question": "المثنَّى من الضمائر:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "كلُّ الضمائر مبنيَّة.",
+    "options": [
+      "مبنيٌّ",
+      "معرب",
+      "يُعرَب إعراب المثنَّى"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0455",
+    "question": "كلُّ ما يلي من الأسماء المبنيَّة:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الكلمات: (أي ) ، و (هاتان ) و (أمام ) أسماء معربة.",
+    "options": [
+      "الذي – هي – حيث – متى",
+      "الذي – هما – أي – متى",
+      "الذي – هما – حيث – هاتان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0456",
+    "question": "إذا اجتهدتَ نجحتَ. (إذا ) في الجملة اسم مبنيٌّ نوعه:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "(إذا ) : اسم مبنيٌّ، ونعه: أداة شرط.",
+    "options": [
+      "أداة استفهام",
+      "ظرف",
+      "أداة شرط"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0457",
+    "question": "كلُّ الأسماء الموصولة التالية مبنيَّة، ما عدا:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "كلُّ الأسماء الموصولة مبنيَّة، ما عدا المثنَّى منها.",
+    "options": [
+      "الذي",
+      "اللتين",
+      "الذين"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0458",
+    "question": "اسم واحد مما يلي مبنيٌّ:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "بعض الظروف مبنيَّة، ومنها: الآن، وأمس، وحيث، ومنذ.",
+    "options": [
+      "منذ",
+      "هذان",
+      "اللتان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0459",
+    "question": "كلُّ أدوات الاستفهام مبنيَّة، ما عدا:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "كلُّ أدوات الاستفهام مبنيَّة، ما عدا (أي ) .",
+    "options": [
+      "أي",
+      "متى",
+      "كيف"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0460",
+    "question": "إنَّ هؤلاء العمَّال ماهرون. اسم الإشارة (هؤلاء ) مبنيٌّ في محلِّ:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "(إنَّ ) وأخواتها تنصب الاسم، وترفع الخبر.",
+    "options": [
+      "رفع",
+      "جرٍّ",
+      "نصب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0461",
+    "question": "....... قصَّتان ممتعتان. أكمل هذه الجملة باسمٍ معربٍ:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "اسم الإشارة (هاتان ) يُستخدَم للمثنَّى المؤنَّث.",
+    "options": [
+      "هذان",
+      "هؤلاء",
+      "هاتان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0462",
+    "question": "محمد طالب مجتهد. في هذه الجملة من الأسماء المبنية:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "كلُّ الأسماء في الجملة معربة.",
+    "options": [
+      "لا يوجد",
+      "اسم واحد",
+      "اثنان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0463",
+    "question": "الضمائر:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الضمائر كلُّها مبنيَّة.",
+    "options": [
+      "مبنيَّة، ما عدا المثنَّى منها",
+      "كلُّها مبنية",
+      "معربة، ما عدا المثنَّى منها"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0464",
+    "question": "(الآن ) : .......",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "من الظروف المبنية: (الآن ) ، و (أمس ) ، و (حيث) ، و (منذ ) .",
+    "options": [
+      "ظرف مبنيٌّ",
+      "ظرف معرب",
+      "اسم موصول مبنيٌّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0465",
+    "question": "....... الطالبتان مجتهدتان.",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "إعراب (هاتان ) : مبتدأ مرفوع، وعلامة الرفع الألف؛ لأن (هاتان ) تُعرَب إعراب المثنَّى.",
+    "options": [
+      "هاتين",
+      "هذان",
+      "هاتان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0467",
+    "question": "أين يقع استاد القاهرة؟ الاسم المبنيُّ في الجملة هو:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "(أين ) من أدوات الاستفهام المبنيَّة.",
+    "options": [
+      "أين",
+      "استاد",
+      "القاهرة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0468",
+    "question": "كلُّ ما يلي أسماء مبنيَّة، ما عدا .......",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "كلُّ الأسماء الموصولة مبنيَّة، ما عدا المثنَّى منها.",
+    "options": [
+      "التي",
+      "اللذان",
+      "هما"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0469",
+    "question": "إنَّ هذا كتاب. بتثنية اسم الإشارة في الجملة تصبح:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الصواب هو: إنَّ هذين كتابان، واسم الإشارة (هذان ) يُعرَب إعراب المثنَّى.",
+    "options": [
+      "إنَّ هذين كتابَين",
+      "إنَّ هذان كتابَين",
+      "إنَّ هذين كتابان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0470",
+    "question": "ظرف واحد مما يلي معرب:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "بعض الظروف مبنيَّة، ومنها: الآن، وأمس، وحيث، ومنذ.",
+    "options": [
+      "قبل",
+      "الآن",
+      "أمس"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0471",
+    "question": "(إذا) مبنيَّة؛ لأنها:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "من الأسماء المبنيَّة: أدوات الشرط.",
+    "options": [
+      "أداة شرط",
+      "أداة استفهام",
+      "اسم إشارة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0472",
+    "question": "أدِّ واجبكَ حيث كنتَ. في هذه الجملة من الأسماء المبنيَّة الظاهرة:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الأسماء المبنيَّة الظاهرة في الجملة هي: كاف الخطاب، والظرف (حيث ) ، وتاء الفاعل.",
+    "options": [
+      "ثلاثة أسماء",
+      "اسم واحد",
+      "اثنان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0473",
+    "question": "هذان طالبان مجتهدان. بدخول (إنَّ ) على هذه الجملة تصبح:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "المثنَّى من أسماء الإشارة معرب، وهو يُعرَب إعراب المثنَّى.",
+    "options": [
+      "إنَّ هذان طالبان مجتهدان",
+      "إنَّ هذان طالبَين مجتهدَين",
+      "إنَّ هذين طالبان مجتهدان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0474",
+    "question": "كتبتُ موضوعًا متميِّزًا. في الجملة من الأسماء المبنيَّة:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "في الجملة من الأسماء المبنية اسم واحد، وهو تاء الفاعل.",
+    "options": [
+      "اسمان",
+      "ثلاثة أسماء",
+      "اسم واحد"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0475",
+    "question": "(أنتَ ) تذاكر دروسـ (ك ) .",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الضمائر كلُّها مبنيَّة.",
+    "options": [
+      "الضمير الأول معرب، والثاني مبنيٌّ",
+      "الضميران مبنيَّان",
+      "الضمير الأول مبنيٌّ، والثاني معرب"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0476",
+    "question": "ما تقدِّمه من عمل ينفعكَ. (ما ) في الجملة نوعها: .......",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "أدوات الشرط مبنيَّة.",
+    "options": [
+      "أداة نفي",
+      "اسم موصول",
+      "أداة شرط"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0477",
+    "question": "(هاتان ) (مدرستان ) .",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "كلُّ أسماء الإشارة مبنيَّة، ما عدا المثنَّى منها.",
+    "options": [
+      "الاسم الأول معرب، والثاني مبنيٌّ",
+      "الاسم الأول مبنيٌّ، والثاني معرب",
+      "الاسمان معربان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0478",
+    "question": "البنات ينهضن إلى العمل. في الجملة من الأسماء المعربة:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "في الجملة من الأسماء المعربة اسمان: (البنات ) ، و (العمل ) .",
+    "options": [
+      "اسم واحد",
+      "ثلاثة أسماء",
+      "اسمان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0479",
+    "question": "ألقى الخطيب (الخطبة ) (أمس ) .",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "كلمة (الخطبة ) : اسم معرب، وكلمة (أمس ) : اسم مبنيٌّ.",
+    "options": [
+      "الاسم الأول مبنيٌّ، والثاني معرب",
+      "الاسمان مبنياَّن",
+      "الاسم الأول معرب، والثاني مبنيٌّ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0480",
+    "question": "كلُّ ما يلي أسماء مبنيَّة، ما عدا:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "كلمة (كلتا ) اسم معرب.",
+    "options": [
+      "كم",
+      "هذه",
+      "كلتا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0481",
+    "question": "أمرُّ على الديار ديار ليلى .. أقَبِّل ذا الجدار وذا الجدار. كلمة (ذا ) :",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "(ذا ) في البيت هي اسم إشارة مبنيٌّ في محلِّ نصب مفعول به.",
+    "options": [
+      "وقعت مفعولا به منصوبًا بالألف؛ لأنَّها اسم من الأسماء الخمسة",
+      "وقعت مفعولا به منصوبًا بالفتحة المقدَّرة",
+      "اسم إشارة مبنيٌّ في محلِّ نصب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0482",
+    "question": "لو عدل الناس ما كان بينهم جائع. في الجملة من الأسماء المبنيَّة:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "في الجملة اسمان مبنيَّان: (لو ) ، وهي أداة شرط، وهاء الغيبة في كلمة (بينهم ) .",
+    "options": [
+      "اسم واحد",
+      "ثلاثة أسماء",
+      "اسمان"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0483",
+    "question": "مَن اهتدى فإنَّما يهتدي لنفسه . (مَن ) في الآية نوعها:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "(مَن ) في الآية شرطيَّة.",
+    "options": [
+      "موصولة",
+      "نافية",
+      "شرطيَّة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0484",
+    "question": "فيما يلي جملة واحدة بها اسم مبنيٌّ:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "تاء الفاعل ضمير، وتاء التأنيث ليست ضميرًا.",
+    "options": [
+      "تَبَارَكَ اسم الله",
+      "تَباركتَ يا ربِّ",
+      "تَبَارَكَت أسماء الله"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0485",
+    "question": "ينقسم المميَّز إلى ..... ، وملحوظ.",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "ينقسم المميَّز إلى: ملفوظ، وملحوظ.",
+    "options": [
+      "معنوي",
+      "جملة",
+      "ملفوظ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0486",
+    "question": "زرعنا فدَّانًا برتقالا. نوع التمييز في الجملة:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "كلمة (فدَّان ) من ألفاظ المساحة.",
+    "options": [
+      "تمييز وزن",
+      "تمييز كيل",
+      "تمييز مساحة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0487",
+    "question": "ما بعد الأعداد من 3 : 10 يكون:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "ما بعد الأعداد من 3 : 10 يكون جمعًا مجرورًا بالإضافة.",
+    "options": [
+      "مرفوعًا",
+      "منصوبًا",
+      "مجرورًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0488",
+    "question": "طابت مصر هواء. علامة إعراب كلمة (هواء ) هي:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "إعراب كلمة (هواءً ) : تمييز منصوب.",
+    "options": [
+      "الضمة",
+      "الفتحة",
+      "الكسرة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0489",
+    "question": "تمييز الأعداد من 11: 99 يكون .......",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "تمييز الأعداد من 11: 99 يكون مفردًا منصوبًا.",
+    "options": [
+      "مفردًا منصوبًا",
+      "مفردًا مجرورًا",
+      "جمعًا مجرورًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0490",
+    "question": "التمييز الملفوظ هو اسم نكرة منصوب يأتي بعد لفظ من ألفاظ الكيل، أو الوزن، أو العدد، أو .......",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "التمييز الملفوظ هو اسم نكرة منصوب يأتي بعد لفظ من ألفاظ الكيل، أو الوزن، أو العدد، أو المساحة.",
+    "options": [
+      "المساحة",
+      "الإعراب",
+      "حروف الجر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0491",
+    "question": "أتانا خالد مشيًا. إعراب كلمة (مشيًا ) :",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "لو كانت كلمة (مشيًا ) حالا لقلنا: أتانا خالد ماشيًا.",
+    "options": [
+      "تمييز",
+      "حال",
+      "نعت"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0492",
+    "question": "جاء الرجل يفيض وجهه بشرًا. إعراب كلمة (بشرًا ) :",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "كلمة (بشرًا ) أزالت الإبهام عن معنى الفعل المضارع (يفيض ) ؛ ولذلك تُعرَب تمييزًا. ، والفعل (يفيض ) فعل لازم.",
+    "options": [
+      "مفعول به أوَّل",
+      "مفعول به ثانٍ",
+      "تمييز"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0493",
+    "question": "البرتقال من ألذِّ أنواع الفاكهة .......",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "التمييز من المنصوبات .",
+    "options": [
+      "طعمًا",
+      "طعمٌ",
+      "طعمٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0494",
+    "question": "الزرافة ....... الحيوانات عنقًا. الأدقُّ ممَّا يلي هو:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "الصواب: الزرافة أطول الحيوانات عنقًا.",
+    "options": [
+      "أطول",
+      "أقصر",
+      "أصغر"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0495",
+    "question": "في المدرسة مائة .......",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "تمييز العدد (100 ) ومضاعفاته يكون مفردًا مجرورًا.",
+    "options": [
+      "طالبةً (بفتح التاء المربوطة )",
+      "طالبةٍ (بكسر التاء المربوطة )",
+      "طالبةٌ (بضمِّ التاء المربوطة )"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0496",
+    "question": "هواء الريف أنقى من هواء المدن. إذا أردنا أن نجعل المبتدأ تمييزًا فإنَّ الصواب ممَّا يلي هو:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "الصواب: الريف أنقى من المدن هواءً، ولا يجوز وضع ألف للتنوين؛ حتى لا تقع الهمزة بين ألفَين.",
+    "options": [
+      "الريف أنقى من المدن هواءً",
+      "الريف أنقى من المدن هواءًا",
+      "الريف أنقى من المدن هواءٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0497",
+    "question": "إنَّ الأنبياء أصدق الناس حديثًا. إعراب كلمة (حديثًا ) :",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "التمييز من المنصوبات.",
+    "options": [
+      "حال",
+      "اسم (إنَّ )",
+      "تمييز"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0498",
+    "question": "إذا أردنا أن نقارن بين الذهب والفضَّة فإنَّ الأدقَّ ممَّا يلي هو:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "الصواب: الذهب أغلى ثمنًا من الفضَّة.",
+    "options": [
+      "الذهب أغلى ثمنًا من الفضَّة",
+      "الفضَّة أغلى ثمنًا من الذهب",
+      "الذهب أرخص ثمنًا من الفضَّة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0499",
+    "question": "واحد ممَّا يلي ليس من المنصوبات:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "(إنَّ ) وأخواتها ترفع الاسم، وتنصب الخبر.",
+    "options": [
+      "خبر (إنَّ )",
+      "خبر (كان )",
+      "الحال"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0500",
+    "question": "في الفصل أربعون .......",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "تمييز العدد من 11 : 99 يكون مفردًا منصوبًا.",
+    "options": [
+      "طالبًا",
+      "طالبٍ (بكسر الباء ) .",
+      "طلابٍ (بكسر الباء ) ."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0501",
+    "question": "المجتهد أكثر من المقصر .......",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "إعراب كلمة (مذاكرةً ) : تمييز منصوب.",
+    "options": [
+      "مذاكرةٌ (بضمِّ التاء المربوطة ) .",
+      "مذاكرةً (بفتح التاء المربوطة ) .",
+      "مذاكرةٍ (بكسر التاء المربوطة ) ."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0502",
+    "question": "أنفقتُ مائة .......",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "تمييز العدد (100 ) ومضاعفاته يكون مفردًا مجرورًا.",
+    "options": [
+      "جنيهًا",
+      "جنيهٌ (بضمِّ الهاء ) .",
+      "جنيهٍ (بكسر الهاء ) ."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0503",
+    "question": "امتلأ الكوب ماءً. المميَّز في الجملة نوعه:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "إعراب كلمة (ماءً ) : تمييز منصوب.",
+    "options": [
+      "ملحوظ",
+      "تمييز وزن",
+      "تمييز كيل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0504",
+    "question": "امتلأ الكوب عصيرًا. إعراب كلمة (عصيرًا ) :",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "إعراب كلمة (عصيرًا ) : تمييز منصوب، وعلامة النصب الفتحة.",
+    "options": [
+      "تمييز",
+      "مفعول به",
+      "مفعول لأجله"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0505",
+    "question": "قطعتُ كيلو متر ماشيًا. إعراب كلمة (ماشيًا ) :",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "إعراب كلمة (ماشيًا ) : حال منصوبة، وعلامة النصب الفتحة.",
+    "options": [
+      "حال",
+      "تمييز",
+      "مفعول به أول"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0506",
+    "question": "يجوز في تمييز الكيل والوزن والمساحة أن يُعرَب تمييزًا منصوبًا، أو ....... ، أو اسمًا مجرورًا بعد (من ) .",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "يجوز في تمييز الكيل والوزن والمساحة أن يُعرَب تمييزًا منصوبًا، أو مضافًا إليه مجرورًا، أو اسمًا مجرورًا بعد (من ) .",
+    "options": [
+      "مضافًا إليه مجرورًا",
+      "مفعولا به منصوبًا",
+      "مفعولا مطلقًا منصوبًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0507",
+    "question": "زرعنا .......",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "يجوز في تمييز الكيل والوزن والمساحة أن يُعرَب تمييزًا منصوبًا، أو مضافًا إليه مجرورًا، أو اسمًا مجرورًا بعد (مَن ) .",
+    "options": [
+      "فدانَ قمحٍ",
+      "فدانًا قمحًا",
+      "كلُّ الإجابات صحيحة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0508",
+    "question": "ازدادت شوارع القرية (ازدحامًا ) (صيفًا ) .",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "إعراب الكلمة الأولى: تمييز منصوب، وإعراب الكلمة الثانية: ظرف زمان منصوب.",
+    "options": [
+      "إعراب الكلمة الأولى: مفعول به، والثانية: ظرف",
+      "إعراب الكلمة الأولى: تمييز، والثانية: ظرف",
+      "إعراب الكلمة الأولى: حال، والثانية: ظرف"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0509",
+    "question": "ازددتُ حبًّا لوطني. إعراب كلمة (حبًّا ) :",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "إعراب كلمة (حبًّا ) : تمييز منصوب؛ لأنها أزالت الإبهام عن الفعل (ازددتُ ) .",
+    "options": [
+      "تمييز",
+      "مفعول به أول",
+      "مفعول به ثان"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0510",
+    "question": "الطموح يملأ قلوبنا رغبة. إعراب كلمة (رغبة ) :",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "إعراب كلمة (رغبة ) : تمييز منصوب، وعلامة النصب الفتحة.",
+    "options": [
+      "تمييز",
+      "مفعول به ثانٍ",
+      "مفعول لأجله"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0511",
+    "question": "بعنا ....... حرير. أكمل بلفظٍ من ألفاظ المساحة:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "بما أنَّ التمييز في الجملة غير منوَّن (كلمة: حرير ) فإنَّ الصواب استخدام اللفظ بدون تنوينٍ أيضًا: متر، وكلمة (طنّ ) من ألفاظ الوزن.",
+    "options": [
+      "مترًا",
+      "طنَّ",
+      "متر"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0512",
+    "question": "باع الرجل خمسة عشر .......",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "الصواب: باع الرجل خمسة عشر قنطارًا قطنًا.",
+    "options": [
+      "قنطارًا قطنًا",
+      "قنطار قطنًا",
+      "قنطارًا قطن"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0513",
+    "question": "عمر أخيكَ إحدى وعشرون ....",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "تمييز الأعداد من 11 : 99 يكون مفردً منصوبًا، ولأنَّ العدد (1 ) يوافق المعدود، وبما أنه ورد في الجملة مؤنَّثًا (إحدى ) فإنَّ الصواب ممَّا ذُكِر هو: (سنةً ) بفتح التاء المربوطة.",
+    "options": [
+      "سنةً (بفتح التاء المربوطة )",
+      "سنةٍ (بكسر التاء المربوطة )",
+      "عامًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0514",
+    "question": "اشتريتُ ....... كتاب.",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "تمييز المائة ومضاعفاتها يكون مفردًا مجرورًا، وتُحذَف النون من كلمة (مائتين ) للإضافة.",
+    "options": [
+      "مائتي",
+      "خمسة عشر",
+      "سبع عشرة"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0515",
+    "question": "ازداد الجوُّ حرارة. إعراب كلمة (حرارة ) :",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "التمييز في الجملة محوَّل عن الفاعل، وأصل الجملة: ازدادت حرارة الجو.",
+    "options": [
+      "تمييز",
+      "مفعول به أول",
+      "مفعول به ثانٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0516",
+    "question": "اشتريتُ أردبًّا .......",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "كلمة (أردب ) من ألفاظ الكيل.",
+    "options": [
+      "قمحٌ (بضمِّ الحاء ) .",
+      "قمحٍ (بكسر الحاء ) .",
+      "قمحًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0517",
+    "question": "كلُّ ما يلي من ألفاظ الكيل، ما عدا:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "كلمة (طن ) من ألفاظ الوزن.",
+    "options": [
+      "كيلة",
+      "أردب",
+      "طن"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "0518",
+    "question": "زرعتُ .......",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "تمييز الكيل والوزن والمساحة يجوز أن يُعرَب تمييزًا، أو مضافًا إليه، أو اسمًا مجرورًا بعد (مِن ) .",
+    "options": [
+      "كلُّ الإجابات صحيحة",
+      "فداني أرز",
+      "فدانين من الأرز"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0519",
+    "question": "شربتُ كوبَ .......",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "تمييز الكيل في الجملة مجرورٌ بالإضافة.",
+    "options": [
+      "ماءٍ (بكسر الهمزة ) .",
+      "ماءٌ (بضمِّ الهمزة ) .",
+      "ماءً (بفتح الهمزة ) ."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0520",
+    "question": "بعنا ....... قطن.",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "لأن كلمة (قطن ) وقعت مضافًا إليه يجب حذف النون من كلمة (قنطارين ) للإضافة.",
+    "options": [
+      "قنطاري",
+      "قنطارًا (بفتح الراء ) .",
+      "قنطارين"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0521",
+    "question": "زرعنا فدانَين ليمونًا. باستبدال كلمة (فدان ) بكلمة (فدانَين ) تصبح الجملة:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "لأن النون لم تُحذَف من كلمة (فدانَين ) للإضافة وجب الإبقاء على التنوين عند الإتيان بالمفرد منها.",
+    "options": [
+      "زرعنا فدانًا ليمونًا",
+      "زرعنا فدانًا ليمونٍ",
+      "زرعنا فدانَ ليمونًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0522",
+    "question": "بعتُ ....... قماشًا.",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "لأن كلمة (قماشًا ) وردت منونةً فلا بد أن تكون كلمة (مترًا ) منونةً أيضًا.",
+    "options": [
+      "مترًا",
+      "متر",
+      "متري"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0523",
+    "question": "ربَّنا وسعتَ كلَّ شيءٍ رحمةً وعلمًا . في الجملة من الأسماء المنصوبة .......",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "في الجملة من الكلمات المنصوبة: (ربَّنا: منادى ) ، و (كلَّ: مفعول به ) ، و ( رحمةً: تمييز ) ، و (علمًا: اسم معطوف منصوب ) .",
+    "options": [
+      "أربعة أسماء",
+      "ثلاثة أسماء",
+      "خمسة أسماء"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0524",
+    "question": "من المنصوبات:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "(النعت ) ، و (التوكيد ) من التوابع، والمضاف إليه مجرور دائمًا.",
+    "options": [
+      "التمييز، والحال، والظرف، والمفعول به",
+      "التمييز، والنعت، والظرف، والمفعول به",
+      "التمييز، والحال، والمضاف إليه، والمفعول به"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0525",
+    "question": "إنَّ لله .......",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "الصواب: إنَّ لله تسعةً وتسعين اسمًا. (العدد [9 ] يخالف المعدود، وإعراب كلمة [اسمًا ] : تمييز منصوب ) .",
+    "options": [
+      "تسعة وتسعين اسمًا",
+      "تسعة وتسعين اسم",
+      "تسع وتسعين اسمًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0526",
+    "question": "شَاهَدَ المباراة .......",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "إعراب كلمة (ألفا ) : فاعل مرفوع، وعلامة الرفع الألف، وحُذِفت النون للإضافة، و إعراب كلمة (رجل ) : مضاف إليه مجرور.",
+    "options": [
+      "ألفان رجل",
+      "ألفا رجل",
+      "ألفي رجل"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0527",
+    "question": "فيما يلي جملة واحدة غير صحيحة:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "الصواب: زرع الفلاح فدان برتقال (وتُعرَب كلمة [برتقال ] حينها: مضافًا إليه ) ، أو: زرع الفلاح فدانًا برتقالا (وتُعرَب كلمة [برتقالا ] حينها: تمييزًا ) أو: زرع الفلاح فدَّانًا من البرتقال.",
+    "options": [
+      "زرع الفلاح فدانًا برتقالا",
+      "زرع الفلاح فدان برتقالا",
+      "زرع الفلاح فدانين برتقالا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0528",
+    "question": "إنَّه كان فاحشة ومقتًا وساء سبيلا . التمييز في الجملة هو كلمة .......",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "إعراب كلمة (سبيلا ) : تمييز منصوب بالفتحة.",
+    "options": [
+      "سبيلا",
+      "فاحشة",
+      "مقتًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "0529",
+    "question": "جملة واحدة مما يلي صحيحة:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "العدد (12 ) يوافق المعدود؛ ويجب تنوين الكلمتين (أردبًّا ) و (قمحًا ) أو عدم تنوينهما معًا (أردب قمح ) .",
+    "options": [
+      "بعتُ اثنا عشر أردبًّا قمحًا",
+      "بعتُ اثني عشر أردبًّا قمحًا",
+      "بعتُ اثني عشر أردبًّا قمح"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0530",
+    "question": "وقف اللص يرتعد (خوفًا ) . إعراب كلمة (خوفًا ) :",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "الفعل (يرتعد ) فعل لازم، ولو كانت كلمة (خوفًا ) تُعرب حالا لقلنا: وقف اللص يرتعد خائفًا.",
+    "options": [
+      "حال",
+      "تمييز",
+      "مفعول به"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0531",
+    "question": "تَعهَّد الله اللغة العربية (حفظًا ) حتى قيام الساعة. إعراب كلمة (حفظًا ) :",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "إعراب كلمة (حفظًا ) : تمييز منصوب.",
+    "options": [
+      "مفعول به ثانٍ",
+      "تمييز",
+      "حال"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "0532",
+    "question": "في حافظتي جراما .......",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "كلمة (جراما ) مثنَّى، وحذفت النون للإضافة، وما بعدها إعرابه: مضاف إليه مجرور.",
+    "options": [
+      "ذهبٍ",
+      "ذهبًا",
+      "ذهبٍ أو ذهبًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1162",
+    "question": "الفعلُ المبنيُّ للمعلوم هو الفعلُ الذي:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "فاعلُه معلومٌ ظاهرًا كان أو ضميرًا.",
+    "options": [
+      "يُذكر فاعلُه ويُعرف",
+      "يُحذف فاعلُه",
+      "لا مفعول له"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1163",
+    "question": "الفعلُ المبنيُّ للمجهول هو الفعلُ الذي:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "يُجهل فاعلُه فيقوم المفعولُ به مقامَه.",
+    "options": [
+      "يُذكر فاعلُه",
+      "يُحذف فاعلُه ويُقام المفعولُ به مقامَه",
+      "يكون لازمًا دائمًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1164",
+    "question": "بناءُ الفعل الماضي الصحيح الآخر للمجهول يكون بضمِّ أوله و:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "نحو: لَعِب صار لُعِب.",
+    "options": [
+      "فتحِ ما قبل آخره",
+      "قلبِ آخره ياءً",
+      "كسرِ ما قبل آخره"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1165",
+    "question": "المبنيُّ للمجهول من (لَعِبَ ):",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "ضُمَّ أولُه وكُسِر ما قبل آخره.",
+    "options": [
+      "لُعِبَ",
+      "لاعَبَ",
+      "لُعِّبَ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1166",
+    "question": "المبنيُّ للمجهول من الفعل الأجوف (قال ):",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "تُقلب ألفُه ياءً ويُكسر أولُه.",
+    "options": [
+      "قُوِل",
+      "قِيلَ",
+      "قُيِّل"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1167",
+    "question": "المبنيُّ للمجهول من (باع ):",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "أجوفُ الثلاثي تُقلب ألفُه ياءً مع كسر أوله.",
+    "options": [
+      "بُوع",
+      "بايع",
+      "بِيعَ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1168",
+    "question": "المبنيُّ للمجهول من الفعل المضارع (يَصعدُ ):",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "ضُمَّ أولُه وفُتح ما قبل آخره.",
+    "options": [
+      "يُصعَدُ",
+      "يَصعِدُ",
+      "يُصعِدُ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1169",
+    "question": "بناءُ الفعل المضارع للمجهول يكون بضمِّ أوله و:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "يخالف الماضيَ الذي يُكسر ما قبل آخره.",
+    "options": [
+      "كسرِ ما قبل آخره",
+      "فتحِ ما قبل آخره",
+      "قلبِ آخره ياءً"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1170",
+    "question": "المبنيُّ للمجهول من المضارع (يبيعُ ):",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "يُضم أولُه ويُقلب حرفُ المد ألفًا.",
+    "options": [
+      "يُبيع",
+      "يَباع",
+      "يُباعُ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1171",
+    "question": "المبنيُّ للمجهول من الفعل المضعَّف (ردَّ ) يكون بضمِّ أوله فقط، فيصير:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "الإدغامُ يمنع كسرَ ما قبل الآخر فيُكتفى بضم الأول.",
+    "options": [
+      "رُدَّ",
+      "رُدِّدَ",
+      "رِيدَ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1172",
+    "question": "المبنيُّ للمجهول من الفعل الناقص (دعا ):",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "تُقلب ألفُه الأخيرةُ ياءً مع ضم أوله.",
+    "options": [
+      "دُوعِي",
+      "دُعِيَ",
+      "دِيعَ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1173",
+    "question": "الفعلُ المبدوءُ بألفٍ زائدةٍ (بارك ) يُبنى للمجهول بقلب الزائد واوًا، فيصير:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "تُقلب الألفُ الزائدةُ بعد أوله واوًا مع ضم الأول وكسر ما قبل الآخر.",
+    "options": [
+      "بُيرِك",
+      "بارِك",
+      "بُورِكَ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1174",
+    "question": "المبنيُّ للمجهول من (شارك ):",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "على وزن (فوعِل ) بقلب الألف الزائدة واوًا.",
+    "options": [
+      "شُورِكَ",
+      "شِيرِك",
+      "شُرِّك"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1175",
+    "question": "المبنيُّ للمجهول من الأجوف فوق الثلاثي (استفاد ):",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "يُضم أولُه وتُقلب الألفُ التي قبل آخره ياءً.",
+    "options": [
+      "اسْتُفُود",
+      "اسْتُفِيدَ",
+      "اسْتَفيد"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1176",
+    "question": "عند بناء الفعل للمجهول يحل محلَّ الفاعل المحذوف:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "يأخذ المفعولُ به حكمَ الفاعل فيُرفع.",
+    "options": [
+      "حرفُ جرٍّ",
+      "ظرفٌ",
+      "المفعولُ به (نائبُ فاعلٍ )"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1177",
+    "question": "أعطى سعيدٌ بشارًا مالًا . عند البناء للمجهول (أُعطي بشارٌ مالًا ) صار (بشارٌ ):",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "المفعولُ به الأولُ هو الذي يُقام مقامَ الفاعل.",
+    "options": [
+      "نائبَ فاعلٍ",
+      "مفعولًا به أولَ",
+      "فاعلًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1178",
+    "question": "في الفعل المتعدي لمفعولين المبنيِّ للمجهول، المفعولُ به الثاني:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "لا ينوب عن الفاعل إلا الأولُ، والثاني على حاله.",
+    "options": [
+      "يصير نائبَ فاعلٍ",
+      "يبقى مفعولًا به",
+      "يُحذف"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1179",
+    "question": "كُسِيَ السائلُ ثوبًا . إعرابُ (السائلُ ):",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "الفعلُ مبنيٌّ للمجهول، فالمرفوعُ بعده قام مقامَ الفاعل.",
+    "options": [
+      "مفعول به",
+      "فاعل",
+      "نائب فاعل مرفوع"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1180",
+    "question": "وَقُضِيَ الْأَمْرُ . الفعلُ (قُضِيَ ):",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "ضُمَّ أولُه وكُسِر ما قبل آخره ولم يُذكر فاعلُه.",
+    "options": [
+      "مبنيٌّ للمجهول",
+      "مبنيٌّ للمعلوم",
+      "فعلُ أمرٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1181",
+    "question": "الفاعلُ في الجملة المبنيةِ للمجهول يكون:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "almabny_llmaghol",
+    "hint": "الغرضُ من البناء للمجهول عدمُ ذكره.",
+    "options": [
+      "ظاهرًا",
+      "محذوفًا مجهولًا",
+      "ضميرًا مستترًا وجوبًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1182",
+    "question": "التمييزُ في اللغة معناه:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "من ماز الشيءَ إذا عزله عن غيره.",
+    "options": [
+      "فصلُ الشيء عن غيره",
+      "جمعُ الأشياء",
+      "توكيدُ المعنى"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1183",
+    "question": "التمييزُ اصطلاحًا اسمٌ نكرةٌ منصوبٌ يُذكر:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "يزيل الغموضَ عن اسمٍ يحتمل معانيَ كثيرةً.",
+    "options": [
+      "لتوكيد ما قبله",
+      "لبيان المقصود من اسمٍ مبهمٍ قبله",
+      "للدلالة على الزمان"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1184",
+    "question": "الاسمُ المبهمُ الذي يأتي التمييزُ لتوضيحه يسمى:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "في (اشترى كيلو جرامًا لحمًا ) هو (كيلو جرامًا ).",
+    "options": [
+      "النعتَ",
+      "الحالَ",
+      "المميَّزَ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1185",
+    "question": "ينقسم التمييزُ إلى:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "قِسمةٌ ثنائيةٌ بحسب ذكر المميَّز أو عدمه.",
+    "options": [
+      "ملفوظٍ وملحوظٍ",
+      "لفظيٍّ ومعنويٍّ",
+      "قريبٍ وبعيدٍ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1186",
+    "question": "التمييزُ الملفوظُ يسمى أيضًا:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "لأنه يوضح ذاتًا مذكورةً مفردةً.",
+    "options": [
+      "تمييزَ النسبة",
+      "تمييزَ الذات",
+      "تمييزَ الجملة"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1187",
+    "question": "التمييزُ الملحوظُ يسمى أيضًا:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "لأنه يوضح نسبةً مفهومةً من الجملة كلِّها.",
+    "options": [
+      "تمييزَ الذات",
+      "تمييزَ المفرد",
+      "تمييزَ النسبة"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1188",
+    "question": "الفرقُ بين الملفوظ والملحوظ أن المميَّز في الملفوظ:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "الملحوظُ يُفهم من السياق دون تصريحٍ به.",
+    "options": [
+      "مذكورٌ في الجملة",
+      "غيرُ مذكورٍ",
+      "محذوفٌ وجوبًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1189",
+    "question": "حكمُ التمييز في الإعراب أنه:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "يشارك المفاعيلَ في هذا الحكم.",
+    "options": [
+      "مرفوعٌ",
+      "منصوبٌ",
+      "مجرورٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1190",
+    "question": "بِعتُك رطلًا عنبًا . نوعُ المميَّز (رطلًا ):",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "الرطلُ من ألفاظ تقدير الثِّقَل.",
+    "options": [
+      "كيلٌ",
+      "مساحةٌ",
+      "وزنٌ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1191",
+    "question": "اشتريتُ ليترًا حليبًا . نوعُ المميَّز (ليترًا ):",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "الليترُ من ألفاظ تقدير الحجم المكيل.",
+    "options": [
+      "كيلٌ",
+      "وزنٌ",
+      "عددٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1192",
+    "question": "اشتريتُ فدّانًا أرضًا . نوعُ المميَّز (فدّانًا ):",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "الفدّانُ من ألفاظ تقدير المساحة.",
+    "options": [
+      "وزنٌ",
+      "مساحةٌ",
+      "كيلٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1193",
+    "question": "ركب السفينةَ خمسةٌ وتسعون رجلًا . المميَّزُ (خمسةٌ وتسعون ) من ألفاظ:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "لفظٌ يدل على مقدارٍ معدودٍ.",
+    "options": [
+      "الوزن",
+      "المساحة",
+      "العدد"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1194",
+    "question": "طاب المكانُ هواءً . هذا تمييزٌ:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "لا يوجد قبله اسمٌ مبهمٌ مذكورٌ.",
+    "options": [
+      "ملحوظٌ",
+      "ملفوظٌ",
+      "وزنٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1195",
+    "question": "التمييزُ الملحوظُ يوضح:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "يُبيِّن إجمالًا في نسبة الجملة لا اسمًا مذكورًا.",
+    "options": [
+      "اسمًا مبهمًا مذكورًا",
+      "معنًى مجملًا مفهومًا من الجملة",
+      "عددًا صريحًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1196",
+    "question": "فاض القلبُ سرورًا . إعرابُ (سرورًا ):",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "أزال الإبهامَ عن نسبة الفيض في الجملة.",
+    "options": [
+      "حال",
+      "مفعول لأجله",
+      "تمييز ملحوظ منصوب"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1197",
+    "question": "الشيخُ أكثرُ من الشاب تجربةً . (تجربةً ) تمييزٌ:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "أصلُه مبتدأٌ: تجربةُ الشيخ أكثرُ.",
+    "options": [
+      "ملحوظٌ محوَّلٌ عن مبتدأ",
+      "ملفوظٌ",
+      "عددٌ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1198",
+    "question": "التمييزُ الملفوظُ يقع في أربعة مواضع بعد ألفاظ:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "كلُّها ألفاظُ تقديرٍ أو عَدٍّ مبهمةٌ.",
+    "options": [
+      "الزمان والمكان",
+      "الوزن والكيل والمساحة والعدد",
+      "التوكيد والنعت"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1199",
+    "question": "اشتريتُ رطلًا تفاحًا . التمييزُ في الجملة هو:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "هو الاسمُ الذي أزال إبهامَ (رطلًا ).",
+    "options": [
+      "اشتريتُ",
+      "رطلًا",
+      "تفاحًا"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1200",
+    "question": "التمييزُ من حيث التعريفُ والتنكيرُ يكون:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "لا يأتي التمييزُ معرفةً.",
+    "options": [
+      "نكرةً",
+      "معرفةً",
+      "علمًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1201",
+    "question": "العنبُ من ألذِّ الفاكهة طعمًا . (طعمًا ) تمييزٌ:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "altameez",
+    "hint": "لا يوجد قبله اسمٌ مبهمٌ مذكورٌ، بل يُفهم من النسبة.",
+    "options": [
+      "ملفوظٌ",
+      "ملحوظٌ",
+      "عددٌ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1202",
+    "question": "الإعرابُ في اللغة معناه:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "تقول: أعربتُ عمَّا في نفسي، أي أظهرتُه.",
+    "options": [
+      "الإظهارُ والإبانةُ",
+      "السترُ والإخفاءُ",
+      "الجمعُ والضمُّ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1203",
+    "question": "الإعرابُ اصطلاحًا:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "يتغير آخرُ الكلمة بتغير العامل الداخل عليها.",
+    "options": [
+      "لزومُ آخر الكلمة حالةً واحدةً",
+      "تغييرُ أواخر الكلم لاختلاف العوامل الداخلة عليها",
+      "تسكينُ أواخر الكلمات"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1204",
+    "question": "ينقسم الإعرابُ إلى:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "أحدُهما تظهر علامتُه والآخرُ تُقدَّر.",
+    "options": [
+      "ماضٍ ومضارعٍ",
+      "سكونٍ وحركةٍ",
+      "لفظيٍّ وتقديريٍّ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1205",
+    "question": "الإعرابُ اللفظيُّ هو ما:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "تظهر علامتُه على آخر الكلمة كحركة الدال في (محمدٌ ).",
+    "options": [
+      "لا يمنع من النطق به مانعٌ",
+      "يمنع من النطق به مانعٌ",
+      "لا علامة له"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1206",
+    "question": "الإعرابُ التقديريُّ هو ما مُنع من التلفظ به مانعٌ من تعذرٍ أو استثقالٍ أو:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "المانعُ الثالثُ يقع في المضاف إلى ياء المتكلم.",
+    "options": [
+      "إدغامٍ",
+      "مناسبةٍ",
+      "زيادةٍ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1207",
+    "question": "يدعو الفتى . علامةُ رفعِ (يدعو ) ضمةٌ مقدرةٌ منع من ظهورها:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الضمةُ ثقيلةٌ على الواو.",
+    "options": [
+      "التعذرُ",
+      "المناسبةُ",
+      "الثقلُ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1208",
+    "question": "لن يرضى الفتى . المانعُ من ظهور الفتحة على (يرضى ):",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الألفُ لا تقبل الحركةَ ألبتة.",
+    "options": [
+      "التعذرُ",
+      "الثقلُ",
+      "المناسبةُ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1209",
+    "question": "الاسمُ المقصورُ (كالفتى ) تُقدَّر عليه:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الألفُ اللازمةُ تمنع ظهورَ الحركات جميعًا للتعذر.",
+    "options": [
+      "الضمةُ والكسرةُ فقط",
+      "جميعُ الحركات للتعذر",
+      "لا شيء"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1210",
+    "question": "الاسمُ المنقوصُ (كالقاضي ) تُقدَّر عليه الضمةُ والكسرةُ للثقل، وتظهر عليه:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "الحركةُ الخفيفةُ تظهر على الياء.",
+    "options": [
+      "الضمةُ",
+      "الكسرةُ",
+      "الفتحةُ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1211",
+    "question": "المضافُ إلى ياء المتكلم (كغلامي ) تُقدَّر عليه الحركاتُ كلُّها بسبب:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "اشتغل المحلُّ بالحركة المناسبة للياء.",
+    "options": [
+      "المناسبة",
+      "التعذر",
+      "الثقل"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1212",
+    "question": "البناءُ هو لزومُ آخر الكلمة:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "لا يتغير آخرُها لعاملٍ ولا اعتلالٍ.",
+    "options": [
+      "تغيُّرًا دائمًا",
+      "حالةً واحدةً لغير عاملٍ",
+      "السكونَ دائمًا"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1213",
+    "question": "ألقابُ البناء أربعةٌ، هي:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "تُقابل حركاتِ الإعراب لكنها لازمةٌ.",
+    "options": [
+      "الرفعُ والنصبُ والجرُّ والجزمُ",
+      "التعذرُ والثقلُ والمناسبةُ واللزومُ",
+      "السكونُ والكسرُ والضمُّ والفتحُ"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1214",
+    "question": "الكلمتان (كم ) و(من ) مبنيتان على:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "يلزم آخرُهما عدمَ الحركة.",
+    "options": [
+      "السكون",
+      "الكسر",
+      "الضم"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1215",
+    "question": "الكلماتُ (هؤلاء ) و(حذامِ ) و(أمسِ ) مبنيةٌ على:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "يلزم آخرَها حركةُ الكسر.",
+    "options": [
+      "السكون",
+      "الكسر",
+      "الفتح"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1216",
+    "question": "الظرفان (منذُ ) و(حيثُ ) مبنيان على:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "يلزم آخرَهما حركةُ الضم.",
+    "options": [
+      "الكسر",
+      "الفتح",
+      "الضم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1217",
+    "question": "الكلمتان (أينَ ) و(كيفَ ) مبنيتان على:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "يلزم آخرَهما حركةُ الفتح.",
+    "options": [
+      "الفتح",
+      "الضم",
+      "السكون"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1218",
+    "question": "الفعلُ المضارعُ يشبه الاسمَ في أنه:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "يتغير آخرُه بين الرفع والنصب والجزم بحسب العامل.",
+    "options": [
+      "مبنيٌّ دائمًا",
+      "مُعربٌ يتغير آخرُه بالعوامل",
+      "لا علامة له"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "questionID": "1219",
+    "question": "لم يسافرْ إبراهيمُ . تغيَّر حالُ (يسافر ) من الرفع إلى الجزم بسبب العامل:",
+    "difficulty": "hard",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "حرفٌ يجزم المضارعَ ويقلب زمنَه إلى المضي.",
+    "options": [
+      "لن",
+      "ما",
+      "لم"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "questionID": "1220",
+    "question": "سببُ الإعراب في الكلمة هو:",
+    "difficulty": "medium",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "تعاقُبُ العوامل يُحدث تغيُّرَ الأواخر.",
+    "options": [
+      "اختلافُ العوامل الداخلة عليها",
+      "ثباتُ آخرها",
+      "كونُها حرفًا"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "questionID": "1221",
+    "question": "الكلمةُ المبنيةُ هي التي:",
+    "difficulty": "easy",
+    "stage": "midTwo",
+    "mClass": "الثاني",
+    "lessonId": "aleaarab_w_albenaa",
+    "hint": "لا يتأثر آخرُها بتغير العوامل.",
+    "options": [
+      "يتغير آخرُها بتغير موقعها",
+      "يلزم آخرُها حالةً واحدةً",
+      "تُنوَّن دائمًا"
+    ],
+    "correctIndex": 1
+  }
+]

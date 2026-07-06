@@ -3,9 +3,10 @@ import { getTranslations } from 'next-intl/server';
 import SectionHeading from '@/components/ui/SectionHeading';
 
 const SCREENSHOTS = [
+  { key: 'home', src: '/screenshots/home.webp' },
   { key: 'lesson', src: '/screenshots/lesson.webp' },
   { key: 'quiz', src: '/screenshots/quiz.webp' },
-  { key: 'examples', src: '/screenshots/examples.webp' },
+  { key: 'analysis', src: '/screenshots/analysis.webp' },
 ] as const;
 
 export default async function Screenshots() {
@@ -27,8 +28,8 @@ export default async function Screenshots() {
               <Image
                 src={src}
                 alt={t(`alts.${key}`)}
-                width={390}
-                height={844}
+                width={800}
+                height={1421}
                 className="rounded-2xl max-h-[500px] w-auto"
               />
             </div>
@@ -36,14 +37,14 @@ export default async function Screenshots() {
         </div>
 
         {/* Desktop: static grid */}
-        <div className="hidden lg:grid lg:grid-cols-3 gap-6">
+        <div className="hidden lg:grid lg:grid-cols-4 gap-6">
           {SCREENSHOTS.map(({ key, src }) => (
             <div key={key} className="flex justify-center">
               <Image
                 src={src}
                 alt={t(`alts.${key}`)}
-                width={390}
-                height={844}
+                width={800}
+                height={1421}
                 className="rounded-2xl max-h-[500px] w-auto"
               />
             </div>
