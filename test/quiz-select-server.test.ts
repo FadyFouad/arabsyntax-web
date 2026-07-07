@@ -51,4 +51,16 @@ describe('buildQuiz', () => {
     expect(buildQuiz([q({ hint: 'تلميح' })], 1, () => 0).questions[0].hint).toBe('تلميح');
     expect(buildQuiz([q({ hint: '  ' })], 1, () => 0).questions[0].hint).toBeUndefined();
   });
+
+  it('exposes lessonId only when the predicate confirms a lesson page exists', () => {
+    const has = (slug: string) => slug === 'alesm';
+    expect(buildQuiz([q({ lessonId: 'alesm' })], 1, () => 0, has).questions[0].lessonId).toBe('alesm');
+    // id with no lesson page → stripped, so the review link never dead-ends.
+    expect(
+      buildQuiz([q({ lessonId: 'oslop_alekhtesas' })], 1, () => 0, has).questions[0].lessonId,
+    ).toBeUndefined();
+    // missing/blank id → undefined.
+    expect(buildQuiz([q({ lessonId: '  ' })], 1, () => 0, has).questions[0].lessonId).toBeUndefined();
+    expect(buildQuiz([q()], 1, () => 0, has).questions[0].lessonId).toBeUndefined();
+  });
 });

@@ -42,6 +42,12 @@ export interface ClientQuestion {
   question: string;
   hint?: string;
   options: string[];
+  /**
+   * Slug of the lesson this question tests, for a post-quiz "review the lesson"
+   * link. Set only when the id names a real lesson page. Not a secret — it is
+   * topic metadata, never the answer.
+   */
+  lessonId?: string;
 }
 
 /**

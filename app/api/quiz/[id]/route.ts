@@ -2,6 +2,7 @@ import { pickClientIp } from '@/lib/clientIp';
 import { resolveCategory } from '@/lib/quiz/server/category';
 import { getPool } from '@/lib/quiz/server/bank';
 import { buildQuiz } from '@/lib/quiz/server/select';
+import { isLessonSlug } from '@/lib/lessons/loader';
 import { signToken } from '@/lib/quiz/server/token';
 import { checkQuizRateLimit } from '@/lib/quiz/server/ratelimit';
 import type { Difficulty, QuizPayload } from '@/lib/quiz/types';
@@ -46,7 +47,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ id: 
     return noStore(empty);
   }
 
-  const { questions, items } = buildQuiz(pool);
+  const { questions, items } = buildQuiz(pool, undefined, undefined, isLessonSlug);
   const token = await signToken(items);
   const payload: QuizPayload = { token, questions };
   return noStore(payload);

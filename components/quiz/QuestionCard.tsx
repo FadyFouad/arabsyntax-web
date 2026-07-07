@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { ArrowLeft, Check, Lightbulb } from 'lucide-react';
+import { ArrowRight, Check, Lightbulb } from 'lucide-react';
 import type { ClientQuestion } from '@/lib/quiz/types';
 import { toArabicIndic } from '@/lib/quiz/numerals';
 
@@ -106,7 +106,7 @@ export default function QuestionCard({
           className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3.5 text-lg font-bold text-primary-fg transition-colors hover:bg-primary-hover focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50"
         >
           {isLast ? t('showResults') : t('next')}
-          <ArrowLeft className="h-5 w-5 rtl:-scale-x-100" aria-hidden="true" />
+          <ArrowRight className="h-5 w-5 rtl:-scale-x-100" aria-hidden="true" />
         </button>
       </div>
     </div>

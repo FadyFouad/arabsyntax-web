@@ -1,7 +1,8 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Check, RefreshCw, RotateCcw, Trophy, X } from 'lucide-react';
+import { ArrowRight, BookOpen, Check, RefreshCw, RotateCcw, Trophy, X } from 'lucide-react';
+import { Link } from '@/i18n/routing';
 import type { ClientQuestion, GradeResult } from '@/lib/quiz/types';
 import { scoreTier } from '@/lib/quiz/scoring';
 import { toArabicIndic } from '@/lib/quiz/numerals';
@@ -113,6 +114,16 @@ export default function QuizResults({
                     <p className="mt-1 text-sm text-success">
                       {t('correctAnswer')}: {correctText}
                     </p>
+                  )}
+                  {!r.correct && q.lessonId && (
+                    <Link
+                      href={`/lessons/${q.lessonId}`}
+                      className="mt-3 inline-flex items-center gap-1.5 rounded-lg border border-border bg-surface-elevated px-3 py-1.5 text-sm font-semibold text-primary transition-colors hover:border-primary focus:outline-none focus:ring-2 focus:ring-primary"
+                    >
+                      <BookOpen className="h-4 w-4" aria-hidden="true" />
+                      {t('reviewLesson')}
+                      <ArrowRight className="h-4 w-4 rtl:-scale-x-100" aria-hidden="true" />
+                    </Link>
                   )}
                 </div>
               </div>
