@@ -6,7 +6,7 @@ import { describe, it, expect, vi } from 'vitest';
 // above the import below.
 vi.mock('server-only', () => ({}));
 
-const { getLesson } = await import('@/lib/lessons/loader');
+const { getLesson, getAllSlugs, isLessonSlug } = await import('@/lib/lessons/loader');
 
 // getLesson() interpolates `slug` into a filesystem path and is reachable with
 // an attacker-controlled route param, so it must reject anything that isn't the
@@ -36,5 +36,19 @@ describe('getLesson slug guard (path-traversal defense)', () => {
     const lesson = getLesson('alafaal_alkhamsa', 'ar');
     expect(lesson).not.toBeNull();
     expect(lesson?.slug).toBe('alafaal_alkhamsa');
+  });
+});
+
+// isLessonSlug gates the quiz "review the lesson" link so it never points at a
+// non-existent page. Backed by a memoized set over getAllSlugs().
+describe('isLessonSlug', () => {
+  it('is true for a real lesson slug and false for an unknown one', () => {
+    const [real] = getAllSlugs();
+    expect(real).toBeTruthy();
+    // Called twice to exercise both the cache-miss (first) and cache-hit paths.
+    expect(isLessonSlug(real)).toBe(true);
+    expect(isLessonSlug(real)).toBe(true);
+    expect(isLessonSlug('oslop_alekhtesas')).toBe(false);
+    expect(isLessonSlug('')).toBe(false);
   });
 });
