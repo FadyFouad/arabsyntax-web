@@ -106,6 +106,13 @@ function titleFor(slug: string, locale: Locale, manifest = loadManifest()): stri
   return manifest.ar?.[slug] ?? arTitle(slug);
 }
 
+/** Whether `slug` names a real lesson page (memoized set over {@link getAllSlugs}). */
+let slugSetCache: Set<string> | null = null;
+export function isLessonSlug(slug: string): boolean {
+  if (!slugSetCache) slugSetCache = new Set(getAllSlugs());
+  return slugSetCache.has(slug);
+}
+
 /** Ordered slug list, driven by manifest.json (falls back to ar/ dir listing). */
 export function getAllSlugs(): string[] {
   const ordered = Object.keys(loadManifest().en);
