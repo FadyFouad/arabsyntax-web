@@ -23,7 +23,13 @@
     "zoomOut": "Zoom out",
     "zoomReset": "Reset zoom",
     "zoomFit": "Fit to view",
-    "zoomLevel": "Zoom level: {percent}%"
+    "zoomLevel": "Zoom level: {percent}%",
+    "quizCtaTitle": "Mastered the lessons?",
+    "quizCtaBody": "Test your grammar knowledge with varied questions, instant feedback, and a hint for every question.",
+    "quizCtaButton": "Test yourself",
+    "quizLessonTitle": "Test yourself on this lesson",
+    "quizLessonBody": "Questions drawn from this lesson only, with instant feedback and a hint for every question.",
+    "quizLessonButton": "Start the quiz"
   },
   "mutun": {
     "indexTitle": "Al-Mutun (Classical Texts)",

@@ -22,6 +22,8 @@ interface Bank {
   byStage: Map<string, Question[]>;
   /** every question by id, for grading. */
   byId: Map<string, Question>;
+  /** question count per lesson slug, for gating per-lesson quiz links. */
+  countByLesson: Map<string, number>;
 }
 
 let bankCache: Bank | null = null;
@@ -51,6 +53,7 @@ function loadBank(): Bank {
   const entries = parseManifest(readJson('manifest.json'));
   const byStage = new Map<string, Question[]>();
   const byId = new Map<string, Question>();
+  const countByLesson = new Map<string, number>();
 
   for (const { file, stage } of entries) {
     let raw: unknown;
@@ -63,10 +66,15 @@ function loadBank(): Bank {
     }
     const questions = (Array.isArray(raw) ? raw : []).filter(isValidQuestion);
     byStage.set(stage, questions);
-    for (const q of questions) byId.set(q.questionID, q);
+    for (const q of questions) {
+      byId.set(q.questionID, q);
+      if (typeof q.lessonId === 'string' && q.lessonId) {
+        countByLesson.set(q.lessonId, (countByLesson.get(q.lessonId) ?? 0) + 1);
+      }
+    }
   }
 
-  bankCache = { byStage, byId };
+  bankCache = { byStage, byId, countByLesson };
   return bankCache;
 }
 
@@ -76,17 +84,31 @@ export function getQuestionById(id: string): Question | undefined {
 }
 
 /**
- * The pool of questions for the given stage keys, optionally narrowed to one
- * difficulty. Unknown stage keys contribute nothing.
+ * How many questions test the given lesson slug. Lets the lesson page render a
+ * "quiz me on this lesson" action only when it won't dead-end on an empty draw.
  */
-export function getPool(stageKeys: string[], difficulty: Difficulty | 'all'): Question[] {
+export function getLessonQuestionCount(slug: string): number {
+  return loadBank().countByLesson.get(slug) ?? 0;
+}
+
+/**
+ * The pool of questions for the given stage keys, optionally narrowed to one
+ * difficulty and/or one lesson slug. Unknown stage keys contribute nothing.
+ */
+export function getPool(
+  stageKeys: string[],
+  difficulty: Difficulty | 'all',
+  lesson?: string,
+): Question[] {
   const bank = loadBank();
-  const pool: Question[] = [];
+  let pool: Question[] = [];
   for (const key of new Set(stageKeys)) {
     const group = bank.byStage.get(key);
     if (group) pool.push(...group);
   }
-  return difficulty === 'all' ? pool : pool.filter((q) => q.difficulty === difficulty);
+  if (difficulty !== 'all') pool = pool.filter((q) => q.difficulty === difficulty);
+  if (lesson) pool = pool.filter((q) => q.lessonId === lesson);
+  return pool;
 }
 
 /** Test-only: drop the cache so a fixture change is picked up. */

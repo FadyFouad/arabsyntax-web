@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { ClipboardCheck } from 'lucide-react';
 import { Link } from '@/i18n/routing';
 import { Container } from '@/components/ui/Container';
 import SectionHeading from '@/components/ui/SectionHeading';
@@ -84,6 +85,22 @@ export default async function LessonsIndexPage({ params }: PageProps) {
           </ul>
         }
       />
+
+      <Card className="mt-12 flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex items-start gap-4">
+          <ClipboardCheck className="h-10 w-10 shrink-0 text-primary" aria-hidden="true" />
+          <div>
+            <h2 className="text-xl font-semibold text-text">{t('quizCtaTitle')}</h2>
+            <p className="mt-1 text-text-body">{t('quizCtaBody')}</p>
+          </div>
+        </div>
+        <Link
+          href="/quiz"
+          className="inline-flex shrink-0 items-center justify-center rounded-xl bg-primary px-6 py-3 font-bold text-primary-fg transition-colors hover:bg-primary-hover focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background"
+        >
+          {t('quizCtaButton')}
+        </Link>
+      </Card>
     </Container>
   );
 }

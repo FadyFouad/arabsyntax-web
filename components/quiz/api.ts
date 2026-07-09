@@ -9,8 +9,12 @@ import type { Difficulty, GradeResult, QuizPayload } from '@/lib/quiz/types';
 export async function fetchQuiz(
   category: string,
   difficulty: Difficulty | 'all',
+  lesson?: string,
 ): Promise<QuizPayload> {
-  const qs = difficulty !== 'all' ? `?difficulty=${difficulty}` : '';
+  const params = new URLSearchParams();
+  if (difficulty !== 'all') params.set('difficulty', difficulty);
+  if (lesson) params.set('lesson', lesson);
+  const qs = params.size > 0 ? `?${params}` : '';
   const res = await fetch(`/api/quiz/${encodeURIComponent(category)}${qs}`, {
     headers: { Accept: 'application/json' },
   });

@@ -4,7 +4,8 @@ import type { TreeDefinition } from '@/lib/lessons/tree/schema';
 
 // Layout is a pure function of the definition (mobile data-model §4). These
 // lock the invariants the client canvas relies on: longest-path tiers (all
-// edges point downward), JSON order within a tier, and wide-tier row wrapping.
+// edges point downward), JSON order within a tier, wide-tier row wrapping, and
+// barycentric columns (children centred under their prerequisites).
 
 const def = (nodes: TreeDefinition['nodes']): TreeDefinition => ({ schemaVersion: 1, nodes });
 const node = (id: string, prerequisites: string[] = []): TreeDefinition['nodes'][number] => ({
@@ -45,7 +46,34 @@ describe('buildLayout', () => {
     expect(y.position.col).toBe(1);
   });
 
-  it('wraps a tier wider than maxPerRow into extra visual rows', () => {
+  it('centres a parent over its children (barycentric, fractional cols)', () => {
+    const layout = buildLayout(def([node('root'), node('x', ['root']), node('y', ['root'])]));
+    // Children at 0 and 1 ⇒ root sits between them at 0.5.
+    expect(layout.nodes.find((n) => n.id === 'root')!.position.col).toBe(0.5);
+    expect(layout.columns).toBe(2);
+  });
+
+  it('centres a child under the mean of multiple prerequisites (diamond)', () => {
+    const layout = buildLayout(
+      def([node('a'), node('b', ['a']), node('c', ['a']), node('d', ['b', 'c'])]),
+    );
+    const colOf = (id: string) => layout.nodes.find((n) => n.id === id)!.position.col;
+    expect(colOf('b')).toBe(0);
+    expect(colOf('c')).toBe(1);
+    expect(colOf('d')).toBe(0.5); // mean of b + c
+    expect(colOf('a')).toBe(0.5); // and the root stays centred over them
+  });
+
+  it('keeps at least one slot between neighbours that want the same column', () => {
+    // x and y both want col 0 (their only prerequisite) → pushed 1 apart, then
+    // the row recentres on the shared target.
+    const layout = buildLayout(def([node('p'), node('q'), node('x', ['p']), node('y', ['p'])]));
+    const colOf = (id: string) => layout.nodes.find((n) => n.id === id)!.position.col;
+    expect(Math.abs(colOf('x') - colOf('y'))).toBeGreaterThanOrEqual(1);
+    expect((colOf('x') + colOf('y')) / 2).toBe(colOf('p'));
+  });
+
+  it('wraps a tier wider than maxPerRow into extra visual rows, each centred', () => {
     const root = node('root');
     const children = ['a', 'b', 'c', 'd', 'e'].map((id) => node(id, ['root']));
     const layout = buildLayout(def([root, ...children]), 2);
@@ -55,9 +83,12 @@ describe('buildLayout', () => {
     );
     expect(rowsForTier1.size).toBe(3);
     expect(layout.columns).toBe(2); // widest row uses 2 columns
-    // Each wrapped row restarts col at 0.
+    // Each wrapped row centres under the shared parent instead of packing left:
+    // e (a row of one) sits directly under root, between a and b.
     const e = layout.nodes.find((n) => n.id === 'e')!;
-    expect(e.position.col).toBe(0);
+    const rootCol = layout.nodes.find((n) => n.id === 'root')!.position.col;
+    expect(e.position.col).toBe(rootCol);
+    expect(e.position.col).toBe(0.5);
   });
 
   it('reports total rows across all tier bands', () => {

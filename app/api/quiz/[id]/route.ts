@@ -21,11 +21,12 @@ function noStore(payload: unknown, status = 200): Response {
 }
 
 /**
- * GET /api/quiz/[id]?difficulty=easy|medium|hard
+ * GET /api/quiz/[id]?difficulty=easy|medium|hard&lesson=<slug>
  *
  * Returns up to 10 questions for the category, with options pre-shuffled and the
  * correct answer STRIPPED, plus a signed token used to grade the submission. The
- * question bank never leaves the server.
+ * question bank never leaves the server. An optional `lesson` narrows the draw
+ * to questions testing that lesson (the per-lesson "اختبر نفسك" action).
  */
 export async function GET(request: Request, { params }: { params: Promise<{ id: string }> }) {
   const ip = pickClientIp(request.headers);
@@ -36,12 +37,18 @@ export async function GET(request: Request, { params }: { params: Promise<{ id: 
   const stageKeys = resolveCategory(id);
   if (!stageKeys) return noStore({ error: 'unknown_category' }, 404);
 
-  const difficultyParam = new URL(request.url).searchParams.get('difficulty');
+  const searchParams = new URL(request.url).searchParams;
+  const difficultyParam = searchParams.get('difficulty');
   const difficulty: Difficulty | 'all' = DIFFICULTIES.includes(difficultyParam as Difficulty)
     ? (difficultyParam as Difficulty)
     : 'all';
 
-  const pool = getPool(stageKeys, difficulty);
+  const lessonParam = searchParams.get('lesson');
+  if (lessonParam !== null && !isLessonSlug(lessonParam)) {
+    return noStore({ error: 'unknown_lesson' }, 404);
+  }
+
+  const pool = getPool(stageKeys, difficulty, lessonParam ?? undefined);
   if (pool.length === 0) {
     const empty: QuizPayload = { token: '', questions: [] };
     return noStore(empty);

@@ -12,12 +12,20 @@ import { MAX_NODES_PER_ROW } from './constants';
  * Within a tier, nodes keep their JSON authoring order (rendered right→left by
  * the RTL client). A tier with more than `maxPerRow` nodes wraps into extra
  * visual rows inside its band. `position.row` is a global visual-row index
- * (top→bottom); `position.col` is the 0-based slot within that row.
+ * (top→bottom); `position.col` is a (possibly fractional) horizontal slot.
+ *
+ * Columns are barycentric, like the mobile tree: each node wants the mean
+ * column of its prerequisites, a left-to-right pass keeps authoring order and a
+ * minimum gap of 1 slot, and the whole row then shifts uniformly so it stays
+ * centred on those targets (rows with no prerequisites centre on 0). A final
+ * normalisation slides everything so the leftmost node sits at col 0 — so
+ * children hang centred under their parents instead of packing left.
  *
  * O(V+E). Assumes an acyclic definition (the loader validates before calling
  * this); a `computing` guard still breaks any accidental cycle to 0 so a bad
  * definition can never infinite-loop.
  */
+const round3 = (n: number) => Math.round(n * 1000) / 1000;
 export function buildLayout(
   definition: TreeDefinition,
   maxPerRow: number = MAX_NODES_PER_ROW,
@@ -52,15 +60,46 @@ export function buildLayout(
     else tiers.set(tier, [node]);
   }
 
-  // ── Assign grid positions, wrapping wide tiers ────────────────────────────
+  // ── Assign positions: barycentric columns, wrapping wide tiers ────────────
   const layoutNodes: LayoutNode[] = [];
+  const colOf = new Map<string, number>();
   let row = 0;
-  let columns = 0;
   for (const tier of [...tiers.keys()].sort((a, b) => a - b)) {
     const group = tiers.get(tier)!;
     for (let start = 0; start < group.length; start += maxPerRow) {
       const slice = group.slice(start, start + maxPerRow);
-      slice.forEach((node, col) => {
+
+      // Where each node wants to sit: the mean column of its (already placed —
+      // prerequisites always live in earlier rows) prerequisites. Tier-0 nodes
+      // have none and yield null.
+      const desired = slice.map((node) => {
+        const anchors = node.prerequisites.filter((p) => colOf.has(p));
+        if (anchors.length === 0) return null;
+        return anchors.reduce((sum, p) => sum + colOf.get(p)!, 0) / anchors.length;
+      });
+
+      // Left-to-right pass: honor the desire when possible, but keep authoring
+      // order and at least 1 slot between neighbours.
+      const pos: number[] = [];
+      slice.forEach((_, i) => {
+        if (i === 0) {
+          pos.push(desired[0] ?? 0);
+        } else {
+          const floor = pos[i - 1] + 1;
+          pos.push(Math.max(desired[i] ?? floor, floor));
+        }
+      });
+
+      // Uniform shift, so the pass above never drags the row off target: match
+      // the row's mean to the desired mean (least-squares optimum for a rigid
+      // row), or centre a desire-less (tier-0) row on 0.
+      const mean = (xs: number[]) => xs.reduce((s, x) => s + x, 0) / xs.length;
+      const targets = desired.filter((d): d is number => d !== null);
+      const shift = (targets.length ? mean(targets) : 0) - mean(pos);
+
+      slice.forEach((node, i) => {
+        const col = round3(pos[i] + shift);
+        colOf.set(node.id, col);
         layoutNodes.push({
           id: node.id,
           lessonId: node.lessonId,
@@ -70,9 +109,16 @@ export function buildLayout(
           position: { row, col },
         });
       });
-      columns = Math.max(columns, slice.length);
       row += 1;
     }
+  }
+
+  // ── Normalise: leftmost node at col 0; columns spans the used width ───────
+  const minCol = Math.min(0, ...layoutNodes.map((n) => n.position.col));
+  let columns = 0;
+  for (const node of layoutNodes) {
+    node.position.col = round3(node.position.col - minCol);
+    columns = Math.max(columns, node.position.col + 1);
   }
 
   // ── Edges: prerequisite → dependent (skip refs to unknown ids) ────────────
