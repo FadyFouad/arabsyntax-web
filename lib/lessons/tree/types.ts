@@ -18,7 +18,11 @@ export type NodeState = 'locked' | 'available' | 'completed' | 'needsReview';
 export interface NodePosition {
   /** Visual row (a tier may wrap into several rows); 0-based, top → bottom. */
   row: number;
-  /** Visual column within the row; 0-based. In RTL, col 0 renders right-most. */
+  /**
+   * Horizontal slot, possibly FRACTIONAL: nodes centre under the mean column
+   * of their prerequisites (barycentric). ≥ 0, leftmost node at 0; neighbours
+   * in a row are ≥ 1 slot apart. In RTL, col 0 renders right-most.
+   */
   col: number;
 }
 
@@ -46,7 +50,7 @@ export interface TreeLayout {
   edges: TreeEdge[];
   /** Total grid rows across all tier bands. */
   rows: number;
-  /** Max columns used by any row (canvas width in grid units). */
+  /** Canvas width in grid units (max col + 1; fractional cols allowed). */
   columns: number;
 }
 
