@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Loader2 } from 'lucide-react';
 import type { ClientQuestion, GradeResult, QuizFilters } from '@/lib/quiz/types';
@@ -78,14 +78,15 @@ export default function QuizApp() {
     }
   }, []);
 
-  // Honor a ?lesson= deep-link once on mount (guarded: React 19 strict-mode
-  // re-runs effects, and this one kicks off a fetch + state machine).
-  const bootedLessonLink = useRef(false);
+  // Honor a ?lesson= deep-link once on mount. The draw is deferred to a
+  // timeout so its state updates run outside the effect body
+  // (react-hooks/set-state-in-effect), and the cleanup nets strict-mode's
+  // double-invoke out to a single draw.
   useEffect(() => {
-    if (bootedLessonLink.current) return;
-    bootedLessonLink.current = true;
     const slug = new URLSearchParams(window.location.search).get('lesson');
-    if (slug) void draw(restoredFilters, slug);
+    if (!slug) return;
+    const id = window.setTimeout(() => void draw(restoredFilters, slug), 0);
+    return () => window.clearTimeout(id);
     // eslint-disable-next-line react-hooks/exhaustive-deps -- mount-only by design
   }, []);
 
