@@ -149,6 +149,17 @@ export default function LessonTree({ layout, rtl }: LessonTreeProps) {
     el.scrollTop = p.cy * zoom - p.vy;
   }, [zoom]);
 
+  // Centre the viewport on the tree at first paint and again whenever the
+  // layout footprint changes (the canvas is wider than the viewport, and would
+  // otherwise open pinned to its left edge with the root far off-centre).
+  // Horizontal only — the root row must stay visible at the top. Scroll
+  // position is all that changes; node geometry and later pan/zoom are free.
+  useLayoutEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    el.scrollLeft = Math.max(0, (width * zoomRef.current - el.clientWidth) / 2);
+  }, [width]);
+
   const zoomAbout = useCallback((next: number, clientX?: number, clientY?: number) => {
     const target = clampZoom(next);
     const el = scrollRef.current;
