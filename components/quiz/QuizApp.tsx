@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Loader2 } from 'lucide-react';
 import type { ClientQuestion, GradeResult, QuizFilters } from '@/lib/quiz/types';
@@ -19,6 +19,12 @@ import QuizResults from './QuizResults';
  * Questions are fetched from /api/quiz/[category] with the correct answers
  * already stripped, and grading happens on the server via /submit — the browser
  * never holds an answer key.
+ *
+ * A `?lesson=<slug>` deep-link (the per-lesson quiz action on lesson pages)
+ * skips setup and immediately draws a quiz scoped to that lesson. It is read
+ * from `window.location` in a mount effect — NOT `useSearchParams` — so the
+ * /quiz page stays fully prerendered (no Suspense/CSR bailout of the setup
+ * screen, and the route stays static for the OpenNext static-assets cache).
  */
 
 type Phase = 'setup' | 'loading' | 'active' | 'submitting' | 'results' | 'error' | 'empty';
@@ -33,6 +39,7 @@ export default function QuizApp() {
   const bestScore = useBestScore();
 
   const [activeFilters, setActiveFilters] = useState<QuizFilters>(restoredFilters);
+  const [activeLesson, setActiveLesson] = useState<string | null>(null);
   const [questions, setQuestions] = useState<ClientQuestion[]>([]);
   const [token, setToken] = useState('');
   const [category, setCategory] = useState('all');
@@ -41,11 +48,18 @@ export default function QuizApp() {
   const [grade, setGrade] = useState<GradeResult | null>(null);
   const [runId, setRunId] = useState(0);
 
-  const draw = useCallback(async (f: QuizFilters) => {
+  const draw = useCallback(async (f: QuizFilters, lesson: string | null = null) => {
     setPhase('loading');
-    const cat = filtersToCategory(f);
+    // A lesson-scoped draw ignores the marhala/difficulty filters: the lesson is
+    // the scope, and its pool is small enough that narrowing further would
+    // routinely come back empty.
+    const cat = lesson ? 'all' : filtersToCategory(f);
     try {
-      const { token: tok, questions: qs } = await fetchQuiz(cat, f.difficulty);
+      const { token: tok, questions: qs } = await fetchQuiz(
+        cat,
+        lesson ? 'all' : f.difficulty,
+        lesson ?? undefined,
+      );
       if (qs.length === 0) {
         setPhase('empty');
         return;
@@ -56,11 +70,23 @@ export default function QuizApp() {
       setAnswers(new Array(qs.length).fill(null));
       setIndex(0);
       setActiveFilters(f);
+      setActiveLesson(lesson);
       setRunId((n) => n + 1);
       setPhase('active');
     } catch {
       setPhase('error');
     }
+  }, []);
+
+  // Honor a ?lesson= deep-link once on mount (guarded: React 19 strict-mode
+  // re-runs effects, and this one kicks off a fetch + state machine).
+  const bootedLessonLink = useRef(false);
+  useEffect(() => {
+    if (bootedLessonLink.current) return;
+    bootedLessonLink.current = true;
+    const slug = new URLSearchParams(window.location.search).get('lesson');
+    if (slug) void draw(restoredFilters, slug);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- mount-only by design
   }, []);
 
   const submit = useCallback(
@@ -110,7 +136,8 @@ export default function QuizApp() {
   }
 
   function onNewQuiz() {
-    void draw(activeFilters);
+    // Fresh questions from the same scope — including the lesson, if any.
+    void draw(activeFilters, activeLesson);
   }
 
   if (phase === 'loading' || phase === 'submitting') {

@@ -16,7 +16,12 @@ vi.mock('node:fs', () => ({
   },
 }));
 
-import { getPool, getQuestionById, _resetBankCache } from '@/lib/quiz/server/bank';
+import {
+  getLessonQuestionCount,
+  getPool,
+  getQuestionById,
+  _resetBankCache,
+} from '@/lib/quiz/server/bank';
 
 const valid = (over: Record<string, unknown> = {}) => ({
   questionID: 'p1',
@@ -31,8 +36,8 @@ beforeEach(() => {
   store.files = {
     'manifest.json': JSON.stringify(['primary.json', 'midOne.json', 'broken.json', 'unstaged.json']),
     'primary.json': JSON.stringify([
-      valid({ questionID: 'p1', difficulty: 'easy' }),
-      valid({ questionID: 'p2', difficulty: 'hard', options: ['a', 'b'], correctIndex: 0 }),
+      valid({ questionID: 'p1', difficulty: 'easy', lessonId: 'almobtada' }),
+      valid({ questionID: 'p2', difficulty: 'hard', options: ['a', 'b'], correctIndex: 0, lessonId: 7 }),
       null,
       { question: 'q', options: ['a', 'b'], correctIndex: 0 }, // no questionID
       { questionID: 'x', options: ['a', 'b'], correctIndex: 0 }, // no question
@@ -43,7 +48,7 @@ beforeEach(() => {
       { questionID: 'x', question: 'q', options: ['a', 'b'], correctIndex: 5 }, // out of range
       { questionID: 'x', question: 'q', options: ['a', 'b'], correctIndex: -1 }, // negative
     ]),
-    'midOne.json': JSON.stringify([valid({ questionID: 'm1' })]),
+    'midOne.json': JSON.stringify([valid({ questionID: 'm1', lessonId: 'almobtada' })]),
     'broken.json': '__THROW__',
     'unstaged.json': JSON.stringify({ not: 'an array' }),
   };
@@ -61,6 +66,15 @@ describe('getPool', () => {
     expect(getPool(['does-not-exist'], 'all')).toEqual([]);
   });
 
+  it('narrows to one lesson when a slug is given', () => {
+    expect(getPool(['primary', 'midOne'], 'all', 'almobtada').map((q) => q.questionID)).toEqual([
+      'p1',
+      'm1',
+    ]);
+    expect(getPool(['primary'], 'hard', 'almobtada')).toEqual([]); // filters compose
+    expect(getPool(['primary'], 'all', 'no-such-lesson')).toEqual([]);
+  });
+
   it('treats a non-array file body as empty and skips a file that fails to read', () => {
     expect(getPool(['unstaged'], 'all')).toEqual([]); // non-array body
     expect(getPool(['broken'], 'all')).toEqual([]); // read threw → stage absent
@@ -72,6 +86,13 @@ describe('getQuestionById', () => {
   it('finds a valid question and returns undefined otherwise', () => {
     expect(getQuestionById('m1')?.questionID).toBe('m1');
     expect(getQuestionById('nope')).toBeUndefined();
+  });
+});
+
+describe('getLessonQuestionCount', () => {
+  it('counts questions per lesson slug, ignoring non-string/empty lessonIds', () => {
+    expect(getLessonQuestionCount('almobtada')).toBe(2); // p1 + m1; p2 has a numeric lessonId
+    expect(getLessonQuestionCount('no-such-lesson')).toBe(0);
   });
 });
 

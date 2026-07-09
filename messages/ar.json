@@ -23,7 +23,13 @@
     "zoomOut": "تصغير",
     "zoomReset": "إعادة الضبط",
     "zoomFit": "ملء الشاشة",
-    "zoomLevel": "مستوى التكبير: {percent}٪"
+    "zoomLevel": "مستوى التكبير: {percent}٪",
+    "quizCtaTitle": "هل أتقنتَ الدروس؟",
+    "quizCtaBody": "اختبر فهمك للنحو بأسئلة متنوّعة مع تصحيح فوري وتلميح لكل سؤال.",
+    "quizCtaButton": "اختبر نفسك",
+    "quizLessonTitle": "اختبر نفسك في هذا الدرس",
+    "quizLessonBody": "أسئلة من هذا الدرس تحديدًا، مع تصحيح فوري وتلميح لكل سؤال.",
+    "quizLessonButton": "ابدأ الاختبار"
   },
   "mutun": {
     "indexTitle": "المتون",
