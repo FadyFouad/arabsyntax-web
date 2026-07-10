@@ -114,6 +114,56 @@ jobs:
             test-results/
           retention-days: 7
 
+  # Web-accounts contract suite (feature 006): drives the app's real sign-in →
+  # Firestore writes against the Firebase Emulator Suite with the feature flag ON,
+  # verifying the cross-platform document contracts (profile shape, per-key
+  # progress merges, premium resolution) that a unit test can't observe.
+  #
+  # NOT in `deploy.needs`: the feature ships behind NEXT_PUBLIC_WEB_ACCOUNTS,
+  # which stays unset in production until the launch gates pass, so this must not
+  # gate the deploy of the flag-off site. It runs as a required signal on PRs.
+  # Driving signInWithPopup through the emulator widget is inherently flaky in
+  # headless Chromium; the config retries (see playwright.emulator.config.ts).
+  e2e-auth:
+    name: E2E accounts (Firebase emulators)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # The Firestore emulator is a Java process; firebase-tools requires JDK ≥ 21.
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      # See the note in the `test` job: resolve deps fresh for the linux native
+      # bindings (rolldown/esbuild) missing from a macOS-authored lockfile.
+      - name: Install dependencies
+        run: rm -f package-lock.json && npm install --no-audit --no-fund
+
+      - name: Install Playwright chromium
+        run: npx playwright install --with-deps chromium
+
+      # The config's webServer starts the emulators (auth+firestore) and a
+      # flag-ON `next build && next start`, then Playwright drives the suite.
+      - name: Run accounts E2E (emulators)
+        run: npm run test:e2e:auth
+
+      - name: Upload Playwright report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report-auth
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 7
+
   # Build the OpenNext bundle and ship it to Cloudflare Workers. Runs ONLY on a
   # direct push to main (never on PRs) and ONLY after both gates above are green,
   # so nothing reaches production without passing lint/typecheck/tests + E2E.

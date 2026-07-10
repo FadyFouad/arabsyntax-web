@@ -16,6 +16,53 @@ const withMDX = createMDX({ extension: /\.mdx?$/ });
 // links, not embeds, so they need no allowance here.
 const isDev = process.env.NODE_ENV !== 'production';
 
+// ─── Firebase (feature 006, web accounts) ────────────────────────────────────
+// Every allowance below is added ONLY when NEXT_PUBLIC_WEB_ACCOUNTS=true, so the
+// production policy stays byte-identical to today until the launch gates pass.
+// Keep in sync with lib/firebase/config.ts and firebase.json.
+const webAccounts = process.env.NEXT_PUBLIC_WEB_ACCOUNTS === 'true';
+const useEmulators = process.env.NEXT_PUBLIC_FIREBASE_EMULATORS === 'true';
+const authDomain = process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN ?? '';
+
+// The emulator suite is plain http on loopback (firebase.json ports).
+const emulatorOrigins = useEmulators
+  ? ['http://127.0.0.1:9099', 'http://localhost:9099', 'http://127.0.0.1:8080', 'http://localhost:8080']
+  : [];
+
+// identitytoolkit/securetoken: auth REST + token refresh. firestore: progress and
+// purchases reads/writes. firebaseinstallations: required by the analytics module.
+// google-analytics/googletagmanager: the GA4 transport behind logEvent().
+const firebaseConnect = webAccounts
+  ? [
+      'https://identitytoolkit.googleapis.com',
+      'https://securetoken.googleapis.com',
+      'https://firestore.googleapis.com',
+      'https://firebaseinstallations.googleapis.com',
+      'https://www.googleapis.com',
+      'https://*.google-analytics.com',
+      'https://*.analytics.google.com',
+      'https://*.googletagmanager.com',
+      ...emulatorOrigins,
+    ]
+  : [];
+
+// apis.google.com hosts the gapi loader the auth helper iframe pulls in;
+// googletagmanager.com serves gtag.js once a sign-in attempt initializes analytics.
+const firebaseScript = webAccounts
+  ? ['https://apis.google.com', 'https://www.googletagmanager.com']
+  : [];
+
+// signInWithPopup/Redirect mount a hidden helper iframe on the authDomain (and,
+// in production, an apis.google.com bridge). The popup itself is a new browsing
+// context, which CSP frame-src does not govern. Against the emulator the helper
+// is served from the loopback auth origin instead.
+const firebaseFrame = webAccounts
+  ? [...(authDomain ? [`https://${authDomain}`] : []), 'https://apis.google.com', ...emulatorOrigins]
+  : [];
+
+const directive = (name: string, ...values: string[]) =>
+  [name, ...values.filter(Boolean)].join(' ');
+
 const csp = [
   "default-src 'self'",
   "base-uri 'self'",
@@ -23,7 +70,7 @@ const csp = [
   "frame-ancestors 'none'",
   // challenges.cloudflare.com: the contact form's Turnstile widget renders in an
   // iframe from there.
-  "frame-src https://challenges.cloudflare.com",
+  directive('frame-src', 'https://challenges.cloudflare.com', ...firebaseFrame),
   "object-src 'none'",
   "img-src 'self' data:",
   "font-src 'self' data:",
@@ -32,13 +79,31 @@ const csp = [
   // challenges.cloudflare.com serves the Turnstile widget script (api.js).
   // 'unsafe-eval' is added in development only — Turbopack/React need eval() for
   // HMR and debugging; production builds keep the stricter policy without it.
-  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ''} https://static.cloudflareinsights.com https://challenges.cloudflare.com`,
+  directive(
+    'script-src',
+    "'self'",
+    "'unsafe-inline'",
+    isDev ? "'unsafe-eval'" : '',
+    'https://static.cloudflareinsights.com',
+    'https://challenges.cloudflare.com',
+    ...firebaseScript,
+  ),
   // The beacon POSTs RUM data to cloudflareinsights.com; the Turnstile widget
   // talks to challenges.cloudflare.com to fetch/solve the challenge.
-  "connect-src 'self' https://cloudflareinsights.com https://challenges.cloudflare.com",
+  directive(
+    'connect-src',
+    "'self'",
+    'https://cloudflareinsights.com',
+    'https://challenges.cloudflare.com',
+    ...firebaseConnect,
+  ),
   "manifest-src 'self'",
-  'upgrade-insecure-requests',
-].join('; ');
+  // Omitted against the emulator: it upgrades the loopback http:// origins to
+  // https:// and every emulator request fails. Never omitted in a deployed build.
+  useEmulators ? '' : 'upgrade-insecure-requests',
+]
+  .filter(Boolean)
+  .join('; ');
 
 const securityHeaders = [
   { key: 'Content-Security-Policy', value: csp },

@@ -6,6 +6,7 @@ import { DesktopNav } from './DesktopNav';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { MobileMenu } from './MobileMenu';
 import { ThemeToggle } from './ThemeToggle';
+import AccountMenu from '@/components/auth/AccountMenu';
 import { siteConfig } from '@/lib/siteConfig';
 import { featureFlags } from '@/lib/featureFlags';
 
@@ -55,9 +56,12 @@ export async function Header() {
         <div className="flex items-center gap-2 sm:gap-4">
           <ThemeToggle />
           <LanguageSwitcher />
-          <MobileMenu 
-            links={navLinks} 
-            labels={{ openMenu: tNav('openMenu'), closeMenu: tNav('closeMenu') }} 
+          {/* Renders nothing until auth resolves after mount, so the prerendered
+              header is identical with the flag on or off (SC-7). */}
+          {featureFlags.webAccounts && <AccountMenu />}
+          <MobileMenu
+            links={navLinks}
+            labels={{ openMenu: tNav('openMenu'), closeMenu: tNav('closeMenu') }}
           />
         </div>
       </Container>

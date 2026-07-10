@@ -52,13 +52,39 @@ export function useCompletedLessons(): ReadonlySet<string> {
   return useMemo(() => parseCompleted(raw), [raw]);
 }
 
-/** Persist a completion change and notify all subscribers in this tab. */
-export function setLessonComplete(lessonId: string, done: boolean): void {
-  const next = withCompletion(parseCompleted(getRawSnapshot()), lessonId, done);
+/** Non-reactive read, for code outside React (the sign-in merge). */
+export function readCompletedLessons(): ReadonlySet<string> {
+  return parseCompleted(getRawSnapshot());
+}
+
+function persist(next: ReadonlySet<string>): void {
   try {
     window.localStorage.setItem(PROGRESS_STORAGE_KEY, serializeCompleted(next));
   } catch {
     // Best-effort; a full/blocked store just means progress isn't remembered.
   }
   window.dispatchEvent(new Event(PROGRESS_CHANGE_EVENT));
+}
+
+/** Persist a completion change and notify all subscribers in this tab. */
+export function setLessonComplete(lessonId: string, done: boolean): void {
+  persist(withCompletion(parseCompleted(getRawSnapshot()), lessonId, done));
+}
+
+/**
+ * Union cloud completions into the local store on sign-in (FR-16).
+ *
+ * Strictly additive — it can never remove an id, which is what keeps the local
+ * store safe as the single reactive source while signed in. Un-completing stays
+ * a signed-out-only, local-only affordance (FR-15). The store knows nothing
+ * about Firebase; AuthProvider hands it a plain id set.
+ */
+export function applyCloudCompletions(cloudIds: Iterable<string>): void {
+  const current = parseCompleted(getRawSnapshot());
+  const next = new Set(current);
+  for (const id of cloudIds) next.add(id);
+
+  // Don't churn storage (or wake every subscriber) when the cloud added nothing.
+  if (next.size === current.size) return;
+  persist(next);
 }

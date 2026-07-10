@@ -5,7 +5,9 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { Cairo, Inter } from 'next/font/google';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
+import { AuthProvider } from '@/components/auth/AuthProvider';
 import { routing } from '@/i18n/routing';
+import { featureFlags } from '@/lib/featureFlags';
 import { siteConfig } from '@/lib/siteConfig';
 import { themeInitScript } from '@/lib/theme';
 
@@ -101,6 +103,12 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+/** Keeps the flag check out of the JSX and off the client-component boundary. */
+function AuthGate({ children }: { children: React.ReactNode }) {
+  if (!featureFlags.webAccounts) return children;
+  return <AuthProvider>{children}</AuthProvider>;
+}
+
 export default async function LocaleLayout({
   children,
   params,
@@ -140,11 +148,19 @@ export default async function LocaleLayout({
           dangerouslySetInnerHTML={{ __html: themeInitScript }}
         />
         <NextIntlClientProvider messages={messages}>
-          <Header />
-          <main id="main-content" className="flex-1">
-            {children}
-          </main>
-          <Footer />
+          {/*
+            Feature 006. With the flag off the provider is not mounted at all, so
+            no account code is reachable from any page. With it on, the provider
+            renders `children` straight through and resolves auth after mount —
+            the prerendered HTML is the same either way (SC-7).
+          */}
+          <AuthGate>
+            <Header />
+            <main id="main-content" className="flex-1">
+              {children}
+            </main>
+            <Footer />
+          </AuthGate>
         </NextIntlClientProvider>
       </body>
     </html>

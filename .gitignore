@@ -59,3 +59,9 @@ brain/
 # bypass the OpenNext metadata-route handler)
 /public/sitemap.xml
 /public/robots.txt
+
+# Firebase Emulator Suite runtime logs
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+*-debug.log
