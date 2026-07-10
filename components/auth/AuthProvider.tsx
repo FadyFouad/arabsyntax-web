@@ -66,7 +66,12 @@ export function useAuth(): AuthContextValue {
 }
 
 export function AuthProvider({ children }: { children: ReactNode }) {
-  const [status, setStatus] = useState<AuthStatus>('loading');
+  // `webAccounts` is a build-time constant, so the flag-off state is known at
+  // first render — derive it in the initializer rather than correcting it with a
+  // setState inside the effect (which would trigger a cascading render).
+  const [status, setStatus] = useState<AuthStatus>(() =>
+    featureFlags.webAccounts ? 'loading' : 'disabled',
+  );
   const [user, setUser] = useState<User | null>(null);
   const [isPremium, setIsPremium] = useState(false);
   const [syncState, setSyncState] = useState<SyncState>('idle');
@@ -142,10 +147,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [onUserResolved]);
 
   useEffect(() => {
-    if (!featureFlags.webAccounts) {
-      setStatus('disabled');
-      return;
-    }
+    // Status is already 'disabled' from the initializer when the flag is off; the
+    // provider isn't even mounted in that case, so this is just belt-and-braces.
+    if (!featureFlags.webAccounts) return;
 
     let cancelled = false;
 
