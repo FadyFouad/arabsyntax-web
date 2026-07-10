@@ -15,6 +15,12 @@ export interface FirebaseWebConfig {
   authDomain: string;
   projectId: string;
   appId: string;
+  // Optional for this feature (auth + Firestore don't need them), but included
+  // so the object matches the console's copy-paste config verbatim. storageBucket
+  // is only consulted by Firebase Storage, messagingSenderId only by FCM —
+  // neither is used here, so they stay optional and out of isConfigured().
+  storageBucket?: string;
+  messagingSenderId?: string;
   measurementId?: string;
 }
 
@@ -23,6 +29,8 @@ export const firebaseConfig: FirebaseWebConfig = {
   authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN ?? '',
   projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID ?? '',
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID ?? '',
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || undefined,
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || undefined,
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID || undefined,
 };
 
