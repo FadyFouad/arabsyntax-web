@@ -397,5 +397,37 @@
     "title": "Something went wrong",
     "description": "Sorry, an unexpected error occurred. Please try again.",
     "retry": "Try again"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signInTitle": "Sign in",
+    "signInSubtitle": "Save your progress and pick up where you left off, on the app and the web.",
+    "continueWithGoogle": "Continue with Google",
+    "continueWithApple": "Continue with Apple",
+    "signingIn": "Signing in…",
+    "signOut": "Sign out",
+    "accountMenu": "Account menu",
+    "openAccountMenu": "Open account menu",
+    "closeDialog": "Close",
+    "premium": "Premium",
+    "syncing": "Syncing your progress…",
+    "syncError": "We couldn’t sync your progress. We’ll try again later.",
+    "providers": {
+      "google": "Google",
+      "apple": "Apple"
+    },
+    "nudge": {
+      "title": "Save your progress",
+      "body": "Sign in so your progress is saved and follows you into the app.",
+      "dismiss": "Dismiss"
+    },
+    "errors": {
+      "accountExists": "This email is already registered — try signing in with {provider}.",
+      "network": "Network error. Check your connection and try again.",
+      "tooManyRequests": "Too many attempts. Wait a moment and try again.",
+      "unsupported": "That sign-in method isn’t available right now.",
+      "userDisabled": "This account is disabled. Please contact support.",
+      "generic": "Sign-in failed. Please try again."
+    }
   }
 }

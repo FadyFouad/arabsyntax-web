@@ -16,6 +16,11 @@ const baseURL = `http://localhost:${PORT}`;
 
 export default defineConfig({
   testDir: './e2e',
+  // e2e/auth needs a flag-on build plus the Firebase emulators — it has its own
+  // config (playwright.emulator.config.ts, `npm run test:e2e:auth`). Keeping it
+  // out of here is deliberate: this suite must keep exercising the flag-OFF
+  // build, which is what production actually serves until the launch gates pass.
+  testIgnore: '**/auth/**',
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,

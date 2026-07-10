@@ -22,13 +22,15 @@
     "preupload": "node scripts/generate-seo.mjs",
     "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
+    "emulators": "firebase emulators:start --only auth,firestore --project demo-arabsyntax",
     "typecheck": "tsc --noEmit",
     "lint": "eslint && node scripts/check-tokens.mjs",
     "check:tokens": "node scripts/check-tokens.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test:e2e:auth": "playwright test --config=playwright.emulator.config.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "5.2.2",
@@ -41,6 +43,7 @@
     "@upstash/ratelimit": "2.0.8",
     "@upstash/redis": "1.37.0",
     "clsx": "2.1.1",
+    "firebase": "12.16.0",
     "lucide-react": "1.8.0",
     "next": "16.2.6",
     "next-intl": "4.13.0",
@@ -61,6 +64,7 @@
     "@vitest/coverage-v8": "4.1.8",
     "eslint": "9.39.4",
     "eslint-config-next": "16.2.6",
+    "firebase-tools": "15.23.0",
     "tailwindcss": "4.2.2",
     "typescript": "5.9.3",
     "vitest": "4.1.8",

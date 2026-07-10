@@ -24,7 +24,24 @@ export default defineConfig({
       // e2e suite (see e2e/), which V8 unit coverage can't attribute — including
       // them here would peg the report at ~28% regardless of unit-test quality.
       include: ['lib/**'],
-      exclude: ['**/*.d.ts'],
+      exclude: [
+        '**/*.d.ts',
+        // Firebase I/O layer (feature 006). Every function here is a thin
+        // dynamic-`import('firebase/*')` wrapper: unit-testing it would only
+        // assert that a mock was called, which is why the plan (research.md
+        // R-10) puts its coverage in the emulator suite (e2e/auth/) instead.
+        //
+        // The logic worth testing was deliberately extracted into
+        // lib/firebase/contracts/** — pure, firebase-free, and NOT excluded, so
+        // the cross-platform write contracts stay pinned at 100% here.
+        'lib/firebase/client.ts',
+        'lib/firebase/config.ts',
+        'lib/firebase/auth.ts',
+        'lib/firebase/analytics.ts',
+        'lib/firebase/userProfile.ts',
+        'lib/firebase/progressSync.ts',
+        'lib/firebase/entitlement.ts',
+      ],
       reporter: ['text', 'json-summary'],
       reportsDirectory: './coverage',
       // Regression gate: `npm run test:coverage` (and CI) fail if coverage drops
