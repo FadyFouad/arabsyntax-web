@@ -1,6 +1,6 @@
 # specs Development Guidelines
 
-Auto-generated from all feature plans. Last updated: 2026-04-10
+Auto-generated from all feature plans. Last updated: 2026-07-10
 
 ## Active Technologies
 - TypeScript 5, Next.js 16.2.3, React 19, next-intl 4.9.0 + framer-motion (to install), next/image (built-in) (main)
@@ -9,6 +9,8 @@ Auto-generated from all feature plans. Last updated: 2026-04-10
 - N/A — all content is static MDX files read at build time (main)
 - TypeScript 5, Next.js 16.2.3, React 19, next-intl 4.9.0 + zod + react-hook-form + @hookform/resolvers + resend + @upstash/ratelimit + @upstash/redis (to install) (main)
 - Server Action (app/actions/contact.ts) for form submission; Upstash Redis (HTTP REST) for rate limiting (main)
+- TypeScript 5, Next.js 16.2.6 (App Router), React 19 + Existing: next-intl 4.13, Tailwind v4, lucide-react. New: `firebase` (modular JS SDK — `firebase/auth`, `firebase/firestore`, `firebase/analytics`), loaded lazily on the client only (main)
+- Firestore (existing app project — `users/{uid}`, `users/{uid}/progress/*`, `purchases/{uid}`; read/write contracts fixed by the mobile app, see [contracts/](./contracts/)); browser localStorage (`arabsyntax-lesson-progress`) remains the signed-out store (main)
 
 - **001-site-foundation**: Next.js 16 (App Router), TypeScript 5, React 19,
   Tailwind CSS v4 (CSS-first `@theme`), next-intl, next/font/google, lucide-react
@@ -57,12 +59,10 @@ TypeScript strict mode. PascalCase components. camelCase utilities and message k
 Nested message keys by feature: `nav.features`, `footer.legal.privacy`.
 
 ## Recent Changes
+- main: Added TypeScript 5, Next.js 16.2.6 (App Router), React 19 + Existing: next-intl 4.13, Tailwind v4, lucide-react. New: `firebase` (modular JS SDK — `firebase/auth`, `firebase/firestore`, `firebase/analytics`), loaded lazily on the client only
 - main: Added TypeScript 5, Next.js 16.2.3, React 19, next-intl 4.9.0 + zod + react-hook-form + @hookform/resolvers + resend + @upstash/ratelimit + @upstash/redis (to install)
 - main: Added TypeScript 5, Next.js 16.2.3, React 19, next-intl 4.9.0 + @next/mdx + @mdx-js/loader + @mdx-js/react + @types/mdx (to install), @tailwindcss/typography (to install)
-- main: Added TypeScript 5, Next.js 16.2.3, React 19, next-intl 4.9.0 + framer-motion (to install), next/image (built-in)
 
-- 004-support-page: zod (shared validation), react-hook-form + @hookform/resolvers (client form), resend (email), @upstash/ratelimit + @upstash/redis (rate limiting, Netlify-compatible via HTTP REST)
-- 001-site-foundation: Initial foundation plan — proxy.ts, i18n setup, Header, Footer, dark theme
 
 <!-- MANUAL ADDITIONS START -->
 <!-- MANUAL ADDITIONS END -->
