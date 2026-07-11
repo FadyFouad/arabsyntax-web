@@ -429,5 +429,47 @@
       "userDisabled": "This account is disabled. Please contact support.",
       "generic": "Sign-in failed. Please try again."
     }
+  },
+  "profileForm": {
+    "title": "Tell us about yourself",
+    "subtitle": "Your answers help us improve your experience. Every question is optional.",
+    "close": "Close",
+    "skip": "Skip",
+    "save": "Save",
+    "saving": "Saving…",
+    "error": "Couldn’t save. Try again, or skip for now.",
+    "nameLabel": "What’s your name?",
+    "namePlaceholder": "Your name",
+    "goalLabel": "Why are you learning grammar?",
+    "goals": {
+      "thanaweya": "Thanaweya Amma (high school)",
+      "quran": "Understanding the Qur’an",
+      "languageImprovement": "Improving my Arabic",
+      "generalInterest": "General interest"
+    },
+    "stageLabel": "Which year are you in?",
+    "stages": {
+      "sec1": "1st secondary",
+      "sec2": "2nd secondary",
+      "sec3": "3rd secondary"
+    },
+    "levelLabel": "What’s your level in grammar?",
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "countryLabel": "Which country are you from?",
+    "countryPlaceholder": "Search for your country…",
+    "countryEmpty": "No results",
+    "sourceLabel": "How did you hear about us?",
+    "sources": {
+      "search": "Web search",
+      "app": "The mobile app",
+      "socialMedia": "Social media",
+      "friend": "From a friend",
+      "teacher": "From a teacher",
+      "other": "Other"
+    }
   }
 }

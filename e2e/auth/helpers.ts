@@ -1,4 +1,4 @@
-import type { Page } from '@playwright/test';
+import { expect, type Page } from '@playwright/test';
 
 /**
  * Emulator plumbing for the account-sync e2e suite.
@@ -178,6 +178,45 @@ async function completeNewAccountForm(
   await popup.waitForEvent('close');
 }
 
+// ─── Post-sign-in profile form (feature 008) ─────────────────────────────────
+
+/** localStorage hint the form gate stamps once the doc markers are known present. */
+export const PROFILE_FORM_DONE_KEY = 'arabsyntax-profile-form-done';
+
+/** The profile form's modal dialog, unambiguous by its title. */
+export function profileFormDialog(page: Page) {
+  return page.getByRole('dialog').filter({ hasText: /أخبرنا عنك|Tell us about yourself/ });
+}
+
+/**
+ * Every sign-in resolution ends in exactly one of two states: the profile form
+ * opened (modal — everything underneath is inert), or the gate stamped the
+ * "done" hint after finding a marker on the document. Wait for whichever, then
+ * skip the form if it opened, so tests written before feature 008 can keep
+ * clicking the page right after signing in.
+ */
+async function settleProfileForm(page: Page): Promise<void> {
+  const form = profileFormDialog(page);
+
+  await expect
+    .poll(async () => {
+      if (await form.isVisible().catch(() => false)) return 'form';
+      const done = await page.evaluate((key) => localStorage.getItem(key), PROFILE_FORM_DONE_KEY);
+      return done ? 'done' : 'pending';
+    })
+    .not.toBe('pending');
+
+  if (await form.isVisible().catch(() => false)) {
+    await form.getByRole('button', { name: /تخطي|Skip/ }).click();
+    await form.waitFor({ state: 'detached' });
+  }
+}
+
+export interface SignInOptions {
+  /** Leave the profile form open instead of skipping it — for the tests OF the form. */
+  keepProfileForm?: boolean;
+}
+
 /**
  * Drive a full sign-in: open the header dialog, pick a provider, and complete
  * the Auth Emulator's account widget in the popup it opens.
@@ -190,6 +229,7 @@ export async function signIn(
   page: Page,
   provider: Provider,
   account: { email: string; displayName?: string },
+  options?: SignInOptions,
 ): Promise<void> {
   await page.getByRole('button', { name: /تسجيل الدخول|Sign in/ }).first().click();
 
@@ -205,10 +245,16 @@ export async function signIn(
   // appearing is proof the `users/{uid}` write already landed — every caller can
   // read the doc immediately after this returns without racing the upsert.
   await accountButton(page).waitFor();
+  if (!options?.keepProfileForm) await settleProfileForm(page);
 }
 
 /** Sign in again as an account the emulator already knows, by picking it from the list. */
-export async function signInAsExisting(page: Page, provider: Provider, email: string): Promise<void> {
+export async function signInAsExisting(
+  page: Page,
+  provider: Provider,
+  email: string,
+  options?: SignInOptions,
+): Promise<void> {
   await page.getByRole('button', { name: /تسجيل الدخول|Sign in/ }).first().click();
 
   const popupPromise = page.waitForEvent('popup');
@@ -219,6 +265,7 @@ export async function signInAsExisting(page: Page, provider: Provider, email: st
   await popup.getByText(email).click();
   await popup.waitForEvent('close');
   await accountButton(page).waitFor();
+  if (!options?.keepProfileForm) await settleProfileForm(page);
 }
 
 /** The header avatar button, present only once auth has resolved to signed-in. */
