@@ -75,3 +75,40 @@ export async function setAnalyticsUserId(uid: string): Promise<void> {
     setUserId(analytics, uid);
   });
 }
+
+// ─── Post-sign-in profile form (feature 008) — additive only ─────────────────
+
+/** Fired once each time the form is actually opened for a user. */
+export async function logProfileFormShown(): Promise<void> {
+  await withAnalytics(async (analytics) => {
+    const { logEvent } = await import('firebase/analytics');
+    logEvent(analytics, 'profile_form_shown');
+  });
+}
+
+/**
+ * Fired on the form's successful submit. `goal` doubles as the `learning_goal`
+ * user property when provided; the event param reports `'none'` in its place so
+ * the completion funnel has no gaps.
+ */
+export async function logProfileFormCompleted(
+  fieldsFilled: number,
+  goal: string | null,
+): Promise<void> {
+  await withAnalytics(async (analytics) => {
+    const { logEvent, setUserProperties } = await import('firebase/analytics');
+    logEvent(analytics, 'profile_form_completed', {
+      fields_filled: fieldsFilled,
+      goal: goal ?? 'none',
+    });
+    if (goal) setUserProperties(analytics, { learning_goal: goal });
+  });
+}
+
+/** Fired when the user dismisses the form via any skip affordance. */
+export async function logProfileFormSkipped(): Promise<void> {
+  await withAnalytics(async (analytics) => {
+    const { logEvent } = await import('firebase/analytics');
+    logEvent(analytics, 'profile_form_skipped');
+  });
+}

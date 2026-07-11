@@ -429,5 +429,47 @@
       "userDisabled": "هذا الحساب موقوف. تواصَل مع الدعم.",
       "generic": "تعذّر تسجيل الدخول. حاوِل مرة أخرى."
     }
+  },
+  "profileForm": {
+    "title": "أخبرنا عنك",
+    "subtitle": "إجاباتك تساعدنا على تحسين تجربتك. كل الأسئلة اختيارية.",
+    "close": "إغلاق",
+    "skip": "تخطي",
+    "save": "حفظ",
+    "saving": "جارٍ الحفظ…",
+    "error": "تعذّر الحفظ. حاوِل مرة أخرى أو تخطَّ الآن.",
+    "nameLabel": "ما اسمك؟",
+    "namePlaceholder": "اسمك",
+    "goalLabel": "ما هدفك من تعلّم النحو؟",
+    "goals": {
+      "thanaweya": "الثانوية العامة",
+      "quran": "فهم القرآن الكريم",
+      "languageImprovement": "تحسين لغتي",
+      "generalInterest": "اهتمام عام"
+    },
+    "stageLabel": "في أي صفٍّ أنت؟",
+    "stages": {
+      "sec1": "الأول الثانوي",
+      "sec2": "الثاني الثانوي",
+      "sec3": "الثالث الثانوي"
+    },
+    "levelLabel": "ما مستواك في النحو؟",
+    "levels": {
+      "beginner": "مبتدئ",
+      "intermediate": "متوسط",
+      "advanced": "متقدّم"
+    },
+    "countryLabel": "من أي بلد أنت؟",
+    "countryPlaceholder": "ابحث عن بلدك…",
+    "countryEmpty": "لا توجد نتائج",
+    "sourceLabel": "كيف سمعت عنا؟",
+    "sources": {
+      "search": "البحث في الإنترنت",
+      "app": "تطبيق النحو الكافي",
+      "socialMedia": "وسائل التواصل الاجتماعي",
+      "friend": "من صديق",
+      "teacher": "من معلّم",
+      "other": "أخرى"
+    }
   }
 }

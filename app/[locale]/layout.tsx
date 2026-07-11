@@ -6,6 +6,7 @@ import { Cairo, Inter } from 'next/font/google';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { AuthProvider } from '@/components/auth/AuthProvider';
+import ProfileFormDialog from '@/components/auth/ProfileFormDialog';
 import { routing } from '@/i18n/routing';
 import { featureFlags } from '@/lib/featureFlags';
 import { siteConfig } from '@/lib/siteConfig';
@@ -106,7 +107,14 @@ export function generateStaticParams() {
 /** Keeps the flag check out of the JSX and off the client-component boundary. */
 function AuthGate({ children }: { children: React.ReactNode }) {
   if (!featureFlags.webAccounts) return children;
-  return <AuthProvider>{children}</AuthProvider>;
+  return (
+    <AuthProvider>
+      {children}
+      {/* Feature 008: post-sign-in profile form. Renders nothing until a
+          signed-in user's users/{uid} doc says it was never completed/skipped. */}
+      <ProfileFormDialog />
+    </AuthProvider>
+  );
 }
 
 export default async function LocaleLayout({

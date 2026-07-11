@@ -41,6 +41,9 @@ export default defineConfig({
         'lib/firebase/userProfile.ts',
         'lib/firebase/progressSync.ts',
         'lib/firebase/entitlement.ts',
+        // Same shape, feature 008: the pure logic is in
+        // lib/firebase/contracts/learnerProfilePayload.ts; this is the I/O shell.
+        'lib/firebase/learnerProfile.ts',
       ],
       reporter: ['text', 'json-summary'],
       reportsDirectory: './coverage',
