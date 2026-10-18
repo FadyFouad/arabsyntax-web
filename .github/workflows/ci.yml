@@ -44,6 +44,12 @@ jobs:
           node-version: 22 # matches package.json engines (">=22")
           cache: npm
 
+      # Node 22 ships npm 10, whose arborist crashes building a fresh tree
+      # for this dependency set ("Cannot read properties of null (reading
+      # 'edgesOut')" in #loadPeerSet). npm 11 resolves it cleanly.
+      - name: Use npm 11
+        run: npm install -g npm@11
+
       # vitest 4 pulls in rolldown, whose linux native binding
       # (@rolldown/binding-linux-x64-gnu) is recorded as an optionalDependency
       # but gets NO package entry in a macOS-authored lockfile — so neither
@@ -75,6 +81,10 @@ jobs:
         with:
           node-version: 22
           cache: npm
+
+      # npm 10 crashes on the fresh install below; see the `test` job.
+      - name: Use npm 11
+        run: npm install -g npm@11
 
       # See the note in the `test` job: resolve deps fresh on the runner so the
       # linux rolldown/esbuild native bindings are installed (cross-platform
@@ -141,6 +151,10 @@ jobs:
           distribution: temurin
           java-version: 21
 
+      # npm 10 crashes on the fresh install below; see the `test` job.
+      - name: Use npm 11
+        run: npm install -g npm@11
+
       # See the note in the `test` job: resolve deps fresh for the linux native
       # bindings (rolldown/esbuild) missing from a macOS-authored lockfile.
       - name: Install dependencies
@@ -187,6 +201,10 @@ jobs:
         with:
           node-version: 22
           cache: npm
+
+      # npm 10 crashes on the fresh install below; see the `test` job.
+      - name: Use npm 11
+        run: npm install -g npm@11
 
       # Same cross-platform lockfile bug as the other jobs: resolve deps fresh on
       # the linux runner so the native rolldown/esbuild bindings are installed.
