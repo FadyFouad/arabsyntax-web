@@ -1,8 +1,9 @@
 import { describe, it, expect } from 'vitest';
-import { readFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import path from 'node:path';
 import { manifestSchema, matnContentSchema } from '@/lib/mutun/schema';
 import { normalizeForCompare, stripTashkeel } from '@/lib/mutun/markup';
+import { ALFIYYA_ID, alfiyyaViolations } from './mutun-alfiyya-integrity';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // المتون CONTENT-INTEGRITY GUARD — the six acceptance criteria, run against the
@@ -50,14 +51,34 @@ describe('2. canonical opening of al-Ajurrumiyya', () => {
 // 3 ── No wrong / fabricated text ─────────────────────────────────────────────
 describe('3. no wrong/fabricated text in any matn asset', () => {
   const FORBIDDEN = ['كلامنا', 'كاستقم', 'ابن مالك', 'ألفية', 'الفية'];
-  const files = ['manifest.json', 'aljurrumiyya.json', 'alimriti.json', 'qatr_alnada.json'];
 
-  it.each(files)('%s contains none of the Alfiyya-mislabel substrings', (file) => {
-    // Strip tashkeel first so a diacriticised match (e.g. "ألفيّة") can't slip past.
-    const haystack = stripTashkeel(rawText(path.join(MUTUN, file)));
+  // Matn ids exempt from FORBIDDEN, keyed on the manifest id, never on a
+  // filename. Only the Alfiyya itself, whose text legitimately carries every
+  // marker; it gets its own positive checks in section 7 instead (spec 057
+  // FR-001…FR-003). Every other matn, current or future, stays guarded: the
+  // list is derived from the manifest, not hardcoded.
+  const MARKER_EXEMPT_MATN_IDS = new Set([ALFIYYA_ID]);
+  const guarded = manifest.mutun.filter((m) => !MARKER_EXEMPT_MATN_IDS.has(m.id));
+
+  // Strip tashkeel first so a diacriticised match (e.g. "ألفيّة") can't slip past.
+  const expectNoMarkers = (text: string, where: string) => {
+    const haystack = stripTashkeel(text);
     for (const needle of FORBIDDEN) {
-      expect(haystack.includes(needle), `found forbidden "${needle}" in ${file}`).toBe(false);
+      expect(haystack.includes(needle), `found forbidden "${needle}" in ${where}`).toBe(false);
     }
+  };
+
+  it('the forbidden-marker exemption covers the Alfiyya alone', () => {
+    // A wider set would silently unguard another matn (FR-001/FR-002).
+    expect([...MARKER_EXEMPT_MATN_IDS]).toEqual([ALFIYYA_ID]);
+  });
+
+  it.each(guarded)('$id.json contains none of the Alfiyya-mislabel substrings', ({ id }) => {
+    expectNoMarkers(rawText(path.join(MUTUN, `${id}.json`)), `${id}.json`);
+  });
+
+  it.each(guarded)('manifest entry "$id" contains none of the Alfiyya-mislabel substrings', (entry) => {
+    expectNoMarkers(JSON.stringify(entry), `manifest.json entry "${entry.id}"`);
   });
 });
 
@@ -130,5 +151,70 @@ describe('6. empty and error states are semantically distinct', () => {
 
   it('the error message is different from the empty message', () => {
     expect(ar.mutun.errorTitle).not.toBe(ar.mutun.emptyTitle);
+  });
+});
+
+// 7 ── ألفية ابن مالك positive checks (spec 057 FR-003) ─────────────────────────
+describe('7. alfiyya integrity', () => {
+  // Runs only once the content lands (FR-003a), so the guard can ship before
+  // the content does.
+  const alfiyyaFile = path.join(MUTUN, `${ALFIYYA_ID}.json`);
+  it.skipIf(!existsSync(alfiyyaFile))(
+    'alfiyya.json passes its own checks (opening بيت, verse-only, unique ids)',
+    () => {
+      expect(alfiyyaViolations(read(alfiyyaFile))).toEqual([]);
+    },
+  );
+
+  describe('rules reject bad content', () => {
+    type Section = Record<string, unknown>;
+    const verse = (id: string, sadr = 'صدر', ajz = 'عجز'): Section => ({ type: 'verse', id, sadr, ajz });
+    const matn = (babs: Section[][]) => ({
+      id: ALFIYYA_ID,
+      units: babs.map((sections, i) => ({ order: i + 1, kind: 'bab', title: `باب ${i + 1}`, body: { sections } })),
+    });
+    const validBabs = (): Section[][] => [
+      [verse('alfiyya_0001', 'قَالَ مُحَمَّدٌ هُوَ ابْنُ مَالِكِ', 'أَحْمَدُ رَبِّي اللَّهَ خَيْرَ مَالِكِ'), verse('alfiyya_0002')],
+      [verse('alfiyya_0003')],
+    ];
+    const violationsWith = (mutate: (babs: Section[][]) => void) => {
+      const babs = validBabs();
+      mutate(babs);
+      return alfiyyaViolations(matn(babs));
+    };
+
+    it('a well-formed matn has no violations', () => {
+      expect(alfiyyaViolations(matn(validBabs()))).toEqual([]);
+    });
+
+    it('a missing opening بيت is rejected', () => {
+      const v = violationsWith((b) => b[0].shift());
+      expect(v.some((m) => m.startsWith('opening بيت missing'))).toBe(true);
+    });
+
+    it('a non-verse section is rejected', () => {
+      const v = violationsWith((b) => b[1].push({ type: 'paragraph', text: 'نثر' }));
+      expect(v.some((m) => m.includes('non-verse section'))).toBe(true);
+    });
+
+    it('a verse with no عجز is rejected', () => {
+      const v = violationsWith((b) => b[1].push(verse('alfiyya_0004', 'صدر', ' ')));
+      expect(v.some((m) => m.includes('empty عجز'))).toBe(true);
+    });
+
+    it('a verse with no id is rejected', () => {
+      const v = violationsWith((b) => b[1].push({ type: 'verse', sadr: 'صدر', ajz: 'عجز' }));
+      expect(v.some((m) => m.includes('without an id'))).toBe(true);
+    });
+
+    it('a duplicate id is rejected, even across أبواب', () => {
+      const v = violationsWith((b) => b[1].push(verse('alfiyya_0002')));
+      expect(v).toContain('unit 2: duplicate verse id "alfiyya_0002"');
+    });
+
+    it.each(['alfiyya_1', 'alfiyya_00001', 'imriti_0004', 'alfiyya-0004'])('malformed id %s is rejected', (bad) => {
+      const v = violationsWith((b) => b[1].push(verse(bad)));
+      expect(v).toContain(`unit 2: malformed verse id "${bad}"`);
+    });
   });
 });
