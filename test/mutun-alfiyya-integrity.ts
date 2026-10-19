@@ -16,6 +16,9 @@ export const ALFIYYA_VERSE_ID = /^alfiyya_\d{4}$/;
 /** The Alfiyya opens with the مقدمة's first بيت (tashkeel stripped). */
 export const ALFIYYA_OPENING = 'قال محمد هو ابن مالك';
 
+/** Folds alef wasla (ٱ) into a plain alef: vocalized editions print «ٱبْنُ» where the reference has «ابن». */
+const foldAlefWasla = (text: string) => text.replace(/ٱ/g, 'ا');
+
 type Json = Record<string, unknown>;
 
 const sectionsOf = (unit: Json): Json[] => {
@@ -37,7 +40,7 @@ export function alfiyyaViolations(content: Json): string[] {
 
   const violations: string[] = [];
   const firstSadr = sectionsOf(units[0])[0]?.sadr;
-  if (typeof firstSadr !== 'string' || !normalizeForCompare(firstSadr).startsWith(ALFIYYA_OPENING)) {
+  if (typeof firstSadr !== 'string' || !foldAlefWasla(normalizeForCompare(firstSadr)).startsWith(ALFIYYA_OPENING)) {
     violations.push(`opening بيت missing: first صدر must start with "${ALFIYYA_OPENING}"`);
   }
 

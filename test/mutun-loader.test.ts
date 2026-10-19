@@ -28,7 +28,7 @@ describe('getMatn slug guard (path-traversal defense)', () => {
 describe('getMutunIndex / getMatnIds / getMatn against the real assets', () => {
   it('lists the shipped matns in manifest order', () => {
     const ids = getMatnIds();
-    expect(ids).toEqual(['aljurrumiyya', 'alimriti', 'qatr_alnada']);
+    expect(ids).toEqual(['aljurrumiyya', 'alimriti', 'qatr_alnada', 'alfiyya']);
   });
 
   it('returns the same cached array on a second call', () => {
