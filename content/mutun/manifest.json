@@ -29,6 +29,16 @@
       "level": "intermediate",
       "type": "prose",
       "unitCount": 16
+    },
+    {
+      "id": "alfiyya",
+      "titleAr": "ألفية ابن مالك",
+      "titleEn": "Alfiyyat Ibn Malik",
+      "author": "ابن مالك",
+      "era": "القرن السابع الهجري (ت ٦٧٢ هـ)",
+      "level": "advanced",
+      "type": "verse",
+      "unitCount": 82
     }
   ]
 }

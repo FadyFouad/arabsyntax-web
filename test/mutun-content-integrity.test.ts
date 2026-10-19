@@ -187,6 +187,13 @@ describe('7. alfiyya integrity', () => {
       expect(alfiyyaViolations(matn(validBabs()))).toEqual([]);
     });
 
+    it('an opening spelled with alef wasla (ٱبْنُ) is accepted', () => {
+      const v = violationsWith((b) => {
+        b[0][0].sadr = 'قَالَ مُحَمَّدٌ هُوَ ٱبْنُ مَالِكِ';
+      });
+      expect(v).toEqual([]);
+    });
+
     it('a missing opening بيت is rejected', () => {
       const v = violationsWith((b) => b[0].shift());
       expect(v.some((m) => m.startsWith('opening بيت missing'))).toBe(true);
