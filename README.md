@@ -1,9 +1,17 @@
 # Al-Nahw Al-Kafi — Website
 
+**🌐 Live site: [alnahwalkafi.com](https://alnahwalkafi.com)** · [English](https://alnahwalkafi.com/en)
+
+Get the app: [Google Play](https://play.google.com/store/apps/details?id=com.etateck.arabsyntax) · [App Store](https://apps.apple.com/us/app/%D8%A7%D9%84%D9%86%D8%AD%D9%88-%D8%A7%D9%84%D9%83%D8%A7%D9%81%D9%8A/id6448959921)
+
 Marketing + content website for **Al-Nahw Al-Kafi (النحو الكافي)**, an Arabic-grammar
-learning app. The site is a statically-rendered, bilingual (Arabic/English) Next.js
-app that also publishes the app's grammar **lessons** and word-by-word **i'rab
-(إعراب)** examples as indexable pages to grow Arabic-language SEO.
+learning app. It is a bilingual (Arabic/English) Next.js site that, alongside the
+landing page, publishes the app's learning content as indexable pages:
+
+- **Lessons** — the app's grammar lessons, rendered section by section.
+- **I'rab (إعراب)** — word-by-word grammatical analysis of example sentences.
+- **Mutun (المتون)** — classical grammar texts, from the Ajurrumiyya to the Alfiyya and Ibn Aqil's commentary.
+- **Quiz (اختبر نفسك)** — self-assessment from the app's question bank, graded server-side.
 
 ## Tech stack
 
@@ -11,23 +19,31 @@ app that also publishes the app's grammar **lessons** and word-by-word **i'rab
 |---|---|
 | Framework | Next.js 16 (App Router, Turbopack) |
 | Language | TypeScript 5, React 19 |
-| Styling | Tailwind CSS v4 (CSS-first `@theme` tokens) |
+| Styling | Tailwind CSS v4 (CSS-first `@theme` tokens), light + dark themes |
 | i18n | `next-intl` 4 — Arabic (default, unprefixed) + English (`/en`) |
-| Content | JSON (lessons, i'rab) + MDX (legal pages) |
+| Content | JSON (lessons, i'rab, mutun, quiz) + MDX (legal pages) |
 | Forms | React Hook Form + Zod, via a Server Action |
+| Bot protection | Cloudflare Turnstile (contact form) |
 | Email | Resend (contact form) |
 | Rate limiting | Upstash Redis |
-| Validation | Zod |
+| Accounts | Firebase Auth (Google/Apple) + Firestore progress sync (build-time flag, on in production) |
 | Hosting | Cloudflare Workers via OpenNext — see [Deployment](#deployment) |
 
 ## Getting started
 
 ```bash
-nvm use
+nvm use                      # Node 22
 npm install
 cp .env.example .env.local   # fill in values (see Environment)
 npm run dev                  # http://localhost:3000
 ```
+
+> **About `package-lock.json`:** it is not authoritative. Native bindings (rolldown,
+> esbuild) get no lock entry for the *other* OS when the lock is written on macOS or
+> Linux, so no single committed lock installs on both. CI deletes it and resolves fresh
+> on each run with npm 11 (npm 10 crashes on a fresh resolve; see the comments in
+> `.github/workflows/ci.yml`). Locally, use `npm install`, not `npm ci`. If you ever need to
+> install without the lock, upgrade first: `npm install -g npm@11`.
 
 ### Scripts
 
@@ -43,28 +59,51 @@ npm run dev                  # http://localhost:3000
 | `npm run upload` | Build and upload a Cloudflare Worker version without deploying |
 | `npm run seo` | Generate `public/sitemap.xml` + `public/robots.txt` (runs automatically before dev/build/preview/deploy) |
 | `npm run cf-typegen` | Generate Cloudflare binding types |
+| `npm run typecheck` | `tsc --noEmit` |
 | `npm run lint` | ESLint **+** the design-token governance check |
 | `npm run check:tokens` | Run only the raw-color-literal check |
 | `npm test` | Vitest unit + integration suite (incl. content-integrity & i18n-parity regression guards) |
 | `npm run test:watch` | Run Vitest in watch mode |
+| `npm run test:coverage` | Vitest with coverage |
 | `npm run test:e2e` | Playwright end-to-end suite (builds + serves the prod site, sweeps chromium + mobile-chrome) |
+| `npm run emulators` | Start the Firebase Auth + Firestore emulators (for account work) |
+| `npm run test:e2e:auth` | Playwright account suite against the emulators |
 
 ## Environment
 
 Copy `.env.example` → `.env.local`.
 
+### Core
+
 | Variable | Required | Purpose |
 |---|---|---|
-| `RESEND_API_KEY` | yes (for contact form) | Resend API key for support emails |
-| `RESEND_FROM_EMAIL` | prod | Verified Resend sender address/domain |
-| `SUPPORT_EMAIL` | yes (for contact form) | Destination address for the contact form |
-| `UPSTASH_REDIS_REST_URL` | prod | Upstash Redis endpoint (contact-form rate limiting) |
-| `UPSTASH_REDIS_REST_TOKEN` | prod | Upstash Redis token |
-| `NEXT_PUBLIC_SITE_URL` | prod | Canonical site origin (e.g. `https://…`). Defaults to `http://localhost:3000`; used for canonical/hreflang/OG/sitemap URLs. |
+| `NEXT_PUBLIC_SITE_URL` | prod | Canonical site origin (`https://alnahwalkafi.com` in production). Defaults to `http://localhost:3000`; used for canonical/hreflang/OG/sitemap URLs. |
 | `NEXT_SERVER_ACTIONS_ENCRYPTION_KEY` | prod | Stable Server Actions encryption key across overlapping deployments |
+| `QUIZ_TOKEN_SECRET` | prod | HMAC secret for signing quiz tokens. A dev fallback is used locally; tokens never carry correct answers. |
 
-For local Worker preview, copy `.dev.vars.example` to `.dev.vars` and fill in the same
-runtime values. Keep `.env.local` and `.dev.vars` out of Git.
+### Contact form
+
+| Variable | Required | Purpose |
+|---|---|---|
+| `RESEND_API_KEY` | yes | Resend API key for support emails |
+| `RESEND_FROM_EMAIL` | prod | Verified Resend sender address/domain |
+| `SUPPORT_EMAIL` | yes | Destination address for the contact form |
+| `NEXT_PUBLIC_TURNSTILE_SITE_KEY` | yes | Cloudflare Turnstile site key (widget) |
+| `TURNSTILE_SECRET_KEY` | yes | Turnstile secret — submissions are rejected when it is unset |
+| `UPSTASH_REDIS_REST_URL` | prod | Upstash Redis endpoint (rate limiting) |
+| `UPSTASH_REDIS_REST_TOKEN` | prod | Upstash Redis token |
+
+### Web accounts (feature 006)
+
+| Variable | Required | Purpose |
+|---|---|---|
+| `NEXT_PUBLIC_WEB_ACCOUNTS` | — | Feature flag, read at build time. While unset, no account UI renders and no Firebase code is reachable. **Set to `true` by the production deploy job** (owner decision, 2026-07-11 — see [Deployment](#deployment)); leave unset locally unless you're working on accounts. |
+| `NEXT_PUBLIC_FIREBASE_*` | with the flag | Firebase web app config (`API_KEY`, `AUTH_DOMAIN`, `PROJECT_ID`, `APP_ID`, plus optional `STORAGE_BUCKET`, `MESSAGING_SENDER_ID`, `MEASUREMENT_ID`). Public by design; security lives in Firestore rules. |
+| `NEXT_PUBLIC_FIREBASE_EMULATORS` | dev only | Point the SDK at `npm run emulators`. Never set in a deployed build. |
+
+See `.env.example` for comments on each value. For local Worker preview, copy
+`.dev.vars.example` to `.dev.vars` and fill in the same runtime values. Keep `.env.local`
+and `.dev.vars` out of Git.
 
 ## Project structure
 
@@ -74,60 +113,43 @@ app/
     page.tsx             # landing page
     lessons/             # /lessons + /lessons/[slug]
     i3rab/               # /i3rab + /i3rab/[slug]
+    mutun/               # /mutun + /mutun/[id]
+    quiz/                # /quiz
     privacy|terms|support/
     [...rest]/           # locale-scoped catch-all → not-found
     error.tsx not-found.tsx
-  actions/contact.ts     # contact-form Server Action
+  actions/contact.ts     # contact-form Server Action (Turnstile + rate limit + Resend)
+  api/quiz/[id]/         # quiz GET (questions, no answers) + submit (server-side grading)
+  go/[platform]/         # app-store redirect that records download clicks
   global-error.tsx       # root error boundary
-  globals.css            # Tailwind import + @theme design tokens
+  globals.css            # Tailwind import + @theme design tokens (dark + light)
 components/
-  lessons/ i3rab/        # section renderers
+  lessons/ i3rab/ mutun/ quiz/   # section renderers
+  auth/                  # account menu, sign-in, profile form (behind the flag)
   layout/ ui/ sections/ forms/ seo/
 content/
   lessons/{ar,en}/*.json # 50 lessons per locale + manifest.json
   i3rab/ar/*.json        # i'rab sentences (filename = slug)
+  mutun/*.json           # classical texts + manifest.json
+  quiz/*.json            # question banks by school stage + manifest.json
   legal/*.mdx            # privacy & terms (per locale)
 lib/
-  lessons/ i3rab/        # Zod schemas + loaders
-  siteConfig.ts featureFlags.ts email/ ratelimit/ validation/
+  lessons/ i3rab/ mutun/ quiz/   # Zod schemas + loaders
+  firebase/              # Firebase config (accounts)
+  siteConfig.ts featureFlags.ts theme.ts email/ validation/ ratelimit.ts
 i18n/                    # next-intl routing + request config
 messages/{ar,en}.json    # UI strings
 public/                  # static assets + build-generated sitemap.xml, robots.txt, manifest.webmanifest
-docs/design-system.md    # token reference + component catalog
+docs/                    # design-system.md, TEST_STRATEGY.md, hosting-assessment.md
+plan/                    # production-deployment-runbook.md
+specs/                   # per-feature specs, plans, and tasks
 scripts/
   check-tokens.mjs       # governance: blocks raw color literals
   generate-seo.mjs       # emits public/sitemap.xml + robots.txt at build time
 test/                    # Vitest unit + integration tests
-e2e/                     # Playwright end-to-end specs
-playwright.config.ts     # Playwright config (chromium + mobile-chrome)
-docs/TEST_STRATEGY.md    # test inventory + risk report
-.github/workflows/ci.yml # CI: lint + tests (fast gate) and a separate E2E job
+e2e/                     # Playwright specs (e2e/auth/ runs against the emulators)
+.github/workflows/ci.yml # CI: lint/typecheck/tests, E2E, accounts E2E, and the production deploy
 ```
-
-## Testing
-
-- **Unit + integration** (`npm test`, Vitest, ~1s) — focused on the dynamic surface
-  (contact pipeline: action control-flow, Zod validation, Resend escaping/headers) and the
-  content loaders, plus two **regression guards**: `content-integrity` (every lesson/i'rab/
-  manifest file validated against its schema) and `i18n-parity` (`ar.json` ↔ `en.json` key
-  parity + every contact-form error code resolves). Specs in `test/`.
-- **End-to-end** (`npm run test:e2e`, Playwright) — smoke, navigation, contact form,
-  SEO/theme, and prerender completeness across **desktop chromium + mobile-chrome**. Specs in
-  `e2e/`, config in `playwright.config.ts`. First run downloads the browser:
-  `npx playwright install chromium`.
-- **CI** (`.github/workflows/ci.yml`) — on every push/PR to `main`, a **fast gate**
-  (`npm run lint` + `npm test`, the required check) runs alongside a separate **E2E** job.
-- Full inventory + risk report: [`docs/TEST_STRATEGY.md`](docs/TEST_STRATEGY.md).
-
-## Internationalization
-
-- `next-intl` with `localePrefix: 'as-needed'`: **Arabic is the default and unprefixed**
-  (`/`, `/lessons`), **English is prefixed** (`/en`, `/en/lessons`).
-- Locale routing is handled by `middleware.ts` (next-intl middleware). Next 16
-  renamed this convention to `proxy.ts`, but `proxy.ts` is Node-only in this
-  version; Cloudflare/OpenNext currently needs the Edge middleware path.
-- `app/[locale]/layout.tsx` is the sole root layout and sets `<html lang dir>`
-  (`rtl` for Arabic). UI strings live in `messages/{ar,en}.json`.
 
 ## Content sections
 
@@ -141,22 +163,66 @@ docs/TEST_STRATEGY.md    # test inventory + risk report
   stay Arabic on both — only the surrounding UI follows the locale. Both versions
   **canonicalize to the Arabic URL** to avoid duplicate content. Links to a related
   lesson when the lesson name matches (fails safe to plain text otherwise).
+- **Mutun** (`/mutun`) — classical grammar texts from `content/mutun/`, listed in
+  `manifest.json`: المقدمة الآجرومية, الدرة البهية (نظم العمريطي), قطر الندى, ألفية ابن مالك,
+  and شرح ابن عقيل. Verse and prose texts render differently; long texts are split into
+  units with an index and a pager.
+- **Quiz** (`/quiz`) — question banks from `content/quiz/`, organized by school stage.
+  The client fetches questions from `GET /api/quiz/[id]` (filtered by difficulty and
+  lesson) together with a signed token, and answers are graded on the server via
+  `submit`. Correct answers never reach the browser before submission.
 - **Legal** (`/privacy`, `/terms`) — MDX with frontmatter.
-- **Support** (`/support`) — contact form (Server Action → Resend, rate-limited).
+- **Support** (`/support`) — contact form (Server Action → Turnstile check → rate limit → Resend).
+- **Accounts** *(live; gated by `NEXT_PUBLIC_WEB_ACCOUNTS`)* — sign in with the same
+  Google/Apple account as the app, sync lesson progress both ways, and see premium status.
+  Spec and launch gates: [`specs/006-web-account-sync/`](specs/006-web-account-sync/).
 
-All content pages are statically generated (SSG) at build time. Adding/updating
-content requires editing the JSON/MDX and redeploying.
+Content pages are statically generated (SSG) at build time. Adding/updating content
+requires editing the JSON/MDX and redeploying.
+
+## Internationalization
+
+- `next-intl` with `localePrefix: 'as-needed'`: **Arabic is the default and unprefixed**
+  (`/`, `/lessons`), **English is prefixed** (`/en`, `/en/lessons`).
+- Locale routing is handled by `middleware.ts` (next-intl middleware). Next 16
+  renamed this convention to `proxy.ts`, but `proxy.ts` is Node-only in this
+  version; Cloudflare/OpenNext currently needs the Edge middleware path.
+- `app/[locale]/layout.tsx` is the sole root layout and sets `<html lang dir>`
+  (`rtl` for Arabic). UI strings live in `messages/{ar,en}.json`.
 
 ## Design system
 
-Tokens are the single source of truth in `app/globals.css` (`@theme`) — a dark,
-WCAG-AA-verified palette built to be theme-ready (a light theme later = repopulating
-values only). Text tokens are **solid composited hex** (never raw alpha), and the
-Qur'an verse block, plain quote, and highlight callouts have dedicated tokens.
+Tokens are the single source of truth in `app/globals.css` (`@theme`). The site ships
+**dark and light themes**, both WCAG-AA-verified; visitors choose system, light, or dark
+from the header, and an inline script applies the stored choice before first paint (no
+flash). Text tokens are **solid composited hex** (never raw alpha), and the Qur'an verse
+block, plain quote, and highlight callouts have dedicated tokens.
 
 **Governance:** components and page render files must reference tokens only — no raw
 `#hex` / `rgb()` / `hsl()`. This is enforced by `scripts/check-tokens.mjs`, wired into
 `npm run lint`. Full reference and component catalog: [`docs/design-system.md`](docs/design-system.md).
+
+## Testing
+
+- **Unit + integration** (`npm test`, Vitest) — the contact pipeline (action control-flow,
+  Zod validation, Resend escaping/headers), quiz grading, tokens and rate limiting, the mutun and lesson loaders, and
+  two **regression guards**: `content-integrity` (every content and manifest file validated
+  against its schema) and `i18n-parity` (`ar.json` ↔ `en.json` key parity + every
+  contact-form error code resolves). Specs in `test/`.
+- **End-to-end** (`npm run test:e2e`, Playwright) — smoke, navigation, contact form,
+  lesson tree, SEO/theme, and prerender completeness across **desktop chromium +
+  mobile-chrome**. First run downloads the browser: `npx playwright install chromium`.
+- **Accounts E2E** (`npm run test:e2e:auth`) — sign-in, progress sync, premium, and profile
+  form against the Firebase emulators (`npm run emulators`).
+- **CI** (`.github/workflows/ci.yml`) — on every push/PR to `main`:
+  - **Lint, typecheck & test** — `npm run lint`, `tsc --noEmit`, and Vitest with coverage
+    thresholds. Required check.
+  - **E2E (Playwright)** — builds and serves the prod site. Required check.
+  - **E2E accounts (Firebase emulators)** — runs on PRs as a signal; it does not block the
+    deploy, since the flag-off site doesn't depend on it.
+  - **Deploy** — on push to `main` only, after the two required jobs pass (see
+    [Deployment](#deployment)).
+- Full inventory + risk report: [`docs/TEST_STRATEGY.md`](docs/TEST_STRATEGY.md).
 
 ## SEO
 
@@ -205,23 +271,43 @@ Engine begins sampling at higher volumes.
 
 ## Deployment
 
-Deploy on **Cloudflare Workers** with `@opennextjs/cloudflare`. The site is **not** a
-pure static export: it uses Server Actions (contact form), runtime support email config,
-and next-intl proxy routing, which require a server/adapter runtime. Content pages are
-still statically prerendered where possible, so they ship as crawlable HTML.
+Production runs at **[alnahwalkafi.com](https://alnahwalkafi.com)** on **Cloudflare
+Workers** with `@opennextjs/cloudflare`. The site is **not** a pure static export: it uses
+Server Actions (contact form), the quiz API, the download-redirect route, and next-intl
+middleware routing, which need a server/adapter runtime. Content pages are still
+statically prerendered, so they ship as crawlable HTML.
 
 Full production checklist: [`plan/production-deployment-runbook.md`](plan/production-deployment-runbook.md).
+
+### Automatic deploys
+
+Merging to `main` deploys production. The `deploy` job in `.github/workflows/ci.yml` runs
+after **Lint, typecheck & test** and **E2E (Playwright)** pass, runs `npm run deploy`, and is
+serialized so a running deploy is never cancelled. Because `.env.production` is gitignored,
+the job supplies the build-time values itself:
+
+- `NEXT_PUBLIC_SITE_URL=https://alnahwalkafi.com`, `NEXT_PUBLIC_WEB_ACCOUNTS=true`
+- Repo **secrets**: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`,
+  `NEXT_PUBLIC_TURNSTILE_SITE_KEY`, `NEXT_SERVER_ACTIONS_ENCRYPTION_KEY` (keep this one
+  pinned — overlapping deploys must share it)
+- Repo **variables**: the `NEXT_PUBLIC_FIREBASE_*` web config (public by design)
+
+Web accounts were enabled in production on 2026-07-11, before the app-side BL-1 fix shipped,
+accepting the documented guest-progress risk (launch gate G-1). To turn them off, remove
+`NEXT_PUBLIC_WEB_ACCOUNTS` from the deploy job (or set it to `'false'`) and redeploy.
+
+### Manual deploys and local checks
 
 Local production/Worker checks:
 
 ```bash
-npm ci
+npm install
 npm run lint
 npm run build
 npm run preview
 ```
 
-Production deploy:
+Manual production deploy (normally not needed):
 
 ```bash
 npm run deploy:prod
@@ -235,24 +321,19 @@ gitignored `.env.production`, **not** the script name. The build-time vars
 sitemap, robots.txt, JSON-LD, and canonical URLs. Copy `.env.example` to
 `.env.production` and fill in the production values on a new machine.
 
-Before production, choose the final domain/canonical host, attach a Cloudflare Worker
-Custom Domain, verify HTTPS, configure the secondary host redirect, and verify Resend
-and Upstash with real credentials.
-
-Set Cloudflare runtime secrets before deploying:
+Runtime secrets live on the Worker (not in the CI job). Set them once with:
 
 ```bash
 npx wrangler secret put RESEND_API_KEY
 npx wrangler secret put RESEND_FROM_EMAIL
 npx wrangler secret put SUPPORT_EMAIL
+npx wrangler secret put TURNSTILE_SECRET_KEY
 npx wrangler secret put UPSTASH_REDIS_REST_URL
 npx wrangler secret put UPSTASH_REDIS_REST_TOKEN
 npx wrangler secret put NEXT_SERVER_ACTIONS_ENCRYPTION_KEY
+npx wrangler secret put QUIZ_TOKEN_SECRET
 ```
 
-The current CI (`.github/workflows/ci.yml`) runs only lint, tests, and E2E — it does **not**
-deploy, so it needs no Cloudflare credentials. Deploys are run manually with `npm run deploy`.
-A future deploy job would need `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
 Image optimization is intentionally disabled in `next.config.ts`; current public assets are
 small and served directly. Add a Cloudflare Images binding later if optimized image
 transforms become necessary.
@@ -261,8 +342,10 @@ transforms become necessary.
 
 - Branch each change off `main`; open a PR; keep unrelated work in separate PRs.
 - Run `npm run lint` (ESLint + token check) and `npm run build` before opening a PR.
-- CI gates every PR with `npm run lint` + `npm test` (the required **Lint & test** check),
-  plus a separate Playwright E2E job.
+- CI gates every PR with two required checks, **Lint, typecheck & test** and
+  **E2E (Playwright)**. Their job `name:`s are wired into branch protection, so renaming one
+  in `ci.yml` without updating the protection rules blocks every merge.
+- Merging to `main` deploys to production.
 - Don't introduce raw color literals in components — use design tokens.
 
 ## Contributors
