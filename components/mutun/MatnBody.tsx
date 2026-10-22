@@ -14,10 +14,43 @@ function Paragraph({ section }: { section: Section }) {
   );
 }
 
+// A labelled card, e.g. a reader note in شرح ابن عقيل. The label comes from the
+// JSON like the text, so it reads as an aside and never as the شارح's own words.
+function Highlight({ section }: { section: Section }) {
+  if (!section.text) return null;
+  const label = typeof section.label === 'string' ? section.label : undefined;
+  return (
+    <aside className="rounded-xl border border-hl-purple-border bg-hl-purple-bg p-5">
+      {label && (
+        <div className="mb-2 inline-block rounded-md bg-hl-purple-border/30 px-2 py-0.5 text-sm font-bold text-hl-purple-text">
+          {label}
+        </div>
+      )}
+      <p className="whitespace-pre-line leading-[2.2] text-hl-purple-text">
+        <Markup text={section.text} />
+      </p>
+    </aside>
+  );
+}
+
+// A quoted شاهد. Poetry keeps one line per hemistich against a start-side
+// border, matching the lesson quote style.
+function Quote({ section }: { section: Section }) {
+  if (!section.text) return null;
+  return (
+    <blockquote className="border-s-4 border-quote-border ps-4">
+      <p className={`whitespace-pre-line leading-[2.2] text-quote-text${section.is_poetry === true ? ' italic' : ''}`}>
+        <Markup text={section.text} />
+      </p>
+    </blockquote>
+  );
+}
+
 function ProseSections({ sections }: { sections: Section[] }) {
   // Prose أبواب are mostly paragraphs, but a prose matn (e.g. قطر الندى) embeds
   // poetic شواهد as `verse` sections — render those as أبيات inline rather than
   // dropping them. شاهد numbering is 1-based among the verses within this باب.
+  // A شرح also carries `quote` شواهد and `highlight` notes.
   const isVerse = (s: Section) => s.type === 'verse' && !!s.sadr && !!s.ajz;
   return (
     <div className="space-y-4">
@@ -26,6 +59,8 @@ function ProseSections({ sections }: { sections: Section[] }) {
           const number = sections.slice(0, i + 1).filter(isVerse).length;
           return <VerseLine key={i} sadr={s.sadr!} ajz={s.ajz!} number={number} />;
         }
+        if (s.type === 'highlight') return <Highlight key={i} section={s} />;
+        if (s.type === 'quote') return <Quote key={i} section={s} />;
         return <Paragraph key={i} section={s} />;
       })}
     </div>
