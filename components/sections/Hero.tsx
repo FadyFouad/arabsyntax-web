@@ -84,7 +84,10 @@ export default async function Hero({ locale }: HeroProps) {
                       alt={t('mockupAlt')}
                       width={390}
                       height={844}
-                      priority={true}
+                      // The homepage's LCP element: fetch it ahead of the
+                      // other images (`priority` is deprecated in Next 16).
+                      loading="eager"
+                      fetchPriority="high"
                       className="w-full h-full object-cover object-top"
                     />
                   </div>
