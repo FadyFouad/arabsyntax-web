@@ -34,6 +34,16 @@ describe('1. drift guard: manifest ↔ content', () => {
     expect(manifest.mutun.length).toBeGreaterThan(0);
   });
 
+  // A short title stands in for titleAr where space is tight, so it must be
+  // a real, shorter name, never a blank or a copy.
+  it.each(manifest.mutun.filter((m) => m.shortTitleAr !== undefined))(
+    '$id: shortTitleAr is non-empty and shorter than titleAr',
+    (entry) => {
+      expect(entry.shortTitleAr!.trim().length).toBeGreaterThan(0);
+      expect(entry.shortTitleAr!.length).toBeLessThan(entry.titleAr.length);
+    },
+  );
+
   it.each(manifest.mutun)('$id: content file exists and unitCount === units.length', (entry) => {
     const matn = matnContentSchema.parse(read(path.join(MUTUN, `${entry.id}.json`)));
     expect(matn.units.length).toBe(entry.unitCount);

@@ -29,10 +29,11 @@ const unitUrl = (locale: Locale, id: string, slug: string) => `${matnUrl(locale,
 
 /** The باب for these params, or null: an unknown slug, or a matn that isn't paged. */
 function load(id: string, slug: string) {
-  if (getMatnEntry(id)?.paged !== true) return null;
+  const entry = getMatnEntry(id);
+  if (entry?.paged !== true) return null;
   const matn = getMatn(id);
   const found = matn ? findPagedUnit(matn, slug) : null;
-  return matn && found ? { matn, ...found } : null;
+  return matn && found ? { matn, shortTitle: entry.shortTitleAr ?? matn.titleAr, ...found } : null;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -40,7 +41,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const data = load(id, slug);
   if (!data) return {};
   const t = await getTranslations({ locale, namespace: 'mutun' });
-  const { matn, current } = data;
+  const { matn, shortTitle, current } = data;
   const num = (n: number) => (locale === 'ar' ? toArabicIndic(n) : String(n));
   const unitTitle = current.unit.title ?? num(current.unit.order);
   const verses = { from: num(current.firstVerse), to: num(current.lastVerse) };
@@ -48,8 +49,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // no two pages share a <title>.
   const shared = matn.units.filter((u) => u.title === current.unit.title).length > 1;
   const title = shared
-    ? t('unitMetaTitleWithVerses', { matn: matn.titleAr, unit: unitTitle, ...verses })
-    : t('unitMetaTitle', { matn: matn.titleAr, unit: unitTitle });
+    ? t('unitMetaTitleWithVerses', { matn: shortTitle, unit: unitTitle, ...verses })
+    : t('unitMetaTitle', { matn: shortTitle, unit: unitTitle });
   const description = t('unitMetaDescription', { matn: matn.titleAr, unit: unitTitle, ...verses });
   return {
     // absolute: the باب title already names the matn, so skip the site suffix.

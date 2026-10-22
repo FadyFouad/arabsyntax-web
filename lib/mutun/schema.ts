@@ -84,6 +84,9 @@ export type MatnContent = z.infer<typeof matnContentSchema>;
 export const manifestEntrySchema = z.object({
   id: z.string().regex(MATN_ID_PATTERN),
   titleAr: z.string(),
+  // Short form of titleAr for tight spots such as a باب page's <title>
+  // («شرح ابن عقيل — الابتداء»). Absent ⇒ titleAr is used.
+  shortTitleAr: z.string().optional(),
   titleEn: z.string(),
   author: z.string(),
   era: z.string(),
