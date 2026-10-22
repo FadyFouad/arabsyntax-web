@@ -78,3 +78,47 @@ test.describe('every i3rab slug prerenders (ar)', () => {
 test('i3rab EN route is wired (spot-check)', async ({ page }) => {
   await expectRendered(page, `/en/i3rab/${i3rabSlugs[0]}`);
 });
+
+// Paged matns (manifest `paged: true`) serve one page per باب, keyed by the
+// باب's first verse id, the same rule as lib/mutun/units.ts. Every باب page is
+// swept on AR. The matn URL stays as the باب index.
+const mutunManifest = JSON.parse(readFileSync(path.join(ROOT, 'content', 'mutun', 'manifest.json'), 'utf8')) as {
+  mutun: { id: string; paged?: boolean }[];
+};
+const pagedUnitPaths: string[] = mutunManifest.mutun
+  .filter((m) => m.paged === true)
+  .flatMap((m) => {
+    const matn = JSON.parse(readFileSync(path.join(ROOT, 'content', 'mutun', `${m.id}.json`), 'utf8')) as {
+      units: { order: number; body: { sections: { type: string; id?: string }[] } }[];
+    };
+    return [...matn.units]
+      .sort((a, b) => a.order - b.order)
+      .map((u) => u.body.sections.find((s) => s.type === 'verse' && s.id)?.id)
+      .filter((slug): slug is string => !!slug)
+      .map((slug) => `/mutun/${m.id}/${slug}`);
+  });
+
+test.describe('every باب of a paged matn prerenders (ar)', () => {
+  test('there are باب pages to sweep', () => {
+    expect(pagedUnitPaths.length).toBeGreaterThan(0);
+  });
+
+  for (const url of pagedUnitPaths) {
+    test(url, async ({ page }) => {
+      await expectRendered(page, url);
+    });
+  }
+
+  test('the paged matn URL is its باب index, linking every باب', async ({ page }) => {
+    const id = pagedUnitPaths[0].split('/')[2];
+    await expectRendered(page, `/mutun/${id}`);
+    const links = page.locator(`nav a[href*="/mutun/${id}/"]`);
+    await expect(links).toHaveCount(pagedUnitPaths.length);
+  });
+
+  test('a باب URL under a single-page matn is a 404', async ({ page }) => {
+    const single = mutunManifest.mutun.find((m) => m.paged !== true)!;
+    const res = await page.goto(`/mutun/${single.id}/alfiyya_0001`);
+    expect(res?.status()).toBe(404);
+  });
+});

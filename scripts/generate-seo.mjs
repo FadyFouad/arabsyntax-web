@@ -79,6 +79,26 @@ function mutunIds() {
   }
 }
 
+// Per-باب pages of paged matns (manifest `paged: true`), in `order`. The slug is
+// the باب's first verse id, matching lib/mutun/units.ts.
+function pagedUnitRoutes() {
+  try {
+    const manifest = JSON.parse(readFileSync(path.join(ROOT, 'content/mutun/manifest.json'), 'utf8'));
+    return (manifest.mutun ?? [])
+      .filter((m) => m.paged === true)
+      .flatMap((m) => {
+        const matn = JSON.parse(readFileSync(path.join(ROOT, 'content/mutun', `${m.id}.json`), 'utf8'));
+        return [...matn.units]
+          .sort((a, b) => a.order - b.order)
+          .map((u) => (u.body?.sections ?? []).find((s) => s.type === 'verse' && typeof s.id === 'string')?.id)
+          .filter(Boolean)
+          .map((slug) => `/mutun/${m.id}/${slug}`);
+      });
+  } catch {
+    return [];
+  }
+}
+
 const xml = (s) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
 
@@ -131,7 +151,7 @@ function buildSitemap() {
     );
   }
 
-  const mutunRoutes = ['/mutun', ...mutunIds().map((id) => `/mutun/${id}`)];
+  const mutunRoutes = ['/mutun', ...mutunIds().map((id) => `/mutun/${id}`), ...pagedUnitRoutes()];
   for (const route of mutunRoutes) {
     entries.push(
       urlEntry({

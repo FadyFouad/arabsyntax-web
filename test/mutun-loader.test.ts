@@ -7,7 +7,7 @@ import path from 'node:path';
 // Server Component. Neutralize it so the loader can be unit-tested in node.
 vi.mock('server-only', () => ({}));
 
-const { getMutunIndex, getMatnIds, getMatn } = await import('@/lib/mutun/loader');
+const { getMutunIndex, getMatnIds, getMatn, getMatnEntry, getPagedMatnIds } = await import('@/lib/mutun/loader');
 
 /** Make a throwaway content dir with the given files; returns its path. */
 function fixtureDir(files: Record<string, string>): string {
@@ -29,6 +29,13 @@ describe('getMutunIndex / getMatnIds / getMatn against the real assets', () => {
   it('lists the shipped matns in manifest order', () => {
     const ids = getMatnIds();
     expect(ids).toEqual(['aljurrumiyya', 'alimriti', 'qatr_alnada', 'alfiyya', 'ibn_aqil']);
+  });
+
+  it('lists the paged matns and reads a manifest entry', () => {
+    expect(getPagedMatnIds()).toEqual(['ibn_aqil']);
+    expect(getMatnEntry('ibn_aqil')?.paged).toBe(true);
+    expect(getMatnEntry('alfiyya')?.paged).toBeUndefined();
+    expect(getMatnEntry('does_not_exist')).toBeUndefined();
   });
 
   it('returns the same cached array on a second call', () => {

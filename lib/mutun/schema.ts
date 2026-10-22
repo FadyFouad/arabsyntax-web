@@ -90,6 +90,9 @@ export const manifestEntrySchema = z.object({
   level: z.enum(LEVELS),
   type: z.enum(MATN_TYPES),
   unitCount: z.number().int().nonnegative(),
+  // Web-only: one static page per باب instead of the whole matn on one page,
+  // for a matn too large to send at once (شرح ابن عقيل). Absent ⇒ single page.
+  paged: z.boolean().optional(),
 });
 export type ManifestEntry = z.infer<typeof manifestEntrySchema>;
 
