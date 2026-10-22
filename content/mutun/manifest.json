@@ -39,6 +39,16 @@
       "level": "advanced",
       "type": "verse",
       "unitCount": 82
+    },
+    {
+      "id": "ibn_aqil",
+      "titleAr": "شرح ابن عقيل على ألفية ابن مالك",
+      "titleEn": "Sharh Ibn Aqil on the Alfiyya",
+      "author": "ابن عقيل",
+      "era": "القرن الثامن الهجري (ت ٧٦٩ هـ)",
+      "level": "advanced",
+      "type": "prose",
+      "unitCount": 81
     }
   ]
 }
