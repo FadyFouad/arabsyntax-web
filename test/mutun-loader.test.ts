@@ -34,6 +34,7 @@ describe('getMutunIndex / getMatnIds / getMatn against the real assets', () => {
   it('lists the paged matns and reads a manifest entry', () => {
     expect(getPagedMatnIds()).toEqual(['ibn_aqil']);
     expect(getMatnEntry('ibn_aqil')?.paged).toBe(true);
+    expect(getMatnEntry('ibn_aqil')?.shortTitleAr).toBe('شرح ابن عقيل');
     expect(getMatnEntry('alfiyya')?.paged).toBeUndefined();
     expect(getMatnEntry('does_not_exist')).toBeUndefined();
   });
