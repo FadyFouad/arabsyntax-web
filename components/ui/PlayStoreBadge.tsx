@@ -10,8 +10,8 @@ interface PlayStoreBadgeProps {
 export default function PlayStoreBadge({ locale, className, source }: PlayStoreBadgeProps) {
   const isArabic = locale === 'ar';
   const badgeSrc = isArabic
-    ? '/badges/google-play-ar.png'
-    : '/badges/google-play-en.png';
+    ? '/badges/google-play-ar.webp'
+    : '/badges/google-play-en.webp';
   const altText = isArabic
     ? 'متوفر على Google Play'
     : 'Get it on Google Play';

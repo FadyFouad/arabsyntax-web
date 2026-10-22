@@ -13,7 +13,10 @@ import { siteConfig } from '@/lib/siteConfig';
 import { themeInitScript } from '@/lib/theme';
 
 const cairo = Cairo({ subsets: ['arabic'], variable: '--font-cairo', display: 'swap' });
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
+// Not preloaded: one layout serves both locales, so a preload would also fetch
+// Inter (~47 KB) on every Arabic page, whose font stack never uses it. English
+// pages still load it from the stylesheet, with `display: swap`.
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap', preload: false });
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
