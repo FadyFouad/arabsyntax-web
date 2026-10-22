@@ -4,6 +4,7 @@ import path from 'node:path';
 import { manifestSchema, matnContentSchema } from '@/lib/mutun/schema';
 import { normalizeForCompare, stripTashkeel } from '@/lib/mutun/markup';
 import { ALFIYYA_ID, alfiyyaViolations } from './mutun-alfiyya-integrity';
+import { IBN_AQIL_ID, IBN_AQIL_NOTE_LABEL, ibnAqilViolations } from './mutun-ibn-aqil-integrity';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // المتون CONTENT-INTEGRITY GUARD — the six acceptance criteria, run against the
@@ -53,11 +54,12 @@ describe('3. no wrong/fabricated text in any matn asset', () => {
   const FORBIDDEN = ['كلامنا', 'كاستقم', 'ابن مالك', 'ألفية', 'الفية'];
 
   // Matn ids exempt from FORBIDDEN, keyed on the manifest id, never on a
-  // filename. Only the Alfiyya itself, whose text legitimately carries every
-  // marker; it gets its own positive checks in section 7 instead (spec 057
-  // FR-001…FR-003). Every other matn, current or future, stays guarded: the
-  // list is derived from the manifest, not hardcoded.
-  const MARKER_EXEMPT_MATN_IDS = new Set([ALFIYYA_ID]);
+  // filename. Only the Alfiyya and شرح ابن عقيل, whose texts legitimately
+  // carry every marker; each gets its own positive checks in sections 7 and 8
+  // instead (spec 057 FR-001…FR-003, spec 058 FR-041). Every other matn,
+  // current or future, stays guarded: the list is derived from the manifest,
+  // not hardcoded.
+  const MARKER_EXEMPT_MATN_IDS = new Set([ALFIYYA_ID, IBN_AQIL_ID]);
   const guarded = manifest.mutun.filter((m) => !MARKER_EXEMPT_MATN_IDS.has(m.id));
 
   // Strip tashkeel first so a diacriticised match (e.g. "ألفيّة") can't slip past.
@@ -68,9 +70,9 @@ describe('3. no wrong/fabricated text in any matn asset', () => {
     }
   };
 
-  it('the forbidden-marker exemption covers the Alfiyya alone', () => {
+  it('the forbidden-marker exemption covers the Alfiyya and شرح ابن عقيل alone', () => {
     // A wider set would silently unguard another matn (FR-001/FR-002).
-    expect([...MARKER_EXEMPT_MATN_IDS]).toEqual([ALFIYYA_ID]);
+    expect([...MARKER_EXEMPT_MATN_IDS]).toEqual([ALFIYYA_ID, IBN_AQIL_ID]);
   });
 
   it.each(guarded)('$id.json contains none of the Alfiyya-mislabel substrings', ({ id }) => {
@@ -222,6 +224,180 @@ describe('7. alfiyya integrity', () => {
     it.each(['alfiyya_1', 'alfiyya_00001', 'imriti_0004', 'alfiyya-0004'])('malformed id %s is rejected', (bad) => {
       const v = violationsWith((b) => b[1].push(verse(bad)));
       expect(v).toContain(`unit 2: malformed verse id "${bad}"`);
+    });
+  });
+});
+
+// 8 ── شرح ابن عقيل positive checks (spec 058 FR-041, spec 059 FR-020…FR-022) ──
+describe('8. ibn_aqil integrity', () => {
+  // Runs once the content lands (spec 058 PR 2w), so the guard ships first.
+  const ibnAqilFile = path.join(MUTUN, `${IBN_AQIL_ID}.json`);
+  it.skipIf(!existsSync(ibnAqilFile))(
+    'ibn_aqil.json passes its own checks (1,002 Alfiyya ids in order, both hemistichs, no source markers)',
+    () => {
+      expect(ibnAqilViolations(read(ibnAqilFile))).toEqual([]);
+    },
+  );
+
+  describe('rules reject bad content', () => {
+    type Section = Record<string, unknown>;
+    const verse = (id: string, sadr = 'صدر', ajz = 'عجز'): Section => ({ type: 'verse', id, sadr, ajz });
+    const paragraph = (text: string): Section => ({ type: 'paragraph', text });
+    const note = (id: string, label = IBN_AQIL_NOTE_LABEL, text = '[طه: 89] ملاحظة'): Section => ({
+      type: 'highlight',
+      label,
+      id,
+      text,
+    });
+    const matn = (babs: Section[][]) => ({
+      id: IBN_AQIL_ID,
+      units: babs.map((sections, i) => ({ order: i + 1, kind: 'bab', title: `باب ${i + 1}`, body: { sections } })),
+    });
+    const validBabs = (): Section[][] => [
+      [
+        paragraph('بسم الله الرحمن الرحيم'),
+        verse('alfiyya_0001', 'قَالَ مُحَمَّدٌ هُوَ ٱبْنُ مَالكِ', 'أَحْمَدُ رَبِّي ٱللَّهَ خَيْرَ مَالكِ'),
+        verse('alfiyya_0002'),
+      ],
+      [verse('alfiyya_0003'), paragraph('شرح البيت'), { type: 'quote', is_poetry: true, text: 'شطر\nشطر' }],
+    ];
+    // validBabs() with two notes after the paragraph of the second باب.
+    const babsWithNotes = (): Section[][] => {
+      const babs = validBabs();
+      babs[1].splice(2, 0, note('v1n-001'), note('v1n-002'));
+      return babs;
+    };
+    // Three verses, so fixtures expect 3; no notes unless a test adds them.
+    const violationsOf = (babs: Section[][], notes = 0) =>
+      ibnAqilViolations(matn(babs), { expectedVerseCount: 3, expectedNoteCount: notes });
+    const violationsWith = (mutate: (babs: Section[][]) => void, notes = 0) => {
+      const babs = validBabs();
+      mutate(babs);
+      return violationsOf(babs, notes);
+    };
+    const hasMatch = (v: string[], part: string) => v.some((m) => m.includes(part));
+
+    it('a well-formed شرح has no violations', () => {
+      expect(violationsOf(validBabs())).toEqual([]);
+    });
+
+    it('a page marker left in a paragraph is rejected', () => {
+      const v = violationsWith((b) => (b[1][1] = paragraph('شرح <!-- ص 3 --> البيت')));
+      expect(hasMatch(v, 'leftover source marker "<!--"')).toBe(true);
+    });
+
+    it('a footnote marker left in a verse is rejected', () => {
+      const v = violationsWith((b) => (b[0][2] = verse('alfiyya_0002', 'صدر', 'عجز[[n:v1n-001]]')));
+      expect(hasMatch(v, '"[["')).toBe(true);
+      expect(hasMatch(v, '"]]"')).toBe(true);
+    });
+
+    it('a leftover marker in a باب title is rejected', () => {
+      const content = matn(validBabs());
+      content.units[1].title = 'باب <!-- ص 9 -->';
+      expect(hasMatch(ibnAqilViolations(content, { expectedVerseCount: 3, expectedNoteCount: 0 }), '"<!--"')).toBe(
+        true,
+      );
+    });
+
+    it('a duplicate verse id is rejected', () => {
+      const v = violationsWith((b) => (b[1][0] = verse('alfiyya_0002')));
+      expect(hasMatch(v, 'duplicate verse id "alfiyya_0002"')).toBe(true);
+    });
+
+    it('ids out of order are rejected', () => {
+      const v = violationsWith((b) => {
+        b[0][2] = verse('alfiyya_0003');
+        b[1][0] = verse('alfiyya_0002');
+      });
+      expect(hasMatch(v, 'verse 2 has id "alfiyya_0003", expected "alfiyya_0002"')).toBe(true);
+    });
+
+    it('a verse with no id is rejected', () => {
+      const v = violationsWith((b) => (b[1][0] = { type: 'verse', sadr: 'صدر', ajz: 'عجز' }));
+      expect(hasMatch(v, 'verse 3 without an id')).toBe(true);
+    });
+
+    it('a verse with no عجز or no صدر is rejected', () => {
+      expect(hasMatch(violationsWith((b) => (b[1][0] = verse('alfiyya_0003', 'صدر', ' '))), 'empty عجز')).toBe(true);
+      expect(hasMatch(violationsWith((b) => (b[1][0] = verse('alfiyya_0003', ''))), 'empty صدر')).toBe(true);
+    });
+
+    it('a missing or extra verse is rejected', () => {
+      expect(violationsWith((b) => b[1].shift())).toContain('expected 3 verse sections, found 2');
+      expect(violationsWith((b) => b[1].push(verse('alfiyya_0004')))).toContain('expected 3 verse sections, found 4');
+    });
+
+    it('a شاهد carrying an id is rejected', () => {
+      const v = violationsWith((b) => (b[1][2].id = 'alfiyya_0004'));
+      expect(hasMatch(v, 'non-verse section (quote) with an id')).toBe(true);
+    });
+
+    it('a wrong opening بيت is rejected', () => {
+      const v = violationsWith((b) => (b[0][1] = verse('alfiyya_0001', 'كَلَامُنَا لَفْظٌ مُفِيدٌ')));
+      expect(v.some((m) => m.startsWith('opening بيت missing'))).toBe(true);
+    });
+
+    it('the real content is held to all 1,002 verses and 32 notes', () => {
+      const v = ibnAqilViolations(matn(validBabs()));
+      expect(v).toContain('expected 1002 verse sections, found 3');
+      expect(v).toContain('expected 32 reader notes, found 0');
+    });
+
+    it('notes directly after their paragraph pass', () => {
+      expect(violationsOf(babsWithNotes(), 2)).toEqual([]);
+    });
+
+    it('a missing or extra note is rejected', () => {
+      expect(violationsOf(babsWithNotes())).toContain('expected 0 reader notes, found 2');
+      expect(violationsOf(babsWithNotes(), 3)).toContain('expected 3 reader notes, found 2');
+    });
+
+    it('a note not directly after a paragraph is rejected', () => {
+      const afterVerse = violationsWith((b) => b[0].push(note('v1n-001')), 1);
+      expect(hasMatch(afterVerse, 'note v1n-001 not directly after a paragraph')).toBe(true);
+      const atStart = violationsWith((b) => b[1].unshift(note('v1n-001')), 1);
+      expect(hasMatch(atStart, '(after the unit start)')).toBe(true);
+    });
+
+    it('a duplicate note id is rejected', () => {
+      const babs = babsWithNotes();
+      babs[1][3] = note('v1n-001');
+      expect(hasMatch(violationsOf(babs, 1), 'duplicate reader-note id "v1n-001"')).toBe(true);
+    });
+
+    it('a note with the wrong label or no text is rejected', () => {
+      const wrongLabel = babsWithNotes();
+      wrongLabel[1][2] = note('v1n-001', 'تنبيه');
+      expect(hasMatch(violationsOf(wrongLabel, 2), 'labelled "تنبيه"')).toBe(true);
+      const empty = babsWithNotes();
+      empty[1][2] = note('v1n-001', IBN_AQIL_NOTE_LABEL, ' ');
+      expect(hasMatch(violationsOf(empty, 2), 'note v1n-001 with empty text')).toBe(true);
+    });
+
+    it.each(['v5n-001', 'v1n-1', 'alfiyya_0004', ''])('a highlight with note id %j is rejected', (bad) => {
+      const babs = babsWithNotes();
+      babs[1][2] = note(bad);
+      expect(hasMatch(violationsOf(babs, 1), 'highlight without a reader-note id')).toBe(true);
+    });
+
+    it('a highlight with no id is rejected', () => {
+      const babs = babsWithNotes();
+      delete babs[1][2].id;
+      expect(hasMatch(violationsOf(babs, 1), 'highlight without a reader-note id (none)')).toBe(true);
+    });
+
+    it('a space before a period in a paragraph is rejected, an ellipsis is not', () => {
+      const spaced = violationsWith((b) => (b[1][1] = paragraph('قام زيدٌ . والكلمة')));
+      expect(hasMatch(spaced, 'paragraph with a space before a period')).toBe(true);
+      expect(violationsWith((b) => (b[1][1] = paragraph('قام زيدٌ ... والكلمة. وكذا')))).toEqual([]);
+    });
+
+    it('a note id on a شاهد or paragraph is still rejected', () => {
+      const onQuote = violationsWith((b) => (b[1][2].id = 'v1n-001'));
+      expect(hasMatch(onQuote, 'non-verse section (quote) with an id')).toBe(true);
+      const onParagraph = violationsWith((b) => (b[1][1].id = 'v1n-001'));
+      expect(hasMatch(onParagraph, 'non-verse section (paragraph) with an id')).toBe(true);
     });
   });
 });
