@@ -3,7 +3,7 @@ import { getTranslations, getLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { Container } from '@/components/ui/Container';
 import { DesktopNav } from './DesktopNav';
-import { LanguageSwitcher } from './LanguageSwitcher';
+import { LanguageToggle } from './LanguageToggle';
 import { MobileMenu } from './MobileMenu';
 import { ThemeToggle } from './ThemeToggle';
 import AccountMenu from '@/components/auth/AccountMenu';
@@ -53,9 +53,9 @@ export async function Header() {
           <DesktopNav links={navLinks} />
         </div>
 
-        <div className="flex items-center gap-2 sm:gap-4">
+        <div className="flex items-center gap-2 sm:gap-3">
+          <LanguageToggle />
           <ThemeToggle />
-          <LanguageSwitcher />
           {/* Renders nothing until auth resolves after mount, so the prerendered
               header is identical with the flag on or off (SC-7). */}
           {featureFlags.webAccounts && <AccountMenu />}

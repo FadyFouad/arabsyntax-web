@@ -72,7 +72,8 @@
     "label": "Theme",
     "system": "System",
     "light": "Light",
-    "dark": "Dark"
+    "dark": "Dark",
+    "next": "Click to switch to {theme}"
   },
   "nav": {
     "features": "Features",
