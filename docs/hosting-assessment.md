@@ -136,3 +136,19 @@ cost/performance optimization, not a fix for any blocker.** Nothing is broken on
 (~½-day, likely free at scale). Valuing zero migration effort → staying on Firebase is
 defensible. Either way, **compress the 4–6 MB screenshots** — highest-impact change on any
 platform.
+
+## Open items
+
+- **No edge cache hit on prerendered pages; TTFB varies** (logged
+  2026-10-22, no action yet). Prerendered pages are served through the
+  Worker from OpenNext's static-assets incremental cache
+  (`x-nextjs-cache: HIT`), but the response carries no `cf-cache-status`,
+  so every request still runs the Worker instead of being answered by the
+  Cloudflare edge cache. Measured on `/mutun/ibn_aqil/alfiyya_0113`: TTFB
+  0.22–0.33 s on a warm connection, 0.8–1.25 s as Lighthouse observed it
+  on a fresh one. Lighthouse feeds that observed server time into its
+  simulated LCP, which is part of why live runs of the same page ranged
+  from 2.35 s to 3.71 s. Pages send `cache-control: s-maxage=31536000`, so
+  the edge could cache them. Questions to answer first: whether a Cache
+  Rule (or the OpenNext cache-interception setting) would let the edge
+  serve them, and how a deploy would then purge stale HTML.
