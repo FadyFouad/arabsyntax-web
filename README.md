@@ -26,7 +26,7 @@ landing page, publishes the app's learning content as indexable pages:
 | Bot protection | Cloudflare Turnstile (contact form) |
 | Email | Resend (contact form) |
 | Rate limiting | Upstash Redis |
-| Accounts *(behind a flag)* | Firebase Auth (Google/Apple) + Firestore progress sync |
+| Accounts | Firebase Auth (Google/Apple) + Firestore progress sync (build-time flag, on in production) |
 | Hosting | Cloudflare Workers via OpenNext — see [Deployment](#deployment) |
 
 ## Getting started
@@ -37,6 +37,13 @@ npm install
 cp .env.example .env.local   # fill in values (see Environment)
 npm run dev                  # http://localhost:3000
 ```
+
+> **About `package-lock.json`:** it is not authoritative. Native bindings (rolldown,
+> esbuild) get no lock entry for the *other* OS when the lock is written on macOS or
+> Linux, so no single committed lock installs on both. CI deletes it and resolves fresh
+> on each run with npm 11 (npm 10 crashes on a fresh resolve; see the comments in
+> `.github/workflows/ci.yml`). Locally, use `npm install`, not `npm ci`. If you ever need to
+> install without the lock, upgrade first: `npm install -g npm@11`.
 
 ### Scripts
 
@@ -90,7 +97,7 @@ Copy `.env.example` → `.env.local`.
 
 | Variable | Required | Purpose |
 |---|---|---|
-| `NEXT_PUBLIC_WEB_ACCOUNTS` | — | Launch-gate flag, read at build time. While unset, no account UI renders and no Firebase code is reachable. Stays unset in production until the gates in [`specs/006-web-account-sync/launch-gates.md`](specs/006-web-account-sync/launch-gates.md) pass. |
+| `NEXT_PUBLIC_WEB_ACCOUNTS` | — | Feature flag, read at build time. While unset, no account UI renders and no Firebase code is reachable. **Set to `true` by the production deploy job** (owner decision, 2026-07-11 — see [Deployment](#deployment)); leave unset locally unless you're working on accounts. |
 | `NEXT_PUBLIC_FIREBASE_*` | with the flag | Firebase web app config (`API_KEY`, `AUTH_DOMAIN`, `PROJECT_ID`, `APP_ID`, plus optional `STORAGE_BUCKET`, `MESSAGING_SENDER_ID`, `MEASUREMENT_ID`). Public by design; security lives in Firestore rules. |
 | `NEXT_PUBLIC_FIREBASE_EMULATORS` | dev only | Point the SDK at `npm run emulators`. Never set in a deployed build. |
 
@@ -141,7 +148,7 @@ scripts/
   generate-seo.mjs       # emits public/sitemap.xml + robots.txt at build time
 test/                    # Vitest unit + integration tests
 e2e/                     # Playwright specs (e2e/auth/ runs against the emulators)
-.github/workflows/ci.yml # CI: lint + tests (fast gate) and a separate E2E job
+.github/workflows/ci.yml # CI: lint/typecheck/tests, E2E, accounts E2E, and the production deploy
 ```
 
 ## Content sections
@@ -166,9 +173,9 @@ e2e/                     # Playwright specs (e2e/auth/ runs against the emulator
   `submit`. Correct answers never reach the browser before submission.
 - **Legal** (`/privacy`, `/terms`) — MDX with frontmatter.
 - **Support** (`/support`) — contact form (Server Action → Turnstile check → rate limit → Resend).
-- **Accounts** *(behind `NEXT_PUBLIC_WEB_ACCOUNTS`, not live yet)* — sign in with the same
+- **Accounts** *(live; gated by `NEXT_PUBLIC_WEB_ACCOUNTS`)* — sign in with the same
   Google/Apple account as the app, sync lesson progress both ways, and see premium status.
-  Spec: [`specs/006-web-account-sync/`](specs/006-web-account-sync/).
+  Spec and launch gates: [`specs/006-web-account-sync/`](specs/006-web-account-sync/).
 
 Content pages are statically generated (SSG) at build time. Adding/updating content
 requires editing the JSON/MDX and redeploying.
@@ -207,8 +214,14 @@ block, plain quote, and highlight callouts have dedicated tokens.
   mobile-chrome**. First run downloads the browser: `npx playwright install chromium`.
 - **Accounts E2E** (`npm run test:e2e:auth`) — sign-in, progress sync, premium, and profile
   form against the Firebase emulators (`npm run emulators`).
-- **CI** (`.github/workflows/ci.yml`) — on every push/PR to `main`, a **fast gate**
-  (`npm run lint` + `npm test`, the required check) runs alongside a separate **E2E** job.
+- **CI** (`.github/workflows/ci.yml`) — on every push/PR to `main`:
+  - **Lint, typecheck & test** — `npm run lint`, `tsc --noEmit`, and Vitest with coverage
+    thresholds. Required check.
+  - **E2E (Playwright)** — builds and serves the prod site. Required check.
+  - **E2E accounts (Firebase emulators)** — runs on PRs as a signal; it does not block the
+    deploy, since the flag-off site doesn't depend on it.
+  - **Deploy** — on push to `main` only, after the two required jobs pass (see
+    [Deployment](#deployment)).
 - Full inventory + risk report: [`docs/TEST_STRATEGY.md`](docs/TEST_STRATEGY.md).
 
 ## SEO
@@ -266,16 +279,35 @@ statically prerendered, so they ship as crawlable HTML.
 
 Full production checklist: [`plan/production-deployment-runbook.md`](plan/production-deployment-runbook.md).
 
+### Automatic deploys
+
+Merging to `main` deploys production. The `deploy` job in `.github/workflows/ci.yml` runs
+after **Lint, typecheck & test** and **E2E (Playwright)** pass, runs `npm run deploy`, and is
+serialized so a running deploy is never cancelled. Because `.env.production` is gitignored,
+the job supplies the build-time values itself:
+
+- `NEXT_PUBLIC_SITE_URL=https://alnahwalkafi.com`, `NEXT_PUBLIC_WEB_ACCOUNTS=true`
+- Repo **secrets**: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`,
+  `NEXT_PUBLIC_TURNSTILE_SITE_KEY`, `NEXT_SERVER_ACTIONS_ENCRYPTION_KEY` (keep this one
+  pinned — overlapping deploys must share it)
+- Repo **variables**: the `NEXT_PUBLIC_FIREBASE_*` web config (public by design)
+
+Web accounts were enabled in production on 2026-07-11, before the app-side BL-1 fix shipped,
+accepting the documented guest-progress risk (launch gate G-1). To turn them off, remove
+`NEXT_PUBLIC_WEB_ACCOUNTS` from the deploy job (or set it to `'false'`) and redeploy.
+
+### Manual deploys and local checks
+
 Local production/Worker checks:
 
 ```bash
-npm ci
+npm install
 npm run lint
 npm run build
 npm run preview
 ```
 
-Production deploy:
+Manual production deploy (normally not needed):
 
 ```bash
 npm run deploy:prod
@@ -289,7 +321,7 @@ gitignored `.env.production`, **not** the script name. The build-time vars
 sitemap, robots.txt, JSON-LD, and canonical URLs. Copy `.env.example` to
 `.env.production` and fill in the production values on a new machine.
 
-Set Cloudflare runtime secrets before deploying:
+Runtime secrets live on the Worker (not in the CI job). Set them once with:
 
 ```bash
 npx wrangler secret put RESEND_API_KEY
@@ -302,9 +334,6 @@ npx wrangler secret put NEXT_SERVER_ACTIONS_ENCRYPTION_KEY
 npx wrangler secret put QUIZ_TOKEN_SECRET
 ```
 
-The current CI (`.github/workflows/ci.yml`) runs only lint, tests, and E2E — it does **not**
-deploy, so it needs no Cloudflare credentials. Deploys are run manually with `npm run deploy`.
-A future deploy job would need `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
 Image optimization is intentionally disabled in `next.config.ts`; current public assets are
 small and served directly. Add a Cloudflare Images binding later if optimized image
 transforms become necessary.
@@ -313,8 +342,10 @@ transforms become necessary.
 
 - Branch each change off `main`; open a PR; keep unrelated work in separate PRs.
 - Run `npm run lint` (ESLint + token check) and `npm run build` before opening a PR.
-- CI gates every PR with `npm run lint` + `npm test` (the required **Lint & test** check),
-  plus a separate Playwright E2E job.
+- CI gates every PR with two required checks, **Lint, typecheck & test** and
+  **E2E (Playwright)**. Their job `name:`s are wired into branch protection, so renaming one
+  in `ci.yml` without updating the protection rules blocks every merge.
+- Merging to `main` deploys to production.
 - Don't introduce raw color literals in components — use design tokens.
 
 ## Contributors
