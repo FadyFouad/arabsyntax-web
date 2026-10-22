@@ -86,11 +86,25 @@ function VerseSections({ sections }: { sections: Section[] }) {
   );
 }
 
-function UnitView({ unit, type, sharhLabel }: { unit: Unit; type: MatnContent['type']; sharhLabel: string }) {
+function UnitView({
+  unit,
+  type,
+  sharhLabel,
+  TitleTag = 'h2',
+}: {
+  unit: Unit;
+  type: MatnContent['type'];
+  sharhLabel: string;
+  TitleTag?: 'h1' | 'h2';
+}) {
   const Body = type === 'verse' ? VerseSections : ProseSections;
   return (
     <section className="space-y-5">
-      {unit.title && <h2 className="text-2xl font-bold text-text">{unit.title}</h2>}
+      {unit.title && (
+        <TitleTag className={TitleTag === 'h1' ? 'text-3xl font-bold text-text lg:text-4xl' : 'text-2xl font-bold text-text'}>
+          {unit.title}
+        </TitleTag>
+      )}
       <Body sections={unit.body.sections as Section[]} />
       {unit.sharh && unit.sharh.sections.length > 0 && (
         <details className="rounded-xl border border-border bg-surface/50 p-4 open:pb-5">
@@ -101,6 +115,15 @@ function UnitView({ unit, type, sharhLabel }: { unit: Unit; type: MatnContent['t
         </details>
       )}
     </section>
+  );
+}
+
+/** One باب on its own page, for a paged matn; its title is the page's h1. */
+export function MatnUnit({ unit, type, sharhLabel }: { unit: Unit; type: MatnContent['type']; sharhLabel: string }) {
+  return (
+    <article dir="rtl" className="font-arabic">
+      <UnitView unit={unit} type={type} sharhLabel={sharhLabel} TitleTag="h1" />
+    </article>
   );
 }
 

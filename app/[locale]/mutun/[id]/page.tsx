@@ -4,8 +4,12 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { Container } from '@/components/ui/Container';
 import { MatnBody } from '@/components/mutun/MatnBody';
+import { UnitIndex } from '@/components/mutun/UnitIndex';
 import { siteConfig } from '@/lib/siteConfig';
-import { getMatn, getMatnIds } from '@/lib/mutun/loader';
+import { labelsFor } from '@/lib/mutun/labels';
+import { getMatn, getMatnEntry, getMatnIds } from '@/lib/mutun/loader';
+import { toArabicIndic } from '@/lib/mutun/numerals';
+import { pagedUnits } from '@/lib/mutun/units';
 import { type Locale } from '@/lib/lessons/loader';
 import { serializeJsonLd } from '@/lib/jsonLd';
 
@@ -54,6 +58,11 @@ export default async function MatnReaderPage({ params }: PageProps) {
   const matn = getMatn(id);
   if (!matn) notFound();
   const t = await getTranslations('mutun');
+  // A paged matn (manifest `paged: true`) keeps this URL as its باب index; each
+  // باب is its own page under /mutun/<id>/<slug>.
+  const paged = getMatnEntry(id)?.paged === true;
+  const units = paged ? pagedUnits(matn) : [];
+  const num = (n: number) => (locale === 'ar' ? toArabicIndic(n) : String(n));
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -78,8 +87,22 @@ export default async function MatnReaderPage({ params }: PageProps) {
           <p className="mt-2 text-text-muted">
             {matn.author} · {matn.era}
           </p>
+          {paged && (
+            <p className="mt-1 text-text-muted">
+              {toArabicIndic(units.length)} {labelsFor(matn.type).unitCountWord}
+            </p>
+          )}
         </header>
-        <MatnBody matn={matn} sharhLabel={t('sharh')} />
+        {paged ? (
+          <UnitIndex
+            matnId={id}
+            units={units}
+            heading={t('unitIndexHeading')}
+            versesLabel={(u) => t('unitVerses', { from: num(u.firstVerse), to: num(u.lastVerse) })}
+          />
+        ) : (
+          <MatnBody matn={matn} sharhLabel={t('sharh')} />
+        )}
       </div>
     </Container>
   );

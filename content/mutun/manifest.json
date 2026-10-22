@@ -48,7 +48,8 @@
       "era": "القرن الثامن الهجري (ت ٧٦٩ هـ)",
       "level": "advanced",
       "type": "prose",
-      "unitCount": 81
+      "unitCount": 81,
+      "paged": true
     }
   ]
 }

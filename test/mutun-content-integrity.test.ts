@@ -5,6 +5,7 @@ import { manifestSchema, matnContentSchema } from '@/lib/mutun/schema';
 import { normalizeForCompare, stripTashkeel } from '@/lib/mutun/markup';
 import { ALFIYYA_ID, alfiyyaViolations } from './mutun-alfiyya-integrity';
 import { IBN_AQIL_ID, IBN_AQIL_NOTE_LABEL, ibnAqilViolations } from './mutun-ibn-aqil-integrity';
+import { pagedUnits } from '@/lib/mutun/units';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // المتون CONTENT-INTEGRITY GUARD — the six acceptance criteria, run against the
@@ -399,5 +400,24 @@ describe('8. ibn_aqil integrity', () => {
       const onParagraph = violationsWith((b) => (b[1][1].id = 'v1n-001'));
       expect(hasMatch(onParagraph, 'non-verse section (paragraph) with an id')).toBe(true);
     });
+  });
+});
+
+// 9 ── Paged matns (one page per باب) ─────────────────────────────────────────
+describe('9. paged matns', () => {
+  const paged = manifest.mutun.filter((m) => m.paged === true);
+
+  it('only شرح ابن عقيل is paged; every other matn keeps its single page', () => {
+    expect(paged.map((m) => m.id)).toEqual([IBN_AQIL_ID]);
+  });
+
+  // Every باب needs a slug (its first verse id) to get a page, and a title to
+  // name it in the index, the <h1> and the <title>.
+  it.each(paged)('$id: every باب has a unique slug and a title', ({ id }) => {
+    const matn = matnContentSchema.parse(read(path.join(MUTUN, `${id}.json`)));
+    const units = pagedUnits(matn);
+    expect(units.length).toBe(matn.units.length);
+    expect(new Set(units.map((u) => u.slug)).size).toBe(units.length);
+    for (const u of units) expect((u.unit.title ?? '').trim().length, `باب ${u.slug} has no title`).toBeGreaterThan(0);
   });
 });

@@ -36,6 +36,18 @@ export function getMutunIndex(dir: string = DEFAULT_DIR): ManifestEntry[] {
   return parsed.mutun;
 }
 
+/** The manifest entry for `id`, or undefined when the manifest doesn't list it. */
+export function getMatnEntry(id: string, dir: string = DEFAULT_DIR): ManifestEntry | undefined {
+  return getMutunIndex(dir).find((m) => m.id === id);
+}
+
+/** Ids of the matns served one باب per page (manifest `paged: true`). */
+export function getPagedMatnIds(dir: string = DEFAULT_DIR): string[] {
+  return getMutunIndex(dir)
+    .filter((m) => m.paged === true)
+    .map((m) => m.id);
+}
+
 /** Manifest ids — drives generateStaticParams. Same throw/empty semantics. */
 export function getMatnIds(dir: string = DEFAULT_DIR): string[] {
   return getMutunIndex(dir).map((m) => m.id);
