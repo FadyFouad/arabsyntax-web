@@ -1,15 +1,7 @@
 'use client';
 
-import {
-  useCallback,
-  useEffect,
-  useId,
-  useRef,
-  useState,
-  useSyncExternalStore,
-  type KeyboardEvent as ReactKeyboardEvent,
-} from 'react';
-import { Check, Monitor, Moon, Sun } from 'lucide-react';
+import { useCallback, useEffect, useSyncExternalStore } from 'react';
+import { Monitor, Moon, Sun } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import {
   isThemeChoice,
@@ -116,32 +108,16 @@ function getServerTheme(): ThemeChoice {
 
 export function ThemeToggle() {
   const t = useTranslations('theme');
-  const menuId = useId();
-  const rootRef = useRef<HTMLDivElement>(null);
-  const buttonRef = useRef<HTMLButtonElement>(null);
-  const itemRefs = useRef<(HTMLButtonElement | null)[]>([]);
   const theme = useSyncExternalStore<ThemeChoice>(
     subscribeToThemeChanges,
     getStoredTheme,
     getServerTheme
   );
-  const [isOpen, setIsOpen] = useState(false);
 
-  const closeMenu = useCallback((returnFocus: boolean) => {
-    setIsOpen(false);
-    if (returnFocus) {
-      buttonRef.current?.focus();
-    }
-  }, []);
+  // Cycle order follows THEME_CHOICES: system → light → dark → system.
+  const nextTheme = THEME_CHOICES[(THEME_CHOICES.indexOf(theme) + 1) % THEME_CHOICES.length];
 
-  const focusItemAt = useCallback((index: number) => {
-    const items = itemRefs.current;
-    if (items.length === 0) return;
-    const nextIndex = (index + items.length) % items.length;
-    items[nextIndex]?.focus();
-  }, []);
-
-  const selectTheme = useCallback((nextTheme: ThemeChoice) => {
+  const cycleTheme = useCallback(() => {
     volatileTheme = nextTheme;
 
     try {
@@ -152,8 +128,7 @@ export function ThemeToggle() {
 
     applyTheme(nextTheme);
     window.dispatchEvent(new Event(THEME_CHANGE_EVENT));
-    closeMenu(true);
-  }, [closeMenu]);
+  }, [nextTheme]);
 
   // Keep the DOM in sync after hydration. The pre-hydration script applies the
   // initial theme; subsequent changes also flow through the external store
@@ -162,119 +137,19 @@ export function ThemeToggle() {
     applyTheme(theme);
   }, [theme]);
 
-  // Move focus into the menu (onto the active choice) when it opens.
-  useEffect(() => {
-    if (!isOpen) return;
-    const activeIndex = Math.max(0, THEME_CHOICES.indexOf(theme));
-    focusItemAt(activeIndex);
-  }, [isOpen, theme, focusItemAt]);
-
-  useEffect(() => {
-    if (!isOpen) return;
-
-    const onPointerDown = (event: PointerEvent) => {
-      if (!rootRef.current?.contains(event.target as Node)) {
-        setIsOpen(false);
-      }
-    };
-
-    const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') {
-        event.preventDefault();
-        closeMenu(true);
-      }
-    };
-
-    document.addEventListener('pointerdown', onPointerDown);
-    document.addEventListener('keydown', onKeyDown);
-
-    return () => {
-      document.removeEventListener('pointerdown', onPointerDown);
-      document.removeEventListener('keydown', onKeyDown);
-    };
-  }, [isOpen, closeMenu]);
-
-  const onMenuKeyDown = useCallback(
-    (event: ReactKeyboardEvent<HTMLDivElement>) => {
-      const currentIndex = itemRefs.current.findIndex(
-        (item) => item === document.activeElement
-      );
-
-      switch (event.key) {
-        case 'ArrowDown':
-          event.preventDefault();
-          focusItemAt(currentIndex + 1);
-          break;
-        case 'ArrowUp':
-          event.preventDefault();
-          focusItemAt(currentIndex - 1);
-          break;
-        case 'Home':
-          event.preventDefault();
-          focusItemAt(0);
-          break;
-        case 'End':
-          event.preventDefault();
-          focusItemAt(itemRefs.current.length - 1);
-          break;
-        case 'Tab':
-          closeMenu(false);
-          break;
-      }
-    },
-    [focusItemAt, closeMenu]
-  );
-
   const CurrentIcon = ICONS[theme];
+  const currentLabel = `${t('label')}: ${t(theme)}`;
 
   return (
-    <div ref={rootRef} className="relative">
-      <button
-        ref={buttonRef}
-        type="button"
-        aria-label={`${t('label')}: ${t(theme)}`}
-        aria-haspopup="menu"
-        aria-expanded={isOpen}
-        aria-controls={menuId}
-        onClick={() => setIsOpen((current) => !current)}
-        className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-border bg-surface text-text-muted transition-colors hover:border-primary hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary"
-      >
-        <CurrentIcon className="h-5 w-5" aria-hidden="true" />
-      </button>
-
-      {isOpen && (
-        <div
-          id={menuId}
-          role="menu"
-          aria-label={t('label')}
-          onKeyDown={onMenuKeyDown}
-          className="absolute end-0 top-full z-50 mt-2 w-40 overflow-hidden rounded-lg border border-border bg-surface-elevated p-1 shadow-lg"
-        >
-          {THEME_CHOICES.map((choice, index) => {
-            const Icon = ICONS[choice];
-            const isSelected = choice === theme;
-
-            return (
-              <button
-                key={choice}
-                ref={(node) => {
-                  itemRefs.current[index] = node;
-                }}
-                type="button"
-                role="menuitemradio"
-                aria-checked={isSelected}
-                tabIndex={isSelected ? 0 : -1}
-                onClick={() => selectTheme(choice)}
-                className="flex w-full items-center gap-2 rounded-md px-3 py-2 text-start text-sm font-medium text-text transition-colors hover:bg-surface hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary"
-              >
-                <Icon className="h-4 w-4 shrink-0" aria-hidden="true" />
-                <span className="flex-1">{t(choice)}</span>
-                {isSelected && <Check className="h-4 w-4 text-primary" aria-hidden="true" />}
-              </button>
-            );
-          })}
-        </div>
-      )}
-    </div>
+    <button
+      type="button"
+      onClick={cycleTheme}
+      aria-label={`${currentLabel}. ${t('next', { theme: t(nextTheme) })}`}
+      title={currentLabel}
+      className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-border bg-surface text-text-muted transition-colors hover:border-primary hover:text-primary focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+    >
+      {/* key remounts the icon so the swap animation replays on every change */}
+      <CurrentIcon key={theme} className="theme-icon-swap h-5 w-5" aria-hidden="true" />
+    </button>
   );
 }
