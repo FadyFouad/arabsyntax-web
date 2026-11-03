@@ -40,11 +40,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: e.sentence,
     description,
     alternates: {
-      // Arabic is the canonical original on BOTH locales (same Arabic content).
+      // Arabic is the canonical original on BOTH locales (same Arabic content), so
+      // no `en` hreflang — it would point at a URL that canonicalizes away.
       canonical: arUrl(slug),
       languages: {
         ar: arUrl(slug),
-        en: localeUrl('en', slug),
         'x-default': arUrl(slug),
       },
     },

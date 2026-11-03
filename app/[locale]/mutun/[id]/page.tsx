@@ -35,10 +35,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: matn.titleAr,
     description,
     alternates: {
-      canonical: matnUrl(locale as Locale, id),
+      // The matn is Arabic on both locales (only the nav chrome is translated), so
+      // the Arabic URL is the canonical on BOTH, with no `en` hreflang: a
+      // self-canonical /en copy reads as a duplicate and Google overrides it.
+      canonical: matnUrl('ar', id),
       languages: {
         ar: matnUrl('ar', id),
-        en: matnUrl('en', id),
         'x-default': matnUrl('ar', id),
       },
     },
@@ -47,7 +49,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       url: matnUrl(locale as Locale, id),
       type: 'article',
-      locale: locale === 'ar' ? 'ar_AR' : 'en_US',
+      locale: 'ar_AR', // content is Arabic regardless of UI locale
     },
   };
 }
@@ -70,7 +72,7 @@ export default async function MatnReaderPage({ params }: PageProps) {
     name: matn.titleAr,
     author: { '@type': 'Person', name: matn.author },
     inLanguage: 'ar',
-    url: matnUrl(locale as Locale, id),
+    url: matnUrl('ar', id),
     isPartOf: { '@id': `${siteConfig.url}/#website` },
     provider: { '@id': `${siteConfig.url}/#organization` },
   };
