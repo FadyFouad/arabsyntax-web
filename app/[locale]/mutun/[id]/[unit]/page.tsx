@@ -57,10 +57,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: { absolute: title },
     description,
     alternates: {
-      canonical: unitUrl(locale as Locale, id, slug),
+      // Arabic content on both locales → Arabic URL is the canonical on BOTH, and
+      // no `en` hreflang (see app/[locale]/mutun/[id]/page.tsx).
+      canonical: unitUrl('ar', id, slug),
       languages: {
         ar: unitUrl('ar', id, slug),
-        en: unitUrl('en', id, slug),
         'x-default': unitUrl('ar', id, slug),
       },
     },
@@ -69,7 +70,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       url: unitUrl(locale as Locale, id, slug),
       type: 'article',
-      locale: locale === 'ar' ? 'ar_AR' : 'en_US',
+      locale: 'ar_AR', // content is Arabic regardless of UI locale
     },
   };
 }
@@ -87,8 +88,8 @@ export default async function MatnUnitPage({ params }: PageProps) {
     '@type': 'Chapter',
     name: current.unit.title,
     inLanguage: 'ar',
-    url: unitUrl(locale as Locale, id, slug),
-    isPartOf: { '@type': 'Book', name: matn.titleAr, url: matnUrl(locale as Locale, id) },
+    url: unitUrl('ar', id, slug),
+    isPartOf: { '@type': 'Book', name: matn.titleAr, url: matnUrl('ar', id) },
   };
 
   return (

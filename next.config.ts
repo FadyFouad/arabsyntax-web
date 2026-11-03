@@ -121,6 +121,17 @@ const nextConfig: NextConfig = {
   async headers() {
     return [{ source: '/:path*', headers: securityHeaders }];
   },
+  // Arabic is the unprefixed default locale (localePrefix: 'as-needed'). Google
+  // already knows /ar/... URLs; next-intl's middleware would only 307 them, so
+  // send a permanent 308 here instead. Config redirects run before middleware,
+  // and next-intl's internal /ar rewrite doesn't re-enter them, so no loop. The
+  // patterns are segment-bounded: /arabic etc. don't match.
+  async redirects() {
+    return [
+      { source: '/ar', destination: '/', permanent: true },
+      { source: '/ar/:path*', destination: '/:path*', permanent: true },
+    ];
+  },
   // Allow the dev server (incl. HMR over WebSocket) to be reached through a
   // Cloudflare quick tunnel. Dev-only; the subdomain is random per run, so the
   // whole service is allowlisted. Has no effect on production builds.

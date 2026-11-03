@@ -136,34 +136,29 @@ function buildSitemap() {
     }
   }
 
-  const i3rabRoutes = ['/i3rab', ...i3rabSlugs().map((slug) => `/i3rab/${slug}`)];
-  for (const route of i3rabRoutes) {
-    entries.push(
-      urlEntry({
-        loc: `${SITE}${route}`,
-        priority: route === '/i3rab' ? '0.6' : '0.7',
-        alternates: {
-          ar: `${SITE}${route}`,
-          en: `${SITE}/en${route}`,
-          'x-default': `${SITE}${route}`,
-        },
-      }),
-    );
-  }
+  // Arabic-only content (i3rab, and each matn / باب): the Arabic URL is the
+  // canonical on both locales, so list it alone with no `en` alternate — matching
+  // the hreflang the pages emit. The /mutun index is a translated page (English
+  // title/subtitle) with a self-canonical /en version, so it keeps its pair.
+  const arabicOnly = (route, priority) =>
+    urlEntry({
+      loc: `${SITE}${route}`,
+      priority,
+      alternates: { ar: `${SITE}${route}`, 'x-default': `${SITE}${route}` },
+    });
 
-  const mutunRoutes = ['/mutun', ...mutunIds().map((id) => `/mutun/${id}`), ...pagedUnitRoutes()];
-  for (const route of mutunRoutes) {
-    entries.push(
-      urlEntry({
-        loc: `${SITE}${route}`,
-        priority: route === '/mutun' ? '0.6' : '0.7',
-        alternates: {
-          ar: `${SITE}${route}`,
-          en: `${SITE}/en${route}`,
-          'x-default': `${SITE}${route}`,
-        },
-      }),
-    );
+  const i3rabRoutes = ['/i3rab', ...i3rabSlugs().map((slug) => `/i3rab/${slug}`)];
+  for (const route of i3rabRoutes) entries.push(arabicOnly(route, route === '/i3rab' ? '0.6' : '0.7'));
+
+  entries.push(
+    urlEntry({
+      loc: `${SITE}/mutun`,
+      priority: '0.6',
+      alternates: { ar: `${SITE}/mutun`, en: `${SITE}/en/mutun`, 'x-default': `${SITE}/mutun` },
+    }),
+  );
+  for (const route of [...mutunIds().map((id) => `/mutun/${id}`), ...pagedUnitRoutes()]) {
+    entries.push(arabicOnly(route, '0.7'));
   }
 
   return `<?xml version="1.0" encoding="UTF-8"?>

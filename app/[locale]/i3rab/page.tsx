@@ -25,7 +25,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       canonical: arIndexUrl,
       languages: {
         ar: arIndexUrl,
-        en: `${siteConfig.url}/en/i3rab`,
         'x-default': arIndexUrl,
       },
     },
