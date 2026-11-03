@@ -2,7 +2,7 @@
 
 import { Languages } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
-import { Link, usePathname } from '@/i18n/routing';
+import { LocaleSwitchLink } from './LocaleSwitchLink';
 
 /**
  * Compact header language control: one button that switches straight to the
@@ -12,15 +12,13 @@ import { Link, usePathname } from '@/i18n/routing';
  */
 export function LanguageToggle() {
   const locale = useLocale();
-  const pathname = usePathname();
   const t = useTranslations('footer.langSwitcher');
 
   const target = locale === 'ar' ? 'en' : 'ar';
   const targetName = t(target);
 
   return (
-    <Link
-      href={pathname}
+    <LocaleSwitchLink
       locale={target}
       hrefLang={target}
       aria-label={`${t('label')}: ${targetName}`}
@@ -34,6 +32,6 @@ export function LanguageToggle() {
       >
         {target === 'ar' ? 'ع' : 'EN'}
       </span>
-    </Link>
+    </LocaleSwitchLink>
   );
 }
