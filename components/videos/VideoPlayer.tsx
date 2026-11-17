@@ -11,7 +11,7 @@ interface Chapter {
 
 interface VideoPlayerProps {
   youtubeId: string;
-  /** Arabic video title — the iframe's accessible name. */
+  /** Arabic display title — the iframe's accessible name. */
   title: string;
   durationSeconds: number;
   chapters?: Chapter[];
@@ -101,8 +101,9 @@ export default function VideoPlayer({ youtubeId, title, durationSeconds, chapter
           <h2 id="video-chapters" className="mb-3 text-xl font-semibold text-text">
             {t('chaptersTitle')}
           </h2>
-          {/* Chapter titles are Arabic on both locales, so the list is always RTL. */}
-          <ol lang="ar" dir="rtl" className="divide-y divide-border overflow-hidden rounded-2xl border border-border bg-surface">
+          {/* Chapter titles are Arabic on both locales, so the list is always RTL
+              and always in the Arabic webfont (on /en the body font is Latin). */}
+          <ol lang="ar" dir="rtl" className="font-arabic divide-y divide-border overflow-hidden rounded-2xl border border-border bg-surface">
             {chapters.map((chapter) => {
               const current = (start ?? 0) === chapter.startSeconds && (picked !== null || urlStart !== null);
               return (

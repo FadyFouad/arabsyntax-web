@@ -3,6 +3,7 @@ import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import { describe, it, expect } from 'vitest';
 import {
+  displayTitleAr,
   orderedVideoEntries,
   videoSitemapEntries,
   videoSitemapTag,
@@ -59,6 +60,14 @@ describe('videoSitemapTag', () => {
     ]);
   });
 
+  it('drops the channel suffix from the title but keeps other "|" segments', () => {
+    const suffixed = videoSitemapTag({ site: SITE, slug: 'x', video: video({ title: { ar: 'أقسام الفعل | النحو الكافي', en: 'x' } }) });
+    expect(suffixed).toContain('<video:title>أقسام الفعل</video:title>');
+    const numbered = videoSitemapTag({ site: SITE, slug: 'x', video: video({ title: { ar: 'علم النحو | الدرس الأول', en: 'x' } }) });
+    expect(numbered).toContain('<video:title>علم النحو | الدرس الأول</video:title>');
+    expect(displayTitleAr('حروف الجر | النحو الكافي')).toBe('حروف الجر');
+  });
+
   it('describes the video with the summary, not the verbatim description', () => {
     expect(tag).not.toContain('الوصف الكامل');
     expect(tag).not.toContain('English summary.');
@@ -103,14 +112,23 @@ describe('orderedVideoEntries / videoSitemapEntries', () => {
   const videos = { horof_gar: video({ youtubeId: '3jPaRjMrf8I' }), alesm: video({ youtubeId: 'I2gepg1axps' }) };
   const manifest = ['alesm', 'alhaal', 'horof_gar'];
 
-  it('follows lesson-manifest order, not videos.json key order', () => {
+  it('follows lesson-tree order when given one', () => {
+    expect(orderedVideoEntries(videos, manifest, ['horof_gar', 'alesm']).map((e) => e.slug)).toEqual(['horof_gar', 'alesm']);
+  });
+
+  it('falls back to manifest order for lessons the tree omits, and with no tree at all', () => {
+    expect(orderedVideoEntries(videos, manifest, ['horof_gar']).map((e) => e.slug)).toEqual(['horof_gar', 'alesm']);
     expect(orderedVideoEntries(videos, manifest).map((e) => e.slug)).toEqual(['alesm', 'horof_gar']);
+    expect(orderedVideoEntries(videos, manifest, ['horof_gar', 'horof_gar', 'not_a_lesson']).map((e) => e.slug)).toEqual([
+      'horof_gar',
+      'alesm',
+    ]);
   });
 
   it('emits the index first, then one watch page per video', () => {
-    const entries = videoSitemapEntries({ site: SITE, videos, lessonSlugs: manifest });
+    const entries = videoSitemapEntries({ site: SITE, videos, lessonSlugs: manifest, treeLessonIds: ['horof_gar', 'alesm'] });
     const locs = entries.map((e) => e.match(/<loc>(.*?)<\/loc>/)?.[1]);
-    expect(locs).toEqual([`${SITE}/videos`, `${SITE}/videos/alesm`, `${SITE}/videos/horof_gar`]);
+    expect(locs).toEqual([`${SITE}/videos`, `${SITE}/videos/horof_gar`, `${SITE}/videos/alesm`]);
   });
 
   it('emits nothing — not even the index — when there are no videos', () => {
@@ -142,20 +160,31 @@ describe('generated public/sitemap.xml', () => {
     string,
     { youtubeId: string; durationSeconds: number }
   >;
-  const manifest = Object.keys(
-    JSON.parse(readFileSync(path.join(root, 'content', 'lessons', 'manifest.json'), 'utf8')).en,
-  );
+  const treeOrder = (
+    JSON.parse(readFileSync(path.join(root, 'content', 'lessons', 'tree.json'), 'utf8')) as {
+      nodes: { lessonId: string }[];
+    }
+  ).nodes.map((node) => node.lessonId);
 
   it('declares the video namespace', () => {
     expect(sitemap).toContain('xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"');
   });
 
-  it('lists /videos and every watch page exactly once, in manifest order', () => {
+  it('lists /videos and every watch page exactly once, in lesson-tree order', () => {
     const locs = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((m) => m[1]);
     expect(locs.filter((loc) => loc === `${SITE}/videos`)).toHaveLength(1);
     const watch = locs.filter((loc) => loc.startsWith(`${SITE}/videos/`));
-    expect(watch).toEqual(manifest.filter((slug) => slug in videos).map((slug) => `${SITE}/videos/${slug}`));
+    expect(watch).toEqual(treeOrder.filter((slug) => slug in videos).map((slug) => `${SITE}/videos/${slug}`));
+    expect(watch).toHaveLength(Object.keys(videos).length);
+    expect(watch[0]).toBe(`${SITE}/videos/elm_alnaho`);
     expect(locs.some((loc) => loc.includes('/en/videos'))).toBe(false);
+  });
+
+  it('no video title carries the channel suffix', () => {
+    const titles = [...sitemap.matchAll(/<video:title>(.*?)<\/video:title>/g)].map((m) => m[1]);
+    expect(titles).toHaveLength(Object.keys(videos).length);
+    for (const title of titles) expect(title).not.toMatch(/النحو الكافي\s*$/);
+    expect(titles[0]).toMatch(/\| الدرس الأول$/);
   });
 
   it('has one video block per video with its player, thumbnail and duration', () => {

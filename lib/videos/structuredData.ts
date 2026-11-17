@@ -1,4 +1,4 @@
-import { formatIsoDuration, videoEmbedUrl } from './format';
+import { displayTitleAr, formatIsoDuration, videoEmbedUrl } from './format';
 import { videoPosterSrc, type LessonVideo } from './schema';
 
 /**
@@ -57,7 +57,7 @@ export function buildVideoObject({ slug, video, siteUrl }: { slug: string; video
     '@context': 'https://schema.org',
     '@type': 'VideoObject',
     '@id': `${watchUrl(siteUrl, slug)}#video`,
-    name: video.title.ar,
+    name: displayTitleAr(video.title.ar),
     description: video.summary.ar,
     thumbnailUrl: [posterUrl(siteUrl, slug)],
     uploadDate: video.uploadDate,

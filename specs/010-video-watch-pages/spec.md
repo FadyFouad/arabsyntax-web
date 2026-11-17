@@ -366,6 +366,22 @@ video tests, `e2e/prerender-completeness.spec.ts`.
    watch page is the URL without query params; e2e asserts it on the raw HTML of
    a `?t=` request, in the browser on a `?t=` load, and after a chapter click.
 
+## Decisions (review of PR #64)
+
+6. **Order** — the `/videos` index, the watch pages' static params and the
+   sitemap use **lesson-tree order** (`content/lessons/tree.json` node order),
+   so `elm_alnaho` comes first. A video whose lesson is not a tree node is
+   appended in manifest order. Where this document says "manifest order", read
+   "tree order".
+7. **Arabic titles** — the trailing " | النحو الكافي" is stripped at render
+   time (`displayTitleAr`) in the watch page `<h1>`, document title, iframe
+   title, `/videos` cards, JSON-LD `name` and sitemap `video:title`. Other "|"
+   segments ("| الدرس الأول") stay. `title.ar` in `videos.json` stays verbatim.
+8. **Arabic text on `/en` watch pages** — the `<h1>`, summary and chapter list
+   carry `lang="ar" dir="rtl"` and the `font-arabic` (Cairo) stack. No font
+   loading was added: the layout already declares and preloads Cairo on every
+   page of both locales.
+
 ## Verification notes
 
 - **Workers asset routing** (local `wrangler` against the OpenNext bundle):

@@ -109,6 +109,17 @@ function lessonVideos() {
   return JSON.parse(readFileSync(file, 'utf8'));
 }
 
+// Lesson-tree order (content/lessons/tree.json node order) — the curriculum
+// order videos are listed in. Missing/malformed tree → manifest order.
+function treeLessonIds() {
+  try {
+    const tree = JSON.parse(readFileSync(path.join(ROOT, 'content/lessons/tree.json'), 'utf8'));
+    return (tree.nodes ?? []).map((node) => node.lessonId).filter((id) => typeof id === 'string');
+  } catch {
+    return [];
+  }
+}
+
 const xml = (s) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
 
@@ -173,7 +184,14 @@ function buildSitemap() {
 
   // Video watch pages (Arabic-only, like i3rab): /videos plus one page per entry
   // in content/videos.json, each carrying a Google <video:video> block.
-  entries.push(...videoSitemapEntries({ site: SITE, videos: lessonVideos(), lessonSlugs: lessonSlugs() }));
+  entries.push(
+    ...videoSitemapEntries({
+      site: SITE,
+      videos: lessonVideos(),
+      lessonSlugs: lessonSlugs(),
+      treeLessonIds: treeLessonIds(),
+    }),
+  );
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">

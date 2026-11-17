@@ -27,16 +27,33 @@ export const xmlEscape = (s) =>
     .replace(/'/g, '&apos;');
 
 /**
- * Videos that get a watch page, in curriculum (lesson manifest) order — the
- * same order as getVideoIndex() in lib/videos/loader.ts.
+ * Arabic title without the trailing channel suffix (" | النحو الكافي").
+ * Mirrors displayTitleAr() in lib/videos/format.ts.
+ *
+ * @param {string} title
+ */
+export const displayTitleAr = (title) => String(title).replace(/\s*\|\s*النحو الكافي\s*$/u, '').trim();
+
+/**
+ * Videos that get a watch page, in curriculum order: lesson-tree order first,
+ * then any other lesson in manifest order — the same order as getVideoIndex()
+ * in lib/videos/loader.ts (curriculumOrder() in lib/videos/format.ts). A video
+ * whose slug is not a lesson has no watch page and is left out.
  *
  * @param {Record<string, any>} videos
- * @param {string[]} lessonSlugs
+ * @param {string[]} lessonSlugs manifest order
+ * @param {string[]} [treeLessonIds] lesson-tree order
  * @returns {{ slug: string, video: any }[]}
  */
-export function orderedVideoEntries(videos, lessonSlugs) {
-  return lessonSlugs
-    .filter((slug) => Object.hasOwn(videos, slug))
+export function orderedVideoEntries(videos, lessonSlugs, treeLessonIds = []) {
+  const lessons = new Set(lessonSlugs);
+  const seen = new Set();
+  return [...treeLessonIds, ...lessonSlugs]
+    .filter((slug) => {
+      if (seen.has(slug) || !lessons.has(slug) || !Object.hasOwn(videos, slug)) return false;
+      seen.add(slug);
+      return true;
+    })
     .map((slug) => {
       const video = videos[slug];
       if (!SLUG_PATTERN.test(slug) || !YOUTUBE_ID_PATTERN.test(String(video?.youtubeId))) {
@@ -55,7 +72,7 @@ export function videoSitemapTag({ site, slug, video }) {
   return [
     '    <video:video>',
     `      <video:thumbnail_loc>${xmlEscape(`${site}/videos/${slug}.jpg`)}</video:thumbnail_loc>`,
-    `      <video:title>${xmlEscape(video.title.ar)}</video:title>`,
+    `      <video:title>${xmlEscape(displayTitleAr(video.title.ar))}</video:title>`,
     `      <video:description>${xmlEscape(video.summary.ar)}</video:description>`,
     `      <video:player_loc>${xmlEscape(`https://www.youtube-nocookie.com/embed/${video.youtubeId}`)}</video:player_loc>`,
     `      <video:duration>${Number(video.durationSeconds)}</video:duration>`,
@@ -88,11 +105,11 @@ export function videoUrlEntry({ site, route, priority, slug, video }) {
 /**
  * Every video `<url>`: the /videos index first, then one watch page per video.
  *
- * @param {{ site: string, videos: Record<string, any>, lessonSlugs: string[] }} input
+ * @param {{ site: string, videos: Record<string, any>, lessonSlugs: string[], treeLessonIds?: string[] }} input
  * @returns {string[]}
  */
-export function videoSitemapEntries({ site, videos, lessonSlugs }) {
-  const entries = orderedVideoEntries(videos, lessonSlugs);
+export function videoSitemapEntries({ site, videos, lessonSlugs, treeLessonIds = [] }) {
+  const entries = orderedVideoEntries(videos, lessonSlugs, treeLessonIds);
   if (entries.length === 0) return [];
   return [
     videoUrlEntry({ site, route: '/videos', priority: '0.6' }),

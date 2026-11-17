@@ -2,6 +2,8 @@ import 'server-only';
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import { getAllSlugs } from '@/lib/lessons/loader';
+import { loadTreeDefinition } from '@/lib/lessons/tree/loader';
+import { curriculumOrder } from './format';
 import { parseVideos, type LessonVideo, type VideosFile } from './schema';
 
 const VIDEOS_FILE = path.join(process.cwd(), 'content', 'videos.json');
@@ -35,13 +37,26 @@ export function getLessonVideo(slug: string): LessonVideo | null {
   return Object.hasOwn(videos, slug) ? videos[slug] : null;
 }
 
+/** Lesson ids in lesson-tree order; empty if tree.json is missing or malformed. */
+function treeLessonIds(): string[] {
+  try {
+    return loadTreeDefinition().nodes.map((node) => node.lessonId);
+  } catch {
+    // The tree is fail-safe everywhere else too (see lib/lessons/tree/loader.ts):
+    // without it the order just falls back to the lesson manifest.
+    return [];
+  }
+}
+
 /**
- * Videos in curriculum order — the lesson manifest's order, not the key order
- * of videos.json — for the /videos index and the watch pages' static params.
+ * Videos in curriculum order — lesson-tree order (so the intro lesson comes
+ * first), not the alphabetical manifest or the key order of videos.json — for
+ * the /videos index and the watch pages' static params.
  */
 export function getVideoIndex(): { slug: string; video: LessonVideo }[] {
   const videos = getAllLessonVideos();
-  return getAllSlugs()
-    .filter((slug) => Object.hasOwn(videos, slug))
-    .map((slug) => ({ slug, video: videos[slug] }));
+  return curriculumOrder(Object.keys(videos), treeLessonIds(), getAllSlugs()).map((slug) => ({
+    slug,
+    video: videos[slug],
+  }));
 }

@@ -1,4 +1,4 @@
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { describe, it, expect, vi } from 'vitest';
 
@@ -58,12 +58,18 @@ describe('videos loader (real content)', () => {
     expect(new Set(ids).size).toBe(ids.length);
   });
 
-  it('getVideoIndex lists every video once, in lesson-manifest order', () => {
+  it('getVideoIndex lists every video once, in lesson-tree (curriculum) order', () => {
     const index = getVideoIndex();
     const slugs = index.map((entry) => entry.slug);
     expect([...slugs].sort()).toEqual(Object.keys(getAllLessonVideos()).sort());
-    const manifestOrder = getAllSlugs().filter((slug) => slugs.includes(slug));
-    expect(slugs).toEqual(manifestOrder);
+    const tree = JSON.parse(readFileSync(path.join(process.cwd(), 'content', 'lessons', 'tree.json'), 'utf8')) as {
+      nodes: { lessonId: string }[];
+    };
+    const treeOrder = tree.nodes.map((node) => node.lessonId).filter((slug) => slugs.includes(slug));
+    // Every current video's lesson is in the tree, so tree order is the whole order…
+    expect(slugs).toEqual(treeOrder);
+    // …which puts the intro lesson first — unlike the alphabetical manifest.
+    expect(slugs[0]).toBe('elm_alnaho');
     for (const { slug, video } of index) expect(video).toBe(getAllLessonVideos()[slug]);
   });
 

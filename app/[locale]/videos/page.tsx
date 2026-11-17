@@ -8,7 +8,7 @@ import { siteConfig } from '@/lib/siteConfig';
 import type { Locale } from '@/lib/lessons/loader';
 import { getVideoIndex } from '@/lib/videos/loader';
 import { videoPosterSrc } from '@/lib/videos/schema';
-import { formatClock } from '@/lib/videos/format';
+import { displayTitleAr, formatClock } from '@/lib/videos/format';
 import { videosIndexUrl } from '@/lib/videos/structuredData';
 
 interface PageProps {
@@ -46,7 +46,7 @@ export default async function VideosIndexPage({ params }: PageProps) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('videos');
-  // Curriculum (lesson manifest) order. Posters are self-hosted, so this page
+  // Curriculum (lesson tree) order. Posters are self-hosted, so this page
   // makes no request to YouTube.
   const videos = getVideoIndex();
 
@@ -76,7 +76,7 @@ export default async function VideosIndexPage({ params }: PageProps) {
               </div>
               <div className="flex flex-1 flex-col gap-2 p-6">
                 <h3 className="text-xl font-semibold text-text group-hover:text-primary">
-                  {video.title[locale as Locale]}
+                  {locale === 'ar' ? displayTitleAr(video.title.ar) : video.title[locale as Locale]}
                 </h3>
                 <p className="text-text-body">{video.summary[locale as Locale]}</p>
               </div>

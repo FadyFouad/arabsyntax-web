@@ -9,7 +9,7 @@ import VideoPlayer from '@/components/videos/VideoPlayer';
 import { siteConfig } from '@/lib/siteConfig';
 import { getLesson, type Locale } from '@/lib/lessons/loader';
 import { getLessonVideo, getVideoIndex } from '@/lib/videos/loader';
-import { formatClock } from '@/lib/videos/format';
+import { displayTitleAr, formatClock } from '@/lib/videos/format';
 import { buildVideoObject, posterUrl, watchUrl } from '@/lib/videos/structuredData';
 import { serializeJsonLd } from '@/lib/jsonLd';
 
@@ -34,9 +34,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const video = getLessonVideo(slug);
   if (!video) return {};
   const poster = posterUrl(siteConfig.url, slug);
+  // Without the channel suffix: the layout's title template appends the site name.
+  const title = displayTitleAr(video.title.ar);
 
   return {
-    title: video.title.ar,
+    title,
     description: video.summary.ar,
     alternates: {
       // Arabic is the canonical original on BOTH locales, so no `en` hreflang —
@@ -48,7 +50,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
     },
     openGraph: {
-      title: video.title.ar,
+      title,
       description: video.summary.ar,
       url: localeUrl(locale, slug),
       type: 'video.other',
@@ -73,8 +75,10 @@ export default async function VideoWatchPage({ params }: PageProps) {
     timeZone: 'UTC',
   }).format(new Date(video.uploadDate));
 
+  const title = displayTitleAr(video.title.ar);
   // Title, summary and chapters are Arabic on both locales; only the page chrome
-  // is translated. Mark the Arabic text up so /en renders and announces it right.
+  // is translated. On /en the body uses the Latin font stack and LTR, so every
+  // Arabic block is marked lang/dir and given the site's Arabic webfont.
   const arabic = locale === 'ar' ? {} : ({ lang: 'ar', dir: 'rtl' } as const);
 
   return (
@@ -94,19 +98,19 @@ export default async function VideoWatchPage({ params }: PageProps) {
         <div className="mt-4">
           <VideoPlayer
             youtubeId={video.youtubeId}
-            title={video.title.ar}
+            title={title}
             durationSeconds={video.durationSeconds}
             chapters={video.chapters}
           >
-            <h1 {...arabic} className="mt-6 text-2xl font-bold text-text lg:text-3xl">
-              {video.title.ar}
+            <h1 {...arabic} className="font-arabic mt-6 text-2xl font-bold text-text lg:text-3xl">
+              {title}
             </h1>
             <p className="mt-2 text-sm text-text-muted">
               <span>{t('duration', { time: formatClock(video.durationSeconds) })}</span>
               <span aria-hidden="true"> · </span>
               <span>{t('publishedOn', { date: published })}</span>
             </p>
-            <p {...arabic} className="mt-4 text-lg leading-relaxed text-text-body">
+            <p {...arabic} className="font-arabic mt-4 text-lg leading-relaxed text-text-body">
               {video.summary.ar}
             </p>
           </VideoPlayer>

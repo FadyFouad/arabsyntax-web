@@ -10,7 +10,16 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 vi.mock('server-only', () => ({}));
 // The slug cross-check consults the lessons loader; pin it so this test is about
 // the videos loader alone.
-vi.mock('@/lib/lessons/loader', () => ({ getAllSlugs: () => ['elm_alnaho', 'aqsam_kalam'] }));
+vi.mock('@/lib/lessons/loader', () => ({ getAllSlugs: () => ['aqsam_kalam', 'elm_alnaho'] }));
+
+// The curriculum order comes from the lesson tree; make it controllable.
+let treeThrows = false;
+vi.mock('@/lib/lessons/tree/loader', () => ({
+  loadTreeDefinition: () => {
+    if (treeThrows) throw new Error('ENOENT: tree.json');
+    return { nodes: [{ lessonId: 'elm_alnaho' }, { lessonId: 'aqsam_kalam' }] };
+  },
+}));
 
 let fileContents: string | null = null;
 let reads = 0;
@@ -41,6 +50,7 @@ const entry = (overrides: Record<string, unknown> = {}) => ({
 beforeEach(() => {
   fileContents = null;
   reads = 0;
+  treeThrows = false;
 });
 
 describe('videos loader — failure paths', () => {
@@ -73,6 +83,16 @@ describe('videos loader — failure paths', () => {
     expect(() => getLessonVideo('elm_alnaho')).toThrow();
     fileContents = JSON.stringify({ elm_alnaho: entry() });
     expect(getLessonVideo('elm_alnaho')?.youtubeId).toBe('H1Ml29ytjQ0');
+  });
+
+  it('getVideoIndex follows the lesson tree, and falls back to manifest order without it', async () => {
+    fileContents = JSON.stringify({ aqsam_kalam: entry({ youtubeId: 'HsAQqiWgIhg' }), elm_alnaho: entry() });
+    const withTree = await freshLoader();
+    expect(withTree.getVideoIndex().map((e) => e.slug)).toEqual(['elm_alnaho', 'aqsam_kalam']);
+
+    treeThrows = true;
+    const withoutTree = await freshLoader();
+    expect(withoutTree.getVideoIndex().map((e) => e.slug)).toEqual(['aqsam_kalam', 'elm_alnaho']);
   });
 
   it('reads the file once, then serves every lookup from memory', async () => {

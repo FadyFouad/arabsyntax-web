@@ -1,5 +1,12 @@
 import { describe, it, expect, vi } from 'vitest';
-import { formatClock, formatIsoDuration, parseStartParam, videoEmbedUrl } from '@/lib/videos/format';
+import {
+  curriculumOrder,
+  displayTitleAr,
+  formatClock,
+  formatIsoDuration,
+  parseStartParam,
+  videoEmbedUrl,
+} from '@/lib/videos/format';
 import {
   arLessonResourceId,
   buildClips,
@@ -17,6 +24,9 @@ import { serializeJsonLd } from '@/lib/jsonLd';
 // lesson video eligible for video results, so its exact shape is pinned here as
 // a pure function of the record — no page render needed.
 // ─────────────────────────────────────────────────────────────────────────────
+
+// The last block loads the real content through the server-only loader.
+vi.mock('server-only', () => ({}));
 
 const SITE = 'https://alnahwalkafi.com';
 
@@ -94,6 +104,50 @@ describe('parseStartParam', () => {
   });
 });
 
+describe('displayTitleAr', () => {
+  it('removes the trailing channel suffix', () => {
+    expect(displayTitleAr('أقسام الفعل | النحو الكافي')).toBe('أقسام الفعل');
+    expect(displayTitleAr('علامات الاسم: كيف تعرف أن الكلمة اسم؟ | النحو الكافي')).toBe(
+      'علامات الاسم: كيف تعرف أن الكلمة اسم؟',
+    );
+    expect(displayTitleAr('أقسام الفعل|النحو الكافي  ')).toBe('أقسام الفعل');
+  });
+
+  it('keeps any other "|" segment, such as the lesson number', () => {
+    expect(displayTitleAr('علم النحو: ما هو؟ وكيف بدأ؟ | الدرس الأول')).toBe('علم النحو: ما هو؟ وكيف بدأ؟ | الدرس الأول');
+    expect(displayTitleAr('علم النحو | الدرس الأول | النحو الكافي')).toBe('علم النحو | الدرس الأول');
+  });
+
+  it('only strips the suffix at the very end, and only as a separate segment', () => {
+    expect(displayTitleAr('النحو الكافي | مقدمة')).toBe('النحو الكافي | مقدمة');
+    expect(displayTitleAr('تطبيق النحو الكافي')).toBe('تطبيق النحو الكافي');
+    expect(displayTitleAr('أقسام الفعل')).toBe('أقسام الفعل');
+  });
+});
+
+describe('curriculumOrder', () => {
+  const manifest = ['alesm', 'alhaal', 'aqsam_kalam', 'elm_alnaho', 'horof_gar'];
+  const tree = ['elm_alnaho', 'aqsam_kalam', 'alesm', 'horof_gar'];
+
+  it('follows the lesson tree, not the manifest or the input order', () => {
+    expect(curriculumOrder(['horof_gar', 'alesm', 'elm_alnaho'], tree, manifest)).toEqual([
+      'elm_alnaho',
+      'alesm',
+      'horof_gar',
+    ]);
+  });
+
+  it('appends a video whose lesson is not in the tree, in manifest order', () => {
+    expect(curriculumOrder(['alhaal', 'elm_alnaho'], tree, manifest)).toEqual(['elm_alnaho', 'alhaal']);
+    expect(curriculumOrder(['horof_gar', 'alesm'], [], manifest)).toEqual(['alesm', 'horof_gar']);
+  });
+
+  it('never drops or duplicates a slug', () => {
+    expect(curriculumOrder(['orphan', 'alesm'], ['alesm', 'alesm'], ['alesm'])).toEqual(['alesm', 'orphan']);
+    expect(curriculumOrder([], tree, manifest)).toEqual([]);
+  });
+});
+
 describe('URL helpers', () => {
   it('build absolute, Arabic-canonical URLs', () => {
     expect(watchUrl(SITE, 'aqsam_kalam')).toBe('https://alnahwalkafi.com/videos/aqsam_kalam');
@@ -150,6 +204,13 @@ describe('buildVideoObject', () => {
     });
   });
 
+  it('names the video without the channel suffix, keeping other "|" segments', () => {
+    const suffixed = video({ title: { ar: 'أقسام الفعل | النحو الكافي', en: 'x' } });
+    expect(buildVideoObject({ slug: 'aqsam_alfeal', video: suffixed, siteUrl: SITE }).name).toBe('أقسام الفعل');
+    const numbered = video({ title: { ar: 'علم النحو | الدرس الأول', en: 'x' } });
+    expect(buildVideoObject({ slug: 'elm_alnaho', video: numbered, siteUrl: SITE }).name).toBe('علم النحو | الدرس الأول');
+  });
+
   it('uses the summary, never the verbatim YouTube description', () => {
     expect(JSON.stringify(ld)).not.toContain('example.com');
     expect(JSON.stringify(ld)).not.toContain('الوصف الكامل');
@@ -190,7 +251,6 @@ describe('buildVideoObject', () => {
 // The same builder over the REAL content: every shipped video yields complete,
 // internally consistent structured data.
 describe('buildVideoObject over content/videos.json', async () => {
-  vi.mock('server-only', () => ({}));
   const { getVideoIndex } = await import('@/lib/videos/loader');
 
   it('produces a complete VideoObject for every video', () => {
@@ -198,7 +258,8 @@ describe('buildVideoObject over content/videos.json', async () => {
     expect(index.length).toBeGreaterThan(0);
     for (const { slug, video: real } of index) {
       const object = buildVideoObject({ slug, video: real, siteUrl: SITE });
-      expect(object.name, slug).toBe(real.title.ar);
+      expect(object.name, slug).toBe(displayTitleAr(real.title.ar));
+      expect(object.name, slug).not.toMatch(/النحو الكافي\s*$/);
       expect(object.description, slug).toBe(real.summary.ar);
       expect(object.duration, slug).toMatch(/^PT(\d+H)?(\d+M)?(\d+S)?$/);
       expect(object.embedUrl, slug).toBe(`https://www.youtube-nocookie.com/embed/${real.youtubeId}`);

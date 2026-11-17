@@ -1,6 +1,7 @@
 import { test, expect, type Page } from '@playwright/test';
 import videos from '../content/videos.json';
-import manifest from '../content/lessons/manifest.json';
+import tree from '../content/lessons/tree.json';
+import { displayTitleAr } from '../lib/videos/format';
 
 // Video watch pages (feature 010): /videos and /videos/<slug>. Unlike the
 // lesson-page facade (e2e/lesson-video.spec.ts), the watch page renders the
@@ -18,8 +19,12 @@ const EMBED = `https://www.youtube-nocookie.com/embed/${video.youtubeId}`;
 const WITHOUT_VIDEO = 'alhaal';
 const VIDEO_HOST = /(^|\.)(youtube\.com|youtube-nocookie\.com|ytimg\.com|googlevideo\.com|doubleclick\.net)$/;
 
-// Curriculum order = lesson-manifest order, filtered to lessons with a video.
-const orderedSlugs = Object.keys(manifest.en).filter((slug) => slug in videos);
+// Curriculum order = lesson-tree order, filtered to lessons with a video. (Every
+// current video's lesson is a tree node; asserted in the index test below.)
+const orderedSlugs = tree.nodes.map((node) => node.lessonId).filter((slug) => slug in videos);
+
+// Arabic titles are shown without the YouTube channel suffix (" | النحو الكافي").
+const TITLE = displayTitleAr(video.title.ar);
 
 /** Record requests to YouTube-family hosts and stub the embed (hermetic suite). */
 async function trackVideoHosts(page: Page): Promise<string[]> {
@@ -85,7 +90,7 @@ test.describe('watch page', () => {
     expect(src.origin + src.pathname).toBe(EMBED);
     expect(src.searchParams.has('autoplay')).toBe(false);
     expect(src.searchParams.has('start')).toBe(false);
-    await expect(iframe).toHaveAttribute('title', video.title.ar);
+    await expect(iframe).toHaveAttribute('title', TITLE);
     await expect(iframe).toHaveAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
 
     // Above the fold: the whole player is visible before any scrolling.
@@ -109,7 +114,12 @@ test.describe('watch page', () => {
   test('renders the Arabic title, summary, chapters, lesson link and quiz link', async ({ page }) => {
     await trackVideoHosts(page);
     await page.goto(`/videos/${SLUG}`);
-    await expect(page.getByRole('heading', { level: 1 })).toHaveText(video.title.ar);
+    await expect(page.getByRole('heading', { level: 1 })).toHaveText(TITLE);
+    // The suffix is stripped at render time only: the data keeps the YouTube title.
+    expect(video.title.ar).toMatch(/\| النحو الكافي$/);
+    expect(TITLE).not.toContain('النحو الكافي');
+    // …and the document title carries the site name once (from the layout template), not twice.
+    expect((await page.title()).match(/النحو الكافي/g)).toHaveLength(1);
     await expect(page.getByText(video.summary.ar)).toBeVisible();
 
     const items = page.locator('ol > li');
@@ -133,7 +143,7 @@ test.describe('watch page', () => {
     const ld = objects[0] as unknown as VideoLd;
 
     expect(ld['@context']).toBe('https://schema.org');
-    expect(ld.name).toBe(video.title.ar);
+    expect(ld.name).toBe(TITLE);
     expect(ld.description).toBe(video.summary.ar);
     expect(ld.uploadDate).toBe(video.uploadDate);
     expect(ld.duration).toMatch(/^PT(\d+H)?(\d+M)?(\d+S)?$/);
@@ -237,12 +247,26 @@ test.describe('watch page', () => {
     await expect(page.locator('html')).toHaveAttribute('dir', 'ltr');
 
     const h1 = page.getByRole('heading', { level: 1 });
-    await expect(h1).toHaveText(video.title.ar);
-    await expect(h1).toHaveAttribute('lang', 'ar');
-    await expect(h1).toHaveAttribute('dir', 'rtl');
+    await expect(h1).toHaveText(TITLE);
     await expect(page.getByText(video.summary.ar)).toBeVisible();
     await expect(page.getByText(video.summary.en)).toHaveCount(0);
-    await expect(page.locator('ol')).toHaveAttribute('dir', 'rtl');
+
+    // Every Arabic block on this English page is marked lang/dir and rendered in
+    // the site's Arabic webfont (Cairo) rather than the Latin body font.
+    const bodyFont = await page.locator('body').evaluate((el) => getComputedStyle(el).fontFamily);
+    for (const block of [h1, page.getByText(video.summary.ar), page.locator('ol')]) {
+      await expect(block).toHaveAttribute('lang', 'ar');
+      await expect(block).toHaveAttribute('dir', 'rtl');
+      const font = await block.evaluate((el) => getComputedStyle(el).fontFamily);
+      expect(font).toMatch(/cairo/i);
+      expect(font).not.toBe(bodyFont);
+    }
+    await expect(page.locator('ol > li').first()).toHaveCSS('font-family', /cairo/i);
+    // The webfont is actually loaded, not just named in the stack.
+    await page.evaluate(() => document.fonts.ready);
+    expect(
+      await page.evaluate(() => [...document.fonts].some((f) => /cairo/i.test(f.family) && f.status === 'loaded')),
+    ).toBe(true);
     await expect(page.getByRole('heading', { name: 'Chapters' })).toBeVisible();
     await expect(page.locator('iframe')).toHaveCount(1);
 
@@ -264,7 +288,7 @@ test.describe('watch page', () => {
 
     // Same Arabic VideoObject as the canonical page.
     const ld = (await jsonLd(page)).find((node) => node['@type'] === 'VideoObject') as unknown as VideoLd;
-    expect(ld.name).toBe(video.title.ar);
+    expect(ld.name).toBe(TITLE);
     expect(pathOf(ld.url)).toBe(`/videos/${SLUG}`);
   });
 
@@ -284,10 +308,11 @@ test.describe('videos index', () => {
     const cards = page.locator('main ul > li > a');
     await expect(cards).toHaveCount(orderedSlugs.length);
     expect(orderedSlugs.length).toBe(Object.keys(videos).length);
+    expect(orderedSlugs[0]).toBe('elm_alnaho'); // the intro lesson leads
     for (const [i, slug] of orderedSlugs.entries()) {
       const card = cards.nth(i);
       await expect(card).toHaveAttribute('href', `/videos/${slug}`);
-      await expect(card).toContainText(videos[slug as keyof typeof videos].title.ar);
+      await expect(card.locator('h3')).toHaveText(displayTitleAr(videos[slug as keyof typeof videos].title.ar));
       await expect(card).toContainText(videos[slug as keyof typeof videos].summary.ar);
       await expect(card.locator(`img[src="/videos/${slug}.jpg"]`)).toHaveCount(1);
     }

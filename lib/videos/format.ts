@@ -38,6 +38,36 @@ export function parseStartParam(search: string, durationSeconds: number): number
   return seconds > 0 && seconds < durationSeconds ? seconds : null;
 }
 
+/**
+ * Arabic video title as shown on the site: the YouTube title minus its trailing
+ * channel suffix (" | النحو الكافي"). On YouTube the suffix names the channel;
+ * here it would only repeat the site name next to every title (and twice in the
+ * document <title>, whose template appends it). Only that exact trailing suffix
+ * is removed — "| الدرس الأول" and any other "|" segment stay. `title.ar` in
+ * content/videos.json remains the verbatim YouTube title.
+ */
+export function displayTitleAr(title: string): string {
+  return title.replace(/\s*\|\s*النحو الكافي\s*$/u, '').trim();
+}
+
+/**
+ * Curriculum order for videos: the lesson tree's node order first (the path a
+ * learner actually follows), then any remaining slug in lesson-manifest order —
+ * so a video whose lesson is not in the tree is still listed, never dropped.
+ */
+export function curriculumOrder(
+  videoSlugs: readonly string[],
+  treeLessonIds: readonly string[],
+  manifestSlugs: readonly string[],
+): string[] {
+  const wanted = new Set(videoSlugs);
+  const ordered: string[] = [];
+  for (const slug of [...treeLessonIds, ...manifestSlugs, ...videoSlugs]) {
+    if (wanted.delete(slug)) ordered.push(slug);
+  }
+  return ordered;
+}
+
 /** youtube-nocookie embed URL — the bare form is also the JSON-LD `embedUrl`. */
 export function videoEmbedUrl(youtubeId: string): string {
   return `https://www.youtube-nocookie.com/embed/${youtubeId}`;
