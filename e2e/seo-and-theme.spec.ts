@@ -43,8 +43,11 @@ test.describe('theme', () => {
 
   test('toggling theme persists the choice across reloads', async ({ page }) => {
     await page.goto('/');
-    const toggle = page.getByRole('button', { name: /theme|الوضع|mode/i }).first();
-    test.skip(!(await toggle.count()), 'theme toggle not found');
+    // "/" is the Arabic page, where the toggle is labelled «المظهر» (theme.label).
+    const toggle = page.getByRole('button', { name: /theme|المظهر|الوضع|mode/i }).first();
+    // Assert rather than skip: a missing or renamed toggle must fail this test,
+    // not silently drop theme persistence from the suite.
+    await expect(toggle).toBeVisible();
     const before = await page.locator('html').getAttribute('data-resolved-theme');
     await toggle.click();
     // Some toggles cycle system→light→dark; click until the resolved theme flips.
