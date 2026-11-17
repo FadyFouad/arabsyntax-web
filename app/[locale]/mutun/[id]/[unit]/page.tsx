@@ -99,7 +99,7 @@ export default async function MatnUnitPage({ params }: PageProps) {
         <Link href={`/mutun/${id}`} className="text-sm font-medium text-primary hover:underline">
           {t('backToIndex')}
         </Link>
-        <p dir="rtl" className="font-arabic mb-6 mt-4 text-text-muted">
+        <p lang="ar" dir="rtl" className="font-arabic mb-6 mt-4 text-text-muted">
           {matn.titleAr}
         </p>
         <MatnUnit unit={current.unit} type={matn.type} sharhLabel={t('sharh')} />

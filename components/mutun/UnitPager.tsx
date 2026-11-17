@@ -18,7 +18,7 @@ export function UnitPager({
 }) {
   const cell = 'flex flex-col gap-1 rounded-xl border border-border p-3 transition-colors hover:border-primary';
   return (
-    <nav dir="rtl" className="font-arabic mt-12 grid grid-cols-2 gap-3" aria-label={labels.index}>
+    <nav lang="ar" dir="rtl" className="font-arabic mt-12 grid grid-cols-2 gap-3" aria-label={labels.index}>
       {previous ? (
         <Link href={`/mutun/${matnId}/${previous.slug}`} rel="prev" className={cell}>
           <span className="text-sm text-text-muted">{labels.previous}</span>

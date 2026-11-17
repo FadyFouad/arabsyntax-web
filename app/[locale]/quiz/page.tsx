@@ -43,9 +43,10 @@ export default async function QuizPage({ params }: PageProps) {
   const t = await getTranslations('quiz');
 
   // The quiz is Arabic-only and fully RTL regardless of the site locale, so the
-  // content region forces its own direction + Arabic font (the /en document is ltr).
+  // content region forces its own language, direction + Arabic font (the /en
+  // document is lang="en" and ltr).
   return (
-    <div dir="rtl" className="font-arabic">
+    <div lang="ar" dir="rtl" className="font-arabic">
       <Container className="py-12 lg:py-16">
         <SectionHeading heading={t('pageTitle')} subtitle={t('pageSubtitle')} className="mb-10 text-center" />
         <QuizApp />

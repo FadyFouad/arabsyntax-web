@@ -19,7 +19,7 @@ export function UnitIndex({
   versesLabel: (u: PagedUnit) => string;
 }) {
   return (
-    <nav dir="rtl" className="font-arabic" aria-labelledby="unit-index-heading">
+    <nav lang="ar" dir="rtl" className="font-arabic" aria-labelledby="unit-index-heading">
       <h2 id="unit-index-heading" className="mb-4 text-2xl font-bold text-text">
         {heading}
       </h2>
