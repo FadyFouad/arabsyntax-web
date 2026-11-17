@@ -17,6 +17,7 @@ export async function Footer() {
       heading: t('product.heading'),
       links: [
         { label: t('product.features'), href: '#features' },
+        { label: t('product.videos'), href: '/videos' },
         ...(featureFlags.showPricing ? [{ label: t('product.pricing'), href: '#pricing' }] : []),
       ],
     },

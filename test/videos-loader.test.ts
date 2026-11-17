@@ -1,4 +1,4 @@
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { describe, it, expect, vi } from 'vitest';
 
@@ -6,7 +6,7 @@ import { describe, it, expect, vi } from 'vitest';
 // Server Component (i.e. here). Neutralize it — same as lessons-loader.test.ts.
 vi.mock('server-only', () => ({}));
 
-const { getAllLessonVideos, getLessonVideo } = await import('@/lib/videos/loader');
+const { getAllLessonVideos, getLessonVideo, getVideoIndex } = await import('@/lib/videos/loader');
 const { getAllSlugs } = await import('@/lib/lessons/loader');
 const { videoPosterSrc, YOUTUBE_ID_PATTERN } = await import('@/lib/videos/schema');
 
@@ -56,6 +56,43 @@ describe('videos loader (real content)', () => {
   it('no two lessons share a video', () => {
     const ids = Object.values(getAllLessonVideos()).map((v) => v.youtubeId);
     expect(new Set(ids).size).toBe(ids.length);
+  });
+
+  it('getVideoIndex lists every video once, in lesson-tree (curriculum) order', () => {
+    const index = getVideoIndex();
+    const slugs = index.map((entry) => entry.slug);
+    expect([...slugs].sort()).toEqual(Object.keys(getAllLessonVideos()).sort());
+    const tree = JSON.parse(readFileSync(path.join(process.cwd(), 'content', 'lessons', 'tree.json'), 'utf8')) as {
+      nodes: { lessonId: string }[];
+    };
+    const treeOrder = tree.nodes.map((node) => node.lessonId).filter((slug) => slugs.includes(slug));
+    // Every current video's lesson is in the tree, so tree order is the whole order…
+    expect(slugs).toEqual(treeOrder);
+    // …which puts the intro lesson first — unlike the alphabetical manifest.
+    expect(slugs[0]).toBe('elm_alnaho');
+    for (const { slug, video } of index) expect(video).toBe(getAllLessonVideos()[slug]);
+  });
+
+  it('every real entry has a clean summary in both locales', () => {
+    for (const [slug, video] of Object.entries(getAllLessonVideos())) {
+      for (const locale of ['ar', 'en'] as const) {
+        const text = video.summary[locale];
+        expect(text.length, `${slug}.summary.${locale} length`).toBeLessThanOrEqual(300);
+        expect(text, `${slug}.summary.${locale}`).not.toMatch(/https?:|www\.|#|\d:\d\d|\n/);
+      }
+    }
+  });
+
+  it('real chapters match the timestamp lines of the published Arabic description', () => {
+    for (const [slug, video] of Object.entries(getAllLessonVideos())) {
+      const fromDescription = video.description.ar
+        .split('\n')
+        .map((line) => line.match(/^\s*(\d{1,2}):(\d{2})\s+(.+?)\s*$/))
+        .filter((m): m is RegExpMatchArray => m !== null)
+        .map((m) => ({ startSeconds: Number(m[1]) * 60 + Number(m[2]), title: m[3] }));
+      if (fromDescription.length === 0) continue;
+      expect(video.chapters, `${slug} chapters`).toEqual(fromDescription);
+    }
   });
 
   // The page renders /videos/<slug>.jpg unconditionally; a forgotten

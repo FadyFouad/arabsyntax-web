@@ -9,9 +9,12 @@ import { z } from 'zod';
  * up as a third-party embed, so a typo must fail the build rather than ship a
  * page that silently lost its video or points an iframe at a malformed ID.
  *
- * `description`, `uploadDate` and `durationSeconds` are validated but not yet
- * rendered: they are the fields a later phase needs for VideoObject JSON-LD and
- * the video sitemap, kept here so that phase needs no data migration.
+ * Which field feeds what (feature 010):
+ *   - `title`       → lesson-page facade, watch page, VideoObject, sitemap
+ *   - `summary`     → watch page, /videos cards, VideoObject + sitemap description
+ *   - `chapters`    → watch-page chapter list and VideoObject `hasPart` Clips
+ *   - `description` → nothing. It is the YouTube description kept verbatim
+ *                     (links, hashtags, timestamps and all) as the source record.
  */
 
 /** A YouTube video ID is exactly 11 URL-safe base64 characters. */
@@ -22,19 +25,78 @@ const localized = z.strictObject({
   en: z.string().trim().min(1),
 });
 
-export const lessonVideoSchema = z.strictObject({
-  youtubeId: z.string().regex(YOUTUBE_ID_PATTERN, 'must be an 11-character YouTube video ID'),
-  title: localized,
-  description: localized,
-  /** ISO 8601: a calendar date, or a datetime carrying an offset (as YouTube publishes it). */
-  uploadDate: z.union([z.iso.date(), z.iso.datetime({ offset: true })]),
-  durationSeconds: z.number().int().positive(),
+/** Longest allowed `summary`, per locale. */
+export const SUMMARY_MAX_LENGTH = 300;
+
+/**
+ * A summary is 1–2 plain sentences shown on the page and handed to search
+ * engines as the video's description, so it must be free of everything a
+ * YouTube description accumulates: links, hashtags, chapter timestamps.
+ */
+const summaryText = z
+  .string()
+  .trim()
+  .min(1)
+  .max(SUMMARY_MAX_LENGTH)
+  .refine((s) => !/[\r\n]/.test(s), 'must be a single line')
+  .refine((s) => !/https?:\/\/|www\./i.test(s), 'must not contain a URL')
+  .refine((s) => !s.includes('#'), 'must not contain a hashtag')
+  .refine((s) => !/\d{1,2}:\d{2}/.test(s), 'must not contain a timestamp');
+
+const summary = z.strictObject({ ar: summaryText, en: summaryText });
+
+const chapter = z.strictObject({
+  startSeconds: z.number().int().nonnegative(),
+  /** Arabic — the video's language; shown as-is on both locales. */
+  title: z.string().trim().min(1),
 });
+
+export const lessonVideoSchema = z
+  .strictObject({
+    youtubeId: z.string().regex(YOUTUBE_ID_PATTERN, 'must be an 11-character YouTube video ID'),
+    title: localized,
+    summary,
+    description: localized,
+    /** ISO 8601: a calendar date, or a datetime carrying an offset (as YouTube publishes it). */
+    uploadDate: z.union([z.iso.date(), z.iso.datetime({ offset: true })]),
+    durationSeconds: z.number().int().positive(),
+    /** Optional. A single chapter is just the whole video, so require at least two. */
+    chapters: z.array(chapter).min(2).optional(),
+  })
+  // Cross-field chapter rules. Each chapter becomes a Clip whose end is the next
+  // chapter's start (or the video's end), so the list must begin at 0, strictly
+  // ascend, and stay inside the video — otherwise a Clip would be empty or
+  // negative-length.
+  .superRefine((video, ctx) => {
+    const chapters = video.chapters;
+    // An empty list is already rejected by `.min(2)` above; nothing to cross-check.
+    if (!chapters || chapters.length === 0) return;
+    if (chapters[0].startSeconds !== 0) {
+      ctx.addIssue({ code: 'custom', path: ['chapters', 0, 'startSeconds'], message: 'the first chapter must start at 0' });
+    }
+    chapters.forEach((c, i) => {
+      if (i > 0 && c.startSeconds <= chapters[i - 1].startSeconds) {
+        ctx.addIssue({
+          code: 'custom',
+          path: ['chapters', i, 'startSeconds'],
+          message: 'chapters must be in strictly ascending order',
+        });
+      }
+      if (c.startSeconds >= video.durationSeconds) {
+        ctx.addIssue({
+          code: 'custom',
+          path: ['chapters', i, 'startSeconds'],
+          message: 'a chapter must start before the end of the video (durationSeconds)',
+        });
+      }
+    });
+  });
 
 /** `{ <lesson slug>: video }`. Keys are checked against real lessons in {@link parseVideos}. */
 export const videosFileSchema = z.record(z.string(), lessonVideoSchema);
 
 export type LessonVideo = z.infer<typeof lessonVideoSchema>;
+export type VideoChapter = z.infer<typeof chapter>;
 export type VideosFile = z.infer<typeof videosFileSchema>;
 
 /**

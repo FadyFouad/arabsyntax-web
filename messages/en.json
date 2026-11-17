@@ -31,7 +31,20 @@
     "quizLessonBody": "Questions drawn from this lesson only, with instant feedback and a hint for every question.",
     "quizLessonButton": "Start the quiz",
     "videoPlay": "Play video: {title}",
-    "videoWatchOnYoutube": "Watch on YouTube"
+    "videoWatchOnYoutube": "Watch on YouTube",
+    "videoWatchPage": "Video page",
+    "videosIndexLink": "Watch the video lessons"
+  },
+  "videos": {
+    "indexTitle": "Video lessons",
+    "indexSubtitle": "Short video explanations of the Arabic grammar lessons. The videos are in Arabic.",
+    "backToIndex": "All videos",
+    "chaptersTitle": "Chapters",
+    "duration": "Length: {time}",
+    "durationLabel": "Length:",
+    "publishedOn": "Published {date}",
+    "lessonCardTitle": "Read the full lesson",
+    "lessonCardButton": "Open the lesson"
   },
   "mutun": {
     "indexTitle": "Al-Mutun (Classical Texts)",
@@ -135,6 +148,7 @@
     "product": {
       "heading": "Product",
       "features": "Features",
+      "videos": "Video lessons",
       "pricing": "Pricing"
     },
     "legal": {

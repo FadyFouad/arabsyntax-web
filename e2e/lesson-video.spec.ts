@@ -1,5 +1,6 @@
 import { test, expect, type Page } from '@playwright/test';
 import videos from '../content/videos.json';
+import { displayTitleAr } from '../lib/videos/format';
 
 // Lesson video (feature 009): a click-to-load YouTube facade on lesson pages
 // that have an entry in content/videos.json. The contract under test:
@@ -13,7 +14,9 @@ const WITH_VIDEO = 'aqsam_kalam';
 const WITHOUT_VIDEO = 'alhaal';
 const video = videos[WITH_VIDEO];
 
-const PLAY_AR = `تشغيل الفيديو: ${video.title.ar}`; // lessons.videoPlay
+// Arabic titles are shown without the YouTube channel suffix (" | النحو الكافي").
+const TITLE_AR = displayTitleAr(video.title.ar);
+const PLAY_AR = `تشغيل الفيديو: ${TITLE_AR}`; // lessons.videoPlay
 const PLAY_EN = `Play video: ${video.title.en}`;
 const WATCH_AR = 'شاهد على يوتيوب'; // lessons.videoWatchOnYoutube
 const WATCH_EN = 'Watch on YouTube';
@@ -41,7 +44,10 @@ test.describe('lesson with a video', () => {
     const hits = await trackVideoHosts(page);
     await page.goto(`/lessons/${WITH_VIDEO}`);
 
-    await expect(page.getByRole('button', { name: PLAY_AR })).toBeVisible();
+    await expect(page.getByRole('button', { name: PLAY_AR, exact: true })).toBeVisible();
+    // The suffix is stripped at render time only; the data keeps the YouTube title.
+    expect(video.title.ar).toMatch(/\| النحو الكافي$/);
+    await expect(page.getByRole('button', { name: /النحو الكافي/ })).toHaveCount(0);
     const poster = page.locator(`img[src="/videos/${WITH_VIDEO}.jpg"]`);
     await expect(poster).toBeVisible();
     // The self-hosted poster actually decoded (not a broken image).
@@ -62,7 +68,8 @@ test.describe('lesson with a video', () => {
     const iframe = page.locator('iframe');
     await expect(iframe).toHaveCount(1);
     await expect(iframe).toHaveAttribute('src', new RegExp(`^${EMBED_PREFIX}\\?`));
-    await expect(iframe).toHaveAttribute('title', video.title.ar);
+    await expect(iframe).toHaveAttribute('title', TITLE_AR);
+    expect(TITLE_AR).not.toContain('النحو الكافي');
     // The facade is replaced, not layered under the player.
     await expect(page.getByRole('button', { name: PLAY_AR })).toHaveCount(0);
     await expect(page.locator(`img[src="/videos/${WITH_VIDEO}.jpg"]`)).toHaveCount(0);
