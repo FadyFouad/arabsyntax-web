@@ -29,7 +29,9 @@
     "quizCtaButton": "اختبر نفسك",
     "quizLessonTitle": "اختبر نفسك في هذا الدرس",
     "quizLessonBody": "أسئلة من هذا الدرس تحديدًا، مع تصحيح فوري وتلميح لكل سؤال.",
-    "quizLessonButton": "ابدأ الاختبار"
+    "quizLessonButton": "ابدأ الاختبار",
+    "videoPlay": "تشغيل الفيديو: {title}",
+    "videoWatchOnYoutube": "شاهد على يوتيوب"
   },
   "mutun": {
     "indexTitle": "المتون",

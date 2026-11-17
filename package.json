@@ -7,6 +7,7 @@
   },
   "scripts": {
     "seo": "node scripts/generate-seo.mjs",
+    "videos:posters": "node scripts/fetch-video-posters.mjs",
     "predev": "node scripts/generate-seo.mjs",
     "dev": "next dev",
     "prebuild": "node scripts/generate-seo.mjs",
