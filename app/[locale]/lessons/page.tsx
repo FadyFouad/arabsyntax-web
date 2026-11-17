@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { ClipboardCheck } from 'lucide-react';
+import { ClipboardCheck, PlayCircle } from 'lucide-react';
 import { Link } from '@/i18n/routing';
 import { Container } from '@/components/ui/Container';
 import SectionHeading from '@/components/ui/SectionHeading';
@@ -66,7 +66,16 @@ export default async function LessonsIndexPage({ params }: PageProps) {
   return (
     <Container className="py-12 lg:py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(itemList) }} />
-      <SectionHeading heading={t('indexTitle')} subtitle={t('indexSubtitle')} className="mb-10" />
+      <SectionHeading heading={t('indexTitle')} subtitle={t('indexSubtitle')} className="mb-4" />
+      <p className="mb-10">
+        <Link
+          href="/videos"
+          className="inline-flex items-center gap-2 font-medium text-primary hover:underline"
+        >
+          <PlayCircle className="h-5 w-5" aria-hidden="true" />
+          <span>{t('videosIndexLink')}</span>
+        </Link>
+      </p>
       <LessonsView
         tree={treeLayout}
         rtl={locale === 'ar'}

@@ -13,6 +13,7 @@
  */
 import { readFileSync, readdirSync, writeFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
+import { videoSitemapEntries } from './seo/video-sitemap.mjs';
 
 const ROOT = process.cwd();
 
@@ -99,6 +100,15 @@ function pagedUnitRoutes() {
   }
 }
 
+// Lesson videos (feature 010): the raw map from content/videos.json. Validation
+// is the loader's job — bad data fails `next build` when the watch pages
+// prerender — so this only reads the file. No file means no videos.
+function lessonVideos() {
+  const file = path.join(ROOT, 'content/videos.json');
+  if (!existsSync(file)) return {};
+  return JSON.parse(readFileSync(file, 'utf8'));
+}
+
 const xml = (s) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
 
@@ -161,8 +171,12 @@ function buildSitemap() {
     entries.push(arabicOnly(route, '0.7'));
   }
 
+  // Video watch pages (Arabic-only, like i3rab): /videos plus one page per entry
+  // in content/videos.json, each carrying a Google <video:video> block.
+  entries.push(...videoSitemapEntries({ site: SITE, videos: lessonVideos(), lessonSlugs: lessonSlugs() }));
+
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 ${entries.join('\n')}
 </urlset>
 `;

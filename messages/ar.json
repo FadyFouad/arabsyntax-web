@@ -31,7 +31,20 @@
     "quizLessonBody": "أسئلة من هذا الدرس تحديدًا، مع تصحيح فوري وتلميح لكل سؤال.",
     "quizLessonButton": "ابدأ الاختبار",
     "videoPlay": "تشغيل الفيديو: {title}",
-    "videoWatchOnYoutube": "شاهد على يوتيوب"
+    "videoWatchOnYoutube": "شاهد على يوتيوب",
+    "videoWatchPage": "صفحة الفيديو",
+    "videosIndexLink": "شاهد الدروس بالفيديو"
+  },
+  "videos": {
+    "indexTitle": "دروس الفيديو",
+    "indexSubtitle": "شروح مرئية قصيرة لدروس النحو العربي.",
+    "backToIndex": "كل الفيديوهات",
+    "chaptersTitle": "فصول الفيديو",
+    "duration": "المدة: {time}",
+    "durationLabel": "المدة:",
+    "publishedOn": "نُشر في {date}",
+    "lessonCardTitle": "اقرأ الدرس كاملًا",
+    "lessonCardButton": "افتح الدرس"
   },
   "mutun": {
     "indexTitle": "المتون",
@@ -135,6 +148,7 @@
     "product": {
       "heading": "المنتج",
       "features": "المميزات",
+      "videos": "دروس الفيديو",
       "pricing": "الأسعار"
     },
     "legal": {

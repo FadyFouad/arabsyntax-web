@@ -36,11 +36,17 @@ const i3rabSlugs: string[] = readdirSync(path.join(ROOT, 'content', 'i3rab', 'ar
   .filter((f) => f.endsWith('.json'))
   .map((f) => f.slice(0, -5));
 
+// Video watch pages (feature 010): one per key of content/videos.json.
+const videoSlugs: string[] = Object.keys(
+  JSON.parse(readFileSync(path.join(ROOT, 'content', 'videos.json'), 'utf8')),
+);
+
 // Sanity: if the content dirs ever come back empty, fail loudly rather than
 // silently "passing" a zero-iteration sweep.
 test('content sources are non-empty (sweep would be meaningless otherwise)', () => {
   expect(lessonSlugs.length).toBeGreaterThan(0);
   expect(i3rabSlugs.length).toBeGreaterThan(0);
+  expect(videoSlugs.length).toBeGreaterThan(0);
 });
 
 async function expectRendered(page: import('@playwright/test').Page, url: string) {
@@ -121,4 +127,16 @@ test.describe('every باب of a paged matn prerenders (ar)', () => {
     const res = await page.goto(`/mutun/${single.id}/alfiyya_0001`);
     expect(res?.status()).toBe(404);
   });
+});
+
+// Watch pages are prerendered on both locales (Arabic content, translated chrome).
+test.describe('every video slug prerenders (ar + en)', () => {
+  for (const slug of videoSlugs) {
+    test(`/videos/${slug}`, async ({ page }) => {
+      await expectRendered(page, `/videos/${slug}`);
+    });
+    test(`/en/videos/${slug}`, async ({ page }) => {
+      await expectRendered(page, `/en/videos/${slug}`);
+    });
+  }
 });

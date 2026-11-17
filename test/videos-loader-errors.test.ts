@@ -31,6 +31,7 @@ async function freshLoader() {
 const entry = (overrides: Record<string, unknown> = {}) => ({
   youtubeId: 'H1Ml29ytjQ0',
   title: { ar: 'علم النحو', en: 'Arabic grammar' },
+  summary: { ar: 'ملخص الدرس.', en: 'Lesson summary.' },
   description: { ar: 'وصف', en: 'Description' },
   uploadDate: '2026-11-14',
   durationSeconds: 151,

@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { ExternalLink, Play } from 'lucide-react';
+import { Link } from '@/i18n/routing';
 
 interface LessonVideoProps {
   youtubeId: string;
@@ -11,6 +12,8 @@ interface LessonVideoProps {
   title: string;
   /** Self-hosted poster under /videos — never a YouTube thumbnail URL. */
   posterSrc: string;
+  /** Locale-relative path of the video's own watch page (chapters, summary). */
+  watchHref?: string;
 }
 
 /**
@@ -23,7 +26,7 @@ interface LessonVideoProps {
  *
  * A Client Component because it owns that one bit of "activated" state.
  */
-export default function LessonVideo({ youtubeId, title, posterSrc }: LessonVideoProps) {
+export default function LessonVideo({ youtubeId, title, posterSrc, watchHref }: LessonVideoProps) {
   const t = useTranslations('lessons');
   const [activated, setActivated] = useState(false);
   const iframeRef = useRef<HTMLIFrameElement>(null);
@@ -75,7 +78,12 @@ export default function LessonVideo({ youtubeId, title, posterSrc }: LessonVideo
           </>
         )}
       </div>
-      <figcaption className="mt-2 text-start">
+      <figcaption className="mt-2 flex flex-wrap items-center gap-x-6 gap-y-1 text-start">
+        {watchHref && (
+          <Link href={watchHref} className="text-sm font-medium text-primary hover:underline">
+            {t('videoWatchPage')}
+          </Link>
+        )}
         <a
           href={`https://www.youtube.com/watch?v=${youtubeId}`}
           target="_blank"

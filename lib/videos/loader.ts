@@ -34,3 +34,14 @@ export function getLessonVideo(slug: string): LessonVideo | null {
   // resolve inherited keys such as "constructor".
   return Object.hasOwn(videos, slug) ? videos[slug] : null;
 }
+
+/**
+ * Videos in curriculum order — the lesson manifest's order, not the key order
+ * of videos.json — for the /videos index and the watch pages' static params.
+ */
+export function getVideoIndex(): { slug: string; video: LessonVideo }[] {
+  const videos = getAllLessonVideos();
+  return getAllSlugs()
+    .filter((slug) => Object.hasOwn(videos, slug))
+    .map((slug) => ({ slug, video: videos[slug] }));
+}
