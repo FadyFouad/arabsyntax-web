@@ -11,6 +11,7 @@ import { siteConfig } from '@/lib/siteConfig';
 import { getAllSlugs, getLesson, type Locale } from '@/lib/lessons/loader';
 import { getLessonVideo } from '@/lib/videos/loader';
 import { videoPosterSrc } from '@/lib/videos/schema';
+import { displayTitleAr } from '@/lib/videos/format';
 import { lessonResourceId } from '@/lib/videos/structuredData';
 import { serializeJsonLd } from '@/lib/jsonLd';
 
@@ -97,7 +98,9 @@ export default async function LessonPage({ params }: PageProps) {
           <div className="mb-8">
             <LessonVideo
               youtubeId={video.youtubeId}
-              title={video.title[locale as Locale]}
+              // Arabic titles are shown without the YouTube channel suffix,
+              // as on the watch page; videos.json keeps the verbatim title.
+              title={locale === 'ar' ? displayTitleAr(video.title.ar) : video.title.en}
               posterSrc={videoPosterSrc(slug)}
               watchHref={`/videos/${slug}`}
             />

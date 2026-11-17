@@ -377,6 +377,8 @@ video tests, `e2e/prerender-completeness.spec.ts`.
    time (`displayTitleAr`) in the watch page `<h1>`, document title, iframe
    title, `/videos` cards, JSON-LD `name` and sitemap `video:title`. Other "|"
    segments ("| الدرس الأول") stay. `title.ar` in `videos.json` stays verbatim.
+   The lesson-page facade (play-button label and iframe title) uses the same
+   helper, so the suffix appears nowhere on the site.
 8. **Arabic text on `/en` watch pages** — the `<h1>`, summary and chapter list
    carry `lang="ar" dir="rtl"` and the `font-arabic` (Cairo) stack. No font
    loading was added: the layout already declares and preloads Cairo on every
