@@ -121,7 +121,7 @@ function UnitView({
 /** One باب on its own page, for a paged matn; its title is the page's h1. */
 export function MatnUnit({ unit, type, sharhLabel }: { unit: Unit; type: MatnContent['type']; sharhLabel: string }) {
   return (
-    <article dir="rtl" className="font-arabic">
+    <article lang="ar" dir="rtl" className="font-arabic">
       <UnitView unit={unit} type={type} sharhLabel={sharhLabel} TitleTag="h1" />
     </article>
   );
@@ -130,7 +130,7 @@ export function MatnUnit({ unit, type, sharhLabel }: { unit: Unit; type: MatnCon
 export function MatnBody({ matn, sharhLabel }: { matn: MatnContent; sharhLabel: string }) {
   const units = [...matn.units].sort((a, b) => a.order - b.order);
   return (
-    <article dir="rtl" className="font-arabic space-y-12">
+    <article lang="ar" dir="rtl" className="font-arabic space-y-12">
       {units.map((unit) => (
         <UnitView key={unit.order} unit={unit} type={matn.type} sharhLabel={sharhLabel} />
       ))}

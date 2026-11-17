@@ -84,7 +84,7 @@ export default async function MatnReaderPage({ params }: PageProps) {
         <Link href="/mutun" className="text-sm font-medium text-primary hover:underline">
           {t('backToMutun')}
         </Link>
-        <header dir="rtl" className="font-arabic mb-8 mt-4">
+        <header lang="ar" dir="rtl" className="font-arabic mb-8 mt-4">
           <h1 className="text-3xl font-bold text-text lg:text-4xl">{matn.titleAr}</h1>
           <p className="mt-2 text-text-muted">
             {matn.author} · {matn.era}

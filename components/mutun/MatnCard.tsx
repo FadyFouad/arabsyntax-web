@@ -15,7 +15,7 @@ export function MatnCard({ entry, levelLabel }: { entry: ManifestEntry; levelLab
   return (
     <Link href={`/mutun/${entry.id}`} className="block h-full">
       <Card className="h-full transition-colors hover:border-primary">
-        <div dir="rtl" className="font-arabic flex h-full flex-col gap-2">
+        <div lang="ar" dir="rtl" className="font-arabic flex h-full flex-col gap-2">
           <h2 className="text-xl font-bold text-text">{entry.titleAr}</h2>
           <p className="text-sm text-text-muted">{entry.author}</p>
           <p className="text-sm text-text-muted">{entry.era}</p>

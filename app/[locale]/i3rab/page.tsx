@@ -64,7 +64,13 @@ export default async function I3rabIndexPage({ params }: PageProps) {
       <div className="space-y-10">
         {groups.map((g) => (
           <section key={g.lessonName ?? 'misc'}>
-            <h2 className="mb-4 text-2xl font-bold text-text">
+            {/* Lesson names and sentences are Arabic on both locales: mark them
+                lang/dir and use the Arabic webfont so /en renders them properly.
+                The "misc" heading is a translated label and stays as-is. */}
+            <h2
+              {...(g.lessonName ? ({ lang: 'ar', dir: 'rtl' } as const) : {})}
+              className={`mb-4 text-2xl font-bold text-text ${g.lessonName ? 'font-arabic' : ''}`}
+            >
               {g.lessonName ? (
                 g.lessonHref ? (
                   <Link href={g.lessonHref} className="hover:text-primary">
@@ -82,7 +88,9 @@ export default async function I3rabIndexPage({ params }: PageProps) {
                 <li key={e.slug}>
                   <Link href={`/i3rab/${e.slug}`} className="block h-full">
                     <Card className="h-full transition-colors hover:border-primary">
-                      <p className="text-lg font-semibold text-text">{e.sentence}</p>
+                      <p lang="ar" dir="rtl" className="font-arabic text-lg font-semibold text-text">
+                        {e.sentence}
+                      </p>
                     </Card>
                   </Link>
                 </li>
