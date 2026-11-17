@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 /**
- * Download a self-hosted poster for every lesson video (feature 009).
+ * Download a self-hosted poster for every lesson video (feature 009) and for
+ * the channel trailer (feature 011).
  *
  * The lesson page shows a poster before the visitor clicks play. Hotlinking
  * i.ytimg.com would mean a Google request on every page view and a looser CSP
  * (`img-src`), so posters are copied into public/videos/<slug>.jpg and committed.
  *
- * Run by hand after adding an entry to content/videos.json — it is NOT part of
+ * Run by hand after adding an entry to content/videos.json (or changing the
+ * trailer in content/channel.json) — it is NOT part of
  * the build, so builds and CI never depend on the network:
  *
  *   npm run videos:posters            # fetch posters that are missing
@@ -18,7 +20,10 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 
 const VIDEOS_FILE = path.join('content', 'videos.json');
+const CHANNEL_FILE = path.join('content', 'channel.json');
 const OUT_DIR = path.join('public', 'videos');
+// Keep in sync with RESERVED_VIDEO_SLUG in lib/videos/schema.ts.
+const TRAILER_SLUG = 'trailer';
 // Keep in sync with lib/videos/schema.ts and lib/lessons/loader.ts: both values
 // are interpolated into a URL / a file path below.
 const YOUTUBE_ID_PATTERN = /^[A-Za-z0-9_-]{11}$/;
@@ -45,11 +50,23 @@ async function download(youtubeId) {
 const videos = JSON.parse(readFileSync(VIDEOS_FILE, 'utf8'));
 mkdirSync(OUT_DIR, { recursive: true });
 
+// Everything that needs a poster: one per lesson video, plus the channel
+// trailer (content/channel.json), which is saved as "trailer.jpg" — a name
+// lib/videos/schema.ts reserves so no lesson video can collide with it.
+const targets = Object.entries(videos).map(([slug, video]) => ({
+  slug,
+  youtubeId: video?.youtubeId,
+  source: 'content/videos.json',
+}));
+if (existsSync(CHANNEL_FILE)) {
+  const channel = JSON.parse(readFileSync(CHANNEL_FILE, 'utf8'));
+  targets.push({ slug: TRAILER_SLUG, youtubeId: channel?.trailer?.youtubeId, source: 'content/channel.json' });
+}
+
 let failures = 0;
-for (const [slug, video] of Object.entries(videos)) {
-  const youtubeId = video?.youtubeId;
+for (const { slug, youtubeId, source } of targets) {
   if (!SLUG_PATTERN.test(slug) || typeof youtubeId !== 'string' || !YOUTUBE_ID_PATTERN.test(youtubeId)) {
-    console.error(`✗ ${slug}: invalid slug or youtubeId — fix content/videos.json`);
+    console.error(`✗ ${slug}: invalid slug or youtubeId — fix ${source}`);
     failures += 1;
     continue;
   }

@@ -1,5 +1,6 @@
 import { siteConfig } from '@/lib/siteConfig';
 import { serializeJsonLd } from '@/lib/jsonLd';
+import { getChannel } from '@/lib/channel/loader';
 
 export function StructuredData({ locale }: { locale: string }) {
   const isAr = locale === 'ar';
@@ -57,6 +58,9 @@ export function StructuredData({ locale }: { locale: string }) {
           siteConfig.stores.googlePlay,
           siteConfig.stores.appStore
         ],
+        // The YouTube channel belongs to the product (not to the developer
+        // organization), so it is declared on the app node.
+        "sameAs": [getChannel().channelUrl],
         "author": { "@id": `${siteConfig.url}/#organization` },
         "publisher": { "@id": `${siteConfig.url}/#organization` },
       },

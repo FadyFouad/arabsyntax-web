@@ -174,6 +174,14 @@
     "termsTitle": "Terms of Service"
   },
   "landing": {
+    "videos": {
+      "heading": "See Arabic grammar in action",
+      "subtitle": "One vowel mark can change the whole meaning. Watch the trailer — under a minute, in Arabic — then start with lesson one.",
+      "play": "Play video: {title}",
+      "startLessonOne": "Start with Lesson One",
+      "allVideos": "All video lessons",
+      "subscribe": "Subscribe on YouTube"
+    },
     "hero": {
       "tagline": "Learn Arabic Grammar",
       "headline": "Al-Nahw Al-Kafi",
