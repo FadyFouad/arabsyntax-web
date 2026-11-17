@@ -17,6 +17,9 @@ import { z } from 'zod';
  *                     (links, hashtags, timestamps and all) as the source record.
  */
 
+/** Key that videos.json may not use: it names the channel trailer's poster. */
+export const RESERVED_VIDEO_SLUG = 'trailer';
+
 /** A YouTube video ID is exactly 11 URL-safe base64 characters. */
 export const YOUTUBE_ID_PATTERN = /^[A-Za-z0-9_-]{11}$/;
 
@@ -110,6 +113,15 @@ export function parseVideos(raw: unknown, lessonSlugs: readonly string[]): Video
   const result = videosFileSchema.safeParse(raw);
   if (!result.success) {
     throw new Error(`content/videos.json is invalid:\n${z.prettifyError(result.error)}`);
+  }
+
+  // "trailer" is the channel trailer's poster name (content/channel.json →
+  // public/videos/trailer.jpg) and would also be its /videos/<slug> path, so no
+  // lesson video may claim it.
+  if (Object.hasOwn(result.data, RESERVED_VIDEO_SLUG)) {
+    throw new Error(
+      `content/videos.json is invalid: "${RESERVED_VIDEO_SLUG}" is reserved for the channel trailer (content/channel.json)`,
+    );
   }
 
   const known = new Set(lessonSlugs);

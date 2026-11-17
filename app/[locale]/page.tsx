@@ -6,6 +6,7 @@ import { StructuredData } from '@/components/seo/StructuredData';
 import { SectionScrollOnLoad } from '@/components/layout/SectionNav';
 import FreeCallout from '@/components/sections/FreeCallout';
 import Hero from '@/components/sections/Hero';
+import TrailerSection from '@/components/sections/TrailerSection';
 import Features from '@/components/sections/Features';
 import HowItWorks from '@/components/sections/HowItWorks';
 import Screenshots from '@/components/sections/Screenshots';
@@ -62,6 +63,7 @@ export default async function LocalePage({ params }: PageProps) {
       <StructuredData locale={locale} />
       <SectionScrollOnLoad />
       <Hero locale={locale} />
+      <TrailerSection locale={locale} />
       <section id="features">
         <Features />
       </section>
