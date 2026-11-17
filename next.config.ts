@@ -70,7 +70,15 @@ const csp = [
   "frame-ancestors 'none'",
   // challenges.cloudflare.com: the contact form's Turnstile widget renders in an
   // iframe from there.
-  directive('frame-src', 'https://challenges.cloudflare.com', ...firebaseFrame),
+  // www.youtube-nocookie.com: lesson videos (feature 009) play in an iframe from
+  // there, mounted only after the visitor clicks the self-hosted poster. Posters
+  // are served from /videos, so img-src needs no YouTube/ytimg allowance.
+  directive(
+    'frame-src',
+    'https://challenges.cloudflare.com',
+    'https://www.youtube-nocookie.com',
+    ...firebaseFrame,
+  ),
   "object-src 'none'",
   "img-src 'self' data:",
   "font-src 'self' data:",

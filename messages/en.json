@@ -29,7 +29,9 @@
     "quizCtaButton": "Test yourself",
     "quizLessonTitle": "Test yourself on this lesson",
     "quizLessonBody": "Questions drawn from this lesson only, with instant feedback and a hint for every question.",
-    "quizLessonButton": "Start the quiz"
+    "quizLessonButton": "Start the quiz",
+    "videoPlay": "Play video: {title}",
+    "videoWatchOnYoutube": "Watch on YouTube"
   },
   "mutun": {
     "indexTitle": "Al-Mutun (Classical Texts)",

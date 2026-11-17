@@ -6,9 +6,12 @@ import { Link } from '@/i18n/routing';
 import { Container } from '@/components/ui/Container';
 import LessonSections from '@/components/lessons/LessonSections';
 import MarkComplete from '@/components/lessons/MarkComplete';
+import LessonVideo from '@/components/lessons/LessonVideo';
 import { siteConfig } from '@/lib/siteConfig';
 import { getAllSlugs, getLesson, type Locale } from '@/lib/lessons/loader';
 import { getLessonQuestionCount } from '@/lib/quiz/server/bank';
+import { getLessonVideo } from '@/lib/videos/loader';
+import { videoPosterSrc } from '@/lib/videos/schema';
 import { serializeJsonLd } from '@/lib/jsonLd';
 
 interface PageProps {
@@ -60,6 +63,8 @@ export default async function LessonPage({ params }: PageProps) {
   const lesson = getLesson(slug, locale as Locale);
   if (!lesson) notFound();
   const t = await getTranslations('lessons');
+  // Resolved at build time (pure SSG); null for the many lessons without one.
+  const video = getLessonVideo(slug);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -85,6 +90,15 @@ export default async function LessonPage({ params }: PageProps) {
         <div className="mb-8">
           <MarkComplete lessonId={slug} />
         </div>
+        {video && (
+          <div className="mb-8">
+            <LessonVideo
+              youtubeId={video.youtubeId}
+              title={video.title[locale as Locale]}
+              posterSrc={videoPosterSrc(slug)}
+            />
+          </div>
+        )}
         <LessonSections lesson={lesson} />
         {/* Per-lesson quiz action — only when the bank actually has questions
             for this lesson, so the link never lands on an empty draw. The count
