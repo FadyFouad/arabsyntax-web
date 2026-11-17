@@ -2,7 +2,7 @@ import { test, expect, type Locator } from '@playwright/test';
 import { readdirSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 
-// Arabic-only content (i3rab, mutun) is served on /en with translated chrome.
+// Arabic-only content (i3rab, mutun, the quiz) is served on /en with translated chrome.
 // There the body is LTR in the Latin font stack, so every Arabic block must say
 // so itself: lang="ar" (screen readers, hyphenation, font selection), dir="rtl"
 // (alignment, punctuation) and the site's Arabic webfont. Without them the text
@@ -108,5 +108,33 @@ test.describe('/en/mutun', () => {
     await expect(page).toHaveURL(new RegExp(`/en/mutun/${pagedMatn!.id}/.+`));
     await expect(page.locator('main [dir="rtl"]:not([lang="ar"])')).toHaveCount(0);
     await expectArabicBlock(page.locator('main [dir="rtl"]').first(), 'unit page');
+  });
+});
+
+test.describe('/en/quiz', () => {
+  test('the Arabic-only quiz declares itself Arabic', async ({ page }) => {
+    await page.goto('/en/quiz');
+    await expect(page.locator('html')).toHaveAttribute('lang', 'en');
+    await expect(page.locator('html')).toHaveAttribute('dir', 'ltr');
+
+    const wrapper = page.locator('main > div[dir="rtl"]');
+    await expect(wrapper).toHaveCount(1);
+    await expectArabicBlock(wrapper, 'quiz wrapper');
+    // The whole quiz UI — heading included — sits inside it.
+    await expect(wrapper.getByRole('heading', { name: 'اختبر نفسك' }).first()).toBeVisible();
+    await expect(page.locator('main [dir="rtl"]:not([lang="ar"])')).toHaveCount(0);
+
+    const stray = await page.locator('main').evaluate((root) => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const out: string[] = [];
+      for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+        if (node.parentElement?.closest('script')) continue;
+        if (/[\u0600-\u06FF]/.test(node.textContent ?? '') && !node.parentElement?.closest('[lang="ar"]')) {
+          out.push((node.textContent ?? '').trim().slice(0, 40));
+        }
+      }
+      return out;
+    });
+    expect(stray).toEqual([]);
   });
 });
