@@ -283,5 +283,40 @@
     ],
     "uploadDate": "2026-11-17T22:40:00+02:00",
     "durationSeconds": 236
+  },
+  "alfeal_almoatal": {
+    "youtubeId": "x0qNVmJ3Lpo",
+    "title": {
+      "ar": "الفعل الصحيح والمعتل: أَكَلَ أم قَالَ؟ | النحو الكافي",
+      "en": "Sound and Weak Verbs in Arabic: Akala or Qala?"
+    },
+    "description": {
+      "ar": "أَكَلَ وقَالَ: كلاهما يبدو فيه ألِف، لكنّ أحدَهما صحيحٌ والآخرَ معتلّ. فأيُّهما المعتلّ؟ ولماذا؟\nفي هذا الدرس نعرف الفرق بين الفعل الصحيح والفعل المعتل، وأنواعَ كلٍّ منهما: السالم والمهموز والمضعّف، والمثال والأجوف والناقص، وكيف نحكم على الفعل المضارع بالرجوع إلى ماضيه.\n\n📖 اقرأ الدرس مكتوبًا:\nhttps://alnahwalkafi.com/lessons/alfeal_almoatal\n📝 اختبر نفسك في الدرس:\nhttps://alnahwalkafi.com/quiz?lesson=alfeal_almoatal\n\nالفصول:\n0:00 مقدمة\n0:17 الصحيح والمعتل\n0:52 أنواع الصحيح والمعتل\n2:22 ارجع إلى الماضي\n\n⬅️ الدرس السابق: الفعل المجرد والمزيد\nhttps://youtu.be/CxmXwTNBfB8\n\n📱 تطبيق النحو الكافي مجانًا:\nأندرويد: https://play.google.com/store/apps/details?id=com.etateck.arabsyntax\nآيفون: https://apps.apple.com/app/id6448959921\n\nصُنع هذا الفيديو بمساعدة الذكاء الاصطناعي.\n\n#النحو #الفعل_المعتل #النحو_الكافي",
+      "en": "Akala and qala both seem to contain an alif, yet one is a sound verb and the other a weak one. This lesson explains sound verbs (salim, mahmuz, muda'af) and weak verbs (mithal, ajwaf, naqis), and how to classify a present-tense verb by going back to its past form."
+    },
+    "summary": {
+      "ar": "أَكَلَ وقَالَ: أيُّهما الفعل المعتل؟ درسٌ يشرح الفعل الصحيح بأنواعه (السالم والمهموز والمضعّف) والفعل المعتل بأنواعه (المثال والأجوف والناقص)، وكيف تحكم على المضارع بالرجوع إلى ماضيه.",
+      "en": "Akala or qala: which one is the weak verb? A lesson on sound verbs (salim, mahmuz, muda'af), weak verbs (mithal, ajwaf, naqis), and judging a present-tense verb by its past form."
+    },
+    "chapters": [
+      {
+        "startSeconds": 0,
+        "title": "مقدمة"
+      },
+      {
+        "startSeconds": 17,
+        "title": "الصحيح والمعتل"
+      },
+      {
+        "startSeconds": 52,
+        "title": "أنواع الصحيح والمعتل"
+      },
+      {
+        "startSeconds": 142,
+        "title": "ارجع إلى الماضي"
+      }
+    ],
+    "uploadDate": "2026-11-18T13:00:00+02:00",
+    "durationSeconds": 213
   }
 }
