@@ -284,6 +284,49 @@
     "uploadDate": "2026-11-17T22:40:00+02:00",
     "durationSeconds": 236
   },
+  "alfeaal_almogarad_w_mazeed": {
+    "youtubeId": "CxmXwTNBfB8",
+    "title": {
+      "ar": "الفعل المجرد والمزيد: هل «يكتب» فعل مزيد؟ | النحو الكافي",
+      "en": "Bare and Augmented Verbs: Is «يكتب» an Augmented Verb?"
+    },
+    "description": {
+      "ar": "«كَتَبَ» ثلاثة أحرف و«يَكْتُبُ» أربعة، فهل صار الفعل مزيدًا؟ في هذا الدرس نفرّق بين الحروف الأصلية والحروف الزائدة، ونعرف الحروف التي تدخل الفعل ولا تُعَدّ زيادة، ثم نتعرّف على أوزان الفعل المجرد الثلاثي والرباعي وأوزان الفعل المزيد بحرف وحرفين وثلاثة أحرف.\n\n📖 اقرأ الدرس مكتوبًا:\nhttps://alnahwalkafi.com/lessons/alfeaal_almogarad_w_mazeed\n📝 اختبر نفسك في الدرس:\nhttps://alnahwalkafi.com/quiz?lesson=alfeaal_almogarad_w_mazeed\n\nالفصول:\n0:00 مقدمة\n0:20 المجرد والمزيد\n1:35 ما لا يُعَدُّ زائدًا\n2:30 أوزان الفعل المجرد\n3:06 أوزان الفعل المزيد\n4:22 دورُك\n\n⬅️ الدرس السابق: المصدر الصريح والمؤول\nhttps://youtu.be/xF7eGJK5UvI\n➡️ الدرس القادم: الفعل الصحيح والمعتل\nhttps://youtu.be/x0qNVmJ3Lpo\n\n📱 تطبيق النحو الكافي مجانًا:\nأندرويد: https://play.google.com/store/apps/details?id=com.etateck.arabsyntax\nآيفون: https://apps.apple.com/app/id6448959921\n\nصُنع هذا الفيديو بمساعدة الذكاء الاصطناعي.\n\n#النحو #الفعل_المجرد_والمزيد #النحو_الكافي",
+      "en": "«كَتَبَ» has three letters and «يَكْتُبُ» has four, so is the verb augmented? This lesson separates root letters from added letters, lists the letters that enter a verb without counting as additions, then covers the patterns of bare triliteral and quadriliteral verbs and of verbs augmented by one, two or three letters."
+    },
+    "summary": {
+      "ar": "«كَتَبَ» ثلاثة أحرف و«يَكْتُبُ» أربعة، فهل صار مزيدًا؟ نفرّق بين الحروف الأصلية والزائدة، ونتعرّف على ما لا يُعَدّ زيادة، وأوزان الفعل المجرد والمزيد.",
+      "en": "«كَتَبَ» has three letters and «يَكْتُبُ» four, so is it augmented? Learn root vs. added letters, what never counts as an addition, and the patterns of bare and augmented verbs."
+    },
+    "chapters": [
+      {
+        "startSeconds": 0,
+        "title": "مقدمة"
+      },
+      {
+        "startSeconds": 20,
+        "title": "المجرد والمزيد"
+      },
+      {
+        "startSeconds": 95,
+        "title": "ما لا يُعَدُّ زائدًا"
+      },
+      {
+        "startSeconds": 150,
+        "title": "أوزان الفعل المجرد"
+      },
+      {
+        "startSeconds": 186,
+        "title": "أوزان الفعل المزيد"
+      },
+      {
+        "startSeconds": 262,
+        "title": "دورُك"
+      }
+    ],
+    "uploadDate": "2026-11-18T12:30:00+02:00",
+    "durationSeconds": 306
+  },
   "alfeal_almoatal": {
     "youtubeId": "x0qNVmJ3Lpo",
     "title": {
