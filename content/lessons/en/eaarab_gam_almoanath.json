@@ -1,0 +1,751 @@
+{
+  "lesson_id": "eaarab_gam_almoanath",
+  "language": "en",
+  "title": "Iʿrab of the Sound Feminine Plural (Iʿrab Jamʿ al-Muʾannath al-Salim)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Iʿrab of the Sound Feminine Plural"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "The sound feminine plural (jamʿ al-muʾannath al-salim) is what denotes more than two (f.) by adding an alif and taʾ to its singular, with the singular's structure remaining sound (unchanged)."
+    },
+    {
+      "id": "s003",
+      "items": [
+        "muslima-tun, muslimat-un (a Muslim woman, Muslim women)",
+        "muʿallima-tun, muʿallimat-un (a teacher f., teachers f.)",
+        "shajara-tun, shajarat-un (a tree, trees)"
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "This lesson is devoted to the iʿrab of this plural: its signs, the conditions a noun must meet to take it, its positions in the sentence, what is annexed to it, and what merely resembles it without being it. The definition of the plural and its kinds were detailed earlier in the lesson 'The Singular, the Dual, and the Plural'."
+    },
+    {
+      "id": "s005",
+      "text": "First: The Signs of Iʿrab of the Sound Feminine Plural"
+    },
+    {
+      "id": "s006",
+      "label_en": "Rule",
+      "text": "The sound feminine plural is nominative with the damma, accusative with the kasra instead of the fatha, and genitive with the kasra. It is inflected with short vowels, and it has a single substitute sign: the kasra in the accusative."
+    },
+    {
+      "id": "s007",
+      "items": [
+        {
+          "transliteration": "najahati al-talibat-u",
+          "text": "— The female students succeeded. (nominative with damma)"
+        },
+        {
+          "transliteration": "karrama al-mudir-u al-talibat-i",
+          "text": "— The manager honored the female students. (accusative with kasra)"
+        },
+        {
+          "transliteration": "athna al-nas-u ʿala al-talibat-i",
+          "text": "— People praised the female students. (genitive with kasra)"
+        }
+      ]
+    },
+    {
+      "id": "s008",
+      "headers": [
+        "Case",
+        "Sign",
+        "Example",
+        "Its iʿrab"
+      ],
+      "rows": [
+        [
+          "Nominative",
+          "Damma",
+          "najahati al-talibatu",
+          "Subject, nominative, its sign the damma"
+        ],
+        [
+          "Accusative",
+          "Kasra instead of fatha",
+          "karrama al-mudiru al-talibati",
+          "Direct object, accusative, its sign the kasra"
+        ],
+        [
+          "Genitive",
+          "Kasra",
+          "athna al-nasu ʿala al-talibati",
+          "Genitive noun, its sign the kasra"
+        ]
+      ]
+    },
+    {
+      "id": "s009",
+      "label_en": "Warning",
+      "text": "The distinguishing feature of this plural is that it is accusative with the kasra, not the fatha; so do not confuse it with a singular feminine noun, which is accusative with the original fatha."
+    },
+    {
+      "id": "s010",
+      "items": [
+        {
+          "transliteration": "raʾay-tu al-talibat-i",
+          "text": "— I saw the female students. (sound feminine plural: accusative with kasra)"
+        },
+        {
+          "transliteration": "raʾay-tu al-taliba-ta",
+          "text": "— I saw the female student. (singular feminine: accusative with fatha)"
+        }
+      ]
+    },
+    {
+      "id": "s011",
+      "text": "And why is this plural accusative with the kasra rather than the fatha, like every other accusative?"
+    },
+    {
+      "id": "s012",
+      "text": "Because the Arabs carried its accusative over onto its genitive for lightness, giving it a single sign for both cases — the kasra — just as they carried the accusative of the sound masculine plural and the dual over onto their genitive, so the yaʾ served for both. This sign therefore stands in place of the fatha, and the original remains in estimation."
+    },
+    {
+      "id": "s013",
+      "label_en": "Note",
+      "text": "If this plural is indefinite it takes tanwin along with the kasra: in the accusative 'raʾaytu talibatin', and in the genitive 'marartu bi-talibatin'. The kasra is the sign of iʿrab; the tanwin is the sign of indefiniteness."
+    },
+    {
+      "id": "s014",
+      "items": [
+        {
+          "transliteration": "raʾay-tu talibat-in mujtahidat-in",
+          "text": "— I saw diligent female students. (accusative with kasra plus tanwin)"
+        },
+        {
+          "transliteration": "marar-tu bi-talibat-in mujtahidat-in",
+          "text": "— I passed by diligent female students. (genitive with kasra plus tanwin)"
+        }
+      ]
+    },
+    {
+      "id": "s015",
+      "text": "Second: The Conditions for Taking the Sound Feminine Plural"
+    },
+    {
+      "id": "s016",
+      "label_en": "Rule",
+      "text": "Not every feminine noun takes this plural — only a limited set of kinds, whose singular receives an added alif and taʾ while its structure remains sound."
+    },
+    {
+      "id": "s017",
+      "items": [
+        "The feminine proper name: Fatima → Fatimat, Zaynab → Zaynabat.",
+        "Whatever contains the taʾ of the feminine, noun or adjective: shajara → shajarat, muʿallima → muʿallimat.",
+        "The feminine adjective free of the taʾ when it qualifies a feminine: hubla → hublayat, murdiʿa → murdiʿat.",
+        "The verbal noun of more than three letters: ikram → ikramat, taʿrif → taʿrifat.",
+        "The diminutive of a non-rational noun: durayhim → durayhimat, kutayyib → kutayyibat.",
+        "An adjective of a non-rational noun: jabalun shahiqun → jibalun shahiqatun, yawmun maʿdudun → ayyamun maʿdudatun."
+      ]
+    },
+    {
+      "id": "s018",
+      "items": [
+        "Fatima, Fatimatun",
+        "shajara-tun, shajaratun (a tree, trees)",
+        "ikram-un, ikramatun (honoring, honorings)",
+        "hubla, hublayatun (pregnant f., pregnant ones)"
+      ]
+    },
+    {
+      "id": "s019",
+      "headers": [
+        "Kind",
+        "Singular example",
+        "Its plural"
+      ],
+      "rows": [
+        [
+          "Feminine proper name",
+          "Fatima",
+          "Fatimatun"
+        ],
+        [
+          "Contains the taʾ of the feminine",
+          "muʿallima",
+          "muʿallimatun"
+        ],
+        [
+          "Feminine adjective",
+          "murdiʿa",
+          "murdiʿatun"
+        ],
+        [
+          "Verbal noun above three letters",
+          "taʿrif",
+          "taʿrifatun"
+        ],
+        [
+          "Diminutive of a non-rational noun",
+          "durayhim",
+          "durayhimatun"
+        ],
+        [
+          "Adjective of a non-rational noun",
+          "shahiq",
+          "shahiqatun"
+        ]
+      ]
+    },
+    {
+      "id": "s020",
+      "label_en": "Warning",
+      "text": "Whatever does not keep its singular's structure intact upon pluralization is not a sound feminine plural, even if it is feminine: the plural of 'imraʾa' is 'nisaʾ', of 'umma' is 'umam', of 'shah' is 'shiyah' — all broken plurals, inflected with the original vowels and therefore accusative with the fatha."
+    },
+    {
+      "id": "s021",
+      "items": [
+        "imraʾa-tun, nisaʾ-un (a woman, women)",
+        "umma-tun, umam-un (a nation, nations)",
+        "shah-tun, shiyah-un (a sheep, sheep pl.)"
+      ]
+    },
+    {
+      "id": "s022",
+      "text": "Third: The Plural in the Positions of Iʿrab"
+    },
+    {
+      "id": "s023",
+      "label_en": "Rule",
+      "text": "The sound feminine plural is a declinable noun that occupies every position a singular noun occupies; its position never changes — only its accusative sign changes, becoming the kasra."
+    },
+    {
+      "id": "s024",
+      "text": "1 — In a Nominative Position"
+    },
+    {
+      "id": "s025",
+      "items": [
+        {
+          "transliteration": "al-talibat-u mujtahidat-un",
+          "text": "— The female students are diligent. (subject and predicate, nominative with damma)"
+        },
+        {
+          "transliteration": "hadarati al-muʿallimat-u",
+          "text": "— The female teachers attended. (subject of the verb, nominative with damma)"
+        },
+        {
+          "transliteration": "kufiʾati al-mutafawwiqat-u",
+          "text": "— The top female students were rewarded. (deputy subject, nominative with damma)"
+        },
+        {
+          "transliteration": "kanati al-talibat-u mujtahidat-in",
+          "text": "— The female students were diligent. (noun of kana, nominative with damma)"
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "text": "2 — In an Accusative Position"
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "shakar-tu al-muʿallimat-i",
+          "text": "— I thanked the female teachers. (direct object, accusative with kasra)"
+        },
+        {
+          "transliteration": "inna al-talibat-i mujtahidat-un",
+          "text": "— Indeed the female students are diligent. (noun of inna, accusative with kasra)"
+        },
+        {
+          "transliteration": "kanati al-talibat-u mujtahidat-in",
+          "text": "— The female students were diligent. (predicate of kana, accusative with kasra)"
+        },
+        {
+          "transliteration": "aqbalati al-fatayat-u masrurat-in",
+          "text": "— The girls came forward delighted. (circumstantial accusative, with kasra)"
+        },
+        {
+          "transliteration": "raʾay-tu al-faʾizat-i al-mutafawwiqat-i",
+          "text": "— I saw the top-scoring female winners. (adjective, accusative with kasra)"
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "3 — In a Genitive Position"
+    },
+    {
+      "id": "s029",
+      "items": [
+        {
+          "transliteration": "sallam-tu ʿala al-muʿallimat-i",
+          "text": "— I greeted the female teachers. (genitive after a preposition, its sign the kasra)"
+        },
+        {
+          "transliteration": "hadhihi kutub-u al-talibat-i",
+          "text": "— These are the female students' books. (second term of annexation, genitive with kasra)"
+        },
+        {
+          "transliteration": "marar-tu bi-fatayat-in karimat-in",
+          "text": "— I passed by noble girls. (adjective, genitive with kasra)"
+        }
+      ]
+    },
+    {
+      "id": "s030",
+      "headers": [
+        "Position",
+        "Example",
+        "Sign of iʿrab"
+      ],
+      "rows": [
+        [
+          "Subject / predicate",
+          "al-talibatu mujtahidatun",
+          "Damma (nominative)"
+        ],
+        [
+          "Subject of a verb",
+          "hadarati al-muʿallimatu",
+          "Damma (nominative)"
+        ],
+        [
+          "Deputy subject",
+          "kufiʾati al-mutafawwiqatu",
+          "Damma (nominative)"
+        ],
+        [
+          "Noun of kana",
+          "kanati al-talibatu mujtahidatin",
+          "Damma (nominative)"
+        ],
+        [
+          "Direct object",
+          "shakartu al-muʿallimati",
+          "Kasra (accusative)"
+        ],
+        [
+          "Noun of inna",
+          "inna al-talibati mujtahidatun",
+          "Kasra (accusative)"
+        ],
+        [
+          "Predicate of kana",
+          "kanati al-talibatu mujtahidatin",
+          "Kasra (accusative)"
+        ],
+        [
+          "Circumstantial accusative",
+          "aqbalati al-fatayatu masruratin",
+          "Kasra (accusative)"
+        ],
+        [
+          "Genitive after a preposition",
+          "sallamtu ʿala al-muʿallimati",
+          "Kasra (genitive)"
+        ],
+        [
+          "Second term of annexation",
+          "hadhihi kutubu al-talibati",
+          "Kasra (genitive)"
+        ]
+      ]
+    },
+    {
+      "id": "s031",
+      "label_en": "Warning",
+      "text": "If this plural occurs as a vocative and is a proper name or an intended indefinite, it is built (mabni) on what it would be raised with — the damma — in the place of the accusative of the vocative; so do not call it 'accusative with the kasra'."
+    },
+    {
+      "id": "s032",
+      "items": [
+        {
+          "transliteration": "ya muslimat-u ittaqina Allah-a",
+          "text": "— O Muslim women, fear Allah! (vocative built on the damma, in the place of the accusative)"
+        },
+        {
+          "transliteration": "ya Fatimat-u aqbilna",
+          "text": "— O Fatimas, come! (vocative built on the damma, in the place of the accusative)"
+        }
+      ]
+    },
+    {
+      "id": "s033",
+      "text": "Fourth: What Is Annexed to the Sound Feminine Plural"
+    },
+    {
+      "id": "s034",
+      "label_en": "Definition",
+      "text": "What is annexed to the sound feminine plural: words inflected exactly like it — damma in the nominative, kasra in the accusative and genitive — without being a sound feminine plural, either because they have no singular from their own root, or because they are proper names that happen to come on this plural's form."
+    },
+    {
+      "id": "s035",
+      "items": [
+        "ulatu (meaning 'possessors of', f.): it has no singular from its own root, and is used only in annexation.",
+        "Names coined on this plural's form: ʿArafat, Adhriʿat, Barakat, Naʿmat."
+      ]
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "transliteration": "hadarat ulat-u al-fadl-i",
+          "text": "— The women of merit attended. (subject, nominative with damma, being annexed to the sound feminine plural)"
+        },
+        {
+          "transliteration": "akram-tu ulat-i al-fadl-i",
+          "text": "— I honored the women of merit. (direct object, accusative with kasra)"
+        },
+        {
+          "transliteration": "waqafa al-hajj-u bi-ʿArafat-in",
+          "text": "— The pilgrim stood at ʿArafat. (genitive with kasra plus tanwin)"
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "headers": [
+        "The word",
+        "Why it is annexed"
+      ],
+      "rows": [
+        [
+          "ulatu",
+          "It has no singular from its own root"
+        ],
+        [
+          "ʿArafat",
+          "A proper name on the form of the sound feminine plural"
+        ],
+        [
+          "Adhriʿat",
+          "A proper name on the form of the sound feminine plural"
+        ],
+        [
+          "Barakat / Naʿmat",
+          "A proper name on the form of the sound feminine plural"
+        ]
+      ]
+    },
+    {
+      "id": "s038",
+      "label_en": "Warning",
+      "text": "The word 'ulatu' is used only in annexation, just as 'ulu' — annexed to the sound masculine plural — is used only in annexation. The first is for the feminine, the second for the masculine."
+    },
+    {
+      "id": "s039",
+      "items": [
+        {
+          "transliteration": "ulat-u al-ahmal-i lahunna hukm-un khass-un",
+          "text": "— Pregnant women have a special ruling. (feminine)"
+        },
+        {
+          "transliteration": "ulu al-albab-i yatadhakkarun-a",
+          "text": "— People of understanding remember. (masculine)"
+        }
+      ]
+    },
+    {
+      "id": "s040",
+      "label_en": "Note",
+      "text": "The word 'ʿArafat' is NOT restricted from full declension (mamnuʿ min al-sarf) even though it is a proper name; it is annexed to the sound feminine plural, so it is genitive with the kasra plus tanwin — 'waqaftu bi-ʿArafatin' — and never genitive with the fatha."
+    },
+    {
+      "id": "s041",
+      "items": [
+        {
+          "transliteration": "afad-tu min ʿArafat-in",
+          "text": "— I departed from ʿArafat. (genitive with kasra plus tanwin, not with fatha)"
+        },
+        {
+          "transliteration": "zur-tu Adhriʿat-in",
+          "text": "— I visited Adhriʿat. (accusative with kasra plus tanwin)"
+        }
+      ]
+    },
+    {
+      "id": "s042",
+      "text": "Fifth: What Resembles It but Is Not of It"
+    },
+    {
+      "id": "s043",
+      "label_en": "Warning",
+      "text": "Not everything ending in an alif and taʾ is a sound feminine plural. If the alif and taʾ belong to the root of the word, or the word is a broken plural, it is accusative with the fatha, not the kasra — e.g. qudah (judges), abyat (verses), amwat (dead), aswat (voices)."
+    },
+    {
+      "id": "s044",
+      "items": [
+        {
+          "transliteration": "raʾay-tu al-talibat-i",
+          "text": "— I saw the female students. (sound feminine plural: accusative with kasra)"
+        },
+        {
+          "transliteration": "saʾal-tu al-qudah-a",
+          "text": "— I asked the judges. (broken plural: accusative with fatha)"
+        },
+        {
+          "transliteration": "hafiz-tu al-abyat-a",
+          "text": "— I memorized the verses. (broken plural: accusative with fatha)"
+        }
+      ]
+    },
+    {
+      "id": "s045",
+      "headers": [
+        "Point of comparison",
+        "Sound feminine plural",
+        "Broken plural ending in alif and taʾ"
+      ],
+      "rows": [
+        [
+          "Example",
+          "talibatun",
+          "qudah, abyat"
+        ],
+        [
+          "The alif and taʾ",
+          "Added to the singular",
+          "Part of the root"
+        ],
+        [
+          "The singular's structure",
+          "Remained unchanged",
+          "Changed (broken)"
+        ],
+        [
+          "Sign of the accusative",
+          "Kasra",
+          "Fatha"
+        ]
+      ]
+    },
+    {
+      "id": "s046",
+      "text": "And how do we tell them apart when their written forms look alike?"
+    },
+    {
+      "id": "s047",
+      "text": "We go back to the singular. If we find the alif and taʾ added to a singular whose structure stayed intact, it is a sound feminine plural: the singular of 'talibatun' is 'taliba', and its structure stayed intact. If we find the singular's structure altered, or the alif and taʾ belonging to the root, it is a broken plural: the singular of 'qudah' is 'qadin' and of 'abyat' is 'bayt', and both changed shape. The practical test: try the accusative — if it sits well with the kasra it is sound; if it accepts nothing but the fatha it is broken."
+    },
+    {
+      "id": "s048",
+      "text": "Sixth: What Happens to the Singular upon Pluralization"
+    },
+    {
+      "id": "s049",
+      "label_en": "Rule",
+      "text": "If the singular is a triliteral feminine with a quiescent middle letter, sound in its middle radical and undoubled, then three forms are permitted in its middle upon pluralization: keeping it quiescent, giving it a fatha, or making it follow the vowel of the first letter."
+    },
+    {
+      "id": "s050",
+      "items": [
+        "Hind-un, Hindatun — Hinadatun — Hinidatun",
+        "Daʿd-un, Daʿdatun — Daʿadatun"
+      ]
+    },
+    {
+      "id": "s051",
+      "label_en": "Rule",
+      "text": "The shortened (maqsur) and extended (mamdud) nouns are treated upon pluralization exactly as in the dual: the maqsur's alif returns to its origin or turns into a yaʾ, and the hamza of the feminine in the mamdud turns into a waw."
+    },
+    {
+      "id": "s052",
+      "items": [
+        "fata-tun, fatayatun (a girl, girls)",
+        "dhikra, dhikrayatun (a memory, memories)",
+        "sahraʾu, sahrawatun (a desert, deserts)",
+        "samaʾun, samawatun (a heaven, heavens)"
+      ]
+    },
+    {
+      "id": "s053",
+      "headers": [
+        "Kind of singular",
+        "What happens upon pluralization",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Triliteral with quiescent middle",
+          "Quiescence, fatha, or following the first vowel are all permitted",
+          "Hindun → Hindatun / Hinadatun / Hinidatun"
+        ],
+        [
+          "Maqsur",
+          "The alif returns to its origin or turns into a yaʾ",
+          "dhikra → dhikrayatun"
+        ],
+        [
+          "Mamdud with the hamza of the feminine",
+          "The hamza turns into a waw",
+          "sahraʾu → sahrawatun"
+        ]
+      ]
+    },
+    {
+      "id": "s054",
+      "label_en": "Note",
+      "text": "These changes occur in the structure of the word, not in its iʿrab: a plural formed from them is nominative with the damma and accusative and genitive with the kasra, like every other sound feminine plural."
+    },
+    {
+      "id": "s055",
+      "items": [
+        {
+          "transliteration": "hadarati al-fatayat-u",
+          "text": "— The girls attended. (nominative with damma)"
+        },
+        {
+          "transliteration": "samiʿ-tu al-dhikrayat-i",
+          "text": "— I heard the memories. (accusative with kasra)"
+        },
+        {
+          "transliteration": "sirna fi al-sahrawat-i",
+          "text": "— We travelled in the deserts. (genitive with kasra)"
+        }
+      ]
+    },
+    {
+      "id": "s056",
+      "text": "A Comprehensive Table"
+    },
+    {
+      "id": "s057",
+      "headers": [
+        "Type",
+        "Nominative",
+        "Accusative",
+        "Genitive"
+      ],
+      "rows": [
+        [
+          "Sound feminine plural",
+          "Damma",
+          "Kasra",
+          "Kasra"
+        ],
+        [
+          "Annexed to it (ulatu, ʿArafat)",
+          "Damma",
+          "Kasra",
+          "Kasra"
+        ],
+        [
+          "Sound masculine plural",
+          "Waw",
+          "Yaʾ",
+          "Yaʾ"
+        ],
+        [
+          "The dual",
+          "Alif",
+          "Yaʾ",
+          "Yaʾ"
+        ],
+        [
+          "Broken plural",
+          "Damma",
+          "Fatha",
+          "Kasra"
+        ]
+      ]
+    },
+    {
+      "id": "s058",
+      "label_en": "Warning",
+      "text": "Memorize this difference: of all the plurals, only the sound feminine plural is accusative with the kasra. The broken plural is accusative with the fatha, and the sound masculine plural with the yaʾ."
+    },
+    {
+      "id": "s059",
+      "items": [
+        {
+          "transliteration": "karram-tu al-talibat-i",
+          "text": "— I honored the female students. (sound feminine plural: with kasra)"
+        },
+        {
+          "transliteration": "karram-tu al-talibin-a",
+          "text": "— I honored the students. (sound masculine plural: with yaʾ)"
+        },
+        {
+          "transliteration": "karram-tu al-rijal-a",
+          "text": "— I honored the men. (broken plural: with fatha)"
+        }
+      ]
+    },
+    {
+      "id": "s060",
+      "text": "Model Iʿrab (1)"
+    },
+    {
+      "id": "s061",
+      "items": [
+        {
+          "transliteration": "karrama al-mudir-u al-talibat-i al-mujtahidat-i",
+          "text": "— The manager honored the diligent female students."
+        }
+      ]
+    },
+    {
+      "id": "s062",
+      "text": "karrama: a past-tense verb, built on the fatha. al-mudiru: the subject of the verb, nominative, its sign the visible damma. al-talibati: the direct object, accusative, its sign the kasra in place of the fatha, because it is a sound feminine plural. al-mujtahidati: an adjective qualifying 'al-talibati', accusative, its sign the kasra in place of the fatha. The verbal clause is an opening clause with no place in iʿrab."
+    },
+    {
+      "id": "s063",
+      "text": "Model Iʿrab (2)"
+    },
+    {
+      "id": "s064",
+      "items": [
+        {
+          "transliteration": "sallam-tu ʿala ulat-i al-fadl-i fi ʿArafat-in",
+          "text": "— I greeted the women of merit at ʿArafat."
+        }
+      ]
+    },
+    {
+      "id": "s065",
+      "text": "sallamtu: a past-tense verb, built on quiescence because it is attached to the taʾ of the subject; the taʾ is an attached pronoun in the place of the nominative as the subject. ʿala: a preposition. ulati: a genitive noun, its sign the kasra, because it is annexed to the sound feminine plural, and it is the first term of annexation. al-fadli: the second term of annexation, genitive, its sign the kasra. fi: a preposition. ʿArafatin: a genitive noun, its sign the kasra along with tanwin, because it is annexed to the sound feminine plural and is NOT restricted from full declension."
+    },
+    {
+      "id": "s066",
+      "text": "From the Noble Qurʾan"
+    },
+    {
+      "id": "s067",
+      "text": "Allah Most High said: \"Indeed, good deeds do away with misdeeds\" — Quran 11:114 (Sahih International)"
+    },
+    {
+      "id": "s068",
+      "text": "'Al-hasanati' is the noun of inna, accusative, its sign the kasra in place of the fatha, because it is a sound feminine plural. 'Al-sayyiʾati' is the direct object, accusative, its sign the kasra in place of the fatha as well — so the verse holds two accusatives with the kasra in two different positions."
+    },
+    {
+      "id": "s069",
+      "text": "And Allah Most High said: \"And good women are for good men, and good men are for good women\" — Quran 24:26 (Sahih International)"
+    },
+    {
+      "id": "s070",
+      "text": "'Al-tayyibatu' is the subject, nominative, its sign the damma, because it is a sound feminine plural, and the prepositional phrase 'li-l-tayyibina' is the predicate. 'Al-tayyibina' is genitive, its sign the yaʾ, because it is a sound masculine plural, while 'li-l-tayyibati' is genitive with the kasra. So both sound plurals meet in the verse, each with its own sign."
+    },
+    {
+      "id": "s071",
+      "text": "And Allah Most High said: \"And for those who are pregnant\" — Quran 65:4 (Sahih International)"
+    },
+    {
+      "id": "s072",
+      "text": "'Ulatu' is the subject, nominative, its sign the damma, because it is annexed to the sound feminine plural, and it is the first term of annexation. 'Al-ahmali' is the second term of annexation, genitive, its sign the kasra. 'Ulatu' came annexed, as is always its way — it is used no other way."
+    },
+    {
+      "id": "s073",
+      "text": "And Allah Most High said: \"Maintain with care the prayers\" — Quran 2:238 (Sahih International)"
+    },
+    {
+      "id": "s074",
+      "text": "'Al-salawati' is a genitive noun after 'ʿala', its sign the kasra, because it is a sound feminine plural. Its singular is 'salat', an extended noun whose alif turned into a waw upon pluralization."
+    },
+    {
+      "id": "s075",
+      "text": "And Allah Most High said: \"submitting to Allah, believing, devoutly obedient\" — Quran 66:5 (Sahih International)"
+    },
+    {
+      "id": "s076",
+      "text": "'Muslimatin' is an adjective qualifying 'azwajan', accusative, its sign the kasra in place of the fatha, because it is a sound feminine plural; and it took tanwin because it is indefinite. 'Muʾminatin' and 'qanitatin' are further adjectives like it, accusative with the kasra — evidence that the kasra is the sign of iʿrab while the tanwin is the sign of indefiniteness, so the two combine."
+    }
+  ]
+}

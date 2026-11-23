@@ -169,6 +169,67 @@
       ]
     },
     {
+      "id": "s087",
+      "text": "Kana as Deficient (Naqisa) and as Complete (Tamma)"
+    },
+    {
+      "id": "s088",
+      "label_en": "Rule",
+      "text": "By default kana and its sisters are deficient (naqisa): they raise al-mubtadaʾ, which is then called their ism, and put al-khabar in the accusative, which is then called their khabar. They may also come as complete (tamma), in which case they are satisfied by their raised noun alone — that noun is their faʿil — and they take no khabar at all."
+    },
+    {
+      "id": "s089",
+      "items": [
+        {
+          "transliteration": "kana al-matar-u ghaziran",
+          "text": "— The rain was abundant. (deficient: al-matar is its ism, ghaziran its khabar)"
+        },
+        {
+          "transliteration": "kana al-ijtimaʿ-u",
+          "text": "— The meeting took place. (complete: al-ijtimaʿ is its faʿil, and it has no khabar)"
+        }
+      ]
+    },
+    {
+      "id": "s090",
+      "text": "The difference is that the deficient verb does not complete the meaning with its raised noun alone — it needs the khabar — whereas the complete verb completes the meaning with its raised noun and needs no khabar. Complete kana carries the sense of 'to exist', 'to happen', or 'to be established'."
+    },
+    {
+      "id": "s091",
+      "items": [
+        {
+          "transliteration": "asbaha al-musafir-u",
+          "text": "— The traveller entered upon the morning. (complete)"
+        },
+        {
+          "transliteration": "amsa al-muzariʿ-u",
+          "text": "— The farmer entered upon the evening. (complete)"
+        }
+      ]
+    },
+    {
+      "id": "s092",
+      "text": "— Allah Most High says:"
+    },
+    {
+      "id": "s093",
+      "items": [
+        {
+          "transliteration": "wa-in kana dhu ʿusratin fa-naziratun ila maysara",
+          "text": "\"And if someone is in hardship, then [let there be] postponement until a time of ease.\" — Quran 2:280 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s094",
+      "text": "kana: a complete past-tense verb, built on fatha. dhu: its faʿil in the nominative, marked by the waw because it is one of the Five Nouns. ʿusratin: a mudaf ilayh in the genitive, marked by kasra. Kana here has no khabar, because it is complete, meaning 'exists / is found'."
+    },
+    {
+      "id": "s095",
+      "label_en": "Note",
+      "text": "'Laysa' and 'ma dama' only ever come as deficient; they are never complete."
+    },
+    {
       "id": "s021",
       "text": "Conjugation of Kana and Its Sisters"
     },

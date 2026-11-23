@@ -1,0 +1,423 @@
+{
+  "lesson_id": "algomla_alesmia_w_alfealia",
+  "language": "en",
+  "title": "The Nominal Sentence and the Verbal Sentence (Al-Jumla al-Ismiyya wa-l-Fiʿliyya)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "The Nominal Sentence and the Verbal Sentence"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "A meaningful utterance is a sentence (jumla). In Arabic, the sentence divides into two kinds: the nominal sentence (ismiyya) and the verbal sentence (fiʿliyya). What distinguishes them is the type of word the sentence begins with."
+    },
+    {
+      "id": "s003",
+      "items": [
+        {
+          "transliteration": "Muhammad-un mujtahid-un",
+          "text": "— Muhammad is diligent. (nominal sentence)"
+        },
+        {
+          "transliteration": "ijtahada Muhammad-un",
+          "text": "— Muhammad worked hard. (verbal sentence)"
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "The first sentence begins with a noun ('Muhammad'), so it is nominal; the second begins with a verb ('ijtahada'), so it is verbal. The meaning is close in both, but the structure differs."
+    },
+    {
+      "id": "s005",
+      "text": "First: The Nominal Sentence"
+    },
+    {
+      "id": "s006",
+      "label_en": "Definition",
+      "text": "The nominal sentence is the sentence that begins with a noun. It is built from two essential pillars: the subject (mubtadaʾ) and the predicate (khabar), both in the nominative."
+    },
+    {
+      "id": "s007",
+      "label_en": "Definition",
+      "text": "The mubtadaʾ: a nominative noun standing at the beginning of the sentence, about which a statement is made — it is what the predicate reports on."
+    },
+    {
+      "id": "s008",
+      "label_en": "Definition",
+      "text": "The khabar: that which completes the meaning of the mubtadaʾ so that the sense is complete. It is nominative, like the mubtadaʾ."
+    },
+    {
+      "id": "s009",
+      "items": [
+        {
+          "transliteration": "al-ʿilm-u nafiʿ-un",
+          "text": "— Knowledge is beneficial."
+        },
+        {
+          "transliteration": "al-samaʾ-u safiya-tun",
+          "text": "— The sky is clear."
+        },
+        {
+          "transliteration": "al-muʾminun-a sadiqun-a",
+          "text": "— The believers are truthful."
+        }
+      ]
+    },
+    {
+      "id": "s010",
+      "text": "In each example a first noun (the mubtadaʾ) is reported on by what follows (the khabar), and both are nominative: the mubtadaʾ with damma, and the khabar with damma or its substitute — such as the waw in the sound masculine plural."
+    },
+    {
+      "id": "s011",
+      "label_en": "Rule",
+      "text": "The two pillars of the nominal sentence are the mubtadaʾ and the khabar; neither dispenses with the other, and the sense is complete only with the two together."
+    },
+    {
+      "id": "s012",
+      "text": "Types of the Khabar"
+    },
+    {
+      "id": "s013",
+      "text": "The khabar comes in three types: a single-word khabar, a sentence khabar, and a quasi-sentence khabar."
+    },
+    {
+      "id": "s014",
+      "text": "1 — The Single-Word Khabar"
+    },
+    {
+      "id": "s015",
+      "label_en": "Definition",
+      "text": "The single-word khabar is one that is neither a sentence nor a quasi-sentence — that is, a single word (or its equivalent, such as a dual or a plural)."
+    },
+    {
+      "id": "s016",
+      "items": [
+        {
+          "transliteration": "al-jaww-u muʿtadil-un",
+          "text": "— The weather is mild."
+        },
+        {
+          "transliteration": "al-taliban-i mujtahidan-i",
+          "text": "— The two students are diligent."
+        },
+        {
+          "transliteration": "al-muʿallimun-a mukhlisun-a",
+          "text": "— The teachers are devoted."
+        }
+      ]
+    },
+    {
+      "id": "s017",
+      "text": "2 — The Sentence Khabar"
+    },
+    {
+      "id": "s018",
+      "label_en": "Rule",
+      "text": "The khabar may be a full sentence — nominal or verbal — but it must contain a linking element (rabit) that binds it to the mubtadaʾ, usually a pronoun referring back to it."
+    },
+    {
+      "id": "s019",
+      "items": [
+        {
+          "transliteration": "al-ʿilm-u fawaʾid-u-hu kathira-tun",
+          "text": "— Knowledge, its benefits are many. (nominal-sentence khabar)"
+        },
+        {
+          "transliteration": "al-talib-u yudhakir-u durus-a-hu",
+          "text": "— The student studies his lessons. (verbal-sentence khabar)"
+        }
+      ]
+    },
+    {
+      "id": "s020",
+      "text": "In the first example the sentence 'its benefits are many' is the khabar, and the link is the pronoun (the ha) in 'fawaʾiduhu'. In the second, the sentence 'studies his lessons' is the khabar, and the link is the concealed pronoun in 'yudhakir', referring back to the mubtadaʾ ('the student')."
+    },
+    {
+      "id": "s021",
+      "text": "3 — The Quasi-Sentence Khabar"
+    },
+    {
+      "id": "s022",
+      "label_en": "Rule",
+      "text": "The quasi-sentence khabar is of two kinds: a preposition-plus-genitive phrase (jarr wa-majrur), or an adverbial (zarf / mafʿul fih) annexed to what follows it."
+    },
+    {
+      "id": "s023",
+      "items": [
+        {
+          "transliteration": "al-kitab-u ʿala al-maktab-i",
+          "text": "— The book is on the desk. (preposition + genitive)"
+        },
+        {
+          "transliteration": "al-ʿusfur-u fawq-a al-ghusn-i",
+          "text": "— The sparrow is above the branch. (adverbial)"
+        }
+      ]
+    },
+    {
+      "id": "s024",
+      "headers": [
+        "Type of khabar",
+        "Its definition",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Single-word khabar",
+          "One word, not a sentence or quasi-sentence",
+          "al-ʿilmu nur-un (Knowledge is light)"
+        ],
+        [
+          "Sentence khabar",
+          "A nominal or verbal sentence with a link",
+          "al-ʿilmu faʾidatuhu ʿazimatun (Knowledge — its benefit is great)"
+        ],
+        [
+          "Quasi-sentence khabar",
+          "A preposition + genitive, or an adverbial",
+          "al-ʿilmu fi al-sudur-i (Knowledge is in the breasts)"
+        ]
+      ]
+    },
+    {
+      "id": "s025",
+      "text": "Second: The Verbal Sentence"
+    },
+    {
+      "id": "s026",
+      "label_en": "Definition",
+      "text": "The verbal sentence is the sentence that begins with a verb. It is built from the verb and the subject-of-the-verb (faʿil), and may take in addition one or more direct objects, according to the meaning of the verb."
+    },
+    {
+      "id": "s027",
+      "label_en": "Definition",
+      "text": "The verb (fiʿl): a word denoting an event tied to a time (past, present, or future). It stands at the beginning of the verbal sentence."
+    },
+    {
+      "id": "s028",
+      "label_en": "Definition",
+      "text": "The faʿil: a nominative noun denoting the one who performed the action or is described by it. It comes after the verb."
+    },
+    {
+      "id": "s029",
+      "items": [
+        {
+          "transliteration": "talaʿat-i al-shams-u",
+          "text": "— The sun rose."
+        },
+        {
+          "transliteration": "yaktub-u al-talib-u",
+          "text": "— The student writes."
+        },
+        {
+          "transliteration": "iqraʾ kitab-a-ka",
+          "text": "— Read your book."
+        }
+      ]
+    },
+    {
+      "id": "s030",
+      "text": "Each sentence begins with a verb: 'talaʿa' (past), 'yaktub' (present), and 'iqraʾ' (imperative). Then the nominative faʿil follows it; so the verbal sentence begins with the verb in all three of its kinds."
+    },
+    {
+      "id": "s031",
+      "text": "The Pillars of the Verbal Sentence"
+    },
+    {
+      "id": "s032",
+      "label_en": "Rule",
+      "text": "The essential pillars of the verbal sentence are the verb and the faʿil; it is not a complete verbal sentence without a faʿil, whether stated or concealed."
+    },
+    {
+      "id": "s033",
+      "items": [
+        {
+          "transliteration": "najaha al-mujtahidun-a",
+          "text": "— The diligent ones succeeded. (verb + faʿil)"
+        },
+        {
+          "transliteration": "fataha al-fallah-u al-bab-a",
+          "text": "— The farmer opened the door. (verb + faʿil + direct object)"
+        }
+      ]
+    },
+    {
+      "id": "s034",
+      "text": "In the second example 'al-fallah' is the nominative faʿil, and 'al-bab' is the direct object (mafʿul bih) in the accusative, upon which the faʿil's action fell. The direct object is a complement that completes the meaning; it is not an obligatory pillar of every verbal sentence."
+    },
+    {
+      "id": "s035",
+      "text": "The Verb and the Deputy-Subject (Naʾib al-Faʿil)"
+    },
+    {
+      "id": "s036",
+      "label_en": "Note",
+      "text": "When the verb is built for the passive, the faʿil is dropped and the deputy-subject (naʾib al-faʿil) takes its place — a nominative noun — and the sentence remains verbal as it was."
+    },
+    {
+      "id": "s037",
+      "items": [
+        {
+          "transliteration": "kutiba al-dars-u",
+          "text": "— The lesson was written."
+        },
+        {
+          "transliteration": "yukram-u al-mujtahid-u",
+          "text": "— The diligent one is honored."
+        }
+      ]
+    },
+    {
+      "id": "s038",
+      "text": "In 'kutiba al-darsu' the verb is built for the passive, so 'al-dars' becomes the nominative deputy-subject, and the sentence stays verbal because it begins with a verb."
+    },
+    {
+      "id": "s039",
+      "text": "How Do We Distinguish the Two Sentences?"
+    },
+    {
+      "id": "s040",
+      "label_en": "Rule",
+      "text": "What counts in classifying a sentence is its first word: if it begins with a noun it is nominal, and if it begins with a verb it is verbal."
+    },
+    {
+      "id": "s041",
+      "headers": [
+        "Point of comparison",
+        "Nominal sentence",
+        "Verbal sentence"
+      ],
+      "rows": [
+        [
+          "Begins with",
+          "A noun",
+          "A verb"
+        ],
+        [
+          "Its two pillars",
+          "Mubtadaʾ and khabar",
+          "Verb and faʿil"
+        ],
+        [
+          "Iʿrab",
+          "Mubtadaʾ and khabar both nominative",
+          "Faʿil nominative; a direct object may be accusative"
+        ],
+        [
+          "Example",
+          "al-ʿilmu nafiʿ-un (Knowledge is beneficial)",
+          "nafaʿa al-ʿilm-u (Knowledge benefited)"
+        ]
+      ]
+    },
+    {
+      "id": "s042",
+      "text": "How do we know the type of a sentence if it begins with a particle such as 'hal', 'inna', or 'qad'?"
+    },
+    {
+      "id": "s043",
+      "text": "We look at the word that follows the particle: if a verb comes after it, the sentence is verbal — e.g. 'hal jaʾa Muhammad?' (Did Muhammad come?) and 'qad qama Zayd' (Zayd has stood up); and if a noun comes after it, the sentence is nominal — e.g. 'inna al-ʿilma nur' (Indeed knowledge is light). The particle does not change the type of the sentence; what counts is the first substantive word (noun or verb) after it."
+    },
+    {
+      "id": "s044",
+      "text": "Important Cautions"
+    },
+    {
+      "id": "s045",
+      "label_en": "Warning",
+      "text": "A nominal sentence may begin with a fronted quasi-sentence khabar with the mubtadaʾ delayed, yet it stays nominal — e.g. 'fi al-hadiqati azhar' (In the garden are flowers) and 'ʿindana dayf' (We have a guest). Fronting and delaying do not take it out of being nominal."
+    },
+    {
+      "id": "s046",
+      "items": [
+        {
+          "transliteration": "fi al-hadiqat-i azhar-un",
+          "text": "— In the garden are flowers."
+        },
+        {
+          "transliteration": "ʿinda-na dayf-un",
+          "text": "— We have a guest."
+        }
+      ]
+    },
+    {
+      "id": "s047",
+      "label_en": "Warning",
+      "text": "If an abrogator (nasikh) enters upon a nominal sentence — kana and its sisters, or inna and its sisters — it remains nominal in origin, even if the rules of iʿrab change: e.g. 'kana al-talibu mujtahidan' (The student was diligent) and 'inna al-ʿilma nur' (Indeed knowledge is light)."
+    },
+    {
+      "id": "s048",
+      "items": [
+        {
+          "transliteration": "kana al-talib-u mujtahid-an",
+          "text": "— The student was diligent."
+        },
+        {
+          "transliteration": "inna al-ʿilm-a nur-un",
+          "text": "— Indeed knowledge is light."
+        }
+      ]
+    },
+    {
+      "id": "s049",
+      "text": "Iʿrab Model (1): A Nominal Sentence"
+    },
+    {
+      "id": "s050",
+      "items": [
+        {
+          "transliteration": "al-sidq-u manja-tun",
+          "text": "— Truthfulness is a means of deliverance."
+        }
+      ]
+    },
+    {
+      "id": "s051",
+      "text": "al-sidqu: mubtadaʾ, nominative, its sign of nominative being the visible damma. manjatun: khabar, nominative, its sign being the visible damma. The sentence is nominal because it begins with a noun."
+    },
+    {
+      "id": "s052",
+      "text": "Iʿrab Model (2): A Verbal Sentence"
+    },
+    {
+      "id": "s053",
+      "items": [
+        {
+          "transliteration": "yahsid-u al-fallah-u al-qamh-a",
+          "text": "— The farmer harvests the wheat."
+        }
+      ]
+    },
+    {
+      "id": "s054",
+      "text": "yahsidu: present-tense verb, nominative, its sign of nominative being the visible damma. al-fallahu: faʿil, nominative, its sign being the visible damma. al-qamha: direct object (mafʿul bih), accusative, its sign being the visible fatha. The sentence is verbal because it begins with a verb."
+    },
+    {
+      "id": "s055",
+      "text": "From the Noble Qurʾan"
+    },
+    {
+      "id": "s056",
+      "text": "Allah said: ﴿Allah is the Light of the heavens and the earth﴾"
+    },
+    {
+      "id": "s057",
+      "text": "This is a nominal sentence that begins with a noun: the name of majesty (Allah) is the mubtadaʾ in the nominative, and 'nur' (Light) is the khabar in the nominative — and it is annexed, with 'al-samawat' (the heavens) as the genitive term of the annexation. The sense is completed by the mubtadaʾ and the khabar."
+    },
+    {
+      "id": "s058",
+      "text": "And Allah said: ﴿Truth has come and falsehood has vanished﴾"
+    },
+    {
+      "id": "s059",
+      "text": "This is a verbal sentence that begins with a past-tense verb ('jaʾa' — has come); 'al-haqq' (truth) is the nominative faʿil. Then another verbal sentence is conjoined to it ('zahaqa al-batil' — falsehood has vanished); so the verse contains two conjoined verbal sentences."
+    },
+    {
+      "id": "s060",
+      "label_en": "Warning",
+      "text": "Do not confuse the mubtadaʾ with the faʿil: both are nominative nouns, but the mubtadaʾ stands at the beginning of a nominal sentence with no verb before it, whereas the faʿil comes after the verb in a verbal sentence and never occurs except after it."
+    }
+  ]
+}

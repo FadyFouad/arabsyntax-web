@@ -29,8 +29,8 @@ describe('lesson tree drift guard (real asset + real catalog)', () => {
     expect(validateTree(definition, catalog)).toEqual([]);
   });
 
-  it('covers all 49 curriculum nodes with a single entry point', () => {
-    expect(definition.nodes).toHaveLength(49);
+  it('covers all 65 curriculum nodes with a single entry point', () => {
+    expect(definition.nodes).toHaveLength(65);
     const entryPoints = definition.nodes.filter((n) => n.prerequisites.length === 0);
     expect(entryPoints.map((n) => n.id)).toEqual(['elm_alnaho']);
   });
@@ -45,11 +45,11 @@ describe('lesson tree drift guard (real asset + real catalog)', () => {
     expect(findUncoveredLessons(definition, catalog)).toEqual(['aqsam_feaal']);
   });
 
-  it('lays out into a downward DAG (7 tiers, 0..6) with no orphan edges', () => {
+  it('lays out into a downward DAG (8 tiers, 0..7) with no orphan edges', () => {
     const layout = buildLayout(definition);
-    expect(layout.nodes).toHaveLength(49);
+    expect(layout.nodes).toHaveLength(65);
     const maxTier = Math.max(...layout.nodes.map((n) => n.tier));
-    expect(maxTier).toBe(6);
+    expect(maxTier).toBe(7);
     // Every edge points strictly downward (dependent tier > prerequisite tier).
     const tierById = new Map(layout.nodes.map((n) => [n.id, n.tier]));
     for (const e of layout.edges) {

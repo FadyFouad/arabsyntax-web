@@ -1,0 +1,465 @@
+{
+  "lesson_id": "adawat_alnafy",
+  "language": "en",
+  "title": "Adawat al-Nafy (the Particles of Negation)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Adawat al-Nafy (the Particles of Negation)"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "Negation (al-nafy) is a construction indicating that an action did not occur, or that an attribute is denied of a noun; it is the opposite of affirmation. The particles of negation are words that enter upon a sentence and shift its meaning from the affirmative to the negative — some are particles, and one is a verb."
+    },
+    {
+      "id": "s003",
+      "items": [
+        {
+          "transliteration": "kataba Muhammad-un al-dars",
+          "text": "— Muhammad wrote the lesson."
+        },
+        {
+          "transliteration": "ma kataba Muhammad-un al-dars",
+          "text": "— Muhammad did not write the lesson."
+        },
+        {
+          "transliteration": "lam yaktub Muhammad-un al-dars",
+          "text": "— Muhammad did not write the lesson."
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "The first sentence is affirmative, indicating that the writing took place; then 'ma' and 'lam' entered the following two sentences and negated the occurrence of the action. This is the work of the negation particles: turning speech from affirmation to negation."
+    },
+    {
+      "id": "s005",
+      "text": "Categories of the Negation Particles"
+    },
+    {
+      "id": "s006",
+      "text": "The negation particles are of two kinds: particles with no place in iʿrab — the majority — such as (la, ma, lam, lan, lamma, in, lata); and one frozen past-tense verb, which is (laysa). Some of these particles are inoperative (do not govern), while others govern by raising and putting in the accusative."
+    },
+    {
+      "id": "s007",
+      "headers": [
+        "Particle",
+        "Type",
+        "Enters Upon",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "la",
+          "particle",
+          "present verb / noun",
+          "negates the present or the future"
+        ],
+        [
+          "ma",
+          "particle",
+          "past & present",
+          "negation; may govern like 'laysa'"
+        ],
+        [
+          "lam",
+          "jussive particle",
+          "present verb",
+          "jussive + shift of tense to the past"
+        ],
+        [
+          "lan",
+          "accusative particle",
+          "present verb",
+          "accusative + restriction to the future"
+        ],
+        [
+          "lamma",
+          "jussive particle",
+          "present verb",
+          "jussive + negation continuous to the present"
+        ],
+        [
+          "in",
+          "particle",
+          "the sentence",
+          "negation with the sense of 'ma'"
+        ],
+        [
+          "lata",
+          "particle",
+          "nouns of time",
+          "governs like 'laysa'"
+        ],
+        [
+          "laysa",
+          "past verb",
+          "nominal sentence",
+          "raises the subject, accusative to the predicate"
+        ]
+      ]
+    },
+    {
+      "id": "s008",
+      "text": "First: (La) of Negation"
+    },
+    {
+      "id": "s009",
+      "label_en": "Rule",
+      "text": "The negating 'la' is a particle that enters upon the present-tense verb and negates its occurrence in the present or the future; it has no effect on its iʿrab, so the verb after it is in the nominative. It also enters upon the noun to convey negation."
+    },
+    {
+      "id": "s010",
+      "items": [
+        {
+          "transliteration": "la yuhmil-u al-mujtahid-u wajiba-hu",
+          "text": "— The diligent one does not neglect his duty."
+        },
+        {
+          "transliteration": "la rajula fi al-dar",
+          "text": "— There is no man in the house."
+        }
+      ]
+    },
+    {
+      "id": "s011",
+      "text": "In the first example 'la' negated the occurrence of the neglect in the present, and the verb 'yuhmilu' after it is in the nominative with damma because it does not govern it. In the second it negated the whole genus — here it is 'la' that negates the genus (la al-nafiya li-l-jins), which has its own chapter."
+    },
+    {
+      "id": "s012",
+      "label_en": "Warning",
+      "text": "Distinguish the negating 'la' from the prohibitive 'la': the negating one is a statement by which an action is denied and does not make the verb jussive, while the prohibitive one is a command by which one is asked to refrain and does make the verb jussive. You say '(la yakdhibu al-muʾmin)' — negation with the verb raised — and '(la takdhib)' — prohibition with the verb jussive."
+    },
+    {
+      "id": "s013",
+      "text": "Second: (Ma) of Negation"
+    },
+    {
+      "id": "s014",
+      "label_en": "Rule",
+      "text": "The negating 'ma' is a particle that enters upon the verbal sentence — past or present — and negates it, and it also enters upon the nominal sentence. It is inoperative in the dialect of Banu Tamim, and governs like 'laysa' in the Hijazi dialect, where it is called the Hijazi 'ma'."
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "ma hadara al-ghaʾib",
+          "text": "— The absent one did not come."
+        },
+        {
+          "transliteration": "ma yakhfa ʿala Allah-i shayʾ",
+          "text": "— Nothing is hidden from Allah."
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "In both examples 'ma' negated the past and the present verb, and here it is inoperative; the noun after it is a subject (faʿil) in the nominative, following the default."
+    },
+    {
+      "id": "s017",
+      "label_en": "Rule",
+      "text": "When the Hijazi 'ma' enters upon a nominal sentence, it governs like 'laysa': it raises the subject as its noun and puts the predicate in the accusative as its predicate."
+    },
+    {
+      "id": "s018",
+      "items": [
+        {
+          "transliteration": "ma al-bukhl-u mahmud-an",
+          "text": "— Stinginess is not praiseworthy."
+        },
+        {
+          "transliteration": "ma al-mal-u baqiy-an",
+          "text": "— Wealth is not lasting."
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "So 'al-bukhlu' is the noun of 'ma' in the nominative, and 'mahmudan' is its predicate in the accusative. 'Ma' does not do this work except under conditions."
+    },
+    {
+      "id": "s020",
+      "items": [
+        "That the predicate come after the subject; if the predicate precedes, its governance is void: 'ma musafirun Muhammad-un' (Muhammad is not travelling).",
+        "That the negation not be broken by 'illa' (except); if it comes, its governance is void: 'ma Muhammad-un illa musafir-un' (Muhammad is nothing but a traveller).",
+        "That no dependent of the predicate precede the subject — unless it is an adverb or a prepositional phrase: 'ma ʿinda-ka Muhammad-un muqim-an' (Muhammad is not staying at your place)."
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "Third: (Lam)"
+    },
+    {
+      "id": "s022",
+      "label_en": "Rule",
+      "text": "'Lam' is a particle of negation, jussive, and inversion: it enters upon the present verb, makes it jussive, and inverts its tense from the present or the future to the past, so its meaning becomes a negated past."
+    },
+    {
+      "id": "s023",
+      "items": [
+        {
+          "transliteration": "lam yusafir akhi",
+          "text": "— My brother did not travel."
+        },
+        {
+          "transliteration": "lam yuqassir al-muʿallim-u fi wajibi-h",
+          "text": "— The teacher did not fall short in his duty."
+        }
+      ]
+    },
+    {
+      "id": "s024",
+      "text": "The verb 'yusafir' is a present verb made jussive by 'lam', its sign of jussive being sukun, and its meaning is a negated past; the implied sense is 'ma safara akhi' (my brother did not travel)."
+    },
+    {
+      "id": "s025",
+      "text": "Fourth: (Lamma) the Jussive"
+    },
+    {
+      "id": "s026",
+      "label_en": "Rule",
+      "text": "The jussive 'lamma' is a particle of negation, jussive, and inversion like 'lam', except that its negation continues up to the moment of speaking, and the verb it negates is expected to happen."
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "safara al-qawm-u wa-lamma yaʿud ahad",
+          "text": "— The people travelled and no one has yet returned."
+        },
+        {
+          "transliteration": "qaruba al-imtihan-u wa-lamma yastaʿidd al-kasul",
+          "text": "— The exam has drawn near and the lazy one has not yet prepared."
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "So 'yaʿud' is a present verb made jussive by 'lamma', its sign of jussive being sukun; the negation continues up to the time of speaking, together with the expectation of the return afterwards — and this is the difference between it and 'lam'."
+    },
+    {
+      "id": "s029",
+      "label_en": "Warning",
+      "text": "Do not confuse the jussive particle 'lamma' with the adverbial 'lamma' meaning 'when', which enters upon the past verb: 'lamma jaʾa al-haqq-u zahaqa al-batil' (when the truth came, falsehood vanished), and with the 'lamma' meaning 'except' in exception."
+    },
+    {
+      "id": "s030",
+      "text": "Fifth: (Lan)"
+    },
+    {
+      "id": "s031",
+      "label_en": "Rule",
+      "text": "'Lan' is a particle of negation, accusative, and futurity: it enters upon the present verb, puts it in the accusative, restricts its tense to the future, and negates the occurrence of the action in the future."
+    },
+    {
+      "id": "s032",
+      "items": [
+        {
+          "transliteration": "lan yadiʿa haqq-un waraʾa-hu mutalib",
+          "text": "— No right will be lost while it has one who demands it."
+        },
+        {
+          "transliteration": "lan nataʾakhkhara ʿan nusrat-i al-mazlum",
+          "text": "— We will not be late in supporting the oppressed."
+        }
+      ]
+    },
+    {
+      "id": "s033",
+      "text": "The verb 'yadiʿa' is a present verb in the accusative by 'lan', its sign of accusative being fatha, and its meaning is the negation of loss in the future. 'Lan' is not for perpetual negation, as some have imagined, but for an absolute future negation."
+    },
+    {
+      "id": "s034",
+      "text": "Sixth: (In) of Negation"
+    },
+    {
+      "id": "s035",
+      "label_en": "Rule",
+      "text": "The negating 'in' is a particle that negates the nominal or verbal sentence with the sense of 'ma'. It is mostly inoperative, and it frequently comes joined with 'illa' by way of restriction."
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "transliteration": "in nahnu illa basharun mithlu-kum",
+          "text": "— We are but human beings like you."
+        },
+        {
+          "transliteration": "in-i al-kasul-u najih",
+          "text": "— The lazy one is not successful."
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "So 'in' in both examples means the negating 'ma' and governs nothing: 'nahnu' is a subject and 'basharun' a predicate, 'al-kasulu' a subject and 'najihun' a predicate, with the negation bearing on the content of the sentence."
+    },
+    {
+      "id": "s038",
+      "text": "Seventh: (Lata)"
+    },
+    {
+      "id": "s039",
+      "label_en": "Rule",
+      "text": "'Lata' is a particle that governs like 'laysa', raising the noun and putting the predicate in the accusative, but it is restricted to nouns of time (hin, saʿa, awan). Its noun and predicate are not both mentioned; one is omitted, most often the noun is dropped and the predicate stated."
+    },
+    {
+      "id": "s040",
+      "items": [
+        {
+          "transliteration": "nadima al-zalim-u wa-lata saʿata mandam",
+          "text": "— The wrongdoer regretted, but it was no time for regret."
+        }
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "So 'lata' governs like 'laysa'; its noun is omitted, implied to be 'al-saʿa', and 'saʿata' is its predicate in the accusative. The meaning: it is not an hour of regret in which regret would avail."
+    },
+    {
+      "id": "s042",
+      "text": "Eighth: (Laysa)"
+    },
+    {
+      "id": "s043",
+      "label_en": "Rule",
+      "text": "'Laysa' is a frozen past-tense verb that governs like 'kana': it enters upon the nominal sentence, raises the subject as its noun, puts the predicate in the accusative as its predicate, and conveys negation of the content of the sentence in the present."
+    },
+    {
+      "id": "s044",
+      "items": [
+        {
+          "transliteration": "laysa al-ghina ʿan kathrat-i al-ʿarad",
+          "text": "— Wealth is not from the abundance of possessions."
+        },
+        {
+          "transliteration": "laysa al-muʾmin-u bi-l-taʿʿan",
+          "text": "— The believer is not a slanderer."
+        }
+      ]
+    },
+    {
+      "id": "s045",
+      "text": "So 'al-muʾminu' is the noun of 'laysa' in the nominative, and 'bi-l-taʿʿani' is its predicate — genitive in form, accusative in position — since the extra 'baʾ' entered the predicate to emphasise the negation."
+    },
+    {
+      "id": "s046",
+      "text": "But what is the benefit of the multiplicity of negation particles and their variety, when they all indicate negation?"
+    },
+    {
+      "id": "s047",
+      "text": "The benefit is that each particle is specialised for a precise time or meaning: 'lam' and 'lamma' negate the past, 'lan' negates the future, and 'la', 'ma', and 'laysa' negate the present mostly; 'lamma' differs from 'lam' by the continuation of the negation up to the present and the expectation of occurrence. Their multiplicity gives the language precision in fixing the time and degree of negation — part of the inimitability of Arabic."
+    },
+    {
+      "id": "s048",
+      "text": "A Table Gathering the Negation Particles"
+    },
+    {
+      "id": "s049",
+      "headers": [
+        "Particle",
+        "Time of Negation",
+        "Governance",
+        "Example"
+      ],
+      "rows": [
+        [
+          "la",
+          "present or future",
+          "inoperative (no jussive)",
+          "la yakdhibu al-sadiq"
+        ],
+        [
+          "ma",
+          "past & present",
+          "inoperative or governs like laysa",
+          "ma al-bukhlu mahmudan"
+        ],
+        [
+          "lam",
+          "past",
+          "makes the present jussive",
+          "lam yahdur"
+        ],
+        [
+          "lamma",
+          "past continuous to the present",
+          "makes the present jussive",
+          "lamma yaʿud"
+        ],
+        [
+          "lan",
+          "future",
+          "puts the present in the accusative",
+          "lan ataʾakhkhara"
+        ],
+        [
+          "in",
+          "present (mostly)",
+          "inoperative",
+          "in nahnu illa basharun"
+        ],
+        [
+          "lata",
+          "time",
+          "governs like laysa",
+          "lata saʿata mandam"
+        ],
+        [
+          "laysa",
+          "present",
+          "raises the noun, accusative to the predicate",
+          "laysa al-ghina ʿan kathra"
+        ]
+      ]
+    },
+    {
+      "id": "s050",
+      "label_en": "Warning",
+      "text": "Beware of confusing the negating 'ma' with the interrogative, relative, and infinitival 'ma'; context is the decisive factor. '(ma ʿinda-ka?)' is interrogative, '(aʿjaba-ni ma sanaʿta)' is relative, '(ma dumta hayyan)' is infinitival, whereas '(ma faʿaltu suʾan)' is negation."
+    },
+    {
+      "id": "s051",
+      "text": "Model of Iʿrab"
+    },
+    {
+      "id": "s052",
+      "items": [
+        {
+          "transliteration": "lan yakhiba saʿyu al-mukhlis",
+          "text": "— The sincere one's effort will not fail."
+        }
+      ]
+    },
+    {
+      "id": "s053",
+      "text": "lan: a particle of negation, accusative, and futurity, built on sukun, with no place in iʿrab. yakhiba: a present verb in the accusative by 'lan', its sign of accusative being the manifest fatha. saʿyu: a subject (faʿil) in the nominative marked by damma, and it is annexed. al-mukhlisi: a noun in annexation (mudaf ilayh) in the genitive marked by the manifest kasra."
+    },
+    {
+      "id": "s054",
+      "text": "Allah Most High said: \"He neither begets nor is born.\" — Quran 112:3 (Sahih International)"
+    },
+    {
+      "id": "s055",
+      "text": "In the noble verse, 'lam' entered upon the two present verbs 'yalid' and 'yulad' and made them jussive — the sign of jussive being sukun — and inverted their tense to the past, so the meaning is: He did not beget and was not begotten, declaring Allah exalted above having a child or a parent."
+    },
+    {
+      "id": "s056",
+      "text": "And Allah Most High said: \"Never will you attain righteousness until you spend from that which you love.\" — Quran 3:92 (Sahih International)"
+    },
+    {
+      "id": "s057",
+      "text": "So 'lan' negated the attainment of righteousness in the future and put the present verb 'tanalu' in the accusative — its sign of accusative being the elision of the 'nun' because it is one of the Five Verbs — the meaning being: you will not reach righteousness until you spend from what you love."
+    },
+    {
+      "id": "s058",
+      "text": "And Allah Most High said: \"This is not a man...\" — Quran 12:31 (Sahih International)"
+    },
+    {
+      "id": "s059",
+      "text": "Here 'ma' is Hijazi and governs like 'laysa': 'hadha' is its noun in the position of nominative, and 'basharan' its predicate in the accusative; the meaning is the denial of his being a man — in awe of his beauty, peace be upon him."
+    }
+  ]
+}

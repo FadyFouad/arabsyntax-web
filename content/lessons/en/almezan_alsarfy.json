@@ -1,0 +1,589 @@
+{
+  "lesson_id": "almezan_alsarfy",
+  "language": "en",
+  "title": "Al-Mizan al-Sarfi (the Morphological Scale / Root-Pattern Template)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Al-Mizan al-Sarfi (the Morphological Scale)"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "Al-mizan al-sarfi (the morphological scale) is a measuring device devised by the morphologists to identify the pattern of a word and the make-up of its letters. Its letters are (f-ʿ-l), set opposite the root letters of the word: the faʾ matches the first root letter, the ʿayn the second, and the lam the third."
+    },
+    {
+      "id": "s003",
+      "items": [
+        "kataba, faʿala (he wrote)",
+        "shariba, faʿila (he drank)",
+        "karuma, faʿula (he was noble)"
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "Look at the word 'kataba': its root letters are three — kaf, taʾ, baʾ. We set the kaf opposite the faʾ, the taʾ opposite the ʿayn, and the baʾ opposite the lam; then we vowel the scale exactly as the weighed word is vowelled, and say: its pattern is 'faʿala'. The same applies to what follows."
+    },
+    {
+      "id": "s005",
+      "text": "Why did the morphologists choose the letters (f-ʿ-l) in particular as the scale for words?"
+    },
+    {
+      "id": "s006",
+      "text": "Because the word 'faʿala' denotes action in the absolute sense, so every verb — and every noun derived from a verb — can be set against it. Also, its three letters come from clearly distinct points of articulation, so they cannot be confused with the augment letters when the two meet inside the scale."
+    },
+    {
+      "id": "s007",
+      "label_en": "Rule",
+      "text": "The scale is vowelled exactly like the weighed word, letter by letter: whatever carries fatha in the weighed word takes fatha in the scale, whatever is silent (sukun) takes sukun, and so on."
+    },
+    {
+      "id": "s008",
+      "items": [
+        "nasr, faʿl (help)",
+        "ʿilm, fiʿl (knowledge)",
+        "qufl, fuʿl (a lock)",
+        "hadhira, faʿila (he was wary)"
+      ]
+    },
+    {
+      "id": "s009",
+      "text": "First: The Scale of the Bare Triliteral Verb"
+    },
+    {
+      "id": "s010",
+      "label_en": "Rule",
+      "text": "In the bare (mujarrad) triliteral verb every letter is a root letter, so it is weighed by 'faʿala' vowelled as it is vowelled. It has only three patterns, according to the vowel on the ʿayn in the past tense: faʿala, faʿila, and faʿula."
+    },
+    {
+      "id": "s011",
+      "headers": [
+        "Pattern",
+        "Example",
+        "Meanings it usually carries"
+      ],
+      "rows": [
+        [
+          "faʿala",
+          "kataba, nasara, daraba",
+          "The most general and most frequent pattern; predominates in transitive actions"
+        ],
+        [
+          "faʿila",
+          "fariha, marida, ʿamiya",
+          "States, ailments, colours, and bodily defects"
+        ],
+        [
+          "faʿula",
+          "karuma, sharufa, hasuna",
+          "Fixed qualities and innate dispositions"
+        ]
+      ]
+    },
+    {
+      "id": "s012",
+      "items": [
+        {
+          "transliteration": "nasara Allah-u al-muʾminin",
+          "text": "— Allah gave victory to the believers. (nasara on the pattern faʿala)"
+        },
+        {
+          "transliteration": "fariha al-talib-u bi-najahi-h",
+          "text": "— The student rejoiced at his success. (fariha on the pattern faʿila)"
+        },
+        {
+          "transliteration": "karuma asl-u al-rajul",
+          "text": "— The man's stock was noble. (karuma on the pattern faʿula)"
+        }
+      ]
+    },
+    {
+      "id": "s013",
+      "text": "Second: The Scale of the Bare Quadriliteral Verb"
+    },
+    {
+      "id": "s014",
+      "label_en": "Rule",
+      "text": "When the root letters exceed three, a second lam is added to the scale to face the fourth root letter; so the pattern of the bare quadriliteral is 'faʿlala'."
+    },
+    {
+      "id": "s015",
+      "items": [
+        "dahraja, faʿlala (he rolled)",
+        "baʿthara, faʿlala (he scattered)",
+        "zalzala, faʿlala (he shook violently)",
+        "waswasa, faʿlala (he whispered insinuations)"
+      ]
+    },
+    {
+      "id": "s016",
+      "label_en": "Note",
+      "text": "'Zalzala' and 'waswasa' are reduplicated quadriliterals: all their letters are root letters even though they repeat, because the repetition here is the repetition of a root, not an augment. That is why they are weighed as 'faʿlala' and not as 'faʿʿala'."
+    },
+    {
+      "id": "s017",
+      "text": "Third: The Scale of the Augmented Verb"
+    },
+    {
+      "id": "s018",
+      "label_en": "Rule",
+      "text": "In an augmented verb the root letters are matched with (f-ʿ-l), and the augment letter is written into the scale in its own form and in its own position in the word. But if the augmentation consists of doubling a root letter, then what faces that root letter in the scale is doubled — the letter itself is not spelled out."
+    },
+    {
+      "id": "s019",
+      "text": "1 — Augmented by One Letter"
+    },
+    {
+      "id": "s020",
+      "headers": [
+        "Pattern",
+        "Example",
+        "The augment letter"
+      ],
+      "rows": [
+        [
+          "afʿala",
+          "akrama, ahsana",
+          "The hamza at its beginning"
+        ],
+        [
+          "faʿʿala",
+          "ʿallama, qattaʿa",
+          "Doubling of the ʿayn"
+        ],
+        [
+          "faʿala (with long a)",
+          "qatala, safara",
+          "The alif after the faʾ"
+        ]
+      ]
+    },
+    {
+      "id": "s021",
+      "items": [
+        {
+          "transliteration": "akrama al-mudif-u dayfa-h",
+          "text": "— The host honoured his guest. (afʿala)"
+        },
+        {
+          "transliteration": "ʿallama al-muʿallim-u talamidha-h",
+          "text": "— The teacher taught his pupils. (faʿʿala)"
+        },
+        {
+          "transliteration": "safara akhi ila al-Qahira",
+          "text": "— My brother travelled to Cairo. (faʿala, with long a)"
+        }
+      ]
+    },
+    {
+      "id": "s022",
+      "text": "2 — Augmented by Two Letters"
+    },
+    {
+      "id": "s023",
+      "headers": [
+        "Pattern",
+        "Example",
+        "The two augment letters"
+      ],
+      "rows": [
+        [
+          "infaʿala",
+          "inkasara, intalaqa",
+          "Connecting hamza and nun"
+        ],
+        [
+          "iftaʿala",
+          "ijtamaʿa, iktasaba",
+          "Connecting hamza and taʾ"
+        ],
+        [
+          "ifʿalla",
+          "ihmarra, iswadda",
+          "Connecting hamza and doubling of the lam"
+        ],
+        [
+          "tafaʿʿala",
+          "taʿallama, taqaddama",
+          "Taʾ and doubling of the ʿayn"
+        ],
+        [
+          "tafaʿala",
+          "taqatala, taʿawana",
+          "Taʾ and alif"
+        ]
+      ]
+    },
+    {
+      "id": "s024",
+      "items": [
+        {
+          "transliteration": "inkasara al-zujaj",
+          "text": "— The glass broke. (infaʿala)"
+        },
+        {
+          "transliteration": "taʿawana al-jiran",
+          "text": "— The neighbours cooperated. (tafaʿala)"
+        },
+        {
+          "transliteration": "ihmarra wajh-u al-khajul",
+          "text": "— The bashful one's face reddened. (ifʿalla)"
+        }
+      ]
+    },
+    {
+      "id": "s025",
+      "text": "3 — Augmented by Three Letters"
+    },
+    {
+      "id": "s026",
+      "headers": [
+        "Pattern",
+        "Example",
+        "The augment letters"
+      ],
+      "rows": [
+        [
+          "istafʿala",
+          "istakhraja, istaghfara",
+          "Connecting hamza, sin, and taʾ"
+        ],
+        [
+          "ifʿawʿala",
+          "ikhshawshana, iʿshawshaba",
+          "Connecting hamza, waw, and repetition of the ʿayn"
+        ],
+        [
+          "ifʿalla (with long a)",
+          "ihmarra, isfarra",
+          "Connecting hamza, alif, and doubling of the lam"
+        ],
+        [
+          "ifʿawwala",
+          "ijlawwadha",
+          "Connecting hamza and two waws"
+        ]
+      ]
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "istakhraja al-ʿamil-u al-maʿdin",
+          "text": "— The worker extracted the mineral. (istafʿala)"
+        },
+        {
+          "transliteration": "iʿshawshaba al-wadi baʿda al-matar",
+          "text": "— The valley grew thick with grass after the rain. (ifʿawʿala)"
+        },
+        {
+          "transliteration": "isfarra waraq-u al-shajar",
+          "text": "— The leaves of the tree turned deep yellow. (ifʿalla, with long a)"
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "4 — The Scale of the Augmented Quadriliteral"
+    },
+    {
+      "id": "s029",
+      "headers": [
+        "Pattern",
+        "Example",
+        "Amount of augmentation"
+      ],
+      "rows": [
+        [
+          "tafaʿlala",
+          "tadahraja, tabaʿthara",
+          "One letter (the taʾ)"
+        ],
+        [
+          "ifʿanlala",
+          "ihranjama",
+          "Two letters (connecting hamza and nun)"
+        ],
+        [
+          "ifʿalalla",
+          "iqshaʿarra, itmaʾanna",
+          "Two letters (connecting hamza and doubling of the lam)"
+        ]
+      ]
+    },
+    {
+      "id": "s030",
+      "text": "The Augment Letters"
+    },
+    {
+      "id": "s031",
+      "label_en": "Rule",
+      "text": "The augment letters are ten, collected in the mnemonic 'saʾaltumuniha': sin, hamza, lam, taʾ, mim, waw, nun, yaʾ, haʾ, and alif. Augmentation in a word can only come from these letters, or from the repetition of a root letter."
+    },
+    {
+      "id": "s032",
+      "items": [
+        "A root letter is one that remains through every derivation of the word: kataba, yaktubu, kitab, katib, maktub — so kaf, taʾ, and baʾ are root letters.",
+        "An augment letter is one that drops out in some derivations: akrama, karuma, karam — so the hamza is an augment, since it drops out.",
+        "An augment can only be one of the letters of 'saʾaltumuniha'; anything else is certainly a root letter.",
+        "But not every letter of 'saʾaltumuniha' is an augment: the mim in 'makara' is a root letter, and the sin in 'sajada' is a root letter."
+      ]
+    },
+    {
+      "id": "s033",
+      "label_en": "Warning",
+      "text": "Distinguish augmentation by doubling from augmentation by an independent letter. In 'ʿallama' the ʿayn is doubled (the augment is a repetition of the root ʿayn), so we say 'faʿʿala' — doubling what faces it rather than spelling the letter out. But in 'akrama' the hamza is an independent augment letter, so we wrote it out and said 'afʿala'."
+    },
+    {
+      "id": "s034",
+      "items": [
+        "qattaʿa, faʿʿala (he cut to pieces)",
+        "ihmarra, ifʿalla (it turned red)",
+        "itmaʾanna, ifʿalalla (he became tranquil)",
+        "taqaddama, tafaʿʿala (he advanced)"
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "Fourth: The Scale of the Noun"
+    },
+    {
+      "id": "s036",
+      "text": "Derived nouns, verbal nouns, and plurals are weighed just as verbs are: their letters are traced back to their roots and matched with (f-ʿ-l), and the augment is written in its own position. Knowing a noun's pattern tells you its form — whether it is an active participle, a passive participle, a noun of instrument, or an intensive form."
+    },
+    {
+      "id": "s037",
+      "items": [
+        "katib, faʿil (a writer)",
+        "maktub, mafʿul (written)",
+        "miftah, mifʿal (a key)",
+        "maktab, mafʿal (a desk / office)",
+        "ʿallama, faʿʿala (a great scholar)",
+        "karim, faʿil (generous)",
+        "akbar, afʿal (greater)",
+        "istighfar, istifʿal (seeking forgiveness)"
+      ]
+    },
+    {
+      "id": "s038",
+      "items": [
+        "rijal, fiʿal (men)",
+        "kutub, fuʿul (books)",
+        "aqlam, afʿal (pens)",
+        "masajid, mafaʿil (mosques)",
+        "masabih, mafaʿil — long (lamps)",
+        "shuʿaraʾ, fuʿalaʾ (poets)"
+      ]
+    },
+    {
+      "id": "s039",
+      "label_en": "Note",
+      "text": "Particles (min, fi, hal) are not weighed, because they have no roots from which derivation proceeds; nor are frozen foreign proper names (Ibrahim, Ismaʿil), because they do not run on Arabic derivational patterns."
+    },
+    {
+      "id": "s040",
+      "text": "Fifth: Changes That Affect the Scale"
+    },
+    {
+      "id": "s041",
+      "text": "1 — Deletion"
+    },
+    {
+      "id": "s042",
+      "label_en": "Rule",
+      "text": "If a root letter is deleted from the word, whatever faces it is deleted from the scale: if the faʾ is dropped, the faʾ goes from the scale; if the ʿayn is dropped, the ʿayn goes; and if the lam is dropped, the lam goes."
+    },
+    {
+      "id": "s043",
+      "items": [
+        "qul, ful (say!)",
+        "ʿid, ʿil (promise!)",
+        "khudh, ʿul (take!)",
+        "lam yarmi, lam yafʿi (he did not throw)",
+        "qi, ʿi (protect!)"
+      ]
+    },
+    {
+      "id": "s044",
+      "text": "'Qul' comes from the root (q-w-l): its ʿayn — the waw — was deleted to avoid two consecutive silent letters, so we deleted the ʿayn from the scale and said 'ful'. 'ʿId' comes from 'waʿada': its faʾ — the waw — was deleted, so we deleted the faʾ and said 'ʿil'. 'Khudh' comes from 'akhadha': its faʾ — the hamza — was deleted, so we said 'ʿul'. And 'qi' is the imperative of 'waqa': both its faʾ and its lam were deleted, so nothing remains of the scale but the ʿayn."
+    },
+    {
+      "id": "s045",
+      "text": "2 — Metathesis (Al-Qalb al-Makani)"
+    },
+    {
+      "id": "s046",
+      "label_en": "Rule",
+      "text": "Metathesis is the moving of some of a word's letters ahead of others. Its treatment in the scale is that whatever letters were moved forward in the weighed word are moved forward in the scale too — so the scale comes out departing from the usual (f-ʿ-l) order."
+    },
+    {
+      "id": "s047",
+      "items": [
+        "ayisa, ʿafila (he despaired)",
+        "jah, ʿafl (prestige)",
+        "ashyaʾ, lafʿaʾ (things)"
+      ]
+    },
+    {
+      "id": "s048",
+      "text": "'Ayisa' is a metathesis of 'yaʾisa': its ʿayn — the hamza — was moved ahead of its faʾ, the yaʾ, so its pattern is 'ʿafila'. 'Jah' is a metathesis of 'wajh', so its pattern is 'ʿafl'. And 'ashyaʾ' was originally 'shayʾaʾ' on the pattern 'faʿlaʾ'; its lam — the hamza — was moved ahead of its faʾ, so its pattern became 'lafʿaʾ'."
+    },
+    {
+      "id": "s049",
+      "text": "3 — Iʿlal by Substitution and Ibdal"
+    },
+    {
+      "id": "s050",
+      "label_en": "Note",
+      "text": "Iʿlal (the conversion of a weak letter) and ibdal (the replacement of an augment letter by another) do not change the scale at all, because the letter remains in its position and only its shape has changed. So the verb is weighed on its original form, before the iʿlal or ibdal."
+    },
+    {
+      "id": "s051",
+      "items": [
+        "qala, faʿala (he said)",
+        "baʿa, faʿala (he sold)",
+        "daʿa, faʿala (he called)",
+        "rama, faʿala (he threw)",
+        "istabara, iftaʿala (he was patient)",
+        "izdahama, iftaʿala (it became crowded)",
+        "ittasala, iftaʿala (he made contact)"
+      ]
+    },
+    {
+      "id": "s052",
+      "text": "'Qala' was originally 'qawala'; the waw was converted into an alif, but the letter remains in its position, so its pattern is 'faʿala'. As for 'istabara' (اصطبر), it was originally 'istabara' (اصتبر) on the pattern 'iftaʿala': its augment taʾ was replaced by an emphatic taʾ (ṭaʾ), and since the substituted letter is an augment sitting in its own position, the pattern stays 'iftaʿala'. The same holds for 'izdahama' (ازدحم) and 'ittasala' (اتصل): both are 'iftaʿala'."
+    },
+    {
+      "id": "s053",
+      "text": "Steps for Weighing a Word"
+    },
+    {
+      "id": "s054",
+      "items": [
+        "Trace the word back to its bare past-tense verb if it is a verb, or to its verb if it is a derived noun, so that you know its root letters.",
+        "Separate root from augment by derivation: whatever survives every derivation is a root letter; whatever drops out is an augment.",
+        "Match the first root letter with the faʾ, the second with the ʿayn, the third with the lam, and the fourth with a second lam.",
+        "Place each augment letter into the scale in its own form and its own position — except an augment made by doubling, where you double what faces it instead.",
+        "Vowel the scale exactly as the weighed word is vowelled, letter by letter."
+      ]
+    },
+    {
+      "id": "s055",
+      "items": [
+        {
+          "transliteration": "talab-tu min rabbi al-istighfar",
+          "text": "— I sought forgiveness from my Lord."
+        }
+      ]
+    },
+    {
+      "id": "s056",
+      "text": "We weigh the word 'istighfar' like this: we trace it back to its verb 'istaghfara', whose bare form is 'ghafara'; so its root letters are ghayn, faʾ, and raʾ, and its augments are the connecting hamza, the sin, the taʾ, and the alif. We match the ghayn with the faʾ, the faʾ with the ʿayn, and the raʾ with the lam, then set the augments in their positions — giving the pattern 'istifʿal'."
+    },
+    {
+      "id": "s057",
+      "text": "After all this, what is the actual benefit of the morphological scale?"
+    },
+    {
+      "id": "s058",
+      "text": "Its benefit is great. By it you tell a root letter from an augment; by it you know whether a verb is bare or augmented, and so know its class and its verbal noun; by it you tell the derived forms apart — the active participle from the passive participle, the noun of instrument from the noun of time and place; by it you look a word up in the dictionary, since stripping it to its root is the way to find its entry; and by it you recognize any deletion, metathesis, or substitution the word has undergone."
+    },
+    {
+      "id": "s059",
+      "text": "Summary Table"
+    },
+    {
+      "id": "s060",
+      "headers": [
+        "Type of word",
+        "Its scale",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Bare triliteral",
+          "faʿala, faʿila, faʿula",
+          "kataba, fariha, karuma"
+        ],
+        [
+          "Bare quadriliteral",
+          "faʿlala",
+          "dahraja"
+        ],
+        [
+          "Triliteral augmented by one",
+          "afʿala, faʿʿala, faʿala (long a)",
+          "akrama, ʿallama, qatala"
+        ],
+        [
+          "Triliteral augmented by two",
+          "infaʿala, iftaʿala, ifʿalla, tafaʿʿala, tafaʿala",
+          "inkasara, ijtamaʿa, ihmarra, taʿallama, taqatala"
+        ],
+        [
+          "Triliteral augmented by three",
+          "istafʿala, ifʿawʿala, ifʿalla (long a)",
+          "istakhraja, ikhshawshana, ihmarra (long a)"
+        ],
+        [
+          "Augmented quadriliteral",
+          "tafaʿlala, ifʿanlala, ifʿalalla",
+          "tadahraja, ihranjama, iqshaʿarra"
+        ],
+        [
+          "Derived noun",
+          "faʿil, mafʿul, mifʿal",
+          "katib, maktub, miftah"
+        ],
+        [
+          "Word with a deletion",
+          "Delete from the scale whatever faces the deleted letter",
+          "qul: ful — ʿid: ʿil"
+        ],
+        [
+          "Word with metathesis",
+          "Move forward in the scale whatever was moved forward in the word",
+          "ayisa: ʿafila"
+        ]
+      ]
+    },
+    {
+      "id": "s061",
+      "label_en": "Warning",
+      "text": "Do not confuse the morphological scale with prosodic metre: the first weighs the letters of a single word by (f-ʿ-l); the second weighs the feet of a line of poetry. And do not rule a letter an augment merely because it belongs to 'saʾaltumuniha' — test it by derivation: the mim in 'makara' and the nun in 'nasara' are both root letters."
+    },
+    {
+      "id": "s062",
+      "text": "A Worked Example"
+    },
+    {
+      "id": "s063",
+      "items": [
+        {
+          "transliteration": "istakhraja al-ʿummal-u al-maʿadin",
+          "text": "— The workers extracted the minerals."
+        }
+      ]
+    },
+    {
+      "id": "s064",
+      "text": "Iʿrab: 'istakhraja' — past-tense verb, indeclinable on fatha. 'al-ʿummalu' — subject, nominative, its sign the visible damma. 'al-maʿadina' — direct object, accusative, its sign the visible fatha. As for the patterns: 'istakhraja' has the roots (kh-r-j) and the augments connecting hamza, sin, and taʾ, so its pattern is 'istafʿala'. 'al-ʿummal' is on the pattern 'fuʿʿal'. 'al-maʿadin' has the singular 'maʿdin', whose roots are (ʿ-d-n) with an augment mim, so its pattern is 'mafaʿil'."
+    },
+    {
+      "id": "s065",
+      "text": "Allah Most High said: \"Say: He is Allah, One.\" — Quran 112:1 (Sahih International)"
+    },
+    {
+      "id": "s066",
+      "text": "In this noble verse 'qul' is an imperative from 'qala / yaqulu', whose roots are (q-w-l). Its ʿayn — the waw — was deleted to avoid two consecutive silent letters, so what faces it was deleted from the scale, and its pattern is 'ful'."
+    },
+    {
+      "id": "s067",
+      "text": "And Allah Most High said: \"And ask forgiveness for your sin.\" — Quran 47:19 (Sahih International)"
+    },
+    {
+      "id": "s068",
+      "text": "'Istaghfir' is an imperative augmented by three letters — the connecting hamza, the sin, and the taʾ — with the roots (gh-f-r), so its pattern is 'istafʿil'. From it come the verbal noun 'istighfar' on the pattern 'istifʿal', and the active participle 'mustaghfir' on the pattern 'mustafʿil'."
+    }
+  ]
+}

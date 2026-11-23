@@ -1,0 +1,594 @@
+{
+  "lesson_id": "motabakat_alfeal_llfaeel",
+  "language": "en",
+  "title": "Gender Agreement Between the Verb and Its Subject (Al-Mutabaqa Tadhkiran wa-Taʾnithan)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Gender Agreement Between the Verb and Its Subject"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "Agreement of the verb with its subject means that the verb is left masculine when its faʿil (subject) is masculine, and is marked with a feminine sign when its subject is feminine. This agreement concerns gender alone. The naʾib al-faʿil (the subject of a passive verb) follows exactly the same rules as the faʿil."
+    },
+    {
+      "id": "s003",
+      "items": [
+        {
+          "transliteration": "hadara Muhammad-un mubakkiran",
+          "text": "— Muhammad arrived early."
+        },
+        {
+          "transliteration": "hadarat Fatima-tu mubakkira",
+          "text": "— Fatima arrived early."
+        },
+        {
+          "transliteration": "yaqraʾu al-talib-u darsa-h",
+          "text": "— The (male) student reads his lesson."
+        },
+        {
+          "transliteration": "taqraʾu al-taliba-tu darsa-ha",
+          "text": "— The (female) student reads her lesson."
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "Look at the examples above: the verb is in the past tense in the first two and in the present tense in the last two. In the first and third the subject is masculine, so the verb carries no feminine marker; in the second and fourth the subject is feminine, so the feminine marker attaches to the verb — the silent taʾ at the end of the past-tense verb, and the taʾ of the present-tense prefix at the beginning of the imperfect."
+    },
+    {
+      "id": "s005",
+      "text": "Does the verb also agree with its subject in number, the way it agrees in gender?"
+    },
+    {
+      "id": "s006",
+      "text": "No. When the verb precedes an explicit (noun) subject it stays singular no matter how many the subject is: you say 'hadara al-talib' (the student came), 'hadara al-talibani' (the two students came), and 'hadara al-tullab' (the students came) — never 'hadara al-talibani' with a dual verb, nor 'hadaru al-tullab' with a plural verb. So the obligatory agreement between a verb and its explicit subject is in gender only, not in number."
+    },
+    {
+      "id": "s007",
+      "text": "First: The Feminine Marker on the Verb"
+    },
+    {
+      "id": "s008",
+      "label_en": "Rule",
+      "text": "The feminine marker of the past-tense verb is a silent taʾ attached to its end, called taʾ al-taʾnith al-sakina. The feminine marker of the present-tense verb is the taʾ of the imperfect prefix at its beginning. The feminine marker of the imperative is the yaʾ of the feminine addressee at its end."
+    },
+    {
+      "id": "s009",
+      "headers": [
+        "Type of verb",
+        "With a masculine subject",
+        "With a feminine subject",
+        "The feminine marker"
+      ],
+      "rows": [
+        [
+          "Past",
+          "kataba al-talib (the student wrote)",
+          "katabat al-taliba (the student wrote)",
+          "The silent taʾ at its end"
+        ],
+        [
+          "Present",
+          "yaktubu al-talib (the student writes)",
+          "taktubu al-taliba (the student writes)",
+          "The taʾ of the imperfect prefix"
+        ],
+        [
+          "Imperative",
+          "uktub ya talib (write, O student)",
+          "uktubi ya taliba (write, O student)",
+          "The yaʾ of the feminine addressee"
+        ]
+      ]
+    },
+    {
+      "id": "s010",
+      "items": [
+        "najaha, najahat (he/she succeeded)",
+        "safara, safarat (he/she travelled)",
+        "yajtahidu, tajtahidu (he/she strives)",
+        "yastamiʿu, tastamiʿu (he/she listens)",
+        "ismaʿ, ismaʿi (listen — to him / to her)"
+      ]
+    },
+    {
+      "id": "s011",
+      "label_en": "Warning",
+      "text": "Do not confuse the silent feminine taʾ with the vowelled subject taʾ. The feminine taʾ always carries sukun; it is a mere particle with no place in iʿrab, and the subject is some other word. The subject taʾ, by contrast, carries damma, fatha, or kasra; it is a pronoun in the nominative as subject, and with it the past-tense verb is built on sukun."
+    },
+    {
+      "id": "s012",
+      "items": [
+        {
+          "transliteration": "katabat Hind-un al-dars",
+          "text": "— Hind wrote the lesson. (silent taʾ: a feminine marker; the subject is Hind)"
+        },
+        {
+          "transliteration": "katabtu al-dars",
+          "text": "— I wrote the lesson. (taʾ with damma: the first-person pronoun as subject)"
+        },
+        {
+          "transliteration": "katabta al-dars-a ya Muhammad",
+          "text": "— You wrote the lesson, Muhammad. (taʾ with fatha: the masculine addressee as subject)"
+        },
+        {
+          "transliteration": "katabti al-dars-a ya Hind",
+          "text": "— You wrote the lesson, Hind. (taʾ with kasra: the feminine addressee as subject)"
+        }
+      ]
+    },
+    {
+      "id": "s013",
+      "text": "Second: Real Feminine and Figurative Feminine"
+    },
+    {
+      "id": "s014",
+      "label_en": "Definition",
+      "text": "A real feminine (muʾannath haqiqi) is one that has a masculine counterpart among humans or animals — that is, one that gives birth or lays eggs. A figurative feminine (muʾannath majazi) is a word the Arabs treated as feminine although it neither gives birth nor lays eggs. Telling the two apart is the key to this whole chapter."
+    },
+    {
+      "id": "s015",
+      "headers": [
+        "Type",
+        "Its test",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "Real feminine",
+          "Gives birth or lays eggs — humans and animals",
+          "Fatima, Hind, al-bint (the girl), al-naqa (the she-camel), al-dajaja (the hen)"
+        ],
+        [
+          "Figurative feminine",
+          "Treated as feminine, but neither gives birth nor lays eggs",
+          "al-shams (the sun), al-nar (the fire), al-dar (the house), al-ʿayn (the eye), al-rih (the wind)"
+        ]
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "Being feminine does not require a visible marker in the word. 'Hind', 'Zaynab', and 'Suʿad' are real feminines even though they carry no taʾ, and 'al-shams' and 'al-ʿayn' are figurative feminines though they carry none either. In all of this what counts is what was actually heard from the Arabs, not the outward form of the word."
+    },
+    {
+      "id": "s017",
+      "text": "Third: Where the Verb Must Be Made Feminine"
+    },
+    {
+      "id": "s018",
+      "label_en": "Rule",
+      "text": "The verb must be made feminine in two cases. First, when the subject is a pronoun — hidden or overt — referring back to a feminine word, whether real or figurative. Second, when the subject is an explicit noun of the real-feminine kind and nothing separates it from its verb."
+    },
+    {
+      "id": "s019",
+      "text": "1 — The Subject Is a Pronoun Referring to a Feminine"
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "Fatima-tu safarat ams",
+          "text": "— Fatima travelled yesterday."
+        },
+        {
+          "transliteration": "al-shams-u ashraqat",
+          "text": "— The sun rose."
+        },
+        {
+          "transliteration": "al-taliba-tu tajtahidu fi durusi-ha",
+          "text": "— The student strives in her lessons."
+        },
+        {
+          "transliteration": "al-Hind-u nahadat bi-ʿulumi-ha",
+          "text": "— India rose through its sciences."
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "In every one of these the subject is a hidden pronoun, understood as 'hiya' (she), referring back to the feminine subject of the nominal sentence before it. It makes no difference whether that feminine is real, like 'Fatima' and 'the student', or figurative, like 'the sun' and 'India': the feminine form is obligatory in both, and you may not say 'Fatimatu safara'."
+    },
+    {
+      "id": "s022",
+      "text": "2 — The Subject Is an Explicit Real-Feminine Noun Attached to Its Verb"
+    },
+    {
+      "id": "s023",
+      "items": [
+        {
+          "transliteration": "najahat Fatima-tu fi al-imtihan",
+          "text": "— Fatima passed the exam."
+        },
+        {
+          "transliteration": "waladat al-naqa",
+          "text": "— The she-camel gave birth."
+        },
+        {
+          "transliteration": "tahfazu Zaynab-u al-Qurʾan",
+          "text": "— Zaynab memorises the Qurʾan."
+        }
+      ]
+    },
+    {
+      "id": "s024",
+      "text": "Notice that the subject here is an explicit noun of the real-feminine kind, and that nothing has been placed between it and its verb — hence the obligatory feminine form. Once a separator comes between them, the obligation lapses and both forms become permissible, as will be shown in its place."
+    },
+    {
+      "id": "s025",
+      "label_en": "Note",
+      "text": "The naʾib al-faʿil takes exactly the same ruling as the faʿil throughout this chapter: a passive verb must be made feminine when its naʾib al-faʿil is a real feminine attached to it, or a pronoun referring back to a feminine."
+    },
+    {
+      "id": "s026",
+      "items": [
+        {
+          "transliteration": "kurrimat al-taliba-tu al-mutafawwiqa",
+          "text": "— The outstanding student was honoured."
+        },
+        {
+          "transliteration": "al-shajara-tu qutiʿat",
+          "text": "— The tree was cut down."
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "text": "Fourth: Where the Verb Must Be Left Masculine"
+    },
+    {
+      "id": "s028",
+      "label_en": "Rule",
+      "text": "The verb must be left masculine when its subject is masculine — an explicit noun or a pronoun referring to one — and it must likewise be left masculine in certain cases where the subject is feminine in form but something has intervened to block the feminine marking."
+    },
+    {
+      "id": "s029",
+      "items": [
+        "The subject is masculine, explicit or a pronoun referring to a masculine: hadara Muhammad (Muhammad came); al-qamaru talaʿa (the moon rose).",
+        "The subject is a sound masculine plural: hadara al-muʿallimun (the teachers came); faza al-mujtahidun (the diligent won).",
+        "The verb is separated from its feminine subject by 'illa' (except): ma najaha illa Fatima (none passed but Fatima); ma hadara illa Hind (none came but Hind).",
+        "The subject is an interpreted verbal noun (masdar muʾawwal): yasurru-ni an tajtahidi (it pleases me that you strive); thabata ʿindi anna-ki sadiqa (it is established with me that you are truthful).",
+        "The subject is a masculine person named with a word ending in the feminine taʾ: hadara Talha (Talha came); aqbala Hamza (Hamza came forward)."
+      ]
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "ma najaha illa Fatima",
+          "text": "— None passed but Fatima."
+        },
+        {
+          "transliteration": "yasurru-ni an tajtahidi",
+          "text": "— It pleases me that you strive."
+        },
+        {
+          "transliteration": "hadara Talha-tu mubakkiran",
+          "text": "— Talha arrived early."
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "In 'ma najaha illa Fatima' the masculine form is obligatory because the sense is 'no one passed but Fatima', so the verb is in effect attributed to an omitted masculine word. In 'yasurru-ni an tajtahidi' the subject is an interpreted verbal noun, equivalent to 'ijtihadu-ki' (your striving), and a masdar is masculine. And 'Talha' is masculine in meaning even though the taʾ is attached to it in form — and meaning is what counts."
+    },
+    {
+      "id": "s032",
+      "label_en": "Warning",
+      "text": "'Illa' alone is the separator that forces the masculine form. If the separator is anything else — an adverbial, a prepositional phrase, or a direct object — the masculine form is not obligatory; both forms are then permissible, and the feminine is the stronger choice."
+    },
+    {
+      "id": "s033",
+      "text": "Fifth: Where Both the Masculine and the Feminine Are Permissible"
+    },
+    {
+      "id": "s034",
+      "label_en": "Rule",
+      "text": "Both forms of the verb are permissible in six cases, all of which turn on the weakness of the feminine quality in the subject: either because it is figurative, or because it has been separated from its verb, or because it is a plural that can be construed either as 'a plural' (masculine) or as 'a group' (feminine)."
+    },
+    {
+      "id": "s035",
+      "text": "1 — The Subject Is an Explicit Figurative Feminine"
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "transliteration": "talaʿat al-shams",
+          "text": "— The sun rose. (the feminine form is more eloquent)"
+        },
+        {
+          "transliteration": "talaʿa al-shams",
+          "text": "— The sun rose. (permissible)"
+        },
+        {
+          "transliteration": "ishtaddat al-rih",
+          "text": "— The wind grew strong. (the feminine form is more eloquent)"
+        },
+        {
+          "transliteration": "ishtadda al-rih",
+          "text": "— The wind grew strong. (permissible)"
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "The first option is the more frequent and the more eloquent, and it is what most Arab speech and the Noble Qurʾan came with. The masculine form is nevertheless permissible, because the feminine quality here is not inherent in the thing itself but is only a matter of usage settled on by the Arabs."
+    },
+    {
+      "id": "s038",
+      "text": "2 — A Real-Feminine Subject Separated from Its Verb by Something Other Than 'Illa'"
+    },
+    {
+      "id": "s039",
+      "items": [
+        {
+          "transliteration": "hadarat al-yawma Fatima",
+          "text": "— Fatima came today."
+        },
+        {
+          "transliteration": "hadara al-yawma Fatima",
+          "text": "— Fatima came today."
+        },
+        {
+          "transliteration": "saʾalat fi al-darsi Zaynab",
+          "text": "— Zaynab asked a question in the lesson."
+        },
+        {
+          "transliteration": "saʾala fi al-darsi Zaynab",
+          "text": "— Zaynab asked a question in the lesson."
+        }
+      ]
+    },
+    {
+      "id": "s040",
+      "text": "The separator is an adverbial in the first example and a prepositional phrase in the second, and it has weakened the link between the verb and its subject, so dropping the feminine marker became permissible. The feminine form is still the stronger choice, since the subject is a real feminine; and the longer the separator, the better the masculine form sounds."
+    },
+    {
+      "id": "s041",
+      "text": "3 — The Subject Is a Broken Plural"
+    },
+    {
+      "id": "s042",
+      "items": [
+        {
+          "transliteration": "hadara al-rijal",
+          "text": "— The men came."
+        },
+        {
+          "transliteration": "hadarat al-rijal",
+          "text": "— The men came."
+        },
+        {
+          "transliteration": "qala al-aʿrab",
+          "text": "— The Bedouins said."
+        },
+        {
+          "transliteration": "qalat al-aʿrab",
+          "text": "— The Bedouins said."
+        }
+      ]
+    },
+    {
+      "id": "s043",
+      "text": "Both forms are permissible with a broken plural because it can be construed as 'a plural', giving the masculine, or as 'a group', giving the feminine. There is no difference in this between a broken plural of a masculine, like 'al-rijal' and 'al-aʿrab', and a broken plural of a feminine, like 'al-hunud' and 'al-nisaʾ'."
+    },
+    {
+      "id": "s044",
+      "text": "4 — The Subject Is a Sound Feminine Plural"
+    },
+    {
+      "id": "s045",
+      "items": [
+        {
+          "transliteration": "najahat al-talibat",
+          "text": "— The (female) students passed."
+        },
+        {
+          "transliteration": "najaha al-talibat",
+          "text": "— The (female) students passed."
+        }
+      ]
+    },
+    {
+      "id": "s046",
+      "text": "The feminine form here is the more eloquent and the more widely used, while the masculine is permissible on the construal of the word as 'a plural'. The sound masculine plural must not be treated by analogy with it: its subject is purely masculine, so only the masculine form is allowed."
+    },
+    {
+      "id": "s047",
+      "text": "5 — The Subject Is a Collective Noun or a Generic Collective"
+    },
+    {
+      "id": "s048",
+      "items": [
+        {
+          "transliteration": "qala al-nisaʾ",
+          "text": "— The women said."
+        },
+        {
+          "transliteration": "qalat al-nisaʾ",
+          "text": "— The women said."
+        },
+        {
+          "transliteration": "awraqa al-shajar",
+          "text": "— The trees came into leaf."
+        },
+        {
+          "transliteration": "awraqat al-shajar",
+          "text": "— The trees came into leaf."
+        }
+      ]
+    },
+    {
+      "id": "s049",
+      "text": "A collective noun (ism jamʿ) denotes a group and has no singular from its own root — such as 'al-qawm' (the people), 'al-raht' (the band), 'al-nisaʾ' and 'al-niswa' (the women). A generic collective (ism jins jamʿi) denotes a group whose singular is distinguished from it by a taʾ — such as 'al-shajar' (trees), 'al-nakhl' (palms), and 'al-baqar' (cattle). Both admit either form of the verb, since each is a group in meaning and a plural in form."
+    },
+    {
+      "id": "s050",
+      "text": "6 — The Subject of 'Niʿma' and 'Biʾsa'"
+    },
+    {
+      "id": "s051",
+      "items": [
+        {
+          "transliteration": "niʿma al-marʾatu Fatima",
+          "text": "— What an excellent woman Fatima is."
+        },
+        {
+          "transliteration": "niʿmat al-marʾatu Fatima",
+          "text": "— What an excellent woman Fatima is."
+        },
+        {
+          "transliteration": "biʾsa al-khaslatu al-kadhib",
+          "text": "— What a wretched trait lying is."
+        },
+        {
+          "transliteration": "biʾsat al-khaslatu al-kadhib",
+          "text": "— What a wretched trait lying is."
+        }
+      ]
+    },
+    {
+      "id": "s052",
+      "label_en": "Note",
+      "text": "Both forms are permissible with the subject of 'niʿma' and 'biʾsa' because these are frozen verbs used to express praise and blame, and their subject is meant generically rather than as one particular individual — so the feminine quality in it is weak."
+    },
+    {
+      "id": "s053",
+      "text": "If both forms are permissible in these cases, which one should we choose in our writing and our speech?"
+    },
+    {
+      "id": "s054",
+      "text": "Choose the feminine in the great majority of cases: it is the more eloquent with a figurative feminine, the stronger choice with a separated real feminine, and the more common with a sound feminine plural. Turn to the masculine only for a long separator, for the necessity of verse, or in following a text as it was transmitted. The practical rule: when in doubt, make it feminine — except where the masculine is obligatory."
+    },
+    {
+      "id": "s055",
+      "text": "A Summary Table"
+    },
+    {
+      "id": "s056",
+      "headers": [
+        "State of the subject",
+        "Ruling on the verb",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Explicit real feminine attached to its verb",
+          "Feminine obligatory",
+          "najahat Fatima"
+        ],
+        [
+          "A pronoun referring to a real or figurative feminine",
+          "Feminine obligatory",
+          "al-shamsu talaʿat"
+        ],
+        [
+          "An explicit masculine, or a pronoun referring to one",
+          "Masculine obligatory",
+          "hadara Muhammad"
+        ],
+        [
+          "Sound masculine plural",
+          "Masculine obligatory",
+          "hadara al-muʿallimun"
+        ],
+        [
+          "A feminine separated from its verb by 'illa'",
+          "Masculine obligatory",
+          "ma najaha illa Fatima"
+        ],
+        [
+          "An interpreted verbal noun",
+          "Masculine obligatory",
+          "yasurru-ni an tajtahidi"
+        ],
+        [
+          "Explicit figurative feminine",
+          "Both permissible; feminine more eloquent",
+          "talaʿat al-shams / talaʿa al-shams"
+        ],
+        [
+          "Real feminine separated by something other than 'illa'",
+          "Both permissible; feminine stronger",
+          "hadarat al-yawma Fatima / hadara al-yawma Fatima"
+        ],
+        [
+          "Broken plural",
+          "Both permissible",
+          "hadara al-rijal / hadarat al-rijal"
+        ],
+        [
+          "Sound feminine plural",
+          "Both permissible; feminine more eloquent",
+          "najahat al-talibat / najaha al-talibat"
+        ],
+        [
+          "Collective noun or generic collective",
+          "Both permissible",
+          "qala al-nisaʾ / qalat al-nisaʾ"
+        ],
+        [
+          "The subject of 'niʿma' and 'biʾsa'",
+          "Both permissible",
+          "niʿma al-marʾa / niʿmat al-marʾa"
+        ]
+      ]
+    },
+    {
+      "id": "s057",
+      "label_en": "Warning",
+      "text": "Do not confuse the verb's agreement with its subject in gender — obligatory in the detail set out above — with agreement in number. Number agreement does not occur with an explicit subject, and is valid only in a rare dialect known as the 'akaluni al-baraghith' (the fleas ate me) dialect. So say 'qama al-rijal' or 'qamat al-rijal' (the men stood), and do not say 'qamu al-rijal' in eloquent speech."
+    },
+    {
+      "id": "s058",
+      "text": "A Worked Example"
+    },
+    {
+      "id": "s059",
+      "items": [
+        {
+          "transliteration": "fazat Fatima-tu bi-l-jaʾiza",
+          "text": "— Fatima won the prize."
+        }
+      ]
+    },
+    {
+      "id": "s060",
+      "text": "Iʿrab: 'fazat' — a past-tense verb built on fatha, the taʾ being the silent feminine taʾ, a particle with no place in iʿrab. 'Fatimatu' — subject (faʿil) in the nominative, its marker the visible damma. 'Bi-l-jaʾizati' — the baʾ is a preposition and 'al-jaʾizati' a genitive noun, its marker the visible kasra, the phrase attaching to the verb 'fazat'. The feminine form was obligatory here because the subject is an explicit real-feminine noun with no separator between it and its verb."
+    },
+    {
+      "id": "s061",
+      "text": "Allah the Exalted said: \"When the wife of ʿImran said: My Lord, I have vowed to You what is in my womb, dedicated to Your service.\" (Al ʿImran 3:35)"
+    },
+    {
+      "id": "s062",
+      "text": "In this noble verse 'qalat' is a past-tense verb to which the silent feminine taʾ has attached, and 'imraʾatu' is the subject in the nominative, its marker the visible damma. It is an explicit noun of the real-feminine kind attached to its verb, so the feminine form was obligatory."
+    },
+    {
+      "id": "s063",
+      "text": "And Allah the Exalted said: \"And women in the city said…\" (Yusuf 12:30)"
+    },
+    {
+      "id": "s064",
+      "text": "Here the verb 'qala' came in the masculine even though its subject is 'niswa' (women). That is because 'niswa' is a collective noun with no singular from its own root, so both forms are permissible in it: the masculine on the construal of 'a plural', and the feminine on the construal of 'a group'. This is an explicit proof-text for the permissibility of the masculine with a collective noun."
+    },
+    {
+      "id": "s065",
+      "text": "And Allah the Exalted said: \"The Bedouins said: We have believed.\" (Al-Hujurat 49:14)"
+    },
+    {
+      "id": "s066",
+      "text": "'Al-aʿrab' is a broken plural, and its verb was made feminine on the construal of 'a group'. Had it been left masculine — 'qala al-aʿrab' — that too would have been valid, on the construal of 'a plural'. So the verse is a proof-text for one of the two permissible options with a broken plural."
+    },
+    {
+      "id": "s067",
+      "text": "And Allah the Exalted said: \"And the blast seized those who had wronged.\" (Hud 11:67)"
+    },
+    {
+      "id": "s068",
+      "text": "'Al-sayha' (the blast) is the subject in the nominative, and it is a figurative feminine; moreover the direct object 'alladhina' has been placed between it and its verb. Two grounds for the masculine form thus came together in the verse — the subject being a figurative feminine, and a separator falling between it and its verb — so the verb 'akhadha' came in the masculine."
+    }
+  ]
+}

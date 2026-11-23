@@ -1,0 +1,219 @@
+{
+  "lesson_id": "esm_alzaman_w_almakan",
+  "language": "en",
+  "title": "Nouns of Time and Place",
+  "sections": [
+    { "id": "s001", "text": "Nouns of Time and Place" },
+    { "id": "s002", "text": "Consider the following sentences:" },
+    {
+      "id": "s003",
+      "items": [
+        { "transliteration": "mawʿid-u al-imtihan-i sabahan", "text": "— The time of the exam is in the morning." },
+        { "transliteration": "jalasa al-duyuf-u fi al-majlis-i", "text": "— The guests sat in the sitting-room." },
+        { "transliteration": "al-malʿab-u fasih", "text": "— The playground is spacious." }
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "If you reflect on the underlined words, you find them to be nouns derived from verbs: 'mawʿid' is derived from the verb 'waʿada' (to promise) and indicates the time of the appointment; 'al-majlis' is derived from 'jalasa' (to sit) and indicates the place of sitting; and 'al-malʿab' is derived from 'laʿiba' (to play) and indicates the place of playing. For this reason, what indicates time is called ism al-zaman (noun of time), and what indicates place is called ism al-makan (noun of place)."
+    },
+    { "id": "s005", "text": "Definition of the Nouns of Time and Place" },
+    {
+      "id": "s006",
+      "label_en": "Definition",
+      "text": "Ism al-zaman (noun of time): a noun derived from a verb to indicate the time of its occurrence. Ism al-makan (noun of place): a noun derived from a verb to indicate the place of its occurrence."
+    },
+    {
+      "id": "s007",
+      "label_en": "Note",
+      "text": "The noun of time and the noun of place share the very same pattern; only context and the surrounding clues distinguish one from the other."
+    },
+    { "id": "s008", "text": "First: Forming Them from the Triliteral Verb" },
+    {
+      "id": "s009",
+      "text": "The nouns of time and place are formed from the triliteral verb on two patterns: 'mafʿal' (with fatha on the ʿayn) and 'mafʿil' (with kasra)."
+    },
+    { "id": "s010", "text": "1 – The Pattern mafʿal (with fatha)" },
+    {
+      "id": "s011",
+      "label_en": "Rule",
+      "text": "The nouns of time and place take the pattern 'mafʿal' when the triliteral verb has fatha or damma on the ʿayn of its present-tense form, or when it is defective (ending in a weak letter)."
+    },
+    { "id": "s012", "text": "a – From verbs with fatha on the ʿayn in the present tense:" },
+    {
+      "id": "s013",
+      "items": [
+        "laʿiba, yalʿabu / malʿab (playground)",
+        "dhahaba, yadhhabu / madhhab (way, doctrine)",
+        "shariba, yashrabu / mashrab (drinking-place)"
+      ]
+    },
+    { "id": "s014", "text": "b – From verbs with damma on the ʿayn in the present tense:" },
+    {
+      "id": "s015",
+      "items": [
+        "kataba, yaktubu / maktab (office, desk)",
+        "dakhala, yadkhulu / madkhal (entrance)",
+        "tabakha, yatbukhu / matbakh (kitchen)"
+      ]
+    },
+    { "id": "s016", "text": "c – From verbs ending in a weak letter (defective verbs); these always take 'mafʿal', whatever the vowel of their present-tense ʿayn:" },
+    {
+      "id": "s017",
+      "items": [
+        "saʿa / masʿan (place/act of striving)",
+        "rama / marman (goal, target)",
+        "awa / maʾwan (shelter, refuge)"
+      ]
+    },
+    { "id": "s018", "text": "2 – The Pattern mafʿil (with kasra)" },
+    {
+      "id": "s019",
+      "label_en": "Rule",
+      "text": "The nouns of time and place take the pattern 'mafʿil' when the triliteral verb has kasra on the ʿayn of its present-tense form, or when it is an assimilated verb beginning with waw (mithal wawi) with a sound final radical."
+    },
+    { "id": "s020", "text": "a – From verbs with kasra on the ʿayn in the present tense:" },
+    {
+      "id": "s021",
+      "items": [
+        "jalasa, yajlisu / majlis (sitting-room, council)",
+        "nazala, yanzilu / manzil (house, lodging)",
+        "habata, yahbitu / mahbit (landing-place)"
+      ]
+    },
+    { "id": "s022", "text": "b – From assimilated verbs beginning with waw whose final radical is sound:" },
+    {
+      "id": "s023",
+      "items": [
+        "waʿada, yaʿidu / mawʿid (appointed time)",
+        "walada, yalidu / mawlid (birth time/place)",
+        "waqafa, yaqifu / mawqif (stopping-place, stance)"
+      ]
+    },
+    {
+      "id": "s024",
+      "label_en": "Note",
+      "text": "For the hollow verb (with a weak middle radical), the noun follows the present-tense form, and the ʿayn turns into alif or yaʾ: qama, yaqumu / maqam — safa, yasifu / masif (summer resort) — bata, yabitu / mabit (overnight lodging)."
+    },
+    { "id": "s025", "text": "Second: Forming Them from Non-Triliteral Verbs" },
+    {
+      "id": "s026",
+      "label_en": "Rule",
+      "text": "From non-triliteral verbs, the nouns of time and place are formed on the pattern of the passive participle (ism al-mafʿul): take the present-tense form, replace the present-tense prefix with a mim carrying damma, and put fatha on the letter before the last."
+    },
+    {
+      "id": "s027",
+      "items": [
+        "ijtamaʿa / mujtamaʿ (meeting place, society)",
+        "intazara / muntazar (time/place of waiting)",
+        "istawdaʿa / mustawdaʿ (depot, storehouse)",
+        "istashfa / mustashfan (hospital)",
+        "salla / musallan (place of prayer)"
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "Notice that this pattern is the very same as that of the passive participle of non-triliteral verbs; here only context and the sense of the sentence distinguish the passive participle from the nouns of time and place."
+    },
+    {
+      "id": "s029",
+      "items": [
+        { "transliteration": "muntazar-u al-duyuf-i baʿda al-maghrib-i", "text": "— The awaited time of the guests is after sunset. (noun of time)" },
+        { "transliteration": "muntazar-u al-musafirin-a amama al-mahattat-i", "text": "— The waiting-place of the travellers is in front of the station. (noun of place)" },
+        { "transliteration": "al-faraj-u muntazar-un bi-idhni Allah", "text": "— Relief is awaited, by Allah's leave. (passive participle)" }
+      ]
+    },
+    { "id": "s030", "text": "The taʾ Attached to Some Nouns of Place" },
+    {
+      "id": "s031",
+      "label_en": "Note",
+      "text": "The taʾ is attached to some nouns of place as heard from the Arabs (samaʿi); no analogy is drawn from them."
+    },
+    {
+      "id": "s032",
+      "items": [
+        "madrasa (school)",
+        "maktaba (library)",
+        "mazraʿa (farm)",
+        "mahkama (court)",
+        "matbaʿa (printing house)"
+      ]
+    },
+    { "id": "s033", "text": "How Do We Distinguish the Noun of Time from the Noun of Place?" },
+    {
+      "id": "s034",
+      "text": "If the noun of time and the noun of place share one pattern, how do we tell them apart?"
+    },
+    {
+      "id": "s035",
+      "text": "We distinguish them by context and the sense of the sentence: if the form indicates the time at which the action occurs, it is a noun of time; if it indicates the spot where it occurs, it is a noun of place. When you say 'mawʿidu-na matlaʿa al-fajri' (our appointment is at daybreak), 'matlaʿ' is a noun of time because it indicates the time of rising; and when you say 'waqaftu fi mawqifi al-sayyarat' (I stood in the car park), 'mawqif' is a noun of place because it indicates the spot of standing."
+    },
+    {
+      "id": "s036",
+      "items": [
+        { "transliteration": "matlaʿ-u al-shams-i fajran", "text": "— The rising-time of the sun is at dawn. (time)" },
+        { "transliteration": "manzil-u-na qarib-un mina al-masjid-i", "text": "— Our house is near the mosque. (place)" }
+      ]
+    },
+    { "id": "s037", "text": "The Difference between Them and the Mimic Masdar" },
+    {
+      "id": "s038",
+      "label_en": "Warning",
+      "text": "The mimic masdar (al-masdar al-mimi) also comes on the pattern 'mafʿal' or 'mafʿil', but it denotes the action itself, not its time or place; the context is the decisive criterion between them."
+    },
+    {
+      "id": "s039",
+      "items": [
+        { "transliteration": "al-masʿa bayna al-Safa wa-al-Marwa", "text": "— The masʿa (walking course) is between al-Safa and al-Marwa. (noun of place)" },
+        { "transliteration": "saʿa al-muhsin-u masʿan hamidan", "text": "— The benefactor strove a praiseworthy striving. (mimic masdar meaning the act of striving)" }
+      ]
+    },
+    { "id": "s040", "text": "Summary Table" },
+    {
+      "id": "s041",
+      "headers": ["Verb", "Present tense", "Noun of time/place", "Pattern"],
+      "rows": [
+        ["laʿiba (to play)", "yalʿabu", "malʿab", "mafʿal"],
+        ["kataba (to write)", "yaktubu", "maktab", "mafʿal"],
+        ["saʿa (to strive)", "yasʿa", "masʿan", "mafʿal"],
+        ["jalasa (to sit)", "yajlisu", "majlis", "mafʿil"],
+        ["waʿada (to promise)", "yaʿidu", "mawʿid", "mafʿil"],
+        ["ijtamaʿa (to gather)", "yajtamiʿu", "mujtamaʿ", "passive-participle pattern"],
+        ["istashfa (to seek cure)", "yastashfi", "mustashfan", "passive-participle pattern"]
+      ]
+    },
+    {
+      "id": "s042",
+      "label_en": "Warning",
+      "text": "Do not confuse the nouns of time and place with the passive participle of non-triliteral verbs or with the mimic masdar: the pattern may coincide while the meaning differs, and context alone determines what is intended."
+    },
+    { "id": "s043", "text": "Model Analysis (Iʿrab)" },
+    {
+      "id": "s044",
+      "items": [
+        { "transliteration": "mawʿid-u al-rihlat-i sabah-u al-jumuʿat-i", "text": "— The time of the trip is Friday morning." }
+      ]
+    },
+    {
+      "id": "s045",
+      "text": "mawʿidu: subject (mubtadaʾ) in the nominative, marked by the visible damma; it is in a construct state, and it is a noun of time on the pattern 'mafʿil'. al-rihlati: second term of the construct (mudaf ilayh) in the genitive, marked by the visible kasra. sabahu: predicate (khabar) in the nominative, marked by the visible damma; it is in a construct state. al-jumuʿati: second term of the construct in the genitive, marked by the visible kasra."
+    },
+    { "id": "s046", "text": "From the Noble Qurʾan" },
+    {
+      "id": "s047",
+      "text": "Allah the Exalted said: \"He said: Your appointed time is the day of the festival, and that the people be gathered at mid-morning.\" (Ta-Ha 20:59)"
+    },
+    {
+      "id": "s048",
+      "text": "'mawʿidukum': a noun of time on the pattern 'mafʿil' from the assimilated waw-initial verb 'waʿada'; it is a subject (mubtadaʾ) in the nominative marked by the damma, in a construct state, with the attached pronoun in the genitive as the second term; 'yawmu' is the predicate in the nominative marked by the damma, in a construct state, and 'al-zinati' is its second term in the genitive."
+    },
+    {
+      "id": "s049",
+      "text": "And Allah the Exalted said: \"Indeed, the righteous will be in a secure place.\" (Al-Dukhan 44:51)"
+    },
+    {
+      "id": "s050",
+      "text": "'maqamin': a noun of place from the hollow verb 'qama'; its origin is 'maqwam' on the pattern 'mafʿal', then the waw turned into alif. The meaning: in a secure place of residing. Its analysis: a noun in the genitive after 'fi', marked by the visible kasra, and 'aminin' is an adjective in the genitive."
+    }
+  ]
+}

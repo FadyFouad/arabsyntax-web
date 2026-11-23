@@ -1,0 +1,621 @@
+{
+  "lesson_id": "adawat_alestefham",
+  "language": "en",
+  "title": "Adawat al-Istifham (the Particles of Interrogation)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Adawat al-Istifham (the Particles of Interrogation)"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "Interrogation (al-istifham) is the seeking of knowledge about something not previously known. The particles of interrogation are the words used to reach this request, and they are of two kinds: two particles (the hamza and 'hal'), and nouns (man, ma, mata, ayyana, kayfa, ayna, anna, kam, ayy)."
+    },
+    {
+      "id": "s003",
+      "items": [
+        {
+          "transliteration": "hal hadara al-duyuf",
+          "text": "— Have the guests arrived?"
+        },
+        {
+          "transliteration": "man kasara al-zujaj",
+          "text": "— Who broke the glass?"
+        },
+        {
+          "transliteration": "kayfa haluka",
+          "text": "— How are you?"
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "With each of these particles the speaker sought some knowledge he lacked: about whether the arrival occurred, about the rational being who broke it, and about the state of the addressee. This is the meaning of interrogation."
+    },
+    {
+      "id": "s005",
+      "text": "Categories of the Interrogation Particles"
+    },
+    {
+      "id": "s006",
+      "text": "The interrogation particles fall into two particles with no place in iʿrab — the hamza and 'hal' — and into built (mabni) nouns that do have a place in iʿrab according to their position, except 'ayy', which is inflected (muʿrab)."
+    },
+    {
+      "id": "s007",
+      "headers": [
+        "Particle",
+        "Type",
+        "Asks About"
+      ],
+      "rows": [
+        [
+          "hamza (a-)",
+          "particle",
+          "conception & assent"
+        ],
+        [
+          "hal",
+          "particle",
+          "assent only"
+        ],
+        [
+          "man",
+          "noun",
+          "the rational being"
+        ],
+        [
+          "ma",
+          "noun",
+          "the non-rational & the essence of a thing"
+        ],
+        [
+          "mata",
+          "noun",
+          "time (past and future)"
+        ],
+        [
+          "ayyana",
+          "noun",
+          "future time, with magnification"
+        ],
+        [
+          "kayfa",
+          "noun",
+          "state / manner"
+        ],
+        [
+          "ayna",
+          "noun",
+          "place"
+        ],
+        [
+          "anna",
+          "noun",
+          "manner, place, and time"
+        ],
+        [
+          "kam",
+          "noun",
+          "number"
+        ],
+        [
+          "ayy",
+          "noun",
+          "one of shared participants"
+        ]
+      ]
+    },
+    {
+      "id": "s008",
+      "text": "First: The Two Interrogative Particles"
+    },
+    {
+      "id": "s009",
+      "text": "1 — The Hamza (a-)"
+    },
+    {
+      "id": "s010",
+      "label_en": "Rule",
+      "text": "The hamza is the most general interrogative particle and their origin. Two things are asked about with it: conception (tasawwur) — seeking to specify one of two things, mostly joined with the balancing 'am'; and assent (tasdiq) — seeking to know whether a relation occurred or not. It enters upon both the affirmative and the negative."
+    },
+    {
+      "id": "s011",
+      "items": [
+        {
+          "transliteration": "a-Muhammad-un musafir-un am ʿAliyy",
+          "text": "— Is Muhammad travelling, or ʿAli?"
+        },
+        {
+          "transliteration": "a-safara akhu-ka",
+          "text": "— Did your brother travel?"
+        },
+        {
+          "transliteration": "a-lam tanjah fi al-imtihan",
+          "text": "— Did you not pass the exam?"
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "text": "In the first, the hamza asks about conception: which of the two is travelling? — hence the balancing 'am'. In the second and third it asks about assent: did the travel occur or not? In the third it entered upon the negative 'lam', which is allowed for the hamza but not for 'hal'."
+    },
+    {
+      "id": "s013",
+      "text": "2 — Hal"
+    },
+    {
+      "id": "s014",
+      "label_en": "Rule",
+      "text": "'Hal' is a particle used to ask about assent only — that is, about the occurrence of a relation. It is not used to ask about conception, and it is not fitting for it to enter upon the negative."
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "hal najaha al-mujtahid",
+          "text": "— Did the diligent one succeed?"
+        },
+        {
+          "transliteration": "hal ʿinda-ka khabar",
+          "text": "— Do you have any news?"
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "The answer to 'hal' is 'yes' or 'no', because it is for assent; and one may not say 'hal Muhammad-un musafir-un am ʿAliyy?' because that is conception, specific to the hamza."
+    },
+    {
+      "id": "s017",
+      "label_en": "Warning",
+      "text": "The hamza and 'hal' differ in three matters: the hamza is for conception and assent while 'hal' is for assent only; the hamza enters upon the negative while 'hal' does not; and the hamza takes the head of the clause even when preceded by a conjunction, as in 'fa-ayna tadhhabun' where the hamza is understood as fronted."
+    },
+    {
+      "id": "s018",
+      "headers": [
+        "Aspect",
+        "Hamza",
+        "Hal"
+      ],
+      "rows": [
+        [
+          "Kind of interrogation",
+          "conception & assent",
+          "assent only"
+        ],
+        [
+          "Entering the negative",
+          "enters it",
+          "does not enter it"
+        ],
+        [
+          "Joining with 'am'",
+          "joins the balancing 'am'",
+          "does not join it"
+        ]
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "Second: The Interrogative Nouns"
+    },
+    {
+      "id": "s020",
+      "label_en": "Rule",
+      "text": "The interrogative nouns are all built (mabni) except 'ayy', which is inflected. They take the head of the clause, and are parsed according to their position — in the place of nominative, accusative, or genitive."
+    },
+    {
+      "id": "s021",
+      "text": "1 — Man"
+    },
+    {
+      "id": "s022",
+      "label_en": "Rule",
+      "text": "'Man' is an interrogative noun used to ask about the rational being."
+    },
+    {
+      "id": "s023",
+      "items": [
+        {
+          "transliteration": "man fataha Misr",
+          "text": "— Who conquered Egypt?"
+        },
+        {
+          "transliteration": "man abu-ka",
+          "text": "— Who is your father?"
+        }
+      ]
+    },
+    {
+      "id": "s024",
+      "text": "'Man' in the first is in the place of a subject (mubtadaʾ), and the clause 'fataha' is its predicate; in the second it is a fronted predicate, and 'abuka' a delayed subject."
+    },
+    {
+      "id": "s025",
+      "text": "2 — Ma"
+    },
+    {
+      "id": "s026",
+      "label_en": "Rule",
+      "text": "'Ma' is an interrogative noun used to ask about the non-rational, or about the reality and genus of a thing."
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "ma taqraʾu",
+          "text": "— What are you reading?"
+        },
+        {
+          "transliteration": "ma al-ʿadl",
+          "text": "— What is justice?"
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "'Ma' asks about the non-rational as in the first, and about the reality and essence of a thing as in the second. When a preposition precedes it, its alif is dropped: 'ʿamma tasaʾalun? fima anta? lima tahzan?'"
+    },
+    {
+      "id": "s029",
+      "text": "3 — Mata"
+    },
+    {
+      "id": "s030",
+      "label_en": "Rule",
+      "text": "'Mata' is an interrogative noun used to ask about time, whether past or future; it is an adverb of time in the place of accusative."
+    },
+    {
+      "id": "s031",
+      "items": [
+        {
+          "transliteration": "mata yaʿudu al-ghaʾib",
+          "text": "— When does the absent one return?"
+        }
+      ]
+    },
+    {
+      "id": "s032",
+      "text": "'Mata' is an adverb of time, built, in the place of accusative, related to the verb 'yaʿudu'; the question is about the time of return."
+    },
+    {
+      "id": "s033",
+      "text": "4 — Ayyana"
+    },
+    {
+      "id": "s034",
+      "label_en": "Rule",
+      "text": "'Ayyana' is an interrogative noun about future time specifically, carrying a sense of magnification and awe, so it is not used to ask about trivial matters."
+    },
+    {
+      "id": "s035",
+      "items": [
+        {
+          "transliteration": "ayyana yawm al-hisab",
+          "text": "— When is the Day of Reckoning?"
+        }
+      ]
+    },
+    {
+      "id": "s036",
+      "text": "'Ayyana' is an adverb of time in the place of accusative, restricted to the awe-inspiring future such as the Day of Resurrection; one does not say 'ayyana did you drink the water?'"
+    },
+    {
+      "id": "s037",
+      "text": "5 — Kayfa"
+    },
+    {
+      "id": "s038",
+      "label_en": "Rule",
+      "text": "'Kayfa' is an interrogative noun used to ask about state/manner; it is in the place of accusative as a circumstantial (hal) or a fronted predicate, according to what follows it."
+    },
+    {
+      "id": "s039",
+      "items": [
+        {
+          "transliteration": "kayfa jiʾta",
+          "text": "— How did you come?"
+        },
+        {
+          "transliteration": "kayfa anta",
+          "text": "— How are you?"
+        }
+      ]
+    },
+    {
+      "id": "s040",
+      "text": "'Kayfa' in the first is in the place of accusative as a circumstantial, because a complete verb 'jiʾta' followed it; in the second it is a fronted predicate in the place of nominative, because a noun 'anta' — a delayed subject — followed it."
+    },
+    {
+      "id": "s041",
+      "text": "6 — Ayna"
+    },
+    {
+      "id": "s042",
+      "label_en": "Rule",
+      "text": "'Ayna' is an interrogative noun used to ask about place; it is an adverb of place in the place of accusative."
+    },
+    {
+      "id": "s043",
+      "items": [
+        {
+          "transliteration": "ayna taskunu",
+          "text": "— Where do you live?"
+        }
+      ]
+    },
+    {
+      "id": "s044",
+      "text": "'Ayna' is an adverb of place, built on fatha, in the place of accusative, related to the verb 'taskunu'; the question is about the place of dwelling."
+    },
+    {
+      "id": "s045",
+      "text": "7 — Anna"
+    },
+    {
+      "id": "s046",
+      "label_en": "Rule",
+      "text": "'Anna' is an interrogative noun that comes in the sense of 'how', of 'from where', and of 'when'; the intended meaning is known from context."
+    },
+    {
+      "id": "s047",
+      "items": [
+        {
+          "transliteration": "anna la-ki hadha",
+          "text": "— From where is this to you?"
+        }
+      ]
+    },
+    {
+      "id": "s048",
+      "text": "'Anna' here means 'from where' — that is, from which direction is this to you? It may also mean 'how' (anna yuhyi hadhihi Allah?) or 'when', according to context."
+    },
+    {
+      "id": "s049",
+      "text": "8 — Kam"
+    },
+    {
+      "id": "s050",
+      "label_en": "Rule",
+      "text": "The interrogative 'kam' is a noun used to ask about an unknown number; its distinguishing noun (tamyiz) is singular and accusative, and it is parsed according to its position."
+    },
+    {
+      "id": "s051",
+      "items": [
+        {
+          "transliteration": "kam kitab-an qaraʾta",
+          "text": "— How many books did you read?"
+        },
+        {
+          "transliteration": "kam saʿat-an intazarta",
+          "text": "— How many hours did you wait?"
+        }
+      ]
+    },
+    {
+      "id": "s052",
+      "text": "'Kam' is in the place of a fronted object of the verb 'qaraʾta', and 'kitaban' is a singular accusative tamyiz. The interrogative 'kam' differs from the predicative 'kam' in that the tamyiz of the latter is genitive and its meaning is reporting abundance, not asking."
+    },
+    {
+      "id": "s053",
+      "text": "9 — Ayy"
+    },
+    {
+      "id": "s054",
+      "label_en": "Rule",
+      "text": "'Ayy' is an inflected interrogative noun used to ask about one of participants sharing in a matter. It always stands in annexation (idafa), and is parsed according to its own position, not according to what it is annexed to."
+    },
+    {
+      "id": "s055",
+      "items": [
+        {
+          "transliteration": "ayyu al-talibayni afdal",
+          "text": "— Which of the two students is better?"
+        },
+        {
+          "transliteration": "ayya kitab-in qaraʾta",
+          "text": "— Which book did you read?"
+        }
+      ]
+    },
+    {
+      "id": "s056",
+      "text": "'Ayyu' in the first is a subject in the nominative with damma, and 'afdalu' a predicate; in the second 'ayya' is a fronted object in the accusative with fatha for the verb 'qaraʾta'. It is inflected because it resembles fully-declinable nouns through its constant annexation."
+    },
+    {
+      "id": "s057",
+      "text": "Parsing the Interrogative Nouns"
+    },
+    {
+      "id": "s058",
+      "label_en": "Rule",
+      "text": "An interrogative noun is parsed according to what follows it: if an intransitive or defective or a transitive verb that has taken its object follows it, or a noun follows it, it is in the place of a subject or a fronted predicate; if a transitive verb that has not taken its object follows it, it is in the place of an object; and if it is an adverb (mata, ayna, ayyana), it is in the place of accusative as an adverbial."
+    },
+    {
+      "id": "s059",
+      "items": [
+        "Subject: 'man hadara?' (man is subject, the clause hadara its predicate).",
+        "Fronted predicate: 'man akhuka?' (man is a fronted predicate, akhuka a delayed subject).",
+        "Fronted object: 'ma taqraʾu?' (ma is the object of the verb taqraʾu).",
+        "Adverb in the place of accusative: 'mata tusafiru? ayna nazalta?'",
+        "Genitive after a preposition: 'bi-man tathiqu? ila-ma tadʿu?'"
+      ]
+    },
+    {
+      "id": "s060",
+      "headers": [
+        "Particle",
+        "Common Parsing",
+        "Example"
+      ],
+      "rows": [
+        [
+          "man, ma",
+          "subject / fronted predicate / object",
+          "man qala? ma ismuka?"
+        ],
+        [
+          "mata, ayyana",
+          "adverb of time, place of accusative",
+          "mata al-rahil?"
+        ],
+        [
+          "ayna",
+          "adverb of place, place of accusative",
+          "ayna al-mafarr?"
+        ],
+        [
+          "kayfa",
+          "circumstantial / fronted predicate",
+          "kayfa haluka?"
+        ],
+        [
+          "kam",
+          "object / subject, tamyiz accusative",
+          "kam dars-an hafizta?"
+        ],
+        [
+          "ayy",
+          "inflected per its position",
+          "ayyu-kum faʿala hadha?"
+        ]
+      ]
+    },
+    {
+      "id": "s061",
+      "text": "But what is the benefit of the variety of interrogative particles, when a single particle would suffice for asking?"
+    },
+    {
+      "id": "s062",
+      "text": "The benefit is that each particle fixes the direction of the question precisely: 'man' specifies that the one asked about is rational, 'ma' that it is non-rational, and 'mata', 'ayna', 'kayfa', and 'kam' confine the question to time, place, state, or number. Through this variety the questioner is spared long speech, and the answer comes specific and matching — part of the precision and economy of Arabic."
+    },
+    {
+      "id": "s063",
+      "text": "A Table Gathering the Interrogation Particles"
+    },
+    {
+      "id": "s064",
+      "headers": [
+        "Particle",
+        "Type",
+        "Asked About",
+        "Example"
+      ],
+      "rows": [
+        [
+          "hamza",
+          "particle",
+          "conception & assent",
+          "a-najahta am rasabta?"
+        ],
+        [
+          "hal",
+          "particle",
+          "assent",
+          "hal fahimta?"
+        ],
+        [
+          "man",
+          "noun",
+          "the rational being",
+          "man rabbuka?"
+        ],
+        [
+          "ma",
+          "noun",
+          "non-rational & reality",
+          "ma al-iman?"
+        ],
+        [
+          "mata",
+          "noun",
+          "time",
+          "mata taʿudu?"
+        ],
+        [
+          "ayyana",
+          "noun",
+          "future time",
+          "ayyana al-saʿa?"
+        ],
+        [
+          "kayfa",
+          "noun",
+          "state",
+          "kayfa nimta?"
+        ],
+        [
+          "ayna",
+          "noun",
+          "place",
+          "ayna al-masjid?"
+        ],
+        [
+          "anna",
+          "noun",
+          "manner/place/time",
+          "anna la-ka hadha?"
+        ],
+        [
+          "kam",
+          "noun",
+          "number",
+          "kam ʿumruka?"
+        ],
+        [
+          "ayy",
+          "noun",
+          "one of participants",
+          "ayyu al-fariqayni faza?"
+        ]
+      ]
+    },
+    {
+      "id": "s065",
+      "label_en": "Warning",
+      "text": "The hamza, 'hal', and the interrogative nouns may depart from literal interrogation to rhetorical meanings understood from context: denial ('a-taʿbudun ma tanhitun?'), affirmation ('a-lam nashrah laka sadrak?'), wonder, and negation ('hal jazaʾu al-ihsani illa al-ihsan?')."
+    },
+    {
+      "id": "s066",
+      "text": "Model of Iʿrab"
+    },
+    {
+      "id": "s067",
+      "items": [
+        {
+          "transliteration": "kayfa takfurun bi-llah",
+          "text": "— How do you disbelieve in Allah?"
+        }
+      ]
+    },
+    {
+      "id": "s068",
+      "text": "kayfa: an interrogative noun built on fatha, in the place of accusative as a circumstantial (hal) from the 'waw' in 'takfurun'. takfurun: a present verb in the nominative marked by the retention of the nun, the waw being the subject. bi-llahi: a prepositional phrase related to the verb 'takfurun'."
+    },
+    {
+      "id": "s069",
+      "text": "Allah Most High said: \"Did We not expand for you your breast?\" — Quran 94:1 (Sahih International)"
+    },
+    {
+      "id": "s070",
+      "text": "The hamza in 'a-lam' is for affirmative interrogation, intended to bring the addressee to acknowledge, i.e.: We have indeed expanded your breast. The hamza entered upon the negative 'lam' — this is particular to the hamza, not to 'hal'."
+    },
+    {
+      "id": "s071",
+      "text": "And Allah Most High said: \"Has there reached you the report of the Overwhelming?\" — Quran 88:1 (Sahih International)"
+    },
+    {
+      "id": "s072",
+      "text": "'Hal' is a particle of interrogation for assent; the question here is for arousing interest and drawing attention to what follows. 'hadithu' is the subject of the verb 'ata' in the nominative, and 'al-ghashiya' an annexed noun in the genitive."
+    },
+    {
+      "id": "s073",
+      "text": "And Allah Most High said: \"How long did you remain on earth, in number of years?\" — Quran 23:112 (Sahih International)"
+    },
+    {
+      "id": "s074",
+      "text": "'Kam' is an interrogative noun built on sukun, in the place of accusative as a temporal adverbial related to the verb 'labithtum'; the question is about the extent of the duration of remaining."
+    }
+  ]
+}

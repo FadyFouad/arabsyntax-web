@@ -1,0 +1,540 @@
+{
+  "lesson_id": "nakera_w_maerefa",
+  "language": "en",
+  "title": "Al-Nakira wa-l-Maʿrifa (the Indefinite and the Definite Noun)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Al-Nakira wa-l-Maʿrifa (the Indefinite and the Definite Noun)"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "With respect to how it points to its referent, the noun is of two kinds: indefinite (nakira) and definite (maʿrifa). The indefinite denotes something unspecified; the definite denotes something specific in itself."
+    },
+    {
+      "id": "s003",
+      "text": "If you say 'a man came' (jaʾa rajul), you are reporting about a man the listener does not identify in particular — that is indefinite. If you say 'Muhammad came' (jaʾa Muhammad), you have specified the one meant, so the listener identifies him — that is definite. Nouns are originally indefinite and are then made definite by one of the means of definiteness."
+    },
+    {
+      "id": "s004",
+      "text": "First: The Indefinite (Al-Nakira)"
+    },
+    {
+      "id": "s005",
+      "label_en": "Definition",
+      "text": "The indefinite noun denotes something unspecified, common to its whole class and not restricted to one instance rather than another — e.g. rajul (a man), kitab (a book), madina (a city)."
+    },
+    {
+      "id": "s006",
+      "label_en": "Rule",
+      "text": "The mark of the indefinite: it accepts the definite article 'al-' which makes it definite — rajul → al-rajul, kitab → al-kitab. Many indefinites also accept tanwin (the tanwin of indefiniteness)."
+    },
+    {
+      "id": "s007",
+      "items": [
+        {
+          "transliteration": "ishtaray-tu kitab-an",
+          "text": "— I bought a book."
+        },
+        {
+          "transliteration": "fi al-hadiqat-i taʾir-un jamil-un",
+          "text": "— In the garden is a beautiful bird."
+        },
+        {
+          "transliteration": "jalas-tu ila rajul-in fi al-tariq-i",
+          "text": "— I sat with a man on the road."
+        }
+      ]
+    },
+    {
+      "id": "s008",
+      "text": "The words 'kitaban', 'taʾirun', and 'rajulin' are indefinite, because none denotes a specific thing in itself, and 'al-' may be added to them so that you say al-kitab, al-taʾir, al-rajul — turning them into definites."
+    },
+    {
+      "id": "s009",
+      "text": "Second: The Definite (Al-Maʿrifa)"
+    },
+    {
+      "id": "s010",
+      "label_en": "Definition",
+      "text": "The definite noun denotes a specific thing in itself that the addressee identifies — e.g. ana (I), Muhammad, hadha (this), alladhi (the one who), al-kitab (the book)."
+    },
+    {
+      "id": "s011",
+      "items": [
+        {
+          "transliteration": "qaraʾ-tu al-kitab-a",
+          "text": "— I read the book."
+        },
+        {
+          "transliteration": "zara-na Muhammad-un",
+          "text": "— Muhammad visited us."
+        },
+        {
+          "transliteration": "hadha bayt-una",
+          "text": "— This is our house."
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "text": "The words 'al-kitaba', 'Muhammadun', and 'hadha' are definite, because each denotes something specific that the listener identifies; so one cannot ask about them with 'which?' (ayy) as one asks about the indefinite."
+    },
+    {
+      "id": "s013",
+      "text": "Types of Definite Nouns"
+    },
+    {
+      "id": "s014",
+      "label_en": "Rule",
+      "text": "The definites are seven types: the pronoun (damir), the proper name (ʿalam), the demonstrative (ism al-ishara), the relative noun (al-ism al-mawsul), the noun made definite by 'al-', the noun annexed to one of these definites, and the intended-particular vocative (al-munada al-nakira al-maqsuda)."
+    },
+    {
+      "id": "s015",
+      "items": [
+        "Pronoun: ana, nahnu, huwa, the 'ta' in katabtu.",
+        "Proper name: Muhammad, Fatima, Dimashq (Damascus).",
+        "Demonstrative: hadha, hadhihi, dhalika, ulaʾika.",
+        "Relative noun: alladhi, allati, alladhina.",
+        "Made definite by 'al-': al-kitab, al-shams, al-qamar.",
+        "Annexed to a definite: kitabu Muhammad, babu al-madrasa.",
+        "Intended vocative: ya rajul (to a particular man)."
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "1 — The Pronoun (Al-Damir)"
+    },
+    {
+      "id": "s017",
+      "label_en": "Definition",
+      "text": "The pronoun is a definite that denotes a speaker (ana, nahnu), an addressee (anta, anti), or an absent third party (huwa, hiya). It is the most definite of all the definites."
+    },
+    {
+      "id": "s018",
+      "headers": [
+        "Type of pronoun",
+        "Examples",
+        "Explanation"
+      ],
+      "rows": [
+        [
+          "Detached (munfasil)",
+          "ana, nahnu, anta, huwa, hiya",
+          "Pronounced independently; may begin a sentence"
+        ],
+        [
+          "Attached (muttasil)",
+          "the 'ta' in katabtu, the 'ka' in kitabuka, the 'ha' in raʾaytuhu",
+          "Not pronounced independently; joins the end of a word"
+        ],
+        [
+          "Concealed (mustatir)",
+          "understood as 'ana' in aktubu, 'anta' in uktub, 'huwa' in yaktubu",
+          "Appears neither in speech nor in writing"
+        ]
+      ]
+    },
+    {
+      "id": "s019",
+      "items": [
+        {
+          "transliteration": "ana musafir-un ghadan",
+          "text": "— I am travelling tomorrow."
+        },
+        {
+          "transliteration": "katab-tu al-dars-a",
+          "text": "— I wrote the lesson."
+        },
+        {
+          "transliteration": "al-muʿallim-u sharaha al-dars-a",
+          "text": "— The teacher explained the lesson."
+        }
+      ]
+    },
+    {
+      "id": "s020",
+      "text": "In the first example 'ana' is a detached pronoun of the speaker; in the second the 'ta' is an attached pronoun in the position of subject; in the third the subject is a concealed pronoun understood as 'huwa' referring to the teacher."
+    },
+    {
+      "id": "s021",
+      "text": "2 — The Proper Name (Al-ʿAlam)"
+    },
+    {
+      "id": "s022",
+      "label_en": "Definition",
+      "text": "The proper name denotes something specific in itself without any contextual indicator, and it includes names of persons, lands, rivers, and so on — e.g. Muhammad, Makka, al-Nil (the Nile)."
+    },
+    {
+      "id": "s023",
+      "items": [
+        {
+          "transliteration": "fataha Khalid-un kathiran min al-bilad-i",
+          "text": "— Khalid conquered many of the lands."
+        },
+        {
+          "transliteration": "sakana-t Fatimat-u fi al-madinat-i",
+          "text": "— Fatima settled in the city."
+        },
+        {
+          "transliteration": "yajri al-Nil-u fi Misr-a",
+          "text": "— The Nile flows through Egypt."
+        }
+      ]
+    },
+    {
+      "id": "s024",
+      "text": "3 — The Demonstrative (Ism al-Ishara)"
+    },
+    {
+      "id": "s025",
+      "label_en": "Definition",
+      "text": "The demonstrative is a definite by which one points to something specific — physically or figuratively — distinguishing it from others, e.g. hadha, hadhihi, dhalika, ulaʾika."
+    },
+    {
+      "id": "s026",
+      "headers": [
+        "What is pointed to",
+        "Demonstrative"
+      ],
+      "rows": [
+        [
+          "Masculine singular",
+          "hadha (near), dhalika (far)"
+        ],
+        [
+          "Feminine singular",
+          "hadhihi (near), tilka (far)"
+        ],
+        [
+          "Masculine dual",
+          "hadhani, dhanika"
+        ],
+        [
+          "Feminine dual",
+          "hatani, tanika"
+        ],
+        [
+          "Plural of rational beings",
+          "haʾulaʾi, ulaʾika"
+        ],
+        [
+          "Place",
+          "huna (near), hunaka, thamma (far)"
+        ]
+      ]
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "hadha talib-un mujtahid-un",
+          "text": "— This is a diligent student."
+        },
+        {
+          "transliteration": "aʿjaba-ni dhalika al-kitab-u",
+          "text": "— That book pleased me."
+        },
+        {
+          "transliteration": "ulaʾika hum al-faʾizun-a",
+          "text": "— Those are the winners."
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "4 — The Relative Noun (Al-Ism al-Mawsul)"
+    },
+    {
+      "id": "s029",
+      "label_en": "Definition",
+      "text": "The relative noun does not complete its reference to something specific except by a clause coming after it, called the relative clause (silat al-mawsul) — e.g. alladhi, allati, alladhina, man, ma."
+    },
+    {
+      "id": "s030",
+      "headers": [
+        "Intended referent",
+        "Relative noun"
+      ],
+      "rows": [
+        [
+          "Masculine singular",
+          "alladhi"
+        ],
+        [
+          "Feminine singular",
+          "allati"
+        ],
+        [
+          "Masculine dual",
+          "alladhani"
+        ],
+        [
+          "Feminine dual",
+          "allatani"
+        ],
+        [
+          "Plural of rational males",
+          "alladhina"
+        ],
+        [
+          "Plural of females",
+          "allati, allawati"
+        ],
+        [
+          "Common (shared)",
+          "man (for rational), ma (for non-rational)"
+        ]
+      ]
+    },
+    {
+      "id": "s031",
+      "items": [
+        {
+          "transliteration": "najaha alladhi ijtahada",
+          "text": "— The one who worked hard succeeded."
+        },
+        {
+          "transliteration": "ahtarimu allati tasduqu fi qawli-ha",
+          "text": "— I respect the one (f.) who is truthful in her speech."
+        },
+        {
+          "transliteration": "akrim man ahsana ilay-ka",
+          "text": "— Honour whoever has been good to you."
+        }
+      ]
+    },
+    {
+      "id": "s032",
+      "text": "5 — Made Definite by 'Al-'"
+    },
+    {
+      "id": "s033",
+      "label_en": "Rule",
+      "text": "The article 'al-' is prefixed to an indefinite and makes it definite — qalam → al-qalam, shams → al-shams. It is either 'ʿahdiyya' (referring to a known particular) or 'jinsiyya' (denoting the whole class)."
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "talaʿa-t al-shams-u",
+          "text": "— The sun rose."
+        },
+        {
+          "transliteration": "dakhal-tu al-madrasat-a mubakkiran",
+          "text": "— I entered the school early."
+        },
+        {
+          "transliteration": "al-insan-u madaniyy-un bi-tabʿi-h",
+          "text": "— Man is social by nature."
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "label_en": "Note",
+      "text": "In the last example, 'al-insan' takes the generic 'al-' (jinsiyya) denoting the whole class, not one particular individual; whereas in the second example 'al-madrasa' takes the 'ahdiyya' article referring to a school known to both speaker and listener."
+    },
+    {
+      "id": "s036",
+      "text": "6 — Made Definite by Annexation (Idafa)"
+    },
+    {
+      "id": "s037",
+      "label_en": "Rule",
+      "text": "When an indefinite is annexed to a definite, it acquires definiteness from it and becomes definite — 'kitab' is indefinite, but when you say 'kitabu Muhammad' (Muhammad's book), 'kitab' becomes definite through its acquisition from 'Muhammad'."
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "fataht-u bab-a al-madrasat-i",
+          "text": "— I opened the door of the school."
+        },
+        {
+          "transliteration": "qaraʾ-tu kitab-a al-tarikh-i",
+          "text": "— I read the history book."
+        },
+        {
+          "transliteration": "hadha sadiq-u akh-i",
+          "text": "— This is my brother's friend."
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "The words 'bab', 'kitab', and 'sadiq' are originally indefinite, but they acquired definiteness by being annexed to the definites after them: 'al-madrasa' (definite by al-), 'al-tarikh' (definite by al-), and 'akhi' (definite by annexation to the speaker's pronoun)."
+    },
+    {
+      "id": "s040",
+      "text": "7 — The Intended-Particular Vocative (Al-Munada al-Nakira al-Maqsuda)"
+    },
+    {
+      "id": "s041",
+      "label_en": "Rule",
+      "text": "An indefinite that is intended particularly in a call becomes definite, because the speaker meant a specific one by it — as when you say to a particular man 'ya rajul aqbil' (O man, come here); the call and the intent have made it definite."
+    },
+    {
+      "id": "s042",
+      "items": [
+        {
+          "transliteration": "ya talib-u ijtahid",
+          "text": "— O student, work hard."
+        },
+        {
+          "transliteration": "ya rajul-u ittaqi Allah-a",
+          "text": "— O man, fear God."
+        }
+      ]
+    },
+    {
+      "id": "s043",
+      "text": "'Talib' and 'rajul' are originally indefinite, but once a particular person is intended by them in the call they become definite; that is why they are built on damma in the position of the accusative."
+    },
+    {
+      "id": "s044",
+      "text": "The Ranks of the Definites"
+    },
+    {
+      "id": "s045",
+      "label_en": "Rule",
+      "text": "The definites vary in the strength of their definiteness: the most definite is the pronoun, then the proper name, then the demonstrative, then the relative noun, then the noun made definite by 'al-', then the noun annexed to a definite — whose strength follows that of what it is annexed to."
+    },
+    {
+      "id": "s046",
+      "headers": [
+        "Rank",
+        "Type",
+        "Example"
+      ],
+      "rows": [
+        [
+          "First (most definite)",
+          "Pronoun",
+          "ana, huwa"
+        ],
+        [
+          "Second",
+          "Proper name",
+          "Muhammad, Makka"
+        ],
+        [
+          "Third",
+          "Demonstrative",
+          "hadha, dhalika"
+        ],
+        [
+          "Fourth",
+          "Relative noun",
+          "alladhi, allati"
+        ],
+        [
+          "Fifth",
+          "Made definite by 'al-'",
+          "al-kitab, al-shams"
+        ],
+        [
+          "Sixth",
+          "Annexed to a definite",
+          "kitabu Muhammad"
+        ]
+      ]
+    },
+    {
+      "id": "s047",
+      "text": "What is the benefit of knowing the difference between the indefinite and the definite in iʿrab and meaning?"
+    },
+    {
+      "id": "s048",
+      "text": "Its benefit is that many grammatical rulings are built on this distinction: the subject of a nominal sentence (mubtadaʾ) is in principle only a definite or something close to it; the circumstantial accusative (hal) is only indefinite; the adjective (naʿt) follows its noun in definiteness and indefiniteness; and a clause after an indefinite is an adjective while after a definite it is a hal. Whoever cannot tell the indefinite from the definite will get much of the iʿrab wrong."
+    },
+    {
+      "id": "s049",
+      "text": "Table of the Types of Definites"
+    },
+    {
+      "id": "s050",
+      "headers": [
+        "Type",
+        "Definition",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Pronoun",
+          "denotes a speaker, addressee, or absent party",
+          "ana, anta, huwa"
+        ],
+        [
+          "Proper name",
+          "denotes something specific in itself",
+          "Muhammad, Dimashq"
+        ],
+        [
+          "Demonstrative",
+          "denotes something specific by pointing",
+          "hadha, hadhihi, ulaʾika"
+        ],
+        [
+          "Relative noun",
+          "denotes something specific by a following clause",
+          "alladhi, allati, alladhina"
+        ],
+        [
+          "Made definite by 'al-'",
+          "an indefinite prefixed with the article 'al-'",
+          "al-kitab, al-qalam"
+        ],
+        [
+          "Annexed to a definite",
+          "an indefinite made definite by annexation",
+          "babu al-madrasa"
+        ],
+        [
+          "Intended vocative",
+          "an indefinite meant particularly in a call",
+          "ya rajul"
+        ]
+      ]
+    },
+    {
+      "id": "s051",
+      "label_en": "Warning",
+      "text": "Not every noun that takes 'al-' becomes definite; 'al-' may be redundant and give no definiteness, as in some proper names: al-Harith, al-ʿAbbas, al-Fadl. Likewise the annexed noun does not acquire definiteness unless it is annexed to a definite; if it is annexed to an indefinite it stays indefinite, e.g. 'babu dar' (a door of a house)."
+    },
+    {
+      "id": "s052",
+      "text": "A Full Iʿrab Model"
+    },
+    {
+      "id": "s053",
+      "items": [
+        {
+          "transliteration": "hadha kitab-u Muhammad-in",
+          "text": "— This is Muhammad's book."
+        }
+      ]
+    },
+    {
+      "id": "s054",
+      "text": "hadha: a demonstrative, built on sukun, in the position of nominative as the subject (mubtadaʾ); it is definite. kitabu: the predicate, nominative with a visible damma; it is a mudaf (first term of annexation) and acquired definiteness by annexation to 'Muhammad'. Muhammadin: the mudaf ilayh, genitive with a visible kasra; it is a proper name and definite."
+    },
+    {
+      "id": "s055",
+      "text": "God Most High said: ﴿al-hamdu li-llahi rabbi al-ʿalamin﴾ — 'Praise be to God, Lord of the worlds.'"
+    },
+    {
+      "id": "s056",
+      "text": "In this noble verse several types of definite come together: 'al-hamd' is made definite by 'al-'; 'Allah' is a proper name of the Divine Essence; 'rabb' is a mudaf that acquired definiteness by annexation to 'al-ʿalamin'; and 'al-ʿalamin' is made definite by 'al-'."
+    },
+    {
+      "id": "s057",
+      "text": "And He said: ﴿qala hadha rabbi﴾ — 'He said: This is my Lord.'"
+    },
+    {
+      "id": "s058",
+      "text": "In His words 'hadha' is a demonstrative, definite, in the position of nominative as subject; 'rabbi' is the predicate, nominative, a mudaf that acquired definiteness by annexation to the speaker's 'ya' (a pronoun, definite). So two types of definite meet in the sentence: the demonstrative and the noun annexed to a pronoun."
+    }
+  ]
+}
