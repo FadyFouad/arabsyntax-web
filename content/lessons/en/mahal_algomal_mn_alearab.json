@@ -1,0 +1,668 @@
+{
+  "lesson_id": "mahal_algomal_mn_alearab",
+  "language": "en",
+  "title": "Sentences That Do and Do Not Have a Place in Iʿrab (Al-Jumal allati laha wa-laysa laha Mahall min al-Iʿrab)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Sentences That Do and Do Not Have a Place in Iʿrab"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "The 'place in iʿrab' (mahall min al-iʿrab) of a sentence is the grammatical slot the sentence occupies within the larger utterance. When it fills such a slot, it takes the case of the single word that would occupy it — nominative, accusative, genitive, or jussive."
+    },
+    {
+      "id": "s003",
+      "text": "A sentence is by nature a construction of two or more words, while iʿrab applies to the single word, not to the construction. So when a sentence stands in for a single word and fills its slot, it takes that word's case notionally. We therefore say it is 'in the place of the nominative' or 'in the place of the accusative' — never that it is itself 'nominative' or 'accusative'."
+    },
+    {
+      "id": "s004",
+      "label_en": "Rule",
+      "text": "The general test: every sentence that a single word could validly replace has a place in iʿrab; every sentence that a single word could not replace has no place in iʿrab."
+    },
+    {
+      "id": "s005",
+      "items": [
+        {
+          "transliteration": "al-talib-u yajtahid-u",
+          "text": "— The student works hard. (You could say: al-talib-u mujtahid-un, so the clause is in the place of the nominative as predicate.)"
+        },
+        {
+          "transliteration": "jaʾa alladhi ijtahada",
+          "text": "— The one who worked hard came. (No single word can stand in for a relative clause, so it has no place in iʿrab.)"
+        }
+      ]
+    },
+    {
+      "id": "s006",
+      "text": "In the first example the clause 'yajtahidu' stands in for the single word 'mujtahidun', which would be a nominative predicate — so the clause is in the place of the nominative. In the second, no single word can substitute for the relative clause, so it has no place in iʿrab."
+    },
+    {
+      "id": "s007",
+      "text": "But why do we need to know a sentence's place in iʿrab at all?"
+    },
+    {
+      "id": "s008",
+      "text": "Because knowing the place reveals the sentence's function in the utterance: the meaning becomes clear, and anything coordinated with it or standing in apposition to it is governed accordingly, since a follower takes the ruling of what it follows. It also settles the endings of words in many places — the answer of a conditional, the description of an indefinite noun, and the circumstantial clause after a definite noun."
+    },
+    {
+      "id": "s009",
+      "label_en": "Note",
+      "text": "The sentences that have a place in iʿrab are seven, and the sentences that have no place in iʿrab are likewise seven. This count is the well-known one among the majority of grammarians."
+    },
+    {
+      "id": "s010",
+      "text": "First: Sentences That Have a Place in Iʿrab"
+    },
+    {
+      "id": "s011",
+      "text": "There are seven. Each occupies the slot of a single word with a known case, and so takes its place:"
+    },
+    {
+      "id": "s012",
+      "items": [
+        "— The sentence functioning as a predicate (khabar).",
+        "— The sentence functioning as a circumstantial clause (hal).",
+        "— The sentence functioning as a direct object (mafʿul bih).",
+        "— The sentence functioning as the second term of an annexation (mudaf ilayh).",
+        "— The sentence functioning as a description (naʿt).",
+        "— The sentence functioning as the answer of a jussive conditional when joined by 'fa' or by the surprise 'idha'.",
+        "— The sentence following (by coordination or apposition) a sentence that has a place in iʿrab."
+      ]
+    },
+    {
+      "id": "s013",
+      "text": "1 — The Sentence Functioning as a Predicate"
+    },
+    {
+      "id": "s014",
+      "label_en": "Rule",
+      "text": "A sentence functioning as a predicate is in the place of the nominative when it is the predicate of a mubtadaʾ or of 'inna' and its sisters; it is in the place of the accusative when it is the predicate of 'kana' and its sisters."
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "al-talib-u yudhakiru dars-ah",
+          "text": "— The student is studying his lesson. (in the place of the nominative, predicate of the mubtadaʾ)"
+        },
+        {
+          "transliteration": "inna al-haqq-a nur-u-hu satiʿ-un",
+          "text": "— Truth — its light is radiant. (in the place of the nominative, predicate of 'inna')"
+        },
+        {
+          "transliteration": "kana al-ʿamil-u yutqinu ʿamal-ah",
+          "text": "— The worker used to do his work well. (in the place of the accusative, predicate of 'kana')"
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "Allah Most High said: \"...and Allāh loves the doers of good.\" — Quran 3:134 (Sahih International)"
+    },
+    {
+      "id": "s017",
+      "text": "'Allah' is the mubtadaʾ in the nominative, marked by damma, and the verbal clause 'yuhibbu al-muhsinin' is in the place of the nominative as its predicate, because it stands in for a single word: one could say 'wa-Llahu muhibbun li-l-muhsinin'."
+    },
+    {
+      "id": "s018",
+      "text": "2 — The Sentence Functioning as a Circumstantial Clause (Hal)"
+    },
+    {
+      "id": "s019",
+      "label_en": "Rule",
+      "text": "A sentence functioning as a hal is always in the place of the accusative. It comes after a definite noun and must contain a link (rabit) tying it to the subject of the state: the waw, a pronoun, or both."
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "aqbala al-tilmidh-u yabtasim-u",
+          "text": "— The pupil came forward smiling. (verbal clause in the place of the accusative as hal; the link is the pronoun)"
+        },
+        {
+          "transliteration": "kharaja al-musafir-u wa-l-shams-u taliʿat-un",
+          "text": "— The traveller set out with the sun rising. (nominal clause in the place of the accusative as hal; the link is the waw)"
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "And Allah Most High said: \"And they came to their father at night, weeping.\" — Quran 12:16 (Sahih International)"
+    },
+    {
+      "id": "s022",
+      "text": "The verbal clause 'yabkun' is in the place of the accusative as a hal describing the plural waw in 'jaʾu'; the link is the pronoun referring back to them. A single word could stand in for it: 'jaʾu abahum ʿishaʾan bakin'."
+    },
+    {
+      "id": "s023",
+      "label_en": "Note",
+      "text": "A useful rule for telling them apart: 'Clauses after indefinite nouns are descriptions; after definite nouns they are circumstantial clauses.' So in 'raʾaytu rajulan yabki' the clause is a naʿt, while in 'raʾaytu al-rajula yabki' it is a hal."
+    },
+    {
+      "id": "s024",
+      "text": "3 — The Sentence Functioning as a Direct Object"
+    },
+    {
+      "id": "s025",
+      "label_en": "Rule",
+      "text": "A sentence functioning as a direct object is in the place of the accusative. Its best-known forms are reported speech after the verb 'qala' and its derivatives, and the clause functioning as the second object of verbs of supposition and certainty."
+    },
+    {
+      "id": "s026",
+      "items": [
+        {
+          "transliteration": "qala al-muʿallim-u: al-ʿilm-u nur-un",
+          "text": "— The teacher said: knowledge is light. (in the place of the accusative as direct object — reported speech)"
+        },
+        {
+          "transliteration": "ʿalim-tu al-sidq-a yunji sahib-ah",
+          "text": "— I knew truthfulness saves the one who practises it. (in the place of the accusative as second object)"
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "text": "And Allah Most High said: \"[Jesus] said, 'Indeed, I am the servant of Allāh. He has given me the Scripture...'\" — Quran 19:30 (Sahih International)"
+    },
+    {
+      "id": "s028",
+      "text": "The clause 'inni ʿabdu Llah' is in the place of the accusative as the direct object of 'qala' — reported speech. The verbal clause 'atani al-kitab' is in the place of the nominative as a second predicate of 'inna'."
+    },
+    {
+      "id": "s029",
+      "text": "4 — The Sentence Functioning as the Second Term of an Annexation"
+    },
+    {
+      "id": "s030",
+      "label_en": "Rule",
+      "text": "A sentence functioning as a mudaf ilayh is in the place of the genitive. It comes after adverbs that are necessarily annexed to sentences, the best known being: idh, idha, haythu, lamma, yawma, hina, saʿata, and raythama."
+    },
+    {
+      "id": "s031",
+      "items": [
+        {
+          "transliteration": "azuru-ka hina taʿud-u",
+          "text": "— I will visit you when you return. (verbal clause in the place of the genitive as mudaf ilayh)"
+        },
+        {
+          "transliteration": "jalas-tu haythu al-hawaʾ-u naqiyy-un",
+          "text": "— I sat where the air is clean. (nominal clause in the place of the genitive as mudaf ilayh)"
+        }
+      ]
+    },
+    {
+      "id": "s032",
+      "text": "And Allah Most High said: \"...the Day when the truthful will benefit from their truthfulness.\" — Quran 5:119 (Sahih International)"
+    },
+    {
+      "id": "s033",
+      "text": "The verbal clause 'yanfaʿu al-sadiqina sidquhum' is in the place of the genitive as mudaf ilayh, because 'yawmu' is an adverb of time annexed to the sentence that follows it."
+    },
+    {
+      "id": "s034",
+      "text": "5 — The Sentence Functioning as a Description (Naʿt)"
+    },
+    {
+      "id": "s035",
+      "label_en": "Rule",
+      "text": "A sentence functioning as a naʿt takes the place of its described noun — nominative, accusative, or genitive. It occurs only after an indefinite noun, and must contain a link referring back to it."
+    },
+    {
+      "id": "s036",
+      "items": [
+        {
+          "transliteration": "hadha rajul-un yuhibbu al-khayr-a",
+          "text": "— This is a man who loves good. (in the place of the nominative, describing 'rajulun')"
+        },
+        {
+          "transliteration": "qabal-tu rajul-an khuluq-u-hu karim-un",
+          "text": "— I met a man whose character is noble. (in the place of the accusative, describing 'rajulan')"
+        },
+        {
+          "transliteration": "marar-tu bi-talib-in yajtahid-u",
+          "text": "— I passed by a student who works hard. (in the place of the genitive, describing 'talibin')"
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "And Allah Most High said: \"And fear a Day when you will be returned to Allāh.\" — Quran 2:281 (Sahih International)"
+    },
+    {
+      "id": "s038",
+      "text": "The verbal clause 'turjaʿuna fihi ila Llah' is in the place of the accusative as a naʿt of 'yawman', since 'yawman' is an indefinite noun in the accusative as an object; the link is the 'hu' in 'fihi'."
+    },
+    {
+      "id": "s039",
+      "text": "6 — The Sentence Functioning as the Answer of a Jussive Conditional, Joined by 'Fa' or the Surprise 'Idha'"
+    },
+    {
+      "id": "s040",
+      "label_en": "Rule",
+      "text": "The answer-clause of a conditional is in the place of the jussive on two conditions together: the conditional particle must be jussive-governing, and the answer must be joined by 'fa' or by the surprise 'idha'. If either condition fails, the clause has no place in iʿrab."
+    },
+    {
+      "id": "s041",
+      "items": [
+        {
+          "transliteration": "man yajtahid fa-inna-hu yanjah-u",
+          "text": "— Whoever works hard will succeed. (in the place of the jussive as the answer, joined by 'fa')"
+        },
+        {
+          "transliteration": "in tufarrit fi waqti-ka idha anta nadim-un",
+          "text": "— If you squander your time, you are suddenly full of regret. (in the place of the jussive, joined by the surprise 'idha')"
+        }
+      ]
+    },
+    {
+      "id": "s042",
+      "text": "And Allah Most High said: \"But if you do not — and you will never be able to — then fear the Fire...\" — Quran 2:24 (Sahih International)"
+    },
+    {
+      "id": "s043",
+      "text": "The clause 'ittaqu al-nar' is in the place of the jussive as the answer of the conditional, because the particle 'in' governs the jussive and the answer is joined by 'fa'. The clause 'wa-lan tafʿalu' is parenthetical and has no place in iʿrab."
+    },
+    {
+      "id": "s044",
+      "label_en": "Warning",
+      "text": "The answer-clause takes 'fa' only when it could not itself serve as a condition — for instance when it is a nominal sentence, an invariable verb, a request, or introduced by 'qad', 'lan', 'sa-', 'sawfa', or 'ma'."
+    },
+    {
+      "id": "s045",
+      "text": "7 — The Sentence Following a Sentence That Has a Place in Iʿrab"
+    },
+    {
+      "id": "s046",
+      "label_en": "Rule",
+      "text": "A sentence that follows — by coordination or apposition — a sentence with a place in iʿrab takes the place of what it follows, because a follower takes the ruling of what it follows."
+    },
+    {
+      "id": "s047",
+      "items": [
+        {
+          "transliteration": "al-talib-u yudhakiru wa-yurajiʿ-u",
+          "text": "— The student studies and revises. (coordinated with the predicate clause, so it is in the place of the nominative)"
+        },
+        {
+          "transliteration": "kana al-musafir-u yastaʿiddu wa-yurattibu haqaʾib-ah",
+          "text": "— The traveller was getting ready and packing his bags. (coordinated with the predicate of 'kana', so it is in the place of the accusative)"
+        }
+      ]
+    },
+    {
+      "id": "s048",
+      "text": "Sentences with a Place in Iʿrab — All Together"
+    },
+    {
+      "id": "s049",
+      "headers": [
+        "The sentence",
+        "Its place in iʿrab",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Predicate of a mubtadaʾ or of 'inna'",
+          "Nominative",
+          "al-talibu yudhakiru"
+        ],
+        [
+          "Predicate of 'kana' and its sisters",
+          "Accusative",
+          "kana al-ʿamilu yutqinu ʿamalah"
+        ],
+        [
+          "Circumstantial clause (hal)",
+          "Accusative",
+          "aqbala al-tilmidhu yabtasimu"
+        ],
+        [
+          "Direct object",
+          "Accusative",
+          "qala al-muʿallimu: al-ʿilmu nurun"
+        ],
+        [
+          "Second term of an annexation",
+          "Genitive",
+          "azuruka hina taʿudu"
+        ],
+        [
+          "Description (naʿt)",
+          "That of the described noun",
+          "marartu bi-talibin yajtahidu"
+        ],
+        [
+          "Answer of a jussive conditional with 'fa' or 'idha'",
+          "Jussive",
+          "man yajtahid fa-innahu yanjahu"
+        ],
+        [
+          "Following a sentence that has a place",
+          "That of what it follows",
+          "al-talibu yudhakiru wa-yurajiʿu"
+        ]
+      ]
+    },
+    {
+      "id": "s050",
+      "text": "Second: Sentences That Have No Place in Iʿrab"
+    },
+    {
+      "id": "s051",
+      "text": "There are seven. No single word can stand in for them, so they enter none of the chapters of iʿrab, and in parsing them one says: a sentence with no place in iʿrab."
+    },
+    {
+      "id": "s052",
+      "items": [
+        "— The opening sentence (ibtidaʾiyya) and the resumptive sentence (istiʾnafiyya).",
+        "— The parenthetical sentence (iʿtiradiyya).",
+        "— The explanatory sentence (tafsiriyya).",
+        "— The relative clause (silat al-mawsul).",
+        "— The answer of an oath (jawab al-qasam).",
+        "— The answer of a non-jussive conditional, or of a jussive one when not joined by 'fa' or the surprise 'idha'.",
+        "— The sentence following a sentence that has no place in iʿrab."
+      ]
+    },
+    {
+      "id": "s053",
+      "text": "1 — The Opening and Resumptive Sentence"
+    },
+    {
+      "id": "s054",
+      "label_en": "Definition",
+      "text": "The opening sentence begins the utterance with nothing preceding it to attach to. The resumptive sentence occurs mid-utterance, cut off from what precedes it in order to begin a new meaning. Neither has a place in iʿrab."
+    },
+    {
+      "id": "s055",
+      "items": [
+        {
+          "transliteration": "al-ʿilm-u nur-un",
+          "text": "— Knowledge is light. (an opening sentence with no place in iʿrab)"
+        },
+        {
+          "transliteration": "ihtarim walidayk",
+          "text": "— Respect your parents. (an opening sentence with no place in iʿrab)"
+        },
+        {
+          "transliteration": "thumma insarafa al-qawm-u",
+          "text": "— Then the people departed. (a resumptive sentence, cut off from what precedes)"
+        }
+      ]
+    },
+    {
+      "id": "s056",
+      "text": "2 — The Parenthetical Sentence"
+    },
+    {
+      "id": "s057",
+      "label_en": "Rule",
+      "text": "The parenthetical sentence comes between two mutually dependent elements — a mubtadaʾ and its predicate, a verb and its subject, a condition and its answer, an oath and its answer — to strengthen the meaning, or to offer a prayer or a declaration of reverence. It has no place in iʿrab."
+    },
+    {
+      "id": "s058",
+      "items": [
+        {
+          "transliteration": "inna al-walid-a — raʿahu Llah — karim-un",
+          "text": "— The father — may Allah preserve him — is generous. (interposed between the noun of 'inna' and its predicate)"
+        },
+        {
+          "transliteration": "wa-Llahi — wa-l-haqq-u aqul-u — la-ajtahidanna",
+          "text": "— By Allah — and I speak the truth — I shall strive hard. (interposed between the oath and its answer)"
+        }
+      ]
+    },
+    {
+      "id": "s059",
+      "text": "Allah Most High said: \"And indeed, it is an oath — if you could know — [most] great.\" — Quran 56:76 (Sahih International)"
+    },
+    {
+      "id": "s060",
+      "text": "The clause 'law taʿlamun' is parenthetical and has no place in iʿrab: it comes between the described word 'la-qasamun' and its description 'ʿazim', strengthening the meaning and magnifying the oath."
+    },
+    {
+      "id": "s061",
+      "text": "3 — The Explanatory Sentence"
+    },
+    {
+      "id": "s062",
+      "label_en": "Rule",
+      "text": "The explanatory sentence clarifies what precedes it and reveals its content. It is usually preceded by a particle of explanation — 'an' or 'ay' — though it may come without one. It has no place in iʿrab."
+    },
+    {
+      "id": "s063",
+      "items": [
+        {
+          "transliteration": "awmaʾa ilayya an-i skut",
+          "text": "— He signalled to me to be quiet. (an explanatory clause preceded by 'an')"
+        },
+        {
+          "transliteration": "wassa-ni abi ay akrim dayfa-k",
+          "text": "— My father enjoined upon me: honour your guest. (an explanatory clause preceded by 'ay')"
+        }
+      ]
+    },
+    {
+      "id": "s064",
+      "text": "And Allah Most High said: \"So We inspired to him, 'Construct the ship under Our observation...'\" — Quran 23:27 (Sahih International)"
+    },
+    {
+      "id": "s065",
+      "text": "The clause 'isnaʿi al-fulk' is explanatory and has no place in iʿrab: it spells out the content of the revelation in 'fa-awhayna'. 'An' here is a particle of explanation and governs nothing."
+    },
+    {
+      "id": "s066",
+      "text": "4 — The Relative Clause"
+    },
+    {
+      "id": "s067",
+      "label_en": "Rule",
+      "text": "A clause functioning as the relative clause of a relative pronoun has no place in iʿrab. It must contain a pronoun referring back to the relative pronoun, called the ʿaʾid, which may be overt or implicit."
+    },
+    {
+      "id": "s068",
+      "items": [
+        {
+          "transliteration": "jaʾa alladhi ijtahada",
+          "text": "— The one who worked hard came. (a relative clause; the ʿaʾid is an implicit pronoun)"
+        },
+        {
+          "transliteration": "ahtarimu allati rabbat-ni",
+          "text": "— I respect the one who raised me. (a relative clause; the ʿaʾid is an implicit pronoun)"
+        }
+      ]
+    },
+    {
+      "id": "s069",
+      "text": "And Allah Most High said: \"He who created the heavens and the earth and what is between them in six days...\" — Quran 25:59 (Sahih International)"
+    },
+    {
+      "id": "s070",
+      "text": "The clause 'khalaqa al-samawati wa-l-ard' is the relative clause of 'alladhi' and has no place in iʿrab; the ʿaʾid is an implicit pronoun, 'huwa', referring back to the relative pronoun."
+    },
+    {
+      "id": "s071",
+      "label_en": "Warning",
+      "text": "Do not confuse the relative clause with the descriptive clause: a relative clause follows a relative pronoun and has no place in iʿrab, while a description follows an indefinite noun and takes the place of that noun. So 'jaʾa alladhi ijtahada' is a relative clause, while 'jaʾa talibun ijtahada' is a description in the place of the nominative."
+    },
+    {
+      "id": "s072",
+      "text": "5 — The Answer of an Oath"
+    },
+    {
+      "id": "s073",
+      "label_en": "Rule",
+      "text": "A clause functioning as the answer of an oath has no place in iʿrab, whether the oath is overt or implied. It is usually emphasised by the lam, by the nun of emphasis, by 'inna', or by 'qad'."
+    },
+    {
+      "id": "s074",
+      "items": [
+        {
+          "transliteration": "wa-Llahi la-ajtahidanna fi dars-i",
+          "text": "— By Allah, I shall strive hard in my study. (answer of an oath, no place in iʿrab)"
+        },
+        {
+          "transliteration": "la-ʿamru-ka inna al-sidq-a manjat-un",
+          "text": "— By your life, truthfulness is a deliverance. (answer of an oath, no place in iʿrab)"
+        }
+      ]
+    },
+    {
+      "id": "s075",
+      "text": "And Allah Most High said: \"He has succeeded who purifies it.\" — Quran 91:9 (Sahih International)"
+    },
+    {
+      "id": "s076",
+      "text": "The clause 'qad aflaha man zakkaha' is the answer of the oath sworn at the opening of Surat al-Shams. It has no place in iʿrab, and it is emphasised by 'qad'."
+    },
+    {
+      "id": "s077",
+      "text": "6 — The Answer of a Conditional That Has No Place in Iʿrab"
+    },
+    {
+      "id": "s078",
+      "label_en": "Rule",
+      "text": "The answer-clause of a conditional has no place in iʿrab in two cases: when the conditional particle never governs the jussive at all — such as 'law', 'lawla', 'idha', and 'lamma' — or when the particle does govern the jussive but the answer is joined neither by 'fa' nor by the surprise 'idha'."
+    },
+    {
+      "id": "s079",
+      "items": [
+        {
+          "transliteration": "in tajtahid tanjah",
+          "text": "— If you work hard you will succeed. (a jussive particle, but the answer is not joined by 'fa')"
+        },
+        {
+          "transliteration": "law dhakar-ta la-najah-ta",
+          "text": "— Had you studied you would have succeeded. (a non-jussive particle)"
+        },
+        {
+          "transliteration": "idha jaʾa al-shitaʾ-u labis-na al-miʿtaf-a",
+          "text": "— When winter comes we put on the coat. (a non-jussive particle)"
+        }
+      ]
+    },
+    {
+      "id": "s080",
+      "text": "And Allah Most High said: \"And if you are grateful, He approves it for you.\" — Quran 39:7 (Sahih International)"
+    },
+    {
+      "id": "s081",
+      "text": "'In' is a jussive conditional particle and 'yardahu lakum' is the answer. Since it is joined neither by 'fa' nor by the surprise 'idha', it has no place in iʿrab — though its verb is overtly in the jussive."
+    },
+    {
+      "id": "s082",
+      "text": "7 — The Sentence Following a Sentence That Has No Place in Iʿrab"
+    },
+    {
+      "id": "s083",
+      "label_en": "Rule",
+      "text": "A sentence coordinated with a sentence that has no place in iʿrab is likewise without a place, because a follower takes the ruling of what it follows — both in having iʿrab and in lacking it."
+    },
+    {
+      "id": "s084",
+      "items": [
+        {
+          "transliteration": "hadara al-dayf-u wa-jalas",
+          "text": "— The guest arrived and sat down. (coordinated with an opening sentence that has no place)"
+        },
+        {
+          "transliteration": "qama al-muʿallim-u wa-sharaha al-dars-a",
+          "text": "— The teacher stood and explained the lesson. (coordinated with an opening sentence that has no place)"
+        }
+      ]
+    },
+    {
+      "id": "s085",
+      "text": "Sentences with No Place in Iʿrab — All Together"
+    },
+    {
+      "id": "s086",
+      "headers": [
+        "The sentence",
+        "How to recognise it",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Opening",
+          "The utterance begins with it",
+          "al-ʿilmu nurun"
+        ],
+        [
+          "Resumptive",
+          "Cut off from what precedes it",
+          "thumma insarafa al-qawmu"
+        ],
+        [
+          "Parenthetical",
+          "Between two dependent elements, for emphasis or prayer",
+          "inna al-walida raʿahu Llah karimun"
+        ],
+        [
+          "Explanatory",
+          "Preceded by 'an' or 'ay'",
+          "awmaʾa ilayya ani skut"
+        ],
+        [
+          "Relative clause",
+          "After a relative pronoun, containing a ʿaʾid",
+          "jaʾa alladhi ijtahada"
+        ],
+        [
+          "Answer of an oath",
+          "After an overt or implied oath",
+          "wa-Llahi la-ajtahidanna"
+        ],
+        [
+          "Answer of a non-jussive conditional, or without 'fa'",
+          "A non-jussive particle, or an answer with no 'fa'",
+          "law dhakarta la-najahta"
+        ],
+        [
+          "Following a sentence with no place",
+          "Coordinated with a sentence that has no place",
+          "hadara al-dayfu wa-jalas"
+        ]
+      ]
+    },
+    {
+      "id": "s087",
+      "text": "How do I quickly tell a sentence that has a place in iʿrab from one that does not?"
+    },
+    {
+      "id": "s088",
+      "text": "Put a single word in the sentence's slot: if the meaning and the construction hold, the sentence has a place; otherwise it does not. Then look at what precedes it: after a relative pronoun it is a relative clause; after an indefinite noun it is a description; after a fully definite noun it is a circumstantial clause; after a verb of saying it is reported speech; and after an adverb that is necessarily annexed it is the second term of an annexation."
+    },
+    {
+      "id": "s089",
+      "label_en": "Warning",
+      "text": "Never say of a sentence that has a place that it is 'nominative' or 'accusative'; say instead that it is 'in the place of the nominative' or 'in the place of the accusative'. Overt iʿrab belongs to the single word; a sentence is parsed by place, not by form."
+    },
+    {
+      "id": "s090",
+      "text": "A Worked Iʿrab"
+    },
+    {
+      "id": "s091",
+      "items": [
+        {
+          "transliteration": "qala al-muʿallim-u: al-talib-u alladhi yajtahidu yanjah-u",
+          "text": "— The teacher said: the student who works hard succeeds."
+        }
+      ]
+    },
+    {
+      "id": "s092",
+      "text": "qala: a past-tense verb fixed on fatha. al-muʿallimu: the subject in the nominative, marked by the manifest damma. al-talibu: a mubtadaʾ in the nominative, marked by the manifest damma; the nominal sentence 'al-talibu ... yanjahu' is in the place of the accusative as the direct object of 'qala' — reported speech. alladhi: a relative pronoun fixed on sukun, in the place of the nominative as a description of 'al-talib'. yajtahidu: a present-tense verb in the indicative, marked by damma, its subject an implicit pronoun 'huwa'; the clause 'yajtahidu' is the relative clause and has no place in iʿrab. yanjahu: a present-tense verb in the indicative, marked by damma, its subject an implicit pronoun 'huwa'; the clause 'yanjahu' is in the place of the nominative as the predicate of the mubtadaʾ."
+    },
+    {
+      "id": "s093",
+      "text": "And Allah Most High said: \"...but if evil afflicts them for what their hands have put forth, immediately they despair.\" — Quran 30:36 (Sahih International)"
+    },
+    {
+      "id": "s094",
+      "text": "'In' is a jussive conditional particle, and the clause 'hum yaqnatun' is the answer of the conditional, joined by the surprise 'idha' — so it is in the place of the jussive. Had 'idha' been dropped, the clause would have had no place in iʿrab. Note how a single particle changes the parsing of the whole sentence."
+    }
+  ]
+}

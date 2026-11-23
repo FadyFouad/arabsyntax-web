@@ -1,0 +1,811 @@
+{
+  "lesson_id": "eaarab_gam_almozakar",
+  "language": "en",
+  "title": "Iʿrab of the Sound Masculine Plural (Iʿrab Jamʿ al-Mudhakkar al-Salim)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Iʿrab of the Sound Masculine Plural"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "The sound masculine plural (jamʿ al-mudhakkar al-salim) is what denotes more than two by adding a waw and nun, or a yaʾ and nun, to its singular, with the singular's structure remaining sound (unchanged)."
+    },
+    {
+      "id": "s003",
+      "items": [
+        "muslim-un, muslimun-a (a Muslim, Muslims)",
+        "muʿallim-un, muʿallimun-a (a teacher, teachers)",
+        "mujtahid-un, mujtahidun-a (a diligent one, diligent ones)"
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "This lesson is devoted to the iʿrab of this plural: its signs, the conditions a noun must meet to take it, its positions in the sentence, what is annexed to it, and the changes that affect a word's structure when it is pluralized. The definition of the plural and its kinds were detailed earlier in the lesson 'The Singular, the Dual, and the Plural'."
+    },
+    {
+      "id": "s005",
+      "text": "First: The Signs of Iʿrab of the Sound Masculine Plural"
+    },
+    {
+      "id": "s006",
+      "label_en": "Rule",
+      "text": "The sound masculine plural is inflected with letters, not with short vowels: nominative with the waw (instead of damma), and accusative and genitive with the yaʾ (instead of fatha and kasra)."
+    },
+    {
+      "id": "s007",
+      "items": [
+        {
+          "transliteration": "faza al-mujtahidun-a",
+          "text": "— The diligent ones won. (nominative with waw)"
+        },
+        {
+          "transliteration": "kafaʾa al-mudir-u al-mujtahidin-a",
+          "text": "— The manager rewarded the diligent ones. (accusative with yaʾ)"
+        },
+        {
+          "transliteration": "athna al-nas-u ʿala al-mujtahidin-a",
+          "text": "— People praised the diligent ones. (genitive with yaʾ)"
+        }
+      ]
+    },
+    {
+      "id": "s008",
+      "headers": [
+        "Case",
+        "Sign",
+        "Example",
+        "Its iʿrab"
+      ],
+      "rows": [
+        [
+          "Nominative",
+          "Waw",
+          "faza al-mujtahiduna",
+          "Subject, nominative, its sign the waw"
+        ],
+        [
+          "Accusative",
+          "Yaʾ",
+          "kafaʾa al-mudiru al-mujtahidina",
+          "Direct object, accusative, its sign the yaʾ"
+        ],
+        [
+          "Genitive",
+          "Yaʾ",
+          "athna al-nasu ʿala al-mujtahidina",
+          "Genitive noun, its sign the yaʾ"
+        ]
+      ]
+    },
+    {
+      "id": "s009",
+      "label_en": "Note",
+      "text": "The nun of the sound masculine plural always carries a fatha in all three cases, and it stands in place of the tanwin of the singular noun; this is why it drops upon annexation (idafa), just as tanwin drops."
+    },
+    {
+      "id": "s010",
+      "items": [
+        {
+          "transliteration": "al-muʿallimun-a mukhlisun-a",
+          "text": "— The teachers are sincere. (the nun takes fatha in the nominative)"
+        },
+        {
+          "transliteration": "shakar-tu al-muʿallimin-a",
+          "text": "— I thanked the teachers. (the nun takes fatha in the accusative)"
+        }
+      ]
+    },
+    {
+      "id": "s011",
+      "text": "And how do we tell the yaʾ of the sound masculine plural from the yaʾ of the dual, when both are signs of the accusative and genitive?"
+    },
+    {
+      "id": "s012",
+      "text": "By two visible differences. The first is the vowel before the yaʾ: a kasra in the plural, a fatha in the dual. The second is the vowel of the nun: a fatha in the plural, a kasra in the dual. So 'karramtu al-talibina' means a group, while 'karramtu al-talibayni' means two. A third difference remains in the nominative: the waw in the plural, the alif in the dual."
+    },
+    {
+      "id": "s013",
+      "headers": [
+        "Point of comparison",
+        "Sound masculine plural",
+        "The dual"
+      ],
+      "rows": [
+        [
+          "Sign of the nominative",
+          "Waw: al-muʿallimuna",
+          "Alif: al-muʿallimani"
+        ],
+        [
+          "Sign of the accusative and genitive",
+          "Yaʾ: al-muʿallimina",
+          "Yaʾ: al-muʿallimayni"
+        ],
+        [
+          "Before the yaʾ",
+          "Kasra",
+          "Fatha"
+        ],
+        [
+          "Vowel of the nun",
+          "Always fatha",
+          "Always kasra"
+        ]
+      ]
+    },
+    {
+      "id": "s014",
+      "text": "Second: The Conditions for Taking the Sound Masculine Plural"
+    },
+    {
+      "id": "s015",
+      "label_en": "Rule",
+      "text": "Only two kinds of noun take this plural: the proper name (ʿalam) and the adjective (sifa); and each has conditions that must be met."
+    },
+    {
+      "id": "s016",
+      "text": "1 — Conditions for the Proper Name"
+    },
+    {
+      "id": "s017",
+      "items": [
+        "It must be masculine: so 'Fatima' and 'Zaynab' do not take it.",
+        "It must belong to a rational being: so 'Lahiq' as the name of a horse does not take it.",
+        "It must be free of the taʾ of the feminine: so 'Hamza' and 'Talha' do not take it.",
+        "It must be free of composition: so 'Saʿd al-Din' and 'ʿAbd Allah' do not take it."
+      ]
+    },
+    {
+      "id": "s018",
+      "items": [
+        "Muhammad-un, Muhammadun-a",
+        "Zayd-un, Zaydun-a",
+        "Khalid-un, Khalidun-a"
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "2 — Conditions for the Adjective"
+    },
+    {
+      "id": "s020",
+      "items": [
+        "It must qualify a rational masculine: so 'shahiq' (towering) describing a mountain does not take it.",
+        "It must be free of the taʾ of the feminine: so 'ʿallama' and 'rawiya' do not take it.",
+        "It must not be of the pattern 'afʿal' whose feminine is 'faʿlaʾ': so 'ahmar' (red), feminine 'hamraʾ', does not take it.",
+        "It must not be of the pattern 'faʿlan' whose feminine is 'faʿla': so 'sakran' (drunk), feminine 'sakra', does not take it.",
+        "It must not be one in which masculine and feminine are alike: so 'jarih' (wounded) and 'sabur' (patient) do not take it."
+      ]
+    },
+    {
+      "id": "s021",
+      "items": [
+        "mujtahid-un, mujtahidun-a (diligent)",
+        "sabir-un, sabirun-a (patient)",
+        "mukhlis-un, mukhlisun-a (sincere)"
+      ]
+    },
+    {
+      "id": "s022",
+      "headers": [
+        "Missing condition",
+        "Example that cannot take it",
+        "Reason"
+      ],
+      "rows": [
+        [
+          "Masculinity",
+          "Fatima",
+          "A name of a feminine"
+        ],
+        [
+          "Rationality",
+          "Lahiq (a horse's name)",
+          "A name of a non-rational being"
+        ],
+        [
+          "Freedom from the taʾ",
+          "Hamza, ʿallama",
+          "Contains the taʾ of the feminine"
+        ],
+        [
+          "Freedom from composition",
+          "ʿAbd Allah",
+          "A compound name"
+        ],
+        [
+          "Not of the pattern afʿal",
+          "ahmar",
+          "Its feminine is 'hamraʾ'"
+        ],
+        [
+          "Not of the pattern faʿlan",
+          "sakran",
+          "Its feminine is 'sakra'"
+        ],
+        [
+          "Masculine and feminine not alike",
+          "jarih, sabur",
+          "Used for both masculine and feminine"
+        ]
+      ]
+    },
+    {
+      "id": "s023",
+      "label_en": "Warning",
+      "text": "Whatever fails one of these conditions does not take the sound masculine plural; it takes a broken plural or a sound feminine plural instead. So 'ahmar' becomes 'humr', 'sakran' becomes 'sukara', and 'jarih' becomes 'jarha'."
+    },
+    {
+      "id": "s024",
+      "text": "Third: The Plural in the Positions of Iʿrab"
+    },
+    {
+      "id": "s025",
+      "label_en": "Rule",
+      "text": "The sound masculine plural is a declinable noun that occupies every position a singular noun occupies; its position never changes, only its sign does — the waw in place of damma, and the yaʾ in place of fatha and kasra."
+    },
+    {
+      "id": "s026",
+      "text": "1 — In a Nominative Position"
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "al-muʿallimun-a mukhlisun-a",
+          "text": "— The teachers are sincere. (subject and predicate, nominative with waw)"
+        },
+        {
+          "transliteration": "hadara al-muhandisun-a",
+          "text": "— The engineers attended. (subject of the verb, nominative with waw)"
+        },
+        {
+          "transliteration": "kufiʾa al-mutafawwiqun-a",
+          "text": "— The top students were rewarded. (deputy subject, nominative with waw)"
+        },
+        {
+          "transliteration": "kana al-laʿibun-a mutaʿawinin-a",
+          "text": "— The players were cooperative. (noun of kana, nominative with waw)"
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "2 — In an Accusative Position"
+    },
+    {
+      "id": "s029",
+      "items": [
+        {
+          "transliteration": "shakar-tu al-muʿallimin-a",
+          "text": "— I thanked the teachers. (direct object, accusative with yaʾ)"
+        },
+        {
+          "transliteration": "inna al-muslimin-a mutaʿawinun-a",
+          "text": "— Indeed the Muslims are cooperative. (noun of inna, accusative with yaʾ)"
+        },
+        {
+          "transliteration": "kana al-laʿibun-a mutaʿawinin-a",
+          "text": "— The players were cooperative. (predicate of kana, accusative with yaʾ)"
+        },
+        {
+          "transliteration": "aqbala al-tullab-u musriʿin-a",
+          "text": "— The students came forward hurrying. (circumstantial accusative, with yaʾ)"
+        },
+        {
+          "transliteration": "raʾay-tu al-faʾizin-a al-mutafawwiqin-a",
+          "text": "— I saw the top-scoring winners. (adjective, accusative with yaʾ)"
+        }
+      ]
+    },
+    {
+      "id": "s030",
+      "text": "3 — In a Genitive Position"
+    },
+    {
+      "id": "s031",
+      "items": [
+        {
+          "transliteration": "sallam-tu ʿala al-duyuf-i al-qadimin-a",
+          "text": "— I greeted the arriving guests. (adjective, genitive with yaʾ)"
+        },
+        {
+          "transliteration": "hadha kitab-u al-muʿallimin-a",
+          "text": "— This is the teachers' book. (second term of annexation, genitive with yaʾ)"
+        },
+        {
+          "transliteration": "marar-tu bi-al-mujtahidin-a",
+          "text": "— I passed by the diligent ones. (genitive after a preposition, its sign the yaʾ)"
+        }
+      ]
+    },
+    {
+      "id": "s032",
+      "headers": [
+        "Position",
+        "Example",
+        "Sign of iʿrab"
+      ],
+      "rows": [
+        [
+          "Subject / predicate",
+          "al-muʿallimuna mukhlisuna",
+          "Waw (nominative)"
+        ],
+        [
+          "Subject of a verb",
+          "hadara al-muhandisuna",
+          "Waw (nominative)"
+        ],
+        [
+          "Deputy subject",
+          "kufiʾa al-mutafawwiquna",
+          "Waw (nominative)"
+        ],
+        [
+          "Noun of kana",
+          "kana al-laʿibuna mutaʿawinina",
+          "Waw (nominative)"
+        ],
+        [
+          "Direct object",
+          "shakartu al-muʿallimina",
+          "Yaʾ (accusative)"
+        ],
+        [
+          "Noun of inna",
+          "inna al-muslimina mutaʿawinuna",
+          "Yaʾ (accusative)"
+        ],
+        [
+          "Predicate of kana",
+          "kana al-laʿibuna mutaʿawinina",
+          "Yaʾ (accusative)"
+        ],
+        [
+          "Circumstantial accusative",
+          "aqbala al-tullabu musriʿina",
+          "Yaʾ (accusative)"
+        ],
+        [
+          "Genitive after a preposition",
+          "marartu bi-al-mujtahidina",
+          "Yaʾ (genitive)"
+        ],
+        [
+          "Second term of annexation",
+          "hadha kitabu al-muʿallimina",
+          "Yaʾ (genitive)"
+        ]
+      ]
+    },
+    {
+      "id": "s033",
+      "label_en": "Warning",
+      "text": "If this plural occurs as a vocative and is a proper name or an intended indefinite, it is built (mabni) on what it would be raised with — the waw — in the place of the accusative of the vocative; so do not call it 'accusative with the yaʾ'."
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "ya muslimun-a ittahidu",
+          "text": "— O Muslims, unite! (vocative built on the waw, in the place of the accusative)"
+        },
+        {
+          "transliteration": "ya muhammadun-a aqbilu",
+          "text": "— O Muhammads, come! (vocative built on the waw, in the place of the accusative)"
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "Fourth: Dropping the Nun upon Annexation"
+    },
+    {
+      "id": "s036",
+      "label_en": "Rule",
+      "text": "The nun of the sound masculine plural drops when it is annexed, because it stands in place of tanwin, and tanwin drops upon annexation. Thus 'muʿallimu al-madrasa' is originally 'al-muʿallimuna', and 'muhandisi al-sharika' is originally 'al-muhandisuna'."
+    },
+    {
+      "id": "s037",
+      "items": [
+        {
+          "transliteration": "hadara muʿallimu al-madrasa-ti",
+          "text": "— The school's teachers attended. (subject, nominative with waw; the nun dropped for annexation)"
+        },
+        {
+          "transliteration": "kafaʾa al-mudir-u muhandisi al-sharika-ti",
+          "text": "— The manager rewarded the company's engineers. (direct object, accusative with yaʾ; the nun dropped for annexation)"
+        },
+        {
+          "transliteration": "sallam-tu ʿala muwazzafi al-qism-i",
+          "text": "— I greeted the department's staff. (genitive with yaʾ; the nun dropped for annexation)"
+        }
+      ]
+    },
+    {
+      "id": "s038",
+      "label_en": "Note",
+      "text": "Dropping the nun for annexation does not change the sign of iʿrab: an annexed plural stays nominative with the waw and accusative and genitive with the yaʾ — only the nun is gone."
+    },
+    {
+      "id": "s039",
+      "text": "The Plural Annexed to the Speaker's Yaʾ"
+    },
+    {
+      "id": "s040",
+      "label_en": "Rule",
+      "text": "When this plural is annexed to the speaker's yaʾ, its nun drops, then the waw of the nominative turns into a yaʾ and is assimilated into the speaker's yaʾ; so the written form is one and the same in all three cases — 'muʿallimiyya' — and its position is known from the context of the sentence."
+    },
+    {
+      "id": "s041",
+      "items": [
+        {
+          "transliteration": "hadara muʿallimiy-ya",
+          "text": "— My teachers attended. (subject, nominative with the waw elided by assimilation)"
+        },
+        {
+          "transliteration": "shakar-tu muʿallimiy-ya",
+          "text": "— I thanked my teachers. (direct object, accusative with yaʾ)"
+        },
+        {
+          "transliteration": "sallam-tu ʿala muʿallimiy-ya",
+          "text": "— I greeted my teachers. (genitive with yaʾ)"
+        }
+      ]
+    },
+    {
+      "id": "s042",
+      "text": "Fifth: What Is Annexed to the Sound Masculine Plural"
+    },
+    {
+      "id": "s043",
+      "label_en": "Definition",
+      "text": "What is annexed to the sound masculine plural: words inflected exactly like it — waw in the nominative, yaʾ in the accusative and genitive — without being a sound plural, because their singular did not remain unchanged, or they have no singular from their own root, or their singular is neither a proper name nor an adjective."
+    },
+    {
+      "id": "s044",
+      "items": [
+        "ulu (meaning 'possessors of'): it has no singular from its own root.",
+        "banuna (sons): its singular 'ibn' is neither a proper name nor an adjective.",
+        "ahluna (families): its singular 'ahl' is neither a proper name nor an adjective.",
+        "araduna (lands): its singular 'ard' is feminine.",
+        "sinuna (years): its singular 'sana' contains the taʾ of the feminine.",
+        "ʿalamuna, ʿilliyyuna, wabiluna: the conditions of the sound plural are not met in them.",
+        "The tens: ʿishruna, thalathuna, … tisʿuna: they have no singular from their own root.",
+        "Names coined on this plural's form: Zayduna, Hamduna, ʿAbidina."
+      ]
+    },
+    {
+      "id": "s045",
+      "items": [
+        {
+          "transliteration": "jaʾa banun-a kiram-un",
+          "text": "— Noble sons came. (subject, nominative with waw, being annexed to the sound masculine plural)"
+        },
+        {
+          "transliteration": "hafiz-tu ʿishrin-a bayt-an",
+          "text": "— I memorized twenty verses. (direct object, accusative with yaʾ)"
+        },
+        {
+          "transliteration": "aqam-tu fi al-madina-ti sinin-a",
+          "text": "— I stayed in the city for years. (adverbial object, accusative with yaʾ)"
+        },
+        {
+          "transliteration": "sallam-tu ʿala ahlin-a kiram-in",
+          "text": "— I greeted noble families. (genitive with yaʾ)"
+        }
+      ]
+    },
+    {
+      "id": "s046",
+      "headers": [
+        "The word",
+        "Why it is annexed"
+      ],
+      "rows": [
+        [
+          "ulu",
+          "It has no singular from its own root"
+        ],
+        [
+          "banuna / ahluna",
+          "The singular is neither a proper name nor an adjective"
+        ],
+        [
+          "araduna",
+          "The singular is feminine ('ard')"
+        ],
+        [
+          "sinuna",
+          "The singular contains the taʾ of the feminine ('sana')"
+        ],
+        [
+          "ʿishruna … tisʿuna",
+          "They have no singular from their own root"
+        ],
+        [
+          "Zayduna / Hamduna",
+          "A proper name on the form of the plural"
+        ]
+      ]
+    },
+    {
+      "id": "s047",
+      "label_en": "Warning",
+      "text": "The word 'ulu' is used only in annexation, so its nun is always dropped: 'ulu al-albab' in the nominative, and 'uli al-amr' in the accusative and genitive; one never says 'uluna'."
+    },
+    {
+      "id": "s048",
+      "items": [
+        {
+          "transliteration": "hadara ulu al-fadl-i",
+          "text": "— The people of merit attended. (subject, nominative with waw, the nun dropped for annexation)"
+        },
+        {
+          "transliteration": "atiʿ uli al-amr-i",
+          "text": "— Obey those in authority. (direct object, accusative with yaʾ, the nun dropped for annexation)"
+        }
+      ]
+    },
+    {
+      "id": "s049",
+      "text": "Sixth: Making the Maqsur, Manqus, and Mamdud a Sound Plural"
+    },
+    {
+      "id": "s050",
+      "label_en": "Rule",
+      "text": "The shortened noun (maqsur) when made a sound masculine plural: its alif drops, and the letter before the waw and the yaʾ takes a fatha as evidence of the elided alif."
+    },
+    {
+      "id": "s051",
+      "items": [
+        "Mustafa, Mustafawna — Mustafayna",
+        "al-aʿla, al-aʿlawna — al-aʿlayna (the highest)",
+        "Murtada, Murtadawna — Murtadayna"
+      ]
+    },
+    {
+      "id": "s052",
+      "label_en": "Rule",
+      "text": "The defective noun (manqus) when made a sound masculine plural: its yaʾ drops, the letter before the waw takes a damma, and the letter before the yaʾ takes a kasra."
+    },
+    {
+      "id": "s053",
+      "items": [
+        "qadin, qaduna — qadina (a judge, judges)",
+        "daʿin, daʿuna — daʿina (a caller, callers)",
+        "muhamin, muhamuna — muhamina (a lawyer, lawyers)"
+      ]
+    },
+    {
+      "id": "s054",
+      "label_en": "Rule",
+      "text": "The extended noun (mamdud) when made a sound masculine plural: its hamza is treated exactly as in the dual — it stays if original, turns into a waw if it is the hamza of the feminine, and admits both forms if it is converted or augmented for quadriliteralization."
+    },
+    {
+      "id": "s055",
+      "items": [
+        "qarraʾun, qarraʾuna — qarraʾina (a reciter, reciters)",
+        "waddaʾun, waddaʾuna — waddaʾina (a radiant one, radiant ones)"
+      ]
+    },
+    {
+      "id": "s056",
+      "headers": [
+        "Type of noun",
+        "What happens when pluralized",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Maqsur",
+          "The alif drops; a fatha before the waw and the yaʾ",
+          "Mustafa → Mustafawna / Mustafayna"
+        ],
+        [
+          "Manqus",
+          "The yaʾ drops; a damma before the waw, a kasra before the yaʾ",
+          "qadin → qaduna / qadina"
+        ],
+        [
+          "Mamdud",
+          "Its hamza as in the dual",
+          "qarraʾun → qarraʾuna"
+        ]
+      ]
+    },
+    {
+      "id": "s057",
+      "label_en": "Note",
+      "text": "These changes occur in the structure of the word, not in its iʿrab: a plural formed from them is nominative with the waw and accusative and genitive with the yaʾ, like every other sound masculine plural."
+    },
+    {
+      "id": "s058",
+      "items": [
+        {
+          "transliteration": "hadara al-qadun-a",
+          "text": "— The judges attended. (subject, nominative with waw)"
+        },
+        {
+          "transliteration": "saʾal-tu al-qadin-a",
+          "text": "— I asked the judges. (direct object, accusative with yaʾ)"
+        },
+        {
+          "transliteration": "antum al-aʿlawn-a",
+          "text": "— You are the highest. (predicate, nominative with waw; its singular is 'al-aʿla')"
+        }
+      ]
+    },
+    {
+      "id": "s059",
+      "text": "A Comprehensive Table"
+    },
+    {
+      "id": "s060",
+      "headers": [
+        "Type",
+        "Nominative",
+        "Accusative",
+        "Genitive"
+      ],
+      "rows": [
+        [
+          "Sound masculine plural",
+          "Waw",
+          "Yaʾ",
+          "Yaʾ"
+        ],
+        [
+          "Annexed to it (banuna, ʿishruna)",
+          "Waw",
+          "Yaʾ",
+          "Yaʾ"
+        ],
+        [
+          "ulu (used only in annexation)",
+          "Waw, nun dropped",
+          "Yaʾ, nun dropped",
+          "Yaʾ, nun dropped"
+        ],
+        [
+          "Pluralized maqsur",
+          "Waw preceded by fatha",
+          "Yaʾ preceded by fatha",
+          "Yaʾ preceded by fatha"
+        ],
+        [
+          "Pluralized manqus",
+          "Waw preceded by damma",
+          "Yaʾ preceded by kasra",
+          "Yaʾ preceded by kasra"
+        ],
+        [
+          "Broken plural",
+          "Damma",
+          "Fatha",
+          "Kasra"
+        ]
+      ]
+    },
+    {
+      "id": "s061",
+      "label_en": "Warning",
+      "text": "Do not confuse the sound masculine plural with the broken plural: the sound one keeps its singular's structure intact and is inflected with letters, whereas the broken plural has its singular's structure altered and is inflected with short vowels, like a singular."
+    },
+    {
+      "id": "s062",
+      "items": [
+        {
+          "transliteration": "jaʾa al-muʿallimun-a",
+          "text": "— The teachers came. (sound plural: nominative with waw)"
+        },
+        {
+          "transliteration": "jaʾa al-rijal-u",
+          "text": "— The men came. (broken plural: nominative with damma)"
+        }
+      ]
+    },
+    {
+      "id": "s063",
+      "text": "And is every word ending in a waw and nun a sound masculine plural?"
+    },
+    {
+      "id": "s064",
+      "text": "No. It may be annexed to it, like 'banuna' and 'ʿishruna'; and it may be a present-tense verb attached to the waw of the group, like 'yaktubuna', where the waw is the subject and the nun is the sign of the verb's nominative case, not a sign of plurality — which is why it drops in the accusative and the jussive: 'lan yaktubu', 'lam yaktubu'. So the criterion is the word's meaning and function in the sentence, not the shape of its ending."
+    },
+    {
+      "id": "s065",
+      "items": [
+        {
+          "transliteration": "al-muʿallimun-a yaktubun-a al-dars-a",
+          "text": "— The teachers are writing the lesson. (the first is a sound masculine plural, the second a present-tense verb in the nominative by the presence of the nun)"
+        },
+        {
+          "transliteration": "lan yaktubu al-dars-a",
+          "text": "— They will not write the lesson. (the nun dropped for the accusative, since it is the verb's sign of iʿrab)"
+        }
+      ]
+    },
+    {
+      "id": "s066",
+      "text": "Model Iʿrab (1)"
+    },
+    {
+      "id": "s067",
+      "items": [
+        {
+          "transliteration": "kafaʾa al-mudir-u al-muʿallimin-a al-mukhlisin-a",
+          "text": "— The manager rewarded the sincere teachers."
+        }
+      ]
+    },
+    {
+      "id": "s068",
+      "text": "kafaʾa: a past-tense verb, built on the fatha. al-mudiru: the subject of the verb, nominative, its sign the visible damma. al-muʿallimina: the direct object, accusative, its sign the yaʾ because it is a sound masculine plural, the nun standing in place of the tanwin of a singular noun. al-mukhlisina: an adjective qualifying 'al-muʿallimina', accusative, its sign the yaʾ because it is a sound masculine plural. The verbal clause is an opening clause with no place in iʿrab."
+    },
+    {
+      "id": "s069",
+      "text": "Model Iʿrab (2)"
+    },
+    {
+      "id": "s070",
+      "items": [
+        {
+          "transliteration": "hadara muʿallimu al-madrasa-ti wa-ulu al-fadl-i",
+          "text": "— The school's teachers and the people of merit attended."
+        }
+      ]
+    },
+    {
+      "id": "s071",
+      "text": "hadara: a past-tense verb, built on the fatha. muʿallimu: the subject of the verb, nominative, its sign the waw because it is a sound masculine plural, its nun dropped for annexation, and it is the first term of annexation. al-madrasati: the second term of annexation, genitive, its sign the kasra. wa: a conjunction. ulu: conjoined to 'muʿallimu', nominative, its sign the waw because it is annexed to the sound masculine plural, and it is the first term of annexation. al-fadli: the second term of annexation, genitive, its sign the kasra."
+    },
+    {
+      "id": "s072",
+      "text": "From the Noble Qurʾan"
+    },
+    {
+      "id": "s073",
+      "text": "Allah Most High said: \"Certainly will the believers have succeeded\" — Quran 23:1 (Sahih International)"
+    },
+    {
+      "id": "s074",
+      "text": "'Al-muʾminuna' is the subject of the verb, nominative, its sign the waw because it is a sound masculine plural, its nun carrying a fatha in place of the tanwin."
+    },
+    {
+      "id": "s075",
+      "text": "And Allah Most High said: \"Indeed, the Muslim men and Muslim women\" — Quran 33:35 (Sahih International)"
+    },
+    {
+      "id": "s076",
+      "text": "'Al-muslimina' is the noun of inna, accusative, its sign the yaʾ because it is a sound masculine plural. And 'al-muslimati' is conjoined to it, accusative, its sign the kasra because it is a sound feminine plural — so the verse holds both plurals together, each with a sign standing in place of the fatha."
+    },
+    {
+      "id": "s077",
+      "text": "And Allah Most High said: \"Only they will remember who are people of understanding\" — Quran 39:9 (Sahih International)"
+    },
+    {
+      "id": "s078",
+      "text": "'Ulu' is the subject of the verb, nominative, its sign the waw because it is annexed to the sound masculine plural, its nun dropped for annexation, and it is the first term of annexation. 'Al-albab' is the second term of annexation, genitive, its sign the kasra."
+    },
+    {
+      "id": "s079",
+      "text": "And Allah Most High said: \"and you are the superior ones\" — Quran 3:139 (Sahih International)"
+    },
+    {
+      "id": "s080",
+      "text": "'Al-aʿlawna' is the predicate, nominative, its sign the waw because it is a sound masculine plural. Its singular is 'al-aʿla', a shortened (maqsur) noun, so its alif dropped upon pluralization and the fatha before the waw remained as evidence of it."
+    },
+    {
+      "id": "s081",
+      "text": "And Allah Most High said: \"Wealth and children are but adornment of the worldly life\" — Quran 18:46 (Sahih International)"
+    },
+    {
+      "id": "s082",
+      "text": "'Al-banuna' is conjoined to 'al-malu', nominative, its sign the waw because it is annexed to the sound masculine plural, since its singular 'ibn' is neither a proper name nor an adjective."
+    }
+  ]
+}

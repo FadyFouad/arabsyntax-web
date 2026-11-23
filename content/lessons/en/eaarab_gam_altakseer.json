@@ -1,0 +1,700 @@
+{
+  "lesson_id": "eaarab_gam_altakseer",
+  "language": "en",
+  "title": "Iʿrab of the Broken Plural (Iʿrab Jamʿ al-Taksir)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Iʿrab of the Broken Plural"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "The broken plural (jamʿ al-taksir) is what denotes more than two (m. or f.) with a change in its singular's shape — that is, the breaking of its structure; so it carries no sound addition of the kind the two sound plurals carry."
+    },
+    {
+      "id": "s003",
+      "items": [
+        "rajul-un, rijal-un (a man, men)",
+        "kitab-un, kutub-un (a book, books)",
+        "qalam-un, aqlam-un (a pen, pens)",
+        "bab-un, abwab-un (a door, doors)"
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "This lesson is devoted to the iʿrab of the broken plural: its signs, its patterns, the important exception within it — being restricted from full declension — its positions in the sentence, how it is predicated of and qualified, and which plurals get confused with it. The definition of the plural and its kinds were detailed earlier in the lesson 'The Singular, the Dual, and the Plural'."
+    },
+    {
+      "id": "s005",
+      "text": "First: The Signs of Iʿrab of the Broken Plural"
+    },
+    {
+      "id": "s006",
+      "label_en": "Rule",
+      "text": "The broken plural is inflected with visible short vowels, like a singular noun: nominative with the damma, accusative with the fatha, and genitive with the kasra."
+    },
+    {
+      "id": "s007",
+      "items": [
+        {
+          "transliteration": "jaʾa al-rijal-u",
+          "text": "— The men came. (nominative with damma)"
+        },
+        {
+          "transliteration": "qabal-tu al-rijal-a",
+          "text": "— I met the men. (accusative with fatha)"
+        },
+        {
+          "transliteration": "marar-tu bi-al-rijal-i",
+          "text": "— I passed by the men. (genitive with kasra)"
+        }
+      ]
+    },
+    {
+      "id": "s008",
+      "headers": [
+        "Case",
+        "Sign",
+        "Example",
+        "Its iʿrab"
+      ],
+      "rows": [
+        [
+          "Nominative",
+          "Damma",
+          "jaʾa al-rijalu",
+          "Subject, nominative, its sign the damma"
+        ],
+        [
+          "Accusative",
+          "Fatha",
+          "qabaltu al-rijala",
+          "Direct object, accusative, its sign the fatha"
+        ],
+        [
+          "Genitive",
+          "Kasra",
+          "marartu bi-al-rijali",
+          "Genitive noun, its sign the kasra"
+        ]
+      ]
+    },
+    {
+      "id": "s009",
+      "text": "And why is the broken plural not inflected with letters, as the dual and the two sound plurals are?"
+    },
+    {
+      "id": "s010",
+      "text": "Because inflection with letters needs an added letter to carry it. The dual and the sound masculine plural have an alif, or a waw and yaʾ, added to their singular, so those letters could serve as signs. The broken plural, however, did not keep its singular's structure intact — its shape changed from within — so no added letter remained that could serve as a sign; it therefore stayed on the original footing, inflected with short vowels like a singular."
+    },
+    {
+      "id": "s011",
+      "label_en": "Note",
+      "text": "So the broken plural and the sound feminine plural agree in taking the damma for the nominative and the kasra for the genitive, and differ in the accusative: the former takes the fatha, the latter the kasra."
+    },
+    {
+      "id": "s012",
+      "text": "Second: Its Kinds — Plural of Paucity and Plural of Abundance"
+    },
+    {
+      "id": "s013",
+      "label_en": "Definition",
+      "text": "The plural of paucity (jamʿ al-qilla) denotes from three to ten; the plural of abundance (jamʿ al-kathra) denotes more than ten. They are distinguished by their patterns."
+    },
+    {
+      "id": "s014",
+      "label_en": "Rule",
+      "text": "The patterns of the plural of paucity are four: afʿul, afʿal, afʿila, and fiʿla."
+    },
+    {
+      "id": "s015",
+      "headers": [
+        "Pattern",
+        "Example",
+        "Its singular"
+      ],
+      "rows": [
+        [
+          "afʿul",
+          "anfusun, arjulun",
+          "nafsun, rijlun"
+        ],
+        [
+          "afʿal",
+          "aqlamun, abwabun",
+          "qalamun, babun"
+        ],
+        [
+          "afʿila",
+          "aʿmidatun, asʾilatun",
+          "ʿamudun, suʾalun"
+        ],
+        [
+          "fiʿla",
+          "fityatun, sibyatun",
+          "fata, sabiyyun"
+        ]
+      ]
+    },
+    {
+      "id": "s016",
+      "items": [
+        "qalam-un, aqlamun (a pen, pens)",
+        "ʿamud-un, aʿmidatun (a pillar, pillars)",
+        "fata, fityatun (a youth, youths)"
+      ]
+    },
+    {
+      "id": "s017",
+      "label_en": "Rule",
+      "text": "The patterns of the plural of abundance are many, among them: fuʿul, fiʿal, fuʿul (as in buyut), fuʿalaʾ, afʿilaʾ, mafaʿil, mafaʿil (with a long vowel), fawaʿil, and faʿaʾil."
+    },
+    {
+      "id": "s018",
+      "headers": [
+        "Pattern",
+        "Example",
+        "Its singular"
+      ],
+      "rows": [
+        [
+          "fuʿul",
+          "kutubun",
+          "kitabun"
+        ],
+        [
+          "fiʿal",
+          "rijalun, jibalun",
+          "rajulun, jabalun"
+        ],
+        [
+          "fuʿul (buyut)",
+          "buyutun, ʿulumun",
+          "baytun, ʿilmun"
+        ],
+        [
+          "fuʿalaʾ",
+          "ʿulamaʾu, shuʿaraʾu",
+          "ʿalimun, shaʿirun"
+        ],
+        [
+          "afʿilaʾ",
+          "asdiqaʾu, anbiyaʾu",
+          "sadiqun, nabiyyun"
+        ],
+        [
+          "mafaʿil",
+          "masajidu, makatibu",
+          "masjidun, maktabun"
+        ],
+        [
+          "mafaʿil (long)",
+          "masabihu, mafatihu",
+          "misbahun, miftahun"
+        ],
+        [
+          "fawaʿil",
+          "shawariʿu, jawamiʿu",
+          "shariʿun, jamiʿun"
+        ],
+        [
+          "faʿaʾil",
+          "rasaʾilu, sahaʾifu",
+          "risalatun, sahifatun"
+        ]
+      ]
+    },
+    {
+      "id": "s019",
+      "items": [
+        "kitab-un, kutubun (a book, books)",
+        "ʿalim-un, ʿulamaʾu (a scholar, scholars)",
+        "misbah-un, masabihu (a lamp, lamps)",
+        "risala-tun, rasaʾilu (a letter, letters)"
+      ]
+    },
+    {
+      "id": "s020",
+      "label_en": "Note",
+      "text": "Dividing the broken plural into paucity and abundance is a morphological division concerning pattern and the number denoted; it has no bearing on iʿrab, for both kinds are inflected with visible short vowels."
+    },
+    {
+      "id": "s021",
+      "text": "Third: Sighat Muntaha al-Jumuʿ and Restriction from Full Declension"
+    },
+    {
+      "id": "s022",
+      "label_en": "Definition",
+      "text": "Sighat muntaha al-jumuʿ (the ultimate plural form) is every broken plural after whose plural-alif come two letters, or three letters whose middle one is quiescent. It is so named because it is the furthest form to which a noun is pluralized."
+    },
+    {
+      "id": "s023",
+      "items": [
+        "masajidu (mosques)",
+        "masabihu (lamps)",
+        "tajaribu (experiments)",
+        "afadilu (the excellent ones)",
+        "mafatihu (keys)",
+        "ʿasafiru (sparrows)"
+      ]
+    },
+    {
+      "id": "s024",
+      "label_en": "Rule",
+      "text": "Whatever comes on sighat muntaha al-jumuʿ is restricted from full declension (mamnuʿ min al-sarf): it takes no tanwin, and it is genitive with the fatha in place of the kasra. Its nominative and accusative stay on the original footing: the damma and the fatha."
+    },
+    {
+      "id": "s025",
+      "items": [
+        {
+          "transliteration": "fi al-madina-ti masajid-u",
+          "text": "— In the city there are mosques. (nominative with damma, no tanwin)"
+        },
+        {
+          "transliteration": "bana al-muslimun-a masajid-a",
+          "text": "— The Muslims built mosques. (accusative with fatha, no tanwin)"
+        },
+        {
+          "transliteration": "sallay-tu fi masajid-a kathira-tin",
+          "text": "— I prayed in many mosques. (genitive with fatha in place of the kasra)"
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "label_en": "Warning",
+      "text": "A noun restricted from full declension recovers its genitive kasra if the definite article 'al' is prefixed to it or if it is the first term of annexation: 'sallaytu fi al-masajidi' and 'sallaytu fi masajidi al-madinati', both with the kasra."
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "sallay-tu fi masajid-a",
+          "text": "— I prayed in mosques. (bare indefinite: genitive with fatha)"
+        },
+        {
+          "transliteration": "sallay-tu fi al-masajid-i",
+          "text": "— I prayed in the mosques. ('al' prefixed: genitive with kasra)"
+        },
+        {
+          "transliteration": "sallay-tu fi masajid-i al-madina-ti",
+          "text": "— I prayed in the mosques of the city. (annexed: genitive with kasra)"
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "headers": [
+        "State",
+        "Example",
+        "Sign of the genitive"
+      ],
+      "rows": [
+        [
+          "Bare indefinite, no 'al', not annexed",
+          "sallaytu fi masajida",
+          "Fatha in place of the kasra"
+        ],
+        [
+          "Definite with 'al'",
+          "sallaytu fi al-masajidi",
+          "Kasra"
+        ],
+        [
+          "Annexed",
+          "sallaytu fi masajidi al-madinati",
+          "Kasra"
+        ]
+      ]
+    },
+    {
+      "id": "s029",
+      "text": "And what is the test for sighat muntaha al-jumuʿ, so that we may recognize it in speech?"
+    },
+    {
+      "id": "s030",
+      "text": "Look at the plural-alif in the middle of the word, then count what follows it. If two letters follow, it belongs to this form — as in 'masajidu', where after the alif come j and d. If three letters follow whose middle one is quiescent, it also belongs to it — as in 'masabihu', where after the alif come b, y, and h, the yaʾ being quiescent. If the count is greater, or the middle letter is not quiescent, it does not belong to it."
+    },
+    {
+      "id": "s031",
+      "label_en": "Note",
+      "text": "Restriction from full declension is not peculiar to the broken plural; it covers other nouns for various causes, detailed in the lesson 'Al-Mamnuʿ min al-Sarf'. What concerns us here is that sighat muntaha al-jumuʿ among broken plurals is always restricted from full declension."
+    },
+    {
+      "id": "s032",
+      "text": "Fourth: The Plural in the Positions of Iʿrab"
+    },
+    {
+      "id": "s033",
+      "label_en": "Rule",
+      "text": "The broken plural is a declinable noun that occupies every position a singular noun occupies, and its signs are the very signs of the singular."
+    },
+    {
+      "id": "s034",
+      "text": "1 — In a Nominative Position"
+    },
+    {
+      "id": "s035",
+      "items": [
+        {
+          "transliteration": "al-kutub-u nafiʿa-tun",
+          "text": "— Books are beneficial. (subject and predicate, nominative with damma)"
+        },
+        {
+          "transliteration": "hadara al-rijal-u",
+          "text": "— The men attended. (subject of the verb, nominative with damma)"
+        },
+        {
+          "transliteration": "futihati al-abwab-u",
+          "text": "— The doors were opened. (deputy subject, nominative with damma)"
+        },
+        {
+          "transliteration": "kanati al-jibal-u shahiqa-tan",
+          "text": "— The mountains were towering. (noun of kana, nominative with damma)"
+        }
+      ]
+    },
+    {
+      "id": "s036",
+      "text": "2 — In an Accusative Position"
+    },
+    {
+      "id": "s037",
+      "items": [
+        {
+          "transliteration": "qaraʾ-tu al-kutub-a",
+          "text": "— I read the books. (direct object, accusative with fatha)"
+        },
+        {
+          "transliteration": "inna al-rijal-a mujtahidun-a",
+          "text": "— Indeed the men are diligent. (noun of inna, accusative with fatha)"
+        },
+        {
+          "transliteration": "kanati al-jibal-u shahiqa-tan",
+          "text": "— The mountains were towering. (predicate of kana, accusative with fatha)"
+        },
+        {
+          "transliteration": "aqbala al-rijal-u musriʿin-a",
+          "text": "— The men came forward hurrying. (circumstantial accusative with the yaʾ, being a sound masculine plural)"
+        },
+        {
+          "transliteration": "raʾay-tu al-jibal-a al-shahiqa-ta",
+          "text": "— I saw the towering mountains. (adjective, accusative with fatha)"
+        }
+      ]
+    },
+    {
+      "id": "s038",
+      "text": "3 — In a Genitive Position"
+    },
+    {
+      "id": "s039",
+      "items": [
+        {
+          "transliteration": "marar-tu bi-al-rijal-i",
+          "text": "— I passed by the men. (genitive after a preposition, its sign the kasra)"
+        },
+        {
+          "transliteration": "hadhihi aghlifa-tu al-kutub-i",
+          "text": "— These are the books' covers. (second term of annexation, genitive with kasra)"
+        },
+        {
+          "transliteration": "nazar-tu ila jibal-in shahiqa-tin",
+          "text": "— I looked at towering mountains. (adjective, genitive with kasra)"
+        }
+      ]
+    },
+    {
+      "id": "s040",
+      "headers": [
+        "Position",
+        "Example",
+        "Sign of iʿrab"
+      ],
+      "rows": [
+        [
+          "Subject / predicate",
+          "al-kutubu nafiʿatun",
+          "Damma (nominative)"
+        ],
+        [
+          "Subject of a verb",
+          "hadara al-rijalu",
+          "Damma (nominative)"
+        ],
+        [
+          "Deputy subject",
+          "futihati al-abwabu",
+          "Damma (nominative)"
+        ],
+        [
+          "Noun of kana",
+          "kanati al-jibalu shahiqatan",
+          "Damma (nominative)"
+        ],
+        [
+          "Direct object",
+          "qaraʾtu al-kutuba",
+          "Fatha (accusative)"
+        ],
+        [
+          "Noun of inna",
+          "inna al-rijala mujtahiduna",
+          "Fatha (accusative)"
+        ],
+        [
+          "Accusative adjective",
+          "raʾaytu al-jibala al-shahiqata",
+          "Fatha (accusative)"
+        ],
+        [
+          "Genitive after a preposition",
+          "marartu bi-al-rijali",
+          "Kasra (genitive)"
+        ],
+        [
+          "Second term of annexation",
+          "aghlifatu al-kutubi",
+          "Kasra (genitive)"
+        ],
+        [
+          "Restricted from declension, genitive",
+          "sallaytu fi masajida",
+          "Fatha (genitive)"
+        ]
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "Fifth: How the Broken Plural Is Predicated Of and Qualified"
+    },
+    {
+      "id": "s042",
+      "label_en": "Rule",
+      "text": "The plural of what is non-rational is treated as a singular feminine: it is predicated of, qualified, and referred back to with a singular feminine, and a verb is attached to it in the feminine."
+    },
+    {
+      "id": "s043",
+      "items": [
+        {
+          "transliteration": "al-kutub-u nafiʿa-tun",
+          "text": "— Books are beneficial. (a singular feminine predicate)"
+        },
+        {
+          "transliteration": "al-jibal-u shahiqa-tun",
+          "text": "— The mountains are towering. (a singular feminine predicate)"
+        },
+        {
+          "transliteration": "al-abwab-u futihat",
+          "text": "— The doors were opened. (the verb attached in the feminine)"
+        }
+      ]
+    },
+    {
+      "id": "s044",
+      "label_en": "Note",
+      "text": "As for the plural of rational beings, both ways are permitted: observing the plural or observing the feminine. So you say 'al-rijalu hadaru' and 'al-rijalu hadarat', the first being the more eloquent and the more common."
+    },
+    {
+      "id": "s045",
+      "items": [
+        {
+          "transliteration": "al-rijal-u mujtahidun-a",
+          "text": "— The men are diligent. (observing the plural)"
+        },
+        {
+          "transliteration": "al-rijal-u hadarat",
+          "text": "— The men attended. (observing the feminine, which is permitted)"
+        }
+      ]
+    },
+    {
+      "id": "s046",
+      "text": "Sixth: What Gets Confused with It"
+    },
+    {
+      "id": "s047",
+      "label_en": "Warning",
+      "text": "Some broken plurals end in an alif and taʾ, so they resemble the sound feminine plural in shape; but their alif and taʾ are not added to a sound singular, so they are accusative with the fatha, not the kasra — e.g. qudah (judges), abyat (verses), amwat (dead), aswat (voices)."
+    },
+    {
+      "id": "s048",
+      "items": [
+        {
+          "transliteration": "saʾal-tu al-qudah-a",
+          "text": "— I asked the judges. (broken plural: accusative with fatha)"
+        },
+        {
+          "transliteration": "hafiz-tu al-abyat-a",
+          "text": "— I memorized the verses. (broken plural: accusative with fatha)"
+        },
+        {
+          "transliteration": "raʾay-tu al-talibat-i",
+          "text": "— I saw the female students. (sound feminine plural: accusative with kasra)"
+        }
+      ]
+    },
+    {
+      "id": "s049",
+      "headers": [
+        "Point of comparison",
+        "Broken plural",
+        "Sound masculine plural",
+        "Sound feminine plural"
+      ],
+      "rows": [
+        [
+          "The singular's structure",
+          "Changed",
+          "Intact",
+          "Intact"
+        ],
+        [
+          "Nominative",
+          "Damma",
+          "Waw",
+          "Damma"
+        ],
+        [
+          "Accusative",
+          "Fatha",
+          "Yaʾ",
+          "Kasra"
+        ],
+        [
+          "Genitive",
+          "Kasra",
+          "Yaʾ",
+          "Kasra"
+        ]
+      ]
+    },
+    {
+      "id": "s050",
+      "label_en": "Warning",
+      "text": "So here is the practical measure: if a word is inflected with letters it is a dual or a sound masculine plural; if it is inflected with short vowels it is a singular, a broken plural, or a sound feminine plural — and the last two are told apart by the sign of the accusative."
+    },
+    {
+      "id": "s051",
+      "text": "A Comprehensive Table"
+    },
+    {
+      "id": "s052",
+      "headers": [
+        "Type",
+        "Nominative",
+        "Accusative",
+        "Genitive"
+      ],
+      "rows": [
+        [
+          "Broken plural, fully declinable",
+          "Damma",
+          "Fatha",
+          "Kasra"
+        ],
+        [
+          "Broken plural restricted from declension",
+          "Damma",
+          "Fatha",
+          "Fatha"
+        ],
+        [
+          "Restricted, but with 'al' or annexed",
+          "Damma",
+          "Fatha",
+          "Kasra"
+        ],
+        [
+          "Sound masculine plural",
+          "Waw",
+          "Yaʾ",
+          "Yaʾ"
+        ],
+        [
+          "Sound feminine plural",
+          "Damma",
+          "Kasra",
+          "Kasra"
+        ],
+        [
+          "The dual",
+          "Alif",
+          "Yaʾ",
+          "Yaʾ"
+        ]
+      ]
+    },
+    {
+      "id": "s053",
+      "text": "Model Iʿrab (1)"
+    },
+    {
+      "id": "s054",
+      "items": [
+        {
+          "transliteration": "qaraʾ-tu al-kutub-a al-nafiʿa-ta",
+          "text": "— I read the beneficial books."
+        }
+      ]
+    },
+    {
+      "id": "s055",
+      "text": "qaraʾtu: a past-tense verb, built on quiescence because it is attached to the taʾ of the subject; the taʾ is an attached pronoun in the place of the nominative as the subject. al-kutuba: the direct object, accusative, its sign the visible fatha, because it is a broken plural inflected with short vowels. al-nafiʿata: an adjective qualifying 'al-kutuba', accusative, its sign the fatha; it came singular and feminine because the qualified noun is a plural of what is non-rational."
+    },
+    {
+      "id": "s056",
+      "text": "Model Iʿrab (2)"
+    },
+    {
+      "id": "s057",
+      "items": [
+        {
+          "transliteration": "sallay-tu fi masajid-a kathira-tin",
+          "text": "— I prayed in many mosques."
+        }
+      ]
+    },
+    {
+      "id": "s058",
+      "text": "sallaytu: a past-tense verb, built on quiescence because it is attached to the taʾ of the subject; the taʾ is in the place of the nominative as the subject. fi: a preposition. masajida: a genitive noun, its sign the fatha in place of the kasra, because it is restricted from full declension on sighat muntaha al-jumuʿ — which is also why it took no tanwin. kathiratin: an adjective qualifying 'masajida', genitive, its sign the kasra; for an adjective follows its qualified noun in the case itself, not in the sign, so it is genitive like it but with the kasra, since it is not restricted from full declension."
+    },
+    {
+      "id": "s059",
+      "text": "From the Noble Qurʾan"
+    },
+    {
+      "id": "s060",
+      "text": "Allah Most High said: \"And the mountains as stakes\" — Quran 78:7 (Sahih International)"
+    },
+    {
+      "id": "s061",
+      "text": "'Al-jibala' is conjoined to 'al-arda', accusative, its sign the visible fatha, because it is a broken plural inflected with short vowels. 'Awtadan' is a second direct object, accusative, its sign the fatha; it is a fully declinable broken plural, so it took tanwin."
+    },
+    {
+      "id": "s062",
+      "text": "And Allah Most High said: \"there would have been demolished monasteries, churches, synagogues, and mosques\" — Quran 22:40 (Sahih International)"
+    },
+    {
+      "id": "s063",
+      "text": "'Sawamiʿu' is the deputy subject, nominative, its sign the damma, and it took no tanwin because it comes on sighat muntaha al-jumuʿ and so is restricted from full declension. 'Masajidu' is conjoined to it, nominative with the damma and likewise without tanwin, for the same cause. 'Biyaʿun' and 'salawatun', however, are fully declinable, so tanwin attached to them — the restricted and the declinable together in one context."
+    },
+    {
+      "id": "s064",
+      "text": "And Allah Most High said: \"with vessels and pitchers\" — Quran 56:18 (Sahih International)"
+    },
+    {
+      "id": "s065",
+      "text": "'Abariqa' is conjoined to 'akwabin', genitive, its sign the fatha in place of the kasra, because it is restricted from full declension on sighat muntaha al-jumuʿ — after its alif come three letters whose middle one is quiescent. 'Akwabin', by contrast, took tanwin and the genitive kasra because it is fully declinable — the clearest possible evidence of the difference."
+    },
+    {
+      "id": "s066",
+      "text": "And Allah Most High said: \"And when the mountains are removed\" — Quran 81:3 (Sahih International)"
+    },
+    {
+      "id": "s067",
+      "text": "'Al-jibalu' is the deputy subject, nominative, its sign the damma, because it is a broken plural. The verb was attached to it in the feminine ('suyyirat') because the plural of what is non-rational is treated as a singular feminine — evidence for the rule given above."
+    }
+  ]
+}

@@ -49,6 +49,22 @@
     { "id": "thawabet_erabia", "lessonId": "thawabet_erabia", "title": "ثوابت إعرابية", "prerequisites": ["almobtada_w_alkhabar", "alfaael_w_naeb_alfaeel", "almodaf_w_modaf_eleh"] },
     { "id": "alatf", "lessonId": "alatf", "title": "العطف", "prerequisites": ["alnaat"] },
     { "id": "altawkeed", "lessonId": "altawkeed", "title": "التوكيد", "prerequisites": ["alnaat"] },
-    { "id": "albadal", "lessonId": "albadal", "title": "البدل", "prerequisites": ["alnaat"] }
+    { "id": "albadal", "lessonId": "albadal", "title": "البدل", "prerequisites": ["alnaat"] },
+    { "id": "nakera_w_maerefa", "lessonId": "nakera_w_maerefa", "title": "النكرة والمعرفة", "prerequisites": ["anwaa_asmaa"] },
+    { "id": "almofrad_w_almothana_w_algam", "lessonId": "almofrad_w_almothana_w_algam", "title": "المفرد والمثنى والجمع", "prerequisites": ["anwaa_asmaa"] },
+    { "id": "eaarab_almothana", "lessonId": "eaarab_almothana", "title": "إعراب المثنى", "prerequisites": ["almofrad_w_almothana_w_algam", "aleaarab_w_albenaa"] },
+    { "id": "eaarab_gam_almozakar", "lessonId": "eaarab_gam_almozakar", "title": "إعراب جمع المذكر السالم", "prerequisites": ["almofrad_w_almothana_w_algam", "aleaarab_w_albenaa"] },
+    { "id": "eaarab_gam_almoanath", "lessonId": "eaarab_gam_almoanath", "title": "إعراب جمع المؤنث السالم", "prerequisites": ["almofrad_w_almothana_w_algam", "aleaarab_w_albenaa"] },
+    { "id": "eaarab_gam_altakseer", "lessonId": "eaarab_gam_altakseer", "title": "إعراب جمع التكسير", "prerequisites": ["almofrad_w_almothana_w_algam", "aleaarab_w_albenaa"] },
+    { "id": "algomla_alesmia_w_alfealia", "lessonId": "algomla_alesmia_w_alfealia", "title": "الجملة الاسمية والجملة الفعلية", "prerequisites": ["almobtada_w_alkhabar", "alfaael_w_naeb_alfaeel"] },
+    { "id": "almezan_alsarfy", "lessonId": "almezan_alsarfy", "title": "الميزان الصرفي", "prerequisites": ["alfeaal_almogarad_w_mazeed"] },
+    { "id": "motabakat_alfeal_llfaeel", "lessonId": "motabakat_alfeal_llfaeel", "title": "مطابقة الفعل للفاعل تذكيرًا وتأنيثًا", "prerequisites": ["alfaael_w_naeb_alfaeel"] },
+    { "id": "seagh_almobalgha", "lessonId": "seagh_almobalgha", "title": "صيغ المبالغة", "prerequisites": ["esm_faeel"] },
+    { "id": "esm_alzaman_w_almakan", "lessonId": "esm_alzaman_w_almakan", "title": "اسما الزمان والمكان", "prerequisites": ["almezan_alsarfy"] },
+    { "id": "esm_aalah", "lessonId": "esm_aalah", "title": "اسم الآلة", "prerequisites": ["almezan_alsarfy"] },
+    { "id": "adawat_alestefham", "lessonId": "adawat_alestefham", "title": "أدوات الاستفهام", "prerequisites": ["aleaarab_w_albenaa"] },
+    { "id": "adawat_alnafy", "lessonId": "adawat_alnafy", "title": "أدوات النفي", "prerequisites": ["la_alnafia_lelgens"] },
+    { "id": "oslop_almadh_w_aldhamm", "lessonId": "oslop_almadh_w_aldhamm", "title": "أسلوبا المدح والذم", "prerequisites": ["almobtada_w_alkhabar"] },
+    { "id": "mahal_algomal_mn_alearab", "lessonId": "mahal_algomal_mn_alearab", "title": "الجمل التي لها وليس لها محل من الإعراب", "prerequisites": ["algomla_alesmia_w_alfealia"] }
   ]
 }

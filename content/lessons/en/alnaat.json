@@ -260,6 +260,53 @@
       "text": "On the surface, the interrogative clause appears to be a naʿt for the indefinite (madhq); but it is not so. Rather, the interrogative clause is the object of an omitted 'qawl' (saying), which is the actual naʿt. The implied form: 'they came with a milk-and-water of which it is said: have you ever seen the wolf?'"
     },
     {
+      "id": "s091",
+      "text": "A Quasi-Sentence (Shibh al-Jumla) Acting as Al-Naʿt"
+    },
+    {
+      "id": "s092",
+      "text": "• Just as a naʿt may be a sentence, it may also be a quasi-sentence: an adverbial (zarf) or a prepositional phrase (jarr wa-majrur). As with the sentence, the manʿut must be indefinite."
+    },
+    {
+      "id": "s093",
+      "items": [
+        {
+          "transliteration": "marar-tu bi-rajulin ʿindaka",
+          "text": "— I passed by a man [who was] with you."
+        },
+        {
+          "transliteration": "raʾay-tu taʾiran fawqa al-shajarati",
+          "text": "— I saw a bird [that was] above the tree."
+        },
+        {
+          "transliteration": "hadha kitabun fi al-nahwi",
+          "text": "— This is a book [that is] on grammar."
+        }
+      ]
+    },
+    {
+      "id": "s094",
+      "text": "• The quasi-sentence is not, strictly speaking, the naʿt itself. It is attached to an omitted naʿt understood as 'kaʾin' ('being') or 'mustaqirr' ('located'). So 'marartu bi-rajulin ʿindaka' is understood as 'marartu bi-rajulin kaʾinin ʿindaka', and 'hadha kitabun fi al-nahwi' as 'hadha kitabun kaʾinun fi al-nahwi'. It is therefore parsed as attached to an omitted naʿt."
+    },
+    {
+      "id": "s095",
+      "items": [
+        {
+          "transliteration": "wa-ma min dabbatin fi al-ardi illa ʿala Allahi rizquha",
+          "text": "\"And there is no creature on earth but that upon Allah is its provision.\" — Quran 11:6 (Sahih International)"
+        }
+      ]
+    },
+    {
+      "id": "s096",
+      "text": "'Fi al-ardi' is a prepositional phrase attached to an omitted naʿt qualifying 'dabbatin' — understood as 'wa-ma min dabbatin kaʾinatin fi al-ardi' — because 'dabba' is indefinite, and a quasi-sentence following an indefinite noun is its naʿt."
+    },
+    {
+      "id": "s097",
+      "label_en": "Note",
+      "text": "Sentences and quasi-sentences are adjectives (sifat) after indefinite nouns and circumstantial accusatives (ahwal) after definite ones. In 'marartu bi-rajulin ʿindaka', 'ʿindaka' is a naʿt because 'rajul' is indefinite; in 'marartu bi-l-rajuli ʿindaka', 'ʿindaka' is a hal because 'al-rajul' is definite."
+    },
+    {
       "id": "s055",
       "text": "Use of a Masdar as Al-Naʿt"
     },

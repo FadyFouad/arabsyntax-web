@@ -1,0 +1,456 @@
+{
+  "lesson_id": "almofrad_w_almothana_w_algam",
+  "language": "en",
+  "title": "The Singular, the Dual, and the Plural (Al-Mufrad wa-l-Muthanna wa-l-Jamʿ)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "The Singular, the Dual, and the Plural"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "By number (how much it denotes), the noun divides into three categories: the singular (mufrad), the dual (muthanna), and the plural (jamʿ)."
+    },
+    {
+      "id": "s003",
+      "headers": [
+        "Category",
+        "What it denotes",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Singular",
+          "One (m.) or one (f.)",
+          "muslim-un / muslima-tun"
+        ],
+        [
+          "Dual",
+          "Two (m.) or two (f.)",
+          "musliman-i / muslimatan-i"
+        ],
+        [
+          "Plural",
+          "More than two (m. or f.)",
+          "muslimun-a / muslimat-un"
+        ]
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "A single word may denote one individual, or two, or a group; and each of these categories has its own signs of iʿrab (grammatical inflection)."
+    },
+    {
+      "id": "s005",
+      "text": "First: The Singular"
+    },
+    {
+      "id": "s006",
+      "label_en": "Definition",
+      "text": "The singular (mufrad) is what denotes one (masculine) or one (feminine) — e.g. talib (a student, m.), taliba (a student, f.), kitab (a book), shajara (a tree)."
+    },
+    {
+      "id": "s007",
+      "label_en": "Rule",
+      "text": "The singular is inflected with visible short vowels: nominative with damma, accusative with fatha, and genitive with kasra."
+    },
+    {
+      "id": "s008",
+      "items": [
+        {
+          "transliteration": "jaʾa al-talib-u",
+          "text": "— The student came. (nominative with damma)"
+        },
+        {
+          "transliteration": "raʾay-tu al-talib-a",
+          "text": "— I saw the student. (accusative with fatha)"
+        },
+        {
+          "transliteration": "sallam-tu ʿala al-talib-i",
+          "text": "— I greeted the student. (genitive with kasra)"
+        }
+      ]
+    },
+    {
+      "id": "s009",
+      "text": "Second: The Dual"
+    },
+    {
+      "id": "s010",
+      "label_en": "Definition",
+      "text": "The dual (muthanna) is what denotes two (m.) or two (f.), by adding an alif and nun, or a yaʾ and nun, to its singular; and it is valid to strip the addition and conjoin its like to it."
+    },
+    {
+      "id": "s011",
+      "label_en": "Rule",
+      "text": "A noun is made dual by adding '-an-i' in the nominative, and '-ayn-i' in the accusative and genitive, to the end of the singular."
+    },
+    {
+      "id": "s012",
+      "items": [
+        "talib-un, taliban-i (a student, two students)",
+        "muʿallima-tun, muʿallimatan-i (a teacher f., two teachers f.)",
+        "kitab-un, kitaban-i (a book, two books)"
+      ]
+    },
+    {
+      "id": "s013",
+      "label_en": "Rule",
+      "text": "The dual is in the nominative with the alif (instead of damma), and in the accusative and genitive with the yaʾ (instead of fatha and kasra)."
+    },
+    {
+      "id": "s014",
+      "items": [
+        {
+          "transliteration": "hadara al-taliban-i",
+          "text": "— The two students attended. (nominative with alif)"
+        },
+        {
+          "transliteration": "karram-tu al-talibayn-i",
+          "text": "— I honored the two students. (accusative with yaʾ)"
+        },
+        {
+          "transliteration": "sallam-tu ʿala al-talibayn-i",
+          "text": "— I greeted the two students. (genitive with yaʾ)"
+        }
+      ]
+    },
+    {
+      "id": "s015",
+      "headers": [
+        "Case",
+        "Sign of iʿrab",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Nominative",
+          "Alif",
+          "al-talibani mujtahidani (the two students are diligent)"
+        ],
+        [
+          "Accusative",
+          "Yaʾ",
+          "raʾaytu al-talibayni (I saw the two students)"
+        ],
+        [
+          "Genitive",
+          "Yaʾ",
+          "marartu bi-al-talibayni (I passed by the two students)"
+        ]
+      ]
+    },
+    {
+      "id": "s016",
+      "label_en": "Note",
+      "text": "The nun of the dual is dropped upon annexation (idafa) — e.g. 'taliba al-ʿilm' (the two students of knowledge), originally 'al-talibani'; and 'kitaba al-tilmidh' (the two books of the pupil), originally 'al-kitabani'."
+    },
+    {
+      "id": "s017",
+      "items": [
+        {
+          "transliteration": "hadara taliba al-ʿilm-i",
+          "text": "— The two students of knowledge attended."
+        },
+        {
+          "transliteration": "qaraʾ-tu kitabay al-tilmidh-i",
+          "text": "— I read the pupil's two books."
+        }
+      ]
+    },
+    {
+      "id": "s018",
+      "text": "Third: The Plural"
+    },
+    {
+      "id": "s019",
+      "label_en": "Definition",
+      "text": "The plural (jamʿ) is what denotes more than two (m. or f.). It is of three kinds: the sound masculine plural, the sound feminine plural, and the broken plural."
+    },
+    {
+      "id": "s020",
+      "text": "1 — The Sound Masculine Plural"
+    },
+    {
+      "id": "s021",
+      "label_en": "Definition",
+      "text": "The sound masculine plural (jamʿ mudhakkar salim) is what denotes more than two by adding a waw and nun, or a yaʾ and nun, to its singular, with the singular's structure remaining sound (unchanged)."
+    },
+    {
+      "id": "s022",
+      "label_en": "Rule",
+      "text": "It is made a sound masculine plural by adding '-un-a' in the nominative, and '-in-a' in the accusative and genitive."
+    },
+    {
+      "id": "s023",
+      "items": [
+        "muslim-un, muslimun-a (a Muslim, Muslims)",
+        "muʿallim-un, muʿallimun-a (a teacher, teachers)",
+        "mujtahid-un, mujtahidun-a (a diligent one, diligent ones)"
+      ]
+    },
+    {
+      "id": "s024",
+      "label_en": "Rule",
+      "text": "The sound masculine plural is in the nominative with the waw (instead of damma), and in the accusative and genitive with the yaʾ (instead of fatha and kasra)."
+    },
+    {
+      "id": "s025",
+      "items": [
+        {
+          "transliteration": "faza al-mujtahidun-a",
+          "text": "— The diligent ones won. (nominative with waw)"
+        },
+        {
+          "transliteration": "karram-tu al-mujtahidin-a",
+          "text": "— I honored the diligent ones. (accusative with yaʾ)"
+        },
+        {
+          "transliteration": "sallam-tu ʿala al-mujtahidin-a",
+          "text": "— I greeted the diligent ones. (genitive with yaʾ)"
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "label_en": "Note",
+      "text": "The nun of the sound masculine plural is dropped upon annexation — e.g. 'muʿallimu al-madrasa' (the school's teachers), originally 'al-muʿallimun'."
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "hadara muʿallimu al-madrasat-i",
+          "text": "— The school's teachers attended."
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "2 — The Sound Feminine Plural"
+    },
+    {
+      "id": "s029",
+      "label_en": "Definition",
+      "text": "The sound feminine plural (jamʿ muʾannath salim) is what denotes more than two (f.) by adding an alif and taʾ to its singular, with the singular's structure remaining sound."
+    },
+    {
+      "id": "s030",
+      "items": [
+        "muslima-tun, muslimat-un (a Muslim f., Muslims f.)",
+        "muʿallima-tun, muʿallimat-un (a teacher f., teachers f.)",
+        "shajara-tun, shajarat-un (a tree, trees)"
+      ]
+    },
+    {
+      "id": "s031",
+      "label_en": "Rule",
+      "text": "The sound feminine plural is in the nominative with damma, in the accusative with kasra (instead of fatha), and in the genitive with kasra."
+    },
+    {
+      "id": "s032",
+      "items": [
+        {
+          "transliteration": "najahat-i al-talibat-u",
+          "text": "— The female students passed. (nominative with damma)"
+        },
+        {
+          "transliteration": "karram-tu al-talibat-i",
+          "text": "— I honored the female students. (accusative with kasra)"
+        },
+        {
+          "transliteration": "sallam-tu ʿala al-talibat-i",
+          "text": "— I greeted the female students. (genitive with kasra)"
+        }
+      ]
+    },
+    {
+      "id": "s033",
+      "label_en": "Warning",
+      "text": "The distinguishing sign of the sound feminine plural is that it is put in the accusative with kasra, not fatha — do not confuse it with the singular feminine, which is put in the accusative with fatha (e.g. 'raʾaytu al-taliba' — I saw the female student)."
+    },
+    {
+      "id": "s034",
+      "text": "3 — The Broken Plural"
+    },
+    {
+      "id": "s035",
+      "label_en": "Definition",
+      "text": "The broken plural (jamʿ taksir) is what denotes more than two (m. or f.) with a change in the form of its singular (its structure is 'broken') — e.g. rajul → rijal (a man → men), kitab → kutub (a book → books)."
+    },
+    {
+      "id": "s036",
+      "items": [
+        "rajul-un, rijal-un (a man, men)",
+        "kitab-un, kutub-un (a book, books)",
+        "qalam-un, aqlam-un (a pen, pens)",
+        "bab-un, abwab-un (a door, doors)"
+      ]
+    },
+    {
+      "id": "s037",
+      "label_en": "Rule",
+      "text": "The broken plural is inflected with visible short vowels like the singular: nominative with damma, accusative with fatha, genitive with kasra — unless it is a diptote (mamnuʿ min al-sarf), in which case it is put in the genitive with fatha."
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "jaʾa al-rijal-u",
+          "text": "— The men came. (nominative with damma)"
+        },
+        {
+          "transliteration": "qabal-tu al-rijal-a",
+          "text": "— I met the men. (accusative with fatha)"
+        },
+        {
+          "transliteration": "marar-tu bi-al-rijal-i",
+          "text": "— I passed by the men. (genitive with kasra)"
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "text": "A Combined Table of Iʿrab Signs"
+    },
+    {
+      "id": "s040",
+      "headers": [
+        "Type of noun",
+        "Nominative",
+        "Accusative",
+        "Genitive"
+      ],
+      "rows": [
+        [
+          "Singular",
+          "Damma",
+          "Fatha",
+          "Kasra"
+        ],
+        [
+          "Dual",
+          "Alif",
+          "Yaʾ",
+          "Yaʾ"
+        ],
+        [
+          "Sound masculine plural",
+          "Waw",
+          "Yaʾ",
+          "Yaʾ"
+        ],
+        [
+          "Sound feminine plural",
+          "Damma",
+          "Kasra",
+          "Kasra"
+        ],
+        [
+          "Broken plural",
+          "Damma",
+          "Fatha",
+          "Kasra"
+        ]
+      ]
+    },
+    {
+      "id": "s041",
+      "text": "Why do we say that the dual and the sound masculine plural are inflected with letters rather than with short vowels?"
+    },
+    {
+      "id": "s042",
+      "text": "Because short vowels do not appear fully on the alif, waw, and yaʾ, the Arabs made these letters signs of iʿrab standing in for the vowels: the alif stands in for damma in the dual, the waw stands in for it in the sound masculine plural, and the yaʾ stands in for fatha and kasra in both. Such nouns are called 'those inflected with letters' (al-muʿraba bi-l-huruf)."
+    },
+    {
+      "id": "s043",
+      "text": "Caution: The Annexed Forms (al-Mulhaqat)"
+    },
+    {
+      "id": "s044",
+      "label_en": "Warning",
+      "text": "Certain words are annexed to the dual and inflected like it though they are not a true dual — such as 'kila' and 'kilta' when annexed to a pronoun, and 'ithnan' and 'ithnatan'. And certain words are annexed to the sound masculine plural — such as 'ulu', 'banun', 'ʿalamun', 'sinun'. And certain words are annexed to the sound feminine plural — such as 'ulat' and 'ʿArafat'."
+    },
+    {
+      "id": "s045",
+      "items": [
+        {
+          "transliteration": "najaha kila al-talibayn-i",
+          "text": "— Both students succeeded."
+        },
+        {
+          "transliteration": "hadara ulu al-albab-i",
+          "text": "— The people of understanding attended."
+        }
+      ]
+    },
+    {
+      "id": "s046",
+      "text": "Iʿrab Model (1): The Dual"
+    },
+    {
+      "id": "s047",
+      "items": [
+        {
+          "transliteration": "faza al-laʿiban-i bi-al-jaʾiza-ti",
+          "text": "— The two players won the prize."
+        }
+      ]
+    },
+    {
+      "id": "s048",
+      "text": "faza: past-tense verb, built on fatha. al-laʿibani: faʿil, nominative, its sign of nominative being the alif because it is a dual, and the nun is a substitute for the tanwin of the singular noun. bi-al-jaʾizati: the ba is a preposition, and 'al-jaʾiza' is a genitive noun, its sign being the visible kasra."
+    },
+    {
+      "id": "s049",
+      "text": "Iʿrab Model (2): The Sound Masculine Plural"
+    },
+    {
+      "id": "s050",
+      "items": [
+        {
+          "transliteration": "kafaʾat-i al-dawlat-u al-mutafawwiqin-a",
+          "text": "— The state rewarded the outstanding ones."
+        }
+      ]
+    },
+    {
+      "id": "s051",
+      "text": "kafaʾat: past-tense verb, with the quiescent taʾ of the feminine. al-dawlatu: faʿil, nominative, its sign being the visible damma. al-mutafawwiqina: direct object (mafʿul bih), accusative, its sign being the yaʾ because it is a sound masculine plural."
+    },
+    {
+      "id": "s052",
+      "text": "From the Noble Qurʾan"
+    },
+    {
+      "id": "s053",
+      "text": "Allah said: ﴿The believers have indeed succeeded﴾"
+    },
+    {
+      "id": "s054",
+      "text": "'al-muʾminun' (the believers) is the faʿil, nominative, its sign of nominative being the waw because it is a sound masculine plural, and the nun is a substitute for the tanwin of the singular."
+    },
+    {
+      "id": "s055",
+      "text": "And Allah said: ﴿Lord of the two easts and Lord of the two wests﴾"
+    },
+    {
+      "id": "s056",
+      "text": "'al-mashriqayn' (the two easts) is the genitive term of the annexation, its sign of genitive being the yaʾ because it is a dual; likewise 'al-maghribayn' (the two wests) is genitive with the yaʾ because it is a dual."
+    },
+    {
+      "id": "s057",
+      "text": "And Allah said: ﴿The believing men and the believing women are allies of one another﴾"
+    },
+    {
+      "id": "s058",
+      "text": "'al-muʾminun' (the believing men) is a mubtadaʾ, nominative with the waw because it is a sound masculine plural; and 'al-muʾminat' (the believing women) is conjoined to it, nominative with damma because it is a sound feminine plural."
+    },
+    {
+      "id": "s059",
+      "label_en": "Warning",
+      "text": "Distinguish the signs of iʿrab: the singular and the broken plural are inflected with short vowels; the dual and the sound masculine plural are inflected with letters; and the sound feminine plural is nominative with damma and accusative/genitive with kasra."
+    }
+  ]
+}

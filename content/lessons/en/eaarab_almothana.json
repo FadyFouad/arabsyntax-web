@@ -1,0 +1,745 @@
+{
+  "lesson_id": "eaarab_almothana",
+  "language": "en",
+  "title": "Iʿrab of the Dual (Iʿrab al-Muthanna)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Iʿrab of the Dual"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "The dual (muthanna) is a noun denoting two (m.) or two (f.), formed by adding an alif and nun, or a yaʾ and nun, to its singular; and it is valid to strip this addition and conjoin its like to it."
+    },
+    {
+      "id": "s003",
+      "items": [
+        "talib-un, taliban-i (a student, two students)",
+        "muʿallima-tun, muʿallimatan-i (a teacher f., two teachers f.)",
+        "kitab-un, kitaban-i (a book, two books)"
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "This lesson is devoted to the iʿrab of the dual: its signs, its positions in the sentence, what is annexed to it (mulhaq), what merely resembles it without being it, and the changes that affect a word's structure when it is made dual. The definition of the dual and the mechanics of forming it were detailed earlier in the lesson 'The Singular, the Dual, and the Plural'."
+    },
+    {
+      "id": "s005",
+      "text": "First: The Signs of Iʿrab of the Dual"
+    },
+    {
+      "id": "s006",
+      "label_en": "Rule",
+      "text": "The dual is inflected with letters, not with short vowels: nominative with the alif (instead of damma), and accusative and genitive with the yaʾ (instead of fatha and kasra)."
+    },
+    {
+      "id": "s007",
+      "items": [
+        {
+          "transliteration": "hadara al-muhandisan-i",
+          "text": "— The two engineers attended. (nominative with alif)"
+        },
+        {
+          "transliteration": "kafaʾa al-mudir-u al-muhandisayn-i",
+          "text": "— The manager rewarded the two engineers. (accusative with yaʾ)"
+        },
+        {
+          "transliteration": "athna al-nas-u ʿala al-muhandisayn-i",
+          "text": "— People praised the two engineers. (genitive with yaʾ)"
+        }
+      ]
+    },
+    {
+      "id": "s008",
+      "headers": [
+        "Case",
+        "Sign",
+        "Example",
+        "Its iʿrab"
+      ],
+      "rows": [
+        [
+          "Nominative",
+          "Alif",
+          "hadara al-muhandisani",
+          "Subject, nominative, its sign the alif"
+        ],
+        [
+          "Accusative",
+          "Yaʾ",
+          "kafaʾa al-mudiru al-muhandisayni",
+          "Direct object, accusative, its sign the yaʾ"
+        ],
+        [
+          "Genitive",
+          "Yaʾ",
+          "athna al-nasu ʿala al-muhandisayni",
+          "Genitive noun, its sign the yaʾ"
+        ]
+      ]
+    },
+    {
+      "id": "s009",
+      "label_en": "Note",
+      "text": "The nun of the dual always carries a kasra in all three cases, and it stands in place of the tanwin of the singular noun; this is why it drops upon annexation (idafa), just as tanwin drops."
+    },
+    {
+      "id": "s010",
+      "items": [
+        {
+          "transliteration": "al-kitaban-i nafiʿan-i",
+          "text": "— The two books are beneficial. (the nun takes kasra in the nominative)"
+        },
+        {
+          "transliteration": "istaʿar-tu al-kitabayn-i",
+          "text": "— I borrowed the two books. (the nun takes kasra in the accusative)"
+        }
+      ]
+    },
+    {
+      "id": "s011",
+      "text": "Why does the nun of the dual carry a kasra while the nun of the sound masculine plural carries a fatha?"
+    },
+    {
+      "id": "s012",
+      "text": "Because the dual and the sound masculine plural share the yaʾ as the sign of the accusative and genitive; had the nun been identical in both, one would be confused with the other. So the Arabs distinguished them in two ways: a kasra on the nun of the dual and a fatha on the nun of the plural, and a fatha before the yaʾ of the dual and a kasra before the yaʾ of the plural. Thus you say 'karramtu al-talibayni' for two, and 'karramtu al-talibina' for a group."
+    },
+    {
+      "id": "s013",
+      "text": "Second: The Dual in the Positions of Iʿrab"
+    },
+    {
+      "id": "s014",
+      "label_en": "Rule",
+      "text": "The dual is a declinable noun that occupies every position a singular noun occupies; its position never changes, only its sign does — the alif in place of damma, and the yaʾ in place of fatha and kasra."
+    },
+    {
+      "id": "s015",
+      "text": "1 — The Dual in a Nominative Position"
+    },
+    {
+      "id": "s016",
+      "items": [
+        {
+          "transliteration": "al-taliban-i mujtahidan-i",
+          "text": "— The two students are diligent. (subject and predicate, nominative with alif)"
+        },
+        {
+          "transliteration": "faza al-laʿiban-i",
+          "text": "— The two players won. (subject of the verb, nominative with alif)"
+        },
+        {
+          "transliteration": "kufiʾa al-mutafawwiqan-i",
+          "text": "— The two top students were rewarded. (deputy subject, nominative with alif)"
+        },
+        {
+          "transliteration": "kana al-sadiqan-i mutaʿawinayn-i",
+          "text": "— The two friends were cooperative. (noun of kana, nominative with alif)"
+        }
+      ]
+    },
+    {
+      "id": "s017",
+      "text": "2 — The Dual in an Accusative Position"
+    },
+    {
+      "id": "s018",
+      "items": [
+        {
+          "transliteration": "qaraʾ-tu kitabayn-i",
+          "text": "— I read two books. (direct object, accusative with yaʾ)"
+        },
+        {
+          "transliteration": "inna al-talibayn-i mujtahidan-i",
+          "text": "— Indeed the two students are diligent. (noun of inna, accusative with yaʾ)"
+        },
+        {
+          "transliteration": "asbaha al-waladan-i nashitayn-i",
+          "text": "— The two boys became energetic. (predicate of asbaha, accusative with yaʾ)"
+        },
+        {
+          "transliteration": "aqbala al-rajulan-i musriʿayn-i",
+          "text": "— The two men came forward hurrying. (circumstantial accusative, with yaʾ)"
+        },
+        {
+          "transliteration": "safara al-akhawan-i yawmayn-i",
+          "text": "— The two brothers travelled for two days. (adverbial object, accusative with yaʾ)"
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "3 — The Dual in a Genitive Position"
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "sallam-tu ʿala al-dayfayn-i",
+          "text": "— I greeted the two guests. (genitive after a preposition, its sign the yaʾ)"
+        },
+        {
+          "transliteration": "hadha kitab-u al-talibayn-i",
+          "text": "— This is the two students' book. (second term of annexation, genitive with yaʾ)"
+        },
+        {
+          "transliteration": "marar-tu bi-rajulayn-i karimayn-i",
+          "text": "— I passed by two generous men. (adjective, genitive with yaʾ)"
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "headers": [
+        "Position",
+        "Example",
+        "Sign of iʿrab"
+      ],
+      "rows": [
+        [
+          "Subject / predicate",
+          "al-talibani mujtahidani",
+          "Alif (nominative)"
+        ],
+        [
+          "Subject of a verb",
+          "faza al-laʿibani",
+          "Alif (nominative)"
+        ],
+        [
+          "Deputy subject",
+          "kufiʾa al-mutafawwiqani",
+          "Alif (nominative)"
+        ],
+        [
+          "Noun of kana",
+          "kana al-sadiqani mutaʿawinayni",
+          "Alif (nominative)"
+        ],
+        [
+          "Direct object",
+          "qaraʾtu kitabayni",
+          "Yaʾ (accusative)"
+        ],
+        [
+          "Noun of inna",
+          "inna al-talibayni mujtahidani",
+          "Yaʾ (accusative)"
+        ],
+        [
+          "Predicate of kana",
+          "asbaha al-waladani nashitayni",
+          "Yaʾ (accusative)"
+        ],
+        [
+          "Circumstantial accusative",
+          "aqbala al-rajulani musriʿayni",
+          "Yaʾ (accusative)"
+        ],
+        [
+          "Genitive after a preposition",
+          "sallamtu ʿala al-dayfayni",
+          "Yaʾ (genitive)"
+        ],
+        [
+          "Second term of annexation",
+          "hadha kitabu al-talibayni",
+          "Yaʾ (genitive)"
+        ]
+      ]
+    },
+    {
+      "id": "s022",
+      "label_en": "Warning",
+      "text": "If the dual occurs as a vocative and is a proper name or an intended indefinite, it is built (mabni) on what it would be raised with — the alif — in the place of the accusative of the vocative; so do not call it 'accusative with the yaʾ'."
+    },
+    {
+      "id": "s023",
+      "items": [
+        {
+          "transliteration": "ya taliban-i ijtahida",
+          "text": "— O two students, strive! (vocative built on the alif, in the place of the accusative)"
+        },
+        {
+          "transliteration": "ya muhammadan-i aqbila",
+          "text": "— O two Muhammads, come! (vocative built on the alif, in the place of the accusative)"
+        }
+      ]
+    },
+    {
+      "id": "s024",
+      "text": "Third: Dropping the Nun upon Annexation"
+    },
+    {
+      "id": "s025",
+      "label_en": "Rule",
+      "text": "The nun of the dual drops when it is annexed, because it stands in place of tanwin, and tanwin drops upon annexation. Thus 'taliba al-ʿilm' is originally 'al-talibani', and 'kitabay al-tilmidh' is originally 'al-kitabani'."
+    },
+    {
+      "id": "s026",
+      "items": [
+        {
+          "transliteration": "hadara taliba al-ʿilm-i",
+          "text": "— The two students of knowledge attended. (subject, nominative with alif; the nun dropped for annexation)"
+        },
+        {
+          "transliteration": "qaraʾ-tu kitabay al-tilmidh-i",
+          "text": "— I read the pupil's two books. (direct object, accusative with yaʾ; the nun dropped for annexation)"
+        },
+        {
+          "transliteration": "nazar-tu fi daftaray al-talib-i",
+          "text": "— I looked into the student's two notebooks. (genitive with yaʾ; the nun dropped for annexation)"
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "label_en": "Note",
+      "text": "Dropping the nun for annexation does not change the sign of iʿrab: an annexed dual stays nominative with the alif and accusative and genitive with the yaʾ — only the nun is gone."
+    },
+    {
+      "id": "s028",
+      "text": "The Dual Annexed to the Speaker's Yaʾ"
+    },
+    {
+      "id": "s029",
+      "label_en": "Rule",
+      "text": "When the dual is annexed to the speaker's yaʾ, its nun drops; its alif remains in the nominative ('sadiqaya'), and its yaʾ is assimilated into the speaker's yaʾ in the accusative and genitive ('sadiqayya')."
+    },
+    {
+      "id": "s030",
+      "items": [
+        {
+          "transliteration": "hadara sadiqa-ya",
+          "text": "— My two friends attended. (subject, nominative with alif)"
+        },
+        {
+          "transliteration": "zur-tu sadiqay-ya",
+          "text": "— I visited my two friends. (direct object, accusative with yaʾ)"
+        },
+        {
+          "transliteration": "sallam-tu ʿala sadiqay-ya",
+          "text": "— I greeted my two friends. (genitive with yaʾ)"
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "text": "Fourth: What Is Annexed to the Dual (al-Mulhaq bi-l-Muthanna)"
+    },
+    {
+      "id": "s032",
+      "label_en": "Definition",
+      "text": "What is annexed to the dual: words inflected exactly like the dual — alif in the nominative, yaʾ in the accusative and genitive — without being a true dual, because the condition of stripping-and-conjoining is not met in them, or because they have no singular from their own root."
+    },
+    {
+      "id": "s033",
+      "items": [
+        "ithnani and ithnatani: they have no singular from their own root — Arabic has no 'ithnun' or 'ithnatun'.",
+        "thintani: a variant of 'ithnatani', with the same ruling.",
+        "kila and kilta: when annexed to a pronoun, because their form is singular while their meaning is dual.",
+        "ithna ʿashara and ithnata ʿashrata: their first part is inflected like the dual, while their second part is built on the fatha."
+      ]
+    },
+    {
+      "id": "s034",
+      "items": [
+        {
+          "transliteration": "najaha ithnan-i min al-tullab-i",
+          "text": "— Two of the students passed. (subject, nominative with alif, being annexed to the dual)"
+        },
+        {
+          "transliteration": "karram-tu ithnatayn-i min al-faʾizat-i",
+          "text": "— I honored two of the female winners. (direct object, accusative with yaʾ)"
+        },
+        {
+          "transliteration": "hadara ithna ʿashara taliban",
+          "text": "— Twelve students attended. (subject, nominative with alif; the second part built on the fatha)"
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "text": "Kila and Kilta"
+    },
+    {
+      "id": "s036",
+      "label_en": "Rule",
+      "text": "If 'kila' and 'kilta' are annexed to a pronoun, they are inflected like the dual: alif in the nominative and yaʾ in the accusative and genitive. If they are annexed to an overt noun, they are inflected with estimated (muqaddara) vowels on the alif, like a shortened (maqsur) noun."
+    },
+    {
+      "id": "s037",
+      "items": [
+        {
+          "transliteration": "jaʾa al-rajulan-i kila-huma",
+          "text": "— Both of the two men came. (emphasis, nominative with alif, being annexed to a pronoun)"
+        },
+        {
+          "transliteration": "karram-tu al-talibayn-i kilay-hima",
+          "text": "— I honored both of the two students. (emphasis, accusative with yaʾ)"
+        },
+        {
+          "transliteration": "sallam-tu ʿala al-fatatayn-i kiltay-hima",
+          "text": "— I greeted both of the two girls. (emphasis, genitive with yaʾ)"
+        }
+      ]
+    },
+    {
+      "id": "s038",
+      "items": [
+        {
+          "transliteration": "kila al-rajulayn-i karim-un",
+          "text": "— Both of the two men are generous. (subject, nominative with an estimated damma on the alif)"
+        },
+        {
+          "transliteration": "raʾay-tu kila al-rajulayn-i",
+          "text": "— I saw both of the two men. (direct object, accusative with an estimated fatha on the alif)"
+        },
+        {
+          "transliteration": "sallam-tu ʿala kilta al-fatatayn-i",
+          "text": "— I greeted both of the two girls. (genitive with an estimated kasra on the alif)"
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "headers": [
+        "Case",
+        "Example",
+        "Iʿrab"
+      ],
+      "rows": [
+        [
+          "Annexed to a pronoun",
+          "jaʾa al-rajulani kilahuma",
+          "Inflected like the dual, with alif and yaʾ"
+        ],
+        [
+          "Annexed to a pronoun",
+          "raʾaytu al-rajulayni kilayhima",
+          "Accusative, its sign the yaʾ"
+        ],
+        [
+          "Annexed to an overt noun",
+          "kila al-rajulayni karimun",
+          "Nominative with an estimated damma on the alif"
+        ],
+        [
+          "Annexed to an overt noun",
+          "raʾaytu kila al-rajulayni",
+          "Accusative with an estimated fatha on the alif"
+        ]
+      ]
+    },
+    {
+      "id": "s040",
+      "label_en": "Note",
+      "text": "'Kila' and 'kilta' take a singular predicate, in deference to their form: 'kila al-rajulayni karimun', 'kilta al-fatatayni muʾaddabatun'. The sense may occasionally be deferred to instead, giving a dual predicate, but that is rare."
+    },
+    {
+      "id": "s041",
+      "text": "Fifth: What Resembles the Dual but Is Not of It"
+    },
+    {
+      "id": "s042",
+      "label_en": "Warning",
+      "text": "Not everything ending in an alif-and-nun or a yaʾ-and-nun is a dual; the alif and nun may be augments in a singular noun — e.g. ʿUthman, Salman, ghadban (angry), ʿatshan (thirsty). These are singular nouns, inflected with short vowels, not with letters."
+    },
+    {
+      "id": "s043",
+      "items": [
+        {
+          "transliteration": "hadara ʿuthman-u",
+          "text": "— ʿUthman attended. (subject, nominative with damma, since it is singular, not dual)"
+        },
+        {
+          "transliteration": "raʾay-tu rajulan ghadban-a",
+          "text": "— I saw an angry man. (adjective, accusative with fatha, since it is singular, not dual)"
+        }
+      ]
+    },
+    {
+      "id": "s044",
+      "label_en": "Rule",
+      "text": "The test: a dual can be stripped of its alif and nun with its like conjoined to it — 'talibani' means 'a student and a student' — whereas 'ʿUthman' admits no such thing."
+    },
+    {
+      "id": "s045",
+      "text": "Is there any other visible mark by which we may tell the dual from such a singular?"
+    },
+    {
+      "id": "s046",
+      "text": "Yes, two visible marks. First, the nun of the dual always carries a kasra, whereas the nun of a word like 'ʿUthmanu' follows the word's own iʿrab, taking damma, fatha, or kasra. Second, the nun of the dual drops upon annexation — you say 'taliba al-ʿilmi' — while the nun of 'ʿUthman' never drops; one never says 'ʿUthma al-qawmi'."
+    },
+    {
+      "id": "s047",
+      "text": "Sixth: Making the Maqsur, Manqus, and Mamdud Dual"
+    },
+    {
+      "id": "s048",
+      "label_en": "Rule",
+      "text": "The shortened noun (maqsur) when made dual: its alif is returned to its origin (waw or yaʾ) if it is the third letter, and turned into a yaʾ if it is the fourth letter or beyond."
+    },
+    {
+      "id": "s049",
+      "items": [
+        "ʿasa, ʿasawani (a stick, two sticks)",
+        "fata, fatayani (a youth, two youths)",
+        "mustashfa, mustashfayani (a hospital, two hospitals)",
+        "Mustafa, Mustafayani (Mustafa, two Mustafas)"
+      ]
+    },
+    {
+      "id": "s050",
+      "label_en": "Rule",
+      "text": "The defective noun (manqus) when made dual: its elided yaʾ is restored and the dual is built upon it."
+    },
+    {
+      "id": "s051",
+      "items": [
+        "qadin, qadiyani (a judge, two judges)",
+        "daʿin, daʿiyani (a caller, two callers)",
+        "muhamin, muhamiyani (a lawyer, two lawyers)"
+      ]
+    },
+    {
+      "id": "s052",
+      "label_en": "Rule",
+      "text": "The extended noun (mamdud) when made dual: if its hamza is original it stays as it is; if it is the hamza of the feminine it turns into a waw; and if it is converted from an original letter or augmented for quadriliteralization, both forms are permitted."
+    },
+    {
+      "id": "s053",
+      "items": [
+        "qarraʾun, qarraʾani (a reciter, two reciters)",
+        "sahraʾu, sahrawani (a desert, two deserts)",
+        "kisaʾun, kisaʾani — kisawani (a garment, two garments)"
+      ]
+    },
+    {
+      "id": "s054",
+      "headers": [
+        "Type of noun",
+        "What happens when made dual",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Maqsur (alif is third)",
+          "The alif returns to its origin",
+          "ʿasa → ʿasawani, fata → fatayani"
+        ],
+        [
+          "Maqsur (alif is fourth or beyond)",
+          "The alif turns into a yaʾ",
+          "mustashfa → mustashfayani"
+        ],
+        [
+          "Manqus",
+          "The elided yaʾ is restored",
+          "qadin → qadiyani"
+        ],
+        [
+          "Mamdud (original hamza)",
+          "The hamza stays",
+          "qarraʾun → qarraʾani"
+        ],
+        [
+          "Mamdud (hamza of the feminine)",
+          "The hamza turns into a waw",
+          "sahraʾu → sahrawani"
+        ],
+        [
+          "Mamdud (converted or augmented hamza)",
+          "Both forms permitted",
+          "kisaʾun → kisaʾani / kisawani"
+        ]
+      ]
+    },
+    {
+      "id": "s055",
+      "label_en": "Note",
+      "text": "These changes occur in the structure of the word, not in its iʿrab: a dual formed from them is nominative with the alif and accusative and genitive with the yaʾ, like every other dual."
+    },
+    {
+      "id": "s056",
+      "items": [
+        {
+          "transliteration": "jaʾa al-fatayan-i",
+          "text": "— The two youths came. (subject, nominative with alif)"
+        },
+        {
+          "transliteration": "saʾal-tu al-qadiyayn-i",
+          "text": "— I asked the two judges. (direct object, accusative with yaʾ)"
+        },
+        {
+          "transliteration": "sirna fi al-sahrawayn-i",
+          "text": "— We travelled in the two deserts. (genitive with yaʾ)"
+        }
+      ]
+    },
+    {
+      "id": "s057",
+      "text": "A Comprehensive Table"
+    },
+    {
+      "id": "s058",
+      "headers": [
+        "Type",
+        "Nominative",
+        "Accusative",
+        "Genitive"
+      ],
+      "rows": [
+        [
+          "The dual",
+          "Alif",
+          "Yaʾ",
+          "Yaʾ"
+        ],
+        [
+          "Annexed to the dual (ithnani, ithnatani)",
+          "Alif",
+          "Yaʾ",
+          "Yaʾ"
+        ],
+        [
+          "Kila and kilta annexed to a pronoun",
+          "Alif",
+          "Yaʾ",
+          "Yaʾ"
+        ],
+        [
+          "Kila and kilta annexed to an overt noun",
+          "Estimated damma",
+          "Estimated fatha",
+          "Estimated kasra"
+        ],
+        [
+          "A singular ending in alif and nun (ʿUthman)",
+          "Damma",
+          "Fatha",
+          "Kasra"
+        ]
+      ]
+    },
+    {
+      "id": "s059",
+      "label_en": "Warning",
+      "text": "Do not confuse the yaʾ of the dual with the yaʾ of the sound masculine plural in the accusative and genitive. The difference: the letter before the dual's yaʾ carries a fatha and its nun a kasra, while the letter before the plural's yaʾ carries a kasra and its nun a fatha."
+    },
+    {
+      "id": "s060",
+      "headers": [
+        "Point of comparison",
+        "The dual",
+        "The sound masculine plural"
+      ],
+      "rows": [
+        [
+          "Before the yaʾ",
+          "Fatha: al-talibayni",
+          "Kasra: al-talibina"
+        ],
+        [
+          "Vowel of the nun",
+          "Always kasra",
+          "Always fatha"
+        ],
+        [
+          "Sign of the nominative",
+          "Alif",
+          "Waw"
+        ],
+        [
+          "What it denotes",
+          "Two (m. or f.)",
+          "More than two"
+        ]
+      ]
+    },
+    {
+      "id": "s061",
+      "items": [
+        {
+          "transliteration": "karram-tu al-talibayn-i",
+          "text": "— I honored the two students. (dual: accusative with yaʾ, preceded by a fatha)"
+        },
+        {
+          "transliteration": "karram-tu al-talibin-a",
+          "text": "— I honored the students. (sound masculine plural: accusative with yaʾ, preceded by a kasra)"
+        }
+      ]
+    },
+    {
+      "id": "s062",
+      "text": "Model Iʿrab (1)"
+    },
+    {
+      "id": "s063",
+      "items": [
+        {
+          "transliteration": "faza al-taliban-i al-mujtahidan-i bi-jaʾizatayn-i",
+          "text": "— The two diligent students won two prizes."
+        }
+      ]
+    },
+    {
+      "id": "s064",
+      "text": "faza: a past-tense verb, built on the fatha. al-talibani: the subject of the verb, nominative, its sign the alif because it is a dual, the nun standing in place of the tanwin of a singular noun. al-mujtahidani: an adjective qualifying 'al-talibani', nominative, its sign the alif because it is a dual. bi-jaʾizatayni: 'bi' is a preposition, and 'jaʾizatayni' a genitive noun, its sign the yaʾ because it is a dual. The verbal clause is an opening clause with no place in iʿrab."
+    },
+    {
+      "id": "s065",
+      "text": "Model Iʿrab (2)"
+    },
+    {
+      "id": "s066",
+      "items": [
+        {
+          "transliteration": "inna kilta al-fatatayn-i muʾaddaba-tun",
+          "text": "— Indeed both of the two girls are well-mannered."
+        }
+      ]
+    },
+    {
+      "id": "s067",
+      "text": "inna: an abrogating particle built on the fatha, conveying emphasis. kilta: the noun of inna, accusative, its sign an estimated fatha on the alif, prevented from appearing by impossibility, because it is annexed to an overt noun; and it is the first term of annexation. al-fatatayni: the second term of annexation, genitive, its sign the yaʾ because it is a dual. muʾaddabatun: the predicate of inna, nominative, its sign the visible damma; the predicate was made singular in deference to the form of 'kilta'."
+    },
+    {
+      "id": "s068",
+      "text": "From the Noble Qurʾan"
+    },
+    {
+      "id": "s069",
+      "text": "Allah Most High said: \"Said two men from among those who feared\" — Quran 5:23 (Sahih International)"
+    },
+    {
+      "id": "s070",
+      "text": "'Rajulani' is the subject of the verb, nominative, its sign the alif because it is a dual, its nun carrying a kasra in place of the tanwin."
+    },
+    {
+      "id": "s071",
+      "text": "And Allah Most High said: \"But for he who has feared the position of his Lord are two gardens\" — Quran 55:46 (Sahih International)"
+    },
+    {
+      "id": "s072",
+      "text": "'Jannatani' is a delayed subject, nominative, its sign the alif because it is a dual; the prepositional phrase 'li-man' stands in the place of the nominative as a fronted predicate."
+    },
+    {
+      "id": "s073",
+      "text": "And Allah Most High said: \"Each of the two gardens produced its fruit\" — Quran 18:33 (Sahih International)"
+    },
+    {
+      "id": "s074",
+      "text": "'Kilta' is the subject, nominative, its sign an estimated damma on the alif, because it is annexed to an overt noun; and it is the first term of annexation. 'Al-jannatayni' is the second term of annexation, genitive, its sign the yaʾ because it is a dual. The clause 'atat ukulaha' stands in the place of the nominative as the predicate, and the verb was made singular in deference to the form of 'kilta'."
+    },
+    {
+      "id": "s075",
+      "text": "And Allah Most High said: \"Whether one or both of them reach old age with you\" — Quran 17:23 (Sahih International)"
+    },
+    {
+      "id": "s076",
+      "text": "'Kilahuma' is conjoined to 'ahaduhuma', nominative, its sign the alif because it is annexed to the dual; it took this inflection precisely because it is annexed to a pronoun, and it is the first term of annexation, while 'huma' is an attached pronoun built in the place of the genitive as the second term of annexation."
+    }
+  ]
+}

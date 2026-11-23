@@ -1,0 +1,558 @@
+{
+  "lesson_id": "esm_aalah",
+  "language": "en",
+  "title": "Ism al-Ala (the Noun of Instrument)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "Ism al-Ala (the Noun of Instrument)"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "Ism al-ala (the noun of instrument) is a derived noun denoting the tool by which an action is performed, such as miftah (key), minshar (saw) and miknasa (broom)."
+    },
+    {
+      "id": "s003",
+      "items": [
+        {
+          "transliteration": "fatah-tu al-bab-a bi-l-miftah-i",
+          "text": "— I opened the door with the key."
+        },
+        {
+          "transliteration": "qataʿa al-najjar-u al-khashab-a bi-l-minshar-i",
+          "text": "— The carpenter cut the wood with the saw."
+        },
+        {
+          "transliteration": "kanasat al-fatat-u al-ghurfat-a bi-l-miknasat-i",
+          "text": "— The girl swept the room with the broom."
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "Each of 'miftah', 'minshar' and 'miknasa' names the tool by which the action took place — opening, cutting and sweeping. All three are nouns of instrument."
+    },
+    {
+      "id": "s005",
+      "text": "The Verb a Noun of Instrument Is Derived From"
+    },
+    {
+      "id": "s006",
+      "label_en": "Rule",
+      "text": "A noun of instrument is regularly derived from a three-letter, fully inflecting, transitive verb: fataha → miftah, nashara → minshar, kanasa → miknasa."
+    },
+    {
+      "id": "s007",
+      "items": [
+        "The verb must be three-lettered: fataha, nashara, barada.",
+        "It must be fully inflecting, so nothing is derived from frozen verbs such as laysa and ʿasa.",
+        "It must be transitive, because an instrument is what the action is carried out on something else with."
+      ]
+    },
+    {
+      "id": "s008",
+      "label_en": "Note",
+      "text": "A few nouns of instrument are heard from intransitive verbs, such as misʿad (lift) from saʿida and mirqat (ladder) from raqiya. These are memorised as heard and not used as a model."
+    },
+    {
+      "id": "s009",
+      "text": "The Standard Patterns of the Noun of Instrument"
+    },
+    {
+      "id": "s010",
+      "label_en": "Rule",
+      "text": "The noun of instrument has three standard patterns — mifʿal, mifʿal (with a long a: mifʿaal) and mifʿala — and the mim carries kasra in all three."
+    },
+    {
+      "id": "s011",
+      "headers": [
+        "Pattern",
+        "Verb",
+        "Noun of instrument"
+      ],
+      "rows": [
+        [
+          "mifʿal",
+          "barada (to file)",
+          "mibrad (file)"
+        ],
+        [
+          "mifʿal",
+          "sharata (to incise)",
+          "mishrat (scalpel)"
+        ],
+        [
+          "mifʿal",
+          "najala (to reap)",
+          "minjal (sickle)"
+        ],
+        [
+          "mifʿaal",
+          "fataha (to open)",
+          "miftah (key)"
+        ],
+        [
+          "mifʿaal",
+          "nashara (to saw)",
+          "minshar (saw)"
+        ],
+        [
+          "mifʿaal",
+          "thaqaba (to bore)",
+          "mithqab (drill)"
+        ],
+        [
+          "mifʿala",
+          "kanasa (to sweep)",
+          "miknasa (broom)"
+        ],
+        [
+          "mifʿala",
+          "taraqa (to hammer)",
+          "mitraqa (hammer)"
+        ],
+        [
+          "mifʿala",
+          "satara (to rule lines)",
+          "mistara (ruler)"
+        ]
+      ]
+    },
+    {
+      "id": "s012",
+      "text": "1. The Pattern mifʿal"
+    },
+    {
+      "id": "s013",
+      "label_en": "Rule",
+      "text": "Formed on the pattern mifʿal: kasra on the mim, sukun on the second radical, fatha on the third."
+    },
+    {
+      "id": "s014",
+      "items": [
+        "barada, mibrad (file)",
+        "sharata, mishrat (scalpel)",
+        "najala, minjal (sickle)",
+        "badaʿa, mibdaʿ (lancet)"
+      ]
+    },
+    {
+      "id": "s015",
+      "items": [
+        {
+          "transliteration": "yusawwi al-najjar-u al-khashab-a bi-l-mibrad-i",
+          "text": "— The carpenter smooths the wood with the file."
+        },
+        {
+          "transliteration": "hasada al-fallah-u al-zarʿ-a bi-l-minjal-i",
+          "text": "— The farmer harvested the crop with the sickle."
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "2. The Pattern mifʿaal"
+    },
+    {
+      "id": "s017",
+      "label_en": "Rule",
+      "text": "Formed on the pattern mifʿaal: kasra on the mim, with an alif added before the final radical."
+    },
+    {
+      "id": "s018",
+      "items": [
+        "fataha, miftah (key)",
+        "nashara, minshar (saw)",
+        "thaqaba, mithqab (drill)",
+        "wazana, mizan (scales)"
+      ]
+    },
+    {
+      "id": "s019",
+      "label_en": "Note",
+      "text": "'Mizan' was originally 'miwzan'; the waw became ya because it was vowelless and preceded by kasra. 'Miqat' (appointed time), from waqt, behaves the same way."
+    },
+    {
+      "id": "s020",
+      "items": [
+        {
+          "transliteration": "yathqub-u al-ʿamil-u al-jidar-a bi-l-mithqab-i",
+          "text": "— The workman bores the wall with the drill."
+        },
+        {
+          "transliteration": "wazana al-baʾiʿ-u al-fakihat-a bi-l-mizan-i",
+          "text": "— The seller weighed the fruit on the scales."
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "text": "3. The Pattern mifʿala"
+    },
+    {
+      "id": "s022",
+      "label_en": "Rule",
+      "text": "Formed on the pattern mifʿala: kasra on the mim, fatha on the middle radical, with a ta added at the end."
+    },
+    {
+      "id": "s023",
+      "items": [
+        "kanasa, miknasa (broom)",
+        "taraqa, mitraqa (hammer)",
+        "satara, mistara (ruler)",
+        "laʿiqa, milʿaqa (spoon)"
+      ]
+    },
+    {
+      "id": "s024",
+      "items": [
+        {
+          "transliteration": "daqqa al-haddad-u al-mismar-a bi-l-mitraqat-i",
+          "text": "— The blacksmith drove the nail in with the hammer."
+        },
+        {
+          "transliteration": "khatta al-tilmidh-u al-satr-a bi-l-mistarat-i",
+          "text": "— The pupil ruled the line with the ruler."
+        }
+      ]
+    },
+    {
+      "id": "s025",
+      "text": "The Patterns Approved by the Academy of the Arabic Language"
+    },
+    {
+      "id": "s026",
+      "text": "When modern instruments multiplied beyond what the three patterns could name, the Academy of the Arabic Language in Cairo approved three further patterns for the noun of instrument: faʿʿala, faʿila and faʿʿal."
+    },
+    {
+      "id": "s027",
+      "headers": [
+        "Pattern",
+        "Examples"
+      ],
+      "rows": [
+        [
+          "faʿʿala",
+          "ghassala (washing machine), thallaja (fridge), hassada (harvester)"
+        ],
+        [
+          "faʿila",
+          "rafiʿa (crane), saqiya (water-wheel), hasiba (calculator)"
+        ],
+        [
+          "faʿʿal",
+          "khallat (blender), jarrar (tractor), barrad (cooler)"
+        ]
+      ]
+    },
+    {
+      "id": "s028",
+      "items": [
+        {
+          "transliteration": "taghsil-u al-ghassalat-u al-thiyab-a",
+          "text": "— The washing machine washes the clothes."
+        },
+        {
+          "transliteration": "tahmil-u al-rafiʿat-u al-athqal-a",
+          "text": "— The crane lifts the loads."
+        }
+      ]
+    },
+    {
+      "id": "s029",
+      "label_en": "Note",
+      "text": "Some of these patterns already occur in early Arabic, such as 'saqiya' and 'sayyara', so the Academy widened a known door rather than opening a new one."
+    },
+    {
+      "id": "s030",
+      "text": "The Non-Derived Noun of Instrument"
+    },
+    {
+      "id": "s031",
+      "label_en": "Definition",
+      "text": "A non-derived (jamid) noun of instrument denotes a tool without being derived from any verb, so it follows none of the patterns above."
+    },
+    {
+      "id": "s032",
+      "items": [
+        "sikkin (knife)",
+        "faʾs (axe)",
+        "qalam (pen)",
+        "qadum (adze)",
+        "sayf (sword)",
+        "dalw (bucket)",
+        "ibra (needle)"
+      ]
+    },
+    {
+      "id": "s033",
+      "label_en": "Warning",
+      "text": "Do not force a non-derived noun back onto a verb: 'sikkin' is not mifʿal, mifʿaal or mifʿala. It is simply a name coined for the tool itself."
+    },
+    {
+      "id": "s034",
+      "text": "Vowelling the Mim: Instrument versus Time and Place"
+    },
+    {
+      "id": "s035",
+      "label_en": "Rule",
+      "text": "The mim of the noun of instrument carries kasra (mifʿal), while the mim of the noun of time and place carries fatha (mafʿal, mafʿil). Kasra marks the instrument; fatha marks time and place."
+    },
+    {
+      "id": "s036",
+      "headers": [
+        "Word",
+        "Pattern",
+        "Type",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "miftah",
+          "mifʿaal",
+          "noun of instrument",
+          "what one opens with"
+        ],
+        [
+          "miknasa",
+          "mifʿala",
+          "noun of instrument",
+          "what one sweeps with"
+        ],
+        [
+          "malʿab",
+          "mafʿal",
+          "noun of place",
+          "the place of playing"
+        ],
+        [
+          "mawʿid",
+          "mafʿil",
+          "noun of time",
+          "the time of a promise"
+        ]
+      ]
+    },
+    {
+      "id": "s037",
+      "text": "Why does the noun of instrument take kasra on the mim while the noun of place takes fatha?"
+    },
+    {
+      "id": "s038",
+      "text": "Because the letters coincide, Arabic separates the two meanings by the vowel. Were you to say 'maknasa' with fatha, the instrument would be confused with the place of sweeping. The vowel here carries meaning rather than ornament, which is why vowelling the mim is the first thing to look at in this chapter."
+    },
+    {
+      "id": "s039",
+      "text": "The Plural of the Noun of Instrument"
+    },
+    {
+      "id": "s040",
+      "label_en": "Rule",
+      "text": "Mifʿal and mifʿala are pluralised as mafaʿil, and mifʿaal as mafaʿil with a long i (mafaʿeel). The mim takes fatha in the plural after kasra in the singular."
+    },
+    {
+      "id": "s041",
+      "headers": [
+        "Singular",
+        "Plural",
+        "Plural pattern"
+      ],
+      "rows": [
+        [
+          "mibrad (file)",
+          "mabarid",
+          "mafaʿil"
+        ],
+        [
+          "miknasa (broom)",
+          "makanis",
+          "mafaʿil"
+        ],
+        [
+          "miftah (key)",
+          "mafatih",
+          "mafaʿeel"
+        ],
+        [
+          "mizan (scales)",
+          "mawazin",
+          "mafaʿeel"
+        ]
+      ]
+    },
+    {
+      "id": "s042",
+      "label_en": "Warning",
+      "text": "Mafaʿil and mafaʿeel belong to the 'final plural' forms, so the plural of a noun of instrument is a diptote: it takes fatha in the genitive instead of kasra, unless it is annexed or carries 'al-'."
+    },
+    {
+      "id": "s043",
+      "items": [
+        {
+          "transliteration": "fatah-tu al-abwab-a bi-mafatih-a kathira",
+          "text": "— I opened the doors with many keys."
+        },
+        {
+          "transliteration": "nazzafa al-ʿummal-u al-shawariʿ-a bi-l-makanis-i",
+          "text": "— The workers cleaned the streets with the brooms."
+        }
+      ]
+    },
+    {
+      "id": "s044",
+      "text": "In the first example 'mafatih' is genitive with fatha because it is a diptote; in the second 'al-makanis' is genitive with kasra because it carries 'al-'."
+    },
+    {
+      "id": "s045",
+      "text": "The Grammatical Analysis of the Noun of Instrument"
+    },
+    {
+      "id": "s046",
+      "label_en": "Rule",
+      "text": "The noun of instrument is an inflected noun, analysed according to its position in the sentence: subject, agent, object, genitive and so on."
+    },
+    {
+      "id": "s047",
+      "items": [
+        {
+          "transliteration": "al-mizan-u ʿadil",
+          "text": "— The scales are just. (subject, nominative)"
+        },
+        {
+          "transliteration": "ishtaray-tu minshar-an",
+          "text": "— I bought a saw. (object, accusative)"
+        },
+        {
+          "transliteration": "qataʿ-tu al-habl-a bi-l-sikkin-i",
+          "text": "— I cut the rope with the knife. (genitive)"
+        }
+      ]
+    },
+    {
+      "id": "s048",
+      "text": "The Noun of Instrument and What Resembles It"
+    },
+    {
+      "id": "s049",
+      "label_en": "Warning",
+      "text": "Do not confuse the noun of instrument with the passive participle: from a three-letter verb the passive participle is mafʿul with fatha on the mim, while the noun of instrument is mifʿaal with kasra. They differ in the mim, in the form and in the meaning alike."
+    },
+    {
+      "id": "s050",
+      "items": [
+        "miftah (key), maftuh (opened)",
+        "minshar (saw), manshur (sawn)",
+        "miknasa (broom), maknus (swept)"
+      ]
+    },
+    {
+      "id": "s051",
+      "label_en": "Note",
+      "text": "The mimic verbal noun likewise comes on mafʿal with fatha on the mim, as in 'maqtal' meaning killing. It is never confused with the noun of instrument, whose mim always carries kasra."
+    },
+    {
+      "id": "s052",
+      "text": "Summary Table"
+    },
+    {
+      "id": "s053",
+      "headers": [
+        "Type",
+        "Pattern",
+        "Example",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "standard",
+          "mifʿal",
+          "mibrad",
+          "the tool for filing"
+        ],
+        [
+          "standard",
+          "mifʿaal",
+          "miftah",
+          "the tool for opening"
+        ],
+        [
+          "standard",
+          "mifʿala",
+          "miknasa",
+          "the tool for sweeping"
+        ],
+        [
+          "Academy-approved",
+          "faʿʿala",
+          "ghassala",
+          "the tool for washing"
+        ],
+        [
+          "Academy-approved",
+          "faʿila",
+          "rafiʿa",
+          "the tool for lifting"
+        ],
+        [
+          "Academy-approved",
+          "faʿʿal",
+          "khallat",
+          "the tool for blending"
+        ],
+        [
+          "non-derived",
+          "no pattern",
+          "sikkin",
+          "the tool for cutting"
+        ]
+      ]
+    },
+    {
+      "id": "s054",
+      "text": "A Model Analysis"
+    },
+    {
+      "id": "s055",
+      "items": [
+        {
+          "transliteration": "fataha al-rajul-u al-bab-a bi-l-miftah-i",
+          "text": "— The man opened the door with the key."
+        }
+      ]
+    },
+    {
+      "id": "s056",
+      "text": "fataha: past-tense verb, invariably with fatha. al-rajulu: agent, nominative with damma. al-baba: object, accusative with fatha. bi-l-miftahi: 'bi' is a preposition and 'al-miftahi' a genitive noun with kasra — a noun of instrument on the pattern mifʿaal — the prepositional phrase relating to 'fataha'."
+    },
+    {
+      "id": "s057",
+      "text": "Allah the Exalted said: \"And We sent down with them the Book and the Balance, so that the people may uphold justice.\" (al-Hadid 57:25)"
+    },
+    {
+      "id": "s058",
+      "text": "'al-mizan' is a noun of instrument on the pattern mifʿaal from wazana, originally 'miwzan'. It is conjoined to 'al-kitab', accusative with fatha. The verse shows that a noun of instrument covers both the physical tool and what stands in its place — here, justice itself."
+    },
+    {
+      "id": "s059",
+      "text": "Allah the Exalted said: \"The likeness of His light is as a niche wherein is a lamp, the lamp in a glass.\" (al-Nur 24:35)"
+    },
+    {
+      "id": "s060",
+      "text": "'misbah' (lamp) is a noun of instrument on the pattern mifʿaal from sabaha. It is a delayed subject, nominative with damma, while 'fiha' is a fronted predicate. 'al-misbah' after it is a subject in the nominative."
+    },
+    {
+      "id": "s061",
+      "text": "Allah the Exalted said: \"And We shall set up the scales of justice for the Day of Resurrection.\" (al-Anbiya 21:47)"
+    },
+    {
+      "id": "s062",
+      "text": "'al-mawazin' is the plural of 'mizan' on the pattern mafaʿeel. It is an object, accusative with fatha; carrying 'al-' would keep it from being treated as a diptote were it in the genitive."
+    },
+    {
+      "id": "s063",
+      "label_en": "Warning",
+      "text": "The chapter in one line: kasra on the mim marks the instrument, while fatha marks time, place, the mimic verbal noun and the passive participle. Vowel the mim correctly and the whole chapter follows."
+    }
+  ]
+}

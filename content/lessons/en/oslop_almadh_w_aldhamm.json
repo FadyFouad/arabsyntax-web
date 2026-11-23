@@ -1,0 +1,538 @@
+{
+  "lesson_id": "oslop_almadh_w_aldhamm",
+  "language": "en",
+  "title": "The Styles of Praise and Blame (Al-Madh wa-l-Dhamm)",
+  "sections": [
+    {
+      "id": "s001",
+      "text": "The Styles of Praise and Blame (Al-Madh wa-l-Dhamm)"
+    },
+    {
+      "id": "s002",
+      "label_en": "Definition",
+      "text": "The style of praise (al-madh) is used to commend a thing or a person and express approval of it. The style of blame (al-dhamm) is used to condemn a thing or a person and express disapproval of it."
+    },
+    {
+      "id": "s003",
+      "items": [
+        {
+          "transliteration": "niʿma al-khuluq-u al-sidq-u",
+          "text": "— What an excellent trait truthfulness is. (praise)"
+        },
+        {
+          "transliteration": "biʾsa al-khuluq-u al-kadhib-u",
+          "text": "— What a bad trait lying is. (blame)"
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "text": "In the first example the speaker commends truthfulness with the verb 'niʿma'; in the second he condemns lying with the verb 'biʾsa'. Both styles are performative (inshaʾi) — that is, they are neither true nor false in themselves."
+    },
+    {
+      "id": "s005",
+      "text": "The Verbs of Praise and Blame"
+    },
+    {
+      "id": "s006",
+      "label_en": "Rule",
+      "text": "The verbs of praise are 'niʿma' and 'habbadha'; the verbs of blame are 'biʾsa' and 'la habbadha'. All of them are past-tense, frozen (jamid) verbs: they have no present tense and no imperative."
+    },
+    {
+      "id": "s007",
+      "headers": [
+        "Verb",
+        "Style",
+        "Example"
+      ],
+      "rows": [
+        [
+          "niʿma",
+          "Praise",
+          {
+            "transliteration": "niʿma al-sadiq-u al-kitab-u"
+          }
+        ],
+        [
+          "habbadha",
+          "Praise",
+          {
+            "transliteration": "habbadha al-sidq-u"
+          }
+        ],
+        [
+          "biʾsa",
+          "Blame",
+          {
+            "transliteration": "biʾsa al-khuluq-u al-nifaq-u"
+          }
+        ],
+        [
+          "la habbadha",
+          "Blame",
+          {
+            "transliteration": "la habbadha al-kadhib-u"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "s008",
+      "label_en": "Note",
+      "text": "'Niʿma' and 'biʾsa' are past-tense frozen verbs built on fatha. Being frozen (jamid) means they do not conjugate: one cannot say 'yanʿamu' or 'inʿam' from them — they remain in the past-tense form always."
+    },
+    {
+      "id": "s009",
+      "text": "The Three Elements of the Style"
+    },
+    {
+      "id": "s010",
+      "label_en": "Rule",
+      "text": "The style of praise or blame is built from three elements, in this order: the verb of praise or blame, then its subject (faʿil), then the specified word (al-makhsus) that is being praised or blamed."
+    },
+    {
+      "id": "s011",
+      "items": [
+        {
+          "transliteration": "niʿma al-khuluq-u al-sidq-u",
+          "text": "— What an excellent trait truthfulness is."
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "headers": [
+        "Element",
+        "Word",
+        "Iʿrab"
+      ],
+      "rows": [
+        [
+          "Verb of praise",
+          {
+            "transliteration": "niʿma"
+          },
+          "A past-tense frozen verb expressing praise, built on fatha"
+        ],
+        [
+          "Subject (faʿil)",
+          {
+            "transliteration": "al-khuluq-u"
+          },
+          "Subject in the nominative, marked by a manifest damma"
+        ],
+        [
+          "The specified (al-makhsus)",
+          {
+            "transliteration": "al-sidq-u"
+          },
+          "A delayed subject (mubtadaʾ muʾakhkhar) in the nominative; the verbal sentence before it holds the place of a fronted predicate"
+        ]
+      ]
+    },
+    {
+      "id": "s013",
+      "text": "The Four Forms of the Subject of 'Niʿma' and 'Biʾsa'"
+    },
+    {
+      "id": "s014",
+      "label_en": "Rule",
+      "text": "The subject of 'niʿma' and 'biʾsa' comes in exactly four forms, with no fifth: carrying the definite article 'al-'; annexed to a word carrying 'al-'; a concealed pronoun explained by an indefinite accusative specifier (tamyiz); or the relative nouns 'ma' and 'man'."
+    },
+    {
+      "id": "s015",
+      "items": [
+        "1 — Carrying 'al-': niʿma al-sadiq-u al-kitab-u ('What an excellent friend a book is').",
+        "2 — Annexed to a word carrying 'al-': niʿma sadiq-u al-marʾ-i al-kitab-u ('What an excellent friend of a person a book is').",
+        "3 — A concealed pronoun explained by an indefinite accusative: niʿma khuluq-an al-sidq-u ('What an excellent trait truthfulness is').",
+        "4 — The relative 'ma' or 'man': biʾsa man tusahib-u al-kadhdhab-u ('What a bad person to befriend the liar is')."
+      ]
+    },
+    {
+      "id": "s016",
+      "text": "First: The Subject Carrying the Definite Article 'Al-'"
+    },
+    {
+      "id": "s017",
+      "label_en": "Rule",
+      "text": "The subject is an explicit noun made definite by 'al-'. This is the most common of the four forms, and it is parsed as a subject in the nominative."
+    },
+    {
+      "id": "s018",
+      "items": [
+        {
+          "transliteration": "niʿma al-sadiq-u al-kitab-u",
+          "text": "— What an excellent friend a book is."
+        },
+        {
+          "transliteration": "biʾsa al-khuluq-u al-nifaq-u",
+          "text": "— What a bad trait hypocrisy is."
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "text": "'Al-sadiq' and 'al-khuluq' are both subjects in the nominative, and each carries the definite article 'al-'. 'Al-kitab' and 'al-nifaq' are the words specified for praise and for blame respectively."
+    },
+    {
+      "id": "s020",
+      "text": "Second: The Subject Annexed to a Word Carrying 'Al-'"
+    },
+    {
+      "id": "s021",
+      "label_en": "Rule",
+      "text": "The subject is an explicit noun annexed (mudaf) to a noun that carries 'al-'. It is parsed as a subject in the nominative and is itself a mudaf, and what follows it is a mudaf ilayh in the genitive."
+    },
+    {
+      "id": "s022",
+      "items": [
+        {
+          "transliteration": "niʿma sadiq-u al-marʾ-i al-kitab-u",
+          "text": "— What an excellent friend of a person a book is."
+        },
+        {
+          "transliteration": "biʾsa rafiq-u al-tariq-i al-kaslan-u",
+          "text": "— What a bad travelling companion the lazy man is."
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "text": "Allah Most High said: \"...and how excellent is the home of the righteous.\" — Quran 16:30 (Sahih International)"
+    },
+    {
+      "id": "s024",
+      "text": "In this verse 'dar-u' is the subject of 'niʿma', in the nominative marked by damma, and it is a mudaf; 'al-muttaqin-a' is the mudaf ilayh in the genitive, marked by the yaʾ because it is a sound masculine plural. The subject here is therefore annexed to a word carrying 'al-'. The word specified for praise is omitted; it is understood to be 'paradise'."
+    },
+    {
+      "id": "s025",
+      "text": "Third: The Subject as a Concealed Pronoun Explained by a Specifier"
+    },
+    {
+      "id": "s026",
+      "label_en": "Rule",
+      "text": "The subject is a necessarily concealed pronoun, understood as 'huwa' ('he/it'), and it is explained by an indefinite accusative specifier (tamyiz) that comes immediately after the verb."
+    },
+    {
+      "id": "s027",
+      "items": [
+        {
+          "transliteration": "niʿma khuluq-an al-sidq-u",
+          "text": "— What an excellent trait truthfulness is."
+        },
+        {
+          "transliteration": "biʾsa ʿamal-an al-kasal-u",
+          "text": "— What a bad deed laziness is."
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "text": "In the first example the subject of 'niʿma' is a concealed pronoun understood as 'huwa', and 'khuluqan' is an accusative specifier explaining that ambiguous pronoun, while 'al-sidq' is the word specified for praise. Note the contrast: the specifier is indefinite and accusative, whereas the specified word is definite and nominative."
+    },
+    {
+      "id": "s029",
+      "text": "Fourth: The Subject as 'Ma' or 'Man'"
+    },
+    {
+      "id": "s030",
+      "label_en": "Rule",
+      "text": "The subject may be the relative noun 'ma' or 'man'. Each is parsed as an indeclinable relative noun holding the place of a subject in the nominative, and the clause after it is the relative clause, with no place in iʿrab."
+    },
+    {
+      "id": "s031",
+      "items": [
+        {
+          "transliteration": "niʿma ma tatahalla bi-hi al-sidq-u",
+          "text": "— What an excellent thing to adorn yourself with truthfulness is."
+        },
+        {
+          "transliteration": "biʾsa man tusahib-u al-kadhdhab-u",
+          "text": "— What a bad person to befriend the liar is."
+        }
+      ]
+    },
+    {
+      "id": "s032",
+      "text": "The Specified Word (Al-Makhsus)"
+    },
+    {
+      "id": "s033",
+      "label_en": "Definition",
+      "text": "The specified word (al-makhsus bi-l-madh aw al-dhamm) is the noun upon which the praise or blame actually falls. It normally comes after the subject, and it is either definite or an indefinite noun with a qualifier."
+    },
+    {
+      "id": "s034",
+      "label_en": "Rule",
+      "text": "The specified word may be parsed in two permissible ways: as a delayed subject (mubtadaʾ muʾakhkhar) whose predicate is the verbal sentence before it; or as the predicate of an omitted subject understood as 'huwa'."
+    },
+    {
+      "id": "s035",
+      "items": [
+        {
+          "transliteration": "niʿma al-khuluq-u al-sidq-u",
+          "text": "— What an excellent trait truthfulness is."
+        }
+      ]
+    },
+    {
+      "id": "s036",
+      "text": "'Al-sidq' is a delayed subject in the nominative, marked by damma, and the sentence 'niʿma al-khuluqu' holds the place of a fronted predicate. Alternatively it may be parsed as the predicate of an omitted subject understood as 'huwa' — that is, 'it is truthfulness'."
+    },
+    {
+      "id": "s037",
+      "text": "Fronting the Specified Word Before the Verb"
+    },
+    {
+      "id": "s038",
+      "label_en": "Rule",
+      "text": "The specified word may be brought forward before the verb of praise or blame. In that case it is parsed as a subject (mubtadaʾ), and the verbal sentence after it holds the place of the predicate; it may no longer be parsed as the predicate of an omitted subject."
+    },
+    {
+      "id": "s039",
+      "items": [
+        {
+          "transliteration": "al-sidq-u niʿma al-khuluq-u",
+          "text": "— Truthfulness — what an excellent trait it is."
+        },
+        {
+          "transliteration": "al-kadhib-u biʾsa al-khuluq-u",
+          "text": "— Lying — what a bad trait it is."
+        }
+      ]
+    },
+    {
+      "id": "s040",
+      "text": "Here 'al-sidq' is a subject in the nominative, and the sentence 'niʿma al-khuluqu' holds the place of its predicate. The meaning is the same in both arrangements; the specified word is fronted only to give it prominence and emphasis."
+    },
+    {
+      "id": "s041",
+      "text": "Omitting the Specified Word"
+    },
+    {
+      "id": "s042",
+      "label_en": "Rule",
+      "text": "The specified word may be omitted when the context clearly points to it, so that what is intended is understood from what came before."
+    },
+    {
+      "id": "s043",
+      "text": "Allah Most High said: \"...an excellent servant. Indeed, he was one repeatedly turning back [to Allah].\" — Quran 38:30 (Sahih International)"
+    },
+    {
+      "id": "s044",
+      "text": "In this verse 'niʿma' is a past-tense frozen verb expressing praise, and 'al-ʿabd-u' is its subject in the nominative, carrying 'al-'. The word specified for praise is omitted; it is understood to be 'Sulayman', to whom the preceding words refer."
+    },
+    {
+      "id": "s045",
+      "text": "Why was it permissible to omit the specified word in this verse?"
+    },
+    {
+      "id": "s046",
+      "text": "It was permissible because the context pointed to it unmistakably: Sulayman (peace be upon him) had just been mentioned, so there was no need to repeat him. The Arabs omit whatever the evidence makes plain, seeking concision."
+    },
+    {
+      "id": "s047",
+      "text": "The Style of 'Habbadha' and 'La Habbadha'"
+    },
+    {
+      "id": "s048",
+      "label_en": "Definition",
+      "text": "'Habbadha' is a style of praise compounded from the verb of praise 'habba' and the demonstrative 'dha', which is its subject. When preceded by the negative 'la' it becomes a style of blame: 'la habbadha'."
+    },
+    {
+      "id": "s049",
+      "headers": [
+        "Word",
+        "Iʿrab"
+      ],
+      "rows": [
+        [
+          {
+            "transliteration": "habba"
+          },
+          "A past-tense frozen verb expressing praise, built on fatha"
+        ],
+        [
+          {
+            "transliteration": "dha"
+          },
+          "A demonstrative noun, indeclinable on sukun, holding the place of a subject in the nominative"
+        ],
+        [
+          "The specified word",
+          "A delayed subject in the nominative, the sentence before it holding the place of a fronted predicate; or the predicate of an omitted subject"
+        ]
+      ]
+    },
+    {
+      "id": "s050",
+      "items": [
+        {
+          "transliteration": "habbadha al-sidq-u",
+          "text": "— How excellent truthfulness is."
+        },
+        {
+          "transliteration": "la habbadha al-kadhib-u",
+          "text": "— How bad lying is."
+        }
+      ]
+    },
+    {
+      "id": "s051",
+      "label_en": "Note",
+      "text": "In this style 'dha' is locked into a single form — singular and masculine — no matter whether the specified word is singular, dual or plural, masculine or feminine. One does not say 'habbadhihi' or 'habba haʾulaʾi'."
+    },
+    {
+      "id": "s052",
+      "items": [
+        "— habbadha al-talib-u al-mujtahid-u ('How excellent the diligent student is').",
+        "— habbadha al-talibatan-i al-mujtahidatan-i ('How excellent the two diligent female students are').",
+        "— habbadha al-tullab-u al-mujtahidun-a ('How excellent the diligent students are')."
+      ]
+    },
+    {
+      "id": "s053",
+      "text": "Why did 'dha' not change with the specified word as it moved from singular to dual to plural in the examples above?"
+    },
+    {
+      "id": "s054",
+      "text": "Because 'dha' in the 'habbadha' style has departed from its original demonstrative function, and the whole expression has come to run like a proverb, so it is locked into one unchanging form. 'Dha' is always the subject, and the variation in number and gender appears in the specified word alone."
+    },
+    {
+      "id": "s055",
+      "text": "Annexed to the Verbs of Praise and Blame: 'Hasuna' and 'Saʾa'"
+    },
+    {
+      "id": "s056",
+      "label_en": "Note",
+      "text": "The verb 'hasuna' is annexed to the verb of praise 'niʿma', and the verb 'saʾa' is annexed to the verb of blame 'biʾsa'. They function exactly as those two do: they put the subject in the nominative and are followed by the specified word."
+    },
+    {
+      "id": "s057",
+      "items": [
+        {
+          "transliteration": "hasuna al-khuluq-u al-wafaʾ-u",
+          "text": "— What a fine trait loyalty is."
+        },
+        {
+          "transliteration": "saʾa al-khuluq-u al-ghadr-u",
+          "text": "— What an evil trait treachery is."
+        }
+      ]
+    },
+    {
+      "id": "s058",
+      "text": "Allah Most High said: \"...Wretched it is for the wrongdoers as an exchange.\" — Quran 18:50 (Sahih International)"
+    },
+    {
+      "id": "s059",
+      "text": "In this verse 'biʾsa' is a past-tense frozen verb expressing blame; its subject is a concealed pronoun understood as 'huwa'; and 'badal-an' is an accusative specifier explaining that concealed pronoun. The word specified for blame is omitted; it is understood to be 'Iblis and his offspring'."
+    },
+    {
+      "id": "s060",
+      "text": "A Summary Table of the Two Styles"
+    },
+    {
+      "id": "s061",
+      "headers": [
+        "Example",
+        "Verb",
+        "Subject",
+        "Specified word"
+      ],
+      "rows": [
+        [
+          {
+            "transliteration": "niʿma al-khuluq-u al-sidq-u"
+          },
+          "niʿma",
+          "al-khuluqu (carries 'al-')",
+          "al-sidqu"
+        ],
+        [
+          {
+            "transliteration": "niʿma sadiq-u al-marʾ-i al-kitab-u"
+          },
+          "niʿma",
+          "sadiqu (annexed to a word with 'al-')",
+          "al-kitabu"
+        ],
+        [
+          {
+            "transliteration": "niʿma khuluq-an al-sidq-u"
+          },
+          "niʿma",
+          "concealed pronoun 'huwa', explained by 'khuluqan'",
+          "al-sidqu"
+        ],
+        [
+          {
+            "transliteration": "biʾsa man tusahib-u al-kadhdhab-u"
+          },
+          "biʾsa",
+          "man (relative noun)",
+          "al-kadhdhabu"
+        ],
+        [
+          {
+            "transliteration": "habbadha al-sidq-u"
+          },
+          "habba",
+          "dha (demonstrative)",
+          "al-sidqu"
+        ],
+        [
+          {
+            "transliteration": "la habbadha al-kadhib-u"
+          },
+          "habba (preceded by the negative 'la')",
+          "dha (demonstrative)",
+          "al-kadhibu"
+        ]
+      ]
+    },
+    {
+      "id": "s062",
+      "text": "A Worked Iʿrab"
+    },
+    {
+      "id": "s063",
+      "items": [
+        {
+          "transliteration": "niʿma al-khuluq-u al-sidq-u",
+          "text": "— What an excellent trait truthfulness is."
+        }
+      ]
+    },
+    {
+      "id": "s064",
+      "text": "niʿma: a past-tense frozen verb expressing praise, built on fatha. al-khuluqu: its subject in the nominative, marked by a manifest damma. al-sidqu: the word specified for praise — a delayed subject in the nominative, marked by a manifest damma — and the sentence 'niʿma al-khuluqu' holds the place of a fronted predicate."
+    },
+    {
+      "id": "s065",
+      "items": [
+        {
+          "transliteration": "habbadha al-ʿilm-u",
+          "text": "— How excellent knowledge is."
+        }
+      ]
+    },
+    {
+      "id": "s066",
+      "text": "habba: a past-tense frozen verb expressing praise, built on fatha. dha: a demonstrative noun, indeclinable on sukun, holding the place of a subject in the nominative. al-ʿilmu: the word specified for praise — a delayed subject in the nominative, marked by a manifest damma — and the sentence 'habbadha' holds the place of a fronted predicate."
+    },
+    {
+      "id": "s067",
+      "label_en": "Warning",
+      "text": "Distinguish 'niʿma', the verb of praise built on fatha, from 'naʿam', the particle of assent, which has no place in iʿrab. Distinguish too between the specifier and the specified word: the specifier is indefinite and accusative and comes immediately after the verb to explain the concealed subject, whereas the specified word is definite and nominative and comes at the end of the construction."
+    },
+    {
+      "id": "s068",
+      "text": "Allah Most High said: \"...Wretched is the name of disobedience after [one's] faith.\" — Quran 49:11 (Sahih International)"
+    },
+    {
+      "id": "s069",
+      "text": "In this verse 'biʾsa' is a past-tense frozen verb expressing blame, built on fatha; 'al-ismu' is its subject in the nominative, marked by damma, carrying 'al-'; and 'al-fusuqu' is the word specified for blame — a delayed subject in the nominative — while the sentence 'biʾsa al-ismu' holds the place of a fronted predicate."
+    }
+  ]
+}
